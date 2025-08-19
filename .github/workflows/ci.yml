@@ -214,9 +214,4 @@ jobs:
           draft: false
           prerelease: false
 
-# Cache dependencies for faster builds
-cache:
-  paths:
-    - node_modules/
-    - .next/
-    - .cache/
+
