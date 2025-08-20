@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { query } from '../../../../../lib/database';
-import { renderToBuffer, Document, Page, Text, View} from '@react-pdf/renderer';
-import { ExecutiveMedicalReportPDF } from '../../../../../components/pdf/ExecutiveMedicalReportPDF';
+import { query } from '@/lib/database';
+import { renderToBuffer } from '@react-pdf/renderer';
+import { ExecutiveMedicalReportPDF } from '@/components/pdf/ExecutiveMedicalReportPDF';
 import React from 'react';
 
 export async function GET(request: Request, { params }: { params: Promise<{ reportId: string }> }) {
@@ -245,28 +245,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ repo
         disclaimer_text: 'Thank you for trusting us with your medical. It is important to note that there is no sign, symptom, or result from a special investigation that can conclusively say a person is free from any disease and is completely healthy. We make assessments and decisions based on the highest quality information we have at hand. The insidious nature of some diseases may still evade detection. Please proactively report any changes in your health and wellbeing that occur after your medical is completed. Regular, proactive screening facilitates earlier detection and better prevention of disease through early intervention and lifestyle change.\n\nTo book with our team of doctors or engage our health coach to help facilitate healthy change, click here.\n\n• Merchant Place: 011 685 5021 | staywell@healthwithheart.co.za\n• BankCity: 087 311 5011 | bewell@healthwithheart.co.za\n• Fairland: 011 632 4664 | feelwell@healthwithheart.co.za\n• WhatsApp: 079 262 8749\n\nWishing you good health, the greatest asset you can invest in.\n\nHealth with Heart Medical Team\nwww.healthwithheart.co.za'
       }
     };
+
     // Generate PDF
- const pdfBuffer = await renderToBuffer(
-   React.createElement(
-     Document,
-     {},
-     React.createElement(
-       Page,
-       {},
-       React.createElement(
-         View,
-         {},
-         React.createElement(Text, {}, 'Medical Report'),
-         React.createElement(
-           Text,
-           {},
-           `Employee: ${report.employee_first_name} ${report.employee_last_name}`
-         ),
-         React.createElement(Text, {}, `Report ID: ${report.id}`)
-       )
-     )
-   )
- );
+    const pdfBuffer = await renderToBuffer(React.createElement(ExecutiveMedicalReportPDF, { reportData: comprehensiveReport }));
 
     // Generate filename
     const fileName = `Medical_Report_${report.employee_first_name || 'Unknown'}_${report.employee_last_name || 'Employee'}_${new Date(report.date_created).toISOString().split('T')[0]}.pdf`;

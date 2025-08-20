@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { query } from '../../../lib/database';
-import { MedicalReport } from '../../../types';
+import { query } from '@/lib/database';
+import { MedicalReport } from '@/types';
 
 export async function GET(request: NextRequest) {
   try {
@@ -75,7 +75,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const result = await query(reportsQuery, [limit, offset]);
-
+    
     const reports: any[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: new Date(row.date_created),
@@ -120,7 +120,7 @@ export async function GET(request: NextRequest) {
       doctor_surname: row.doctor_surname,
       nurse_name: row.nurse_name,
       nurse_surname: row.nurse_surname,
-      workplace_name: row.workplace_name,
+      workplace_name: row.workplace_name
     }));
 
     return NextResponse.json({
@@ -131,9 +131,10 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1,
-      },
+        hasPreviousPage: page > 1
+      }
     });
+
   } catch (error) {
     console.error('Error fetching medical reports:', error);
     return NextResponse.json(

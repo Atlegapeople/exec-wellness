@@ -1,14 +1,6 @@
 import { NextResponse } from 'next/server';
-import { query } from '../../../../lib/database';
-
-interface WorkplaceHealth {
-  organisation_id: string;
-  department: string;
-  total_employees: number;
-  medical_reports: number;
-  fit_for_work: number;
-  not_fit: number;
-}
+import { query } from '@/lib/database';
+import { WorkplaceHealth } from '@/types';
 
 export async function GET() {
   try {

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { query } from '../../../../lib/database';
-import { DashboardStats } from '../../../../types';
+import { query } from '@/lib/database';
+import { DashboardStats } from '@/types';
 
 export async function GET() {
   try {
