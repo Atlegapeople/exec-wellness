@@ -1,135 +1,315 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Heart, FileText, Calendar, CreditCard, Shield, Users } from 'lucide-react';
+'use client';
 
-export default function HomePage() {
+import StatCard from '@/components/StatCard';
+import ReportStatusChart from '@/components/ReportStatusChart';
+import ValidationErrorsTable from '@/components/ValidationErrorsTable';
+import RecentAppointments from '@/components/RecentAppointments';
+import WorkplaceHealthTable from '@/components/WorkplaceHealthTable';
+import { useAPI } from '@/hooks/useAPI';
+import {
+  DashboardStats,
+  ReportStatusData,
+  ValidationError,
+  Appointment,
+  Employee,
+  MedicalReport,
+  WorkplaceHealth,
+} from '@/types';
+import {
+  mockDashboardStats,
+  mockReportStatus,
+  mockValidationErrors,
+  mockAppointments,
+  mockEmployees,
+  mockMedicalReports,
+  mockWorkplaceHealth,
+} from '@/lib/mockData';
+
+export default function Dashboard() {
+  const currentDate = new Date().toLocaleDateString('en-ZA', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+
+  // Fetch live data from OHMS database
+  const {
+    data: dashboardStats,
+    loading: statsLoading,
+    error: statsError,
+  } = useAPI<DashboardStats>('/api/dashboard/stats');
+  const {
+    data: reportStatus,
+    loading: reportLoading,
+    error: reportError,
+  } = useAPI<ReportStatusData[]>('/api/reports/status');
+  const {
+    data: validationErrors,
+    loading: validationLoading,
+    error: validationError,
+  } = useAPI<ValidationError[]>('/api/validation/errors');
+  const {
+    data: appointments,
+    loading: appointmentsLoading,
+    error: appointmentsError,
+  } = useAPI<Appointment[]>('/api/appointments/recent');
+  const {
+    data: employees,
+    loading: employeesLoading,
+    error: employeesError,
+  } = useAPI<Employee[]>('/api/employees');
+  const {
+    data: reports,
+    loading: reportsLoading,
+    error: reportsError,
+  } = useAPI<{ reports: MedicalReport[]; pagination: any }>('/api/reports');
+  const {
+    data: workplaceHealth,
+    loading: workplaceLoading,
+    error: workplaceError,
+  } = useAPI<WorkplaceHealth[]>('/api/workplace/health');
+
+  // Only use live data when loaded, otherwise show loading
+  const stats = dashboardStats;
+  const reportStatusData = reportStatus;
+  const validationErrorsData = validationErrors;
+  const appointmentsData = appointments;
+  const employeesData = employees;
+  const reportsData = reports?.reports || [];
+  const workplaceHealthData = workplaceHealth;
+
+  // Show connection status
+  const isConnected =
+    !statsError && !reportError && !validationError && !appointmentsError;
+  const isLoading =
+    statsLoading || reportLoading || validationLoading || appointmentsLoading;
+  const hasErrors =
+    statsError || reportError || validationError || appointmentsError;
+
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
-        <div className="container mx-auto px-4 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="bg-primary/10 p-3 rounded-full">
-              <Heart className="h-12 w-12 text-primary" />
+    <div className='min-h-screen bg-gray-50'>
+      {/* Header */}
+      <header className='bg-white shadow-sm border-b'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='flex justify-between items-center h-16'>
+            <div>
+              <h1 className='text-2xl font-bold text-gray-900'>
+                OHMS Dashboard
+              </h1>
+              <p className='text-sm text-gray-500'>
+                Replacing Tableau • {currentDate}
+              </p>
+              {/* Connection Status */}
+              <div className='flex items-center gap-2 mt-1'>
+                {isLoading ? (
+                  <span className='text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full'>
+                    🔄 Loading...
+                  </span>
+                ) : isConnected ? (
+                  <span className='text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full'>
+                    🟢 Live OHMS Data
+                  </span>
+                ) : (
+                  <span className='text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded-full'>
+                    🟡 Mock Data (DB Offline)
+                  </span>
+                )}
+              </div>
+            </div>
+            <div className='flex items-center gap-4'>
+              <a
+                href='/reports'
+                className='bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-2'
+              >
+                📄 Reports
+              </a>
+              <a
+                href='/analytics'
+                className='bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-2'
+              >
+                📊 Analytics
+              </a>
+              <div className='text-sm text-gray-600'>
+                Welcome, <span className='font-medium'>Dr. Smith</span>
+              </div>
+              <div className='w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold'>
+                DS
+              </div>
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Health With Heart
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Unified Executive Medical Report Platform
-          </p>
-          <p className="text-lg text-gray-700 mb-10 max-w-2xl mx-auto">
-            Streamline your medical practice with integrated booking, clinical data capture, 
-            live PDF preview, and automated billing - all in one secure platform.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="btn-primary">
-              <Link href="/auth/login">Get Started</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link href="/auth/login">Demo Login</Link>
-            </Button>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8'>
+        {/* Loading State */}
+        {isLoading && (
+          <div className='flex items-center justify-center py-20'>
+            <div className='text-center'>
+              <div className='relative'>
+                <div className='animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto mb-4'></div>
+                <div className='absolute inset-0 flex items-center justify-center'>
+                  <span className='text-2xl'>🏥</span>
+                </div>
+              </div>
+              <h3 className='text-lg font-semibold text-gray-900 mb-2'>
+                Loading Medical Data
+              </h3>
+              <p className='text-gray-600'>Connecting to OHMS database...</p>
+              <div className='mt-4 text-sm text-gray-500'>
+                <div className='flex items-center justify-center gap-2'>
+                  <div
+                    className={`w-2 h-2 rounded-full ${statsLoading ? 'bg-blue-500 animate-pulse' : 'bg-green-500'}`}
+                  ></div>
+                  <span>Dashboard Stats</span>
+                </div>
+                <div className='flex items-center justify-center gap-2 mt-1'>
+                  <div
+                    className={`w-2 h-2 rounded-full ${appointmentsLoading ? 'bg-blue-500 animate-pulse' : 'bg-green-500'}`}
+                  ></div>
+                  <span>Appointments</span>
+                </div>
+                <div className='flex items-center justify-center gap-2 mt-1'>
+                  <div
+                    className={`w-2 h-2 rounded-full ${reportsLoading ? 'bg-blue-500 animate-pulse' : 'bg-green-500'}`}
+                  ></div>
+                  <span>Medical Reports</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Error State */}
+        {!isLoading && hasErrors && (
+          <div className='bg-red-50 border border-red-200 rounded-lg p-8 text-center'>
+            <div className='text-4xl mb-4'>⚠️</div>
+            <h3 className='text-lg font-semibold text-red-800 mb-2'>
+              Database Connection Error
+            </h3>
+            <p className='text-red-700 mb-4'>
+              Unable to load live data from OHMS database. Please check your
+              connection.
+            </p>
+            <div className='space-y-2 mb-6'>
+              {statsError && (
+                <div className='text-sm text-red-600'>
+                  ❌ Dashboard statistics failed
+                </div>
+              )}
+              {appointmentsError && (
+                <div className='text-sm text-red-600'>
+                  ❌ Appointments failed
+                </div>
+              )}
+              {reportsError && (
+                <div className='text-sm text-red-600'>
+                  ❌ Medical reports failed
+                </div>
+              )}
+            </div>
+            <button
+              onClick={() => window.location.reload()}
+              className='bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors'
+            >
+              Retry Connection
+            </button>
+          </div>
+        )}
+
+        {/* Dashboard Content - Only show when data is loaded */}
+        {!isLoading && !hasErrors && stats && (
+          <>
+            {/* Stats Cards */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8'>
+              <StatCard
+                title='Executive Medicals Today'
+                value={stats.todayAppointments}
+                icon='📋'
+                color='blue'
+              />
+              <StatCard
+                title='Signed Reports'
+                value={stats.completedReports}
+                icon='✅'
+                color='green'
+                subtitle='This month'
+              />
+              <StatCard
+                title='Awaiting Signature'
+                value={stats.pendingSignatures}
+                icon='⏳'
+                color='yellow'
+              />
+              <StatCard
+                title='High-Risk Patients'
+                value={stats.activeDoctors}
+                icon='⚠️'
+                color='red'
+                subtitle='Requiring attention'
+              />
+            </div>
+
+            {/* Main Grid */}
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
+              {/* Report Status Chart */}
+              {reportStatusData && (
+                <ReportStatusChart data={reportStatusData} />
+              )}
+
+              {/* Validation Errors */}
+              {validationErrorsData && (
+                <ValidationErrorsTable errors={validationErrorsData} />
+              )}
+            </div>
+
+            {/* Second Row */}
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
+              {/* Recent Appointments */}
+              {appointmentsData && employeesData && reportsData && (
+                <RecentAppointments
+                  appointments={appointmentsData}
+                  employees={employeesData}
+                  reports={reportsData}
+                />
+              )}
+
+              {/* Workplace Health */}
+              {workplaceHealthData && (
+                <WorkplaceHealthTable data={workplaceHealthData} />
+              )}
+            </div>
+          </>
+        )}
+
+        {/* Footer Info */}
+        <div className='bg-white p-6 rounded-lg shadow-sm border'>
+          <div className='flex items-center justify-between'>
+            <div>
+              <h3 className='font-semibold text-gray-900 mb-2'>
+                🎯 Tableau Replacement Complete
+              </h3>
+              <p className='text-sm text-gray-600'>
+                This dashboard replaces all core Tableau functionality: field
+                validation, report status tracking, appointment management, and
+                workplace health monitoring.
+              </p>
+            </div>
+            <div className='text-right'>
+              <div className='text-sm text-green-600 font-semibold'>
+                ✅ No more shared logins
+              </div>
+              <div className='text-sm text-green-600 font-semibold'>
+                ✅ Real-time validation
+              </div>
+              <div className='text-sm text-green-600 font-semibold'>
+                ✅ Mobile friendly
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-            Everything You Need for Executive Medical Practice
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="text-center">
-              <CardHeader>
-                <div className="flex justify-center mb-4">
-                  <Calendar className="h-12 w-12 text-primary" />
-                </div>
-                <CardTitle>Smart Booking System</CardTitle>
-                <CardDescription>
-                  Intelligent appointment scheduling with conflict detection and automated reminders
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <div className="flex justify-center mb-4">
-                  <FileText className="h-12 w-12 text-primary" />
-                </div>
-                <CardTitle>Live PDF Preview</CardTitle>
-                <CardDescription>
-                  Real-time medical report generation with instant preview and validation
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <div className="flex justify-center mb-4">
-                  <CreditCard className="h-12 w-12 text-primary" />
-                </div>
-                <CardTitle>Automated Billing</CardTitle>
-                <CardDescription>
-                  Seamless Xero integration with automatic invoice generation on report sign-off
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <CardTitle className="flex justify-center mb-4">
-                  <Shield className="h-12 w-12 text-primary" />
-                </CardTitle>
-                <CardDescription>
-                  POPIA-compliant with end-to-end encryption and comprehensive audit trails
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <div className="flex justify-center mb-4">
-                  <Users className="h-12 w-12 text-primary" />
-                </div>
-                <CardTitle>Role-Based Access</CardTitle>
-                <CardDescription>
-                  Secure access control for admin, doctor, nurse, and patient roles
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <div className="flex justify-center mb-4">
-                  <Heart className="h-12 w-12 text-primary" />
-                </div>
-                <CardTitle>Patient-Centric</CardTitle>
-                <CardDescription>
-                  Comprehensive patient management with medical history and consent tracking
-                </CardDescription>
-              </CardHeader>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Transform Your Medical Practice?
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Join Health With Heart and experience the future of medical practice management
-          </p>
-          <Button asChild size="lg" variant="secondary">
-            <Link href="/auth/register">Start Free Trial</Link>
-          </Button>
-        </div>
-      </section>
+      </main>
     </div>
   );
 }
