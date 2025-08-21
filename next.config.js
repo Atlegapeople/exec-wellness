@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
+
   },
   images: {
     domains: ['localhost', 'supabase.co'],
@@ -66,8 +66,7 @@ const nextConfig = {
 
     return config;
   },
-  // Enable SWC minification
-  swcMinify: true,
+
   // Enable compression
   compress: true,
   // Enable powered by header removal
