@@ -13,6 +13,7 @@ import {
   Filler,
 } from 'chart.js';
 import { Line, Doughnut } from 'react-chartjs-2';
+import { BarChart3, CheckCircle, TrendingUp, Users } from 'lucide-react';
 
 ChartJS.register(
   CategoryScale,
@@ -204,16 +205,19 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
 
         {/* Key Insights */}
         <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <h3 className="text-lg font-semibold mb-4">📊 Key Medical Insights</h3>
+          <div className="flex items-center gap-2 mb-4">
+            <BarChart3 className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
+            <h3 className="text-lg font-semibold">Key Medical Insights</h3>
+          </div>
           
           {data.trends.length > 0 && (
             <div className="space-y-4">
               <div className="p-4 bg-green-50 rounded-lg border border-green-200">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-green-600 text-xl">✅</span>
+                  <CheckCircle className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
                   <h4 className="font-semibold text-green-800">Current Fitness Rate</h4>
                 </div>
-                <p className="text-2xl font-bold text-green-600">
+                <p className="text-2xl font-bold" style={{color: 'var(--teal-600)'}}>                
                   {data.trends[0]?.fit_percentage || 0}%
                 </p>
                 <p className="text-sm text-green-700">
@@ -223,10 +227,10 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
 
               <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-blue-600 text-xl">📈</span>
+                  <TrendingUp className="h-5 w-5" style={{color: 'var(--teal-500)'}} />
                   <h4 className="font-semibold text-blue-800">Monthly Volume</h4>
                 </div>
-                <p className="text-2xl font-bold text-blue-600">
+                <p className="text-2xl font-bold" style={{color: 'var(--teal-500)'}}>                
                   {data.trends[0]?.total_reports || 0}
                 </p>
                 <p className="text-sm text-blue-700">
@@ -237,7 +241,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
               {data.ageGroups.length > 0 && (
                 <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-purple-600 text-xl">👥</span>
+                    <Users className="h-5 w-5" style={{color: 'var(--teal-700)'}} />
                     <h4 className="font-semibold text-purple-800">Highest Risk Group</h4>
                   </div>
                   {(() => {
@@ -246,7 +250,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
                     );
                     return (
                       <>
-                        <p className="text-2xl font-bold text-purple-600">
+                        <p className="text-2xl font-bold" style={{color: 'var(--teal-700)'}}>
                           {lowestFitRate.age_group}
                         </p>
                         <p className="text-sm text-purple-700">
@@ -265,8 +269,8 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
             <div className="mt-6">
               <h4 className="font-semibold mb-3">Age Group Breakdown</h4>
               <div className="space-y-2">
-                {data.ageGroups.map((group, index) => (
-                  <div key={index} className="flex justify-between items-center p-2 bg-gray-50 rounded">
+                {data.ageGroups.map((group) => (
+                  <div key={group.age_group} className="flex justify-between items-center p-2 bg-gray-50 rounded">
                     <span className="font-medium">{group.age_group}</span>
                     <div className="text-right">
                       <div className="font-semibold text-green-600">{group.fit_percentage}%</div>

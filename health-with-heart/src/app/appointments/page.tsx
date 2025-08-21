@@ -1,0 +1,659 @@
+'use client';
+
+import { useState, useEffect, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Appointment } from '@/types';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import DashboardLayout from '@/components/DashboardLayout';
+import { 
+  Search, 
+  Calendar, 
+  Clock, 
+  User, 
+  FileText, 
+  MapPin,
+  X,
+  ChevronLeft,
+  ChevronRight,
+  ChevronsLeft,
+  ChevronsRight,
+  CalendarDays
+} from 'lucide-react';
+
+interface AppointmentWithEmployee extends Appointment {
+  employee_name?: string;
+  employee_surname?: string;
+  employee_email?: string;
+  created_by_name?: string;
+  updated_by_name?: string;
+}
+
+interface PaginationInfo {
+  page: number;
+  limit: number;
+  total: number;
+  totalPages: number;
+  hasNextPage: boolean;
+  hasPreviousPage: boolean;
+}
+
+export default function AppointmentsPage() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  
+  const [allAppointments, setAllAppointments] = useState<AppointmentWithEmployee[]>([]);
+  const [filteredAppointments, setFilteredAppointments] = useState<AppointmentWithEmployee[]>([]);
+  const [displayedAppointments, setDisplayedAppointments] = useState<AppointmentWithEmployee[]>([]);
+  const [pagination, setPagination] = useState<PaginationInfo>({
+    page: parseInt(searchParams.get('page') || '1'),
+    limit: 29,
+    total: 0,
+    totalPages: 0,
+    hasNextPage: false,
+    hasPreviousPage: false
+  });
+  const [loading, setLoading] = useState(true);
+  const [pageTransitioning, setPageTransitioning] = useState(false);
+  const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+  const [selectedAppointment, setSelectedAppointment] = useState<AppointmentWithEmployee | null>(null);
+  const [leftWidth, setLeftWidth] = useState(40);
+  const [isResizing, setIsResizing] = useState(false);
+
+  // Fetch all appointments data once
+  const fetchAllAppointments = async () => {
+    try {
+      setLoading(true);
+      const url = new URL('/api/appointments', window.location.origin);
+      url.searchParams.set('page', '1');
+      url.searchParams.set('limit', '10000'); // Get all appointments
+      
+      const response = await fetch(url.toString());
+      const data = await response.json();
+      
+      setAllAppointments(data.appointments || []);
+    } catch (error) {
+      console.error('Error fetching appointments:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Client-side filtering
+  const filterAppointments = useCallback((appointments: AppointmentWithEmployee[], search: string) => {
+    if (!search) return appointments;
+    
+    return appointments.filter(appointment => {
+      const fullName = `${appointment.employee_name} ${appointment.employee_surname}`.toLowerCase();
+      const searchLower = search.toLowerCase();
+      
+      return (
+        fullName.includes(searchLower) ||
+        appointment.type?.toLowerCase().includes(searchLower) ||
+        appointment.notes?.toLowerCase().includes(searchLower) ||
+        appointment.employee_email?.toLowerCase().includes(searchLower)
+      );
+    });
+  }, []);
+
+  // Client-side pagination
+  const paginateAppointments = useCallback((appointments: AppointmentWithEmployee[], page: number, limit: number) => {
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedData = appointments.slice(startIndex, endIndex);
+    
+    const total = appointments.length;
+    const totalPages = Math.ceil(total / limit);
+    
+    setPagination({
+      page,
+      limit,
+      total,
+      totalPages,
+      hasNextPage: page < totalPages,
+      hasPreviousPage: page > 1
+    });
+    
+    return paginatedData;
+  }, []);
+
+  // Smooth page transition
+  const transitionToPage = useCallback(async (newPage: number) => {
+    setPageTransitioning(true);
+    
+    // Small delay for smooth transition
+    await new Promise(resolve => setTimeout(resolve, 150));
+    
+    const paginated = paginateAppointments(filteredAppointments, newPage, pagination.limit);
+    setDisplayedAppointments(paginated);
+    
+    setPageTransitioning(false);
+  }, [filteredAppointments, pagination.limit, paginateAppointments]);
+
+  // Initial load
+  useEffect(() => {
+    fetchAllAppointments();
+  }, []);
+
+  // Handle filtering when search term or all appointments change
+  useEffect(() => {
+    const filtered = filterAppointments(allAppointments, searchTerm);
+    setFilteredAppointments(filtered);
+    
+    // Reset to page 1 when filtering changes
+    const page = searchTerm ? 1 : parseInt(searchParams.get('page') || '1');
+    const paginated = paginateAppointments(filtered, page, pagination.limit);
+    setDisplayedAppointments(paginated);
+  }, [allAppointments, searchTerm, filterAppointments, paginateAppointments, pagination.limit, searchParams]);
+
+  // Handle page changes from URL
+  useEffect(() => {
+    const page = parseInt(searchParams.get('page') || '1');
+    if (page !== pagination.page && filteredAppointments.length > 0) {
+      transitionToPage(page);
+    }
+  }, [searchParams, pagination.page, filteredAppointments.length, transitionToPage]);
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    updateURL(1, searchTerm);
+  };
+
+  const updateURL = useCallback((page: number, search: string) => {
+    const params = new URLSearchParams();
+    if (page > 1) params.set('page', page.toString());
+    if (search) params.set('search', search);
+    
+    const newURL = `/appointments${params.toString() ? `?${params.toString()}` : ''}`;
+    router.replace(newURL, { scroll: false });
+  }, [router]);
+
+  const handlePageChange = (newPage: number) => {
+    updateURL(newPage, searchTerm);
+    transitionToPage(newPage);
+  };
+
+  const handleAppointmentClick = (appointment: AppointmentWithEmployee) => {
+    setSelectedAppointment(appointment);
+  };
+
+  const formatDate = (date: Date | string | undefined) => {
+    if (!date) return 'N/A';
+    return new Date(date).toLocaleDateString();
+  };
+
+  const formatTime = (time: string | undefined) => {
+    if (!time) return 'N/A';
+    return time;
+  };
+
+  const formatDateTime = (date: Date | string | undefined) => {
+    if (!date) return 'N/A';
+    return new Date(date).toLocaleString();
+  };
+
+  const handleMouseDown = useCallback((e: React.MouseEvent) => {
+    setIsResizing(true);
+    e.preventDefault();
+  }, []);
+
+  const handleMouseMove = useCallback((e: MouseEvent) => {
+    if (!isResizing) return;
+    
+    const container = document.querySelector('.appointments-container');
+    if (!container) return;
+    
+    const containerRect = container.getBoundingClientRect();
+    const newLeftWidth = ((e.clientX - containerRect.left) / containerRect.width) * 100;
+    
+    // Constrain between 20% and 80%
+    const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
+    setLeftWidth(constrainedWidth);
+  }, [isResizing]);
+
+  const handleMouseUp = useCallback(() => {
+    setIsResizing(false);
+  }, []);
+
+  useEffect(() => {
+    if (isResizing) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+      
+      return () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+      };
+    }
+  }, [isResizing, handleMouseMove, handleMouseUp]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <Card className="w-96">
+          <CardContent className="flex items-center justify-center py-12">
+            <div className="text-center space-y-4">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+              <p className="text-muted-foreground">Loading appointments...</p>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
+
+  return (
+    <DashboardLayout>
+      <div className="px-8 sm:px-12 lg:px-16 xl:px-24 py-6">
+        <div className="appointments-container flex gap-1 min-h-[600px]">
+          
+          {/* Left Panel - Appointments Table */}
+          <div 
+            className="space-y-4 animate-slide-up"
+            style={{ 
+              width: selectedAppointment ? `${leftWidth}%` : '100%',
+              maxWidth: selectedAppointment ? `${leftWidth}%` : '100%',
+              paddingRight: selectedAppointment ? '12px' : '0'
+            }}
+          >
+            {/* Search */}
+            <Card className="glass-effect">
+              <CardContent className="p-4">
+                <form onSubmit={handleSearch} className="flex gap-4">
+                  <div className="flex-1 relative">
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                    <Input
+                      type="text"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      placeholder="Search by type, employee name, notes..."
+                      className="pl-9"
+                    />
+                  </div>
+                  <Button type="submit" className="hover-lift">
+                    Search
+                  </Button>
+                  {searchTerm && (
+                    <Button
+                      type="button"
+                      variant="outline"
+                      onClick={() => {
+                        setSearchTerm('');
+                        updateURL(1, '');
+                      }}
+                      className="hover-lift"
+                    >
+                      Clear
+                    </Button>
+                  )}
+                </form>
+              </CardContent>
+            </Card>
+
+            {/* Appointments Table */}
+            <Card className="hover-lift">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-2xl medical-heading">
+                  <CalendarDays className="h-6 w-6" />
+                  Appointments ({pagination.total})
+                </CardTitle>
+                <CardDescription>
+                  Medical appointment scheduling and records
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {displayedAppointments.length === 0 ? (
+                  <div className="text-center py-12">
+                    <CalendarDays className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                    <h3 className="text-lg font-medium text-foreground mb-2">No appointments found</h3>
+                    <p className="text-muted-foreground">
+                      {searchTerm ? 'Try adjusting your search criteria.' : 'No appointments available.'}
+                    </p>
+                  </div>
+                ) : (
+                  <div className="max-h-[500px] overflow-auto scrollbar-premium">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Employee</TableHead>
+                          <TableHead>Type</TableHead>
+                          <TableHead>Date</TableHead>
+                          <TableHead>Time</TableHead>
+                          <TableHead>Status</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody className={`table-transition ${pageTransitioning ? 'transitioning' : ''}`}>
+                        {displayedAppointments.map((appointment) => (
+                          <TableRow 
+                            key={appointment.id} 
+                            className={`cursor-pointer transition-colors hover:bg-muted/50 ${
+                              selectedAppointment?.id === appointment.id ? 'bg-muted border-l-4 border-l-primary' : ''
+                            }`}
+                            onClick={() => handleAppointmentClick(appointment)}
+                          >
+                            <TableCell>
+                              <div>
+                                <div className="font-medium">
+                                  {appointment.employee_name} {appointment.employee_surname}
+                                </div>
+                                <div className="text-sm text-muted-foreground">{appointment.employee_email}</div>
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <Badge variant="outline" className="text-xs">
+                                {appointment.type || 'N/A'}
+                              </Badge>
+                            </TableCell>
+                            <TableCell className="text-sm">{formatDate(appointment.start_date)}</TableCell>
+                            <TableCell className="text-sm">
+                              {formatTime(appointment.start_time)} - {formatTime(appointment.end_time)}
+                            </TableCell>
+                            <TableCell>
+                              <Badge variant={appointment.report_id ? "default" : "secondary"}>
+                                {appointment.report_id ? 'With Report' : 'Scheduled'}
+                              </Badge>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </div>
+                )}
+
+                {/* Pagination */}
+                {pagination.totalPages > 1 && (
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t gap-2">
+                    <div className="text-sm text-muted-foreground">
+                      Showing {((pagination.page - 1) * pagination.limit) + 1} to{' '}
+                      {Math.min(pagination.page * pagination.limit, pagination.total)} of{' '}
+                      {pagination.total} results
+                    </div>
+                    <div className="flex items-center space-x-1 flex-wrap">
+                      {/* First Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(1)}
+                        disabled={pagination.page === 1}
+                        className="hover-lift"
+                        title="Go to first page"
+                      >
+                        <ChevronsLeft className="h-4 w-4" />
+                        <span className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}>First</span>
+                      </Button>
+                      
+                      {/* Previous Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.page - 1)}
+                        disabled={!pagination.hasPreviousPage}
+                        className="hover-lift"
+                        title="Go to previous page"
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                        <span className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}>Previous</span>
+                      </Button>
+                      
+                      {/* Page Numbers */}
+                      {Array.from({ length: Math.min(selectedAppointment && leftWidth < 50 ? 3 : 5, pagination.totalPages) }, (_, i) => {
+                        const startPage = Math.max(1, pagination.page - (selectedAppointment && leftWidth < 50 ? 1 : 2));
+                        const page = startPage + i;
+                        if (page > pagination.totalPages) return null;
+                        
+                        return (
+                          <Button
+                            key={`appointments-page-${page}`}
+                            variant={page === pagination.page ? "default" : "outline"}
+                            size="sm"
+                            onClick={() => handlePageChange(page)}
+                            className="hover-lift min-w-[40px]"
+                            title={`Go to page ${page}`}
+                          >
+                            {page}
+                          </Button>
+                        );
+                      })}
+                      
+                      {/* Next Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.page + 1)}
+                        disabled={!pagination.hasNextPage}
+                        className="hover-lift"
+                        title="Go to next page"
+                      >
+                        <span className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}>Next</span>
+                        <ChevronRight className="h-4 w-4" />
+                      </Button>
+                      
+                      {/* Last Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.totalPages)}
+                        disabled={pagination.page === pagination.totalPages}
+                        className="hover-lift"
+                        title="Go to last page"
+                      >
+                        <span className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}>Last</span>
+                        <ChevronsRight className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Resize Handle */}
+          {selectedAppointment && (
+            <div 
+              className="w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0"
+              onMouseDown={handleMouseDown}
+              style={{ cursor: isResizing ? 'col-resize' : 'col-resize' }}
+            />
+          )}
+
+          {/* Right Panel - Appointment Details */}
+          {selectedAppointment && (
+            <div 
+              className="space-y-4 animate-slide-up"
+              style={{ 
+                width: `${100 - leftWidth}%`,
+                maxWidth: `${100 - leftWidth}%`,
+                paddingLeft: '12px',
+                overflow: 'visible'
+              }}
+            >
+              <Card className="glass-effect max-h-screen overflow-y-auto scrollbar-premium">
+                <CardHeader className="pb-3">
+                  <div className="flex justify-between items-start">
+                    <div className="space-y-1">
+                      <CardTitle className="text-2xl medical-heading">
+                        {selectedAppointment.type}
+                      </CardTitle>
+                      <CardDescription className="flex items-center gap-2">
+                        <Badge variant="outline">{selectedAppointment.employee_name} {selectedAppointment.employee_surname}</Badge>
+                        <Badge variant={selectedAppointment.report_id ? "default" : "secondary"}>
+                          {selectedAppointment.report_id ? 'With Report' : 'Scheduled'}
+                        </Badge>
+                      </CardDescription>
+                    </div>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => setSelectedAppointment(null)}
+                      className="hover-lift"
+                    >
+                      <X className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium">
+                  {/* Employee Information */}
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
+                      <User className="h-4 w-4" />
+                      Employee Information
+                    </h3>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Name:</span>
+                        <span className="font-medium">{selectedAppointment.employee_name} {selectedAppointment.employee_surname}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Email:</span>
+                        <span className="font-medium text-xs break-all">{selectedAppointment.employee_email || 'N/A'}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Employee ID:</span>
+                        <Badge variant="outline">{selectedAppointment.employee_id}</Badge>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Separator />
+
+                  {/* Appointment Details */}
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
+                      <Calendar className="h-4 w-4" />
+                      Appointment Details
+                    </h3>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Type:</span>
+                        <Badge variant="outline">{selectedAppointment.type}</Badge>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Start Date:</span>
+                        <span className="font-medium">{formatDate(selectedAppointment.start_date)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">End Date:</span>
+                        <span className="font-medium">{formatDate(selectedAppointment.end_date)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Start Time:</span>
+                        <span className="font-medium">{formatTime(selectedAppointment.start_time)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">End Time:</span>
+                        <span className="font-medium">{formatTime(selectedAppointment.end_time)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Start DateTime:</span>
+                        <span className="font-medium">{formatDateTime(selectedAppointment.start_datetime)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">End DateTime:</span>
+                        <span className="font-medium">{formatDateTime(selectedAppointment.end_datetime)}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Separator />
+
+                  {/* Report Information */}
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
+                      <FileText className="h-4 w-4" />
+                      Report Information
+                    </h3>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Report ID:</span>
+                        {selectedAppointment.report_id ? (
+                          <Badge variant="default">{selectedAppointment.report_id}</Badge>
+                        ) : (
+                          <Badge variant="secondary">No Report</Badge>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  <Separator />
+
+                  {/* Calendar Information */}
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
+                      <MapPin className="h-4 w-4" />
+                      Calendar Information
+                    </h3>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Calendar ID:</span>
+                        <span className="font-medium">{selectedAppointment.calander_id || 'N/A'}</span>
+                      </div>
+                      {selectedAppointment.calander_link && (
+                        <div className="flex gap-2">
+                          <span className="text-muted-foreground min-w-[120px]">Calendar Link:</span>
+                          <a 
+                            href={selectedAppointment.calander_link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline text-xs break-all"
+                          >
+                            View in Calendar
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  <Separator />
+
+                  {/* System Information */}
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
+                      <Clock className="h-4 w-4" />
+                      Record Information
+                    </h3>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Created:</span>
+                        <span className="font-medium">{formatDateTime(selectedAppointment.date_created)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Created By:</span>
+                        <span className="font-medium">{selectedAppointment.created_by_name || selectedAppointment.user_created}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Last Updated:</span>
+                        <span className="font-medium">{formatDateTime(selectedAppointment.date_updated)}</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <span className="text-muted-foreground min-w-[120px]">Updated By:</span>
+                        <span className="font-medium">{selectedAppointment.updated_by_name || selectedAppointment.user_updated}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {selectedAppointment.notes && (
+                    <>
+                      <Separator />
+                      <div className="space-y-3">
+                        <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                          Notes
+                        </h3>
+                        <div className="text-sm p-3 bg-muted rounded-lg">
+                          {selectedAppointment.notes}
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </CardContent>
+              </Card>
+            </div>
+          )}
+        </div>
+      </div>
+    </DashboardLayout>
+  );
+}

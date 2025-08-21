@@ -15,34 +15,35 @@ export default function ReportStatusChart({ data }: ReportStatusChartProps) {
       
       {/* Summary Stats */}
       <div className="grid grid-cols-3 gap-4 mb-6">
-        <div className="text-center p-4 bg-blue-50 rounded-lg">
-          <div className="text-2xl font-bold text-blue-600">{totalReports}</div>
-          <div className="text-sm text-blue-600">Total Reports</div>
+        <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'var(--teal-100)'}}>
+          <div className="text-2xl font-bold" style={{color: 'var(--teal-700)'}}>{totalReports}</div>
+          <div className="text-sm" style={{color: 'var(--teal-600)'}}>Total Reports</div>
         </div>
-        <div className="text-center p-4 bg-green-50 rounded-lg">
-          <div className="text-2xl font-bold text-green-600">{totalSigned}</div>
-          <div className="text-sm text-green-600">Signed</div>
+        <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'var(--teal-200)'}}>
+          <div className="text-2xl font-bold" style={{color: 'var(--teal-800)'}}>{totalSigned}</div>
+          <div className="text-sm" style={{color: 'var(--teal-700)'}}>Signed</div>
         </div>
-        <div className="text-center p-4 bg-yellow-50 rounded-lg">
-          <div className="text-2xl font-bold text-yellow-600">{totalPending}</div>
-          <div className="text-sm text-yellow-600">Pending</div>
+        <div className="text-center p-4 rounded-lg" style={{backgroundColor: 'var(--teal-50)'}}>
+          <div className="text-2xl font-bold" style={{color: 'var(--teal-600)'}}>{totalPending}</div>
+          <div className="text-sm" style={{color: 'var(--teal-500)'}}>Pending</div>
         </div>
       </div>
 
       {/* Detailed Breakdown */}
       <div className="space-y-4">
         {data.map((item, index) => (
-          <div key={index} className="border rounded-lg p-4">
+          <div key={`report-status-${item.report_type}-${index}`} className="border rounded-lg p-4">
             <div className="flex justify-between items-center mb-2">
               <h4 className="font-medium">{item.report_type}</h4>
-              <span className="text-sm font-semibold text-green-600">
+              <span className="text-sm font-semibold" style={{color: 'var(--teal-600)'}}>
                 {item.completion_percentage.toFixed(1)}%
               </span>
             </div>
             
             <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
               <div 
-                className="bg-green-500 h-3 rounded-full transition-all duration-300"
+                className="h-3 rounded-full transition-all duration-300"
+                style={{backgroundColor: 'var(--teal-600)'}}
                 style={{ width: `${item.completion_percentage}%` }}
               ></div>
             </div>

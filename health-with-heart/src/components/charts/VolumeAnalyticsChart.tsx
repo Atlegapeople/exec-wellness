@@ -12,6 +12,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Line, Bar } from 'react-chartjs-2';
+import { BarChart3, Zap, Target, Clock } from 'lucide-react';
 
 ChartJS.register(
   CategoryScale,
@@ -98,8 +99,8 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
         type: 'bar' as const,
         label: 'Total Appointments',
         data: data.volume.map(v => v.total_appointments),
-        backgroundColor: 'rgba(59, 130, 246, 0.8)',
-        borderColor: 'rgba(59, 130, 246, 1)',
+        backgroundColor: 'oklch(0.55 0.15 200 / 0.8)',
+        borderColor: 'var(--teal-600)',
         borderWidth: 1,
         yAxisID: 'y',
       },
@@ -107,8 +108,8 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
         type: 'bar' as const,
         label: 'Completed Reports',
         data: data.volume.map(v => v.completed_reports),
-        backgroundColor: 'rgba(34, 197, 94, 0.8)',
-        borderColor: 'rgba(34, 197, 94, 1)',
+        backgroundColor: 'oklch(0.35 0.12 200 / 0.8)',
+        borderColor: 'var(--teal-700)',
         borderWidth: 1,
         yAxisID: 'y',
       },
@@ -116,8 +117,8 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
         type: 'line' as const,
         label: 'Completion Rate (%)',
         data: data.volume.map(v => v.completion_rate),
-        borderColor: 'rgb(239, 68, 68)',
-        backgroundColor: 'rgba(239, 68, 68, 0.1)',
+        borderColor: 'var(--teal-400)',
+        backgroundColor: 'oklch(0.65 0.12 200 / 0.1)',
         tension: 0.4,
         yAxisID: 'y1',
       },
@@ -163,8 +164,8 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
       {
         label: 'Appointments',
         data: data.dailyPattern.map(d => d.appointment_count),
-        backgroundColor: 'rgba(168, 85, 247, 0.8)',
-        borderColor: 'rgba(168, 85, 247, 1)',
+        backgroundColor: 'oklch(0.45 0.14 200 / 0.8)',
+        borderColor: 'var(--teal-600)',
         borderWidth: 1,
       },
     ],
@@ -203,8 +204,8 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
       {
         label: 'Appointments',
         data: data.weeklyPattern.map(w => w.appointment_count),
-        backgroundColor: 'rgba(251, 191, 36, 0.8)',
-        borderColor: 'rgba(251, 191, 36, 1)',
+        backgroundColor: 'oklch(0.65 0.12 200 / 0.8)',
+        borderColor: 'var(--teal-400)',
         borderWidth: 1,
       },
     ],
@@ -236,10 +237,10 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
           <>
             <div className="bg-white p-6 rounded-lg shadow-lg border">
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl">📊</span>
+                <BarChart3 className="h-6 w-6" style={{color: 'var(--teal-600)'}} />
                 <h3 className="font-semibold text-gray-800">This Month</h3>
               </div>
-              <p className="text-3xl font-bold text-blue-600">
+              <p className="text-3xl font-bold" style={{color: 'var(--teal-600)'}}>
                 {data.volume[0]?.total_appointments || 0}
               </p>
               <p className="text-sm text-gray-600">Total Appointments</p>
@@ -250,19 +251,21 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
 
             <div className="bg-white p-6 rounded-lg shadow-lg border">
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl">⚡</span>
+                <Zap className="h-6 w-6" style={{color: 'var(--teal-700)'}} />
                 <h3 className="font-semibold text-gray-800">Avg Turnaround</h3>
               </div>
-              <p className="text-3xl font-bold text-green-600">
+              <p className="text-3xl font-bold" style={{color: 'var(--teal-700)'}}>
                 {data.volume[0]?.avg_turnaround_days || 0}
               </p>
               <p className="text-sm text-gray-600">Days</p>
               <div className="mt-2">
                 <span className={`text-xs px-2 py-1 rounded-full ${
-                  (data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'bg-green-100 text-green-800' :
+                  (data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'text-white' :
                   (data.volume[0]?.avg_turnaround_days || 0) <= 5 ? 'bg-yellow-100 text-yellow-800' :
                   'bg-red-100 text-red-800'
-                }`}>
+                }`} style={{
+                  backgroundColor: (data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'var(--teal-600)' : undefined
+                }}>
                   {(data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'Excellent' :
                    (data.volume[0]?.avg_turnaround_days || 0) <= 5 ? 'Good' : 'Needs Improvement'}
                 </span>
@@ -271,19 +274,21 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
 
             <div className="bg-white p-6 rounded-lg shadow-lg border">
               <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl">🎯</span>
+                <Target className="h-6 w-6" style={{color: 'var(--teal-500)'}} />
                 <h3 className="font-semibold text-gray-800">Completion Rate</h3>
               </div>
-              <p className="text-3xl font-bold text-purple-600">
+              <p className="text-3xl font-bold" style={{color: 'var(--teal-500)'}}>
                 {data.volume[0]?.completion_rate || 0}%
               </p>
               <p className="text-sm text-gray-600">Reports Completed</p>
               <div className="mt-2">
                 <span className={`text-xs px-2 py-1 rounded-full ${
-                  (data.volume[0]?.completion_rate || 0) >= 90 ? 'bg-green-100 text-green-800' :
+                  (data.volume[0]?.completion_rate || 0) >= 90 ? 'text-white' :
                   (data.volume[0]?.completion_rate || 0) >= 75 ? 'bg-yellow-100 text-yellow-800' :
                   'bg-red-100 text-red-800'
-                }`}>
+                }`} style={{
+                  backgroundColor: (data.volume[0]?.completion_rate || 0) >= 90 ? 'var(--teal-600)' : undefined
+                }}>
                   {(data.volume[0]?.completion_rate || 0) >= 90 ? 'Excellent' :
                    (data.volume[0]?.completion_rate || 0) >= 75 ? 'Good' : 'Needs Improvement'}
                 </span>
@@ -296,7 +301,10 @@ export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps
       {/* Peak Hours Analysis */}
       {data.dailyPattern.length > 0 && (
         <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <h3 className="text-lg font-semibold mb-4">⏰ Peak Hours Analysis</h3>
+          <div className="flex items-center gap-2 mb-4">
+            <Clock className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
+            <h3 className="text-lg font-semibold">Peak Hours Analysis</h3>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {(() => {
               const peakHour = data.dailyPattern.reduce((prev, current) => 

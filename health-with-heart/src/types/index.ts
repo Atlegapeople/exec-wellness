@@ -1,38 +1,40 @@
 // Types based on actual OHMS database structure
 export interface Employee {
   id: string;
-  date_created: Date;
-  date_updated: Date;
-  user_created: string;
-  user_updated: string;
-  section_header: string;
+  date_created?: Date;
+  date_updated?: Date;
+  user_created?: string;
+  user_updated?: string;
+  created_by?: string;
+  updated_by?: string;
+  section_header?: string;
   name: string;
   surname: string;
-  employee_id_number?: string;
-  cell_phone?: string;
-  email?: string;
-  date_of_birth?: Date;
-  gender?: string;
   id_number?: string;
-  home_address?: string;
-  postal_address?: string;
-  postal_code?: string;
-  home_phone?: string;
-  work_phone?: string;
-  emergency_contact_name?: string;
-  emergency_contact_number?: string;
-  relationship?: string;
-  marital_status?: string;
-  dependants?: number;
-  employee_personal_email?: string;
-  employee_work_email?: string;
-  race?: string;
-  home_language?: string;
-  nationality?: string;
-  religion?: string;
-  disabilities?: string;
+  passport_number?: string;
+  gender?: string;
+  date_of_birth?: Date;
+  ethnicity?: string;
+  marriage_status?: string;
+  no_of_children?: number;
+  personal_email_address?: string;
+  mobile_number?: string;
+  section_header_2?: string;
   medical_aid?: string;
   medical_aid_number?: string;
+  main_member?: boolean;
+  main_member_name?: string;
+  section_header_3?: string;
+  work_email?: string;
+  employee_number?: string;
+  organisation?: string;
+  organisation_name?: string;
+  workplace?: string;
+  workplace_name?: string;
+  job?: string;
+  notes_header?: string;
+  notes_text?: string;
+  work_startdate?: Date;
 }
 
 export interface Appointment {
@@ -132,4 +134,18 @@ export interface WorkplaceHealth {
   medical_reports: number;
   fit_for_work: number;
   not_fit: number;
+}
+
+export interface User {
+  id: string;
+  date_created: Date;
+  date_updated: Date;
+  user_created?: string;
+  user_updated?: string;
+  name: string;
+  surname: string;
+  email: string;
+  mobile?: string;
+  type: 'Doctor' | 'Nurse' | 'Administrator' | 'Ergonomist';
+  signature?: string;
 }

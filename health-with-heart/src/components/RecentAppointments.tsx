@@ -1,28 +1,31 @@
 import { Appointment, Employee, MedicalReport } from '@/types';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Calendar, Clock, FileText, User, Users, StickyNote } from 'lucide-react';
 
 interface RecentAppointmentsProps {
   appointments: Appointment[];
-  employees: Employee[];
-  reports: MedicalReport[];
+  employees?: Employee[];
+  reports?: MedicalReport[];
 }
 
-export default function RecentAppointments({ appointments, employees, reports }: RecentAppointmentsProps) {
+export default function RecentAppointments({ appointments, employees = [], reports = [] }: RecentAppointmentsProps) {
   const getEmployeeName = (appointment: any) => {
     return appointment.employee_name || 'Unknown Employee';
   };
 
   const getReportStatus = (reportId?: string) => {
-    if (!reportId) return { status: 'No Report', color: 'gray' };
+    if (!reportId || !reports) return { status: 'No Report', variant: 'secondary' as const };
     
     const report = reports.find(r => r.id === reportId);
-    if (!report) return { status: 'No Report', color: 'gray' };
+    if (!report) return { status: 'No Report', variant: 'secondary' as const };
     
     if (report.doctor_signoff) {
-      return { status: 'Signed', color: 'green' };
+      return { status: 'Signed', variant: 'default' as const };
     } else if (report.doctor) {
-      return { status: 'Pending Signature', color: 'yellow' };
+      return { status: 'Pending Signature', variant: 'outline' as const };
     } else {
-      return { status: 'In Progress', color: 'blue' };
+      return { status: 'In Progress', variant: 'secondary' as const };
     }
   };
 
@@ -33,69 +36,92 @@ export default function RecentAppointments({ appointments, employees, reports }:
     });
   };
 
-  const statusColors = {
-    green: 'bg-green-100 text-green-800',
-    yellow: 'bg-yellow-100 text-yellow-800',
-    blue: 'bg-blue-100 text-blue-800',
-    gray: 'bg-gray-100 text-gray-800'
+  const formatDate = (date: Date) => {
+    return new Date(date).toLocaleDateString('en-ZA', {
+      month: 'short',
+      day: 'numeric'
+    });
   };
 
-  return (
-    <div className="bg-white p-6 rounded-lg shadow-sm border">
-      <div className="flex items-center gap-2 mb-4">
-        <div className="text-blue-500 text-xl">📋</div>
-        <h3 className="text-lg font-semibold">Recent Appointments</h3>
+  if (!appointments || appointments.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center py-12 text-muted-foreground">
+        <Calendar className="h-12 w-12 mb-4" />
+        <p className="text-lg font-medium">No recent appointments</p>
+        <p className="text-sm">Appointments will appear here when scheduled</p>
       </div>
-      
-      <div className="space-y-3">
-        {appointments.slice(0, 8).map((appointment) => {
-          const reportStatus = getReportStatus(appointment.report_id);
-          
-          return (
-            <div key={appointment.id} className="border rounded-lg p-4 hover:bg-gray-50 transition-colors">
-              <div className="flex justify-between items-start">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <h4 className="font-medium">{getEmployeeName(appointment)}</h4>
-                    <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${statusColors[reportStatus.color as keyof typeof statusColors]}`}>
-                      {reportStatus.status}
-                    </span>
-                  </div>
-                  
-                  <p className="text-sm text-gray-600 mb-2">{appointment.type}</p>
-                  
-                  <div className="flex items-center gap-4 text-xs text-gray-500">
-                    <span>⏰ {formatTime(appointment.start_datetime)} - {formatTime(appointment.end_datetime)}</span>
-                    {appointment.notes && (
-                      <span>📝 {appointment.notes}</span>
-                    )}
-                  </div>
-                </div>
-                
-                <div className="text-right">
-                  {appointment.report_id ? (
-                    <a 
-                      href="/reports" 
-                      className="text-blue-500 hover:text-blue-700 text-sm font-medium"
-                    >
-                      View Report
-                    </a>
-                  ) : (
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white text-sm px-3 py-1 rounded">
-                      Create Report
-                    </button>
-                  )}
-                </div>
+    );
+  }
+
+  return (
+    <div className="space-y-4">
+      {appointments.slice(0, 6).map((appointment) => {
+        const reportStatus = getReportStatus(appointment.report_id);
+        
+        return (
+          <div key={appointment.id} className="flex items-start space-x-4 p-4 border rounded-lg hover:bg-muted/50 transition-colors hover-lift">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                <User className="h-5 w-5 text-primary" />
               </div>
             </div>
-          );
-        })}
-      </div>
+            
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 mb-2">
+                <h4 className="font-medium text-sm truncate">{getEmployeeName(appointment)}</h4>
+                <Badge variant={reportStatus.variant} className="text-xs">
+                  {reportStatus.status}
+                </Badge>
+              </div>
+              
+              <p className="text-sm text-muted-foreground mb-2">{appointment.type}</p>
+              
+              <div className="flex items-center gap-4 text-xs text-muted-foreground">
+                <span className="flex items-center gap-1">
+                  <Calendar className="h-3 w-3" />
+                  {formatDate(appointment.start_datetime)}
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="h-3 w-3" />
+                  {formatTime(appointment.start_datetime)} - {formatTime(appointment.end_datetime)}
+                </span>
+              </div>
+              
+              {appointment.notes && (
+                <div className="flex items-center gap-1 mt-2 text-xs text-muted-foreground">
+                  <StickyNote className="h-3 w-3" />
+                  <span className="truncate">{appointment.notes}</span>
+                </div>
+              )}
+            </div>
+            
+            <div className="flex-shrink-0">
+              {appointment.report_id ? (
+                <Button variant="outline" size="sm" asChild>
+                  <a href="/reports">
+                    <FileText className="h-4 w-4 mr-1" />
+                    View Report
+                  </a>
+                </Button>
+              ) : (
+                <Button size="sm">
+                  <FileText className="h-4 w-4 mr-1" />
+                  Create Report
+                </Button>
+              )}
+            </div>
+          </div>
+        );
+      })}
       
-      {appointments.length === 0 && (
-        <div className="text-center py-8 text-gray-500">
-          <div className="text-4xl mb-2">📅</div>
-          <p>No recent appointments</p>
+      {appointments.length > 6 && (
+        <div className="text-center pt-4 border-t">
+          <Button variant="outline" asChild>
+            <a href="/appointments">
+              <Calendar className="h-4 w-4 mr-2" />
+              View All Appointments ({appointments.length})
+            </a>
+          </Button>
         </div>
       )}
     </div>

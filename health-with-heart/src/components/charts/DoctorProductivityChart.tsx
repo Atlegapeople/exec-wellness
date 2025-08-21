@@ -125,7 +125,7 @@ export default function DoctorProductivityChart({ data }: DoctorProductivityChar
                   : 0;
                 
                 return (
-                  <tr key={index} className="border-b hover:bg-gray-50">
+                  <tr key={`doctor-${doctor.doctor}-${index}`} className="border-b hover:bg-gray-50">
                     <td className="p-3 font-medium">{doctor.doctor}</td>
                     <td className="p-3 text-center">
                       <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-semibold">

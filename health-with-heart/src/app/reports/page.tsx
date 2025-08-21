@@ -1,6 +1,34 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import DashboardLayout from '@/components/DashboardLayout';
+import { 
+  ArrowLeft, 
+  Search, 
+  FileText, 
+  Calendar, 
+  Users, 
+  Stethoscope,
+  Download,
+  X,
+  ChevronLeft,
+  ChevronRight,
+  ChevronsLeft,
+  ChevronsRight,
+  Filter,
+  Loader2,
+  AlertCircle,
+  CheckCircle,
+  Clock
+} from 'lucide-react';
 
 interface MedicalReport {
   id: string;
@@ -47,38 +75,67 @@ interface FormData {
 }
 
 export default function ReportsPage() {
-  const [reports, setReports] = useState<MedicalReport[]>([]);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  
+  const [allReports, setAllReports] = useState<MedicalReport[]>([]);
   const [filteredReports, setFilteredReports] = useState<MedicalReport[]>([]);
+  const [displayedReports, setDisplayedReports] = useState<MedicalReport[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
-    page: 1,
+    page: parseInt(searchParams.get('page') || '1'),
     limit: 50,
     total: 0,
     totalPages: 0,
     hasNextPage: false,
-    hasPreviousPage: false,
+    hasPreviousPage: false
   });
   const [loading, setLoading] = useState(true);
-  const [selectedReport, setSelectedReport] = useState<MedicalReport | null>(
-    null
-  );
+  const [pageTransitioning, setPageTransitioning] = useState(false);
+  const [selectedReport, setSelectedReport] = useState<MedicalReport | null>(null);
   const [formData, setFormData] = useState<FormData | null>(null);
   const [formLoading, setFormLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [statusFilter, setStatusFilter] = useState('all');
+  const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+  const [statusFilter, setStatusFilter] = useState(searchParams.get('status') || 'all');
+  const [leftPanelWidth, setLeftPanelWidth] = useState(40); // percentage
+  const [isResizing, setIsResizing] = useState(false);
+  const [statusSummary, setStatusSummary] = useState<{[key: string]: number}>({});
 
   // Fetch reports data
-  const fetchData = async (page: number = 1) => {
+  // Fetch all reports data once
+  const fetchAllReports = async () => {
     try {
       setLoading(true);
-
-      const reportsResponse = await fetch(
-        `/api/reports?page=${page}&limit=${pagination.limit}`
-      );
+      
+      const reportsResponse = await fetch(`/api/reports?page=1&limit=10000`);
       const data = await reportsResponse.json();
-
-      setReports(data.reports);
-      setFilteredReports(data.reports);
-      setPagination(data.pagination);
+      
+      setAllReports(data.reports || []);
+      
+      // Calculate status summary - SIMPLE VERSION
+      const summary: {[key: string]: number} = {
+        'Unassigned': 0,
+        'Awaiting Doctor': 0,
+        'In Progress': 0,
+        'Completed': 0,
+        'Reported': 0
+      };
+      
+      (data.reports || []).forEach(report => {
+        if (report.doctor === null && report.nurse === null) {
+          summary['Unassigned']++;
+        } else if (report.doctor === null && report.column_5 === 'No' && report.nurse_signature !== null) {
+          summary['Awaiting Doctor']++;
+        } else if (report.doctor_signoff === 'Yes' && report.column_5 === 'No') {
+          summary['Completed']++;
+        } else if (report.doctor_signoff === 'Yes') {
+          summary['Reported']++;
+        } else {
+          summary['In Progress']++;
+        }
+      });
+      
+      setStatusSummary(summary);
+      console.log('Status Summary:', summary);
     } catch (error) {
       console.error('Error fetching data:', error);
     } finally {
@@ -86,48 +143,112 @@ export default function ReportsPage() {
     }
   };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  // Filter reports based on search and status
-  useEffect(() => {
+  // Client-side filtering
+  const filterReports = useCallback((reports: MedicalReport[], search: string, status: string) => {
     let filtered = reports;
 
-    if (searchTerm) {
+    if (search) {
       filtered = filtered.filter(report => {
-        const employeeName =
-          `${report.employee_name || ''} ${report.employee_surname || ''}`.trim();
-        const doctorName =
-          `${report.doctor_name || ''} ${report.doctor_surname || ''}`.trim();
+        const employeeName = `${report.employee_name || ''} ${report.employee_surname || ''}`.trim();
+        const doctorName = `${report.doctor_name || ''} ${report.doctor_surname || ''}`.trim();
         return (
-          employeeName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          doctorName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          report.workplace_name
-            ?.toLowerCase()
-            .includes(searchTerm.toLowerCase()) ||
-          report.employee_work_email
-            ?.toLowerCase()
-            .includes(searchTerm.toLowerCase()) ||
-          report.id.toLowerCase().includes(searchTerm.toLowerCase())
+          employeeName.toLowerCase().includes(search.toLowerCase()) ||
+          doctorName.toLowerCase().includes(search.toLowerCase()) ||
+          report.workplace_name?.toLowerCase().includes(search.toLowerCase()) ||
+          report.employee_work_email?.toLowerCase().includes(search.toLowerCase()) ||
+          report.id.toLowerCase().includes(search.toLowerCase())
         );
       });
     }
 
-    if (statusFilter !== 'all') {
+    if (status !== 'all') {
       filtered = filtered.filter(report => {
-        if (statusFilter === 'signed') return report.doctor_signoff === 'Yes';
-        if (statusFilter === 'pending') return report.doctor_signoff !== 'Yes';
+        if (status === 'signed') return report.doctor_signoff === 'Yes';
+        if (status === 'pending') return report.doctor_signoff !== 'Yes';
         return true;
       });
     }
 
+    return filtered;
+  }, []);
+
+  // Client-side pagination
+  const paginateReports = useCallback((reports: MedicalReport[], page: number, limit: number) => {
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedData = reports.slice(startIndex, endIndex);
+    
+    const total = reports.length;
+    const totalPages = Math.ceil(total / limit);
+    
+    setPagination({
+      page,
+      limit,
+      total,
+      totalPages,
+      hasNextPage: page < totalPages,
+      hasPreviousPage: page > 1
+    });
+    
+    return paginatedData;
+  }, []);
+
+  // Smooth page transition
+  const transitionToPage = useCallback(async (newPage: number) => {
+    setPageTransitioning(true);
+    
+    // Small delay for smooth transition
+    await new Promise(resolve => setTimeout(resolve, 150));
+    
+    const paginated = paginateReports(filteredReports, newPage, pagination.limit);
+    setDisplayedReports(paginated);
+    
+    setPageTransitioning(false);
+  }, [filteredReports, pagination.limit, paginateReports]);
+
+  const updateURL = useCallback((page: number, search: string, status: string) => {
+    const params = new URLSearchParams();
+    if (page > 1) params.set('page', page.toString());
+    if (search) params.set('search', search);
+    if (status !== 'all') params.set('status', status);
+    
+    const newURL = `/reports${params.toString() ? `?${params.toString()}` : ''}`;
+    router.replace(newURL, { scroll: false });
+  }, [router]);
+
+  const handlePageChange = (newPage: number) => {
+    updateURL(newPage, searchTerm, statusFilter);
+    transitionToPage(newPage);
+  };
+
+  // Initial load
+  useEffect(() => {
+    fetchAllReports();
+  }, []);
+
+  // Handle filtering when search term, status, or all reports change
+  useEffect(() => {
+    const filtered = filterReports(allReports, searchTerm, statusFilter);
     setFilteredReports(filtered);
-  }, [searchTerm, statusFilter, reports]);
+    
+    // Reset to page 1 when filtering changes
+    const page = (searchTerm || statusFilter !== 'all') ? 1 : parseInt(searchParams.get('page') || '1');
+    const paginated = paginateReports(filtered, page, pagination.limit);
+    setDisplayedReports(paginated);
+  }, [allReports, searchTerm, statusFilter, filterReports, paginateReports, pagination.limit, searchParams]);
+
+  // Handle page changes from URL
+  useEffect(() => {
+    const page = parseInt(searchParams.get('page') || '1');
+    if (page !== pagination.page && filteredReports.length > 0) {
+      transitionToPage(page);
+    }
+  }, [searchParams, pagination.page, filteredReports.length, transitionToPage]);
+
 
   const getEmployeeName = (report: MedicalReport) => {
-    return report.employee_name && report.employee_surname
-      ? `${report.employee_name} ${report.employee_surname}`
+    return report.employee_name && report.employee_surname 
+      ? `${report.employee_name} ${report.employee_surname}` 
       : 'Unknown Employee';
   };
 
@@ -135,8 +256,8 @@ export default function ReportsPage() {
     if (!report.doctor_name && !report.doctor_surname) {
       return 'Unassigned';
     }
-    return report.doctor_name && report.doctor_surname
-      ? `Dr. ${report.doctor_name} ${report.doctor_surname}`
+    return report.doctor_name && report.doctor_surname 
+      ? `Dr. ${report.doctor_name} ${report.doctor_surname}` 
       : 'Unknown Doctor';
   };
 
@@ -144,15 +265,15 @@ export default function ReportsPage() {
     if (!report.nurse_name && !report.nurse_surname) {
       return 'Unassigned';
     }
-    return report.nurse_name && report.nurse_surname
-      ? `${report.nurse_name} ${report.nurse_surname}`
+    return report.nurse_name && report.nurse_surname 
+      ? `${report.nurse_name} ${report.nurse_surname}` 
       : 'Unknown Nurse';
   };
 
   const handleReportClick = async (report: MedicalReport) => {
     setSelectedReport(report);
     setFormLoading(true);
-
+    
     try {
       const response = await fetch(`/api/reports/form-data/${report.id}`);
       if (response.ok) {
@@ -172,7 +293,7 @@ export default function ReportsPage() {
 
   const handleGeneratePDF = async () => {
     if (!selectedReport) return;
-
+    
     try {
       const response = await fetch(`/api/reports/pdf/${selectedReport.id}`);
       if (response.ok) {
@@ -198,1190 +319,1155 @@ export default function ReportsPage() {
     return selectedReport?.doctor_signoff === 'Yes';
   };
 
+  const handleMouseDown = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsResizing(true);
+  };
+
+  const handleMouseMove = (e: MouseEvent) => {
+    if (!isResizing) return;
+    
+    const container = document.querySelector('.resizable-container') as HTMLElement;
+    if (!container) return;
+    
+    const containerRect = container.getBoundingClientRect();
+    const newLeftWidth = ((e.clientX - containerRect.left) / containerRect.width) * 100;
+    
+    // Constrain between 20% and 80%
+    const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
+    setLeftPanelWidth(constrainedWidth);
+  };
+
+  const handleMouseUp = () => {
+    setIsResizing(false);
+  };
+
+  useEffect(() => {
+    if (isResizing) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+    } else {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    }
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    };
+  }, [isResizing]);
+
   if (loading) {
     return (
-      <div className='min-h-screen bg-gray-50 flex items-center justify-center'>
-        <div className='text-center'>
-          <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4'></div>
-          <p className='text-gray-600'>Loading reports...</p>
-        </div>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <Card className="w-96">
+          <CardContent className="flex items-center justify-center py-12">
+            <div className="text-center space-y-4">
+              <div className="relative">
+                <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <FileText className="h-6 w-6 text-primary/30" />
+                </div>
+              </div>
+              <p className="text-muted-foreground">Loading medical reports...</p>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     );
   }
 
   return (
-    <div className='min-h-screen bg-gray-50'>
-      {/* Header */}
-      <header className='bg-white shadow-sm border-b'>
-        <div className='max-w-full mx-auto px-4 sm:px-6 lg:px-8'>
-          <div className='flex justify-between items-center h-16'>
-            <div>
-              <div className='flex items-center gap-4'>
-                <a
-                  href='/'
-                  className='text-blue-600 hover:text-blue-800 font-medium text-sm flex items-center gap-2'
-                >
-                  ← Back to Dashboard
-                </a>
-                <div className='h-6 w-px bg-gray-300'></div>
-                <div>
-                  <h1 className='text-2xl font-bold text-gray-900'>
-                    📊 Executive Medical Reports
-                  </h1>
-                  <p className='text-sm text-gray-500'>
-                    Click on a report to view details and generate PDF
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* Main Content - Split View */}
-      <main className='max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-6'>
-        <div
-          className={`grid gap-6 transition-all duration-300 ${selectedReport ? 'grid-cols-2' : 'grid-cols-1'}`}
-        >
+    <DashboardLayout>
+      <div className="pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden">
+        <div className={`resizable-container flex transition-all duration-300 animate-slide-up overflow-hidden ${selectedReport ? '' : 'justify-center'}`}>
+          
           {/* Left Panel - Reports Table */}
-          <div
-            className={`space-y-4 ${selectedReport ? 'max-w-none' : 'max-w-7xl mx-auto'}`}
+          <div 
+            className="space-y-4" 
+            style={{ 
+              width: selectedReport ? `${leftPanelWidth}%` : '100%',
+              maxWidth: selectedReport ? `${leftPanelWidth}%` : '100%',
+              paddingRight: selectedReport ? '12px' : '0'
+            }}
           >
-            {/* Filters and Search */}
-            <div className='bg-white p-4 rounded-lg shadow-sm border'>
-              <div className='flex flex-col lg:flex-row gap-4 items-center justify-between'>
-                <div className='flex flex-col lg:flex-row gap-4 flex-1'>
-                  <div className='flex-1'>
-                    <input
-                      type='text'
-                      placeholder='Search by employee, doctor, workplace, email, or report ID...'
-                      value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      className='w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent'
-                    />
+            {/* Search and Filters */}
+            <Card className="glass-effect">
+              <CardContent className="p-4 min-h-[120px] flex items-center">
+                <div className="flex flex-col lg:flex-row gap-4 items-center justify-between w-full">
+                  <div className="flex flex-col lg:flex-row gap-4 flex-1">
+                    <div className="flex-1 relative">
+                      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                      <Input
+                        type="text"
+                        placeholder="Search by employee, doctor, workplace, email, or report ID..."
+                        value={searchTerm}
+                        onChange={(e) => {
+                          setSearchTerm(e.target.value);
+                          updateURL(1, e.target.value, statusFilter);
+                        }}
+                        className="pl-9"
+                      />
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Filter className="h-4 w-4 text-muted-foreground" />
+                      <Select value={statusFilter} onValueChange={(value) => {
+                        setStatusFilter(value);
+                        updateURL(1, searchTerm, value);
+                      }}>
+                        <SelectTrigger className="w-48">
+                          <SelectValue placeholder="Filter by status" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">All Reports</SelectItem>
+                          <SelectItem value="signed">Signed by Doctor</SelectItem>
+                          <SelectItem value="pending">Pending Signature</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
                   </div>
-                  <div>
-                    <select
-                      value={statusFilter}
-                      onChange={e => setStatusFilter(e.target.value)}
-                      className='p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent'
-                    >
-                      <option value='all'>All Reports</option>
-                      <option value='signed'>Signed by Doctor</option>
-                      <option value='pending'>Pending Signature</option>
-                    </select>
+                  <div className="text-sm text-muted-foreground">
+                    {((pagination.page - 1) * pagination.limit) + 1}-{Math.min(pagination.page * pagination.limit, pagination.total)} of {pagination.total}
                   </div>
                 </div>
-                <div className='text-sm text-gray-600'>
-                  {(pagination.page - 1) * pagination.limit + 1}-
-                  {Math.min(
-                    pagination.page * pagination.limit,
-                    pagination.total
-                  )}{' '}
-                  of {pagination.total}
-                </div>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
 
             {/* Reports Table */}
-            <div className='bg-white rounded-lg shadow-sm border overflow-hidden'>
-              <div className='overflow-x-auto'>
-                <table className='min-w-full divide-y divide-gray-200'>
-                  <thead className='bg-gray-50'>
-                    <tr>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Report ID
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Employee
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Date
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Doctor
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Nurse
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Status
-                      </th>
-                      <th className='px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider'>
-                        Workplace
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className='bg-white divide-y divide-gray-200'>
-                    {filteredReports.map(report => (
-                      <tr
-                        key={report.id}
-                        onClick={() => handleReportClick(report)}
-                        className={`cursor-pointer transition-colors ${
-                          selectedReport?.id === report.id
-                            ? 'bg-blue-50 border-l-4 border-blue-500'
-                            : 'hover:bg-gray-50'
-                        }`}
-                      >
-                        <td className='px-3 py-3'>
-                          <div
-                            className='text-xs font-mono text-gray-600'
-                            title={report.id}
-                          >
-                            {report.id}
-                          </div>
-                        </td>
-                        <td className='px-3 py-3'>
-                          <div className='min-w-0'>
-                            <div className='text-sm font-medium text-gray-900 truncate'>
-                              {getEmployeeName(report)}
-                            </div>
-                            <div className='text-xs text-gray-500 truncate'>
-                              {report.employee_work_email}
-                            </div>
-                          </div>
-                        </td>
-                        <td className='px-3 py-3 text-sm text-gray-900'>
-                          <div className='whitespace-nowrap'>
-                            {new Date(report.date_created).toLocaleDateString(
-                              'en-GB',
-                              {
-                                day: '2-digit',
-                                month: '2-digit',
-                                year: '2-digit',
-                              }
-                            )}
-                          </div>
-                        </td>
-                        <td className='px-3 py-3'>
-                          <div
-                            className='text-sm text-gray-900 truncate'
-                            title={getDoctorName(report)}
-                          >
-                            {getDoctorName(report)}
-                          </div>
-                        </td>
-                        <td className='px-3 py-3'>
-                          <div
-                            className='text-sm text-gray-900 truncate'
-                            title={getNurseName(report)}
-                          >
-                            {getNurseName(report)}
-                          </div>
-                        </td>
-                        <td className='px-3 py-3'>
-                          <span
-                            className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap ${
-                              report.doctor_signoff === 'Yes'
-                                ? 'bg-green-100 text-green-800'
-                                : 'bg-yellow-100 text-yellow-800'
-                            }`}
-                          >
-                            {report.doctor_signoff || 'Pending'}
-                          </span>
-                        </td>
-                        <td className='px-3 py-3'>
-                          <div
-                            className='text-sm text-gray-900 truncate'
-                            title={report.workplace_name || 'N/A'}
-                          >
-                            {report.workplace_name || 'N/A'}
-                          </div>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* Pagination Controls */}
-            {pagination.totalPages > 1 && (
-              <div className='bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6 rounded-lg shadow-sm border'>
-                <div className='flex-1 flex justify-between sm:hidden'>
-                  <button
-                    onClick={() => fetchData(pagination.page - 1)}
-                    disabled={!pagination.hasPreviousPage}
-                    className='relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 disabled:bg-gray-100 disabled:text-gray-400'
-                  >
-                    Previous
-                  </button>
-                  <button
-                    onClick={() => fetchData(pagination.page + 1)}
-                    disabled={!pagination.hasNextPage}
-                    className='ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 disabled:bg-gray-100 disabled:text-gray-400'
-                  >
-                    Next
-                  </button>
-                </div>
-                <div className='hidden sm:flex-1 sm:flex sm:items-center sm:justify-between'>
+            <Card className="hover-lift">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 heading-montserrat-bold text-2xl">
+                  <div className="p-2 bg-teal-100 rounded-lg">
+                    <FileText className="h-6 w-6 text-teal-600" />
+                  </div>
                   <div>
-                    <p className='text-sm text-gray-700'>
-                      Page{' '}
-                      <span className='font-medium'>{pagination.page}</span> of{' '}
-                      <span className='font-medium'>
-                        {pagination.totalPages}
-                      </span>
+                    <span className="medical-heading">Medical Reports</span>
+                    <span className="ml-2 text-lg font-medium text-gray-500">({pagination.total})</span>
+                  </div>
+                </CardTitle>
+                <CardDescription className="mt-2 text-base text-gray-600">
+                  Comprehensive executive medical reports and health assessments
+                </CardDescription>
+                
+                {/* Status Summary */}
+                <div className="mt-4 grid grid-cols-5 gap-4 text-sm">
+                  <div className="text-center">
+                    <div className="font-semibold text-lg text-gray-600">{statusSummary['Unassigned'] || 0}</div>
+                    <div className="text-xs text-muted-foreground">Unassigned</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-semibold text-lg text-orange-600">{statusSummary['Awaiting Doctor'] || 0}</div>
+                    <div className="text-xs text-muted-foreground">Awaiting Doctor</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-semibold text-lg text-blue-600">{statusSummary['In Progress'] || 0}</div>
+                    <div className="text-xs text-muted-foreground">In Progress</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-semibold text-lg text-green-600">{statusSummary['Completed'] || 0}</div>
+                    <div className="text-xs text-muted-foreground">Completed</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-semibold text-lg text-teal-600">{statusSummary['Reported'] || 0}</div>
+                    <div className="text-xs text-muted-foreground">Reported</div>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                {displayedReports.length === 0 ? (
+                  <div className="text-center py-12">
+                    <FileText className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                    <h3 className="text-lg font-medium text-foreground mb-2">No reports found</h3>
+                    <p className="text-muted-foreground">
+                      {searchTerm || statusFilter !== 'all' 
+                        ? 'Try adjusting your search criteria or filters.' 
+                        : 'No Executive Medical reports are available.'}
                     </p>
                   </div>
-                  <div>
-                    <nav className='relative z-0 inline-flex rounded-md shadow-sm -space-x-px'>
-                      <button
-                        onClick={() => fetchData(pagination.page - 1)}
-                        disabled={!pagination.hasPreviousPage}
-                        className='relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:bg-gray-100 disabled:text-gray-400'
-                      >
-                        Previous
-                      </button>
-
-                      {Array.from(
-                        { length: Math.min(5, pagination.totalPages) },
-                        (_, i) => {
-                          const pageNum = Math.max(1, pagination.page - 2) + i;
-                          if (pageNum > pagination.totalPages) return null;
-
-                          return (
-                            <button
-                              key={pageNum}
-                              onClick={() => fetchData(pageNum)}
-                              className={`relative inline-flex items-center px-4 py-2 border text-sm font-medium ${
-                                pageNum === pagination.page
-                                  ? 'z-10 bg-blue-50 border-blue-500 text-blue-600'
-                                  : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
-                              }`}
-                            >
-                              {pageNum}
-                            </button>
-                          );
-                        }
-                      )}
-
-                      <button
-                        onClick={() => fetchData(pagination.page + 1)}
-                        disabled={!pagination.hasNextPage}
-                        className='relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 disabled:bg-gray-100 disabled:text-gray-400'
-                      >
-                        Next
-                      </button>
-                    </nav>
+                ) : (
+                  <div className="max-h-[500px] overflow-auto scrollbar-premium">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Report ID</TableHead>
+                          <TableHead>Employee</TableHead>
+                          <TableHead>Date</TableHead>
+                          <TableHead>Doctor</TableHead>
+                          <TableHead>Status</TableHead>
+                          <TableHead>Workplace</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody className={`table-transition ${pageTransitioning ? 'transitioning' : ''}`}>
+                        {displayedReports.map((report) => (
+                          <TableRow 
+                            key={report.id} 
+                            className={`cursor-pointer transition-colors hover:bg-muted/50 ${
+                              selectedReport?.id === report.id ? 'bg-muted border-l-4 border-l-primary' : ''
+                            }`}
+                            onClick={() => handleReportClick(report)}
+                          >
+                            <TableCell>
+                              <div className="font-mono text-xs text-muted-foreground" title={report.id}>
+                                {report.id.slice(0, 8)}...
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div>
+                                <div className="font-medium">
+                                  {getEmployeeName(report)}
+                                </div>
+                                <div className="text-sm text-muted-foreground truncate">
+                                  {report.employee_work_email}
+                                </div>
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div className="flex items-center gap-2">
+                                <Calendar className="h-4 w-4 text-muted-foreground" />
+                                <span className="text-sm">
+                                  {new Date(report.date_created).toLocaleDateString('en-ZA', {
+                                    day: '2-digit',
+                                    month: '2-digit',
+                                    year: '2-digit'
+                                  })}
+                                </span>
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div className="flex items-center gap-2">
+                                <Stethoscope className="h-4 w-4 text-muted-foreground" />
+                                <span className="text-sm truncate" title={getDoctorName(report)}>
+                                  {getDoctorName(report)}
+                                </span>
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <Badge variant={report.doctor_signoff === 'Yes' ? 'default' : 'secondary'} className="flex items-center gap-1">
+                                {report.doctor_signoff === 'Yes' ? (
+                                  <CheckCircle className="h-3 w-3" />
+                                ) : (
+                                  <Clock className="h-3 w-3" />
+                                )}
+                                {report.doctor_signoff === 'Yes' ? 'Signed' : 'Pending'}
+                              </Badge>
+                            </TableCell>
+                            <TableCell>
+                              <span className="text-sm truncate" title={report.workplace_name || 'N/A'}>
+                                {report.workplace_name || 'N/A'}
+                              </span>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
                   </div>
-                </div>
-              </div>
-            )}
+                )}
 
-            {filteredReports.length === 0 && (
-              <div className='text-center py-12 bg-white rounded-lg shadow-sm border'>
-                <div className='text-4xl mb-4'>📊</div>
-                <h3 className='text-lg font-medium text-gray-900 mb-2'>
-                  No reports found
-                </h3>
-                <p className='text-gray-500'>
-                  {searchTerm || statusFilter !== 'all'
-                    ? 'Try adjusting your search criteria or filters.'
-                    : 'No Executive Medical reports are available.'}
-                </p>
-              </div>
-            )}
+                {/* Pagination */}
+                {pagination.totalPages > 1 && (
+                  <div className="flex items-center justify-between pt-4 border-t">
+                    <div className="text-sm text-muted-foreground">
+                      Page {pagination.page} of {pagination.totalPages}
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      {/* First Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(1)}
+                        disabled={pagination.page === 1}
+                        className="hover-lift"
+                        title="Go to first page"
+                      >
+                        <ChevronsLeft className="h-4 w-4" />
+                        <span className="hidden sm:inline ml-1">First</span>
+                      </Button>
+                      
+                      {/* Previous Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.page - 1)}
+                        disabled={!pagination.hasPreviousPage}
+                        className="hover-lift"
+                        title="Go to previous page"
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                        <span className="hidden sm:inline ml-1">Previous</span>
+                      </Button>
+                      
+                      {/* Page Numbers */}
+                      {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
+                        const startPage = Math.max(1, pagination.page - 2);
+                        const page = startPage + i;
+                        if (page > pagination.totalPages) return null;
+                        
+                        return (
+                          <Button
+                            key={`reports-page-${page}`}
+                            variant={page === pagination.page ? "default" : "outline"}
+                            size="sm"
+                            onClick={() => handlePageChange(page)}
+                            className="hover-lift min-w-[40px]"
+                            title={`Go to page ${page}`}
+                          >
+                            {page}
+                          </Button>
+                        );
+                      })}
+                      
+                      {/* Next Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.page + 1)}
+                        disabled={!pagination.hasNextPage}
+                        className="hover-lift"
+                        title="Go to next page"
+                      >
+                        <span className="hidden sm:inline mr-1">Next</span>
+                        <ChevronRight className="h-4 w-4" />
+                      </Button>
+                      
+                      {/* Last Page */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handlePageChange(pagination.totalPages)}
+                        disabled={pagination.page === pagination.totalPages}
+                        className="hover-lift"
+                        title="Go to last page"
+                      >
+                        <span className="hidden sm:inline mr-1">Last</span>
+                        <ChevronsRight className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
           </div>
 
-          {/* Right Panel - Form Preview */}
+          {/* Resize Handle */}
           {selectedReport && (
-            <div className='bg-white rounded-lg shadow-sm border max-h-screen overflow-y-auto'>
-              {/* Form Header */}
-              <div className='sticky top-0 bg-white border-b border-gray-200 px-6 py-4 z-10'>
-                <div className='flex items-center justify-between'>
-                  <div>
-                    <h3 className='text-lg font-medium text-gray-900'>
-                      Medical Report - {getEmployeeName(selectedReport)}
-                    </h3>
-                    <p className='text-sm text-gray-500'>
-                      Report ID: {selectedReport.id}
-                    </p>
-                  </div>
-                  <div className='flex space-x-2'>
-                    <button
-                      onClick={handleGeneratePDF}
-                      disabled={!canGeneratePDF()}
-                      className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                        canGeneratePDF()
-                          ? 'bg-red-600 hover:bg-red-700 text-white'
-                          : 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                      }`}
-                      title={
-                        canGeneratePDF()
-                          ? 'Generate PDF'
-                          : 'PDF only available for signed reports'
-                      }
-                    >
-                      📄 Generate PDF
-                    </button>
-                    <button
-                      onClick={() => setSelectedReport(null)}
-                      className='px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg text-sm font-medium transition-colors'
-                    >
-                      ✕ Close
-                    </button>
-                  </div>
-                </div>
-              </div>
+            <div 
+              className="w-1 bg-border hover:bg-primary/50 cursor-col-resize transition-colors duration-200 flex-shrink-0 relative group"
+              onMouseDown={handleMouseDown}
+            >
+              <div className="absolute inset-y-0 -left-1 -right-1 hover:bg-primary/10 transition-colors duration-200"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-8 bg-border group-hover:bg-primary/50 rounded-full transition-colors duration-200"></div>
+            </div>
+          )}
 
-              {/* Form Content */}
-              <div className='px-6 py-4'>
-                {formLoading ? (
-                  <div className='text-center py-12'>
-                    <div className='animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4'></div>
-                    <p className='text-gray-600'>Loading form data...</p>
+          {/* Right Panel - Form Preview */}
+          <div 
+            className={`space-y-4 ${selectedReport ? 'animate-slide-up' : ''}`}
+            style={{ 
+              width: selectedReport ? `calc(${100 - leftPanelWidth}% - 20px)` : '0%',
+              maxWidth: selectedReport ? `calc(${100 - leftPanelWidth}% - 20px)` : '0%',
+              paddingLeft: selectedReport ? '12px' : '0',
+              paddingRight: selectedReport ? '20px' : '0',
+              overflow: selectedReport ? 'visible' : 'hidden'
+            }}
+          >
+            {selectedReport && (
+              <>
+              {/* Form Header Card */}
+              <Card className="glass-effect">
+                <CardContent className="p-4 min-h-[120px] flex items-center">
+                  <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-4">
+                    <div className="space-y-2 flex-1">
+                      <CardTitle className="text-2xl flex items-center gap-3 heading-montserrat-bold">
+                        <div className="p-2 bg-teal-100 rounded-lg">
+                          <FileText className="h-6 w-6 text-teal-600" />
+                        </div>
+                        <span className="medical-heading">{getEmployeeName(selectedReport)}</span>
+                      </CardTitle>
+                      <CardDescription className="flex items-center gap-3 lg:ml-14">
+                        <Badge variant="outline" className="font-mono text-xs font-medium">
+                          ID: {selectedReport.id.slice(0, 12)}...
+                        </Badge>
+                        <Badge variant={selectedReport.doctor_signoff === 'Yes' ? 'default' : 'secondary'} className="font-medium">
+                          {selectedReport.doctor_signoff === 'Yes' ? '✓ Signed' : '⏳ Pending'}
+                        </Badge>
+                      </CardDescription>
+                    </div>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <Button
+                        onClick={handleGeneratePDF}
+                        disabled={!canGeneratePDF()}
+                        variant={canGeneratePDF() ? 'default' : 'secondary'}
+                        size="sm"
+                        className="hover-lift"
+                        title={canGeneratePDF() ? 'Generate PDF' : 'PDF only available for signed reports'}
+                      >
+                        <Download className="h-4 w-4 mr-1" />
+                        PDF
+                      </Button>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => setSelectedReport(null)}
+                        className="hover-lift"
+                      >
+                        <X className="h-4 w-4" />
+                      </Button>
+                    </div>
                   </div>
-                ) : formData ? (
-                  <div className='space-y-6'>
-                    {/* Report Heading */}
-                    <div className='bg-blue-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-blue-900 mb-3'>
-                        Report Heading
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>Report ID:</strong>{' '}
-                          {formData.report_heading?.report_id}
-                        </div>
-                        <div>
-                          <strong>Doctor Name:</strong>{' '}
-                          {formData.report_heading?.doctor_name || 'Unassigned'}
-                        </div>
-                        <div>
-                          <strong>Nurse Name:</strong>{' '}
-                          {formData.report_heading?.nurse_name || 'Unassigned'}
-                        </div>
-                        <div>
-                          <strong>Date Updated:</strong>{' '}
-                          {formData.report_heading?.date_updated
-                            ? new Date(
-                                formData.report_heading.date_updated
-                              ).toLocaleDateString()
-                            : 'N/A'}
+                </CardContent>
+              </Card>
+
+              {/* Form Content Card */}
+              <Card className="hover-lift max-h-screen overflow-y-auto scrollbar-premium">
+                <CardContent>
+                  {formLoading ? (
+                    <div className="text-center py-12">
+                      <div className="relative">
+                        <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto mb-4" />
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <FileText className="h-4 w-4 text-primary/30" />
                         </div>
                       </div>
+                      <p className="text-muted-foreground">Loading form data...</p>
                     </div>
+                  ) : formData ? (
+                    <div className="space-y-6">
+                      {/* Report Heading */}
+                      <Card className="border-primary/20">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <FileText className="h-5 w-5" />
+                            Report Information
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-3 text-sm">
+                          <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Report ID:</span>
+                              <span className="font-medium font-mono">{formData.report_heading?.report_id}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Doctor:</span>
+                              <span className="font-medium">{formData.report_heading?.doctor_name || 'Unassigned'}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Nurse:</span>
+                              <span className="font-medium">{formData.report_heading?.nurse_name || 'Unassigned'}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Last Updated:</span>
+                              <span className="font-medium">{formData.report_heading?.date_updated ? new Date(formData.report_heading.date_updated).toLocaleDateString() : 'N/A'}</span>
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
 
-                    {/* Personal Details */}
-                    <div className='bg-green-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-green-900 mb-3'>
-                        Personal Details
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>ID:</strong> {formData.personal_details?.id}
-                        </div>
-                        <div>
-                          <strong>Name:</strong>{' '}
-                          {formData.personal_details?.name}
-                        </div>
-                        <div>
-                          <strong>Surname:</strong>{' '}
-                          {formData.personal_details?.surname}
-                        </div>
-                        <div>
-                          <strong>Gender:</strong>{' '}
-                          {formData.personal_details?.gender}
-                        </div>
-                        <div>
-                          <strong>ID or Passport:</strong>{' '}
-                          {formData.personal_details?.id_or_passport}
-                        </div>
-                        <div>
-                          <strong>Age:</strong> {formData.personal_details?.age}
-                        </div>
-                        <div>
-                          <strong>Height (cm):</strong>{' '}
-                          {formData.personal_details?.height_cm}
-                        </div>
-                        <div>
-                          <strong>Waist (cm):</strong>{' '}
-                          {formData.personal_details?.waist}
-                        </div>
-                        <div>
-                          <strong>Weight (kg):</strong>{' '}
-                          {formData.personal_details?.weight_kg}
-                        </div>
-                        <div>
-                          <strong>Blood Pressure:</strong>{' '}
-                          {formData.personal_details?.blood_pressure}
-                        </div>
-                        <div>
-                          <strong>Blood Pressure Status:</strong>{' '}
-                          {formData.personal_details?.blood_pressure_status}
-                        </div>
-                        <div>
-                          <strong>BMI:</strong> {formData.personal_details?.bmi}
-                        </div>
-                        <div>
-                          <strong>BMI Status:</strong>{' '}
-                          {formData.personal_details?.bmi_status}
-                        </div>
-                        <div>
-                          <strong>WHtR Percent:</strong>{' '}
-                          {formData.personal_details?.whtr_percent}
-                        </div>
-                        <div>
-                          <strong>WHtR Status:</strong>{' '}
-                          {formData.personal_details?.whtr_status}
-                        </div>
-                      </div>
-                    </div>
+                      {/* Personal Details */}
+                      <Card className="border-green-500/20">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <Users className="h-5 w-5" />
+                            Personal Details
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="space-y-3 text-sm">
+                          <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">ID:</span>
+                              <span className="font-medium">{formData.personal_details?.id}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Name:</span>
+                              <span className="font-medium">{formData.personal_details?.name}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Surname:</span>
+                              <span className="font-medium">{formData.personal_details?.surname}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Gender:</span>
+                              <span className="font-medium">{formData.personal_details?.gender}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">ID/Passport:</span>
+                              <span className="font-medium">{formData.personal_details?.id_or_passport}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Age:</span>
+                              <span className="font-medium">{formData.personal_details?.age}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Height:</span>
+                              <span className="font-medium">{formData.personal_details?.height_cm} cm</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Weight:</span>
+                              <span className="font-medium">{formData.personal_details?.weight_kg} kg</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">BMI:</span>
+                              <span className="font-medium">{formData.personal_details?.bmi}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">BMI Status:</span>
+                              <Badge variant="outline">{formData.personal_details?.bmi_status}</Badge>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">Blood Pressure:</span>
+                              <span className="font-medium">{formData.personal_details?.blood_pressure}</span>
+                            </div>
+                            <div className="flex gap-2">
+                              <span className="text-muted-foreground">BP Status:</span>
+                              <Badge variant="outline">{formData.personal_details?.blood_pressure_status}</Badge>
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
 
                     {/* Clinical Examinations */}
-                    <div className='bg-yellow-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-yellow-900 mb-3'>
-                        Clinical Examinations
-                      </h4>
-                      <div className='grid grid-cols-1 gap-2 text-sm'>
-                        <div>
-                          <strong>General Assessment:</strong>{' '}
-                          {formData.clinical_examinations?.general_assessment ||
-                            'Not Done'}
+                    <Card className="border-teal-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <Stethoscope className="h-5 w-5" />
+                          Clinical Examinations
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-1 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">General Assessment:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.general_assessment || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Head & Neck (incl Thyroid):</span>
+                            <span className="font-medium">{formData.clinical_examinations?.head_neck_incl_thyroid || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Cardiovascular:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.cardiovascular || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Respiratory:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.respiratory || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Gastrointestinal:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.gastrointestinal || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Musculoskeletal:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.musculoskeletal || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Neurological:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.neurological || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Skin:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.skin || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Hearing Assessment:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.hearing_assessment || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Eyesight Status:</span>
+                            <span className="font-medium">{formData.clinical_examinations?.eyesight_status || 'Not Done'}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Head & Neck (incl Thyroid):</strong>{' '}
-                          {formData.clinical_examinations
-                            ?.head_neck_incl_thyroid || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Cardiovascular:</strong>{' '}
-                          {formData.clinical_examinations?.cardiovascular ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Respiratory:</strong>{' '}
-                          {formData.clinical_examinations?.respiratory ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Gastrointestinal:</strong>{' '}
-                          {formData.clinical_examinations?.gastrointestinal ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Musculoskeletal:</strong>{' '}
-                          {formData.clinical_examinations?.musculoskeletal ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Neurological:</strong>{' '}
-                          {formData.clinical_examinations?.neurological ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Skin:</strong>{' '}
-                          {formData.clinical_examinations?.skin || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Hearing Assessment:</strong>{' '}
-                          {formData.clinical_examinations?.hearing_assessment ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Eyesight Status:</strong>{' '}
-                          {formData.clinical_examinations?.eyesight_status ||
-                            'Not Done'}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Lab Tests */}
-                    <div className='bg-purple-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-purple-900 mb-3'>
-                        Lab Tests
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>Full Blood Count & ESR:</strong>{' '}
-                          {formData.lab_tests?.full_blood_count_an_esr ||
-                            'Not Done'}
+                    <Card className="border-gray-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <FileText className="h-5 w-5" />
+                          Lab Tests
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Full Blood Count & ESR:</span>
+                            <span className="font-medium">{formData.lab_tests?.full_blood_count_an_esr || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Kidney Function:</span>
+                            <span className="font-medium">{formData.lab_tests?.kidney_function || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Liver Enzymes:</span>
+                            <span className="font-medium">{formData.lab_tests?.liver_enzymes || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Vitamin D:</span>
+                            <span className="font-medium">{formData.lab_tests?.vitamin_d || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Uric Acid:</span>
+                            <span className="font-medium">{formData.lab_tests?.uric_acid || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">hs-CRP:</span>
+                            <span className="font-medium">{formData.lab_tests?.hs_crp || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Homocysteine:</span>
+                            <span className="font-medium">{formData.lab_tests?.homocysteine || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Total Cholesterol:</span>
+                            <span className="font-medium">{formData.lab_tests?.total_cholesterol || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Fasting Glucose:</span>
+                            <span className="font-medium">{formData.lab_tests?.fasting_glucose || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Insulin Level:</span>
+                            <span className="font-medium">{formData.lab_tests?.insulin_level || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Thyroid Stimulating Hormone:</span>
+                            <span className="font-medium">{formData.lab_tests?.thyroid_stimulating_hormone || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Adrenal Response:</span>
+                            <span className="font-medium">{formData.lab_tests?.adrenal_response || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Sex Hormones:</span>
+                            <span className="font-medium">{formData.lab_tests?.sex_hormones || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">PSA:</span>
+                            <span className="font-medium">{formData.lab_tests?.psa || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">HIV:</span>
+                            <span className="font-medium">{formData.lab_tests?.hiv || 'Not Done'}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Kidney Function:</strong>{' '}
-                          {formData.lab_tests?.kidney_function || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Liver Enzymes:</strong>{' '}
-                          {formData.lab_tests?.liver_enzymes || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Vitamin D:</strong>{' '}
-                          {formData.lab_tests?.vitamin_d || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Uric Acid:</strong>{' '}
-                          {formData.lab_tests?.uric_acid || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>hs-CRP:</strong>{' '}
-                          {formData.lab_tests?.hs_crp || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Homocysteine:</strong>{' '}
-                          {formData.lab_tests?.homocysteine || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Total Cholesterol:</strong>{' '}
-                          {formData.lab_tests?.total_cholesterol || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Fasting Glucose:</strong>{' '}
-                          {formData.lab_tests?.fasting_glucose || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Insulin Level:</strong>{' '}
-                          {formData.lab_tests?.insulin_level || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Thyroid Stimulating Hormone:</strong>{' '}
-                          {formData.lab_tests?.thyroid_stimulating_hormone ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Adrenal Response:</strong>{' '}
-                          {formData.lab_tests?.adrenal_response || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Sex Hormones:</strong>{' '}
-                          {formData.lab_tests?.sex_hormones || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>PSA:</strong>{' '}
-                          {formData.lab_tests?.psa || 'Not Done'}
-                        </div>
-                        <div>
-                          <strong>HIV:</strong>{' '}
-                          {formData.lab_tests?.hiv || 'Not Done'}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Special Investigations */}
-                    <div className='bg-cyan-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-cyan-900 mb-3'>
-                        Special Investigations
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>Resting ECG:</strong>{' '}
-                          {formData.special_investigations?.resting_ecg ||
-                            'Not Done'}
+                    <Card className="border-teal-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <FileText className="h-5 w-5" />
+                          Special Investigations
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Resting ECG:</span>
+                            <span className="font-medium">{formData.special_investigations?.resting_ecg || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Stress ECG:</span>
+                            <span className="font-medium">{formData.special_investigations?.stress_ecg || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Lung Function:</span>
+                            <span className="font-medium">{formData.special_investigations?.lung_function || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Urine Dipstix:</span>
+                            <span className="font-medium">{formData.special_investigations?.urine_dipstix || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">KardioFit:</span>
+                            <span className="font-medium">{formData.special_investigations?.kardiofit || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">NerveIQ Cardio:</span>
+                            <span className="font-medium">{formData.special_investigations?.nerveiq_cardio || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">NerveIQ CNS:</span>
+                            <span className="font-medium">{formData.special_investigations?.nerveiq_cns || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">NerveIQ:</span>
+                            <span className="font-medium">{formData.special_investigations?.nerveiq || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Predicted VO2 Max:</span>
+                            <span className="font-medium">{formData.special_investigations?.predicted_vo2_max || 'Not Done'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Body Fat Percentage:</span>
+                            <span className="font-medium">{formData.special_investigations?.body_fat_percentage || 'Not Done'}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Stress ECG:</strong>{' '}
-                          {formData.special_investigations?.stress_ecg ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Lung Function:</strong>{' '}
-                          {formData.special_investigations?.lung_function ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Urine Dipstix:</strong>{' '}
-                          {formData.special_investigations?.urine_dipstix ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>KardioFit:</strong>{' '}
-                          {formData.special_investigations?.kardiofit ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>NerveIQ Cardio:</strong>{' '}
-                          {formData.special_investigations?.nerveiq_cardio ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>NerveIQ CNS:</strong>{' '}
-                          {formData.special_investigations?.nerveiq_cns ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>NerveIQ:</strong>{' '}
-                          {formData.special_investigations?.nerveiq ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Predicted VO2 Max:</strong>{' '}
-                          {formData.special_investigations?.predicted_vo2_max ||
-                            'Not Done'}
-                        </div>
-                        <div>
-                          <strong>Body Fat Percentage:</strong>{' '}
-                          {formData.special_investigations
-                            ?.body_fat_percentage || 'Not Done'}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Medical History */}
-                    <div className='bg-red-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-red-900 mb-3'>
-                        Medical History
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>High Blood Pressure:</strong>{' '}
-                          {formData.medical_history?.high_blood_pressure}
+                    <Card className="border-gray-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <FileText className="h-5 w-5" />
+                          Medical History
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">High Blood Pressure:</span>
+                            <span className="font-medium">{formData.medical_history?.high_blood_pressure}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">High Cholesterol:</span>
+                            <span className="font-medium">{formData.medical_history?.high_cholesterol}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Diabetes:</span>
+                            <span className="font-medium">{formData.medical_history?.diabetes}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Asthma:</span>
+                            <span className="font-medium">{formData.medical_history?.asthma}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Epilepsy:</span>
+                            <span className="font-medium">{formData.medical_history?.epilepsy}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Thyroid Disease:</span>
+                            <span className="font-medium">{formData.medical_history?.thyroid_disease}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Inflammatory Bowel Disease:</span>
+                            <span className="font-medium">{formData.medical_history?.inflammatory_bowel_disease}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Hepatitis:</span>
+                            <span className="font-medium">{formData.medical_history?.hepatitis}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Surgery:</span>
+                            <span className="font-medium">{formData.medical_history?.surgery}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Anxiety or Depression:</span>
+                            <span className="font-medium">{formData.medical_history?.anxiety_or_depression}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Bipolar Mood Disorder:</span>
+                            <span className="font-medium">{formData.medical_history?.bipolar_mood_disorder}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">HIV:</span>
+                            <span className="font-medium">{formData.medical_history?.hiv}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">TB:</span>
+                            <span className="font-medium">{formData.medical_history?.tb}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Disability:</span>
+                            <span className="font-medium">{formData.medical_history?.disability}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Cardiac Event in Family:</span>
+                            <span className="font-medium">{formData.medical_history?.cardiac_event_in_family}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Cancer Family:</span>
+                            <span className="font-medium">{formData.medical_history?.cancer_family}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>High Cholesterol:</strong>{' '}
-                          {formData.medical_history?.high_cholesterol}
-                        </div>
-                        <div>
-                          <strong>Diabetes:</strong>{' '}
-                          {formData.medical_history?.diabetes}
-                        </div>
-                        <div>
-                          <strong>Asthma:</strong>{' '}
-                          {formData.medical_history?.asthma}
-                        </div>
-                        <div>
-                          <strong>Epilepsy:</strong>{' '}
-                          {formData.medical_history?.epilepsy}
-                        </div>
-                        <div>
-                          <strong>Thyroid Disease:</strong>{' '}
-                          {formData.medical_history?.thyroid_disease}
-                        </div>
-                        <div>
-                          <strong>Inflammatory Bowel Disease:</strong>{' '}
-                          {formData.medical_history?.inflammatory_bowel_disease}
-                        </div>
-                        <div>
-                          <strong>Hepatitis:</strong>{' '}
-                          {formData.medical_history?.hepatitis}
-                        </div>
-                        <div>
-                          <strong>Surgery:</strong>{' '}
-                          {formData.medical_history?.surgery}
-                        </div>
-                        <div>
-                          <strong>Anxiety or Depression:</strong>{' '}
-                          {formData.medical_history?.anxiety_or_depression}
-                        </div>
-                        <div>
-                          <strong>Bipolar Mood Disorder:</strong>{' '}
-                          {formData.medical_history?.bipolar_mood_disorder}
-                        </div>
-                        <div>
-                          <strong>HIV:</strong> {formData.medical_history?.hiv}
-                        </div>
-                        <div>
-                          <strong>TB:</strong> {formData.medical_history?.tb}
-                        </div>
-                        <div>
-                          <strong>Disability:</strong>{' '}
-                          {formData.medical_history?.disability}
-                        </div>
-                        <div>
-                          <strong>Cardiac Event in Family:</strong>{' '}
-                          {formData.medical_history?.cardiac_event_in_family}
-                        </div>
-                        <div>
-                          <strong>Cancer Family:</strong>{' '}
-                          {formData.medical_history?.cancer_family}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Allergies */}
-                    <div className='bg-orange-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-orange-900 mb-3'>
-                        Allergies
-                      </h4>
-                      <div className='grid grid-cols-3 gap-4 text-sm'>
-                        <div>
-                          <strong>Environmental:</strong>{' '}
-                          {formData.allergies?.environmental}
+                    <Card className="border-teal-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <AlertCircle className="h-5 w-5" />
+                          Allergies
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-3 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Environmental:</span>
+                            <span className="font-medium">{formData.allergies?.environmental}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Food:</span>
+                            <span className="font-medium">{formData.allergies?.food}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Medication:</span>
+                            <span className="font-medium">{formData.allergies?.medication}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Food:</strong> {formData.allergies?.food}
-                        </div>
-                        <div>
-                          <strong>Medication:</strong>{' '}
-                          {formData.allergies?.medication}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Current Medication and Supplements */}
-                    <div className='bg-indigo-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-indigo-900 mb-3'>
-                        Current Medication and Supplements
-                      </h4>
-                      <div className='grid grid-cols-1 gap-2 text-sm'>
-                        <div>
-                          <strong>Chronic Medication:</strong>{' '}
-                          {
-                            formData.current_medication_supplements
-                              ?.chronic_medication
-                          }
+                    <Card className="border-gray-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <FileText className="h-5 w-5" />
+                          Current Medication and Supplements
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-1 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Chronic Medication:</span>
+                            <span className="font-medium">{formData.current_medication_supplements?.chronic_medication}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Vitamins/Supplements:</span>
+                            <span className="font-medium">{formData.current_medication_supplements?.vitamins_supplements}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Vitamins/Supplements:</strong>{' '}
-                          {
-                            formData.current_medication_supplements
-                              ?.vitamins_supplements
-                          }
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Screening */}
-                    <div className='bg-amber-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-amber-900 mb-3'>
-                        Screening
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>Abdominal UltraSound:</strong>{' '}
-                          {formData.screening?.abdominal_ultrasound}
+                    <Card className="border-teal-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <Search className="h-5 w-5" />
+                          Screening
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Abdominal UltraSound:</span>
+                            <span className="font-medium">{formData.screening?.abdominal_ultrasound}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Colonoscopy:</span>
+                            <span className="font-medium">{formData.screening?.colonoscopy}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Gastroscopy:</span>
+                            <span className="font-medium">{formData.screening?.gastroscopy}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Bone Density Scan:</span>
+                            <span className="font-medium">{formData.screening?.bone_density_scan}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Annual Screening for Prostate:</span>
+                            <span className="font-medium">{formData.screening?.annual_screening_prostate}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Colonoscopy:</strong>{' '}
-                          {formData.screening?.colonoscopy}
-                        </div>
-                        <div>
-                          <strong>Gastroscopy:</strong>{' '}
-                          {formData.screening?.gastroscopy}
-                        </div>
-                        <div>
-                          <strong>Bone Density Scan:</strong>{' '}
-                          {formData.screening?.bone_density_scan}
-                        </div>
-                        <div>
-                          <strong>Annual Screening for Prostate:</strong>{' '}
-                          {formData.screening?.annual_screening_prostate}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Mental Health */}
-                    <div className='bg-teal-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-teal-900 mb-3'>
-                        Mental Health
-                      </h4>
-                      <div className='grid grid-cols-2 gap-4 text-sm'>
-                        <div>
-                          <strong>Anxiety Level:</strong>{' '}
-                          {formData.mental_health?.anxiety_level ||
-                            'Not assessed'}
+                    <Card className="border-gray-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <Users className="h-5 w-5" />
+                          Mental Health
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-3 text-sm">
+                        <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Anxiety Level:</span>
+                            <span className="font-medium">{formData.mental_health?.anxiety_level || 'Not assessed'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Energy Level:</span>
+                            <span className="font-medium">{formData.mental_health?.energy_level || 'Not assessed'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Mood Level:</span>
+                            <span className="font-medium">{formData.mental_health?.mood_level || 'Not assessed'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Stress Level:</span>
+                            <span className="font-medium">{formData.mental_health?.stress_level || 'Not assessed'}</span>
+                          </div>
+                          <div className="flex gap-2">
+                            <span className="text-muted-foreground">Sleep Rating:</span>
+                            <span className="font-medium">{formData.mental_health?.sleep_rating || 'Not assessed'}</span>
+                          </div>
                         </div>
-                        <div>
-                          <strong>Energy Level:</strong>{' '}
-                          {formData.mental_health?.energy_level ||
-                            'Not assessed'}
-                        </div>
-                        <div>
-                          <strong>Mood Level:</strong>{' '}
-                          {formData.mental_health?.mood_level || 'Not assessed'}
-                        </div>
-                        <div>
-                          <strong>Stress Level:</strong>{' '}
-                          {formData.mental_health?.stress_level ||
-                            'Not assessed'}
-                        </div>
-                        <div>
-                          <strong>Sleep Rating:</strong>{' '}
-                          {formData.mental_health?.sleep_rating ||
-                            'Not assessed'}
-                        </div>
-                      </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Cardiovascular/Stroke Risk */}
-                    <div className='bg-pink-50 p-4 rounded-lg'>
-                      <h4 className='font-semibold text-pink-900 mb-3'>
-                        Cardiovascular/Stroke Risk
-                      </h4>
-
-                      <div className='flex gap-6'>
-                        {/* Risk factors table */}
-                        <div className='flex-1'>
-                          <div className='bg-white rounded border divide-y'>
-                            {formData.cardiovascular_stroke_risk &&
-                              Object.entries({
-                                'Age & Gender':
-                                  formData.cardiovascular_stroke_risk
-                                    .age_and_gender_risk,
-                                'Blood Pressure':
-                                  formData.cardiovascular_stroke_risk
-                                    .blood_pressure,
-                                Cholesterol:
-                                  formData.cardiovascular_stroke_risk
-                                    .cholesterol,
-                                Diabetes:
-                                  formData.cardiovascular_stroke_risk.diabetes,
-                                Obesity:
-                                  formData.cardiovascular_stroke_risk.obesity,
-                                'Waist to Hip Ratio':
-                                  formData.cardiovascular_stroke_risk
-                                    .waist_to_hip_ratio,
-                                'Overall Diet':
-                                  formData.cardiovascular_stroke_risk
-                                    .overall_diet,
-                                Exercise:
-                                  formData.cardiovascular_stroke_risk.exercise,
-                                'Alcohol Consumption':
-                                  formData.cardiovascular_stroke_risk
-                                    .alcohol_consumption,
-                                Smoking:
-                                  formData.cardiovascular_stroke_risk.smoking,
-                                'Stress Level':
-                                  formData.cardiovascular_stroke_risk
-                                    .stress_level,
-                                'Previous Cardiac Event':
-                                  formData.cardiovascular_stroke_risk
-                                    .previous_cardiac_event,
-                                'Cardiac History In Family':
-                                  formData.cardiovascular_stroke_risk
-                                    .cardiac_history_in_family,
-                                'Stroke History In Family':
-                                  formData.cardiovascular_stroke_risk
-                                    .stroke_history_in_family,
-                                'Reynolds Risk Score':
-                                  formData.cardiovascular_stroke_risk
-                                    .reynolds_risk_score,
-                              }).map(([factor, status]) => (
-                                <div
-                                  key={factor}
-                                  className='flex justify-between items-center px-3 py-2 text-sm'
-                                >
-                                  <span>{factor}</span>
-                                  <span
-                                    className={`px-2 py-1 rounded text-xs font-semibold ${
-                                      status === 'At Risk'
-                                        ? 'bg-red-100 text-red-800'
-                                        : status === 'Medium Risk' ||
-                                            status === 'Medium'
-                                          ? 'bg-yellow-100 text-yellow-800'
-                                          : status === 'Low Risk' ||
-                                              status === 'No Risk'
-                                            ? 'bg-green-100 text-green-800'
-                                            : 'bg-green-100 text-green-800'
-                                    }`}
-                                  >
-                                    {status}
-                                  </span>
-                                </div>
-                              ))}
+                    <Card className="border-teal-200">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <Stethoscope className="h-5 w-5" />
+                          Cardiovascular/Stroke Risk
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="pt-0">
+                      
+                      {/* Risk factors table */}
+                      <div className="bg-white rounded border divide-y mb-6">
+                        {formData.cardiovascular_stroke_risk && Object.entries({
+                          'Age & Gender': formData.cardiovascular_stroke_risk.age_and_gender_risk,
+                          'Blood Pressure': formData.cardiovascular_stroke_risk.blood_pressure,
+                          'Cholesterol': formData.cardiovascular_stroke_risk.cholesterol,
+                          'Diabetes': formData.cardiovascular_stroke_risk.diabetes,
+                          'Obesity': formData.cardiovascular_stroke_risk.obesity,
+                          'Waist to Hip Ratio': formData.cardiovascular_stroke_risk.waist_to_hip_ratio,
+                          'Overall Diet': formData.cardiovascular_stroke_risk.overall_diet,
+                          'Exercise': formData.cardiovascular_stroke_risk.exercise,
+                          'Alcohol Consumption': formData.cardiovascular_stroke_risk.alcohol_consumption,
+                          'Smoking': formData.cardiovascular_stroke_risk.smoking,
+                          'Stress Level': formData.cardiovascular_stroke_risk.stress_level,
+                          'Previous Cardiac Event': formData.cardiovascular_stroke_risk.previous_cardiac_event,
+                          'Cardiac History In Family': formData.cardiovascular_stroke_risk.cardiac_history_in_family,
+                          'Stroke History In Family': formData.cardiovascular_stroke_risk.stroke_history_in_family,
+                          'Reynolds Risk Score': formData.cardiovascular_stroke_risk.reynolds_risk_score
+                        }).map(([factor, status]) => (
+                          <div key={factor} className="flex justify-between items-center px-3 py-2 text-sm">
+                            <span>{factor}</span>
+                            <span className={`px-2 py-1 rounded text-xs font-semibold ${
+                              status === 'At Risk' ? 'bg-red-100 text-red-800' :
+                              status === 'Medium Risk' || status === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
+                              status === 'Low Risk' || status === 'No Risk' ? 'bg-green-100 text-green-800' :
+                              'bg-green-100 text-green-800'
+                            }`}>
+                              {status}
+                            </span>
                           </div>
-                        </div>
+                        ))}
+                      </div>
 
-                        {/* Risk distribution pie chart */}
-                        <div className='w-64'>
-                          <div className='bg-white p-4 rounded border text-center'>
-                            <h5 className='font-semibold text-gray-900 mb-3'>
-                              Risk Distribution
-                            </h5>
-                            {(() => {
-                              const riskFactors =
-                                formData.cardiovascular_stroke_risk
-                                  ? Object.values({
-                                      age_gender:
-                                        formData.cardiovascular_stroke_risk
-                                          .age_and_gender_risk,
-                                      blood_pressure:
-                                        formData.cardiovascular_stroke_risk
-                                          .blood_pressure,
-                                      cholesterol:
-                                        formData.cardiovascular_stroke_risk
-                                          .cholesterol,
-                                      diabetes:
-                                        formData.cardiovascular_stroke_risk
-                                          .diabetes,
-                                      obesity:
-                                        formData.cardiovascular_stroke_risk
-                                          .obesity,
-                                      waist_to_hip_ratio:
-                                        formData.cardiovascular_stroke_risk
-                                          .waist_to_hip_ratio,
-                                      overall_diet:
-                                        formData.cardiovascular_stroke_risk
-                                          .overall_diet,
-                                      exercise:
-                                        formData.cardiovascular_stroke_risk
-                                          .exercise,
-                                      alcohol_consumption:
-                                        formData.cardiovascular_stroke_risk
-                                          .alcohol_consumption,
-                                      smoking:
-                                        formData.cardiovascular_stroke_risk
-                                          .smoking,
-                                      stress_level:
-                                        formData.cardiovascular_stroke_risk
-                                          .stress_level,
-                                      previous_cardiac_event:
-                                        formData.cardiovascular_stroke_risk
-                                          .previous_cardiac_event,
-                                      cardiac_history_in_family:
-                                        formData.cardiovascular_stroke_risk
-                                          .cardiac_history_in_family,
-                                      stroke_history_in_family:
-                                        formData.cardiovascular_stroke_risk
-                                          .stroke_history_in_family,
-                                      reynolds_risk_score:
-                                        formData.cardiovascular_stroke_risk
-                                          .reynolds_risk_score,
-                                    })
-                                  : [];
-
-                              const riskCounts = riskFactors.reduce(
-                                (acc: Record<string, number>, risk) => {
-                                  const normalizedRisk =
-                                    risk === 'No Risk' || risk === 'Low Risk'
-                                      ? 'Low Risk'
-                                      : risk === 'Medium Risk' ||
-                                          risk === 'Medium'
-                                        ? 'Medium'
-                                        : 'At Risk';
-                                  acc[normalizedRisk] =
-                                    (acc[normalizedRisk] || 0) + 1;
-                                  return acc;
-                                },
-                                {}
-                              );
-
-                              const total = Object.values(riskCounts).reduce(
-                                (sum: number, count: number) => sum + count,
-                                0
-                              );
-                              const colors = {
-                                'Low Risk': '#10B981',
-                                Medium: '#F59E0B',
-                                'At Risk': '#EF4444',
-                              };
-
-                              // Create slices for pie chart
-                              const slices = Object.entries(riskCounts).map(
-                                ([status, count]) => ({
-                                  status,
-                                  count,
-                                  percentage: Math.round(
-                                    ((count as number) / (total as number)) *
-                                      100
-                                  ),
-                                  color:
-                                    colors[status as keyof typeof colors] ||
-                                    '#6B7280',
-                                })
-                              );
-
-                              // Sort by count descending
-                              slices.sort(
-                                (a, b) =>
-                                  (b.count as number) - (a.count as number)
-                              );
-                              const dominantSlice = slices[0];
-                              const hasMultiple = slices.length > 1;
-
-                              return (
-                                <div className='flex flex-col items-center'>
-                                  {/* Pie Chart Visual */}
-                                  <div className='relative mb-4'>
-                                    <svg
-                                      width='80'
-                                      height='80'
-                                      className='transform -rotate-90'
-                                    >
-                                      {(() => {
-                                        let cumulativeAngle = 0;
-                                        const radius = 35;
-                                        const centerX = 40;
-                                        const centerY = 40;
-
-                                        return slices.map(
-                                          (
-                                            { status, percentage, color },
-                                            index
-                                          ) => {
-                                            const angle =
-                                              (percentage / 100) * 360;
-                                            const startAngle = cumulativeAngle;
-                                            const endAngle =
-                                              cumulativeAngle + angle;
-
-                                            const startAngleRad =
-                                              (startAngle * Math.PI) / 180;
-                                            const endAngleRad =
-                                              (endAngle * Math.PI) / 180;
-
-                                            const x1 =
-                                              centerX +
-                                              radius * Math.cos(startAngleRad);
-                                            const y1 =
-                                              centerY +
-                                              radius * Math.sin(startAngleRad);
-                                            const x2 =
-                                              centerX +
-                                              radius * Math.cos(endAngleRad);
-                                            const y2 =
-                                              centerY +
-                                              radius * Math.sin(endAngleRad);
-
-                                            const largeArcFlag =
-                                              angle > 180 ? 1 : 0;
-
-                                            const pathData = [
-                                              `M ${centerX} ${centerY}`,
-                                              `L ${x1} ${y1}`,
-                                              `A ${radius} ${radius} 0 ${largeArcFlag} 1 ${x2} ${y2}`,
-                                              'Z',
-                                            ].join(' ');
-
-                                            cumulativeAngle += angle;
-
-                                            return (
-                                              <path
-                                                key={status}
-                                                d={pathData}
-                                                fill={color}
-                                                stroke='#ffffff'
-                                                strokeWidth='1'
-                                              />
-                                            );
-                                          }
-                                        );
-                                      })()}
-                                    </svg>
-                                    <div className='absolute inset-0 flex items-center justify-center'>
-                                      <div className='text-center'>
-                                        <div className='text-xs font-bold text-gray-800'>
-                                          {total as number}
-                                        </div>
-                                        <div className='text-xs text-gray-600'>
-                                          Factors
-                                        </div>
-                                      </div>
+                      {/* Risk Distribution Pie Chart */}
+                      <div className="bg-white p-6 rounded border">
+                        <h5 className="font-semibold text-gray-900 text-center text-base mb-6">Risk Distribution</h5>
+                        {(() => {
+                          const riskFactors = formData.cardiovascular_stroke_risk ? Object.values({
+                            age_gender: formData.cardiovascular_stroke_risk.age_and_gender_risk,
+                            blood_pressure: formData.cardiovascular_stroke_risk.blood_pressure,
+                            cholesterol: formData.cardiovascular_stroke_risk.cholesterol,
+                            diabetes: formData.cardiovascular_stroke_risk.diabetes,
+                            obesity: formData.cardiovascular_stroke_risk.obesity,
+                            waist_to_hip_ratio: formData.cardiovascular_stroke_risk.waist_to_hip_ratio,
+                            overall_diet: formData.cardiovascular_stroke_risk.overall_diet,
+                            exercise: formData.cardiovascular_stroke_risk.exercise,
+                            alcohol_consumption: formData.cardiovascular_stroke_risk.alcohol_consumption,
+                            smoking: formData.cardiovascular_stroke_risk.smoking,
+                            stress_level: formData.cardiovascular_stroke_risk.stress_level,
+                            previous_cardiac_event: formData.cardiovascular_stroke_risk.previous_cardiac_event,
+                            cardiac_history_in_family: formData.cardiovascular_stroke_risk.cardiac_history_in_family,
+                            stroke_history_in_family: formData.cardiovascular_stroke_risk.stroke_history_in_family,
+                            reynolds_risk_score: formData.cardiovascular_stroke_risk.reynolds_risk_score
+                          }) : [];
+                          
+                          const riskCounts = riskFactors.reduce((acc: Record<string, number>, risk) => {
+                            const normalizedRisk = risk === 'No Risk' || risk === 'Low Risk' ? 'Low Risk' : 
+                                                risk === 'Medium Risk' || risk === 'Medium' ? 'Medium Risk' : 'At Risk';
+                            acc[normalizedRisk] = (acc[normalizedRisk] || 0) + 1;
+                            return acc;
+                          }, {});
+                          
+                          const total = Object.values(riskCounts).reduce((sum: number, count) => sum + count, 0);
+                          const colors = {
+                            'Low Risk': '#0F766E',
+                            'Medium Risk': '#374151', 
+                            'At Risk': '#6B7280'
+                          };
+                          
+                          // Create slices for pie chart
+                          const slices = Object.entries(riskCounts).map(([status, count]) => ({
+                            status,
+                            count,
+                            percentage: Math.round((count / total) * 100),
+                            color: colors[status as keyof typeof colors] || '#6B7280'
+                          })).filter(slice => slice.count > 0);
+                          
+                          // Sort by count descending
+                          slices.sort((a, b) => b.count - a.count);
+                          
+                          return (
+                            <div className="flex justify-center items-center gap-8">
+                              {/* Pie Chart Visual */}
+                              <div className="relative">
+                                <svg width="240" height="240" className="transform -rotate-90">
+                                  {(() => {
+                                    let cumulativeAngle = 0;
+                                    const radius = 100;
+                                    const centerX = 120;
+                                    const centerY = 120;
+                                    
+                                    return slices.map(({ status, percentage, color }, index) => {
+                                      const angle = (percentage / 100) * 360;
+                                      const startAngle = cumulativeAngle;
+                                      const endAngle = cumulativeAngle + angle;
+                                      
+                                      const startAngleRad = (startAngle * Math.PI) / 180;
+                                      const endAngleRad = (endAngle * Math.PI) / 180;
+                                      
+                                      const x1 = centerX + radius * Math.cos(startAngleRad);
+                                      const y1 = centerY + radius * Math.sin(startAngleRad);
+                                      const x2 = centerX + radius * Math.cos(endAngleRad);
+                                      const y2 = centerY + radius * Math.sin(endAngleRad);
+                                      
+                                      const largeArcFlag = angle > 180 ? 1 : 0;
+                                      
+                                      const pathData = [
+                                        `M ${centerX} ${centerY}`,
+                                        `L ${x1} ${y1}`,
+                                        `A ${radius} ${radius} 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                                        'Z'
+                                      ].join(' ');
+                                      
+                                      cumulativeAngle += angle;
+                                      
+                                      return (
+                                        <path
+                                          key={status}
+                                          d={pathData}
+                                          fill={color}
+                                          stroke="#ffffff"
+                                          strokeWidth="2"
+                                        />
+                                      );
+                                    });
+                                  })()}
+                                </svg>
+                              </div>
+                              
+                              {/* Legend */}
+                              <div className="space-y-3">
+                                {slices.map(({ status, count, percentage, color }) => (
+                                  <div key={status} className="flex items-center gap-3">
+                                    <div 
+                                      className="w-4 h-4 rounded-full"
+                                      style={{ backgroundColor: color }}
+                                    ></div>
+                                    <div className="flex flex-col">
+                                      <span className="font-medium text-gray-900">{status}</span>
+                                      <span className="text-sm text-gray-600">{count} factors ({percentage}%)</span>
                                     </div>
                                   </div>
-
-                                  {/* Legend */}
-                                  <div className='space-y-1'>
-                                    {slices.map(
-                                      ({
-                                        status,
-                                        count,
-                                        percentage,
-                                        color,
-                                      }) => (
-                                        <div
-                                          key={status}
-                                          className='flex items-center justify-between gap-3 text-xs'
-                                        >
-                                          <div className='flex items-center gap-2'>
-                                            <div
-                                              className='w-2 h-2 rounded'
-                                              style={{ backgroundColor: color }}
-                                            ></div>
-                                            <span>{String(status)}</span>
-                                          </div>
-                                          <span className='font-semibold'>
-                                            {count as number} ({percentage}%)
-                                          </span>
-                                        </div>
-                                      )
-                                    )}
-                                  </div>
-                                </div>
-                              );
-                            })()}
-                          </div>
-                        </div>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        })()}
                       </div>
-                    </div>
+                      </CardContent>
+                    </Card>
 
                     {/* Notes and Recommendations */}
                     {formData.notes_recommendations?.recommendation_text && (
-                      <div className='bg-gray-50 p-4 rounded-lg'>
-                        <h4 className='font-semibold text-gray-900 mb-3'>
-                          Notes and Recommendations
-                        </h4>
-                        <div className='text-sm'>
-                          <p className='text-gray-700'>
-                            {formData.notes_recommendations.recommendation_text}
-                          </p>
-                        </div>
-                      </div>
+                      <Card className="border-gray-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <FileText className="h-5 w-5" />
+                            Notes and Recommendations
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="pt-0">
+                          <div className="text-sm">
+                            <p className="text-gray-700">{formData.notes_recommendations.recommendation_text}</p>
+                          </div>
+                        </CardContent>
+                      </Card>
                     )}
 
                     {/* Men's Health - Only show for male employees */}
                     {formData.mens_health?.recommendation_text && (
-                      <div className='bg-blue-50 p-4 rounded-lg'>
-                        <h4 className='font-semibold text-blue-900 mb-3'>
-                          Men's Health
-                        </h4>
-                        <div className='text-sm'>
-                          <p className='text-gray-700'>
-                            {formData.mens_health.recommendation_text}
-                          </p>
-                        </div>
-                      </div>
+                      <Card className="border-teal-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <Users className="h-5 w-5" />
+                            Men's Health
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="pt-0">
+                          <div className="text-sm">
+                            <p className="text-gray-700">{formData.mens_health.recommendation_text}</p>
+                          </div>
+                        </CardContent>
+                      </Card>
                     )}
 
                     {/* Women's Health - Only show for female employees */}
                     {formData.womens_health?.recommendation_text && (
-                      <div className='bg-pink-50 p-4 rounded-lg'>
-                        <h4 className='font-semibold text-pink-900 mb-3'>
-                          Women's Health
-                        </h4>
-                        <div className='text-sm'>
-                          <p className='text-gray-700'>
-                            {formData.womens_health.recommendation_text}
-                          </p>
-                        </div>
-                      </div>
+                      <Card className="border-teal-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <Users className="h-5 w-5" />
+                            Women's Health
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="pt-0">
+                          <div className="text-sm">
+                            <p className="text-gray-700">{formData.womens_health.recommendation_text}</p>
+                          </div>
+                        </CardContent>
+                      </Card>
                     )}
 
                     {/* Overview */}
                     {formData.overview?.notes_text && (
-                      <div className='bg-slate-50 p-4 rounded-lg'>
-                        <h4 className='font-semibold text-slate-900 mb-3'>
-                          Overview
-                        </h4>
-                        <div className='text-sm'>
-                          <p className='text-gray-700'>
-                            {formData.overview.notes_text}
-                          </p>
-                        </div>
-                      </div>
+                      <Card className="border-gray-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                            <FileText className="h-5 w-5" />
+                            Overview
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="pt-0">
+                          <div className="text-sm">
+                            <p className="text-gray-700">{formData.overview.notes_text}</p>
+                          </div>
+                        </CardContent>
+                      </Card>
                     )}
 
                     {/* Important Information and Disclaimer */}
-                    <div className='bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500'>
-                      <h4 className='font-semibold text-yellow-900 mb-3'>
-                        Important Information and Disclaimer
-                      </h4>
-                      <div className='text-sm text-yellow-800'>
-                        <p className='whitespace-pre-line'>
-                          {
-                            formData.important_information_disclaimer
-                              ?.disclaimer_text
-                          }
-                        </p>
+                    <Card className="border-gray-200 border-l-4 border-l-gray-400">
+                      <CardHeader className="pb-3">
+                        <CardTitle className="text-lg flex items-center gap-2 section-heading heading-montserrat">
+                          <AlertCircle className="h-5 w-5" />
+                          Important Information and Disclaimer
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="pt-0">
+                        <div className="text-sm text-gray-700">
+                          <p className="whitespace-pre-line">{formData.important_information_disclaimer?.disclaimer_text}</p>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                  ) : (
+                    <div className="text-center py-12">
+                      <div className="flex flex-col items-center justify-center space-y-4">
+                        <AlertCircle className="h-12 w-12 text-muted-foreground" />
+                        <div>
+                          <h3 className="text-lg font-medium text-foreground mb-2">Failed to load form data</h3>
+                          <p className="text-muted-foreground">Please try selecting the report again.</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ) : (
-                  <div className='text-center py-12'>
-                    <div className='text-4xl mb-4'>📄</div>
-                    <h3 className='text-lg font-medium text-gray-900 mb-2'>
-                      Failed to load form data
-                    </h3>
-                    <p className='text-gray-500'>
-                      Please try selecting the report again.
-                    </p>
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
+                  )}
+                </CardContent>
+              </Card>
+              </>
+            )}
+          </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </DashboardLayout>
   );
 }

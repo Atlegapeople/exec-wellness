@@ -27,6 +27,7 @@ export async function GET() {
       FROM appointments a
       LEFT JOIN employee e ON e.id = a.employee_id
       WHERE a.start_datetime >= CURRENT_DATE - INTERVAL '7 days'
+      AND a.type = 'Executive Medical'
       ORDER BY a.start_datetime DESC
       LIMIT 20
     `;

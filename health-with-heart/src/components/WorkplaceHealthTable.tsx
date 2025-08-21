@@ -1,4 +1,5 @@
 import { WorkplaceHealth } from '@/types';
+import { Building2 } from 'lucide-react';
 
 interface WorkplaceHealthTableProps {
   data: WorkplaceHealth[];
@@ -13,7 +14,7 @@ export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border">
       <div className="flex items-center gap-2 mb-4">
-        <div className="text-purple-500 text-xl">🏢</div>
+        <Building2 className="h-5 w-5" style={{color: 'var(--teal-700)'}} />
         <h3 className="text-lg font-semibold">Workplace Health Summary</h3>
       </div>
       
@@ -34,7 +35,7 @@ export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps
               const fitnessRate = calculateFitnessRate(workplace.fit_for_work, workplace.medical_reports);
               
               return (
-                <tr key={index} className="border-b hover:bg-gray-50">
+                <tr key={`workplace-${workplace.organisation_id}-${workplace.department}-${index}`} className="border-b hover:bg-gray-50">
                   <td className="p-3">
                     <div>
                       <div className="font-medium">{workplace.department}</div>
@@ -42,7 +43,7 @@ export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps
                     </div>
                   </td>
                   <td className="p-3 text-center">
-                    <span className="bg-blue-100 text-blue-800 font-semibold px-2.5 py-0.5 rounded-full">
+                    <span className="font-semibold px-2.5 py-0.5 rounded-full" style={{backgroundColor: 'var(--teal-100)', color: 'var(--teal-800)'}}>
                       {workplace.total_employees}
                     </span>
                   </td>
@@ -50,16 +51,18 @@ export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps
                     {workplace.medical_reports}
                   </td>
                   <td className="p-3 text-center">
-                    <span className="bg-green-100 text-green-800 font-semibold px-2.5 py-0.5 rounded-full">
+                    <span className="font-semibold px-2.5 py-0.5 rounded-full" style={{backgroundColor: 'var(--teal-200)', color: 'var(--teal-800)'}}>
                       {workplace.fit_for_work}
                     </span>
                   </td>
                   <td className="p-3 text-center">
                     <span className={`font-semibold px-2.5 py-0.5 rounded-full ${
                       workplace.not_fit > 0 
-                        ? 'bg-red-100 text-red-800' 
+                        ? 'text-white' 
                         : 'bg-gray-100 text-gray-600'
-                    }`}>
+                    }`} style={{
+                      backgroundColor: workplace.not_fit > 0 ? 'var(--teal-600)' : undefined
+                    }}>
                       {workplace.not_fit}
                     </span>
                   </td>
