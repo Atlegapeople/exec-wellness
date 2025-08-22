@@ -36,6 +36,7 @@ import {
   ChevronsLeft,
   ChevronsRight,
   CalendarDays,
+  CalendarPlus,
 } from 'lucide-react';
 
 interface AppointmentWithEmployee extends Appointment {
@@ -351,13 +352,31 @@ export default function AppointmentsPage() {
             {/* Appointments Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                  <CalendarDays className='h-6 w-6' />
-                  Appointments ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Medical appointment scheduling and records
-                </CardDescription>
+                <div className='flex flex-row justify-between items-center flex-1'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                      <CalendarDays className='h-6 w-6' />
+                      Appointments ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Medical appointment scheduling and records
+                    </CardDescription>
+                  </div>
+
+                  <Button
+                    onClick={() => router.push('/appointments/new')}
+                    className={`hover-lift transition-all duration-300 ease-in-out ${
+                      selectedAppointment
+                        ? 'w-12 h-12 rounded-full p-0'
+                        : 'px-4 py-2'
+                    }`}
+                  >
+                    <CalendarPlus
+                      className={`${selectedAppointment ? 'h-5 w-5' : 'h-4 w-4 mr-2'}`}
+                    />
+                    {!selectedAppointment && <span>Add Appointment</span>}
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
                 {displayedAppointments.length === 0 ? (
