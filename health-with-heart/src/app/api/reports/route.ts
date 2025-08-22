@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/database';
 import { MedicalReport } from '@/types';
+import { v4 as uuidv4 } from 'uuid';
 
 export async function GET(request: NextRequest) {
   try {
@@ -75,7 +76,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const result = await query(reportsQuery, [limit, offset]);
-    
+
     const reports: any[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: new Date(row.date_created),
@@ -120,7 +121,7 @@ export async function GET(request: NextRequest) {
       doctor_surname: row.doctor_surname,
       nurse_name: row.nurse_name,
       nurse_surname: row.nurse_surname,
-      workplace_name: row.workplace_name
+      workplace_name: row.workplace_name,
     }));
 
     return NextResponse.json({
@@ -131,14 +132,124 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching medical reports:', error);
     return NextResponse.json(
       { error: 'Failed to fetch medical reports' },
+      { status: 500 }
+    );
+  }
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const {
+      type,
+      sub_type,
+      employee_id,
+      doctor,
+      nurse,
+      site,
+      report_work_status,
+      notes_text,
+      recommendation_text,
+      employee_work_email,
+      employee_personal_email,
+      manager_email,
+      doctor_email,
+      line_manager,
+      line_manager2,
+    } = body;
+
+    // Validate required fields
+    if (!type || !employee_id) {
+      return NextResponse.json(
+        { error: 'Missing required fields: type and employee_id are required' },
+        { status: 400 }
+      );
+    }
+
+    // Generate UUID for the report
+    const reportId = uuidv4();
+    const currentDate = new Date();
+
+    // Insert new medical report
+    const insertQuery = `
+      INSERT INTO medical_report (
+        id,
+        date_created,
+        date_updated,
+        user_created,
+        user_updated,
+        employee_id,
+        site,
+        type,
+        sub_type,
+        doctor,
+        doctor_signoff,
+        doctor_signature,
+        nurse,
+        nurse_signature,
+        report_work_status,
+        notes_text,
+        recommendation_text,
+        employee_work_email,
+        employee_personal_email,
+        manager_email,
+        doctor_email,
+        line_manager,
+        line_manager2
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23)
+      RETURNING id
+    `;
+
+    const insertParams = [
+      reportId,
+      currentDate,
+      currentDate,
+      'system', // TODO: Replace with actual user ID from auth
+      'system', // TODO: Replace with actual user ID from auth
+      employee_id,
+      site || null,
+      type,
+      sub_type || null,
+      doctor || null,
+      'No', // Default doctor signoff
+      null, // Default doctor signature
+      nurse || null,
+      null, // Default nurse signature
+      report_work_status || 'In Progress',
+      notes_text || null,
+      recommendation_text || null,
+      employee_work_email || null,
+      employee_personal_email || null,
+      manager_email || null,
+      doctor_email || null,
+      line_manager || null,
+      line_manager2 || null,
+    ];
+
+    const result = await query(insertQuery, insertParams);
+
+    if (result.rows.length === 0) {
+      throw new Error('Failed to insert medical report');
+    }
+
+    return NextResponse.json(
+      {
+        message: 'Medical report created successfully',
+        report_id: result.rows[0].id,
+      },
+      { status: 201 }
+    );
+  } catch (error) {
+    console.error('Error creating medical report:', error);
+    return NextResponse.json(
+      { error: 'Failed to create medical report' },
       { status: 500 }
     );
   }

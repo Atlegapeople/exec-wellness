@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/database';
 import { Appointment } from '@/types';
+import { v4 as uuidv4 } from 'uuid';
 
 export async function GET(request: NextRequest) {
   try {
@@ -12,11 +13,11 @@ export async function GET(request: NextRequest) {
     const offset = (page - 1) * limit;
 
     // Build search condition
-    const searchCondition = search 
+    const searchCondition = search
       ? `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $3 OR a.notes ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3)`
       : `WHERE a.type = 'Executive Medical'`;
-    
-    const countSearchCondition = search 
+
+    const countSearchCondition = search
       ? `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $1 OR a.notes ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1)`
       : `WHERE a.type = 'Executive Medical'`;
 
@@ -27,7 +28,7 @@ export async function GET(request: NextRequest) {
       LEFT JOIN employee e ON e.id = a.employee_id
       ${countSearchCondition}
     `;
-    
+
     const countParams = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
     const total = parseInt(countResult.rows[0].total);
@@ -69,15 +70,19 @@ export async function GET(request: NextRequest) {
       ${isGetAll ? '' : 'LIMIT $1 OFFSET $2'}
     `;
 
-    const queryParams = isGetAll 
-      ? (search ? [`%${search}%`] : [])
-      : (search ? [limit, offset, `%${search}%`] : [limit, offset]);
+    const queryParams = isGetAll
+      ? search
+        ? [`%${search}%`]
+        : []
+      : search
+        ? [limit, offset, `%${search}%`]
+        : [limit, offset];
 
     const result = await query(appointmentsQuery, queryParams);
-    
-    const appointments: (Appointment & { 
-      employee_name?: string; 
-      employee_surname?: string; 
+
+    const appointments: (Appointment & {
+      employee_name?: string;
+      employee_surname?: string;
       employee_email?: string;
       created_by_name?: string;
       updated_by_name?: string;
@@ -103,7 +108,7 @@ export async function GET(request: NextRequest) {
       employee_surname: row.employee_surname,
       employee_email: row.employee_email,
       created_by_name: row.created_by_name,
-      updated_by_name: row.updated_by_name
+      updated_by_name: row.updated_by_name,
     }));
 
     return NextResponse.json({
@@ -114,14 +119,111 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching appointments:', error);
     return NextResponse.json(
       { error: 'Failed to fetch appointments' },
+      { status: 500 }
+    );
+  }
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const {
+      type,
+      employee_id,
+      start_date,
+      end_date,
+      start_time,
+      end_time,
+      notes,
+      report_id,
+    } = body;
+
+    // Validate required fields
+    if (!type || !employee_id || !start_date || !start_time) {
+      return NextResponse.json(
+        {
+          error:
+            'Missing required fields: type, employee_id, start_date, and start_time are required',
+        },
+        { status: 400 }
+      );
+    }
+
+    // Generate UUID for the appointment
+    const appointmentId = uuidv4();
+    const currentDate = new Date();
+
+    // Parse dates and create datetime objects
+    const startDateTime = new Date(`${start_date}T${start_time}`);
+    const endDateTime =
+      end_date && end_time
+        ? new Date(`${end_date}T${end_time}`)
+        : startDateTime;
+
+    // Insert new appointment
+    const insertQuery = `
+      INSERT INTO appointments (
+        id,
+        date_created,
+        date_updated,
+        user_created,
+        user_updated,
+        report_id,
+        employee_id,
+        type,
+        start_datetime,
+        end_datetime,
+        start_date,
+        end_date,
+        start_time,
+        end_time,
+        notes
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
+      RETURNING id
+    `;
+
+    const insertParams = [
+      appointmentId,
+      currentDate,
+      currentDate,
+      'system', // TODO: Replace with actual user ID from auth
+      'system', // TODO: Replace with actual user ID from auth
+      report_id || null,
+      employee_id,
+      type,
+      startDateTime,
+      endDateTime,
+      new Date(start_date),
+      end_date ? new Date(end_date) : new Date(start_date),
+      start_time,
+      end_time || start_time,
+      notes || null,
+    ];
+
+    const result = await query(insertQuery, insertParams);
+
+    if (result.rows.length === 0) {
+      throw new Error('Failed to insert appointment');
+    }
+
+    return NextResponse.json(
+      {
+        message: 'Appointment created successfully',
+        appointment_id: result.rows[0].id,
+      },
+      { status: 201 }
+    );
+  } catch (error) {
+    console.error('Error creating appointment:', error);
+    return NextResponse.json(
+      { error: 'Failed to create appointment' },
       { status: 500 }
     );
   }
