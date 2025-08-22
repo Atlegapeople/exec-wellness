@@ -339,6 +339,7 @@ export default function EmployeesPage() {
                   </div>
 
                   <Button
+                    onClick={() => router.push('/employees/new')}
                     className={`hover-lift transition-all duration-300 ease-in-out ${
                       selectedEmployee
                         ? 'w-12 h-12 rounded-full p-0'
