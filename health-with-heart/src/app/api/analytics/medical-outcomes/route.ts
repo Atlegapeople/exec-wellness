@@ -75,7 +75,7 @@ export async function GET() {
       console.log('Outcomes query successful, rows:', outcomes.rows.length);
     } catch (error) {
       console.error('Outcomes query failed:', error);
-      throw new Error(`Outcomes query failed: ${error.message}`);
+      throw new Error(`Outcomes query failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
     
     try {
@@ -84,7 +84,7 @@ export async function GET() {
       console.log('Trends query successful, rows:', trends.rows.length);
     } catch (error) {
       console.error('Trends query failed:', error);
-      throw new Error(`Trends query failed: ${error.message}`);
+      throw new Error(`Trends query failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
     
     try {
@@ -93,7 +93,7 @@ export async function GET() {
       console.log('Age groups query successful, rows:', ageGroups.rows.length);
     } catch (error) {
       console.error('Age groups query failed:', error);
-      throw new Error(`Age groups query failed: ${error.message}`);
+      throw new Error(`Age groups query failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
 
     return NextResponse.json({

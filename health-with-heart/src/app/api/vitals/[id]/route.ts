@@ -22,7 +22,8 @@ export async function GET(
       LEFT JOIN employee e ON e.id = v.employee_id
       LEFT JOIN users uc ON uc.id = v.user_created
       LEFT JOIN users uu ON uu.id = v.user_updated
-      LEFT JOIN notes n ON n.report_id = v.report_id OR n.employee_id = v.employee_id
+      LEFT JOIN medical_reports mr ON mr.id = v.report_id
+      LEFT JOIN notes n ON n.report_id = mr.id
       WHERE v.id = $1
     `;
 

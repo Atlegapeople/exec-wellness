@@ -26,11 +26,11 @@ export async function GET(request: NextRequest) {
       ${countSearchCondition}
     `;
     
-    const countParams = search ? [`%${search}%`] : [];
+    const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
     const total = parseInt(countResult.rows[0].total);
 
-    // Get vitals with employee details and notes
+    // Get vitals with employee details (temporarily without notes to debug)
     const vitalsQuery = `
       SELECT 
         v.*,
@@ -39,13 +39,11 @@ export async function GET(request: NextRequest) {
         e.employee_number,
         e.work_email AS employee_email,
         uc.name || ' ' || uc.surname AS created_by_name,
-        uu.name || ' ' || uu.surname AS updated_by_name,
-        n.notes_text
+        uu.name || ' ' || uu.surname AS updated_by_name
       FROM vitals_clinical_metrics v
       LEFT JOIN employee e ON e.id = v.employee_id
       LEFT JOIN users uc ON uc.id = v.user_created
       LEFT JOIN users uu ON uu.id = v.user_updated
-      LEFT JOIN notes n ON n.report_id = v.report_id OR n.employee_id = v.employee_id
       ${searchCondition}
       ORDER BY v.date_created DESC
       LIMIT $1 OFFSET $2
@@ -68,8 +66,9 @@ export async function GET(request: NextRequest) {
 
   } catch (error) {
     console.error('Error fetching vitals:', error);
+    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
     return NextResponse.json(
-      { error: 'Failed to fetch vitals' },
+      { error: 'Failed to fetch vitals', details: error instanceof Error ? error.message : 'Unknown error' },
       { status: 500 }
     );
   }

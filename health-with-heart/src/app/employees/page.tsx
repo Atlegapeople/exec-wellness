@@ -40,6 +40,7 @@ import {
   ChevronsRight,
   User,
   UserRoundPlus,
+  UserRoundPen,
 } from 'lucide-react';
 
 interface PaginationInfo {
@@ -571,14 +572,30 @@ export default function EmployeesPage() {
                         </Badge>
                       </CardDescription>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedEmployee(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='outline'
+                        size='sm'
+                        onClick={() => {
+                          router.push(
+                            `/employees/update?id=${selectedEmployee.id}`
+                          );
+                        }}
+                        className='hover-lift'
+                      >
+                        <UserRoundPen className='h-4 w-4' />
+                        Edit
+                      </Button>
+
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedEmployee(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -887,7 +904,20 @@ export default function EmployeesPage() {
                       </div>
                     </>
                   )}
+
                 </CardContent>
+                  <Button
+                    variant='destructive'
+                    size='sm'
+                    onClick={() => {
+                      // TODO: Implement delete functionality
+                      console.log('Delete employee:', selectedEmployee.id);
+                    }}
+                    className='hover-lift mx-50 '
+                  >
+                    
+                    Delete User
+                  </Button>
               </Card>
             </div>
           )}

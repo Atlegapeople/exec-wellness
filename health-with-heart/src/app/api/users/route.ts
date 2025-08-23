@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
       ${countSearchCondition}
     `;
     
-    const countParams = search ? [`%${search}%`] : [];
+    const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
     const total = parseInt(countResult.rows[0].total);
 

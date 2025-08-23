@@ -3,10 +3,10 @@ import { query } from '@/lib/database';
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const reportId = params.id;
+    const { id: reportId } = await params;
     const updates = await request.json();
 
     // Build dynamic update query based on provided fields
@@ -26,8 +26,8 @@ export async function PUT(
       'doctor_email'
     ];
 
-    const updateFields = [];
-    const values = [];
+    const updateFields: string[] = [];
+    const values: any[] = [];
     let paramIndex = 1;
 
     for (const [field, value] of Object.entries(updates)) {
@@ -84,10 +84,10 @@ export async function PUT(
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const reportId = params.id;
+    const { id: reportId } = await params;
 
     const reportQuery = `
       SELECT 

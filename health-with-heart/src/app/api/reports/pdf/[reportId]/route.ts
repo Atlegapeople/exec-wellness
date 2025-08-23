@@ -247,13 +247,13 @@ export async function GET(request: Request, { params }: { params: Promise<{ repo
     };
 
     // Generate PDF
-    const pdfBuffer = await renderToBuffer(React.createElement(ExecutiveMedicalReportPDF, { reportData: comprehensiveReport }));
+    const pdfBuffer = await renderToBuffer(React.createElement(ExecutiveMedicalReportPDF, { reportData: comprehensiveReport }) as any);
 
     // Generate filename
     const fileName = `Medical_Report_${report.employee_first_name || 'Unknown'}_${report.employee_last_name || 'Employee'}_${new Date(report.date_created).toISOString().split('T')[0]}.pdf`;
 
     // Return PDF as response
-    return new NextResponse(pdfBuffer, {
+    return new NextResponse(pdfBuffer as any, {
       status: 200,
       headers: {
         'Content-Type': 'application/pdf',

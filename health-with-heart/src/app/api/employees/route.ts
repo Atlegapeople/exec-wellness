@@ -10,29 +10,31 @@ export async function GET(request: NextRequest) {
     const search = searchParams.get('search') || '';
     const offset = (page - 1) * limit;
 
-    // Build search condition
+    // Build search condition - only for employees with Executive Medical reports
     const searchCondition = search 
-      ? `WHERE (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3 OR e.employee_number ILIKE $3)`
+      ? `AND (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3 OR e.employee_number ILIKE $3)`
       : '';
     
     const countSearchCondition = search 
-      ? `WHERE (name ILIKE $1 OR surname ILIKE $1 OR work_email ILIKE $1 OR employee_number ILIKE $1)`
+      ? `AND (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1 OR e.employee_number ILIKE $1)`
       : '';
 
-    // Get total count
+    // Get total count - only employees with Executive Medical reports
     const countQuery = `
-      SELECT COUNT(*) as total 
-      FROM employee 
+      SELECT COUNT(DISTINCT e.id) as total 
+      FROM employee e
+      INNER JOIN medical_report mr ON mr.employee_id = e.id
+      WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
     
-    const countParams = search ? [`%${search}%`] : [];
+    const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
     const total = parseInt(countResult.rows[0].total);
 
-    // Get employees with resolved workplace and organisation names
+    // Get employees with resolved workplace and organisation names - only those with Executive Medical reports
     const employeesQuery = `
-      SELECT 
+      SELECT DISTINCT
         e.id,
         e.date_created,
         e.date_updated,
@@ -65,8 +67,10 @@ export async function GET(request: NextRequest) {
         e.job,
         e.notes_header,
         e.notes_text,
-        e.work_startdate
+        e.work_startdate,
+        COALESCE(mc.manager_count, 0) AS manager_count
       FROM public.employee e
+      INNER JOIN medical_report mr ON mr.employee_id = e.id
       LEFT JOIN public.users uc 
              ON uc.id = e.user_created
       LEFT JOIN public.users uu 
@@ -75,6 +79,15 @@ export async function GET(request: NextRequest) {
              ON o.id = e.organisation
       LEFT JOIN public.sites s 
              ON s.id = e.workplace
+      LEFT JOIN (
+        SELECT 
+          organisation_id,
+          COUNT(*) AS manager_count
+        FROM managers
+        WHERE organisation_id IS NOT NULL
+        GROUP BY organisation_id
+      ) mc ON mc.organisation_id = e.organisation
+      WHERE mr.type = 'Executive Medical'
       ${searchCondition}
       ORDER BY e.surname, e.name
       LIMIT $1 OFFSET $2
@@ -119,7 +132,8 @@ export async function GET(request: NextRequest) {
       job: row.job,
       notes_header: row.notes_header,
       notes_text: row.notes_text,
-      work_startdate: row.work_startdate ? new Date(row.work_startdate) : undefined
+      work_startdate: row.work_startdate ? new Date(row.work_startdate) : undefined,
+      manager_count: parseInt(row.manager_count || 0)
     }));
 
     return NextResponse.json({
