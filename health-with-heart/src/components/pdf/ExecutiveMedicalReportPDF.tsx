@@ -722,7 +722,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
                 {riskData.map((risk, index) => (
                   <View 
                     key={risk.label} 
-                    style={[styles.tableRow, index % 2 === 1 && styles.tableRowAlt]}
+                    style={[styles.tableRow, ...(index % 2 === 1 ? [styles.tableRowAlt] : [])]}
                   >
                     <Text style={styles.tableCell}>{risk.label}</Text>
                     <View style={[styles.tableCell, { alignItems: 'flex-start' }]}>

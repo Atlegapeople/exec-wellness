@@ -268,8 +268,8 @@ export async function GET(request: NextRequest) {
     }));
 
     // Get summary statistics
-    const totalExaminations = chartData.reduce((sum, item) => sum + item.total_count, 0);
-    const averagePositiveRate = chartData.reduce((sum, item) => sum + item.positive_percentage, 0) / chartData.length;
+    const totalExaminations = chartData.reduce((sum: number, item: any) => sum + item.total_count, 0);
+    const averagePositiveRate = chartData.reduce((sum: number, item: any) => sum + item.positive_percentage, 0) / chartData.length;
 
     const summaryStats = {
       total_examinations: totalExaminations,

@@ -20,16 +20,19 @@ export const PALETTE = {
   }
 };
 
-// Color mapping rules
+// Color mapping rules - per specification
 const COLOR_MAP = {
-  "Normal": PALETTE.primary.base,
-  "Good": PALETTE.primary.base,
-  "Low Risk": PALETTE.primary.light,
-  "Abnormal": PALETTE.secondary.alert,
-  "Poor": PALETTE.secondary.alert,
-  "Medium Risk": PALETTE.secondary.warning,
-  "Unknown": PALETTE.neutral.base,
-  "Not Recorded": PALETTE.neutral.light
+  "Normal": "#00897B",
+  "Good": "#00897B",
+  "Low Risk": "#00897B",
+  "Abnormal": "#E53935",
+  "Poor": "#E53935",
+  "Medium Risk": "#FB8C00",
+  "Unknown": "#BDBDBD",
+  "Not Recorded": "#BDBDBD",
+  "Not Done": "#BDBDBD",
+  "Not Assessed": "#BDBDBD",
+  "Present": "#00897B"
 };
 
 // Chart series colors

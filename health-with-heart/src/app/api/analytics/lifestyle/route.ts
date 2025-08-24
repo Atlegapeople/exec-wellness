@@ -173,7 +173,7 @@ function processLifestyleData(records: LifestyleRecord[]): LifestyleInsights {
 
   // Smoking analysis
   const smokingCounts = records.reduce((acc, record) => {
-    const smokes = record.smoke === 'True' || record.smoke === true;
+    const smokes = record.smoke === 'True' || record.smoke === 'true' || (record.smoke as any) === true;
     acc[smokes ? 'smokers' : 'nonSmokers']++;
     return acc;
   }, { smokers: 0, nonSmokers: 0 });

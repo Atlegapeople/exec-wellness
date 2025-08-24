@@ -181,7 +181,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
           <CardContent>
             <ResponsiveContainer width="100%" height={350}>
               <BarChart 
-                data={data.organizationBreakdown.slice(0, 10).map(org => ({
+                data={data.organizationBreakdown.slice(0, 10).map((org: any) => ({
                   ...org,
                   shortName: org.name.length > 35 ? org.name.substring(0, 32) + '...' : org.name
                 }))}
@@ -200,7 +200,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                 <Tooltip 
                   formatter={(value, name) => [value, 'Employees']}
                   labelFormatter={(label) => {
-                    const originalOrg = data.organizationBreakdown.find(org => 
+                    const originalOrg = data.organizationBreakdown.find((org: any) => 
                       org.name.startsWith(label.replace('...', ''))
                     );
                     return originalOrg ? originalOrg.name : label;
@@ -235,7 +235,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                     <Cell key={`cell-${index}`} fill={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]} />
                   ))}
                 </Pie>
-                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round((value / data.totalEmployees) * 100)}%)`, name]} />
+                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round(((value as number) / data.totalEmployees) * 100)}%)`, name]} />
               </PieChart>
             </ResponsiveContainer>
           </CardContent>
@@ -306,7 +306,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                     <Cell key={`cell-${index}`} fill={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]} />
                   ))}
                 </Pie>
-                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round((value / data.totalEmployees) * 100)}%)`, name]} />
+                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round(((value as number) / data.totalEmployees) * 100)}%)`, name]} />
               </PieChart>
             </ResponsiveContainer>
           </CardContent>
@@ -335,7 +335,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                     <Cell key={`cell-${index}`} fill={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]} />
                   ))}
                 </Pie>
-                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round((value / data.totalEmployees) * 100)}%)`, name]} />
+                <Tooltip formatter={(value, name) => [`${value} employees (${Math.round(((value as number) / data.totalEmployees) * 100)}%)`, name]} />
               </PieChart>
             </ResponsiveContainer>
           </CardContent>

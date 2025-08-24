@@ -66,8 +66,8 @@ export async function GET(request: NextRequest) {
     }));
 
     // Calculate summary statistics
-    const totalResponses = scoreData.reduce((sum, item) => sum + item.total_responses, 0) / scoreData.length;
-    const overallAverage = scoreData.find(item => item.metric === 'Overall')?.average_score || 0;
+    const totalResponses = scoreData.reduce((sum: number, item: any) => sum + item.total_responses, 0) / scoreData.length;
+    const overallAverage = scoreData.find((item: any) => item.metric === 'Overall')?.average_score || 0;
     
     const summaryStats = {
       total_responses: Math.round(totalResponses),

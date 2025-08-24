@@ -880,7 +880,7 @@ export default function VitalsPage() {
                                 <div className="text-sm">
                                   {getSystolicBP(vital)}/{getDiastolicBP(vital)}
                                 </div>
-                                <Badge className={getBPBadgeColor(vital.blood_pressure_status || vital.bp_category)} variant="secondary">
+                                <Badge className={getBPBadgeColor(vital.blood_pressure_status || vital.bp_category || '')} variant="secondary">
                                   {vital.blood_pressure_status || vital.bp_category}
                                 </Badge>
                               </div>
@@ -1127,7 +1127,7 @@ export default function VitalsPage() {
                             <div className="font-semibold text-lg">
                               {getSystolicBP(selectedVital)}/{getDiastolicBP(selectedVital)} mmHg
                             </div>
-                            <Badge className={getBPBadgeColor(selectedVital.blood_pressure_status || selectedVital.bp_category)} variant="secondary">
+                            <Badge className={getBPBadgeColor(selectedVital.blood_pressure_status || selectedVital.bp_category || '')} variant="secondary">
                               {selectedVital.blood_pressure_status || selectedVital.bp_category}
                             </Badge>
                             {getSystolicWarning(selectedVital) && typeof getSystolicWarning(selectedVital) === 'string' && (

@@ -1,11 +1,19 @@
 import { useState, useEffect } from 'react';
 
-export function useAPI<T>(url: string, dependencies: any[] = []) {
+export function useAPI<T>(url: string | null, dependencies: any[] = []) {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    // Don't fetch if URL is null or empty
+    if (!url) {
+      setLoading(false);
+      setData(null);
+      setError(null);
+      return;
+    }
+
     const fetchData = async () => {
       try {
         setLoading(true);

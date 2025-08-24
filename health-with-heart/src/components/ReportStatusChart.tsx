@@ -43,8 +43,7 @@ export default function ReportStatusChart({ data }: ReportStatusChartProps) {
             <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
               <div 
                 className="h-3 rounded-full transition-all duration-300"
-                style={{backgroundColor: 'var(--teal-600)'}}
-                style={{ width: `${item.completion_percentage}%` }}
+                style={{backgroundColor: 'var(--teal-600)', width: `${item.completion_percentage}%`}}
               ></div>
             </div>
             

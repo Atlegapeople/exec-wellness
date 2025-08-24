@@ -7,7 +7,7 @@ interface WorkplaceHealthTableProps {
 
 export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps) {
   const calculateFitnessRate = (fitCount: number, totalReports: number) => {
-    if (totalReports === 0) return 0;
+    if (totalReports === 0) return '0';
     return ((fitCount / totalReports) * 100).toFixed(1);
   };
 

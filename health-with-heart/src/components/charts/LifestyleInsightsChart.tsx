@@ -31,7 +31,7 @@ import {
   Users,
   FileText
 } from 'lucide-react';
-import { PALETTE, CHART_SERIES_COLORS, getBadgeClass } from '@/lib/chartColors'
+import { PALETTE, CHART_SERIES_COLORS, getBadgeClass } from '@/lib/chartColors';
 
 const LifestyleInsightsChart = ({ data }: { data: any }) => {
   if (!data) return null;
@@ -122,7 +122,7 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                   <Cell fill={PALETTE.primary.base} />
                 </Pie>
                 <Tooltip formatter={(value, name) => [
-                  `${value} patients (${Math.round((value as number / (data.smokingAnalysis.smokers + data.smokingAnalysis.nonSmokers)) * 100)}%)`, 
+                  `${value} patients (${Math.round(((value as number) / (data.smokingAnalysis.smokers + data.smokingAnalysis.nonSmokers)) * 100)}%)`, 
                   name
                 ]} />
               </PieChart>

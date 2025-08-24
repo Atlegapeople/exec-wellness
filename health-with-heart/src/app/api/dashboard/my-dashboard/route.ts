@@ -294,10 +294,10 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       doctor,
       stats: {
-        totalReports: parseInt(stats.total_reports) || 0,
-        totalEmployees: parseInt(stats.total_employees) || 0,
-        signedReports: parseInt(stats.signed_reports) || 0,
-        pendingReports: parseInt(stats.pending_reports) || 0,
+        totalReports: parseInt(stats.total_reports?.toString() || '0') || 0,
+        totalEmployees: parseInt(stats.total_employees?.toString() || '0') || 0,
+        signedReports: parseInt(stats.signed_reports?.toString() || '0') || 0,
+        pendingReports: parseInt(stats.pending_reports?.toString() || '0') || 0,
         signoffRate: stats.total_reports > 0 ? Math.round((stats.signed_reports / stats.total_reports) * 100) : 0
       },
       team: teamResult.rows,

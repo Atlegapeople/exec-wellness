@@ -1,31 +1,22 @@
 'use client';
 
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  ArcElement,
-  Filler,
-} from 'chart.js';
-import { Line, Doughnut } from 'react-chartjs-2';
+import React from 'react';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { 
+  LineChart, 
+  Line, 
+  XAxis, 
+  YAxis, 
+  CartesianGrid, 
+  Tooltip, 
+  ResponsiveContainer,
+  PieChart,
+  Pie,
+  Cell
+} from 'recharts';
 import { BarChart3, CheckCircle, TrendingUp, Users } from 'lucide-react';
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  ArcElement,
-  Filler
-);
+import { CHART_SERIES_COLORS } from '@/lib/chartColors';
 
 interface MedicalOutcome {
   outcomes: any[];
@@ -52,236 +43,270 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
   console.log('MedicalOutcomesChart received data:', data);
   
   if (!data || !data.trends || !Array.isArray(data.trends)) {
-    console.error('Invalid data structure for MedicalOutcomesChart:', data);
     return (
-      <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-        <h3 className="text-red-800 font-semibold">Chart Error</h3>
-        <p className="text-red-700">Unable to load medical outcomes data. Data structure is invalid.</p>
+      <div className="flex items-center justify-center h-64">
+        <div className="text-center">
+          <p className="text-muted-foreground">Unable to load medical outcomes data</p>
+          <p className="text-sm text-muted-foreground mt-2">Data structure is invalid</p>
+        </div>
       </div>
     );
   }
 
   if (data.trends.length === 0) {
     return (
-      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-        <h3 className="text-yellow-800 font-semibold">No Data Available</h3>
-        <p className="text-yellow-700">No medical outcomes data found for the selected period.</p>
+      <div className="flex items-center justify-center h-64">
+        <div className="text-center">
+          <p className="text-muted-foreground">No medical outcomes data available</p>
+          <p className="text-sm text-muted-foreground mt-2">No data found for the selected period</p>
+        </div>
       </div>
     );
   }
-  // Trends Line Chart
-  const trendsOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'top' as const,
-      },
-      title: {
-        display: true,
-        text: 'Medical Report Volume Trends - Last 12 Months',
-        font: {
-          size: 16,
-          weight: 'bold'
-        }
-      },
-    },
-    scales: {
-      y: {
-        type: 'linear' as const,
-        display: true,
-        position: 'left' as const,
-        beginAtZero: true,
-        max: 100,
-        title: {
-          display: true,
-          text: 'Comprehensive Medical Rate (%)'
-        }
-      },
-      y1: {
-        type: 'linear' as const,
-        display: true,
-        position: 'right' as const,
-        beginAtZero: true,
-        title: {
-          display: true,
-          text: 'Total Reports'
-        },
-        grid: {
-          drawOnChartArea: false,
-        },
-      },
-    },
-  };
-
-  const trendsData = {
-    labels: data.trends.map(t => new Date(t.month).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })),
-    datasets: [
-      {
-        label: 'Comprehensive Medical Rate (%)',
-        data: data.trends.map(t => t.fit_percentage),
-        borderColor: 'rgb(34, 197, 94)',
-        backgroundColor: 'rgba(34, 197, 94, 0.1)',
-        tension: 0.4,
-        fill: true,
-      },
-      {
-        label: 'Total Reports',
-        data: data.trends.map(t => t.total_reports),
-        borderColor: 'rgb(59, 130, 246)',
-        backgroundColor: 'rgba(59, 130, 246, 0.1)',
-        tension: 0.4,
-        yAxisID: 'y1',
-      },
-    ],
-  };
-
-  // Age Groups Doughnut Chart
-  const ageGroupsOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'right' as const,
-      },
-      title: {
-        display: true,
-        text: 'Medical Report Distribution by Age Group',
-        font: {
-          size: 16,
-          weight: 'bold'
-        }
-      },
-      tooltip: {
-        callbacks: {
-          label: function(context: any) {
-            const ageGroup = data.ageGroups[context.dataIndex];
-            return [
-              `${ageGroup.age_group}: ${ageGroup.fit_percentage}%`,
-              `Total Reports: ${ageGroup.total_reports}`,
-              `Fit: ${ageGroup.fit_count}`
-            ];
-          }
-        }
-      }
-    },
-  };
-
-  const ageGroupsData = {
-    labels: data.ageGroups.map(ag => ag.age_group),
-    datasets: [
-      {
-        data: data.ageGroups.map(ag => ag.fit_percentage),
-        backgroundColor: [
-          'rgba(99, 102, 241, 0.8)',
-          'rgba(34, 197, 94, 0.8)',
-          'rgba(251, 191, 36, 0.8)',
-          'rgba(239, 68, 68, 0.8)',
-          'rgba(168, 85, 247, 0.8)',
-        ],
-        borderColor: [
-          'rgba(99, 102, 241, 1)',
-          'rgba(34, 197, 94, 1)',
-          'rgba(251, 191, 36, 1)',
-          'rgba(239, 68, 68, 1)',
-          'rgba(168, 85, 247, 1)',
-        ],
-        borderWidth: 2,
-      },
-    ],
-  };
+  // Format trends data for Recharts
+  const trendsData = data.trends.map(t => ({
+    month: new Date(t.month).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
+    fit_percentage: t.fit_percentage,
+    total_reports: t.total_reports,
+    fit_count: t.fit_count,
+    unfit_count: t.unfit_count
+  }));
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6" style={{ gap: "24px" }}>
       {/* Trends Chart */}
-      <div className="bg-white p-6 rounded-lg shadow-lg border">
-        <Line data={trendsData} options={trendsOptions} />
-      </div>
+      <Card 
+        style={{ 
+          background: "#FFFFFF", 
+          border: "1px solid #E5E7EB", 
+          borderRadius: "12px", 
+          padding: "20px", 
+          boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+        }}
+      >
+        <CardHeader className="p-0 mb-4">
+          <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+            Medical Report Volume Trends
+          </CardTitle>
+          <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            Monthly comprehensive medical rates and total report volumes over last 12 months
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="p-0">
+          <ResponsiveContainer width="100%" height={350}>
+            <LineChart data={trendsData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+              <XAxis 
+                dataKey="month" 
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+              />
+              <YAxis 
+                yAxisId="left"
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+                domain={[0, 100]}
+              />
+              <YAxis 
+                yAxisId="right"
+                orientation="right"
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+              />
+              <Tooltip
+                contentStyle={{
+                  backgroundColor: '#FFFFFF',
+                  border: '1px solid #E5E7EB',
+                  borderRadius: '8px',
+                }}
+                formatter={(value, name) => [
+                  name === 'fit_percentage' ? `${value}%` : value,
+                  name === 'fit_percentage' ? 'Comprehensive Medical Rate' : 'Total Reports'
+                ]}
+                labelFormatter={(label) => `Month: ${label}`}
+              />
+              <Line 
+                yAxisId="left"
+                type="monotone" 
+                dataKey="fit_percentage" 
+                stroke="#10B981" 
+                strokeWidth={3}
+                dot={{ fill: "#10B981", strokeWidth: 2, r: 4 }}
+                name="fit_percentage"
+              />
+              <Line 
+                yAxisId="right"
+                type="monotone" 
+                dataKey="total_reports" 
+                stroke="#3B82F6" 
+                strokeWidth={3}
+                dot={{ fill: "#3B82F6", strokeWidth: 2, r: 4 }}
+                name="total_reports"
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </CardContent>
+        <CardFooter className="p-0 mt-4">
+          <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+            Medical trends over time <TrendingUp className="h-4 w-4" />
+          </div>
+        </CardFooter>
+      </Card>
 
       {/* Age Groups and Summary */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ gap: "24px" }}>
         {/* Age Groups Chart */}
-        <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <Doughnut data={ageGroupsData} options={ageGroupsOptions} />
-        </div>
+        <Card 
+          style={{ 
+            background: "#FFFFFF", 
+            border: "1px solid #E5E7EB", 
+            borderRadius: "12px", 
+            padding: "20px", 
+            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+          }}
+        >
+          <CardHeader className="p-0 mb-4">
+            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+              Employee Fitness Rates by Age Group
+            </CardTitle>
+            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+              Percentage of employees medically fit for work across different age groups
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="p-0">
+            <ResponsiveContainer width="100%" height={350}>
+              <PieChart>
+                <Pie
+                  data={data.ageGroups}
+                  dataKey="fit_percentage"
+                  nameKey="age_group"
+                  cx="50%"
+                  cy="50%"
+                  outerRadius={100}
+                  stroke="#ffffff"
+                  strokeWidth={2}
+                >
+                  {data.ageGroups.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip formatter={(value, name) => [`${value}%`, `Fitness Rate - ${name}`]} />
+              </PieChart>
+            </ResponsiveContainer>
+          </CardContent>
+          <CardFooter className="p-0 mt-4">
+            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+              Workforce health by age demographics <Users className="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
 
         {/* Key Insights */}
-        <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <div className="flex items-center gap-2 mb-4">
-            <BarChart3 className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
-            <h3 className="text-lg font-semibold">Key Medical Insights</h3>
-          </div>
-          
-          {data.trends.length > 0 && (
-            <div className="space-y-4">
-              <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                <div className="flex items-center gap-2 mb-2">
-                  <CheckCircle className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
-                  <h4 className="font-semibold text-green-800">Current Fitness Rate</h4>
-                </div>
-                <p className="text-2xl font-bold" style={{color: 'var(--teal-600)'}}>                
-                  {data.trends[0]?.fit_percentage || 0}%
-                </p>
-                <p className="text-sm text-green-700">
-                  {data.trends[0]?.fit_count || 0} out of {data.trends[0]?.total_reports || 0} employees
-                </p>
-              </div>
-
-              <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="h-5 w-5" style={{color: 'var(--teal-500)'}} />
-                  <h4 className="font-semibold text-blue-800">Monthly Volume</h4>
-                </div>
-                <p className="text-2xl font-bold" style={{color: 'var(--teal-500)'}}>                
-                  {data.trends[0]?.total_reports || 0}
-                </p>
-                <p className="text-sm text-blue-700">
-                  Medical assessments this month
-                </p>
-              </div>
-
-              {data.ageGroups.length > 0 && (
-                <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Users className="h-5 w-5" style={{color: 'var(--teal-700)'}} />
-                    <h4 className="font-semibold text-purple-800">Highest Risk Group</h4>
+        <Card 
+          style={{ 
+            background: "#FFFFFF", 
+            border: "1px solid #E5E7EB", 
+            borderRadius: "12px", 
+            padding: "20px", 
+            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+          }}
+        >
+          <CardHeader className="p-0 mb-4">
+            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+              Key Medical Insights
+            </CardTitle>
+            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+              Current fitness metrics and demographic analysis
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="p-0">
+            {data.trends.length > 0 && (
+              <div className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="text-center">
+                    <div className="flex items-center justify-center gap-2 mb-2">
+                      <CheckCircle className="h-5 w-5 text-green-600" />
+                    </div>
+                    <p className="text-2xl font-bold text-green-600">
+                      {data.trends[0]?.fit_percentage || 0}%
+                    </p>
+                    <p className="text-sm text-gray-600">Current Fitness Rate</p>
+                    <p className="text-xs text-gray-500">
+                      {data.trends[0]?.fit_count || 0} of {data.trends[0]?.total_reports || 0} reports
+                    </p>
                   </div>
-                  {(() => {
-                    const lowestFitRate = data.ageGroups.reduce((prev, current) => 
-                      prev.fit_percentage < current.fit_percentage ? prev : current
-                    );
-                    return (
-                      <>
-                        <p className="text-2xl font-bold" style={{color: 'var(--teal-700)'}}>
-                          {lowestFitRate.age_group}
-                        </p>
-                        <p className="text-sm text-purple-700">
-                          {lowestFitRate.fit_percentage}% fitness rate
-                        </p>
-                      </>
-                    );
-                  })()}
-                </div>
-              )}
-            </div>
-          )}
 
-          {/* Age Group Details */}
-          {data.ageGroups.length > 0 && (
-            <div className="mt-6">
-              <h4 className="font-semibold mb-3">Age Group Breakdown</h4>
-              <div className="space-y-2">
-                {data.ageGroups.map((group) => (
-                  <div key={group.age_group} className="flex justify-between items-center p-2 bg-gray-50 rounded">
-                    <span className="font-medium">{group.age_group}</span>
-                    <div className="text-right">
-                      <div className="font-semibold text-green-600">{group.fit_percentage}%</div>
-                      <div className="text-xs text-gray-600">{group.total_reports} reports</div>
+                  <div className="text-center">
+                    <div className="flex items-center justify-center gap-2 mb-2">
+                      <TrendingUp className="h-5 w-5 text-blue-600" />
+                    </div>
+                    <p className="text-2xl font-bold text-blue-600">
+                      {data.trends[0]?.total_reports || 0}
+                    </p>
+                    <p className="text-sm text-gray-600">Monthly Volume</p>
+                    <p className="text-xs text-gray-500">Medical assessments</p>
+                  </div>
+
+                  {data.ageGroups.length > 0 && (
+                    <div className="text-center">
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <Users className="h-5 w-5 text-purple-600" />
+                      </div>
+                      {(() => {
+                        const lowestFitRate = data.ageGroups.reduce((prev, current) => 
+                          prev.fit_percentage < current.fit_percentage ? prev : current
+                        );
+                        return (
+                          <>
+                            <p className="text-2xl font-bold text-purple-600">
+                              {lowestFitRate.age_group}
+                            </p>
+                            <p className="text-sm text-gray-600">Highest Risk Group</p>
+                            <p className="text-xs text-gray-500">
+                              {lowestFitRate.fit_percentage}% fitness rate
+                            </p>
+                          </>
+                        );
+                      })()}
+                    </div>
+                  )}
+                </div>
+
+                {/* Age Group Details */}
+                {data.ageGroups.length > 0 && (
+                  <div className="mt-6">
+                    <h4 className="text-sm font-medium mb-3 text-gray-700">Age Group Breakdown</h4>
+                    <div className="space-y-2">
+                      {data.ageGroups.map((group, index) => (
+                        <div key={group.age_group} className="flex justify-between items-center p-3 border rounded-lg">
+                          <div className="flex items-center gap-3">
+                            <div 
+                              className="w-3 h-3 rounded-full" 
+                              style={{ backgroundColor: CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length] }}
+                            />
+                            <span className="font-medium text-gray-700">{group.age_group}</span>
+                          </div>
+                          <div className="text-right">
+                            <div className="font-semibold text-green-600">{group.fit_percentage}%</div>
+                            <div className="text-xs text-gray-500">{group.total_reports} reports</div>
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
-                ))}
+                )}
               </div>
+            )}
+          </CardContent>
+          <CardFooter className="p-0 mt-4">
+            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+              Medical insights and analytics <BarChart3 className="h-4 w-4" />
             </div>
-          )}
-        </div>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   );

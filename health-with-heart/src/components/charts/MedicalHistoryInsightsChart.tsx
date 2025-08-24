@@ -139,6 +139,9 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
               <FileText className="h-5 w-5" style={{ color: '#424242' }} />
               Report Type Distribution
             </CardTitle>
+            <CardDescription>
+              Medical report types across the organization
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={400}>
@@ -149,7 +152,9 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
                   nameKey="type"
                   cx="50%"
                   cy="50%"
-                  outerRadius={120}
+                  outerRadius={110}
+                  stroke="#ffffff"
+                  strokeWidth={3}
                 >
                   {data.reportTypeBreakdown.map((entry: any, index: number) => (
                     <Cell key={`cell-${index}`} fill={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]} />
@@ -168,6 +173,9 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
               <Pill className="h-5 w-5" style={{ color: '#424242' }} />
               Current Medication Status
             </CardTitle>
+            <CardDescription>
+              Percentage of patients currently on prescribed medication
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={400}>
@@ -181,13 +189,15 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
                   nameKey="name"
                   cx="50%"
                   cy="50%"
-                  outerRadius={120}
+                  outerRadius={110}
+                  stroke="#ffffff"
+                  strokeWidth={3}
                 >
                   <Cell fill={PALETTE.secondary.warning} />
                   <Cell fill={PALETTE.primary.base} />
                 </Pie>
                 <Tooltip formatter={(value, name) => [
-                  `${value} patients (${Math.round((value as number / (data.medicationAnalysis.onMedication + data.medicationAnalysis.notOnMedication)) * 100)}%)`, 
+                  `${value} patients (${Math.round(((value as number) / (data.medicationAnalysis.onMedication + data.medicationAnalysis.notOnMedication)) * 100)}%)`, 
                   name
                 ]} />
               </PieChart>

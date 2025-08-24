@@ -7,26 +7,40 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DashboardLayout from '@/components/DashboardLayout';
 import { useAPI } from '@/hooks/useAPI';
-import DoctorProductivityChart from '@/components/charts/DoctorProductivityChart';
+import StaffProductivityChart from '@/components/charts/StaffProductivityChart';
 import MedicalOutcomesChart from '@/components/charts/MedicalOutcomesChart';
 import VolumeAnalyticsChart from '@/components/charts/VolumeAnalyticsChart';
+import EmployeeInsightsChart from '@/components/charts/EmployeeInsightsChart';
+import MedicalHistoryInsightsChart from '@/components/charts/MedicalHistoryInsightsChart';
+import LifestyleInsightsChart from '@/components/charts/LifestyleInsightsChart';
+import ClinicalExaminationsChart from '@/components/charts/ClinicalExaminationsChart';
+import MentalHealthChart from '@/components/charts/MentalHealthChart';
 import { 
   BarChart3,
   TrendingUp,
   Activity,
   Stethoscope,
+  Users,
+  Heart,
+  Apple,
   Loader2,
   AlertCircle,
-  CheckCircle
+  CheckCircle,
+  Eye
 } from 'lucide-react';
 
 export default function Analytics() {
-  const [activeTab, setActiveTab] = useState('productivity');
+  const [activeTab, setActiveTab] = useState('clinical-examinations');
 
   // Fetch analytics data
-  const { data: doctorData, loading: doctorLoading, error: doctorError } = useAPI('/api/analytics/doctor-productivity');
+  const { data: staffData, loading: staffLoading, error: staffError } = useAPI('/api/analytics/staff-productivity');
   const { data: outcomesData, loading: outcomesLoading, error: outcomesError } = useAPI('/api/analytics/medical-outcomes');
   const { data: volumeData, loading: volumeLoading, error: volumeError } = useAPI('/api/analytics/monthly-volume');
+  const { data: employeeData, loading: employeeLoading, error: employeeError } = useAPI('/api/analytics/employee-insights');
+  const { data: medicalHistoryData, loading: medicalHistoryLoading, error: medicalHistoryError } = useAPI('/api/analytics/medical-history');
+  const { data: lifestyleData, loading: lifestyleLoading, error: lifestyleError } = useAPI('/api/analytics/lifestyle');
+  const { data: clinicalExaminationsData, loading: clinicalExaminationsLoading, error: clinicalExaminationsError } = useAPI('/api/analytics/clinical-examinations');
+  const { data: mentalHealthData, loading: mentalHealthLoading, error: mentalHealthError } = useAPI('/api/analytics/mental-health');
 
   const currentDate = new Date().toLocaleDateString('en-ZA', {
     weekday: 'long',
@@ -36,13 +50,18 @@ export default function Analytics() {
   });
 
   const tabs = [
-    { id: 'productivity', name: 'Doctor Productivity', icon: Stethoscope, description: 'Performance metrics and efficiency' },
+    { id: 'clinical-examinations', name: 'Clinical Exams', icon: Eye, description: 'Clinical examination results and assessments' },
+    { id: 'mental-health', name: 'Mental Health', icon: Activity, description: 'Mental health assessment insights and trends' },
+    { id: 'medical-history', name: 'Medical History', icon: Heart, description: 'Medical condition insights and trends' },
+    { id: 'lifestyle', name: 'Lifestyle Analytics', icon: Apple, description: 'Lifestyle behavior insights and health patterns' },
+    { id: 'employees', name: 'Patient Insights', icon: Users, description: 'Interactive patient analytics with drill-down' },
+    { id: 'productivity', name: 'Staff Productivity', icon: Stethoscope, description: 'Performance metrics and efficiency for all medical staff' },
     { id: 'outcomes', name: 'Medical Outcomes', icon: BarChart3, description: 'Health trends and fitness analysis' },
     { id: 'volume', name: 'Volume Analytics', icon: TrendingUp, description: 'Appointment patterns and capacity' }
   ];
 
-  const isLoading = doctorLoading || outcomesLoading || volumeLoading;
-  const hasErrors = doctorError || outcomesError || volumeError;
+  const isLoading = staffLoading || outcomesLoading || volumeLoading || employeeLoading || medicalHistoryLoading || lifestyleLoading || clinicalExaminationsLoading || mentalHealthLoading;
+  const hasErrors = staffError || outcomesError || volumeError || employeeError || medicalHistoryError || lifestyleError || clinicalExaminationsError || mentalHealthError;
 
   return (
     <DashboardLayout>
@@ -74,8 +93,28 @@ export default function Analytics() {
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 text-sm">
                   <div className="flex items-center gap-2">
-                    <div className={`w-2 h-2 rounded-full ${doctorLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
-                    <span className="text-muted-foreground">Doctor Productivity</span>
+                    <div className={`w-2 h-2 rounded-full ${clinicalExaminationsLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Clinical Examinations</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${mentalHealthLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Mental Health</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${medicalHistoryLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Medical History</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${lifestyleLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Lifestyle Analytics</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${employeeLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Patient Insights</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${staffLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
+                    <span className="text-muted-foreground">Staff Productivity</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className={`w-2 h-2 rounded-full ${outcomesLoading ? 'bg-primary animate-pulse' : 'bg-green-500'}`}></div>
@@ -116,7 +155,7 @@ export default function Analytics() {
         {/* Analytics Tabs */}
         {!isLoading && !hasErrors && (
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-            <TabsList className="grid w-full grid-cols-3 lg:w-auto lg:grid-cols-3">
+            <TabsList className="grid w-full grid-cols-8 lg:w-auto lg:grid-cols-8">
               {tabs.map((tab) => {
                 const Icon = tab.icon;
                 return (
@@ -128,20 +167,56 @@ export default function Analytics() {
               })}
             </TabsList>
 
-            {/* Doctor Productivity Tab */}
+            {/* Clinical Examinations Tab */}
+            <TabsContent value="clinical-examinations" className="space-y-6">
+              <Card className="hover-lift">
+                <CardContent className="p-6">
+                  {clinicalExaminationsData ? <ClinicalExaminationsChart data={clinicalExaminationsData} /> : null}
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            {/* Mental Health Tab */}
+            <TabsContent value="mental-health" className="space-y-6">
+              <Card className="hover-lift">
+                <CardContent className="p-6">
+                  {mentalHealthData ? <MentalHealthChart data={mentalHealthData} /> : null}
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            {/* Medical History Tab */}
+            <TabsContent value="medical-history" className="space-y-6">
+              <Card className="hover-lift">
+                <CardContent className="p-6">
+                  {medicalHistoryData ? <MedicalHistoryInsightsChart data={medicalHistoryData} /> : null}
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            {/* Lifestyle Analytics Tab */}
+            <TabsContent value="lifestyle" className="space-y-6">
+              <Card className="hover-lift">
+                <CardContent className="p-6">
+                  {lifestyleData ? <LifestyleInsightsChart data={lifestyleData} /> : null}
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            {/* Patient Insights Tab */}
+            <TabsContent value="employees" className="space-y-6">
+              <Card className="hover-lift">
+                <CardContent className="p-6">
+                  {employeeData ? <EmployeeInsightsChart data={employeeData} /> : null}
+                </CardContent>
+              </Card>
+            </TabsContent>
+
+            {/* Staff Productivity Tab */}
             <TabsContent value="productivity" className="space-y-6">
               <Card className="hover-lift">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Stethoscope className="h-5 w-5 text-primary" />
-                    Doctor Productivity Analysis
-                  </CardTitle>
-                  <CardDescription>
-                    Performance metrics, completion rates, and efficiency analysis for the last 3 months.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  {doctorData && <DoctorProductivityChart data={doctorData} />}
+                <CardContent className="p-6">
+                  {staffData ? <StaffProductivityChart data={staffData as any} /> : null}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -159,7 +234,7 @@ export default function Analytics() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {outcomesData && <MedicalOutcomesChart data={outcomesData} />}
+                  {outcomesData ? <MedicalOutcomesChart data={outcomesData as any} /> : null}
                 </CardContent>
               </Card>
             </TabsContent>
@@ -177,7 +252,7 @@ export default function Analytics() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {volumeData && <VolumeAnalyticsChart data={volumeData} />}
+                  {volumeData ? <VolumeAnalyticsChart data={volumeData as any} /> : null}
                 </CardContent>
               </Card>
             </TabsContent>

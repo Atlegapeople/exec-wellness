@@ -16,15 +16,12 @@ export function getPool(): Pool {
       // ssl: process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : false,
       
       // Connection pool settings
-      max: 20, // Maximum number of clients in pool
-      idleTimeoutMillis: 30000, // Close idle clients after 30 seconds
-      connectionTimeoutMillis: 10000, // Return error if connection takes longer than 10 seconds
+      max: 10, // Maximum number of clients in pool
+      idleTimeoutMillis: 10000, // Close idle clients after 10 seconds
+      connectionTimeoutMillis: 30000, // Return error if connection takes longer than 30 seconds
+      allowExitOnIdle: true // Allow pool to exit when all clients are idle
     });
 
-    // Handle pool errors
-    pool.on('error', (err) => {
-      console.error('Unexpected error on idle client:', err);
-    });
   }
 
   return pool;
@@ -38,29 +35,33 @@ export async function testConnection(): Promise<boolean> {
     
     // Test query
     const result = await client.query('SELECT NOW()');
-    console.log('Database connected successfully:', result.rows[0]);
     
     client.release();
     return true;
   } catch (error) {
-    console.error('Database connection failed:', error);
     return false;
   }
 }
 
 // Query helper function
 export async function query(text: string, params?: any[]): Promise<any> {
-  const pool = getPool();
-  const start = Date.now();
+  let pool = getPool();
   
   try {
     const res = await pool.query(text, params);
-    const duration = Date.now() - start;
-    
-    console.log('Executed query:', { text, duration, rows: res.rowCount });
     return res;
   } catch (error) {
-    console.error('Query error:', error);
+    // If we get a connection error, try resetting the pool once
+    if (error instanceof Error && (
+      error.message.includes('Connection terminated') ||
+      error.message.includes('connect ECONNREFUSED') ||
+      error.message.includes('Client has encountered a connection error')
+    )) {
+      resetPool();
+      pool = getPool();
+      const res = await pool.query(text, params);
+      return res;
+    }
     throw error;
   }
 }
@@ -69,6 +70,14 @@ export async function query(text: string, params?: any[]): Promise<any> {
 export async function closePool(): Promise<void> {
   if (pool) {
     await pool.end();
+    pool = null;
+  }
+}
+
+// Reset pool (for connection issues)
+export function resetPool(): void {
+  if (pool) {
+    pool.end().catch(() => {}); // Ignore errors during cleanup
     pool = null;
   }
 }

@@ -254,7 +254,7 @@ export async function GET() {
     `;
     
     const result = await query(employeeQuery);
-    const employees = result.rows.map(row => ({
+    const employees = result.rows.map((row: any) => ({
       employee_id: row.employee_id,
       name: row.name,
       surname: row.surname,

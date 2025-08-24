@@ -1,29 +1,23 @@
 'use client';
 
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
-import { Line, Bar } from 'react-chartjs-2';
-import { BarChart3, Zap, Target, Clock } from 'lucide-react';
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
+import React from 'react';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { 
+  LineChart, 
+  Line, 
+  XAxis, 
+  YAxis, 
+  CartesianGrid, 
+  Tooltip, 
+  ResponsiveContainer,
+  BarChart,
+  Bar,
+  ComposedChart
+} from 'recharts';
+import { BarChart3, Zap, Target, Clock, CheckCircle2 } from 'lucide-react';
+import { CHART_SERIES_COLORS } from '@/lib/chartColors';
+import DashboardStats from '@/components/DashboardStats';
 
 interface VolumeData {
   volume: {
@@ -50,312 +44,206 @@ interface VolumeAnalyticsChartProps {
 }
 
 export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps) {
-  // Monthly Volume Chart
-  const volumeOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'top' as const,
-      },
-      title: {
-        display: true,
-        text: 'Monthly Appointment Volume & Completion Rates',
-        font: {
-          size: 16,
-          weight: 'bold'
-        }
-      },
-    },
-    scales: {
-      y: {
-        type: 'linear' as const,
-        display: true,
-        position: 'left' as const,
-        title: {
-          display: true,
-          text: 'Number of Appointments'
-        }
-      },
-      y1: {
-        type: 'linear' as const,
-        display: true,
-        position: 'right' as const,
-        grid: {
-          drawOnChartArea: false,
-        },
-        title: {
-          display: true,
-          text: 'Completion Rate (%)'
-        },
-        max: 100,
-      },
-    },
-  };
+  // Format data for Recharts
+  const volumeData = data.volume.map(v => ({
+    month: new Date(v.month).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
+    total_appointments: v.total_appointments,
+    completed_reports: v.completed_reports,
+    signed_reports: v.signed_reports,
+    completion_rate: v.completion_rate,
+    avg_turnaround_days: v.avg_turnaround_days
+  }));
 
-  const volumeData = {
-    labels: data.volume.map(v => new Date(v.month).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })),
-    datasets: [
-      {
-        type: 'bar' as const,
-        label: 'Total Appointments',
-        data: data.volume.map(v => v.total_appointments),
-        backgroundColor: 'oklch(0.55 0.15 200 / 0.8)',
-        borderColor: 'var(--teal-600)',
-        borderWidth: 1,
-        yAxisID: 'y',
-      },
-      {
-        type: 'bar' as const,
-        label: 'Completed Reports',
-        data: data.volume.map(v => v.completed_reports),
-        backgroundColor: 'oklch(0.35 0.12 200 / 0.8)',
-        borderColor: 'var(--teal-700)',
-        borderWidth: 1,
-        yAxisID: 'y',
-      },
-      {
-        type: 'line' as const,
-        label: 'Completion Rate (%)',
-        data: data.volume.map(v => v.completion_rate),
-        borderColor: 'var(--teal-400)',
-        backgroundColor: 'oklch(0.65 0.12 200 / 0.1)',
-        tension: 0.4,
-        yAxisID: 'y1',
-      },
-    ],
-  };
+  const dailyData = data.dailyPattern.map(d => ({
+    hour: `${d.hour}:00`,
+    appointment_count: d.appointment_count
+  }));
 
-  // Daily Pattern Chart
-  const dailyOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      title: {
-        display: true,
-        text: 'Daily Appointment Patterns (Current Month)',
-        font: {
-          size: 16,
-          weight: 'bold'
-        }
-      },
-    },
-    scales: {
-      x: {
-        title: {
-          display: true,
-          text: 'Hour of Day'
-        }
-      },
-      y: {
-        beginAtZero: true,
-        title: {
-          display: true,
-          text: 'Number of Appointments'
-        }
-      },
-    },
-  };
-
-  const dailyData = {
-    labels: data.dailyPattern.map(d => `${d.hour}:00`),
-    datasets: [
-      {
-        label: 'Appointments',
-        data: data.dailyPattern.map(d => d.appointment_count),
-        backgroundColor: 'oklch(0.45 0.14 200 / 0.8)',
-        borderColor: 'var(--teal-600)',
-        borderWidth: 1,
-      },
-    ],
-  };
-
-  // Weekly Pattern Chart
-  const weeklyOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      title: {
-        display: true,
-        text: 'Weekly Appointment Distribution',
-        font: {
-          size: 16,
-          weight: 'bold'
-        }
-      },
-    },
-    scales: {
-      y: {
-        beginAtZero: true,
-        title: {
-          display: true,
-          text: 'Number of Appointments'
-        }
-      },
-    },
-  };
-
-  const weeklyData = {
-    labels: data.weeklyPattern.map(w => w.day_name),
-    datasets: [
-      {
-        label: 'Appointments',
-        data: data.weeklyPattern.map(w => w.appointment_count),
-        backgroundColor: 'oklch(0.65 0.12 200 / 0.8)',
-        borderColor: 'var(--teal-400)',
-        borderWidth: 1,
-      },
-    ],
-  };
+  const weeklyData = data.weeklyPattern.map(w => ({
+    day_name: w.day_name,
+    appointment_count: w.appointment_count
+  }));
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6" style={{ gap: "24px" }}>
       {/* Monthly Volume */}
-      <div className="bg-white p-6 rounded-lg shadow-lg border">
-        <Line data={volumeData} options={volumeOptions} />
-      </div>
+      <Card 
+        style={{ 
+          background: "#FFFFFF", 
+          border: "1px solid #E5E7EB", 
+          borderRadius: "12px", 
+          padding: "20px", 
+          boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+        }}
+      >
+        <CardHeader className="p-0 mb-4">
+          <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+            Monthly Appointment Volume & Completion Rates
+          </CardTitle>
+          <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            Monthly trends showing appointment volumes and completion rates over time
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="p-0">
+          <ResponsiveContainer width="100%" height={350}>
+            <ComposedChart data={volumeData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+              <XAxis 
+                dataKey="month" 
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+              />
+              <YAxis 
+                yAxisId="left"
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+              />
+              <YAxis 
+                yAxisId="right"
+                orientation="right"
+                tickLine={false} 
+                axisLine={false} 
+                tick={{ fill: "#9CA3AF" }}
+                domain={[0, 100]}
+              />
+              <Tooltip
+                contentStyle={{
+                  backgroundColor: '#FFFFFF',
+                  border: '1px solid #E5E7EB',
+                  borderRadius: '8px',
+                }}
+                formatter={(value, name) => [
+                  name === 'completion_rate' ? `${value}%` : value,
+                  name === 'total_appointments' ? 'Total Appointments' :
+                  name === 'completed_reports' ? 'Completed Reports' : 'Completion Rate'
+                ]}
+                labelFormatter={(label) => `Month: ${label}`}
+              />
+              <Bar yAxisId="left" dataKey="total_appointments" fill="#3B82F6" radius={[2, 2, 0, 0]} />
+              <Bar yAxisId="left" dataKey="completed_reports" fill="#10B981" radius={[2, 2, 0, 0]} />
+              <Line 
+                yAxisId="right"
+                type="monotone" 
+                dataKey="completion_rate" 
+                stroke="#EF4444" 
+                strokeWidth={3}
+                dot={{ fill: "#EF4444", strokeWidth: 2, r: 4 }}
+              />
+            </ComposedChart>
+          </ResponsiveContainer>
+        </CardContent>
+        <CardFooter className="p-0 mt-4">
+          <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+            Monthly appointment trends and performance <BarChart3 className="h-4 w-4" />
+          </div>
+        </CardFooter>
+      </Card>
 
       {/* Daily and Weekly Patterns */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ gap: "24px" }}>
         {/* Daily Pattern */}
-        <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <Bar data={dailyData} options={dailyOptions} />
-        </div>
+        <Card 
+          style={{ 
+            background: "#FFFFFF", 
+            border: "1px solid #E5E7EB", 
+            borderRadius: "12px", 
+            padding: "20px", 
+            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+          }}
+        >
+          <CardHeader className="p-0 mb-4">
+            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+              Daily Appointment Patterns
+            </CardTitle>
+            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+              Appointment distribution by hour of day (current month)
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="p-0">
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={dailyData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <XAxis 
+                  dataKey="hour" 
+                  tickLine={false} 
+                  axisLine={false} 
+                  tick={{ fill: "#9CA3AF" }}
+                />
+                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#9CA3AF" }} />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    borderRadius: '8px',
+                  }}
+                  formatter={(value, name) => [`${value} appointments`, 'Count']}
+                  labelFormatter={(label) => `Hour: ${label}`}
+                />
+                <Bar dataKey="appointment_count" fill="#8B5CF6" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+          <CardFooter className="p-0 mt-4">
+            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+              Hourly appointment patterns <Clock className="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
 
         {/* Weekly Pattern */}
-        <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <Bar data={weeklyData} options={weeklyOptions} />
-        </div>
+        <Card 
+          style={{ 
+            background: "#FFFFFF", 
+            border: "1px solid #E5E7EB", 
+            borderRadius: "12px", 
+            padding: "20px", 
+            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+          }}
+        >
+          <CardHeader className="p-0 mb-4">
+            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+              Weekly Appointment Distribution
+            </CardTitle>
+            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+              Appointment volume across days of the week
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="p-0">
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={weeklyData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <XAxis 
+                  dataKey="day_name" 
+                  tickLine={false} 
+                  axisLine={false} 
+                  tick={{ fill: "#9CA3AF" }}
+                />
+                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#9CA3AF" }} />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    borderRadius: '8px',
+                  }}
+                  formatter={(value, name) => [`${value} appointments`, 'Count']}
+                  labelFormatter={(label) => `Day: ${label}`}
+                />
+                <Bar dataKey="appointment_count" fill="#F59E0B" radius={[4, 4, 0, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+          <CardFooter className="p-0 mt-4">
+            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
+              Weekly appointment distribution <Target className="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
       </div>
 
-      {/* Summary Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {data.volume.length > 0 && (
-          <>
-            <div className="bg-white p-6 rounded-lg shadow-lg border">
-              <div className="flex items-center gap-3 mb-2">
-                <BarChart3 className="h-6 w-6" style={{color: 'var(--teal-600)'}} />
-                <h3 className="font-semibold text-gray-800">This Month</h3>
-              </div>
-              <p className="text-3xl font-bold" style={{color: 'var(--teal-600)'}}>
-                {data.volume[0]?.total_appointments || 0}
-              </p>
-              <p className="text-sm text-gray-600">Total Appointments</p>
-              <div className="mt-2 text-xs text-gray-500">
-                {data.volume[0]?.completed_reports || 0} completed reports
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-lg border">
-              <div className="flex items-center gap-3 mb-2">
-                <Zap className="h-6 w-6" style={{color: 'var(--teal-700)'}} />
-                <h3 className="font-semibold text-gray-800">Avg Turnaround</h3>
-              </div>
-              <p className="text-3xl font-bold" style={{color: 'var(--teal-700)'}}>
-                {data.volume[0]?.avg_turnaround_days || 0}
-              </p>
-              <p className="text-sm text-gray-600">Days</p>
-              <div className="mt-2">
-                <span className={`text-xs px-2 py-1 rounded-full ${
-                  (data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'text-white' :
-                  (data.volume[0]?.avg_turnaround_days || 0) <= 5 ? 'bg-yellow-100 text-yellow-800' :
-                  'bg-red-100 text-red-800'
-                }`} style={{
-                  backgroundColor: (data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'var(--teal-600)' : undefined
-                }}>
-                  {(data.volume[0]?.avg_turnaround_days || 0) <= 2 ? 'Excellent' :
-                   (data.volume[0]?.avg_turnaround_days || 0) <= 5 ? 'Good' : 'Needs Improvement'}
-                </span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-lg border">
-              <div className="flex items-center gap-3 mb-2">
-                <Target className="h-6 w-6" style={{color: 'var(--teal-500)'}} />
-                <h3 className="font-semibold text-gray-800">Completion Rate</h3>
-              </div>
-              <p className="text-3xl font-bold" style={{color: 'var(--teal-500)'}}>
-                {data.volume[0]?.completion_rate || 0}%
-              </p>
-              <p className="text-sm text-gray-600">Reports Completed</p>
-              <div className="mt-2">
-                <span className={`text-xs px-2 py-1 rounded-full ${
-                  (data.volume[0]?.completion_rate || 0) >= 90 ? 'text-white' :
-                  (data.volume[0]?.completion_rate || 0) >= 75 ? 'bg-yellow-100 text-yellow-800' :
-                  'bg-red-100 text-red-800'
-                }`} style={{
-                  backgroundColor: (data.volume[0]?.completion_rate || 0) >= 90 ? 'var(--teal-600)' : undefined
-                }}>
-                  {(data.volume[0]?.completion_rate || 0) >= 90 ? 'Excellent' :
-                   (data.volume[0]?.completion_rate || 0) >= 75 ? 'Good' : 'Needs Improvement'}
-                </span>
-              </div>
-            </div>
-          </>
-        )}
-      </div>
-
-      {/* Peak Hours Analysis */}
-      {data.dailyPattern.length > 0 && (
-        <div className="bg-white p-6 rounded-lg shadow-lg border">
-          <div className="flex items-center gap-2 mb-4">
-            <Clock className="h-5 w-5" style={{color: 'var(--teal-600)'}} />
-            <h3 className="text-lg font-semibold">Peak Hours Analysis</h3>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {(() => {
-              const peakHour = data.dailyPattern.reduce((prev, current) => 
-                prev.appointment_count > current.appointment_count ? prev : current
-              );
-              const quietHour = data.dailyPattern.reduce((prev, current) => 
-                prev.appointment_count < current.appointment_count ? prev : current
-              );
-              
-              return (
-                <>
-                  <div className="text-center p-4 bg-red-50 rounded-lg">
-                    <div className="text-2xl font-bold text-red-600">{peakHour.hour}:00</div>
-                    <div className="text-sm text-red-700">Peak Hour</div>
-                    <div className="text-xs text-red-600">{peakHour.appointment_count} appointments</div>
-                  </div>
-                  <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <div className="text-2xl font-bold text-green-600">{quietHour.hour}:00</div>
-                    <div className="text-sm text-green-700">Quietest Hour</div>
-                    <div className="text-xs text-green-600">{quietHour.appointment_count} appointments</div>
-                  </div>
-                </>
-              );
-            })()}
-            
-            {data.weeklyPattern.length > 0 && (() => {
-              const busiestDay = data.weeklyPattern.reduce((prev, current) => 
-                prev.appointment_count > current.appointment_count ? prev : current
-              );
-              const quietestDay = data.weeklyPattern.reduce((prev, current) => 
-                prev.appointment_count < current.appointment_count ? prev : current
-              );
-              
-              return (
-                <>
-                  <div className="text-center p-4 bg-blue-50 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600">{busiestDay.day_name}</div>
-                    <div className="text-sm text-blue-700">Busiest Day</div>
-                    <div className="text-xs text-blue-600">{busiestDay.appointment_count} appointments</div>
-                  </div>
-                  <div className="text-center p-4 bg-yellow-50 rounded-lg">
-                    <div className="text-2xl font-bold text-yellow-600">{quietestDay.day_name}</div>
-                    <div className="text-sm text-yellow-700">Quietest Day</div>
-                    <div className="text-xs text-yellow-600">{quietestDay.appointment_count} appointments</div>
-                  </div>
-                </>
-              );
-            })()}
-          </div>
-        </div>
-      )}
+      {/* Summary Stats using DashboardStats component */}
+      <DashboardStats data={data} />
     </div>
   );
 }

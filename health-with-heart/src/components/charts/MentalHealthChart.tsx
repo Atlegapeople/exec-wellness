@@ -545,7 +545,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                 <YAxis domain={[0, 10]} />
                 <Tooltip formatter={(value: any) => [`${value}/10`, 'Average Score']} />
                 <Bar dataKey="average_score">
-                  {coloredScoreData.map((entry, index) => (
+                  {coloredScoreData.map((entry: any, index: number) => (
                     <Cell key={`cell-${index}`} fill={entry.fill} />
                   ))}
                 </Bar>

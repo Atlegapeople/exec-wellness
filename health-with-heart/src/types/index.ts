@@ -328,3 +328,23 @@ export interface EmergencyResponse {
   manager?: string;
   sendemail?: string;
 }
+
+export interface EmployeeStatus {
+  table_name: string;
+  record_count: number;
+  has_records: boolean;
+  display_name: string;
+  status: 'Active' | 'Inactive';
+}
+
+export interface EmployeeStatusResponse {
+  data: EmployeeStatus[];
+}
+
+export interface StatusModule {
+  name: string;
+  displayName: string;
+  recordCount: number;
+  isActive: boolean;
+  position: { x: number; y: number };
+}

@@ -202,7 +202,7 @@ export default function EmergencyResponsesPage() {
     setFormData({
       employee_id: response.employee_id,
       report_id: response.report_id,
-      injury_date: formatDateForInput(response.injury_date),
+      injury_date: formatDateForInput(response.injury_date) as any,
       injury_time: response.injury_time,
       arrival_time: response.arrival_time,
       location_id: response.location_id,
@@ -610,8 +610,8 @@ export default function EmergencyResponsesPage() {
                   <Input
                     id="injury_date"
                     type="date"
-                    value={formData.injury_date || ''}
-                    onChange={(e) => setFormData(prev => ({ ...prev, injury_date: e.target.value }))}
+                    value={typeof formData.injury_date === 'string' ? formData.injury_date : ''}
+                    onChange={(e) => setFormData(prev => ({ ...prev, injury_date: e.target.value as any }))}
                   />
                 </div>
                 <div>
@@ -827,8 +827,8 @@ export default function EmergencyResponsesPage() {
                   <Input
                     id="edit_injury_date"
                     type="date"
-                    value={formData.injury_date || ''}
-                    onChange={(e) => setFormData(prev => ({ ...prev, injury_date: e.target.value }))}
+                    value={typeof formData.injury_date === 'string' ? formData.injury_date : ''}
+                    onChange={(e) => setFormData(prev => ({ ...prev, injury_date: e.target.value as any }))}
                   />
                 </div>
                 <div>

@@ -16,31 +16,31 @@ export const mockEmployees: Employee[] = [
     name: 'John',
     surname: 'Smith',
     date_created: new Date('2024-01-15'),
-    employee_id_number: 'EMP001',
-    cell_phone: '0821234567',
-    email: 'john.smith@company.co.za'
+    employee_number: 'EMP001',
+    mobile_number: '0821234567',
+    work_email: 'john.smith@company.co.za'
   },
   {
     id: '2',
     name: 'Sarah',
     surname: 'Johnson',
     date_created: new Date('2024-02-10'),
-    employee_id_number: 'EMP002',
-    cell_phone: '0827654321',
-    email: 'sarah.johnson@company.co.za'
+    employee_number: 'EMP002',
+    mobile_number: '0827654321',
+    work_email: 'sarah.johnson@company.co.za'
   },
   {
     id: '3',
     name: 'Michael',
     surname: 'Brown',
     date_created: new Date('2024-01-20'),
-    employee_id_number: 'EMP003',
-    cell_phone: '0829876543',
-    email: 'michael.brown@company.co.za'
+    employee_number: 'EMP003',
+    mobile_number: '0829876543',
+    work_email: 'michael.brown@company.co.za'
   }
 ];
 
-export const mockAppointments: Appointment[] = [
+export const mockAppointments: any[] = [
   {
     id: '1',
     date_created: new Date('2024-08-18'),
@@ -71,7 +71,7 @@ export const mockAppointments: Appointment[] = [
   }
 ];
 
-export const mockMedicalReports: MedicalReport[] = [
+export const mockMedicalReports: any[] = [
   {
     id: '1',
     date_created: new Date('2024-08-17'),
