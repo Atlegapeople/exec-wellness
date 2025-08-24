@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
   CardContent,
@@ -128,6 +129,12 @@ interface Employee {
 }
 
 export default function VitalsPage() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Extract employee ID from URL if present
+  const employeeId = searchParams.get('employee');
+
   const [vitals, setVitals] = useState<VitalRecord[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
@@ -199,17 +206,48 @@ export default function VitalsPage() {
     }
   };
 
+  // Helper function to find vital record by employee ID
+  // If an employee has multiple vital records, select the first one
+  const findVitalByEmployeeId = (
+    vitals: VitalRecord[],
+    employeeId: string
+  ): VitalRecord | null => {
+    const employeeVitals = vitals.filter(
+      vital => vital.employee_id === employeeId
+    );
+    // Return the first vital record if multiple exist, otherwise return null
+    return employeeVitals.length > 0 ? employeeVitals[0] : null;
+  };
+
   useEffect(() => {
     fetchVitals();
     fetchEmployees();
   }, []);
 
+  // Auto-select vital record when employeeId is in URL and vitals are loaded
+  useEffect(() => {
+    if (employeeId && vitals.length > 0 && !selectedVital) {
+      const vitalToSelect = findVitalByEmployeeId(vitals, employeeId);
+      if (vitalToSelect) {
+        setSelectedVital(vitalToSelect);
+      }
+    }
+  }, [employeeId, vitals, selectedVital]);
+
   const handleSearch = () => {
     fetchVitals(1, searchTerm);
+    // Preserve employee ID in URL when searching
+    if (employeeId) {
+      updateURL(employeeId);
+    }
   };
 
   const handlePageChange = (newPage: number) => {
     fetchVitals(newPage, searchTerm);
+    // Preserve employee ID in URL when changing pages
+    if (employeeId) {
+      updateURL(employeeId);
+    }
   };
 
   const handleCreateVital = async () => {
@@ -292,6 +330,17 @@ export default function VitalsPage() {
     setIsEditDialogOpen(true);
   };
 
+  const updateURL = useCallback(
+    (employeeId?: string) => {
+      const params = new URLSearchParams();
+      if (employeeId) params.set('employee', employeeId);
+
+      const newURL = `/vitals${params.toString() ? `?${params.toString()}` : ''}`;
+      router.replace(newURL, { scroll: false });
+    },
+    [router]
+  );
+
   const handleVitalClick = (vital: VitalRecord) => {
     console.log('Selected vital - glucose_status:', vital.glucose_status);
     console.log(
@@ -317,6 +366,8 @@ export default function VitalsPage() {
     console.log('Selected vital - notes_text:', vital.notes_text);
     console.log('Selected vital - additional_notes:', vital.additional_notes);
     setSelectedVital(vital);
+    // Update URL to include employee ID
+    updateURL(vital.employee_id);
   };
 
   // Resize functionality
@@ -979,6 +1030,23 @@ export default function VitalsPage() {
                       className='flex-1'
                     />
                     <Button onClick={handleSearch}>Search</Button>
+                    {searchTerm && (
+                      <Button
+                        type='button'
+                        variant='outline'
+                        onClick={() => {
+                          setSearchTerm('');
+                          fetchVitals(1, '');
+                          // Preserve employee ID in URL when clearing search
+                          if (employeeId) {
+                            updateURL(employeeId);
+                          }
+                        }}
+                        className='hover-lift'
+                      >
+                        Clear
+                      </Button>
+                    )}
                   </div>
                   <div className='text-sm text-muted-foreground'>
                     {(pagination.page - 1) * pagination.limit + 1}-
@@ -1146,7 +1214,9 @@ export default function VitalsPage() {
                         onClick={() => handlePageChange(1)}
                         disabled={!pagination.hasPreviousPage}
                       >
-                        <ChevronsLeft className='h-4 w-4' />
+                        <ChevronsLeft
+                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        />
                       </Button>
                       <Button
                         variant='outline'
@@ -1154,7 +1224,9 @@ export default function VitalsPage() {
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
                       >
-                        <ChevronLeft className='h-4 w-4' />
+                        <ChevronLeft
+                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        />
                       </Button>
 
                       <div className='flex items-center gap-1'>
@@ -1177,7 +1249,9 @@ export default function VitalsPage() {
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={!pagination.hasNextPage}
                       >
-                        <ChevronsRight className='h-4 w-4' />
+                        <ChevronsRight
+                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        />
                       </Button>
                     </div>
                   </div>
@@ -1267,7 +1341,11 @@ export default function VitalsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedVital(null)}
+                          onClick={() => {
+                            setSelectedVital(null);
+                            // Remove employeeId from URL when closing vital record
+                            updateURL();
+                          }}
                           className='hover-lift'
                         >
                           <X className='h-4 w-4' />

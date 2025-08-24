@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -172,17 +172,48 @@ export default function MedicalHistoryPage() {
     }
   };
 
+  // Helper function to find medical history by employee ID
+  // If an employee has multiple medical history records, select the first one
+  const findMedicalHistoryByEmployeeId = (
+    medicalHistories: MedicalHistory[],
+    employeeId: string
+  ): MedicalHistory | null => {
+    const employeeHistories = medicalHistories.filter(
+      history => history.employee_id === employeeId
+    );
+    // Return the first medical history record if multiple exist, otherwise return null
+    return employeeHistories.length > 0 ? employeeHistories[0] : null;
+  };
+
   useEffect(() => {
     fetchMedicalHistories();
     fetchEmployees();
   }, [employeeFilter]);
 
+  // Auto-select medical history when employeeFilter is in URL and medical histories are loaded
+  useEffect(() => {
+    if (employeeFilter && medicalHistories.length > 0 && !selectedMedicalHistory) {
+      const historyToSelect = findMedicalHistoryByEmployeeId(medicalHistories, employeeFilter);
+      if (historyToSelect) {
+        setSelectedMedicalHistory(historyToSelect);
+      }
+    }
+  }, [employeeFilter, medicalHistories, selectedMedicalHistory]);
+
   const handleSearch = () => {
     fetchMedicalHistories(1, searchTerm);
+    // Preserve employee ID in URL when searching
+    if (employeeFilter) {
+      updateURL(employeeFilter);
+    }
   };
 
   const handlePageChange = (newPage: number) => {
     fetchMedicalHistories(newPage, searchTerm);
+    // Preserve employee ID in URL when changing pages
+    if (employeeFilter) {
+      updateURL(employeeFilter);
+    }
   };
 
   const handleCreateMedicalHistory = async () => {
@@ -267,7 +298,17 @@ export default function MedicalHistoryPage() {
 
   const handleMedicalHistoryClick = (medicalHistory: MedicalHistory) => {
     setSelectedMedicalHistory(medicalHistory);
+    // Update URL to include employee ID
+    updateURL(medicalHistory.employee_id);
   };
+
+  const updateURL = useCallback((employeeId?: string) => {
+    const params = new URLSearchParams();
+    if (employeeId) params.set('employee', employeeId);
+    
+    const newURL = `/medical-history${params.toString() ? `?${params.toString()}` : ''}`;
+    router.replace(newURL, { scroll: false });
+  }, [router]);
 
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString();
@@ -766,6 +807,10 @@ export default function MedicalHistoryPage() {
                       onClick={() => {
                         setSearchTerm('');
                         fetchMedicalHistories(1, '');
+                        // Preserve employee ID in URL when clearing search
+                        if (employeeFilter) {
+                          updateURL(employeeFilter);
+                        }
                       }}
                       className="hover-lift"
                     >
@@ -997,7 +1042,11 @@ export default function MedicalHistoryPage() {
                     <Button
                       variant="ghost"
                       size="sm"
-                      onClick={() => setSelectedMedicalHistory(null)}
+                      onClick={() => {
+                        setSelectedMedicalHistory(null);
+                        // Remove employeeId from URL when closing medical history
+                        updateURL();
+                      }}
                       className="hover-lift"
                     >
                       <X className="h-4 w-4" />
