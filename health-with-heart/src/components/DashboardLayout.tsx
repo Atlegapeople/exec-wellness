@@ -15,22 +15,22 @@ function DashboardContent({ children }: DashboardLayoutProps) {
   const { sidebarWidth } = useSidebar();
 
   return (
-    <div className="flex min-h-screen bg-background">
+    <div className='flex min-h-screen bg-background'>
       {/* Sidebar */}
       <Sidebar />
-      
+
       {/* Main Content Area */}
-      <div className={`flex-1 flex flex-col ${sidebarWidth} transition-all duration-300`}>
+      <div
+        className={`flex-1 flex flex-col ${sidebarWidth} transition-all duration-300 overflow-x-hidden`}
+      >
         {/* Top Navigation */}
         <Navigation />
-        
+
         {/* Page Content */}
-        <main className="flex-1">
-          <ErrorBoundary>
-            {children}
-          </ErrorBoundary>
+        <main className='flex-1 overflow-x-hidden'>
+          <ErrorBoundary>{children}</ErrorBoundary>
         </main>
-        
+
         {/* Footer */}
         <Footer />
       </div>
