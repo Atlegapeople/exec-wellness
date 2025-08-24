@@ -48,6 +48,7 @@ import {
   User,
   Building2,
   UserCheck,
+  UserRoundPlus,
 } from 'lucide-react';
 
 interface PaginationInfo {
@@ -417,13 +418,30 @@ export default function EmployeesPage() {
             {/* Employees Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                  <Users className='h-6 w-6' />
-                  Employees ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Employee records and information
-                </CardDescription>
+                <div className='flex flex-row justify-between items-center flex-1'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                      <Users className='h-6 w-6' />
+                      Employees ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Employee records and information
+                    </CardDescription>
+                  </div>
+                  <Button
+                    onClick={() => router.push('/employees/new')}
+                    className={`hover-lift transition-all duration-300 ease-in-out ${
+                      selectedEmployee
+                        ? 'w-12 h-12 rounded-full p-0'
+                        : 'px-4 py-2'
+                    }`}
+                  >
+                    <UserRoundPlus
+                      className={`${selectedEmployee ? 'h-5 w-5' : 'h-4 w-4 mr-2'}`}
+                    />
+                    {!selectedEmployee && <span>New Employee</span>}
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
                 {displayedEmployees.length === 0 ? (
@@ -517,7 +535,7 @@ export default function EmployeesPage() {
                         className='hover-lift'
                         title='Go to first page'
                       >
-                        <ChevronsLeft className="{`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}" />
+                        <ChevronsLeft className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`} />
                         <span className='hidden sm:inline ml-1'>First</span>
                       </Button>
 
