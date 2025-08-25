@@ -101,14 +101,18 @@ export default function AssessmentsPage() {
   });
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
-  const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
+
   const [selectedAssessment, setSelectedAssessment] =
     useState<AssessmentRecord | null>(null);
   const [formData, setFormData] = useState<Partial<AssessmentRecord>>({});
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [editingAssessment, setEditingAssessment] =
+    useState<AssessmentRecord | null>(null);
 
   const fetchAssessments = async (page = 1, search = '') => {
     try {
@@ -172,7 +176,7 @@ export default function AssessmentsPage() {
 
       if (!response.ok) throw new Error('Failed to create assessment record');
 
-      setIsCreateDialogOpen(false);
+      setIsCreateModalOpen(false);
       setFormData({});
       fetchAssessments(pagination.page, searchTerm);
     } catch (error) {
@@ -203,7 +207,7 @@ export default function AssessmentsPage() {
 
       if (!response.ok) throw new Error('Failed to update assessment record');
 
-      setIsEditDialogOpen(false);
+      setIsEditModalOpen(false);
       setFormData({});
       fetchAssessments(pagination.page, searchTerm);
     } catch (error) {
@@ -213,19 +217,20 @@ export default function AssessmentsPage() {
     }
   };
 
-  const handleDeleteAssessment = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this assessment record?'))
-      return;
+  const handleDeleteAssessment = async () => {
+    if (!editingAssessment) return;
 
     try {
-      const response = await fetch(`/api/assessments/${id}`, {
+      const response = await fetch(`/api/assessments/${editingAssessment.id}`, {
         method: 'DELETE',
       });
 
       if (!response.ok) throw new Error('Failed to delete assessment record');
 
+      setIsDeleteModalOpen(false);
+      setEditingAssessment(null);
       fetchAssessments(pagination.page, searchTerm);
-      if (selectedAssessment?.id === id) {
+      if (selectedAssessment?.id === editingAssessment.id) {
         setSelectedAssessment(null);
       }
     } catch (error) {
@@ -233,9 +238,20 @@ export default function AssessmentsPage() {
     }
   };
 
-  const openEditDialog = (assessment: AssessmentRecord) => {
+  const openCreateModal = () => {
+    setFormData({});
+    setIsCreateModalOpen(true);
+  };
+
+  const openEditModal = (assessment: AssessmentRecord) => {
+    setEditingAssessment(assessment);
     setFormData(assessment);
-    setIsEditDialogOpen(true);
+    setIsEditModalOpen(true);
+  };
+
+  const openDeleteModal = (assessment: AssessmentRecord) => {
+    setEditingAssessment(assessment);
+    setIsDeleteModalOpen(true);
   };
 
   const handleAssessmentClick = (assessment: AssessmentRecord) => {
@@ -299,10 +315,7 @@ export default function AssessmentsPage() {
             </p>
           </div>
 
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
+          <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
             <DialogTrigger asChild>
               <Button>
                 <Plus className='h-4 w-4 mr-2' />
@@ -389,7 +402,7 @@ export default function AssessmentsPage() {
               <div className='flex justify-end gap-2'>
                 <Button
                   variant='outline'
-                  onClick={() => setIsCreateDialogOpen(false)}
+                  onClick={() => setIsCreateModalOpen(false)}
                   disabled={submitting}
                 >
                   Cancel
@@ -621,7 +634,7 @@ export default function AssessmentsPage() {
                                   size='sm'
                                   onClick={e => {
                                     e.stopPropagation();
-                                    openEditDialog(assessment);
+                                    openEditModal(assessment);
                                   }}
                                 >
                                   <Edit className='h-4 w-4' />
@@ -631,7 +644,7 @@ export default function AssessmentsPage() {
                                   size='sm'
                                   onClick={e => {
                                     e.stopPropagation();
-                                    handleDeleteAssessment(assessment.id);
+                                    openDeleteModal(assessment);
                                   }}
                                 >
                                   <Trash2 className='h-4 w-4' />
@@ -855,7 +868,7 @@ export default function AssessmentsPage() {
         </div>
 
         {/* Edit Dialog */}
-        <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+        <Dialog open={isEditModalOpen} onOpenChange={setIsEditModalOpen}>
           <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
             <DialogHeader>
               <DialogTitle>Edit Assessment Record</DialogTitle>
@@ -936,7 +949,7 @@ export default function AssessmentsPage() {
             <div className='flex justify-end gap-2'>
               <Button
                 variant='outline'
-                onClick={() => setIsEditDialogOpen(false)}
+                onClick={() => setIsEditModalOpen(false)}
                 disabled={submitting}
               >
                 Cancel
@@ -949,6 +962,45 @@ export default function AssessmentsPage() {
                   </>
                 ) : (
                   'Update Assessment'
+                )}
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Confirmation Modal */}
+        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+          <DialogContent className='max-w-md'>
+            <DialogHeader>
+              <DialogTitle>Delete Assessment</DialogTitle>
+              <DialogDescription>
+                Are you sure you want to delete this assessment record? This
+                action cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='flex justify-end gap-2'>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsDeleteModalOpen(false);
+                  setEditingAssessment(null);
+                }}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={handleDeleteAssessment}
+                disabled={submitting}
+              >
+                {submitting ? (
+                  <>
+                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  'Delete Assessment'
                 )}
               </Button>
             </div>

@@ -359,6 +359,114 @@ CREATE TABLE public.invoice_line_items (
 );
 
 -- =====================================================
+-- EMERGENCY RESPONSES TABLE
+-- =====================================================
+
+-- Emergency responses table for tracking workplace incidents
+CREATE TABLE public.emergency_responses (
+    id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+    date_created TIMESTAMPTZ DEFAULT NOW(),
+    date_updated TIMESTAMPTZ DEFAULT NOW(),
+    user_created UUID REFERENCES public.users(id),
+    user_updated UUID REFERENCES public.users(id),
+    
+    -- Incident Information
+    report_id TEXT,
+    employee_id UUID REFERENCES public.employee(id) NOT NULL,
+    injury_date DATE,
+    injury_time TIME,
+    arrival_time TIME,
+    location_id UUID REFERENCES public.locations(id),
+    place TEXT,
+    emergency_type TEXT CHECK (emergency_type IN ('Medical', 'Injury', 'Accident', 'Other')),
+    
+    -- Medical Information
+    injury TEXT,
+    main_complaint TEXT,
+    diagnosis TEXT,
+    findings TEXT,
+    intervention TEXT,
+    patient_history TEXT,
+    plan TEXT,
+    outcome TEXT,
+    
+    -- Administrative
+    reference TEXT,
+    manager TEXT,
+    sendemail TEXT,
+    
+    -- Timestamps
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Create index for better query performance
+CREATE INDEX idx_emergency_responses_employee_id ON public.emergency_responses(employee_id);
+CREATE INDEX idx_emergency_responses_emergency_type ON public.emergency_responses(emergency_type);
+CREATE INDEX idx_emergency_responses_injury_date ON public.emergency_responses(injury_date);
+CREATE INDEX idx_emergency_responses_date_created ON public.emergency_responses(date_created);
+
+-- Trigger to update updated_at timestamp
+CREATE OR REPLACE FUNCTION update_emergency_responses_updated_at()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = NOW();
+    NEW.date_updated = NOW();
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trigger_update_emergency_responses_updated_at
+    BEFORE UPDATE ON public.emergency_responses
+    FOR EACH ROW
+    EXECUTE FUNCTION update_emergency_responses_updated_at();
+
+-- =====================================================
+-- SAMPLE DATA FOR EMERGENCY RESPONSES
+-- =====================================================
+
+-- Insert sample emergency response records
+INSERT INTO public.emergency_responses (
+    employee_id,
+    emergency_type,
+    injury_date,
+    injury_time,
+    arrival_time,
+    place,
+    main_complaint,
+    diagnosis,
+    intervention,
+    outcome,
+    manager
+) VALUES 
+(
+    (SELECT id FROM public.employee LIMIT 1),
+    'Medical',
+    CURRENT_DATE - INTERVAL '5 days',
+    '09:30:00',
+    '09:45:00',
+    'Office Building - Floor 3',
+    'Chest pain and shortness of breath',
+    'Anxiety attack',
+    'Provided calm environment, breathing exercises, called emergency services',
+    'Patient stabilized, transported to hospital for further evaluation',
+    'John Smith'
+),
+(
+    (SELECT id FROM public.employee LIMIT 1 OFFSET 1),
+    'Injury',
+    CURRENT_DATE - INTERVAL '2 days',
+    '14:15:00',
+    '14:20:00',
+    'Warehouse - Loading Bay',
+    'Slip and fall on wet floor',
+    'Minor ankle sprain',
+    'Applied ice pack, elevated leg, provided crutches',
+    'Referred to occupational health for follow-up',
+    'Jane Doe'
+);
+
+-- =====================================================
 -- INDEXES FOR PERFORMANCE
 -- =====================================================
 

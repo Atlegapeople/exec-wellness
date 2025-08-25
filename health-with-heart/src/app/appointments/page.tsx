@@ -31,6 +31,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 import DashboardLayout from '@/components/DashboardLayout';
 import {
   Search,
@@ -48,6 +57,10 @@ import {
   Edit,
   CheckCircle,
   Loader2,
+  Plus,
+  Trash2,
+  AlertCircle,
+  Save,
 } from 'lucide-react';
 
 interface AppointmentWithEmployee extends Appointment {
@@ -113,6 +126,18 @@ export default function AppointmentsPage() {
   const [formLoading, setFormLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
+  // Create appointment modal state
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [createFormData, setCreateFormData] = useState<any>({});
+  const [createLoading, setCreateLoading] = useState(false);
+  const [employees, setEmployees] = useState<any[]>([]);
+
+  // Edit and delete modal state
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [editingAppointment, setEditingAppointment] =
+    useState<AppointmentWithEmployee | null>(null);
+
   // Fetch all appointments data once
   const fetchAllAppointments = async () => {
     try {
@@ -129,6 +154,17 @@ export default function AppointmentsPage() {
       console.error('Error fetching appointments:', error);
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Fetch employees for create form
+  const fetchEmployees = async () => {
+    try {
+      const response = await fetch('/api/employees');
+      const data = await response.json();
+      setEmployees(data.employees || []);
+    } catch (error) {
+      console.error('Error fetching employees:', error);
     }
   };
 
@@ -218,6 +254,7 @@ export default function AppointmentsPage() {
   // Initial load
   useEffect(() => {
     fetchAllAppointments();
+    fetchEmployees();
   }, []);
 
   // Auto-select appointment when employeeId is in URL and appointments are loaded
@@ -347,6 +384,165 @@ export default function AppointmentsPage() {
   const handleMouseUp = useCallback(() => {
     setIsResizing(false);
   }, []);
+
+  // Create new appointment
+  const handleCreateAppointment = async () => {
+    try {
+      setCreateLoading(true);
+
+      const response = await fetch('/api/appointments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...createFormData,
+          user_created: 'system', // You can replace this with actual user ID
+        }),
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log('Appointment created successfully:', result);
+
+        // Close modal and reset form
+        setIsCreateModalOpen(false);
+        setCreateFormData({});
+
+        // Refresh appointments and select the new one
+        await fetchAllAppointments();
+
+        // Find and select the new appointment
+        const newAppointment = allAppointments.find(
+          apt => apt.id === result.appointment.id
+        );
+        if (newAppointment) {
+          setSelectedAppointment(newAppointment);
+          updateURL(pagination.page, searchTerm, newAppointment.employee_id);
+        }
+
+        setSuccessMessage('Appointment created successfully!');
+        setTimeout(() => setSuccessMessage(null), 3000);
+      } else {
+        const error = await response.json();
+        console.error('Failed to create appointment:', error);
+        alert('Failed to create appointment: ' + error.error);
+      }
+    } catch (error) {
+      console.error('Error creating appointment:', error);
+      alert('Error creating appointment');
+    } finally {
+      setCreateLoading(false);
+    }
+  };
+
+  // Delete appointment
+  const handleDeleteAppointment = async () => {
+    if (!editingAppointment?.id) return;
+
+    try {
+      setFormLoading(true);
+
+      const response = await fetch(
+        `/api/appointments?id=${editingAppointment.id}`,
+        {
+          method: 'DELETE',
+        }
+      );
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log('Appointment deleted successfully:', result);
+
+        // Close the modal and reset state
+        setIsDeleteModalOpen(false);
+        setEditingAppointment(null);
+
+        // Close the appointment details if it was the selected one
+        if (selectedAppointment?.id === editingAppointment?.id) {
+          setSelectedAppointment(null);
+          updateURL(pagination.page, searchTerm);
+        }
+
+        // Refresh appointments
+        await fetchAllAppointments();
+
+        setSuccessMessage('Appointment deleted successfully!');
+        setTimeout(() => setSuccessMessage(null), 3000);
+      } else {
+        let errorMessage = 'Failed to delete appointment';
+        try {
+          const error = await response.json();
+          errorMessage +=
+            ': ' + (error.error || error.message || 'Unknown error');
+        } catch (parseError) {
+          errorMessage += `: HTTP ${response.status} - ${response.statusText}`;
+        }
+        console.error('Failed to delete appointment:', errorMessage);
+        alert(errorMessage);
+      }
+    } catch (error) {
+      console.error('Error deleting appointment:', error);
+      alert('Error deleting appointment');
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const openCreateModal = () => {
+    setCreateFormData({});
+    setIsCreateModalOpen(true);
+  };
+
+  const openEditModal = (appointment: AppointmentWithEmployee) => {
+    setEditingAppointment(appointment);
+    setFormData(appointment);
+    setIsEditModalOpen(true);
+  };
+
+  const openDeleteModal = (appointment: AppointmentWithEmployee) => {
+    setEditingAppointment(appointment);
+    setIsDeleteModalOpen(true);
+  };
+
+  // Initialize form data when entering edit mode
+  const handleEditClick = (sectionName: string) => {
+    // Initialize form data with current values
+    setFormData({
+      id: selectedAppointment?.id,
+      employee_name: selectedAppointment?.employee_name,
+      employee_surname: selectedAppointment?.employee_surname,
+      employee_email: selectedAppointment?.employee_email,
+      type: selectedAppointment?.type,
+      start_date: selectedAppointment?.start_date,
+      end_date: selectedAppointment?.end_date,
+      start_time: selectedAppointment?.start_time,
+      end_time: selectedAppointment?.end_time,
+      start_datetime: selectedAppointment?.start_datetime,
+      end_datetime: selectedAppointment?.end_datetime,
+      notes: selectedAppointment?.notes,
+      calander_id: selectedAppointment?.calander_id,
+      calander_link: selectedAppointment?.calander_link,
+      report_id: selectedAppointment?.report_id,
+    });
+
+    // Open the appropriate edit mode
+    switch (sectionName) {
+      case 'employee':
+        setIsEmployeeEditOpen(true);
+        break;
+      case 'appointment':
+        setIsAppointmentEditOpen(true);
+        break;
+      case 'report':
+        setIsReportEditOpen(true);
+        break;
+      case 'calendar':
+        setIsCalendarEditOpen(true);
+        break;
+      case 'notes':
+        setIsNotesEditOpen(true);
+        break;
+    }
+  };
 
   // Save section-specific data
   const handleSectionSave = async (sectionName: string) => {
@@ -536,13 +732,31 @@ export default function AppointmentsPage() {
             {/* Appointments Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                  <CalendarDays className='h-6 w-6' />
-                  Appointments ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Medical appointment scheduling and records
-                </CardDescription>
+                <div className='flex justify-between items-start'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                      <CalendarDays className='h-6 w-6' />
+                      Appointments ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Medical appointment scheduling and records
+                    </CardDescription>
+                  </div>
+                  <Button
+                    onClick={() => setIsCreateModalOpen(true)}
+                    className={`hover-lift transition-all duration-300 ease-in-out ${
+                      selectedAppointment
+                        ? 'w-12 h-12 rounded-full p-0'
+                        : 'px-4 py-2'
+                    }`}
+                    size='sm'
+                  >
+                    <Plus
+                      className={`${selectedAppointment ? 'h-5 w-5' : 'h-4 w-4 mr-2'}`}
+                    />
+                    {!selectedAppointment && <span>New Appointment</span>}
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent>
                 {displayedAppointments.length === 0 ? (
@@ -680,17 +894,13 @@ export default function AppointmentsPage() {
                           ),
                         },
                         (_, i) => {
-                          const startPage = Math.max(
-                            1,
-                            pagination.page -
-                              (selectedAppointment && leftWidth < 50 ? 1 : 2)
-                          );
+                          const startPage = Math.max(1, pagination.page - 2);
                           const page = startPage + i;
                           if (page > pagination.totalPages) return null;
 
                           return (
                             <Button
-                              key={`appointments-page-${page}`}
+                              key={`employees-page-${page}`}
                               variant={
                                 page === pagination.page ? 'default' : 'outline'
                               }
@@ -714,12 +924,10 @@ export default function AppointmentsPage() {
                         className='hover-lift'
                         title='Go to next page'
                       >
-                        <span
-                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Next
-                        </span>
-                        <ChevronRight className='h-4 w-4' />
+                        <span className='hidden sm:inline mr-1'>Next</span>
+                        <ChevronRight
+                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        />
                       </Button>
 
                       {/* Last Page */}
@@ -731,12 +939,10 @@ export default function AppointmentsPage() {
                         className='hover-lift'
                         title='Go to last page'
                       >
-                        <span
-                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Last
-                        </span>
-                        <ChevronsRight className='h-4 w-4' />
+                        <span className='hidden sm:inline mr-1'>Last</span>
+                        <ChevronsRight
+                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        />
                       </Button>
                     </div>
                   </div>
@@ -794,11 +1000,21 @@ export default function AppointmentsPage() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setIsAppointmentEditOpen(true)}
+                        onClick={() => openEditModal(selectedAppointment!)}
                         className='hover-lift'
                         title='Edit appointment details'
                       >
                         <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openDeleteModal(selectedAppointment!)}
+                        className='hover-lift text-red-600 hover:text-red-700 hover:bg-red-50'
+                        title='Delete appointment'
+                        disabled={formLoading}
+                      >
+                        <Trash2 className='h-4 w-4' />
                       </Button>
                       <Button
                         variant='ghost'
@@ -843,7 +1059,7 @@ export default function AppointmentsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setIsEmployeeEditOpen(true)}
+                          onClick={() => handleEditClick('employee')}
                           className='hover-lift h-8 w-8 p-0'
                           title='Edit employee information'
                         >
@@ -854,7 +1070,10 @@ export default function AppointmentsPage() {
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => setIsEmployeeEditOpen(false)}
+                            onClick={() => {
+                              setIsEmployeeEditOpen(false);
+                              setFormData({});
+                            }}
                             className='hover-lift h-8'
                             disabled={formLoading}
                           >
@@ -998,7 +1217,7 @@ export default function AppointmentsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setIsAppointmentEditOpen(true)}
+                          onClick={() => openEditModal(selectedAppointment!)}
                           className='hover-lift h-8 w-8 p-0'
                           title='Edit appointment details'
                         >
@@ -1009,7 +1228,10 @@ export default function AppointmentsPage() {
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => setIsAppointmentEditOpen(false)}
+                            onClick={() => {
+                              setIsAppointmentEditOpen(false);
+                              setFormData({});
+                            }}
                             className='hover-lift h-8'
                             disabled={formLoading}
                           >
@@ -1102,22 +1324,9 @@ export default function AppointmentsPage() {
                           >
                             Type:
                           </Label>
-                          <Input
-                            id='type'
-                            value={
-                              formData.type !== undefined
-                                ? formData.type
-                                : selectedAppointment.type || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                type: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter appointment type'
-                          />
+                          <Badge variant='outline'>
+                            {selectedAppointment.type}
+                          </Badge>
                         </div>
                         <div className='flex gap-2 items-center'>
                           <Label
@@ -1240,7 +1449,7 @@ export default function AppointmentsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setIsReportEditOpen(true)}
+                          onClick={() => handleEditClick('report')}
                           className='hover-lift h-8 w-8 p-0'
                           title='Edit report information'
                         >
@@ -1251,7 +1460,10 @@ export default function AppointmentsPage() {
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => setIsReportEditOpen(false)}
+                            onClick={() => {
+                              setIsReportEditOpen(false);
+                              setFormData({});
+                            }}
                             className='hover-lift h-8'
                             disabled={formLoading}
                           >
@@ -1334,7 +1546,7 @@ export default function AppointmentsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setIsCalendarEditOpen(true)}
+                          onClick={() => handleEditClick('calendar')}
                           className='hover-lift h-8 w-8 p-0'
                           title='Edit calendar information'
                         >
@@ -1345,7 +1557,10 @@ export default function AppointmentsPage() {
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => setIsCalendarEditOpen(false)}
+                            onClick={() => {
+                              setIsCalendarEditOpen(false);
+                              setFormData({});
+                            }}
                             className='hover-lift h-8'
                             disabled={formLoading}
                           >
@@ -1509,7 +1724,7 @@ export default function AppointmentsPage() {
                             <Button
                               variant='ghost'
                               size='sm'
-                              onClick={() => setIsNotesEditOpen(true)}
+                              onClick={() => handleEditClick('notes')}
                               className='hover-lift h-8 w-8 p-0'
                               title='Edit notes'
                             >
@@ -1520,7 +1735,10 @@ export default function AppointmentsPage() {
                               <Button
                                 variant='outline'
                                 size='sm'
-                                onClick={() => setIsNotesEditOpen(false)}
+                                onClick={() => {
+                                  setIsNotesEditOpen(false);
+                                  setFormData({});
+                                }}
                                 className='hover-lift h-8'
                                 disabled={formLoading}
                               >
@@ -1579,6 +1797,386 @@ export default function AppointmentsPage() {
             </div>
           )}
         </div>
+
+        {/* Create Appointment Modal */}
+        <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
+          <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle>Create New Appointment</DialogTitle>
+              <DialogDescription>
+                Schedule a new medical appointment for an employee.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-6'>
+              {/* Employee Selection */}
+              <div className='space-y-2'>
+                <Label htmlFor='employee_id'>Employee *</Label>
+                <Select
+                  value={createFormData.employee_id || ''}
+                  onValueChange={value =>
+                    setCreateFormData({
+                      ...createFormData,
+                      employee_id: value,
+                    })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select an employee' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {employees.map(employee => (
+                      <SelectItem key={employee.id} value={employee.id}>
+                        {employee.name} {employee.surname} -{' '}
+                        {employee.work_email}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Appointment Type */}
+              <div className='space-y-2'>
+                <Label htmlFor='type'>Appointment Type *</Label>
+                <Select
+                  value={createFormData.type || ''}
+                  onValueChange={value =>
+                    setCreateFormData({
+                      ...createFormData,
+                      type: value,
+                    })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select appointment type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Executive Medical'>
+                      Executive Medical
+                    </SelectItem>
+                    <SelectItem value='General Checkup'>
+                      General Checkup
+                    </SelectItem>
+                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
+                    <SelectItem value='Consultation'>Consultation</SelectItem>
+                    <SelectItem value='Emergency'>Emergency</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Date and Time */}
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='start_date'>Start Date</Label>
+                  <Input
+                    type='date'
+                    value={createFormData.start_date || ''}
+                    onChange={e =>
+                      setCreateFormData({
+                        ...createFormData,
+                        start_date: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className='space-y-2'>
+                  <Label htmlFor='end_date'>End Date</Label>
+                  <Input
+                    type='date'
+                    value={createFormData.end_date || ''}
+                    onChange={e =>
+                      setCreateFormData({
+                        ...createFormData,
+                        end_date: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+              </div>
+
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='start_time'>Start Time</Label>
+                  <Input
+                    type='time'
+                    value={createFormData.start_time || ''}
+                    onChange={e =>
+                      setCreateFormData({
+                        ...createFormData,
+                        start_time: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                <div className='space-y-2'>
+                  <Label htmlFor='end_time'>End Time</Label>
+                  <Input
+                    type='time'
+                    value={createFormData.end_time || ''}
+                    onChange={e =>
+                      setCreateFormData({
+                        ...createFormData,
+                        end_time: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+              </div>
+
+              {/* Notes */}
+              <div className='space-y-2'>
+                <Label htmlFor='notes'>Notes</Label>
+                <Textarea
+                  value={createFormData.notes || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      notes: e.target.value,
+                    })
+                  }
+                  placeholder='Enter appointment notes...'
+                  className='min-h-[100px]'
+                />
+              </div>
+            </div>
+
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsCreateModalOpen(false);
+                  setCreateFormData({});
+                }}
+                disabled={createLoading}
+              >
+                Cancel
+              </Button>
+              <Button
+                onClick={handleCreateAppointment}
+                disabled={
+                  createLoading ||
+                  !createFormData.employee_id ||
+                  !createFormData.type
+                }
+                className='hover-lift'
+              >
+                {createLoading ? (
+                  <>
+                    <Loader2 className='h-4 w-4 animate-spin mr-2' />
+                    Creating...
+                  </>
+                ) : (
+                  'Create Appointment'
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Edit Appointment Modal */}
+        <Dialog open={isEditModalOpen} onOpenChange={setIsEditModalOpen}>
+          <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle>Edit Appointment</DialogTitle>
+              <DialogDescription>
+                Update the appointment information for{' '}
+                {editingAppointment
+                  ? `${editingAppointment.employee_name} ${editingAppointment.employee_surname}`
+                  : ''}
+                .
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-6'>
+              {/* Employee Selection */}
+              <div className='space-y-2'>
+                <Label htmlFor='edit_employee_id'>Employee</Label>
+                <Select
+                  value={formData.employee_id || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, employee_id: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select an employee' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {employees.map(employee => (
+                      <SelectItem key={employee.id} value={employee.id}>
+                        {employee.name} {employee.surname} -{' '}
+                        {employee.work_email}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Appointment Type */}
+              <div className='space-y-2'>
+                <Label htmlFor='edit_type'>Appointment Type</Label>
+                <Select
+                  value={formData.type || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, type: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select appointment type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Executive Medical'>
+                      Executive Medical
+                    </SelectItem>
+                    <SelectItem value='General Checkup'>
+                      General Checkup
+                    </SelectItem>
+                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
+                    <SelectItem value='Consultation'>Consultation</SelectItem>
+                    <SelectItem value='Emergency'>Emergency</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Date and Time */}
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_start_date'>Start Date</Label>
+                  <Input
+                    type='date'
+                    value={formData.start_date || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, start_date: e.target.value })
+                    }
+                  />
+                </div>
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_end_date'>End Date</Label>
+                  <Input
+                    type='date'
+                    value={formData.end_date || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, end_date: e.target.value })
+                    }
+                  />
+                </div>
+              </div>
+
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_start_time'>Start Time</Label>
+                  <Input
+                    type='time'
+                    value={formData.start_time || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, start_time: e.target.value })
+                    }
+                  />
+                </div>
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_end_time'>End Time</Label>
+                  <Input
+                    type='time'
+                    value={formData.end_time || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, end_time: e.target.value })
+                    }
+                  />
+                </div>
+              </div>
+
+              {/* Notes */}
+              <div className='space-y-2'>
+                <Label htmlFor='edit_notes'>Notes</Label>
+                <Textarea
+                  value={formData.notes || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, notes: e.target.value })
+                  }
+                  placeholder='Enter appointment notes...'
+                  className='min-h-[100px]'
+                />
+              </div>
+            </div>
+
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsEditModalOpen(false);
+                  setFormData({});
+                  setEditingAppointment(null);
+                }}
+                disabled={formLoading}
+              >
+                Cancel
+              </Button>
+              <Button
+                onClick={async () => {
+                  await handleSectionSave('appointment');
+                  setIsEditModalOpen(false);
+                  setEditingAppointment(null);
+                }}
+                disabled={formLoading}
+              >
+                {formLoading ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Updating...
+                  </>
+                ) : (
+                  'Update Appointment'
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Confirmation Modal */}
+        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+          <DialogContent className='max-w-md'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <Trash2 className='h-5 w-5 text-destructive' />
+                Delete Appointment
+              </DialogTitle>
+              <DialogDescription>
+                Are you sure you want to delete this appointment for{' '}
+                <span className='font-medium'>
+                  {editingAppointment
+                    ? `${editingAppointment.employee_name} ${editingAppointment.employee_surname}`
+                    : ''}
+                </span>
+                ? This action cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsDeleteModalOpen(false);
+                  setEditingAppointment(null);
+                }}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={handleDeleteAppointment}
+                disabled={formLoading}
+              >
+                {formLoading ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  'Delete Appointment'
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
     </DashboardLayout>
   );
