@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -76,8 +76,10 @@ interface FormData {
 
 export default function updateEmployeePage() {
   const searchParams = useSearchParams();
-  const employee_id = searchParams.get('id');
   const router = useRouter();
+
+  // Support both 'id' and 'employee' parameters for deep linking
+  const employee_id = searchParams.get('id') || searchParams.get('employee');
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -191,6 +193,9 @@ export default function updateEmployeePage() {
               : '',
             notes_text: data.employee.notes_text || '',
           });
+
+          // Update URL to include employee ID for deep linking
+          updateURL(data.employee.id);
         } else if (data.id) {
           // If the API returns the employee data directly
           setFormData({
@@ -223,6 +228,9 @@ export default function updateEmployeePage() {
               : '',
             notes_text: data.notes_text || '',
           });
+
+          // Update URL to include employee ID for deep linking
+          updateURL(data.id);
         }
       } catch (error) {
         console.error('Error fetching employee:', error);
@@ -233,6 +241,41 @@ export default function updateEmployeePage() {
     };
 
     fetchEmployee();
+  }, [employee_id]);
+
+  // Handle URL parameter changes for deep linking
+  useEffect(() => {
+    if (employee_id) {
+      // Reset form and fetch new employee data when employee ID changes
+      setFormData({
+        name: '',
+        surname: '',
+        id_number: '',
+        passport_number: '',
+        gender: '',
+        date_of_birth: '',
+        ethnicity: '',
+        marriage_status: '',
+        no_of_children: '',
+        personal_email_address: '',
+        mobile_number: '',
+        medical_aid: '',
+        medical_aid_number: '',
+        main_member: false,
+        main_member_name: '',
+        work_email: '',
+        employee_number: '',
+        organisation: '',
+        organisation_name: '',
+        workplace: '',
+        workplace_name: '',
+        job: '',
+        work_startdate: '',
+        notes_text: '',
+      });
+      setError(null);
+      setSuccess(false);
+    }
   }, [employee_id]);
 
   const handleInputChange = (
@@ -261,6 +304,7 @@ export default function updateEmployeePage() {
 
       if (response.ok) {
         setSuccess(true);
+        // Keep the employee ID in the URL for a moment before redirecting
         setTimeout(() => {
           router.push('/employees');
         }, 2000);
@@ -278,6 +322,18 @@ export default function updateEmployeePage() {
   const handleBack = () => {
     router.push('/employees');
   };
+
+  // Update URL to include employee ID for deep linking
+  const updateURL = useCallback(
+    (employeeId: string) => {
+      const params = new URLSearchParams();
+      params.set('employee', employeeId);
+
+      const newURL = `/employees/update?${params.toString()}`;
+      router.replace(newURL, { scroll: false });
+    },
+    [router]
+  );
 
   if (success) {
     return (
@@ -349,6 +405,22 @@ export default function updateEmployeePage() {
             Edit employee details in the OHMS Health Management System
           </p>
 
+          {/* Deep Linking Navigation */}
+          {employee_id && (
+            <div className='mt-4 p-4 bg-green-50 rounded-lg border border-green-200'>
+              <div className='text-sm text-green-800'>
+                <p className='font-medium mb-2'>
+                  <strong>Deep Linking Active:</strong> Employee {employee_id}{' '}
+                  loaded from URL
+                </p>
+                <p className='text-xs text-green-700'>
+                  This page supports deep linking. You can navigate directly to
+                  any employee by changing the URL parameter.
+                </p>
+              </div>
+            </div>
+          )}
+
           {/* Debug Info */}
           <div className='mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200'>
             <div className='text-sm text-blue-800'>
@@ -356,7 +428,19 @@ export default function updateEmployeePage() {
                 <strong>Debug Information:</strong>
               </p>
               <p>
-                Employee ID:{' '}
+                Employee ID (from 'id' param):{' '}
+                <code className='bg-blue-100 px-1 rounded'>
+                  {searchParams.get('id') || 'Not provided'}
+                </code>
+              </p>
+              <p>
+                Employee ID (from 'employee' param):{' '}
+                <code className='bg-blue-100 px-1 rounded'>
+                  {searchParams.get('employee') || 'Not provided'}
+                </code>
+              </p>
+              <p>
+                Final Employee ID:{' '}
                 <code className='bg-blue-100 px-1 rounded'>
                   {employee_id || 'Not provided'}
                 </code>
