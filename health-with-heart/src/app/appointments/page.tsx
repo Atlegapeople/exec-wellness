@@ -22,6 +22,15 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
 import DashboardLayout from '@/components/DashboardLayout';
 import {
   Search,
@@ -36,6 +45,9 @@ import {
   ChevronsLeft,
   ChevronsRight,
   CalendarDays,
+  Edit,
+  CheckCircle,
+  Loader2,
 } from 'lucide-react';
 
 interface AppointmentWithEmployee extends Appointment {
@@ -89,6 +101,18 @@ export default function AppointmentsPage() {
   const [leftWidth, setLeftWidth] = useState(40);
   const [isResizing, setIsResizing] = useState(false);
 
+  // Section-specific edit states
+  const [isEmployeeEditOpen, setIsEmployeeEditOpen] = useState(false);
+  const [isAppointmentEditOpen, setIsAppointmentEditOpen] = useState(false);
+  const [isReportEditOpen, setIsReportEditOpen] = useState(false);
+  const [isCalendarEditOpen, setIsCalendarEditOpen] = useState(false);
+  const [isNotesEditOpen, setIsNotesEditOpen] = useState(false);
+
+  // Form data for editing
+  const [formData, setFormData] = useState<any>({});
+  const [formLoading, setFormLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
+
   // Fetch all appointments data once
   const fetchAllAppointments = async () => {
     try {
@@ -130,15 +154,21 @@ export default function AppointmentsPage() {
   );
 
   // Helper function to find appointment by employee ID
+  // If multiple appointments exist for the same employee, select the first one
   const findAppointmentByEmployeeId = (
     appointments: AppointmentWithEmployee[],
     employeeId: string
   ): AppointmentWithEmployee | null => {
-    return (
-      appointments.find(
-        appointment => appointment.employee_id === employeeId
-      ) || null
+    const employeeAppointments = appointments.filter(
+      appointment => appointment.employee_id === employeeId
     );
+
+    if (employeeAppointments.length === 0) {
+      return null;
+    }
+
+    // If multiple appointments exist, select the first one
+    return employeeAppointments[0];
   };
 
   // Client-side pagination
@@ -317,6 +347,117 @@ export default function AppointmentsPage() {
   const handleMouseUp = useCallback(() => {
     setIsResizing(false);
   }, []);
+
+  // Save section-specific data
+  const handleSectionSave = async (sectionName: string) => {
+    if (!selectedAppointment?.id) {
+      console.error('No appointment record selected for saving');
+      return;
+    }
+
+    try {
+      setFormLoading(true);
+
+      // Start with the complete existing record to preserve all data
+      let updateData: any = { ...selectedAppointment };
+
+      // Only update the specific fields for the section being edited
+      switch (sectionName) {
+        case 'employee':
+          if (formData.employee_name !== undefined)
+            updateData.employee_name = formData.employee_name;
+          if (formData.employee_surname !== undefined)
+            updateData.employee_surname = formData.employee_surname;
+          if (formData.employee_email !== undefined)
+            updateData.employee_email = formData.employee_email;
+          break;
+        case 'appointment':
+          if (formData.type !== undefined) updateData.type = formData.type;
+          if (formData.start_date !== undefined)
+            updateData.start_date = formData.start_date;
+          if (formData.end_date !== undefined)
+            updateData.end_date = formData.end_date;
+          if (formData.start_time !== undefined)
+            updateData.start_time = formData.start_time;
+          if (formData.end_time !== undefined)
+            updateData.end_time = formData.end_time;
+          if (formData.start_datetime !== undefined)
+            updateData.start_datetime = formData.start_datetime;
+          if (formData.end_datetime !== undefined)
+            updateData.end_datetime = formData.end_datetime;
+          break;
+        case 'report':
+          if (formData.report_id !== undefined)
+            updateData.report_id = formData.report_id;
+          break;
+        case 'calendar':
+          if (formData.calander_id !== undefined)
+            updateData.calander_id = formData.calander_id;
+          if (formData.calander_link !== undefined)
+            updateData.calander_link = formData.calander_link;
+          break;
+        case 'notes':
+          if (formData.notes !== undefined) updateData.notes = formData.notes;
+          break;
+        default:
+          console.error(`Unknown section: ${sectionName}`);
+          return;
+      }
+
+      console.log(`Saving ${sectionName} data:`, updateData);
+
+      const response = await fetch('/api/appointments', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updateData),
+      });
+
+      if (response.ok) {
+        const updatedAppointment = await response.json();
+        console.log(`${sectionName} saved successfully:`, updatedAppointment);
+
+        // Update the selected appointment with new data
+        setSelectedAppointment(
+          updatedAppointment.appointment || updatedAppointment
+        );
+
+        // Refresh all appointments to get updated data
+        await fetchAllAppointments();
+
+        // Close the edit mode for the specific section
+        switch (sectionName) {
+          case 'employee':
+            setIsEmployeeEditOpen(false);
+            break;
+          case 'appointment':
+            setIsAppointmentEditOpen(false);
+            break;
+          case 'report':
+            setIsReportEditOpen(false);
+            break;
+          case 'calendar':
+            setIsCalendarEditOpen(false);
+            break;
+          case 'notes':
+            setIsNotesEditOpen(false);
+            break;
+        }
+
+        setFormData({});
+        setSuccessMessage(
+          `${sectionName.charAt(0).toUpperCase() + sectionName.slice(1)} section updated successfully!`
+        );
+        setTimeout(() => setSuccessMessage(null), 3000);
+      } else {
+        const error = await response.json();
+        console.error(`${sectionName} save failed:`, error);
+      }
+    } catch (error) {
+      console.error(`Error saving ${sectionName} data:`, error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
 
   useEffect(() => {
     if (isResizing) {
@@ -649,181 +790,664 @@ export default function AppointmentsPage() {
                         </Badge>
                       </CardDescription>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => {
-                        setSelectedAppointment(null);
-                        // Remove employeeId from URL when closing appointment
-                        updateURL(pagination.page, searchTerm);
-                      }}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsAppointmentEditOpen(true)}
+                        className='hover-lift'
+                        title='Edit appointment details'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => {
+                          setSelectedAppointment(null);
+                          // Remove employeeId from URL when closing appointment
+                          updateURL(pagination.page, searchTerm);
+                        }}
+                        className='hover-lift'
+                        title='Close appointment record'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
+
+                {/* Success Message */}
+                {successMessage && (
+                  <div className='px-6 pt-0 pb-3'>
+                    <div className='p-3 bg-green-50 border border-green-200 rounded-lg'>
+                      <div className='flex items-center gap-2 text-green-700'>
+                        <CheckCircle className='h-4 w-4' />
+                        <span className='text-sm font-medium'>
+                          {successMessage}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Employee Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <User className='h-4 w-4' />
-                      Employee Information
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Name:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedAppointment.employee_name}{' '}
-                          {selectedAppointment.employee_surname}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Email:
-                        </span>
-                        <span className='font-medium text-xs break-all'>
-                          {selectedAppointment.employee_email || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Employee ID:
-                        </span>
-                        <Badge variant='outline'>
-                          {selectedAppointment.employee_id}
-                        </Badge>
-                      </div>
+                    <div className='flex justify-between items-center'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <User className='h-4 w-4' />
+                        Employee Information
+                      </h3>
+                      {!isEmployeeEditOpen ? (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEmployeeEditOpen(true)}
+                          className='hover-lift h-8 w-8 p-0'
+                          title='Edit employee information'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      ) : (
+                        <div className='flex gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEmployeeEditOpen(false)}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            variant='default'
+                            size='sm'
+                            onClick={() => handleSectionSave('employee')}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 animate-spin' />
+                            ) : (
+                              'Save'
+                            )}
+                          </Button>
+                        </div>
+                      )}
                     </div>
+
+                    {!isEmployeeEditOpen ? (
+                      // Display current employee information
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Name:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedAppointment.employee_name}{' '}
+                            {selectedAppointment.employee_surname}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Email:
+                          </span>
+                          <span className='font-medium text-xs break-all'>
+                            {selectedAppointment.employee_email || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Employee ID:
+                          </span>
+                          <Badge variant='outline'>
+                            {selectedAppointment.employee_id}
+                          </Badge>
+                        </div>
+                      </div>
+                    ) : (
+                      // Show input fields for editing
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='employee_name'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Name:
+                          </Label>
+                          <Input
+                            id='employee_name'
+                            value={
+                              formData.employee_name !== undefined
+                                ? formData.employee_name
+                                : selectedAppointment.employee_name || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                employee_name: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter employee name'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='employee_surname'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Surname:
+                          </Label>
+                          <Input
+                            id='employee_surname'
+                            value={
+                              formData.employee_surname !== undefined
+                                ? formData.employee_surname
+                                : selectedAppointment.employee_surname || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                employee_surname: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter employee surname'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='employee_email'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Email:
+                          </Label>
+                          <Input
+                            id='employee_email'
+                            value={
+                              formData.employee_email !== undefined
+                                ? formData.employee_email
+                                : selectedAppointment.employee_email || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                employee_email: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter employee email'
+                          />
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Appointment Details */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Calendar className='h-4 w-4' />
-                      Appointment Details
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Type:
-                        </span>
-                        <Badge variant='outline'>
-                          {selectedAppointment.type}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Start Date:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDate(selectedAppointment.start_date)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          End Date:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDate(selectedAppointment.end_date)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Start Time:
-                        </span>
-                        <span className='font-medium'>
-                          {formatTime(selectedAppointment.start_time)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          End Time:
-                        </span>
-                        <span className='font-medium'>
-                          {formatTime(selectedAppointment.end_time)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Start DateTime:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedAppointment.start_datetime)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          End DateTime:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedAppointment.end_datetime)}
-                        </span>
-                      </div>
+                    <div className='flex justify-between items-center'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Calendar className='h-4 w-4' />
+                        Appointment Details
+                      </h3>
+                      {!isAppointmentEditOpen ? (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsAppointmentEditOpen(true)}
+                          className='hover-lift h-8 w-8 p-0'
+                          title='Edit appointment details'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      ) : (
+                        <div className='flex gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsAppointmentEditOpen(false)}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            variant='default'
+                            size='sm'
+                            onClick={() => handleSectionSave('appointment')}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 animate-spin' />
+                            ) : (
+                              'Save'
+                            )}
+                          </Button>
+                        </div>
+                      )}
                     </div>
+
+                    {!isAppointmentEditOpen ? (
+                      // Display current appointment details
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Type:
+                          </span>
+                          <Badge variant='outline'>
+                            {selectedAppointment.type}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Start Date:
+                          </span>
+                          <span className='font-medium'>
+                            {formatDate(selectedAppointment.start_date)}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            End Date:
+                          </span>
+                          <span className='font-medium'>
+                            {formatDate(selectedAppointment.end_date)}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Start Time:
+                          </span>
+                          <span className='font-medium'>
+                            {formatTime(selectedAppointment.start_time)}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            End Time:
+                          </span>
+                          <span className='font-medium'>
+                            {formatTime(selectedAppointment.end_time)}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Start DateTime:
+                          </span>
+                          <span className='font-medium'>
+                            {formatDateTime(selectedAppointment.start_datetime)}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            End DateTime:
+                          </span>
+                          <span className='font-medium'>
+                            {formatDateTime(selectedAppointment.end_datetime)}
+                          </span>
+                        </div>
+                      </div>
+                    ) : (
+                      // Show input fields for editing
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='type'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Type:
+                          </Label>
+                          <Input
+                            id='type'
+                            value={
+                              formData.type !== undefined
+                                ? formData.type
+                                : selectedAppointment.type || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                type: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter appointment type'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='start_date'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Start Date:
+                          </Label>
+                          <Input
+                            id='start_date'
+                            type='date'
+                            value={
+                              formData.start_date !== undefined
+                                ? formData.start_date
+                                : selectedAppointment.start_date
+                                  ? new Date(selectedAppointment.start_date)
+                                      .toISOString()
+                                      .split('T')[0]
+                                  : ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                start_date: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='end_date'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            End Date:
+                          </Label>
+                          <Input
+                            id='end_date'
+                            type='date'
+                            value={
+                              formData.end_date !== undefined
+                                ? formData.end_date
+                                : selectedAppointment.end_date
+                                  ? new Date(selectedAppointment.end_date)
+                                      .toISOString()
+                                      .split('T')[0]
+                                  : ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                end_date: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='start_time'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Start Time:
+                          </Label>
+                          <Input
+                            id='start_time'
+                            type='time'
+                            value={
+                              formData.start_time !== undefined
+                                ? formData.start_time
+                                : selectedAppointment.start_time || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                start_time: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='end_time'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            End Time:
+                          </Label>
+                          <Input
+                            id='end_time'
+                            type='time'
+                            value={
+                              formData.end_time !== undefined
+                                ? formData.end_time
+                                : selectedAppointment.end_time || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                end_time: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                          />
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Report Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <FileText className='h-4 w-4' />
-                      Report Information
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Report ID:
-                        </span>
-                        {selectedAppointment.report_id ? (
-                          <Badge variant='default'>
-                            {selectedAppointment.report_id}
-                          </Badge>
-                        ) : (
-                          <Badge variant='secondary'>No Report</Badge>
-                        )}
-                      </div>
+                    <div className='flex justify-between items-center'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <FileText className='h-4 w-4' />
+                        Report Information
+                      </h3>
+                      {!isReportEditOpen ? (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsReportEditOpen(true)}
+                          className='hover-lift h-8 w-8 p-0'
+                          title='Edit report information'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      ) : (
+                        <div className='flex gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsReportEditOpen(false)}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            variant='default'
+                            size='sm'
+                            onClick={() => handleSectionSave('report')}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 animate-spin' />
+                            ) : (
+                              'Save'
+                            )}
+                          </Button>
+                        </div>
+                      )}
                     </div>
+
+                    {!isReportEditOpen ? (
+                      // Display current report information
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Report ID:
+                          </span>
+                          {selectedAppointment.report_id ? (
+                            <Badge variant='default'>
+                              {selectedAppointment.report_id}
+                            </Badge>
+                          ) : (
+                            <Badge variant='secondary'>No Report</Badge>
+                          )}
+                        </div>
+                      </div>
+                    ) : (
+                      // Show input fields for editing
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='report_id'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Report ID:
+                          </Label>
+                          <Input
+                            id='report_id'
+                            value={
+                              formData.report_id !== undefined
+                                ? formData.report_id
+                                : selectedAppointment.report_id || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                report_id: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter report ID'
+                          />
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Calendar Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <MapPin className='h-4 w-4' />
-                      Calendar Information
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Calendar ID:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedAppointment.calander_id || 'N/A'}
-                        </span>
-                      </div>
-                      {selectedAppointment.calander_link && (
+                    <div className='flex justify-between items-center'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <MapPin className='h-4 w-4' />
+                        Calendar Information
+                      </h3>
+                      {!isCalendarEditOpen ? (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsCalendarEditOpen(true)}
+                          className='hover-lift h-8 w-8 p-0'
+                          title='Edit calendar information'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      ) : (
                         <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Calendar Link:
-                          </span>
-                          <a
-                            href={selectedAppointment.calander_link}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='text-primary hover:underline text-xs break-all'
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsCalendarEditOpen(false)}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
                           >
-                            View in Calendar
-                          </a>
+                            Cancel
+                          </Button>
+                          <Button
+                            variant='default'
+                            size='sm'
+                            onClick={() => handleSectionSave('calendar')}
+                            className='hover-lift h-8'
+                            disabled={formLoading}
+                          >
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 animate-spin' />
+                            ) : (
+                              'Save'
+                            )}
+                          </Button>
                         </div>
                       )}
                     </div>
+
+                    {!isCalendarEditOpen ? (
+                      // Display current calendar information
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Calendar ID:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedAppointment.calander_id || 'N/A'}
+                          </span>
+                        </div>
+                        {selectedAppointment.calander_link && (
+                          <div className='flex gap-2'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Calendar Link:
+                            </span>
+                            <a
+                              href={selectedAppointment.calander_link}
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='text-primary hover:underline text-xs break-all'
+                            >
+                              View in Calendar
+                            </a>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      // Show input fields for editing
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='calander_id'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Calendar ID:
+                          </Label>
+                          <Input
+                            id='calander_id'
+                            value={
+                              formData.calander_id !== undefined
+                                ? formData.calander_id
+                                : selectedAppointment.calander_id || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                calander_id: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter calendar ID'
+                          />
+                        </div>
+                        <div className='flex gap-2 items-center'>
+                          <Label
+                            htmlFor='calander_link'
+                            className='text-muted-foreground min-w-[120px] text-xs'
+                          >
+                            Calendar Link:
+                          </Label>
+                          <Input
+                            id='calander_link'
+                            value={
+                              formData.calander_link !== undefined
+                                ? formData.calander_link
+                                : selectedAppointment.calander_link || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                calander_link: e.target.value,
+                              })
+                            }
+                            className='h-8 text-sm'
+                            placeholder='Enter calendar link'
+                          />
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
@@ -872,16 +1496,81 @@ export default function AppointmentsPage() {
                     </div>
                   </div>
 
-                  {selectedAppointment.notes && (
+                  {/* Notes Section */}
+                  {(selectedAppointment.notes || isNotesEditOpen) && (
                     <>
                       <Separator />
                       <div className='space-y-3'>
-                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                          Notes
-                        </h3>
-                        <div className='text-sm p-3 bg-muted rounded-lg'>
-                          {selectedAppointment.notes}
+                        <div className='flex justify-between items-center'>
+                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                            Notes
+                          </h3>
+                          {!isNotesEditOpen ? (
+                            <Button
+                              variant='ghost'
+                              size='sm'
+                              onClick={() => setIsNotesEditOpen(true)}
+                              className='hover-lift h-8 w-8 p-0'
+                              title='Edit notes'
+                            >
+                              <Edit className='h-3 w-3' />
+                            </Button>
+                          ) : (
+                            <div className='flex gap-2'>
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                onClick={() => setIsNotesEditOpen(false)}
+                                className='hover-lift h-8'
+                                disabled={formLoading}
+                              >
+                                Cancel
+                              </Button>
+                              <Button
+                                variant='default'
+                                size='sm'
+                                onClick={() => handleSectionSave('notes')}
+                                className='hover-lift h-8'
+                                disabled={formLoading}
+                              >
+                                {formLoading ? (
+                                  <Loader2 className='h-3 w-3 animate-spin' />
+                                ) : (
+                                  'Save'
+                                )}
+                              </Button>
+                            </div>
+                          )}
                         </div>
+
+                        {!isNotesEditOpen ? (
+                          // Display current notes
+                          selectedAppointment.notes && (
+                            <div className='text-sm p-3 bg-muted rounded-lg'>
+                              {selectedAppointment.notes}
+                            </div>
+                          )
+                        ) : (
+                          // Show textarea for editing
+                          <div className='space-y-2'>
+                            <Textarea
+                              id='notes'
+                              value={
+                                formData.notes !== undefined
+                                  ? formData.notes
+                                  : selectedAppointment.notes || ''
+                              }
+                              onChange={e =>
+                                setFormData({
+                                  ...formData,
+                                  notes: e.target.value,
+                                })
+                              }
+                              className='min-h-[100px] text-sm'
+                              placeholder='Enter appointment notes...'
+                            />
+                          </div>
+                        )}
                       </div>
                     </>
                   )}

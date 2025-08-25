@@ -54,6 +54,7 @@ import {
   Loader2,
   FileText,
   X,
+  CheckCircle,
 } from 'lucide-react';
 
 interface VitalRecord {
@@ -155,6 +156,19 @@ export default function VitalsPage() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
+  // Section-specific edit states
+  const [isEmployeeEditOpen, setIsEmployeeEditOpen] = useState(false);
+  const [isBasicVitalsEditOpen, setIsBasicVitalsEditOpen] = useState(false);
+  const [isBloodPressureEditOpen, setIsBloodPressureEditOpen] = useState(false);
+  const [isGlucoseEditOpen, setIsGlucoseEditOpen] = useState(false);
+  const [isUrinalysisEditOpen, setIsUrinalysisEditOpen] = useState(false);
+  const [isNotesEditOpen, setIsNotesEditOpen] = useState(false);
+
+  // Form data for editing
+  const [editFormData, setEditFormData] = useState<any>({});
+  const [formLoading, setFormLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
+
   const fetchVitals = async (page = 1, search = '') => {
     try {
       setLoading(true);
@@ -191,6 +205,156 @@ export default function VitalsPage() {
       console.error('Error fetching vitals:', error);
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Save section-specific data
+  const handleSectionSave = async (sectionName: string) => {
+    if (!selectedVital?.id) {
+      console.error('No vital record selected for saving');
+      return;
+    }
+
+    try {
+      setFormLoading(true);
+
+      // Start with the complete existing record to preserve all data
+      let updateData: any = { ...selectedVital };
+
+      // Only update the specific fields for the section being edited
+      switch (sectionName) {
+        case 'employee':
+          if (editFormData.employee_name !== undefined)
+            updateData.employee_name = editFormData.employee_name;
+          if (editFormData.employee_surname !== undefined)
+            updateData.employee_surname = editFormData.employee_surname;
+          if (editFormData.employee_email !== undefined)
+            updateData.employee_email = editFormData.employee_email;
+          break;
+        case 'basic_vitals':
+          if (editFormData.weight_kg !== undefined)
+            updateData.weight_kg = editFormData.weight_kg;
+          if (editFormData.height_cm !== undefined)
+            updateData.height_cm = editFormData.height_cm;
+          if (editFormData.bmi !== undefined) updateData.bmi = editFormData.bmi;
+          if (editFormData.bmi_category !== undefined)
+            updateData.bmi_category = editFormData.bmi_category;
+          if (editFormData.waist !== undefined)
+            updateData.waist = editFormData.waist;
+          if (editFormData.waist_circumference !== undefined)
+            updateData.waist_circumference = editFormData.waist_circumference;
+          if (editFormData.waist_hip_ratio !== undefined)
+            updateData.waist_hip_ratio = editFormData.waist_hip_ratio;
+          if (editFormData.chest_measurement_inspiration !== undefined)
+            updateData.chest_measurement_inspiration =
+              editFormData.chest_measurement_inspiration;
+          if (editFormData.chest_measurement_expiration !== undefined)
+            updateData.chest_measurement_expiration =
+              editFormData.chest_measurement_expiration;
+          if (editFormData.pulse_rate !== undefined)
+            updateData.pulse_rate = editFormData.pulse_rate;
+          if (editFormData.pulse_rhythm !== undefined)
+            updateData.pulse_rhythm = editFormData.pulse_rhythm;
+          if (editFormData.pulse_character !== undefined)
+            updateData.pulse_character = editFormData.pulse_character;
+          break;
+        case 'blood_pressure':
+          if (editFormData.systolic_bp !== undefined)
+            updateData.systolic_bp = editFormData.systolic_bp;
+          if (editFormData.diastolic_bp !== undefined)
+            updateData.diastolic_bp = editFormData.diastolic_bp;
+          if (editFormData.bp_category !== undefined)
+            updateData.bp_category = editFormData.bp_category;
+          if (editFormData.blood_pressure_status !== undefined)
+            updateData.blood_pressure_status =
+              editFormData.blood_pressure_status;
+          if (editFormData.systolic_warning !== undefined)
+            updateData.systolic_warning = editFormData.systolic_warning;
+          if (editFormData.diastolic_warning !== undefined)
+            updateData.diastolic_warning = editFormData.diastolic_warning;
+          break;
+        case 'glucose':
+          if (editFormData.glucose_state !== undefined)
+            updateData.glucose_state = editFormData.glucose_state;
+          if (editFormData.glucose_level !== undefined)
+            updateData.glucose_level = editFormData.glucose_level;
+          if (editFormData.glucose_category !== undefined)
+            updateData.glucose_category = editFormData.glucose_category;
+          if (editFormData.glucose_status !== undefined)
+            updateData.glucose_status = editFormData.glucose_status;
+          break;
+        case 'urinalysis':
+          if (editFormData.urinalysis_done !== undefined)
+            updateData.urinalysis_done = editFormData.urinalysis_done;
+          if (editFormData.urinalysis_result !== undefined)
+            updateData.urinalysis_result = editFormData.urinalysis_result;
+          if (editFormData.urinalysis_findings !== undefined)
+            updateData.urinalysis_findings = editFormData.urinalysis_findings;
+          break;
+        case 'notes':
+          if (editFormData.additional_notes !== undefined)
+            updateData.additional_notes = editFormData.additional_notes;
+          if (editFormData.notes_text !== undefined)
+            updateData.notes_text = editFormData.notes_text;
+          break;
+        default:
+          console.error(`Unknown section: ${sectionName}`);
+          return;
+      }
+
+      console.log(`Saving ${sectionName} data:`, updateData);
+
+      const response = await fetch('/api/vitals', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updateData),
+      });
+
+      if (response.ok) {
+        const updatedVital = await response.json();
+        console.log(`${sectionName} saved successfully:`, updatedVital);
+
+        // Update the selected vital with new data
+        setSelectedVital(updatedVital.vital || updatedVital);
+
+        // Refresh all vitals to get updated data
+        await fetchVitals();
+
+        // Close the edit mode for the specific section
+        switch (sectionName) {
+          case 'employee':
+            setIsEmployeeEditOpen(false);
+            break;
+          case 'basic_vitals':
+            setIsBasicVitalsEditOpen(false);
+            break;
+          case 'blood_pressure':
+            setIsBloodPressureEditOpen(false);
+            break;
+          case 'glucose':
+            setIsGlucoseEditOpen(false);
+            break;
+          case 'urinalysis':
+            setIsUrinalysisEditOpen(false);
+            break;
+          case 'notes':
+            setIsNotesEditOpen(false);
+            break;
+        }
+
+        setEditFormData({});
+        setSuccessMessage(
+          `${sectionName.charAt(0).toUpperCase() + sectionName.slice(1).replace('_', ' ')} section updated successfully!`
+        );
+        setTimeout(() => setSuccessMessage(null), 3000);
+      } else {
+        const error = await response.json();
+        console.error(`${sectionName} save failed:`, error);
+      }
+    } catch (error) {
+      console.error(`Error saving ${sectionName} data:`, error);
+    } finally {
+      setFormLoading(false);
     }
   };
 
@@ -1323,11 +1487,20 @@ export default function VitalsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
+                          onClick={() => setIsBasicVitalsEditOpen(true)}
+                          className='hover-lift'
+                          title='Edit basic vitals'
+                        >
+                          <Edit className='h-4 w-4' />
+                        </Button>
+                        <Button
+                          variant='ghost'
+                          size='sm'
                           onClick={() => openEditDialog(selectedVital)}
                           className='hover-lift'
                         >
                           <Edit className='h-4 w-4 mr-1' />
-                          Edit
+                          Edit All
                         </Button>
                         <Button
                           variant='ghost'
@@ -1355,6 +1528,20 @@ export default function VitalsPage() {
                   </CardContent>
                 </Card>
 
+                {/* Success Message */}
+                {successMessage && (
+                  <div className='p-4'>
+                    <div className='p-3 bg-green-50 border border-green-200 rounded-lg'>
+                      <div className='flex items-center gap-2 text-green-700'>
+                        <CheckCircle className='h-4 w-4' />
+                        <span className='text-sm font-medium'>
+                          {successMessage}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
                 {/* Vital Details Card */}
                 <Card className='hover-lift max-h-screen overflow-y-auto scrollbar-thin'>
                   <CardContent className='p-6'>
@@ -1362,93 +1549,272 @@ export default function VitalsPage() {
                       {/* Physical Measurements */}
                       <Card className='border-primary/20'>
                         <CardHeader className='pb-3'>
-                          <CardTitle className='text-lg flex items-center gap-2'>
-                            <TrendingUp className='h-5 w-5' />
-                            Physical Measurements
-                          </CardTitle>
+                          <div className='flex justify-between items-center'>
+                            <CardTitle className='text-lg flex items-center gap-2'>
+                              <TrendingUp className='h-5 w-5' />
+                              Physical Measurements
+                            </CardTitle>
+                            {!isBasicVitalsEditOpen ? (
+                              <Button
+                                variant='ghost'
+                                size='sm'
+                                onClick={() => setIsBasicVitalsEditOpen(true)}
+                                className='hover-lift h-8 w-8 p-0'
+                                title='Edit physical measurements'
+                              >
+                                <Edit className='h-3 w-3' />
+                              </Button>
+                            ) : (
+                              <div className='flex gap-2'>
+                                <Button
+                                  variant='outline'
+                                  size='sm'
+                                  onClick={() =>
+                                    setIsBasicVitalsEditOpen(false)
+                                  }
+                                  className='hover-lift h-8'
+                                  disabled={formLoading}
+                                >
+                                  Cancel
+                                </Button>
+                                <Button
+                                  variant='default'
+                                  size='sm'
+                                  onClick={() =>
+                                    handleSectionSave('basic_vitals')
+                                  }
+                                  className='hover-lift h-8'
+                                  disabled={formLoading}
+                                >
+                                  {formLoading ? (
+                                    <Loader2 className='h-3 w-3 animate-spin' />
+                                  ) : (
+                                    'Save'
+                                  )}
+                                </Button>
+                              </div>
+                            )}
+                          </div>
                         </CardHeader>
-                        <CardContent className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm'>
-                          <div>
-                            <div className='text-muted-foreground'>Weight</div>
-                            <div className='font-semibold text-lg'>
-                              {getWeight(selectedVital)} kg
-                            </div>
-                          </div>
-                          <div>
-                            <div className='text-muted-foreground'>Height</div>
-                            <div className='font-semibold text-lg'>
-                              {getHeight(selectedVital)} cm
-                            </div>
-                          </div>
-                          <div>
-                            <div className='text-muted-foreground'>BMI</div>
-                            <div className='font-semibold text-lg'>
-                              {selectedVital.bmi?.toFixed(1)}
-                            </div>
-                            <Badge
-                              className={getBMIBadgeColor(
-                                selectedVital.bmi_status ||
-                                  selectedVital.bmi_category
+                        <CardContent>
+                          {!isBasicVitalsEditOpen ? (
+                            // Display current physical measurements
+                            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm'>
+                              <div>
+                                <div className='text-muted-foreground'>
+                                  Weight
+                                </div>
+                                <div className='font-semibold text-lg'>
+                                  {getWeight(selectedVital)} kg
+                                </div>
+                              </div>
+                              <div>
+                                <div className='text-muted-foreground'>
+                                  Height
+                                </div>
+                                <div className='font-semibold text-lg'>
+                                  {getHeight(selectedVital)} cm
+                                </div>
+                              </div>
+                              <div>
+                                <div className='text-muted-foreground'>BMI</div>
+                                <div className='font-semibold text-lg'>
+                                  {selectedVital.bmi?.toFixed(1)}
+                                </div>
+                                <Badge
+                                  className={getBMIBadgeColor(
+                                    selectedVital.bmi_status ||
+                                      selectedVital.bmi_category
+                                  )}
+                                  variant='secondary'
+                                >
+                                  {selectedVital.bmi_status ||
+                                    selectedVital.bmi_category}
+                                </Badge>
+                              </div>
+                              <div>
+                                <div className='text-muted-foreground'>
+                                  Waist Circumference
+                                </div>
+                                <div className='font-semibold text-lg'>
+                                  {getWaist(selectedVital)} cm
+                                </div>
+                              </div>
+                              {selectedVital.chest_measurement_inspiration && (
+                                <div>
+                                  <div className='text-muted-foreground'>
+                                    Chest (Inspiration)
+                                  </div>
+                                  <div className='font-semibold text-lg'>
+                                    {
+                                      selectedVital.chest_measurement_inspiration
+                                    }{' '}
+                                    cm
+                                  </div>
+                                </div>
                               )}
-                              variant='secondary'
-                            >
-                              {selectedVital.bmi_status ||
-                                selectedVital.bmi_category}
-                            </Badge>
-                          </div>
-                          <div>
-                            <div className='text-muted-foreground'>
-                              Waist Circumference
-                            </div>
-                            <div className='font-semibold text-lg'>
-                              {getWaist(selectedVital)} cm
-                            </div>
-                          </div>
-                          {selectedVital.chest_measurement_inspiration && (
-                            <div>
-                              <div className='text-muted-foreground'>
-                                Chest (Inspiration)
-                              </div>
-                              <div className='font-semibold text-lg'>
-                                {selectedVital.chest_measurement_inspiration} cm
-                              </div>
-                            </div>
-                          )}
-                          {selectedVital.chest_measurement_expiration && (
-                            <div>
-                              <div className='text-muted-foreground'>
-                                Chest (Expiration)
-                              </div>
-                              <div className='font-semibold text-lg'>
-                                {selectedVital.chest_measurement_expiration} cm
-                              </div>
-                            </div>
-                          )}
-                          {selectedVital.whtr && (
-                            <div>
-                              <div className='text-muted-foreground'>
-                                Waist-to-Height Ratio
-                              </div>
-                              <div className='font-semibold text-lg'>
-                                {selectedVital.whtr?.toFixed(3)}
-                              </div>
-                              {selectedVital.whtr_status && (
-                                <div className='text-sm text-muted-foreground'>
-                                  {selectedVital.whtr_status}
+                              {selectedVital.chest_measurement_expiration && (
+                                <div>
+                                  <div className='text-muted-foreground'>
+                                    Chest (Expiration)
+                                  </div>
+                                  <div className='font-semibold text-lg'>
+                                    {selectedVital.chest_measurement_expiration}{' '}
+                                    cm
+                                  </div>
+                                </div>
+                              )}
+                              {selectedVital.whtr && (
+                                <div>
+                                  <div className='text-muted-foreground'>
+                                    Waist-to-Height Ratio
+                                  </div>
+                                  <div className='font-semibold text-lg'>
+                                    {selectedVital.whtr?.toFixed(3)}
+                                  </div>
+                                  {selectedVital.whtr_status && (
+                                    <div className='text-sm text-muted-foreground'>
+                                      {selectedVital.whtr_status}
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+                              {selectedVital.waist_hip_ratio && (
+                                <div className='md:col-span-2'>
+                                  <div className='text-muted-foreground'>
+                                    Waist-Hip Ratio
+                                  </div>
+                                  <div className='font-semibold text-lg'>
+                                    {selectedVital.waist_hip_ratio?.toFixed(4)}
+                                  </div>
+                                  <div className='text-sm text-muted-foreground'>
+                                    {selectedVital.waist_hip_interpretation}
+                                  </div>
                                 </div>
                               )}
                             </div>
-                          )}
-                          {selectedVital.waist_hip_ratio && (
-                            <div className='md:col-span-2'>
-                              <div className='text-muted-foreground'>
-                                Waist-Hip Ratio
+                          ) : (
+                            // Show input fields for editing
+                            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm'>
+                              <div className='space-y-2'>
+                                <Label
+                                  htmlFor='weight_kg'
+                                  className='text-xs text-muted-foreground'
+                                >
+                                  Weight (kg)
+                                </Label>
+                                <Input
+                                  id='weight_kg'
+                                  type='number'
+                                  step='0.1'
+                                  value={
+                                    editFormData.weight_kg !== undefined
+                                      ? editFormData.weight_kg
+                                      : selectedVital.weight_kg || ''
+                                  }
+                                  onChange={e =>
+                                    setEditFormData({
+                                      ...editFormData,
+                                      weight_kg:
+                                        parseFloat(e.target.value) || 0,
+                                    })
+                                  }
+                                  className='h-8 text-sm'
+                                  placeholder='Enter weight'
+                                />
                               </div>
-                              <div className='font-semibold text-lg'>
-                                {selectedVital.waist_hip_ratio?.toFixed(4)}
+                              <div className='space-y-2'>
+                                <Label
+                                  htmlFor='height_cm'
+                                  className='text-xs text-muted-foreground'
+                                >
+                                  Height (cm)
+                                </Label>
+                                <Input
+                                  id='height_cm'
+                                  type='number'
+                                  step='0.1'
+                                  value={
+                                    editFormData.height_cm !== undefined
+                                      ? editFormData.height_cm
+                                      : selectedVital.height_cm || ''
+                                  }
+                                  onChange={e =>
+                                    setEditFormData({
+                                      ...editFormData,
+                                      height_cm:
+                                        parseFloat(e.target.value) || 0,
+                                    })
+                                  }
+                                  className='h-8 text-sm'
+                                  placeholder='Enter height'
+                                />
                               </div>
-                              <div className='text-sm text-muted-foreground'>
-                                {selectedVital.waist_hip_interpretation}
+                              <div className='space-y-2'>
+                                <Label
+                                  htmlFor='bmi'
+                                  className='text-xs text-muted-foreground'
+                                >
+                                  BMI
+                                </Label>
+                                <Input
+                                  id='bmi'
+                                  type='number'
+                                  step='0.1'
+                                  value={
+                                    editFormData.bmi !== undefined
+                                      ? editFormData.bmi
+                                      : selectedVital.bmi || ''
+                                  }
+                                  onChange={e =>
+                                    setEditFormData({
+                                      ...editFormData,
+                                      bmi: parseFloat(e.target.value) || 0,
+                                    })
+                                  }
+                                  className='h-8 text-sm'
+                                  placeholder='Enter BMI'
+                                />
+                              </div>
+                              <div className='space-y-2'>
+                                <Label
+                                  htmlFor='bmi_category'
+                                  className='text-xs text-muted-foreground'
+                                >
+                                  BMI Category
+                                </Label>
+                                <Select
+                                  value={
+                                    editFormData.bmi_category !== undefined
+                                      ? editFormData.bmi_category
+                                      : selectedVital.bmi_category || ''
+                                  }
+                                  onValueChange={value =>
+                                    setEditFormData({
+                                      ...editFormData,
+                                      bmi_category: value,
+                                    })
+                                  }
+                                >
+                                  <SelectTrigger className='h-8 text-sm'>
+                                    <SelectValue placeholder='Select category' />
+                                  </SelectTrigger>
+                                  <SelectContent>
+                                    <SelectItem value='Underweight'>
+                                      Underweight
+                                    </SelectItem>
+                                    <SelectItem value='Normal'>
+                                      Normal
+                                    </SelectItem>
+                                    <SelectItem value='Overweight'>
+                                      Overweight
+                                    </SelectItem>
+                                    <SelectItem value='Obese'>Obese</SelectItem>
+                                    <SelectItem value='Severely Obese'>
+                                      Severely Obese
+                                    </SelectItem>
+                                  </SelectContent>
+                                </Select>
                               </div>
                             </div>
                           )}
