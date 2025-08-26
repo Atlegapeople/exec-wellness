@@ -314,7 +314,7 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                 .filter((item: any) => item.frequency !== 'Unknown')
                 .slice(0, 6)
                 .map((item: any, index: number) => (
-                <div key={item.frequency} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                <div key={`frequency-${index}-${item.frequency}`} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
                   <div className="flex-1">
                     <div className="text-sm font-medium">
                       {item.frequency ? 
@@ -362,7 +362,7 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                 .filter((item: any) => item.duration !== 'Unknown')
                 .slice(0, 6)
                 .map((item: any, index: number) => (
-                <div key={item.duration} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                <div key={`duration-${index}-${item.duration}`} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
                   <div className="flex-1">
                     <div className="text-sm font-medium">
                       {item.duration ? 
@@ -410,7 +410,7 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                 .filter((item: any) => item.hours !== 'Unknown')
                 .slice(0, 6)
                 .map((item: any, index: number) => (
-                <div key={item.hours} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                <div key={`hours-${index}-${item.hours}`} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
                   <div className="flex-1">
                     <div className="text-sm font-medium">{item.hours} Hours</div>
                     <div className="text-sm text-muted-foreground">

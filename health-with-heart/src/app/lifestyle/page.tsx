@@ -65,9 +65,8 @@ import {
   Save,
   AlertCircle,
   Loader2,
-  CheckCircle,
+  DollarSign,
 } from 'lucide-react';
-import { selectDisplayedData } from 'recharts/types/state/selectors/axisSelectors';
 
 interface PaginationInfo {
   page: number;
@@ -117,15 +116,19 @@ export default function LifestylePage() {
   const [formLoading, setFormLoading] = useState(false);
   const [employees, setEmployees] = useState<any[]>([]);
 
-  // Section-specific edit states
-  const [isSmokingEditOpen, setIsSmokingEditOpen] = useState(false);
-  const [isAlcoholEditOpen, setIsAlcoholEditOpen] = useState(false);
-  const [isExerciseEditOpen, setIsExerciseEditOpen] = useState(false);
-  const [isDietEditOpen, setIsDietEditOpen] = useState(false);
-  const [isSleepEditOpen, setIsSleepEditOpen] = useState(false);
+  // Related entities state
+  const [organizations, setOrganizations] = useState<any[]>([]);
+  const [sites, setSites] = useState<any[]>([]);
+  const [locations, setLocations] = useState<any[]>([]);
+  const [costCenters, setCostCenters] = useState<any[]>([]);
+  const [relatedEntitiesLoading, setRelatedEntitiesLoading] = useState(false);
 
-  // Success message state
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
+  // Modal state
+  const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] =
+    useState(false);
+  const [isSitesModalOpen, setIsSitesModalOpen] = useState(false);
+  const [isLocationsModalOpen, setIsLocationsModalOpen] = useState(false);
+  const [isCostCentersModalOpen, setIsCostCentersModalOpen] = useState(false);
 
   // Fetch all lifestyle data
   const fetchAllLifestyles = async () => {
@@ -185,19 +188,6 @@ export default function LifestylePage() {
       : 'Unknown Employee';
   };
 
-  // Helper function to find lifestyle by employee ID
-  // If an employee has multiple lifestyle records, select the first one
-  const findLifestyleByEmployeeId = (
-    lifestyles: Lifestyle[],
-    employeeId: string
-  ): Lifestyle | null => {
-    const employeeLifestyles = lifestyles.filter(
-      lifestyle => lifestyle.employee_id === employeeId
-    );
-    // Return the first lifestyle record if multiple exist, otherwise return null
-    return employeeLifestyles.length > 0 ? employeeLifestyles[0] : null;
-  };
-
   // Fetch employees for dropdown
   const fetchEmployees = async () => {
     try {
@@ -207,6 +197,88 @@ export default function LifestylePage() {
     } catch (error) {
       console.error('Error fetching employees:', error);
     }
+  };
+
+  // Fetch related entities for modals
+  const fetchOrganizations = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/organizations?limit=1000');
+      const data = await response.json();
+      setOrganizations(data.organizations || []);
+    } catch (error) {
+      console.error('Error fetching organizations:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchSites = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/sites?limit=1000');
+      const data = await response.json();
+      setSites(data.sites || []);
+    } catch (error) {
+      console.error('Error fetching sites:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchLocations = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/locations?limit=1000');
+      const data = await response.json();
+      setLocations(data.locations || []);
+    } catch (error) {
+      console.error('Error fetching locations:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchCostCenters = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/cost-centers?limit=1000');
+      const data = await response.json();
+      setCostCenters(data.costCenters || []);
+    } catch (error) {
+      console.error('Error fetching cost centers:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  // Modal open functions
+  const openOrganizationsModal = () => {
+    if (organizations.length === 0) {
+      fetchOrganizations();
+    }
+    setIsOrganizationsModalOpen(true);
+  };
+
+  const openSitesModal = () => {
+    if (sites.length === 0) {
+      fetchSites();
+    }
+    setIsSitesModalOpen(true);
+  };
+
+  const openLocationsModal = () => {
+    if (locations.length === 0) {
+      fetchLocations();
+    }
+    setIsLocationsModalOpen(true);
+  };
+
+  const openCostCentersModal = () => {
+    if (costCenters.length === 0) {
+      fetchCostCenters();
+    }
+    setIsCostCentersModalOpen(true);
   };
 
   // CRUD functions
@@ -287,136 +359,6 @@ export default function LifestylePage() {
     }
   };
 
-  // Save section-specific data
-  const handleSectionSave = async (sectionName: string) => {
-    if (!selectedLifestyle?.id) {
-      console.error('No lifestyle record selected for saving');
-      return;
-    }
-
-    try {
-      setFormLoading(true);
-
-      // Start with the complete existing record to preserve all data
-      let updateData: any = { ...selectedLifestyle };
-
-      // Only update the specific fields for the section being edited
-      switch (sectionName) {
-        case 'smoking':
-          if (formData.smoke !== undefined) updateData.smoke = formData.smoke;
-          if (formData.smoke_qty !== undefined)
-            updateData.smoke_qty = formData.smoke_qty;
-          if (formData.smoke_years !== undefined)
-            updateData.smoke_years = formData.smoke_years;
-          if (formData.smoking_duration !== undefined)
-            updateData.smoking_duration = formData.smoking_duration;
-          break;
-        case 'alcohol':
-          if (formData.alochol_frequency !== undefined)
-            updateData.alochol_frequency = formData.alochol_frequency;
-          if (formData.alocohol_qty !== undefined)
-            updateData.alocohol_qty = formData.alocohol_qty;
-          if (formData.alcohol_excess !== undefined)
-            updateData.alcohol_excess = formData.alcohol_excess;
-          if (formData.alcohol_score !== undefined)
-            updateData.alcohol_score = formData.alcohol_score;
-          if (formData.auditc_result !== undefined)
-            updateData.auditc_result = formData.auditc_result;
-          if (formData.auditc_notes !== undefined)
-            updateData.auditc_notes = formData.auditc_notes;
-          break;
-        case 'exercise':
-          if (formData.exercise !== undefined)
-            updateData.exercise = formData.exercise;
-          if (formData.excercise_frequency !== undefined)
-            updateData.excercise_frequency = formData.excercise_frequency;
-          if (formData.excercise_minutes !== undefined)
-            updateData.excercise_minutes = formData.excercise_minutes;
-          if (formData.sitting_hours !== undefined)
-            updateData.sitting_hours = formData.sitting_hours;
-          break;
-        case 'diet':
-          if (formData.eatout_frequency !== undefined)
-            updateData.eatout_frequency = formData.eatout_frequency;
-          if (formData.fruitveg_frequency !== undefined)
-            updateData.fruitveg_frequency = formData.fruitveg_frequency;
-          if (formData.sugar_consumption !== undefined)
-            updateData.sugar_consumption = formData.sugar_consumption;
-          if (formData.diet_overall !== undefined)
-            updateData.diet_overall = formData.diet_overall;
-          break;
-        case 'sleep':
-          if (formData.sleep_hours !== undefined)
-            updateData.sleep_hours = formData.sleep_hours;
-          if (formData.sleep_rating !== undefined)
-            updateData.sleep_rating = formData.sleep_rating;
-          if (formData.sleep_rest !== undefined)
-            updateData.sleep_rest = formData.sleep_rest;
-          break;
-        default:
-          console.error(`Unknown section: ${sectionName}`);
-          return;
-      }
-
-      console.log(`Saving ${sectionName} data:`, updateData);
-
-      const response = await fetch('/api/lifestyle', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(updateData),
-      });
-
-      if (response.ok) {
-        const updatedLifestyle = await response.json();
-        console.log(`${sectionName} saved successfully:`, updatedLifestyle);
-
-        // Update the selected lifestyle with new data
-        setSelectedLifestyle(updatedLifestyle.lifestyle || updatedLifestyle);
-
-        // Refresh all lifestyles to get updated data
-        await fetchAllLifestyles();
-
-        // Close the edit mode for the specific section
-        switch (sectionName) {
-          case 'smoking':
-            setIsSmokingEditOpen(false);
-            break;
-          case 'alcohol':
-            setIsAlcoholEditOpen(false);
-            break;
-          case 'exercise':
-            setIsExerciseEditOpen(false);
-            break;
-          case 'diet':
-            setIsDietEditOpen(false);
-            break;
-          case 'sleep':
-            setIsSleepEditOpen(false);
-            break;
-        }
-
-        // Clear form data after successful save
-        setFormData({});
-
-        // Show success feedback
-        setSuccessMessage(
-          `${sectionName.charAt(0).toUpperCase() + sectionName.slice(1)} section updated successfully!`
-        );
-        setTimeout(() => setSuccessMessage(null), 3000); // Clear after 3 seconds
-        console.log(`${sectionName} section updated successfully`);
-      } else {
-        const error = await response.json();
-        console.error(`${sectionName} save failed:`, error);
-        // You can add error handling/display here
-      }
-    } catch (error) {
-      console.error(`Error saving ${sectionName} data:`, error);
-      // You can add error handling/display here
-    } finally {
-      setFormLoading(false);
-    }
-  };
-
   const openCreateModal = () => {
     setFormData({});
     setIsCreateModalOpen(true);
@@ -480,6 +422,10 @@ export default function LifestylePage() {
   useEffect(() => {
     fetchAllLifestyles();
     fetchEmployees();
+    fetchOrganizations();
+    fetchSites();
+    fetchLocations();
+    fetchCostCenters();
   }, []);
 
   // Handle filtering when search term or all lifestyles change
@@ -512,46 +458,16 @@ export default function LifestylePage() {
     transitionToPage,
   ]);
 
-  // Auto-select lifestyle when employee ID is in URL and lifestyles are loaded
-  useEffect(() => {
-    const employeeId = searchParams.get('employee');
-    if (employeeId && allLifestyles.length > 0 && !selectedLifestyle) {
-      const lifestyleToSelect = findLifestyleByEmployeeId(
-        allLifestyles,
-        employeeId
-      );
-      if (lifestyleToSelect) {
-        setSelectedLifestyle(lifestyleToSelect);
-      }
-    }
-  }, [searchParams, allLifestyles, selectedLifestyle]);
-
-  // Re-check for employee ID when filtered lifestyles change (e.g., after search)
-  useEffect(() => {
-    const employeeId = searchParams.get('employee');
-    if (employeeId && filteredLifestyles.length > 0) {
-      const lifestyleToSelect = findLifestyleByEmployeeId(
-        filteredLifestyles,
-        employeeId
-      );
-      if (lifestyleToSelect && !selectedLifestyle) {
-        setSelectedLifestyle(lifestyleToSelect);
-      }
-    }
-  }, [filteredLifestyles, searchParams, selectedLifestyle]);
-
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    const employeeId = searchParams.get('employee');
-    updateURL(1, searchTerm, employeeId || undefined);
+    updateURL(1, searchTerm);
   };
 
   const updateURL = useCallback(
-    (page: number, search: string, employeeId?: string) => {
+    (page: number, search: string) => {
       const params = new URLSearchParams();
       if (page > 1) params.set('page', page.toString());
       if (search) params.set('search', search);
-      if (employeeId) params.set('employee', employeeId);
 
       const newURL = `/lifestyle${params.toString() ? `?${params.toString()}` : ''}`;
       router.replace(newURL, { scroll: false });
@@ -560,15 +476,12 @@ export default function LifestylePage() {
   );
 
   const handlePageChange = (newPage: number) => {
-    const employeeId = searchParams.get('employee');
-    updateURL(newPage, searchTerm, employeeId || undefined);
+    updateURL(newPage, searchTerm);
     transitionToPage(newPage);
   };
 
   const handleLifestyleClick = (lifestyle: Lifestyle) => {
     setSelectedLifestyle(lifestyle);
-    // Update URL to include employee ID
-    updateURL(pagination.page, searchTerm, lifestyle.employee_id);
   };
 
   const formatDate = (date: Date | string | undefined) => {
@@ -661,8 +574,7 @@ export default function LifestylePage() {
                       variant='outline'
                       onClick={() => {
                         setSearchTerm('');
-                        const employeeId = searchParams.get('employee');
-                        updateURL(1, '', employeeId || undefined);
+                        updateURL(1, '');
                       }}
                       className='hover-lift'
                     >
@@ -672,6 +584,77 @@ export default function LifestylePage() {
                 </form>
               </CardContent>
             </Card>
+
+            {/* Navigation Cards */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+              <Card
+                className='hover-lift cursor-pointer'
+                onClick={openOrganizationsModal}
+              >
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-3'>
+                    <Building2 className='h-8 w-8 text-blue-600' />
+                    <div>
+                      <h3 className='font-semibold'>Organizations</h3>
+                      <p className='text-sm text-muted-foreground'>
+                        {organizations.length} organizations
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card
+                className='hover-lift cursor-pointer'
+                onClick={openSitesModal}
+              >
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-3'>
+                    <MapPin className='h-8 w-8 text-green-600' />
+                    <div>
+                      <h3 className='font-semibold'>Sites</h3>
+                      <p className='text-sm text-muted-foreground'>
+                        {sites.length} sites
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card
+                className='hover-lift cursor-pointer'
+                onClick={openLocationsModal}
+              >
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-3'>
+                    <MapPin className='h-8 w-8 text-purple-600' />
+                    <div>
+                      <h3 className='font-semibold'>Locations</h3>
+                      <p className='text-sm text-muted-foreground'>
+                        {locations.length} locations
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card
+                className='hover-lift cursor-pointer'
+                onClick={openCostCentersModal}
+              >
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-3'>
+                    <DollarSign className='h-8 w-8 text-orange-600' />
+                    <div>
+                      <h3 className='font-semibold'>Cost Centers</h3>
+                      <p className='text-sm text-muted-foreground'>
+                        {costCenters.length} cost centers
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
 
             {/* Lifestyle Table */}
             <Card className='hover-lift'>
@@ -686,18 +669,9 @@ export default function LifestylePage() {
                       Employee lifestyle assessments and health data
                     </CardDescription>
                   </div>
-                  <Button
-                    onClick={openCreateModal}
-                    className={`hover-lift transition-all duration-300 ease-in-out ${
-                      selectedLifestyle
-                        ? 'w-12 h-12 rounded-full p-0'
-                        : 'px-4 py-2'
-                    }`}
-                  >
-                    <Plus
-                      className={`${selectedLifestyle ? 'h-5 w-5' : 'h-4 w-4 mr-2'}`}
-                    />
-                    {!selectedLifestyle && <span>New Record</span>}
+                  <Button onClick={openCreateModal} className='hover-lift'>
+                    <Plus className='h-4 w-4 mr-2' />
+                    Add New Record
                   </Button>
                 </div>
               </CardHeader>
@@ -835,7 +809,7 @@ export default function LifestylePage() {
                       )}{' '}
                       of {pagination.total} results
                     </div>
-                    <div className='flex items-center space-x-1 flex-wrap'>
+                    <div className='flex items-center space-x-2'>
                       <Button
                         variant='outline'
                         size='sm'
@@ -844,11 +818,7 @@ export default function LifestylePage() {
                         className='hover-lift'
                       >
                         <ChevronsLeft className='h-4 w-4' />
-                        <span
-                          className={`${selectedLifestyle && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        >
-                          First
-                        </span>
+                        <span className='hidden sm:inline ml-1'>First</span>
                       </Button>
 
                       <Button
@@ -859,39 +829,25 @@ export default function LifestylePage() {
                         className='hover-lift'
                       >
                         <ChevronLeft className='h-4 w-4' />
-                        <span
-                          className={`${selectedLifestyle && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        >
-                          Previous
-                        </span>
+                        <span className='hidden sm:inline ml-1'>Previous</span>
                       </Button>
 
                       {Array.from(
-                        {
-                          length: Math.min(
-                            selectedLifestyle && leftWidth < 50 ? 3 : 5,
-                            pagination.totalPages
-                          ),
-                        },
+                        { length: Math.min(5, pagination.totalPages) },
                         (_, i) => {
-                          const startPage = Math.max(
-                            1,
-                            pagination.page -
-                              (selectedLifestyle && leftWidth < 50 ? 1 : 2)
-                          );
+                          const startPage = Math.max(1, pagination.page - 2);
                           const page = startPage + i;
                           if (page > pagination.totalPages) return null;
 
                           return (
                             <Button
-                              key={`appointments-page-${page}`}
+                              key={`lifestyle-page-${page}`}
                               variant={
                                 page === pagination.page ? 'default' : 'outline'
                               }
                               size='sm'
                               onClick={() => handlePageChange(page)}
                               className='hover-lift min-w-[40px]'
-                              title={`Go to page ${page}`}
                             >
                               {page}
                             </Button>
@@ -899,37 +855,25 @@ export default function LifestylePage() {
                         }
                       )}
 
-                      {/* Next Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
                         className='hover-lift'
-                        title='Go to next page'
                       >
-                        <span
-                          className={`${selectedLifestyle && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Next
-                        </span>
+                        <span className='hidden sm:inline mr-1'>Next</span>
                         <ChevronRight className='h-4 w-4' />
                       </Button>
 
-                      {/* Last Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={pagination.page === pagination.totalPages}
                         className='hover-lift'
-                        title='Go to last page'
                       >
-                        <span
-                          className={`${selectedLifestyle && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Last
-                        </span>
+                        <span className='hidden sm:inline mr-1'>Last</span>
                         <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
@@ -968,1164 +912,275 @@ export default function LifestylePage() {
                         <Badge variant='outline'>{selectedLifestyle.id}</Badge>
                       </CardDescription>
                     </div>
-                    <div className='flex items-center gap-2'>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => openEditModal(selectedLifestyle)}
-                        className='hover-lift'
-                        title='Edit lifestyle record'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => {
-                          setSelectedLifestyle(null);
-                          // Remove employeeId from URL when closing lifestyle
-                          updateURL(pagination.page, searchTerm);
-                        }}
-                        className='hover-lift'
-                        title='Close lifestyle record'
-                      >
-                        <X className='h-4 w-4' />
-                      </Button>
-                    </div>
+                    <Button
+                      variant='ghost'
+                      size='sm'
+                      onClick={() => setSelectedLifestyle(null)}
+                      className='hover-lift'
+                    >
+                      <X className='h-4 w-4' />
+                    </Button>
                   </div>
-
-                  {/* Success Message */}
-                  {successMessage && (
-                    <div className='mt-3 p-3 bg-green-50 border border-green-200 rounded-lg'>
-                      <div className='flex items-center gap-2 text-green-700'>
-                        <CheckCircle className='h-4 w-4' />
-                        <span className='text-sm font-medium'>
-                          {successMessage}
-                        </span>
-                      </div>
-                    </div>
-                  )}
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Smoking Information */}
                   <div className='space-y-3'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Cigarette className='h-4 w-4' />
-                        {selectedLifestyle.smoking_header ||
-                          'Smoking Information'}
-                      </h3>
-                      {!isSmokingEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsSmokingEditOpen(true)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit smoking information'
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Cigarette className='h-4 w-4' />
+                      {selectedLifestyle.smoking_header ||
+                        'Smoking Information'}
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Smoker:
+                        </span>
+                        <Badge
+                          variant={
+                            selectedLifestyle.smoke
+                              ? 'destructive'
+                              : 'secondary'
+                          }
                         >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
+                          {selectedLifestyle.smoke ? 'Yes' : 'No'}
+                        </Badge>
+                      </div>
+                      {selectedLifestyle.smoke_qty && (
                         <div className='flex gap-2'>
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => setIsSmokingEditOpen(false)}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Cancel editing'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('smoking')}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Save changes'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Quantity:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLifestyle.smoke_qty}
+                          </span>
+                        </div>
+                      )}
+                      {selectedLifestyle.smoke_years && (
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Years:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLifestyle.smoke_years}
+                          </span>
+                        </div>
+                      )}
+                      {selectedLifestyle.smoking_duration && (
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Duration:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLifestyle.smoking_duration}
+                          </span>
                         </div>
                       )}
                     </div>
-
-                    {!isSmokingEditOpen ? (
-                      // Display current smoking information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Smoker:
-                          </span>
-                          <Badge
-                            variant={
-                              selectedLifestyle.smoke
-                                ? 'destructive'
-                                : 'secondary'
-                            }
-                          >
-                            {selectedLifestyle.smoke ? 'Yes' : 'No'}
-                          </Badge>
-                        </div>
-                        {selectedLifestyle.smoke_qty && (
-                          <div className='flex gap-2'>
-                            <span className='text-muted-foreground min-w-[120px]'>
-                              Quantity:
-                            </span>
-                            <span className='font-medium'>
-                              {selectedLifestyle.smoke_qty}
-                            </span>
-                          </div>
-                        )}
-                        {selectedLifestyle.smoke_years && (
-                          <div className='flex gap-2'>
-                            <span className='text-muted-foreground min-w-[120px]'>
-                              Years:
-                            </span>
-                            <span className='font-medium'>
-                              {selectedLifestyle.smoke_years}
-                            </span>
-                          </div>
-                        )}
-                        {selectedLifestyle.smoking_duration && (
-                          <div className='flex gap-2'>
-                            <span className='text-muted-foreground min-w-[120px]'>
-                              Duration:
-                            </span>
-                            <span className='font-medium'>
-                              {selectedLifestyle.smoking_duration}
-                            </span>
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='smoke'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Smoker:
-                          </Label>
-                          <Select
-                            value={formData.smoke ? 'true' : 'false'}
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                smoke: value === 'true',
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select status' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='false'>No</SelectItem>
-                              <SelectItem value='true'>Yes</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='smoke_qty'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Quantity:
-                          </Label>
-                          <Input
-                            id='smoke_qty'
-                            value={
-                              formData.smoke_qty !== undefined
-                                ? formData.smoke_qty
-                                : selectedLifestyle.smoke_qty || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                smoke_qty: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 5 cigarettes per day'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='smoke_years'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Years:
-                          </Label>
-                          <Input
-                            id='smoke_years'
-                            value={
-                              formData.smoke_years !== undefined
-                                ? formData.smoke_years
-                                : selectedLifestyle.smoke_years || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                smoke_years: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 10 years'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='smoking_duration'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Duration:
-                          </Label>
-                          <Input
-                            id='smoking_duration'
-                            value={
-                              formData.smoking_duration !== undefined
-                                ? formData.smoking_duration
-                                : selectedLifestyle.smoking_duration || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                smoking_duration: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 2 hours per day'
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <Separator />
 
                   {/* Alcohol Information */}
-                  <div className='space-y-3' id='alcohol'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Wine className='h-4 w-4' />
-                        {selectedLifestyle.alcohol_header ||
-                          'Alcohol Information'}
-                      </h3>
-                      {!isAlcoholEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsAlcoholEditOpen(true)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit alcohol information'
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Wine className='h-4 w-4' />
+                      {selectedLifestyle.alcohol_header ||
+                        'Alcohol Information'}
+                    </h3>
+                    <div className='space-y-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Frequency:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.alochol_frequency || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Quantity:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.alocohol_qty || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Excess:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.alcohol_excess || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Total Score:
+                        </span>
+                        <Badge variant='outline'>
+                          {selectedLifestyle.alcohol_score || 0}
+                        </Badge>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          AUDIT-C Result:
+                        </span>
+                        <Badge
+                          variant={
+                            selectedLifestyle.auditc_result?.includes('No Risk')
+                              ? 'secondary'
+                              : selectedLifestyle.auditc_result?.includes(
+                                    'Low Risk'
+                                  )
+                                ? 'secondary'
+                                : selectedLifestyle.auditc_result?.includes(
+                                      'Risk'
+                                    ) &&
+                                    !selectedLifestyle.auditc_result?.includes(
+                                      'No Risk'
+                                    ) &&
+                                    !selectedLifestyle.auditc_result?.includes(
+                                      'Low Risk'
+                                    )
+                                  ? 'destructive'
+                                  : 'outline'
+                          }
                         >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => setIsAlcoholEditOpen(false)}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Cancel editing'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('alcohol')}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Save changes'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
+                          {selectedLifestyle.auditc_result || 'N/A'}
+                        </Badge>
+                      </div>
+                      {selectedLifestyle.auditc_notes && (
+                        <div className='p-3 bg-muted rounded-lg'>
+                          <p className='text-xs text-muted-foreground mb-1'>
+                            Notes:
+                          </p>
+                          <p>{selectedLifestyle.auditc_notes}</p>
                         </div>
                       )}
                     </div>
-
-                    {!isAlcoholEditOpen ? (
-                      // Display current alcohol information
-                      <div className='space-y-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Frequency:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.alochol_frequency || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Quantity:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.alocohol_qty || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Excess:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.alcohol_excess || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Total Score:
-                          </span>
-                          <Badge variant='outline'>
-                            {selectedLifestyle.alcohol_score || 0}
-                          </Badge>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            AUDIT-C Result:
-                          </span>
-                          <Badge
-                            variant={
-                              selectedLifestyle.auditc_result?.includes(
-                                'No Risk'
-                              )
-                                ? 'secondary'
-                                : selectedLifestyle.auditc_result?.includes(
-                                      'Low Risk'
-                                    )
-                                  ? 'secondary'
-                                  : selectedLifestyle.auditc_result?.includes(
-                                        'Risk'
-                                      ) &&
-                                      !selectedLifestyle.auditc_result?.includes(
-                                        'No Risk'
-                                      ) &&
-                                      !selectedLifestyle.auditc_result?.includes(
-                                        'Low Risk'
-                                      )
-                                    ? 'destructive'
-                                    : 'outline'
-                            }
-                          >
-                            {selectedLifestyle.auditc_result || 'N/A'}
-                          </Badge>
-                        </div>
-                        {selectedLifestyle.auditc_notes && (
-                          <div className='p-3 bg-muted rounded-lg'>
-                            <p className='text-xs text-muted-foreground mb-1'>
-                              Notes:
-                            </p>
-                            <p>{selectedLifestyle.auditc_notes}</p>
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='space-y-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='alcohol_frequency'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Frequency:
-                          </Label>
-                          <Select
-                            value={
-                              formData.alochol_frequency ||
-                              selectedLifestyle.alochol_frequency ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                alochol_frequency: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select frequency' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Never'>Never</SelectItem>
-                              <SelectItem value='1/month'>
-                                Monthly or less
-                              </SelectItem>
-                              <SelectItem value='2-4 times/month'>
-                                2-4 times a month
-                              </SelectItem>
-                              <SelectItem value='2-3 times/week'>
-                                2-3 times a week
-                              </SelectItem>
-                              <SelectItem value='4+ times/week'>
-                                4 or more times a week
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='alcohol_qty'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Quantity:
-                          </Label>
-                          <Input
-                            id='alcohol_qty'
-                            value={
-                              formData.alocohol_qty !== undefined
-                                ? formData.alocohol_qty
-                                : selectedLifestyle.alocohol_qty || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                alocohol_qty: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 2 drinks per session'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='alcohol_excess'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Excess:
-                          </Label>
-                          <Input
-                            id='alcohol_excess'
-                            value={
-                              formData.alcohol_excess !== undefined
-                                ? formData.alcohol_excess
-                                : selectedLifestyle.alcohol_excess || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                alcohol_excess: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 6+ drinks per session'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='alcohol_score'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Total Score:
-                          </Label>
-                          <Input
-                            id='alcohol_score'
-                            type='number'
-                            value={
-                              formData.alcohol_score !== undefined
-                                ? formData.alcohol_score
-                                : selectedLifestyle.alcohol_score || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                alcohol_score: parseInt(e.target.value) || 0,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='0'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='auditc_result'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            AUDIT-C Result:
-                          </Label>
-                          <Select
-                            value={
-                              formData.auditc_result ||
-                              selectedLifestyle.auditc_result ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                auditc_result: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select result' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='No Risk'>No Risk</SelectItem>
-                              <SelectItem value='Low Risk'>Low Risk</SelectItem>
-                              <SelectItem value='Medium Risk'>
-                                Medium Risk
-                              </SelectItem>
-                              <SelectItem value='High Risk'>
-                                High Risk
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='auditc_notes'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Notes:
-                          </Label>
-                          <Textarea
-                            id='auditc_notes'
-                            value={
-                              formData.auditc_notes !== undefined
-                                ? formData.auditc_notes
-                                : selectedLifestyle.auditc_notes || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                auditc_notes: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm min-h-[32px]'
-                            placeholder='Additional notes about alcohol consumption...'
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <Separator />
 
                   {/* Exercise Information */}
-                  <div className='space-y-3' id='exercise-and-activity'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Dumbbell className='h-4 w-4' />
-                        Exercise & Activity
-                      </h3>
-                      {!isExerciseEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsExerciseEditOpen(true)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit exercise & activity information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => setIsExerciseEditOpen(false)}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Cancel editing'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('exercise')}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Save changes'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Dumbbell className='h-4 w-4' />
+                      Exercise & Activity
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Exercise:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.exercise || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Frequency:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.excercise_frequency || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Duration:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.excercise_minutes || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Sitting Hours:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.sitting_hours || 'N/A'}
+                        </span>
+                      </div>
                     </div>
-
-                    {!isExerciseEditOpen ? (
-                      // Display current exercise information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Exercise:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.exercise || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Frequency:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.excercise_frequency || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Duration:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.excercise_minutes || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Sitting Hours:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.sitting_hours || 'N/A'}
-                          </span>
-                        </div>
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='exercise'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Exercise:
-                          </Label>
-                          <Input
-                            id='exercise'
-                            value={
-                              formData.exercise !== undefined
-                                ? formData.exercise
-                                : selectedLifestyle.exercise || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                exercise: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter exercise type'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='exercise_frequency'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Frequency:
-                          </Label>
-                          <Select
-                            value={
-                              formData.excercise_frequency ||
-                              selectedLifestyle.excercise_frequency ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                excercise_frequency: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select frequency' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Never'>Never</SelectItem>
-                              <SelectItem value='Seldom'>Seldom</SelectItem>
-                              <SelectItem value='Once or twice a week'>
-                                1-2 times per week
-                              </SelectItem>
-                              <SelectItem value='3 times a week'>
-                                3 times per week
-                              </SelectItem>
-                              <SelectItem value='4 times a week'>
-                                4 times per week
-                              </SelectItem>
-                              <SelectItem value='Daily or more often'>
-                                Daily or more
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='exercise_duration'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Duration:
-                          </Label>
-                          <Select
-                            value={
-                              formData.excercise_minutes ||
-                              selectedLifestyle.excercise_minutes ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                excercise_minutes: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select duration' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="I don't exercise">
-                                Don't exercise
-                              </SelectItem>
-                              <SelectItem value='30 minutes'>
-                                30 minutes
-                              </SelectItem>
-                              <SelectItem value='60 minutes'>
-                                60 minutes
-                              </SelectItem>
-                              <SelectItem value='More than150 mins'>
-                                More than 150 mins
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='sitting_hours'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Sitting Hours:
-                          </Label>
-                          <Input
-                            id='sitting_hours'
-                            value={
-                              formData.sitting_hours !== undefined
-                                ? formData.sitting_hours
-                                : selectedLifestyle.sitting_hours || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                sitting_hours: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 8 hours'
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <Separator />
 
                   {/* Diet Information */}
-                  <div className='space-y-3' id='diet'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Apple className='h-4 w-4' />
-                        {selectedLifestyle.diet_header || 'Diet Information'}
-                      </h3>
-                      {!isDietEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsDietEditOpen(true)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit diet information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => setIsDietEditOpen(false)}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Cancel editing'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('diet')}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Save changes'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Apple className='h-4 w-4' />
+                      {selectedLifestyle.diet_header || 'Diet Information'}
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Eat Out:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.eatout_frequency || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Fruit & Veg:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.fruitveg_frequency || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Sugar:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.sugar_consumption || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Overall:
+                        </span>
+                        <Badge variant='outline'>
+                          {selectedLifestyle.diet_overall || 'N/A'}
+                        </Badge>
+                      </div>
                     </div>
-
-                    {!isDietEditOpen ? (
-                      // Display current diet information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Eat Out:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.eatout_frequency || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Fruit & Veg:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.fruitveg_frequency || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Sugar:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.sugar_consumption || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Overall:
-                          </span>
-                          <Badge variant='outline'>
-                            {selectedLifestyle.diet_overall || 'N/A'}
-                          </Badge>
-                        </div>
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='eatout_frequency'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Eat Out:
-                          </Label>
-                          <Select
-                            value={
-                              formData.eatout_frequency ||
-                              selectedLifestyle.eatout_frequency ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                eatout_frequency: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select frequency' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Never'>Never</SelectItem>
-                              <SelectItem value='Rarely'>Rarely</SelectItem>
-                              <SelectItem value='Sometimes'>
-                                Sometimes
-                              </SelectItem>
-                              <SelectItem value='Often'>Often</SelectItem>
-                              <SelectItem value='Very Often'>
-                                Very Often
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='fruitveg_frequency'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Fruit & Veg:
-                          </Label>
-                          <Select
-                            value={
-                              formData.fruitveg_frequency ||
-                              selectedLifestyle.fruitveg_frequency ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                fruitveg_frequency: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select frequency' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Never'>Never</SelectItem>
-                              <SelectItem value='Rarely'>Rarely</SelectItem>
-                              <SelectItem value='Sometimes'>
-                                Sometimes
-                              </SelectItem>
-                              <SelectItem value='Often'>Often</SelectItem>
-                              <SelectItem value='Daily'>Daily</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='sugar_consumption'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Sugar:
-                          </Label>
-                          <Select
-                            value={
-                              formData.sugar_consumption ||
-                              selectedLifestyle.sugar_consumption ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                sugar_consumption: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select consumption' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='None'>None</SelectItem>
-                              <SelectItem value='Low'>Low</SelectItem>
-                              <SelectItem value='Moderate'>Moderate</SelectItem>
-                              <SelectItem value='High'>High</SelectItem>
-                              <SelectItem value='Very High'>
-                                Very High
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='diet_overall'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Overall:
-                          </Label>
-                          <Select
-                            value={
-                              formData.diet_overall ||
-                              selectedLifestyle.diet_overall ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                diet_overall: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select rating' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Poor'>Poor</SelectItem>
-                              <SelectItem value='Fair'>Fair</SelectItem>
-                              <SelectItem value='Good but could be better'>
-                                Good but could be better
-                              </SelectItem>
-                              <SelectItem value='Good with a large variety of fruit and veg, and low sugar'>
-                                Excellent
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <Separator />
 
                   {/* Sleep Information */}
-                  <div className='space-y-3' id='sleep'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Moon className='h-4 w-4' />
-                        {selectedLifestyle.sleep_header || 'Sleep Information'}
-                      </h3>
-                      {!isSleepEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsSleepEditOpen(true)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit sleep information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => setIsSleepEditOpen(false)}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Cancel editing'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('sleep')}
-                            className='hover-lift h-6 px-2 text-xs'
-                            title='Save changes'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Moon className='h-4 w-4' />
+                      {selectedLifestyle.sleep_header || 'Sleep Information'}
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Sleep Hours:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.sleep_hours || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Sleep Rating:
+                        </span>
+                        <Badge variant='outline'>
+                          {selectedLifestyle.sleep_rating || 'N/A'}
+                        </Badge>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Rest Quality:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.sleep_rest || 'N/A'}
+                        </span>
+                      </div>
                     </div>
-
-                    {!isSleepEditOpen ? (
-                      // Display current sleep information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Sleep Hours:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.sleep_hours || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Sleep Rating:
-                          </span>
-                          <Badge variant='outline'>
-                            {selectedLifestyle.sleep_rating || 'N/A'}
-                          </Badge>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Rest Quality:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedLifestyle.sleep_rest || 'N/A'}
-                          </span>
-                        </div>
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='sleep_hours'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Sleep Hours:
-                          </Label>
-                          <Input
-                            id='sleep_hours'
-                            value={
-                              formData.sleep_hours !== undefined
-                                ? formData.sleep_hours
-                                : selectedLifestyle.sleep_hours || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                sleep_hours: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., 8 hours'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='sleep_rating'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Sleep Rating:
-                          </Label>
-                          <Select
-                            value={
-                              formData.sleep_rating ||
-                              selectedLifestyle.sleep_rating ||
-                              ''
-                            }
-                            onValueChange={value =>
-                              setFormData({
-                                ...formData,
-                                sleep_rating: value,
-                              })
-                            }
-                          >
-                            <SelectTrigger className='h-8 text-sm'>
-                              <SelectValue placeholder='Select quality' />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value='Poor'>Poor</SelectItem>
-                              <SelectItem value='Ok, could be better'>
-                                Ok, could be better
-                              </SelectItem>
-                              <SelectItem value='Good'>Good</SelectItem>
-                              <SelectItem value='Excellent'>
-                                Excellent
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='sleep_rest'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Rest Quality:
-                          </Label>
-                          <Input
-                            id='sleep_rest'
-                            value={
-                              formData.sleep_rest !== undefined
-                                ? formData.sleep_rest
-                                : selectedLifestyle.sleep_rest || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                sleep_rest: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='e.g., Restful, Light, Deep'
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   {selectedLifestyle.notes_text && (
@@ -2762,6 +1817,340 @@ export default function LifestylePage() {
                 )}
               </Button>
             </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Organizations Modal */}
+        <Dialog
+          open={isOrganizationsModalOpen}
+          onOpenChange={setIsOrganizationsModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <Building2 className='h-5 w-5 text-blue-600' />
+                Organizations
+              </DialogTitle>
+              <DialogDescription>
+                View all organizations in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading organizations...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {organizations.map(org => (
+                    <Card key={org.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {org.name || 'Unnamed Organization'}
+                        </CardTitle>
+                        <CardDescription>
+                          {org.registration_number &&
+                            `Reg: ${org.registration_number}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>Sites:</span>
+                          <Badge variant='outline'>{org.site_count || 0}</Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Managers:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.manager_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                        {org.notes_text && (
+                          <div className='pt-2 border-t'>
+                            <p className='text-sm text-muted-foreground'>
+                              {org.notes_text}
+                            </p>
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Sites Modal */}
+        <Dialog open={isSitesModalOpen} onOpenChange={setIsSitesModalOpen}>
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <MapPin className='h-5 w-5 text-green-600' />
+                Sites
+              </DialogTitle>
+              <DialogDescription>
+                View all sites in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading sites...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {sites.map(site => (
+                    <Card key={site.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {site.name || 'Unnamed Site'}
+                        </CardTitle>
+                        <CardDescription>
+                          {site.organisation_name &&
+                            `Org: ${site.organisation_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {site.address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>{site.address}</p>
+                          </div>
+                        )}
+                        {site.site_admin_email && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Admin Email:
+                            </span>
+                            <p className='font-medium'>
+                              {site.site_admin_email}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {site.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {site.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Locations Modal */}
+        <Dialog
+          open={isLocationsModalOpen}
+          onOpenChange={setIsLocationsModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <MapPin className='h-5 w-5 text-purple-600' />
+                Locations
+              </DialogTitle>
+              <DialogDescription>
+                View all locations in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading locations...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {locations.map(location => (
+                    <Card key={location.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {location.name || 'Unnamed Location'}
+                        </CardTitle>
+                        <CardDescription>
+                          {location.site_name && `Site: ${location.site_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {location.address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>{location.address}</p>
+                          </div>
+                        )}
+                        {location.manager_name && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager:
+                            </span>
+                            <p className='font-medium'>
+                              {location.manager_name}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {location.employee_count || 0}
+                          </Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Cost Centers Modal */}
+        <Dialog
+          open={isCostCentersModalOpen}
+          onOpenChange={setIsCostCentersModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <DollarSign className='h-5 w-5 text-orange-600' />
+                Cost Centers
+              </DialogTitle>
+              <DialogDescription>
+                View all cost centers in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading cost centers...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {costCenters.map(costCenter => (
+                    <Card key={costCenter.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {costCenter.department || 'Unnamed Department'}
+                        </CardTitle>
+                        <CardDescription>
+                          {costCenter.organisation_name &&
+                            `Org: ${costCenter.organisation_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {costCenter.cost_center && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Cost Center:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.cost_center}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.workplace_address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.workplace_address}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.manager_name && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.manager_name}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.manager_email && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager Email:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.manager_email}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {costCenter.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {costCenter.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                        {costCenter.notes_text && (
+                          <div className='pt-2 border-t'>
+                            <p className='text-sm text-muted-foreground'>
+                              {costCenter.notes_text}
+                            </p>
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
           </DialogContent>
         </Dialog>
       </div>

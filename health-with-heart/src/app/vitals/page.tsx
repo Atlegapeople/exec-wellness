@@ -1,48 +1,21 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '@/components/ui/table';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import DashboardLayout from '@/components/DashboardLayout';
-import {
-  Search,
-  Plus,
-  Edit,
-  Trash2,
+import { 
+  Search, 
+  Plus, 
+  Edit, 
+  Trash2, 
   Heart,
   Activity,
   TrendingUp,
@@ -53,8 +26,7 @@ import {
   ChevronsRight,
   Loader2,
   FileText,
-  X,
-  CheckCircle,
+  X
 } from 'lucide-react';
 
 interface VitalRecord {
@@ -130,12 +102,6 @@ interface Employee {
 }
 
 export default function VitalsPage() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-
-  // Extract employee ID from URL if present
-  const employeeId = searchParams.get('employee');
-
   const [vitals, setVitals] = useState<VitalRecord[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
@@ -144,7 +110,7 @@ export default function VitalsPage() {
     total: 0,
     totalPages: 0,
     hasNextPage: false,
-    hasPreviousPage: false,
+    hasPreviousPage: false
   });
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -156,49 +122,19 @@ export default function VitalsPage() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
-  // Section-specific edit states
-  const [isEmployeeEditOpen, setIsEmployeeEditOpen] = useState(false);
-  const [isBasicVitalsEditOpen, setIsBasicVitalsEditOpen] = useState(false);
-  const [isBloodPressureEditOpen, setIsBloodPressureEditOpen] = useState(false);
-  const [isGlucoseEditOpen, setIsGlucoseEditOpen] = useState(false);
-  const [isUrinalysisEditOpen, setIsUrinalysisEditOpen] = useState(false);
-  const [isNotesEditOpen, setIsNotesEditOpen] = useState(false);
-
-  // Form data for editing
-  const [editFormData, setEditFormData] = useState<any>({});
-  const [formLoading, setFormLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
-
   const fetchVitals = async (page = 1, search = '') => {
     try {
       setLoading(true);
-      const response = await fetch(
-        `/api/vitals?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`
-      );
+      const response = await fetch(`/api/vitals?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`);
       if (!response.ok) throw new Error('Failed to fetch vitals');
-
+      
       const data = await response.json();
       console.log('API Response - first vital:', data.vitals[0]);
-      console.log(
-        'API Response - systolic_warning in first vital:',
-        data.vitals[0]?.systolic_warning
-      );
-      console.log(
-        'API Response - diastolic_warning in first vital:',
-        data.vitals[0]?.diastolic_warning
-      );
-      console.log(
-        'API Response - glucose_status in first vital:',
-        data.vitals[0]?.glucose_status
-      );
-      console.log(
-        'API Response - notes_text in first vital:',
-        data.vitals[0]?.notes_text
-      );
-      console.log(
-        'API Response - additional_notes in first vital:',
-        data.vitals[0]?.additional_notes
-      );
+      console.log('API Response - systolic_warning in first vital:', data.vitals[0]?.systolic_warning);
+      console.log('API Response - diastolic_warning in first vital:', data.vitals[0]?.diastolic_warning);
+      console.log('API Response - glucose_status in first vital:', data.vitals[0]?.glucose_status);
+      console.log('API Response - notes_text in first vital:', data.vitals[0]?.notes_text);
+      console.log('API Response - additional_notes in first vital:', data.vitals[0]?.additional_notes);
       setVitals(data.vitals);
       setPagination(data.pagination);
     } catch (error) {
@@ -208,161 +144,11 @@ export default function VitalsPage() {
     }
   };
 
-  // Save section-specific data
-  const handleSectionSave = async (sectionName: string) => {
-    if (!selectedVital?.id) {
-      console.error('No vital record selected for saving');
-      return;
-    }
-
-    try {
-      setFormLoading(true);
-
-      // Start with the complete existing record to preserve all data
-      let updateData: any = { ...selectedVital };
-
-      // Only update the specific fields for the section being edited
-      switch (sectionName) {
-        case 'employee':
-          if (editFormData.employee_name !== undefined)
-            updateData.employee_name = editFormData.employee_name;
-          if (editFormData.employee_surname !== undefined)
-            updateData.employee_surname = editFormData.employee_surname;
-          if (editFormData.employee_email !== undefined)
-            updateData.employee_email = editFormData.employee_email;
-          break;
-        case 'basic_vitals':
-          if (editFormData.weight_kg !== undefined)
-            updateData.weight_kg = editFormData.weight_kg;
-          if (editFormData.height_cm !== undefined)
-            updateData.height_cm = editFormData.height_cm;
-          if (editFormData.bmi !== undefined) updateData.bmi = editFormData.bmi;
-          if (editFormData.bmi_category !== undefined)
-            updateData.bmi_category = editFormData.bmi_category;
-          if (editFormData.waist !== undefined)
-            updateData.waist = editFormData.waist;
-          if (editFormData.waist_circumference !== undefined)
-            updateData.waist_circumference = editFormData.waist_circumference;
-          if (editFormData.waist_hip_ratio !== undefined)
-            updateData.waist_hip_ratio = editFormData.waist_hip_ratio;
-          if (editFormData.chest_measurement_inspiration !== undefined)
-            updateData.chest_measurement_inspiration =
-              editFormData.chest_measurement_inspiration;
-          if (editFormData.chest_measurement_expiration !== undefined)
-            updateData.chest_measurement_expiration =
-              editFormData.chest_measurement_expiration;
-          if (editFormData.pulse_rate !== undefined)
-            updateData.pulse_rate = editFormData.pulse_rate;
-          if (editFormData.pulse_rhythm !== undefined)
-            updateData.pulse_rhythm = editFormData.pulse_rhythm;
-          if (editFormData.pulse_character !== undefined)
-            updateData.pulse_character = editFormData.pulse_character;
-          break;
-        case 'blood_pressure':
-          if (editFormData.systolic_bp !== undefined)
-            updateData.systolic_bp = editFormData.systolic_bp;
-          if (editFormData.diastolic_bp !== undefined)
-            updateData.diastolic_bp = editFormData.diastolic_bp;
-          if (editFormData.bp_category !== undefined)
-            updateData.bp_category = editFormData.bp_category;
-          if (editFormData.blood_pressure_status !== undefined)
-            updateData.blood_pressure_status =
-              editFormData.blood_pressure_status;
-          if (editFormData.systolic_warning !== undefined)
-            updateData.systolic_warning = editFormData.systolic_warning;
-          if (editFormData.diastolic_warning !== undefined)
-            updateData.diastolic_warning = editFormData.diastolic_warning;
-          break;
-        case 'glucose':
-          if (editFormData.glucose_state !== undefined)
-            updateData.glucose_state = editFormData.glucose_state;
-          if (editFormData.glucose_level !== undefined)
-            updateData.glucose_level = editFormData.glucose_level;
-          if (editFormData.glucose_category !== undefined)
-            updateData.glucose_category = editFormData.glucose_category;
-          if (editFormData.glucose_status !== undefined)
-            updateData.glucose_status = editFormData.glucose_status;
-          break;
-        case 'urinalysis':
-          if (editFormData.urinalysis_done !== undefined)
-            updateData.urinalysis_done = editFormData.urinalysis_done;
-          if (editFormData.urinalysis_result !== undefined)
-            updateData.urinalysis_result = editFormData.urinalysis_result;
-          if (editFormData.urinalysis_findings !== undefined)
-            updateData.urinalysis_findings = editFormData.urinalysis_findings;
-          break;
-        case 'notes':
-          if (editFormData.additional_notes !== undefined)
-            updateData.additional_notes = editFormData.additional_notes;
-          if (editFormData.notes_text !== undefined)
-            updateData.notes_text = editFormData.notes_text;
-          break;
-        default:
-          console.error(`Unknown section: ${sectionName}`);
-          return;
-      }
-
-      console.log(`Saving ${sectionName} data:`, updateData);
-
-      const response = await fetch('/api/vitals', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(updateData),
-      });
-
-      if (response.ok) {
-        const updatedVital = await response.json();
-        console.log(`${sectionName} saved successfully:`, updatedVital);
-
-        // Update the selected vital with new data
-        setSelectedVital(updatedVital.vital || updatedVital);
-
-        // Refresh all vitals to get updated data
-        await fetchVitals();
-
-        // Close the edit mode for the specific section
-        switch (sectionName) {
-          case 'employee':
-            setIsEmployeeEditOpen(false);
-            break;
-          case 'basic_vitals':
-            setIsBasicVitalsEditOpen(false);
-            break;
-          case 'blood_pressure':
-            setIsBloodPressureEditOpen(false);
-            break;
-          case 'glucose':
-            setIsGlucoseEditOpen(false);
-            break;
-          case 'urinalysis':
-            setIsUrinalysisEditOpen(false);
-            break;
-          case 'notes':
-            setIsNotesEditOpen(false);
-            break;
-        }
-
-        setEditFormData({});
-        setSuccessMessage(
-          `${sectionName.charAt(0).toUpperCase() + sectionName.slice(1).replace('_', ' ')} section updated successfully!`
-        );
-        setTimeout(() => setSuccessMessage(null), 3000);
-      } else {
-        const error = await response.json();
-        console.error(`${sectionName} save failed:`, error);
-      }
-    } catch (error) {
-      console.error(`Error saving ${sectionName} data:`, error);
-    } finally {
-      setFormLoading(false);
-    }
-  };
-
   const fetchEmployees = async () => {
     try {
       const response = await fetch('/api/employees?limit=1000');
       if (!response.ok) throw new Error('Failed to fetch employees');
-
+      
       const data = await response.json();
       setEmployees(data.employees || []);
     } catch (error) {
@@ -370,48 +156,17 @@ export default function VitalsPage() {
     }
   };
 
-  // Helper function to find vital record by employee ID
-  // If an employee has multiple vital records, select the first one
-  const findVitalByEmployeeId = (
-    vitals: VitalRecord[],
-    employeeId: string
-  ): VitalRecord | null => {
-    const employeeVitals = vitals.filter(
-      vital => vital.employee_id === employeeId
-    );
-    // Return the first vital record if multiple exist, otherwise return null
-    return employeeVitals.length > 0 ? employeeVitals[0] : null;
-  };
-
   useEffect(() => {
     fetchVitals();
     fetchEmployees();
   }, []);
 
-  // Auto-select vital record when employeeId is in URL and vitals are loaded
-  useEffect(() => {
-    if (employeeId && vitals.length > 0 && !selectedVital) {
-      const vitalToSelect = findVitalByEmployeeId(vitals, employeeId);
-      if (vitalToSelect) {
-        setSelectedVital(vitalToSelect);
-      }
-    }
-  }, [employeeId, vitals, selectedVital]);
-
   const handleSearch = () => {
     fetchVitals(1, searchTerm);
-    // Preserve employee ID in URL when searching
-    if (employeeId) {
-      updateURL(employeeId);
-    }
   };
 
   const handlePageChange = (newPage: number) => {
     fetchVitals(newPage, searchTerm);
-    // Preserve employee ID in URL when changing pages
-    if (employeeId) {
-      updateURL(employeeId);
-    }
   };
 
   const handleCreateVital = async () => {
@@ -494,44 +249,15 @@ export default function VitalsPage() {
     setIsEditDialogOpen(true);
   };
 
-  const updateURL = useCallback(
-    (employeeId?: string) => {
-      const params = new URLSearchParams();
-      if (employeeId) params.set('employee', employeeId);
-
-      const newURL = `/vitals${params.toString() ? `?${params.toString()}` : ''}`;
-      router.replace(newURL, { scroll: false });
-    },
-    [router]
-  );
-
   const handleVitalClick = (vital: VitalRecord) => {
     console.log('Selected vital - glucose_status:', vital.glucose_status);
-    console.log(
-      'Selected vital - glucose_status type:',
-      typeof vital.glucose_status
-    );
-    console.log(
-      'Selected vital - glucose_status truthy:',
-      !!vital.glucose_status
-    );
-    console.log(
-      'Selected vital - systolic_warning:',
-      vital.systolic_warning,
-      'type:',
-      typeof vital.systolic_warning
-    );
-    console.log(
-      'Selected vital - diastolic_warning:',
-      vital.diastolic_warning,
-      'type:',
-      typeof vital.diastolic_warning
-    );
+    console.log('Selected vital - glucose_status type:', typeof vital.glucose_status);
+    console.log('Selected vital - glucose_status truthy:', !!vital.glucose_status);
+    console.log('Selected vital - systolic_warning:', vital.systolic_warning, 'type:', typeof vital.systolic_warning);
+    console.log('Selected vital - diastolic_warning:', vital.diastolic_warning, 'type:', typeof vital.diastolic_warning);
     console.log('Selected vital - notes_text:', vital.notes_text);
     console.log('Selected vital - additional_notes:', vital.additional_notes);
     setSelectedVital(vital);
-    // Update URL to include employee ID
-    updateURL(vital.employee_id);
   };
 
   // Resize functionality
@@ -543,14 +269,13 @@ export default function VitalsPage() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       if (!isResizing) return;
-
+      
       const container = document.querySelector('.vitals-container');
       if (!container) return;
-
+      
       const containerRect = container.getBoundingClientRect();
-      const newLeftWidth =
-        ((e.clientX - containerRect.left) / containerRect.width) * 100;
-
+      const newLeftWidth = ((e.clientX - containerRect.left) / containerRect.width) * 100;
+      
       // Constrain between 20% and 80%
       const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
       setLeftPanelWidth(constrainedWidth);
@@ -606,17 +331,14 @@ export default function VitalsPage() {
   // Helper functions to get weight and height (handle different column names)
   const getWeight = (vital: VitalRecord) => vital.weight_kg || vital.weight;
   const getHeight = (vital: VitalRecord) => vital.height_cm || vital.height;
-
+  
   // Helper functions for blood pressure (handle different column names)
-  const getSystolicBP = (vital: VitalRecord) =>
-    vital.systolic_bp || vital.bp_systolic;
-  const getDiastolicBP = (vital: VitalRecord) =>
-    vital.diastolic_bp || vital.bp_diastolic;
-
+  const getSystolicBP = (vital: VitalRecord) => vital.systolic_bp || vital.bp_systolic;
+  const getDiastolicBP = (vital: VitalRecord) => vital.diastolic_bp || vital.bp_diastolic;
+  
   // Helper function for waist measurement
-  const getWaist = (vital: VitalRecord) =>
-    vital.waist || vital.waist_circumference;
-
+  const getWaist = (vital: VitalRecord) => vital.waist || vital.waist_circumference;
+  
   // Helper function for pulse rhythm
   const getPulseRhythm = (vital: VitalRecord) => {
     return vital.pulse_rythm || vital.pulse_rhythm;
@@ -628,7 +350,7 @@ export default function VitalsPage() {
       systolic_warning: vital.systolic_warning,
       systolic_bp: vital.systolic_bp,
       bp_systolic: vital.bp_systolic,
-      bp_systolic_high: vital.bp_systolic_high,
+      bp_systolic_high: vital.bp_systolic_high
     });
     return vital.systolic_warning;
   };
@@ -639,450 +361,337 @@ export default function VitalsPage() {
       diastolic_warning: vital.diastolic_warning,
       diastolic_bp: vital.diastolic_bp,
       bp_diastolic: vital.bp_diastolic,
-      bp_diastolic_high: vital.bp_diastolic_high,
+      bp_diastolic_high: vital.bp_diastolic_high
     });
     return vital.diastolic_warning;
   };
 
   return (
     <DashboardLayout>
-      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+      <div className="pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden">
         {/* Header */}
-        <div className='flex items-center justify-between mb-6'>
+        <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className='text-3xl font-bold tracking-tight'>
-              Vitals & Clinical Metrics
-            </h1>
-            <p className='text-muted-foreground'>
+            <h1 className="text-3xl font-bold tracking-tight">Vitals & Clinical Metrics</h1>
+            <p className="text-muted-foreground">
               Manage employee vital signs and clinical measurements
             </p>
           </div>
-
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
+          
+          <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
             <DialogTrigger asChild>
               <Button>
-                <Plus className='h-4 w-4 mr-2' />
+                <Plus className="h-4 w-4 mr-2" />
                 Add Vital Record
               </Button>
             </DialogTrigger>
-            <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
               <DialogHeader>
                 <DialogTitle>Create New Vital Record</DialogTitle>
                 <DialogDescription>
-                  Enter the vital signs and clinical measurements for an
-                  employee.
+                  Enter the vital signs and clinical measurements for an employee.
                 </DialogDescription>
               </DialogHeader>
-
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='employee'>Employee</Label>
-                  <Select
-                    value={formData.employee_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, employee_id: value })
-                    }
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="employee">Employee</Label>
+                  <Select 
+                    value={formData.employee_id || ''} 
+                    onValueChange={(value) => setFormData({...formData, employee_id: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select employee' />
+                      <SelectValue placeholder="Select employee" />
                     </SelectTrigger>
                     <SelectContent>
-                      {employees.map(employee => (
+                      {employees.map((employee) => (
                         <SelectItem key={employee.id} value={employee.id}>
-                          {employee.name} {employee.surname} (
-                          {employee.employee_number})
+                          {employee.name} {employee.surname} ({employee.employee_number})
                         </SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='weight_kg'>Weight (kg)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="weight_kg">Weight (kg)</Label>
                   <Input
-                    id='weight_kg'
-                    type='number'
-                    step='0.1'
+                    id="weight_kg"
+                    type="number"
+                    step="0.1"
                     value={formData.weight_kg || formData.weight || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        weight_kg: parseFloat(e.target.value),
-                      })
-                    }
-                    placeholder='Enter weight'
+                    onChange={(e) => setFormData({...formData, weight_kg: parseFloat(e.target.value)})}
+                    placeholder="Enter weight"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='height_cm'>Height (cm)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="height_cm">Height (cm)</Label>
                   <Input
-                    id='height_cm'
-                    type='number'
+                    id="height_cm"
+                    type="number"
                     value={formData.height_cm || formData.height || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        height_cm: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter height'
+                    onChange={(e) => setFormData({...formData, height_cm: parseInt(e.target.value)})}
+                    placeholder="Enter height"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='bmi_status'>BMI Status</Label>
-                  <Select
-                    value={formData.bmi_status || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, bmi_status: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="bmi_status">BMI Status</Label>
+                  <Select 
+                    value={formData.bmi_status || ''} 
+                    onValueChange={(value) => setFormData({...formData, bmi_status: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select BMI status' />
+                      <SelectValue placeholder="Select BMI status" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Underweight'>Underweight</SelectItem>
-                      <SelectItem value='Normal'>Normal</SelectItem>
-                      <SelectItem value='Overweight'>Overweight</SelectItem>
-                      <SelectItem value='Class I Obesity'>
-                        Class I Obesity
-                      </SelectItem>
-                      <SelectItem value='Class II Obesity'>
-                        Class II Obesity
-                      </SelectItem>
-                      <SelectItem value='Class III Obesity'>
-                        Class III Obesity
-                      </SelectItem>
+                      <SelectItem value="Underweight">Underweight</SelectItem>
+                      <SelectItem value="Normal">Normal</SelectItem>
+                      <SelectItem value="Overweight">Overweight</SelectItem>
+                      <SelectItem value="Class I Obesity">Class I Obesity</SelectItem>
+                      <SelectItem value="Class II Obesity">Class II Obesity</SelectItem>
+                      <SelectItem value="Class III Obesity">Class III Obesity</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='waist'>Waist Circumference (cm)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="waist">Waist Circumference (cm)</Label>
                   <Input
-                    id='waist'
-                    type='number'
+                    id="waist"
+                    type="number"
                     value={formData.waist || formData.waist_circumference || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        waist: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter waist circumference'
+                    onChange={(e) => setFormData({...formData, waist: parseInt(e.target.value)})}
+                    placeholder="Enter waist circumference"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='chest_measurement_inspiration'>
-                    Chest Inspiration (cm)
-                  </Label>
+                <div className="space-y-2">
+                  <Label htmlFor="chest_measurement_inspiration">Chest Inspiration (cm)</Label>
                   <Input
-                    id='chest_measurement_inspiration'
-                    type='number'
+                    id="chest_measurement_inspiration"
+                    type="number"
                     value={formData.chest_measurement_inspiration || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        chest_measurement_inspiration: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter chest measurement on inspiration'
+                    onChange={(e) => setFormData({...formData, chest_measurement_inspiration: parseInt(e.target.value)})}
+                    placeholder="Enter chest measurement on inspiration"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='chest_measurement_expiration'>
-                    Chest Expiration (cm)
-                  </Label>
+                <div className="space-y-2">
+                  <Label htmlFor="chest_measurement_expiration">Chest Expiration (cm)</Label>
                   <Input
-                    id='chest_measurement_expiration'
-                    type='number'
+                    id="chest_measurement_expiration"
+                    type="number"
                     value={formData.chest_measurement_expiration || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        chest_measurement_expiration: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter chest measurement on expiration'
+                    onChange={(e) => setFormData({...formData, chest_measurement_expiration: parseInt(e.target.value)})}
+                    placeholder="Enter chest measurement on expiration"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='whtr'>Waist-to-Height Ratio</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="whtr">Waist-to-Height Ratio</Label>
                   <Input
-                    id='whtr'
-                    type='number'
-                    step='0.001'
+                    id="whtr"
+                    type="number"
+                    step="0.001"
                     value={formData.whtr || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        whtr: parseFloat(e.target.value),
-                      })
-                    }
-                    placeholder='Enter waist-to-height ratio'
+                    onChange={(e) => setFormData({...formData, whtr: parseFloat(e.target.value)})}
+                    placeholder="Enter waist-to-height ratio"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='whtr_status'>WHTR Status</Label>
-                  <Select
-                    value={formData.whtr_status || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, whtr_status: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="whtr_status">WHTR Status</Label>
+                  <Select 
+                    value={formData.whtr_status || ''} 
+                    onValueChange={(value) => setFormData({...formData, whtr_status: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select WHTR status' />
+                      <SelectValue placeholder="Select WHTR status" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Low Risk'>Low Risk</SelectItem>
-                      <SelectItem value='Moderate Risk'>
-                        Moderate Risk
-                      </SelectItem>
-                      <SelectItem value='High Risk'>High Risk</SelectItem>
-                      <SelectItem value='Very High Risk'>
-                        Very High Risk
-                      </SelectItem>
+                      <SelectItem value="Low Risk">Low Risk</SelectItem>
+                      <SelectItem value="Moderate Risk">Moderate Risk</SelectItem>
+                      <SelectItem value="High Risk">High Risk</SelectItem>
+                      <SelectItem value="Very High Risk">Very High Risk</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='pulse_rate'>Pulse Rate (bpm)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="pulse_rate">Pulse Rate (bpm)</Label>
                   <Input
-                    id='pulse_rate'
-                    type='number'
+                    id="pulse_rate"
+                    type="number"
                     value={formData.pulse_rate || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        pulse_rate: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter pulse rate'
+                    onChange={(e) => setFormData({...formData, pulse_rate: parseInt(e.target.value)})}
+                    placeholder="Enter pulse rate"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='pulse_status'>Pulse Status</Label>
-                  <Select
-                    value={formData.pulse_status || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, pulse_status: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="pulse_status">Pulse Status</Label>
+                  <Select 
+                    value={formData.pulse_status || ''} 
+                    onValueChange={(value) => setFormData({...formData, pulse_status: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select pulse status' />
+                      <SelectValue placeholder="Select pulse status" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Normal'>Normal</SelectItem>
-                      <SelectItem value='Bradycardia'>Bradycardia</SelectItem>
-                      <SelectItem value='Tachycardia'>Tachycardia</SelectItem>
-                      <SelectItem value='Irregular'>Irregular</SelectItem>
-                      <SelectItem value='Weak'>Weak</SelectItem>
-                      <SelectItem value='Strong'>Strong</SelectItem>
+                      <SelectItem value="Normal">Normal</SelectItem>
+                      <SelectItem value="Bradycardia">Bradycardia</SelectItem>
+                      <SelectItem value="Tachycardia">Tachycardia</SelectItem>
+                      <SelectItem value="Irregular">Irregular</SelectItem>
+                      <SelectItem value="Weak">Weak</SelectItem>
+                      <SelectItem value="Strong">Strong</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='pulse_rythm'>Pulse Rhythm</Label>
-                  <Select
-                    value={formData.pulse_rythm || formData.pulse_rhythm || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, pulse_rythm: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="pulse_rythm">Pulse Rhythm</Label>
+                  <Select 
+                    value={formData.pulse_rythm || formData.pulse_rhythm || ''} 
+                    onValueChange={(value) => setFormData({...formData, pulse_rythm: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select pulse rhythm' />
+                      <SelectValue placeholder="Select pulse rhythm" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Regular'>Regular</SelectItem>
-                      <SelectItem value='Irregular'>Irregular</SelectItem>
-                      <SelectItem value='Regularly Irregular'>
-                        Regularly Irregular
-                      </SelectItem>
-                      <SelectItem value='Irregularly Irregular'>
-                        Irregularly Irregular
-                      </SelectItem>
+                      <SelectItem value="Regular">Regular</SelectItem>
+                      <SelectItem value="Irregular">Irregular</SelectItem>
+                      <SelectItem value="Regularly Irregular">Regularly Irregular</SelectItem>
+                      <SelectItem value="Irregularly Irregular">Irregularly Irregular</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='systolic_bp'>Systolic BP (mmHg)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="systolic_bp">Systolic BP (mmHg)</Label>
                   <Input
-                    id='systolic_bp'
-                    type='number'
+                    id="systolic_bp"
+                    type="number"
                     value={formData.systolic_bp || formData.bp_systolic || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        systolic_bp: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter systolic pressure'
+                    onChange={(e) => setFormData({...formData, systolic_bp: parseInt(e.target.value)})}
+                    placeholder="Enter systolic pressure"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='diastolic_bp'>Diastolic BP (mmHg)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="diastolic_bp">Diastolic BP (mmHg)</Label>
                   <Input
-                    id='diastolic_bp'
-                    type='number'
+                    id="diastolic_bp"
+                    type="number"
                     value={formData.diastolic_bp || formData.bp_diastolic || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        diastolic_bp: parseInt(e.target.value),
-                      })
-                    }
-                    placeholder='Enter diastolic pressure'
+                    onChange={(e) => setFormData({...formData, diastolic_bp: parseInt(e.target.value)})}
+                    placeholder="Enter diastolic pressure"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='blood_pressure_status'>BP Status</Label>
-                  <Select
-                    value={formData.blood_pressure_status || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, blood_pressure_status: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="blood_pressure_status">BP Status</Label>
+                  <Select 
+                    value={formData.blood_pressure_status || ''} 
+                    onValueChange={(value) => setFormData({...formData, blood_pressure_status: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select BP status' />
+                      <SelectValue placeholder="Select BP status" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Normal'>Normal</SelectItem>
-                      <SelectItem value='High'>High</SelectItem>
-                      <SelectItem value='Low'>Low</SelectItem>
-                      <SelectItem value='Elevated'>Elevated</SelectItem>
+                      <SelectItem value="Normal">Normal</SelectItem>
+                      <SelectItem value="High">High</SelectItem>
+                      <SelectItem value="Low">Low</SelectItem>
+                      <SelectItem value="Elevated">Elevated</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='systolic_warning'>Systolic Warning</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="systolic_warning">Systolic Warning</Label>
                   <Input
-                    id='systolic_warning'
-                    type='text'
+                    id="systolic_warning"
+                    type="text"
                     value={formData.systolic_warning || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        systolic_warning: e.target.value,
-                      })
-                    }
-                    placeholder='Enter systolic warning message'
+                    onChange={(e) => setFormData({...formData, systolic_warning: e.target.value})}
+                    placeholder="Enter systolic warning message"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='diastolic_warning'>Diastolic Warning</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="diastolic_warning">Diastolic Warning</Label>
                   <Input
-                    id='diastolic_warning'
-                    type='text'
+                    id="diastolic_warning"
+                    type="text"
                     value={formData.diastolic_warning || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        diastolic_warning: e.target.value,
-                      })
-                    }
-                    placeholder='Enter diastolic warning message'
+                    onChange={(e) => setFormData({...formData, diastolic_warning: e.target.value})}
+                    placeholder="Enter diastolic warning message"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='glucose_level'>Glucose Level (mmol/L)</Label>
+                <div className="space-y-2">
+                  <Label htmlFor="glucose_level">Glucose Level (mmol/L)</Label>
                   <Input
-                    id='glucose_level'
-                    type='number'
-                    step='0.1'
+                    id="glucose_level"
+                    type="number"
+                    step="0.1"
                     value={formData.glucose_level || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        glucose_level: parseFloat(e.target.value),
-                      })
-                    }
-                    placeholder='Enter glucose level'
+                    onChange={(e) => setFormData({...formData, glucose_level: parseFloat(e.target.value)})}
+                    placeholder="Enter glucose level"
                   />
                 </div>
 
-                <div className='space-y-2'>
-                  <Label htmlFor='glucose_status'>Glucose Status</Label>
-                  <Select
-                    value={formData.glucose_status || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, glucose_status: value })
-                    }
+                <div className="space-y-2">
+                  <Label htmlFor="glucose_status">Glucose Status</Label>
+                  <Select 
+                    value={formData.glucose_status || ''} 
+                    onValueChange={(value) => setFormData({...formData, glucose_status: value})}
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder='Select glucose status' />
+                      <SelectValue placeholder="Select glucose status" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value='Normal'>Normal</SelectItem>
-                      <SelectItem value='High'>High</SelectItem>
-                      <SelectItem value='Low'>Low</SelectItem>
-                      <SelectItem value='Pre-diabetic'>Pre-diabetic</SelectItem>
-                      <SelectItem value='Diabetic'>Diabetic</SelectItem>
+                      <SelectItem value="Normal">Normal</SelectItem>
+                      <SelectItem value="High">High</SelectItem>
+                      <SelectItem value="Low">Low</SelectItem>
+                      <SelectItem value="Pre-diabetic">Pre-diabetic</SelectItem>
+                      <SelectItem value="Diabetic">Diabetic</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div className='md:col-span-2 space-y-2'>
-                  <Label htmlFor='notes_text'>Clinical Notes</Label>
+                <div className="md:col-span-2 space-y-2">
+                  <Label htmlFor="notes_text">Clinical Notes</Label>
                   <Textarea
-                    id='notes_text'
+                    id="notes_text"
                     value={formData.notes_text || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, notes_text: e.target.value })
-                    }
-                    placeholder='Enter clinical notes and observations'
-                    className='min-h-[80px]'
+                    onChange={(e) => setFormData({...formData, notes_text: e.target.value})}
+                    placeholder="Enter clinical notes and observations"
+                    className="min-h-[80px]"
                   />
                 </div>
 
-                <div className='md:col-span-2 space-y-2'>
-                  <Label htmlFor='additional_notes'>Additional Notes</Label>
+                <div className="md:col-span-2 space-y-2">
+                  <Label htmlFor="additional_notes">Additional Notes</Label>
                   <Textarea
-                    id='additional_notes'
+                    id="additional_notes"
                     value={formData.additional_notes || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        additional_notes: e.target.value,
-                      })
-                    }
-                    placeholder='Enter any additional notes or observations'
-                    className='min-h-[80px]'
+                    onChange={(e) => setFormData({...formData, additional_notes: e.target.value})}
+                    placeholder="Enter any additional notes or observations"
+                    className="min-h-[80px]"
                   />
                 </div>
               </div>
 
-              <div className='flex justify-end gap-2'>
-                <Button
-                  variant='outline'
-                  onClick={() => setIsCreateDialogOpen(false)}
-                  disabled={submitting}
-                >
+              <div className="flex justify-end gap-2">
+                <Button variant="outline" onClick={() => setIsCreateDialogOpen(false)} disabled={submitting}>
                   Cancel
                 </Button>
-                <Button
-                  onClick={handleCreateVital}
-                  disabled={submitting || !formData.employee_id}
-                >
+                <Button onClick={handleCreateVital} disabled={submitting || !formData.employee_id}>
                   {submitting ? (
                     <>
-                      <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                      <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                       Creating...
                     </>
                   ) : (
@@ -1095,156 +704,116 @@ export default function VitalsPage() {
         </div>
 
         {/* Main Content with Split View */}
-        <div className='vitals-container flex gap-0 overflow-hidden mb-6'>
+        <div className="vitals-container flex gap-0 overflow-hidden mb-6">
           {/* Left Panel - Vitals List */}
-          <div
-            className='space-y-4 flex-shrink-0 flex flex-col'
-            style={{
+          <div 
+            className="space-y-4 flex-shrink-0 flex flex-col"
+            style={{ 
               width: selectedVital ? `${leftPanelWidth}%` : '100%',
-              maxWidth: selectedVital ? `${leftPanelWidth}%` : '100%',
+              maxWidth: selectedVital ? `${leftPanelWidth}%` : '100%'
             }}
           >
             {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Total Records
-                  </CardTitle>
-                  <Heart className='h-4 w-4 text-muted-foreground' />
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                  <CardTitle className="text-sm font-medium">Total Records</CardTitle>
+                  <Heart className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>{pagination.total}</div>
-                  <p className='text-xs text-muted-foreground'>
+                  <div className="text-2xl font-bold">{pagination.total}</div>
+                  <p className="text-xs text-muted-foreground">
                     Vital records in system
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Unique Employees
-                  </CardTitle>
-                  <Users className='h-4 w-4 text-muted-foreground' />
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                  <CardTitle className="text-sm font-medium">Unique Employees</CardTitle>
+                  <Users className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>
+                  <div className="text-2xl font-bold">
                     {new Set(vitals.map(v => v.employee_id)).size}
                   </div>
-                  <p className='text-xs text-muted-foreground'>
+                  <p className="text-xs text-muted-foreground">
                     Employees with vitals
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    High BP Cases
-                  </CardTitle>
-                  <Activity className='h-4 w-4 text-muted-foreground' />
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                  <CardTitle className="text-sm font-medium">High BP Cases</CardTitle>
+                  <Activity className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {
-                      vitals.filter(
-                        v =>
-                          (v.blood_pressure_status || v.bp_category) === 'High'
-                      ).length
-                    }
+                  <div className="text-2xl font-bold">
+                    {vitals.filter(v => (v.blood_pressure_status || v.bp_category) === 'High').length}
                   </div>
-                  <p className='text-xs text-muted-foreground'>
+                  <p className="text-xs text-muted-foreground">
                     Requiring attention
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Obesity Cases
-                  </CardTitle>
-                  <TrendingUp className='h-4 w-4 text-muted-foreground' />
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                  <CardTitle className="text-sm font-medium">Obesity Cases</CardTitle>
+                  <TrendingUp className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {
-                      vitals.filter(v =>
-                        (v.bmi_status || v.bmi_category)?.includes('Obesity')
-                      ).length
-                    }
+                  <div className="text-2xl font-bold">
+                    {vitals.filter(v => (v.bmi_status || v.bmi_category)?.includes('Obesity')).length}
                   </div>
-                  <p className='text-xs text-muted-foreground'>BMI above 30</p>
+                  <p className="text-xs text-muted-foreground">
+                    BMI above 30
+                  </p>
                 </CardContent>
               </Card>
             </div>
 
             {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4 min-h-[80px] flex items-center'>
-                <div className='flex items-center gap-4 w-full'>
-                  <div className='flex-1 flex items-center gap-2'>
-                    <Search className='h-4 w-4 text-muted-foreground' />
+            <Card className="glass-effect">
+              <CardContent className="p-4 min-h-[80px] flex items-center">
+                <div className="flex items-center gap-4 w-full">
+                  <div className="flex-1 flex items-center gap-2">
+                    <Search className="h-4 w-4 text-muted-foreground" />
                     <Input
-                      placeholder='Search by employee name or number...'
+                      placeholder="Search by employee name or number..."
                       value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
-                      className='flex-1'
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                      className="flex-1"
                     />
                     <Button onClick={handleSearch}>Search</Button>
-                    {searchTerm && (
-                      <Button
-                        type='button'
-                        variant='outline'
-                        onClick={() => {
-                          setSearchTerm('');
-                          fetchVitals(1, '');
-                          // Preserve employee ID in URL when clearing search
-                          if (employeeId) {
-                            updateURL(employeeId);
-                          }
-                        }}
-                        className='hover-lift'
-                      >
-                        Clear
-                      </Button>
-                    )}
                   </div>
-                  <div className='text-sm text-muted-foreground'>
-                    {(pagination.page - 1) * pagination.limit + 1}-
-                    {Math.min(
-                      pagination.page * pagination.limit,
-                      pagination.total
-                    )}{' '}
-                    of {pagination.total}
+                  <div className="text-sm text-muted-foreground">
+                    {((pagination.page - 1) * pagination.limit) + 1}-{Math.min(pagination.page * pagination.limit, pagination.total)} of {pagination.total}
                   </div>
                 </div>
               </CardContent>
             </Card>
 
             {/* Vitals Table */}
-            <Card className='hover-lift'>
+            <Card className="hover-lift">
               <CardHeader>
-                <CardTitle className='flex items-center gap-3 text-2xl'>
-                  <div className='p-2 bg-teal-100 rounded-lg'>
-                    <Heart className='h-6 w-6 text-teal-600' />
+                <CardTitle className="flex items-center gap-3 text-2xl">
+                  <div className="p-2 bg-teal-100 rounded-lg">
+                    <Heart className="h-6 w-6 text-teal-600" />
                   </div>
                   <div>
                     <span>Vital Records</span>
-                    <span className='ml-2 text-lg font-medium text-gray-500'>
-                      ({pagination.total})
-                    </span>
+                    <span className="ml-2 text-lg font-medium text-gray-500">({pagination.total})</span>
                   </div>
                 </CardTitle>
                 <CardDescription>
-                  Click on any record to view detailed vital signs and
-                  measurements
+                  Click on any record to view detailed vital signs and measurements
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className='max-h-[60vh] overflow-auto scrollbar-thin'>
+                <div className="max-h-[60vh] overflow-auto scrollbar-thin">
                   <Table>
                     <TableHeader>
                       <TableRow>
@@ -1259,24 +828,21 @@ export default function VitalsPage() {
                     <TableBody>
                       {loading ? (
                         <TableRow>
-                          <TableCell colSpan={6} className='text-center py-8'>
-                            <Loader2 className='h-6 w-6 animate-spin mx-auto mb-2' />
+                          <TableCell colSpan={6} className="text-center py-8">
+                            <Loader2 className="h-6 w-6 animate-spin mx-auto mb-2" />
                             Loading vitals...
                           </TableCell>
                         </TableRow>
                       ) : vitals.length === 0 ? (
                         <TableRow>
-                          <TableCell
-                            colSpan={6}
-                            className='text-center py-8 text-muted-foreground'
-                          >
+                          <TableCell colSpan={6} className="text-center py-8 text-muted-foreground">
                             No vital records found
                           </TableCell>
                         </TableRow>
                       ) : (
-                        vitals.map(vital => (
-                          <TableRow
-                            key={vital.id}
+                        vitals.map((vital) => (
+                          <TableRow 
+                            key={vital.id} 
                             className={`cursor-pointer hover:bg-muted/50 transition-colors ${
                               selectedVital?.id === vital.id ? 'bg-muted' : ''
                             }`}
@@ -1284,71 +850,48 @@ export default function VitalsPage() {
                           >
                             <TableCell>
                               <div>
-                                <div className='font-medium'>
+                                <div className="font-medium">
                                   {vital.employee_name} {vital.employee_surname}
                                 </div>
-                                <div className='text-sm text-muted-foreground'>
+                                <div className="text-sm text-muted-foreground">
                                   {vital.employee_number}
                                 </div>
                               </div>
                             </TableCell>
                             <TableCell>
-                              {new Date(
-                                vital.date_created
-                              ).toLocaleDateString()}
+                              {new Date(vital.date_created).toLocaleDateString()}
                             </TableCell>
                             <TableCell>
-                              <div className='text-sm'>
+                              <div className="text-sm">
                                 <div>{getWeight(vital)}kg</div>
-                                <div className='text-muted-foreground'>
-                                  {getHeight(vital)}cm
-                                </div>
+                                <div className="text-muted-foreground">{getHeight(vital)}cm</div>
                               </div>
                             </TableCell>
                             <TableCell>
-                              <div className='space-y-1'>
-                                <div className='font-mono text-sm'>
-                                  {vital.bmi?.toFixed(1)}
-                                </div>
-                                <Badge
-                                  className={getBMIBadgeColor(
-                                    vital.bmi_status || vital.bmi_category
-                                  )}
-                                  variant='secondary'
-                                >
+                              <div className="space-y-1">
+                                <div className="font-mono text-sm">{vital.bmi?.toFixed(1)}</div>
+                                <Badge className={getBMIBadgeColor(vital.bmi_status || vital.bmi_category)} variant="secondary">
                                   {vital.bmi_status || vital.bmi_category}
                                 </Badge>
                               </div>
                             </TableCell>
                             <TableCell>
-                              <div className='space-y-1'>
-                                <div className='text-sm'>
+                              <div className="space-y-1">
+                                <div className="text-sm">
                                   {getSystolicBP(vital)}/{getDiastolicBP(vital)}
                                 </div>
-                                <Badge
-                                  className={getBPBadgeColor(
-                                    vital.blood_pressure_status ||
-                                      vital.bp_category ||
-                                      ''
-                                  )}
-                                  variant='secondary'
-                                >
-                                  {vital.blood_pressure_status ||
-                                    vital.bp_category}
+                                <Badge className={getBPBadgeColor(vital.blood_pressure_status || vital.bp_category || '')} variant="secondary">
+                                  {vital.blood_pressure_status || vital.bp_category}
                                 </Badge>
                               </div>
                             </TableCell>
                             <TableCell>
-                              <div className='text-sm'>
+                              <div className="text-sm">
                                 <div>{vital.pulse_rate} bpm</div>
                                 {vital.pulse_status ? (
-                                  <div className='text-muted-foreground'>
-                                    {vital.pulse_status}
-                                  </div>
+                                  <div className="text-muted-foreground">{vital.pulse_status}</div>
                                 ) : getPulseRhythm(vital) ? (
-                                  <div className='text-muted-foreground'>
-                                    {getPulseRhythm(vital)}
-                                  </div>
+                                  <div className="text-muted-foreground">{getPulseRhythm(vital)}</div>
                                 ) : null}
                               </div>
                             </TableCell>
@@ -1361,61 +904,52 @@ export default function VitalsPage() {
 
                 {/* Pagination */}
                 {pagination.totalPages > 1 && (
-                  <div className='flex items-center justify-between mt-4'>
-                    <div className='text-sm text-muted-foreground'>
-                      Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
-                      {Math.min(
-                        pagination.page * pagination.limit,
-                        pagination.total
-                      )}{' '}
-                      of {pagination.total} records
+                  <div className="flex items-center justify-between mt-4">
+                    <div className="text-sm text-muted-foreground">
+                      Showing {((pagination.page - 1) * pagination.limit) + 1} to{' '}
+                      {Math.min(pagination.page * pagination.limit, pagination.total)} of{' '}
+                      {pagination.total} records
                     </div>
-
-                    <div className='flex items-center gap-2'>
+                    
+                    <div className="flex items-center gap-2">
                       <Button
-                        variant='outline'
-                        size='sm'
+                        variant="outline"
+                        size="sm"
                         onClick={() => handlePageChange(1)}
                         disabled={!pagination.hasPreviousPage}
                       >
-                        <ChevronsLeft
-                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        />
+                        <ChevronsLeft className="h-4 w-4" />
                       </Button>
                       <Button
-                        variant='outline'
-                        size='sm'
+                        variant="outline"
+                        size="sm"
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
                       >
-                        <ChevronLeft
-                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        />
+                        <ChevronLeft className="h-4 w-4" />
                       </Button>
-
-                      <div className='flex items-center gap-1'>
-                        <span className='text-sm'>
+                      
+                      <div className="flex items-center gap-1">
+                        <span className="text-sm">
                           Page {pagination.page} of {pagination.totalPages}
                         </span>
                       </div>
-
+                      
                       <Button
-                        variant='outline'
-                        size='sm'
+                        variant="outline"
+                        size="sm"
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
                       >
-                        <ChevronRight className='h-4 w-4' />
+                        <ChevronRight className="h-4 w-4" />
                       </Button>
                       <Button
-                        variant='outline'
-                        size='sm'
+                        variant="outline"
+                        size="sm"
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={!pagination.hasNextPage}
                       >
-                        <ChevronsRight
-                          className={`${selectedVital && leftPanelWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        />
+                        <ChevronsRight className="h-4 w-4" />
                       </Button>
                     </div>
                   </div>
@@ -1426,527 +960,218 @@ export default function VitalsPage() {
 
           {/* Resize Handle */}
           {selectedVital && (
-            <div
-              className='w-1 bg-border hover:bg-primary/50 cursor-col-resize transition-colors duration-200 flex-shrink-0 relative group'
+            <div 
+              className="w-1 bg-border hover:bg-primary/50 cursor-col-resize transition-colors duration-200 flex-shrink-0 relative group"
               onMouseDown={handleMouseDown}
             >
-              <div className='absolute inset-y-0 -left-1 -right-1 hover:bg-primary/10 transition-colors duration-200'></div>
-              <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-8 bg-border group-hover:bg-primary/50 rounded-full transition-colors duration-200'></div>
+              <div className="absolute inset-y-0 -left-1 -right-1 hover:bg-primary/10 transition-colors duration-200"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-8 bg-border group-hover:bg-primary/50 rounded-full transition-colors duration-200"></div>
             </div>
           )}
 
           {/* Right Panel - Vital Preview */}
-          <div
+          <div 
             className={`${selectedVital ? 'animate-slide-up' : ''} overflow-hidden`}
-            style={{
-              width: selectedVital
-                ? `calc(${100 - leftPanelWidth}% - 4px)`
-                : '0%',
-              maxWidth: selectedVital
-                ? `calc(${100 - leftPanelWidth}% - 4px)`
-                : '0%',
+            style={{ 
+              width: selectedVital ? `calc(${100 - leftPanelWidth}% - 4px)` : '0%',
+              maxWidth: selectedVital ? `calc(${100 - leftPanelWidth}% - 4px)` : '0%',
               paddingLeft: selectedVital ? '12px' : '0',
               paddingRight: selectedVital ? '0px' : '0',
-              overflow: selectedVital ? 'visible' : 'hidden',
+              overflow: selectedVital ? 'visible' : 'hidden'
             }}
           >
             {selectedVital && (
-              <div className='space-y-4 max-h-[80vh] overflow-y-auto scrollbar-thin'>
+              <div className="space-y-4 max-h-[80vh] overflow-y-auto scrollbar-thin">
                 {/* Vital Header Card */}
-                <Card className='glass-effect'>
-                  <CardContent className='p-4 min-h-[120px] flex items-center'>
-                    <div className='flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-4'>
-                      <div className='space-y-2 flex-1'>
-                        <CardTitle className='text-2xl flex items-center gap-3'>
-                          <div className='p-2 bg-teal-100 rounded-lg'>
-                            <Heart className='h-6 w-6 text-teal-600' />
+                <Card className="glass-effect">
+                  <CardContent className="p-4 min-h-[120px] flex items-center">
+                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-4">
+                      <div className="space-y-2 flex-1">
+                        <CardTitle className="text-2xl flex items-center gap-3">
+                          <div className="p-2 bg-teal-100 rounded-lg">
+                            <Heart className="h-6 w-6 text-teal-600" />
                           </div>
-                          <span>
-                            {selectedVital.employee_name}{' '}
-                            {selectedVital.employee_surname}
-                          </span>
+                          <span>{selectedVital.employee_name} {selectedVital.employee_surname}</span>
                         </CardTitle>
-                        <CardDescription className='flex items-center gap-3 lg:ml-14'>
-                          <Badge
-                            variant='outline'
-                            className='font-mono text-xs font-medium'
-                          >
+                        <CardDescription className="flex items-center gap-3 lg:ml-14">
+                          <Badge variant="outline" className="font-mono text-xs font-medium">
                             ID: {selectedVital.id.slice(0, 12)}...
                           </Badge>
-                          <Badge variant='outline' className='font-medium'>
+                          <Badge variant="outline" className="font-medium">
                             {selectedVital.employee_number}
                           </Badge>
-                          <Badge variant='secondary' className='font-medium'>
-                            {new Date(
-                              selectedVital.date_created
-                            ).toLocaleDateString()}
+                          <Badge variant="secondary" className="font-medium">
+                            {new Date(selectedVital.date_created).toLocaleDateString()}
                           </Badge>
                         </CardDescription>
                       </div>
-                      <div className='flex items-center gap-2 flex-shrink-0'>
+                      <div className="flex items-center gap-2 flex-shrink-0">
                         <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsBasicVitalsEditOpen(true)}
-                          className='hover-lift'
-                          title='Edit basic vitals'
-                        >
-                          <Edit className='h-4 w-4' />
-                        </Button>
-                        <Button
-                          variant='ghost'
-                          size='sm'
+                          variant="ghost"
+                          size="sm"
                           onClick={() => openEditDialog(selectedVital)}
-                          className='hover-lift'
+                          className="hover-lift"
                         >
-                          <Edit className='h-4 w-4 mr-1' />
-                          Edit All
+                          <Edit className="h-4 w-4 mr-1" />
+                          Edit
                         </Button>
                         <Button
-                          variant='ghost'
-                          size='sm'
+                          variant="ghost"
+                          size="sm"
                           onClick={() => handleDeleteVital(selectedVital.id)}
-                          className='hover-lift text-red-600 hover:text-red-700'
+                          className="hover-lift text-red-600 hover:text-red-700"
                         >
-                          <Trash2 className='h-4 w-4 mr-1' />
+                          <Trash2 className="h-4 w-4 mr-1" />
                           Delete
                         </Button>
                         <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => {
-                            setSelectedVital(null);
-                            // Remove employeeId from URL when closing vital record
-                            updateURL();
-                          }}
-                          className='hover-lift'
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setSelectedVital(null)}
+                          className="hover-lift"
                         >
-                          <X className='h-4 w-4' />
+                          <X className="h-4 w-4" />
                         </Button>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
 
-                {/* Success Message */}
-                {successMessage && (
-                  <div className='p-4'>
-                    <div className='p-3 bg-green-50 border border-green-200 rounded-lg'>
-                      <div className='flex items-center gap-2 text-green-700'>
-                        <CheckCircle className='h-4 w-4' />
-                        <span className='text-sm font-medium'>
-                          {successMessage}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
                 {/* Vital Details Card */}
-                <Card className='hover-lift max-h-screen overflow-y-auto scrollbar-thin'>
-                  <CardContent className='p-6'>
-                    <div className='space-y-6'>
+                <Card className="hover-lift max-h-screen overflow-y-auto scrollbar-thin">
+                  <CardContent className="p-6">
+                    <div className="space-y-6">
                       {/* Physical Measurements */}
-                      <Card className='border-primary/20'>
-                        <CardHeader className='pb-3'>
-                          <div className='flex justify-between items-center'>
-                            <CardTitle className='text-lg flex items-center gap-2'>
-                              <TrendingUp className='h-5 w-5' />
-                              Physical Measurements
-                            </CardTitle>
-                            {!isBasicVitalsEditOpen ? (
-                              <Button
-                                variant='ghost'
-                                size='sm'
-                                onClick={() => setIsBasicVitalsEditOpen(true)}
-                                className='hover-lift h-8 w-8 p-0'
-                                title='Edit physical measurements'
-                              >
-                                <Edit className='h-3 w-3' />
-                              </Button>
-                            ) : (
-                              <div className='flex gap-2'>
-                                <Button
-                                  variant='outline'
-                                  size='sm'
-                                  onClick={() =>
-                                    setIsBasicVitalsEditOpen(false)
-                                  }
-                                  className='hover-lift h-8'
-                                  disabled={formLoading}
-                                >
-                                  Cancel
-                                </Button>
-                                <Button
-                                  variant='default'
-                                  size='sm'
-                                  onClick={() =>
-                                    handleSectionSave('basic_vitals')
-                                  }
-                                  className='hover-lift h-8'
-                                  disabled={formLoading}
-                                >
-                                  {formLoading ? (
-                                    <Loader2 className='h-3 w-3 animate-spin' />
-                                  ) : (
-                                    'Save'
-                                  )}
-                                </Button>
-                              </div>
-                            )}
-                          </div>
+                      <Card className="border-primary/20">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2">
+                            <TrendingUp className="h-5 w-5" />
+                            Physical Measurements
+                          </CardTitle>
                         </CardHeader>
-                        <CardContent>
-                          {!isBasicVitalsEditOpen ? (
-                            // Display current physical measurements
-                            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm'>
-                              <div>
-                                <div className='text-muted-foreground'>
-                                  Weight
-                                </div>
-                                <div className='font-semibold text-lg'>
-                                  {getWeight(selectedVital)} kg
-                                </div>
-                              </div>
-                              <div>
-                                <div className='text-muted-foreground'>
-                                  Height
-                                </div>
-                                <div className='font-semibold text-lg'>
-                                  {getHeight(selectedVital)} cm
-                                </div>
-                              </div>
-                              <div>
-                                <div className='text-muted-foreground'>BMI</div>
-                                <div className='font-semibold text-lg'>
-                                  {selectedVital.bmi?.toFixed(1)}
-                                </div>
-                                <Badge
-                                  className={getBMIBadgeColor(
-                                    selectedVital.bmi_status ||
-                                      selectedVital.bmi_category
-                                  )}
-                                  variant='secondary'
-                                >
-                                  {selectedVital.bmi_status ||
-                                    selectedVital.bmi_category}
-                                </Badge>
-                              </div>
-                              <div>
-                                <div className='text-muted-foreground'>
-                                  Waist Circumference
-                                </div>
-                                <div className='font-semibold text-lg'>
-                                  {getWaist(selectedVital)} cm
-                                </div>
-                              </div>
-                              {selectedVital.chest_measurement_inspiration && (
-                                <div>
-                                  <div className='text-muted-foreground'>
-                                    Chest (Inspiration)
-                                  </div>
-                                  <div className='font-semibold text-lg'>
-                                    {
-                                      selectedVital.chest_measurement_inspiration
-                                    }{' '}
-                                    cm
-                                  </div>
-                                </div>
-                              )}
-                              {selectedVital.chest_measurement_expiration && (
-                                <div>
-                                  <div className='text-muted-foreground'>
-                                    Chest (Expiration)
-                                  </div>
-                                  <div className='font-semibold text-lg'>
-                                    {selectedVital.chest_measurement_expiration}{' '}
-                                    cm
-                                  </div>
-                                </div>
-                              )}
-                              {selectedVital.whtr && (
-                                <div>
-                                  <div className='text-muted-foreground'>
-                                    Waist-to-Height Ratio
-                                  </div>
-                                  <div className='font-semibold text-lg'>
-                                    {selectedVital.whtr?.toFixed(3)}
-                                  </div>
-                                  {selectedVital.whtr_status && (
-                                    <div className='text-sm text-muted-foreground'>
-                                      {selectedVital.whtr_status}
-                                    </div>
-                                  )}
-                                </div>
-                              )}
-                              {selectedVital.waist_hip_ratio && (
-                                <div className='md:col-span-2'>
-                                  <div className='text-muted-foreground'>
-                                    Waist-Hip Ratio
-                                  </div>
-                                  <div className='font-semibold text-lg'>
-                                    {selectedVital.waist_hip_ratio?.toFixed(4)}
-                                  </div>
-                                  <div className='text-sm text-muted-foreground'>
-                                    {selectedVital.waist_hip_interpretation}
-                                  </div>
-                                </div>
+                        <CardContent className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                          <div>
+                            <div className="text-muted-foreground">Weight</div>
+                            <div className="font-semibold text-lg">{getWeight(selectedVital)} kg</div>
+                          </div>
+                          <div>
+                            <div className="text-muted-foreground">Height</div>
+                            <div className="font-semibold text-lg">{getHeight(selectedVital)} cm</div>
+                          </div>
+                          <div>
+                            <div className="text-muted-foreground">BMI</div>
+                            <div className="font-semibold text-lg">{selectedVital.bmi?.toFixed(1)}</div>
+                            <Badge className={getBMIBadgeColor(selectedVital.bmi_status || selectedVital.bmi_category)} variant="secondary">
+                              {selectedVital.bmi_status || selectedVital.bmi_category}
+                            </Badge>
+                          </div>
+                          <div>
+                            <div className="text-muted-foreground">Waist Circumference</div>
+                            <div className="font-semibold text-lg">{getWaist(selectedVital)} cm</div>
+                          </div>
+                          {selectedVital.chest_measurement_inspiration && (
+                            <div>
+                              <div className="text-muted-foreground">Chest (Inspiration)</div>
+                              <div className="font-semibold text-lg">{selectedVital.chest_measurement_inspiration} cm</div>
+                            </div>
+                          )}
+                          {selectedVital.chest_measurement_expiration && (
+                            <div>
+                              <div className="text-muted-foreground">Chest (Expiration)</div>
+                              <div className="font-semibold text-lg">{selectedVital.chest_measurement_expiration} cm</div>
+                            </div>
+                          )}
+                          {selectedVital.whtr && (
+                            <div>
+                              <div className="text-muted-foreground">Waist-to-Height Ratio</div>
+                              <div className="font-semibold text-lg">{selectedVital.whtr?.toFixed(3)}</div>
+                              {selectedVital.whtr_status && (
+                                <div className="text-sm text-muted-foreground">{selectedVital.whtr_status}</div>
                               )}
                             </div>
-                          ) : (
-                            // Show input fields for editing
-                            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm'>
-                              <div className='space-y-2'>
-                                <Label
-                                  htmlFor='weight_kg'
-                                  className='text-xs text-muted-foreground'
-                                >
-                                  Weight (kg)
-                                </Label>
-                                <Input
-                                  id='weight_kg'
-                                  type='number'
-                                  step='0.1'
-                                  value={
-                                    editFormData.weight_kg !== undefined
-                                      ? editFormData.weight_kg
-                                      : selectedVital.weight_kg || ''
-                                  }
-                                  onChange={e =>
-                                    setEditFormData({
-                                      ...editFormData,
-                                      weight_kg:
-                                        parseFloat(e.target.value) || 0,
-                                    })
-                                  }
-                                  className='h-8 text-sm'
-                                  placeholder='Enter weight'
-                                />
-                              </div>
-                              <div className='space-y-2'>
-                                <Label
-                                  htmlFor='height_cm'
-                                  className='text-xs text-muted-foreground'
-                                >
-                                  Height (cm)
-                                </Label>
-                                <Input
-                                  id='height_cm'
-                                  type='number'
-                                  step='0.1'
-                                  value={
-                                    editFormData.height_cm !== undefined
-                                      ? editFormData.height_cm
-                                      : selectedVital.height_cm || ''
-                                  }
-                                  onChange={e =>
-                                    setEditFormData({
-                                      ...editFormData,
-                                      height_cm:
-                                        parseFloat(e.target.value) || 0,
-                                    })
-                                  }
-                                  className='h-8 text-sm'
-                                  placeholder='Enter height'
-                                />
-                              </div>
-                              <div className='space-y-2'>
-                                <Label
-                                  htmlFor='bmi'
-                                  className='text-xs text-muted-foreground'
-                                >
-                                  BMI
-                                </Label>
-                                <Input
-                                  id='bmi'
-                                  type='number'
-                                  step='0.1'
-                                  value={
-                                    editFormData.bmi !== undefined
-                                      ? editFormData.bmi
-                                      : selectedVital.bmi || ''
-                                  }
-                                  onChange={e =>
-                                    setEditFormData({
-                                      ...editFormData,
-                                      bmi: parseFloat(e.target.value) || 0,
-                                    })
-                                  }
-                                  className='h-8 text-sm'
-                                  placeholder='Enter BMI'
-                                />
-                              </div>
-                              <div className='space-y-2'>
-                                <Label
-                                  htmlFor='bmi_category'
-                                  className='text-xs text-muted-foreground'
-                                >
-                                  BMI Category
-                                </Label>
-                                <Select
-                                  value={
-                                    editFormData.bmi_category !== undefined
-                                      ? editFormData.bmi_category
-                                      : selectedVital.bmi_category || ''
-                                  }
-                                  onValueChange={value =>
-                                    setEditFormData({
-                                      ...editFormData,
-                                      bmi_category: value,
-                                    })
-                                  }
-                                >
-                                  <SelectTrigger className='h-8 text-sm'>
-                                    <SelectValue placeholder='Select category' />
-                                  </SelectTrigger>
-                                  <SelectContent>
-                                    <SelectItem value='Underweight'>
-                                      Underweight
-                                    </SelectItem>
-                                    <SelectItem value='Normal'>
-                                      Normal
-                                    </SelectItem>
-                                    <SelectItem value='Overweight'>
-                                      Overweight
-                                    </SelectItem>
-                                    <SelectItem value='Obese'>Obese</SelectItem>
-                                    <SelectItem value='Severely Obese'>
-                                      Severely Obese
-                                    </SelectItem>
-                                  </SelectContent>
-                                </Select>
-                              </div>
+                          )}
+                          {selectedVital.waist_hip_ratio && (
+                            <div className="md:col-span-2">
+                              <div className="text-muted-foreground">Waist-Hip Ratio</div>
+                              <div className="font-semibold text-lg">{selectedVital.waist_hip_ratio?.toFixed(4)}</div>
+                              <div className="text-sm text-muted-foreground">{selectedVital.waist_hip_interpretation}</div>
                             </div>
                           )}
                         </CardContent>
                       </Card>
 
                       {/* Vital Signs */}
-                      <Card className='border-blue-200'>
-                        <CardHeader className='pb-3'>
-                          <CardTitle className='text-lg flex items-center gap-2'>
-                            <Activity className='h-5 w-5' />
+                      <Card className="border-blue-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2">
+                            <Activity className="h-5 w-5" />
                             Vital Signs
                           </CardTitle>
                         </CardHeader>
-                        <CardContent className='grid grid-cols-2 md:grid-cols-3 gap-4 text-sm'>
+                        <CardContent className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
                           <div>
-                            <div className='text-muted-foreground'>
-                              Pulse Rate
-                            </div>
-                            <div className='font-semibold text-lg'>
-                              {selectedVital.pulse_rate} bpm
-                            </div>
+                            <div className="text-muted-foreground">Pulse Rate</div>
+                            <div className="font-semibold text-lg">{selectedVital.pulse_rate} bpm</div>
                             {selectedVital.pulse_status && (
-                              <div className='text-sm text-muted-foreground'>
-                                Status: {selectedVital.pulse_status}
-                              </div>
+                              <div className="text-sm text-muted-foreground">Status: {selectedVital.pulse_status}</div>
                             )}
                             {getPulseRhythm(selectedVital) && (
-                              <div className='text-sm text-muted-foreground'>
-                                Rhythm: {getPulseRhythm(selectedVital)}
-                              </div>
+                              <div className="text-sm text-muted-foreground">Rhythm: {getPulseRhythm(selectedVital)}</div>
                             )}
                             {selectedVital.pulse_character && (
-                              <div className='text-sm text-muted-foreground'>
-                                Character: {selectedVital.pulse_character}
-                              </div>
+                              <div className="text-sm text-muted-foreground">Character: {selectedVital.pulse_character}</div>
                             )}
                           </div>
                           <div>
-                            <div className='text-muted-foreground'>
-                              Blood Pressure
+                            <div className="text-muted-foreground">Blood Pressure</div>
+                            <div className="font-semibold text-lg">
+                              {getSystolicBP(selectedVital)}/{getDiastolicBP(selectedVital)} mmHg
                             </div>
-                            <div className='font-semibold text-lg'>
-                              {getSystolicBP(selectedVital)}/
-                              {getDiastolicBP(selectedVital)} mmHg
-                            </div>
-                            <Badge
-                              className={getBPBadgeColor(
-                                selectedVital.blood_pressure_status ||
-                                  selectedVital.bp_category ||
-                                  ''
-                              )}
-                              variant='secondary'
-                            >
-                              {selectedVital.blood_pressure_status ||
-                                selectedVital.bp_category}
+                            <Badge className={getBPBadgeColor(selectedVital.blood_pressure_status || selectedVital.bp_category || '')} variant="secondary">
+                              {selectedVital.blood_pressure_status || selectedVital.bp_category}
                             </Badge>
-                            {getSystolicWarning(selectedVital) &&
-                              typeof getSystolicWarning(selectedVital) ===
-                                'string' && (
-                                <div className='text-xs text-amber-600 mt-1'>
-                                  ⚠ Systolic:{' '}
-                                  {getSystolicWarning(selectedVital)}
-                                </div>
-                              )}
-                            {getDiastolicWarning(selectedVital) &&
-                              typeof getDiastolicWarning(selectedVital) ===
-                                'string' && (
-                                <div className='text-xs text-amber-600 mt-1'>
-                                  ⚠ Diastolic:{' '}
-                                  {getDiastolicWarning(selectedVital)}
-                                </div>
-                              )}
-                            {(selectedVital.bp_systolic_high ||
-                              selectedVital.bp_diastolic_high) &&
-                              !(
-                                typeof selectedVital.systolic_warning ===
-                                'string'
-                              ) &&
-                              !(
-                                typeof selectedVital.diastolic_warning ===
-                                'string'
-                              ) && (
-                                <div className='text-xs text-red-600 mt-1'>
-                                  ⚠ High reading detected
-                                </div>
-                              )}
+                            {getSystolicWarning(selectedVital) && typeof getSystolicWarning(selectedVital) === 'string' && (
+                              <div className="text-xs text-amber-600 mt-1">⚠ Systolic: {getSystolicWarning(selectedVital)}</div>
+                            )}
+                            {getDiastolicWarning(selectedVital) && typeof getDiastolicWarning(selectedVital) === 'string' && (
+                              <div className="text-xs text-amber-600 mt-1">⚠ Diastolic: {getDiastolicWarning(selectedVital)}</div>
+                            )}
+                            {(selectedVital.bp_systolic_high || selectedVital.bp_diastolic_high) && 
+                             !(typeof selectedVital.systolic_warning === 'string') && 
+                             !(typeof selectedVital.diastolic_warning === 'string') && (
+                              <div className="text-xs text-red-600 mt-1">⚠ High reading detected</div>
+                            )}
                           </div>
                           <div>
-                            <div className='text-muted-foreground'>
-                              Glucose Level
-                            </div>
-                            <div className='font-semibold text-lg'>
-                              {selectedVital.glucose_level} mmol/L
-                            </div>
+                            <div className="text-muted-foreground">Glucose Level</div>
+                            <div className="font-semibold text-lg">{selectedVital.glucose_level} mmol/L</div>
                             {selectedVital.glucose_status && (
-                              <Badge className='mt-1' variant='secondary'>
+                              <Badge className="mt-1" variant="secondary">
                                 {selectedVital.glucose_status}
                               </Badge>
                             )}
-                            <div className='text-sm text-muted-foreground'>
-                              {selectedVital.glucose_state}
-                            </div>
-                            <div className='text-sm text-muted-foreground'>
-                              {selectedVital.glucose_category}
-                            </div>
+                            <div className="text-sm text-muted-foreground">{selectedVital.glucose_state}</div>
+                            <div className="text-sm text-muted-foreground">{selectedVital.glucose_category}</div>
                           </div>
                         </CardContent>
                       </Card>
 
                       {/* Laboratory Tests */}
                       {selectedVital.urinalysis_done && (
-                        <Card className='border-green-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2'>
-                              <FileText className='h-5 w-5' />
+                        <Card className="border-green-200">
+                          <CardHeader className="pb-3">
+                            <CardTitle className="text-lg flex items-center gap-2">
+                              <FileText className="h-5 w-5" />
                               Laboratory Tests
                             </CardTitle>
                           </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
+                          <CardContent className="space-y-3 text-sm">
                             <div>
-                              <div className='text-muted-foreground'>
-                                Urinalysis
-                              </div>
-                              <div className='font-semibold'>
-                                {selectedVital.urinalysis_done}
-                              </div>
-                              <div className='text-sm text-muted-foreground'>
-                                {selectedVital.urinalysis_result}
-                              </div>
+                              <div className="text-muted-foreground">Urinalysis</div>
+                              <div className="font-semibold">{selectedVital.urinalysis_done}</div>
+                              <div className="text-sm text-muted-foreground">{selectedVital.urinalysis_result}</div>
                               {selectedVital.urinalysis_findings && (
-                                <div className='text-sm text-muted-foreground mt-1'>
+                                <div className="text-sm text-muted-foreground mt-1">
                                   Findings: {selectedVital.urinalysis_findings}
                                 </div>
                               )}
@@ -1956,79 +1181,51 @@ export default function VitalsPage() {
                       )}
 
                       {/* Notes - DEBUG: Always show to check data */}
-                      <Card className='border-yellow-200'>
-                        <CardHeader className='pb-3'>
-                          <CardTitle className='text-lg flex items-center gap-2'>
-                            <FileText className='h-5 w-5' />
+                      <Card className="border-yellow-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2">
+                            <FileText className="h-5 w-5" />
                             Notes
                           </CardTitle>
                         </CardHeader>
-                        <CardContent className='space-y-3'>
+                        <CardContent className="space-y-3">
                           <div>
-                            <h4 className='font-medium text-sm text-muted-foreground mb-1'>
-                              Clinical Notes
-                            </h4>
+                            <h4 className="font-medium text-sm text-muted-foreground mb-1">Clinical Notes</h4>
                             {selectedVital.notes_text ? (
-                              <p className='text-sm whitespace-pre-wrap'>
-                                {selectedVital.notes_text}
-                              </p>
+                              <p className="text-sm whitespace-pre-wrap">{selectedVital.notes_text}</p>
                             ) : (
-                              <p className='text-sm text-muted-foreground italic'>
-                                No clinical notes (notes_text:{' '}
-                                {String(selectedVital.notes_text)})
-                              </p>
+                              <p className="text-sm text-muted-foreground italic">No clinical notes (notes_text: {String(selectedVital.notes_text)})</p>
                             )}
                           </div>
                           <div>
-                            <h4 className='font-medium text-sm text-muted-foreground mb-1'>
-                              Additional Notes
-                            </h4>
+                            <h4 className="font-medium text-sm text-muted-foreground mb-1">Additional Notes</h4>
                             {selectedVital.additional_notes ? (
-                              <p className='text-sm whitespace-pre-wrap'>
-                                {selectedVital.additional_notes}
-                              </p>
+                              <p className="text-sm whitespace-pre-wrap">{selectedVital.additional_notes}</p>
                             ) : (
-                              <p className='text-sm text-muted-foreground italic'>
-                                No additional notes (additional_notes:{' '}
-                                {String(selectedVital.additional_notes)})
-                              </p>
+                              <p className="text-sm text-muted-foreground italic">No additional notes (additional_notes: {String(selectedVital.additional_notes)})</p>
                             )}
                           </div>
                         </CardContent>
                       </Card>
 
                       {/* Record Information */}
-                      <Card className='border-gray-200'>
-                        <CardHeader className='pb-3'>
-                          <CardTitle className='text-lg flex items-center gap-2'>
-                            <Users className='h-5 w-5' />
+                      <Card className="border-gray-200">
+                        <CardHeader className="pb-3">
+                          <CardTitle className="text-lg flex items-center gap-2">
+                            <Users className="h-5 w-5" />
                             Record Information
                           </CardTitle>
                         </CardHeader>
-                        <CardContent className='grid grid-cols-2 gap-4 text-sm'>
+                        <CardContent className="grid grid-cols-2 gap-4 text-sm">
                           <div>
-                            <div className='text-muted-foreground'>Created</div>
-                            <div className='font-semibold'>
-                              {new Date(
-                                selectedVital.date_created
-                              ).toLocaleString()}
-                            </div>
-                            <div className='text-sm text-muted-foreground'>
-                              {selectedVital.created_by_name}
-                            </div>
+                            <div className="text-muted-foreground">Created</div>
+                            <div className="font-semibold">{new Date(selectedVital.date_created).toLocaleString()}</div>
+                            <div className="text-sm text-muted-foreground">{selectedVital.created_by_name}</div>
                           </div>
                           <div>
-                            <div className='text-muted-foreground'>
-                              Last Updated
-                            </div>
-                            <div className='font-semibold'>
-                              {new Date(
-                                selectedVital.date_updated
-                              ).toLocaleString()}
-                            </div>
-                            <div className='text-sm text-muted-foreground'>
-                              {selectedVital.updated_by_name}
-                            </div>
+                            <div className="text-muted-foreground">Last Updated</div>
+                            <div className="font-semibold">{new Date(selectedVital.date_updated).toLocaleString()}</div>
+                            <div className="text-sm text-muted-foreground">{selectedVital.updated_by_name}</div>
                           </div>
                         </CardContent>
                       </Card>
@@ -2042,385 +1239,284 @@ export default function VitalsPage() {
 
         {/* Edit Dialog */}
         <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
-          <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
+          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
             <DialogHeader>
               <DialogTitle>Edit Vital Record</DialogTitle>
               <DialogDescription>
                 Update the vital signs and clinical measurements.
               </DialogDescription>
             </DialogHeader>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-              <div className='space-y-2'>
-                <Label htmlFor='edit_weight_kg'>Weight (kg)</Label>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <Label htmlFor="edit_weight_kg">Weight (kg)</Label>
                 <Input
-                  id='edit_weight_kg'
-                  type='number'
-                  step='0.1'
+                  id="edit_weight_kg"
+                  type="number"
+                  step="0.1"
                   value={formData.weight_kg || formData.weight || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      weight_kg: parseFloat(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, weight_kg: parseFloat(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_height_cm'>Height (cm)</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_height_cm">Height (cm)</Label>
                 <Input
-                  id='edit_height_cm'
-                  type='number'
+                  id="edit_height_cm"
+                  type="number"
                   value={formData.height_cm || formData.height || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      height_cm: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, height_cm: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_bmi_status'>BMI Status</Label>
-                <Select
-                  value={formData.bmi_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, bmi_status: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_bmi_status">BMI Status</Label>
+                <Select 
+                  value={formData.bmi_status || ''} 
+                  onValueChange={(value) => setFormData({...formData, bmi_status: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select BMI status' />
+                    <SelectValue placeholder="Select BMI status" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Underweight'>Underweight</SelectItem>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Overweight'>Overweight</SelectItem>
-                    <SelectItem value='Class I Obesity'>
-                      Class I Obesity
-                    </SelectItem>
-                    <SelectItem value='Class II Obesity'>
-                      Class II Obesity
-                    </SelectItem>
-                    <SelectItem value='Class III Obesity'>
-                      Class III Obesity
-                    </SelectItem>
+                    <SelectItem value="Underweight">Underweight</SelectItem>
+                    <SelectItem value="Normal">Normal</SelectItem>
+                    <SelectItem value="Overweight">Overweight</SelectItem>
+                    <SelectItem value="Class I Obesity">Class I Obesity</SelectItem>
+                    <SelectItem value="Class II Obesity">Class II Obesity</SelectItem>
+                    <SelectItem value="Class III Obesity">Class III Obesity</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_waist'>Waist Circumference (cm)</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_waist">Waist Circumference (cm)</Label>
                 <Input
-                  id='edit_waist'
-                  type='number'
+                  id="edit_waist"
+                  type="number"
                   value={formData.waist || formData.waist_circumference || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      waist: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, waist: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_chest_measurement_inspiration'>
-                  Chest Inspiration (cm)
-                </Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_chest_measurement_inspiration">Chest Inspiration (cm)</Label>
                 <Input
-                  id='edit_chest_measurement_inspiration'
-                  type='number'
+                  id="edit_chest_measurement_inspiration"
+                  type="number"
                   value={formData.chest_measurement_inspiration || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      chest_measurement_inspiration: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, chest_measurement_inspiration: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_chest_measurement_expiration'>
-                  Chest Expiration (cm)
-                </Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_chest_measurement_expiration">Chest Expiration (cm)</Label>
                 <Input
-                  id='edit_chest_measurement_expiration'
-                  type='number'
+                  id="edit_chest_measurement_expiration"
+                  type="number"
                   value={formData.chest_measurement_expiration || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      chest_measurement_expiration: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, chest_measurement_expiration: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_whtr'>Waist-to-Height Ratio</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_whtr">Waist-to-Height Ratio</Label>
                 <Input
-                  id='edit_whtr'
-                  type='number'
-                  step='0.001'
+                  id="edit_whtr"
+                  type="number"
+                  step="0.001"
                   value={formData.whtr || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      whtr: parseFloat(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, whtr: parseFloat(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_whtr_status'>WHTR Status</Label>
-                <Select
-                  value={formData.whtr_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, whtr_status: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_whtr_status">WHTR Status</Label>
+                <Select 
+                  value={formData.whtr_status || ''} 
+                  onValueChange={(value) => setFormData({...formData, whtr_status: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select WHTR status' />
+                    <SelectValue placeholder="Select WHTR status" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Low Risk'>Low Risk</SelectItem>
-                    <SelectItem value='Moderate Risk'>Moderate Risk</SelectItem>
-                    <SelectItem value='High Risk'>High Risk</SelectItem>
-                    <SelectItem value='Very High Risk'>
-                      Very High Risk
-                    </SelectItem>
+                    <SelectItem value="Low Risk">Low Risk</SelectItem>
+                    <SelectItem value="Moderate Risk">Moderate Risk</SelectItem>
+                    <SelectItem value="High Risk">High Risk</SelectItem>
+                    <SelectItem value="Very High Risk">Very High Risk</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_pulse_rate'>Pulse Rate (bpm)</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_pulse_rate">Pulse Rate (bpm)</Label>
                 <Input
-                  id='edit_pulse_rate'
-                  type='number'
+                  id="edit_pulse_rate"
+                  type="number"
                   value={formData.pulse_rate || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      pulse_rate: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, pulse_rate: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_pulse_status'>Pulse Status</Label>
-                <Select
-                  value={formData.pulse_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, pulse_status: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_pulse_status">Pulse Status</Label>
+                <Select 
+                  value={formData.pulse_status || ''} 
+                  onValueChange={(value) => setFormData({...formData, pulse_status: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select pulse status' />
+                    <SelectValue placeholder="Select pulse status" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Bradycardia'>Bradycardia</SelectItem>
-                    <SelectItem value='Tachycardia'>Tachycardia</SelectItem>
-                    <SelectItem value='Irregular'>Irregular</SelectItem>
-                    <SelectItem value='Weak'>Weak</SelectItem>
-                    <SelectItem value='Strong'>Strong</SelectItem>
+                    <SelectItem value="Normal">Normal</SelectItem>
+                    <SelectItem value="Bradycardia">Bradycardia</SelectItem>
+                    <SelectItem value="Tachycardia">Tachycardia</SelectItem>
+                    <SelectItem value="Irregular">Irregular</SelectItem>
+                    <SelectItem value="Weak">Weak</SelectItem>
+                    <SelectItem value="Strong">Strong</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_pulse_rythm'>Pulse Rhythm</Label>
-                <Select
-                  value={formData.pulse_rythm || formData.pulse_rhythm || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, pulse_rythm: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_pulse_rythm">Pulse Rhythm</Label>
+                <Select 
+                  value={formData.pulse_rythm || formData.pulse_rhythm || ''} 
+                  onValueChange={(value) => setFormData({...formData, pulse_rythm: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select pulse rhythm' />
+                    <SelectValue placeholder="Select pulse rhythm" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Regular'>Regular</SelectItem>
-                    <SelectItem value='Irregular'>Irregular</SelectItem>
-                    <SelectItem value='Regularly Irregular'>
-                      Regularly Irregular
-                    </SelectItem>
-                    <SelectItem value='Irregularly Irregular'>
-                      Irregularly Irregular
-                    </SelectItem>
+                    <SelectItem value="Regular">Regular</SelectItem>
+                    <SelectItem value="Irregular">Irregular</SelectItem>
+                    <SelectItem value="Regularly Irregular">Regularly Irregular</SelectItem>
+                    <SelectItem value="Irregularly Irregular">Irregularly Irregular</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_systolic_bp'>Systolic BP</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_systolic_bp">Systolic BP</Label>
                 <Input
-                  id='edit_systolic_bp'
-                  type='number'
+                  id="edit_systolic_bp"
+                  type="number"
                   value={formData.systolic_bp || formData.bp_systolic || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      systolic_bp: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, systolic_bp: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_diastolic_bp'>Diastolic BP</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_diastolic_bp">Diastolic BP</Label>
                 <Input
-                  id='edit_diastolic_bp'
-                  type='number'
+                  id="edit_diastolic_bp"
+                  type="number"
                   value={formData.diastolic_bp || formData.bp_diastolic || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      diastolic_bp: parseInt(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, diastolic_bp: parseInt(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_blood_pressure_status'>BP Status</Label>
-                <Select
-                  value={formData.blood_pressure_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, blood_pressure_status: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_blood_pressure_status">BP Status</Label>
+                <Select 
+                  value={formData.blood_pressure_status || ''} 
+                  onValueChange={(value) => setFormData({...formData, blood_pressure_status: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select BP status' />
+                    <SelectValue placeholder="Select BP status" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Elevated'>Elevated</SelectItem>
+                    <SelectItem value="Normal">Normal</SelectItem>
+                    <SelectItem value="High">High</SelectItem>
+                    <SelectItem value="Low">Low</SelectItem>
+                    <SelectItem value="Elevated">Elevated</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_systolic_warning'>Systolic Warning</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_systolic_warning">Systolic Warning</Label>
                 <Input
-                  id='edit_systolic_warning'
-                  type='text'
+                  id="edit_systolic_warning"
+                  type="text"
                   value={formData.systolic_warning || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      systolic_warning: e.target.value,
-                    })
-                  }
-                  placeholder='Enter systolic warning message'
+                  onChange={(e) => setFormData({...formData, systolic_warning: e.target.value})}
+                  placeholder="Enter systolic warning message"
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_diastolic_warning'>
-                  Diastolic Warning
-                </Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_diastolic_warning">Diastolic Warning</Label>
                 <Input
-                  id='edit_diastolic_warning'
-                  type='text'
+                  id="edit_diastolic_warning"
+                  type="text"
                   value={formData.diastolic_warning || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      diastolic_warning: e.target.value,
-                    })
-                  }
-                  placeholder='Enter diastolic warning message'
+                  onChange={(e) => setFormData({...formData, diastolic_warning: e.target.value})}
+                  placeholder="Enter diastolic warning message"
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_glucose_level'>Glucose Level</Label>
+              <div className="space-y-2">
+                <Label htmlFor="edit_glucose_level">Glucose Level</Label>
                 <Input
-                  id='edit_glucose_level'
-                  type='number'
-                  step='0.1'
+                  id="edit_glucose_level"
+                  type="number"
+                  step="0.1"
                   value={formData.glucose_level || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      glucose_level: parseFloat(e.target.value),
-                    })
-                  }
+                  onChange={(e) => setFormData({...formData, glucose_level: parseFloat(e.target.value)})}
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='edit_glucose_status'>Glucose Status</Label>
-                <Select
-                  value={formData.glucose_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, glucose_status: value })
-                  }
+              <div className="space-y-2">
+                <Label htmlFor="edit_glucose_status">Glucose Status</Label>
+                <Select 
+                  value={formData.glucose_status || ''} 
+                  onValueChange={(value) => setFormData({...formData, glucose_status: value})}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select glucose status' />
+                    <SelectValue placeholder="Select glucose status" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Pre-diabetic'>Pre-diabetic</SelectItem>
-                    <SelectItem value='Diabetic'>Diabetic</SelectItem>
+                    <SelectItem value="Normal">Normal</SelectItem>
+                    <SelectItem value="High">High</SelectItem>
+                    <SelectItem value="Low">Low</SelectItem>
+                    <SelectItem value="Pre-diabetic">Pre-diabetic</SelectItem>
+                    <SelectItem value="Diabetic">Diabetic</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='md:col-span-2 space-y-2'>
-                <Label htmlFor='edit_notes_text'>Clinical Notes</Label>
+              <div className="md:col-span-2 space-y-2">
+                <Label htmlFor="edit_notes_text">Clinical Notes</Label>
                 <Textarea
-                  id='edit_notes_text'
+                  id="edit_notes_text"
                   value={formData.notes_text || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, notes_text: e.target.value })
-                  }
-                  placeholder='Enter clinical notes and observations'
-                  className='min-h-[80px]'
+                  onChange={(e) => setFormData({...formData, notes_text: e.target.value})}
+                  placeholder="Enter clinical notes and observations"
+                  className="min-h-[80px]"
                 />
               </div>
 
-              <div className='md:col-span-2 space-y-2'>
-                <Label htmlFor='edit_additional_notes'>Additional Notes</Label>
+              <div className="md:col-span-2 space-y-2">
+                <Label htmlFor="edit_additional_notes">Additional Notes</Label>
                 <Textarea
-                  id='edit_additional_notes'
+                  id="edit_additional_notes"
                   value={formData.additional_notes || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      additional_notes: e.target.value,
-                    })
-                  }
-                  placeholder='Enter any additional notes or observations'
-                  className='min-h-[80px]'
+                  onChange={(e) => setFormData({...formData, additional_notes: e.target.value})}
+                  placeholder="Enter any additional notes or observations"
+                  className="min-h-[80px]"
                 />
               </div>
             </div>
 
-            <div className='flex justify-end gap-2'>
-              <Button
-                variant='outline'
-                onClick={() => setIsEditDialogOpen(false)}
-                disabled={submitting}
-              >
+            <div className="flex justify-end gap-2">
+              <Button variant="outline" onClick={() => setIsEditDialogOpen(false)} disabled={submitting}>
                 Cancel
               </Button>
               <Button onClick={handleEditVital} disabled={submitting}>
                 {submitting ? (
                   <>
-                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
                     Updating...
                   </>
                 ) : (

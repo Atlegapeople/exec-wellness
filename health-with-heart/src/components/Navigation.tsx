@@ -14,11 +14,11 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { 
-  Users, 
-  FileText, 
-  TrendingUp, 
-  Calendar, 
+import {
+  Users,
+  FileText,
+  TrendingUp,
+  Calendar,
   Settings,
   Bell,
   Search,
@@ -30,7 +30,7 @@ import {
   HelpCircle,
   ChevronDown,
   Menu,
-  X
+  X,
 } from 'lucide-react';
 
 const navigation = [
@@ -38,32 +38,32 @@ const navigation = [
     name: 'Dashboard',
     href: '/',
     icon: Home,
-    description: 'Overview and statistics'
+    description: 'Overview and statistics',
   },
   {
     name: 'Employees',
     href: '/employees',
     icon: Users,
-    description: 'Employee management'
+    description: 'Employee management',
   },
   {
     name: 'Reports',
     href: '/reports',
     icon: FileText,
-    description: 'Medical reports'
+    description: 'Medical reports',
   },
   {
     name: 'Analytics',
     href: '/analytics',
     icon: BarChart3,
-    description: 'Data insights'
+    description: 'Data insights',
   },
   {
     name: 'Appointments',
     href: '/appointments',
     icon: Calendar,
-    description: 'Schedule management'
-  }
+    description: 'Schedule management',
+  },
 ];
 
 const quickActions = [
@@ -71,20 +71,20 @@ const quickActions = [
     name: 'New Report',
     href: '/reports/new',
     icon: FileText,
-    description: 'Create medical report'
+    description: 'Create medical report',
   },
   {
     name: 'Schedule Appointment',
     href: '/appointments/new',
     icon: Calendar,
-    description: 'Book appointment'
+    description: 'Book appointment',
   },
   {
     name: 'Add Employee',
     href: '/employees/new',
     icon: Users,
-    description: 'Register employee'
-  }
+    description: 'Register employee',
+  },
 ];
 
 export default function Navigation() {
@@ -94,7 +94,7 @@ export default function Navigation() {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
   });
 
   const isActive = (href: string) => {
@@ -105,58 +105,62 @@ export default function Navigation() {
   };
 
   return (
-    <header className="glass-effect sticky top-0 z-50 border-b animate-fade-in pt-2">
-      <div className="pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw]">
-        <div className="flex justify-between items-center h-16">
+    <header className='glass-effect sticky top-0 z-50 border-b animate-fade-in pt-2'>
+      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw]'>
+        <div className='flex justify-between items-center h-16'>
           {/* Desktop Navigation */}
-          <div className="flex items-center gap-4">
-            <div className="hidden lg:flex items-center">
-              <div className="flex items-center gap-1">
-                {navigation.map((item) => {
+          <div className='flex items-center gap-4'>
+            <div className='hidden lg:flex items-center'>
+              <div className='flex items-center gap-1'>
+                {navigation.map(item => {
                   const Icon = item.icon;
                   return (
                     <Button
                       key={item.name}
-                      variant={isActive(item.href) ? "default" : "ghost"}
-                      size="sm"
-                      className="hover-lift"
+                      variant={isActive(item.href) ? 'default' : 'ghost'}
+                      size='sm'
+                      className='hover-lift'
                       asChild
                     >
-                      <a href={item.href} className="flex items-center gap-2">
-                        <Icon className="h-4 w-4" />
+                      <a href={item.href} className='flex items-center gap-2'>
+                        <Icon className='h-4 w-4' />
                         {item.name}
                       </a>
                     </Button>
                   );
                 })}
-                
+
                 {/* Quick Actions Dropdown */}
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" size="sm" className="hover-lift">
-                      <Activity className="h-4 w-4 mr-2" />
+                    <Button variant='ghost' size='sm' className='hover-lift'>
+                      <Activity className='h-4 w-4 mr-2' />
                       Quick Actions
-                      <ChevronDown className="h-3 w-3 ml-1" />
+                      <ChevronDown className='h-3 w-3 ml-1' />
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent align="start" className="w-80">
+                  <DropdownMenuContent align='start' className='w-80'>
                     <DropdownMenuLabel>Common Tasks</DropdownMenuLabel>
                     <DropdownMenuSeparator />
-                    <div className="grid gap-1 p-2">
-                      {quickActions.map((action) => {
+                    <div className='grid gap-1 p-2'>
+                      {quickActions.map(action => {
                         const Icon = action.icon;
                         return (
                           <DropdownMenuItem key={action.name} asChild>
                             <a
                               href={action.href}
-                              className="flex items-start gap-3 p-3 rounded-lg cursor-pointer"
+                              className='flex items-start gap-3 p-3 rounded-lg cursor-pointer'
                             >
-                              <div className="w-8 h-8 bg-primary/10 rounded-md flex items-center justify-center">
-                                <Icon className="h-4 w-4 text-primary" />
+                              <div className='w-8 h-8 bg-primary/10 rounded-md flex items-center justify-center'>
+                                <Icon className='h-4 w-4 text-primary' />
                               </div>
                               <div>
-                                <div className="font-medium text-sm">{action.name}</div>
-                                <div className="text-xs text-muted-foreground">{action.description}</div>
+                                <div className='font-medium text-sm'>
+                                  {action.name}
+                                </div>
+                                <div className='text-xs text-muted-foreground'>
+                                  {action.description}
+                                </div>
                               </div>
                             </a>
                           </DropdownMenuItem>
@@ -170,67 +174,83 @@ export default function Navigation() {
           </div>
 
           {/* Right Side - Status and User */}
-          <div className="flex items-center gap-4">
+          <div className='flex items-center gap-4'>
             {/* System Status */}
-            <div className="hidden sm:flex items-center gap-2">
-              <Badge variant="default" className="bg-green-500/10 text-green-600 border-green-500/20">
-                <Activity className="h-3 w-3 mr-1" />
+            <div className='hidden sm:flex items-center gap-2'>
+              <Badge
+                variant='default'
+                className='bg-green-500/10 text-green-600 border-green-500/20'
+              >
+                <Activity className='h-3 w-3 mr-1' />
                 System Online
               </Badge>
             </div>
 
             {/* Search Button */}
-            <Button variant="ghost" size="sm" className="hover-lift hidden sm:flex">
-              <Search className="h-4 w-4" />
+            <Button
+              variant='ghost'
+              size='sm'
+              className='hover-lift hidden sm:flex'
+            >
+              <Search className='h-4 w-4' />
             </Button>
 
             {/* Notifications */}
-            <Button variant="ghost" size="sm" className="hover-lift relative">
-              <Bell className="h-4 w-4" />
-              <span className="absolute -top-1 -right-1 h-2 w-2 bg-red-500 rounded-full"></span>
+            <Button variant='ghost' size='sm' className='hover-lift relative'>
+              <Bell className='h-4 w-4' />
+              <span className='absolute -top-1 -right-1 h-2 w-2 bg-red-500 rounded-full'></span>
             </Button>
 
-            <Separator orientation="vertical" className="h-6" />
+            <Separator orientation='vertical' className='h-6' />
 
             {/* User Menu */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="flex items-center gap-2 hover-lift">
-                  <Avatar className="h-8 w-8">
-                    <AvatarFallback className="bg-primary text-primary-foreground text-sm">
+                <Button
+                  variant='ghost'
+                  className='flex items-center gap-2 hover-lift'
+                >
+                  <Avatar className='h-8 w-8'>
+                    <AvatarFallback className='bg-primary text-primary-foreground text-sm'>
                       DS
                     </AvatarFallback>
                   </Avatar>
-                  <div className="hidden md:block text-left">
-                    <div className="text-sm font-medium">Dr. Smith</div>
-                    <div className="text-xs text-muted-foreground">Chief Medical Officer</div>
+                  <div className='hidden md:block text-left'>
+                    <div className='text-sm font-medium'>Dr. Smith</div>
+                    <div className='text-xs text-muted-foreground'>
+                      Chief Medical Officer
+                    </div>
                   </div>
-                  <ChevronDown className="h-3 w-3" />
+                  <ChevronDown className='h-3 w-3' />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-56">
+              <DropdownMenuContent align='end' className='w-56'>
                 <DropdownMenuLabel>
-                  <div className="flex flex-col space-y-1">
-                    <p className="text-sm font-medium">Dr. Smith</p>
-                    <p className="text-xs text-muted-foreground">chief.medical@ohms.com</p>
+                  <div className='flex flex-col space-y-1'>
+                    <p className='text-sm font-medium'>Dr. Smith</p>
+                    <p className='text-xs text-muted-foreground'>
+                      chief.medical@ohms.com
+                    </p>
                   </div>
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem className="cursor-pointer">
-                  <User className="mr-2 h-4 w-4" />
-                  Profile
+                <DropdownMenuItem className='cursor-pointer' asChild>
+                  <a href='/user-profile'>
+                    <User className='mr-2 h-4 w-4' />
+                    Profile
+                  </a>
                 </DropdownMenuItem>
-                <DropdownMenuItem className="cursor-pointer">
-                  <Settings className="mr-2 h-4 w-4" />
+                <DropdownMenuItem className='cursor-pointer'>
+                  <Settings className='mr-2 h-4 w-4' />
                   Settings
                 </DropdownMenuItem>
-                <DropdownMenuItem className="cursor-pointer">
-                  <HelpCircle className="mr-2 h-4 w-4" />
+                <DropdownMenuItem className='cursor-pointer'>
+                  <HelpCircle className='mr-2 h-4 w-4' />
                   Help & Support
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem className="cursor-pointer text-red-600 focus:text-red-600">
-                  <LogOut className="mr-2 h-4 w-4" />
+                <DropdownMenuItem className='cursor-pointer text-red-600 focus:text-red-600'>
+                  <LogOut className='mr-2 h-4 w-4' />
                   Sign Out
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -238,53 +258,57 @@ export default function Navigation() {
 
             {/* Mobile Menu Button */}
             <Button
-              variant="ghost"
-              size="sm"
-              className="lg:hidden hover-lift"
+              variant='ghost'
+              size='sm'
+              className='lg:hidden hover-lift'
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {mobileMenuOpen ? (
+                <X className='h-5 w-5' />
+              ) : (
+                <Menu className='h-5 w-5' />
+              )}
             </Button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t animate-slide-up">
-            <div className="space-y-2">
-              {navigation.map((item) => {
+          <div className='lg:hidden py-4 border-t animate-slide-up'>
+            <div className='space-y-2'>
+              {navigation.map(item => {
                 const Icon = item.icon;
                 return (
                   <Button
                     key={item.name}
-                    variant={isActive(item.href) ? "default" : "ghost"}
-                    className="w-full justify-start gap-2"
+                    variant={isActive(item.href) ? 'default' : 'ghost'}
+                    className='w-full justify-start gap-2'
                     asChild
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <a href={item.href}>
-                      <Icon className="h-4 w-4" />
+                      <Icon className='h-4 w-4' />
                       {item.name}
                     </a>
                   </Button>
                 );
               })}
-              <Separator className="my-3" />
-              <div className="text-xs font-medium text-muted-foreground px-3 mb-2">
+              <Separator className='my-3' />
+              <div className='text-xs font-medium text-muted-foreground px-3 mb-2'>
                 Quick Actions
               </div>
-              {quickActions.map((action) => {
+              {quickActions.map(action => {
                 const Icon = action.icon;
                 return (
                   <Button
                     key={action.name}
-                    variant="ghost"
-                    className="w-full justify-start gap-2"
+                    variant='ghost'
+                    className='w-full justify-start gap-2'
                     asChild
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <a href={action.href}>
-                      <Icon className="h-4 w-4" />
+                      <Icon className='h-4 w-4' />
                       {action.name}
                     </a>
                   </Button>

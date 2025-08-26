@@ -9,6 +9,8 @@ import StatusBadge from '@/components/StatusBadge';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Card } from '@/components/ui/card';
 import { AlertCircle } from 'lucide-react';
+import ClinicalVitalsDisplay from './ClinicalVitalsDisplay';
+import WeightDisplay from './WeightDisplay';
 
 interface Employee360ViewProps {
   employeeId: string;
@@ -38,7 +40,7 @@ const MODULE_ROUTES: Record<string, string> = {
   'symptom_screening': '/employees'
 };
 
-function calculateRadialPositions(count: number, centerX: number = 50, centerY: number = 50, radius: number = 42): Array<{ x: number; y: number }> {
+function calculateRadialPositions(count: number, centerX: number = 50, centerY: number = 50, radius: number = 35): Array<{ x: number; y: number }> {
   const positions: Array<{ x: number; y: number }> = [];
   const angleStep = (2 * Math.PI) / count;
   
@@ -62,8 +64,8 @@ export default function Employee360View({ employeeId, employee }: Employee360Vie
     // Filter out documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate of vitals), and gender-specific modules based on employee gender
     const employeeGender = employee.gender?.toLowerCase();
     const filteredData = statusData.filter(status => {
-      // Always exclude documents, current complaints, emergency responses, infectious disease, assessments, and clinical examinations (duplicate)
-      if (['documents', 'current_complaints', 'emergency_responses', 'infectiouse_disease', 'assesment', 'clinical_examinations'].includes(status.table_name)) return false;
+      // Always exclude documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate), and TB screening
+      if (['documents', 'current_complaints', 'emergency_responses', 'infectiouse_disease', 'assesment', 'clinical_examinations', 'screening_tb'].includes(status.table_name)) return false;
       
       // Filter gender-specific modules
       if (status.table_name === 'mens_health' && employeeGender !== 'male' && employeeGender !== 'm') {
@@ -101,6 +103,14 @@ export default function Employee360View({ employeeId, employee }: Employee360Vie
     }
     // Default to male silhouette if gender is not specified
     return '/user_images/body-man.png';
+  };
+
+  const getImageSize = () => {
+    const gender = employee.gender?.toLowerCase();
+    if (gender === 'female' || gender === 'f') {
+      return { width: 100, height: 170 }; // Smaller for woman
+    }
+    return { width: 120, height: 200 }; // Original size for man
   };
 
   if (loading) {
@@ -148,8 +158,8 @@ export default function Employee360View({ employeeId, employee }: Employee360Vie
           <Image
             src={getBodyImage()}
             alt="Employee silhouette"
-            width={150}
-            height={250}
+            width={getImageSize().width}
+            height={getImageSize().height}
             className="mx-auto opacity-50"
           />
           <p className="text-gray-500">No status data available for this employee</p>
@@ -158,24 +168,109 @@ export default function Employee360View({ employeeId, employee }: Employee360Vie
     );
   }
 
+  const formatDateOfBirth = (dateString: string) => {
+    if (!dateString || dateString === 'Not specified') return 'Birthday: Not specified';
+    try {
+      const formattedDate = new Date(dateString).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+      });
+      return `Birthday: ${formattedDate}`;
+    } catch {
+      return `Birthday: ${dateString}`;
+    }
+  };
+
+  const calculateAge = (dateString: string) => {
+    if (!dateString || dateString === 'Not specified') return 'Age: Unknown';
+    try {
+      const birthDate = new Date(dateString);
+      const today = new Date();
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      
+      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      
+      return `Age: ${age}`;
+    } catch {
+      return 'Age: Unknown';
+    }
+  };
+
   return (
-    <div className="relative w-full h-[700px] overflow-hidden">
-      {/* Central body silhouette */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <Image
-          src={getBodyImage()}
-          alt={`${employee.gender || 'Employee'} silhouette`}
-          width={150}
-          height={250}
-          className="object-contain opacity-80"
-          priority
-        />
+    <div className="relative w-full h-[850px] overflow-hidden bg-white rounded-xl border border-slate-200/50">
+      
+      {/* Date of Birth - Modern floating card */}
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[160px] z-10">
+        <div className="bg-white/95 backdrop-blur-md border border-teal-200/40 rounded-full px-4 py-2 shadow-lg shadow-teal-100/50">
+          <div className="text-sm font-semibold text-teal-700 text-center whitespace-nowrap">
+            {formatDateOfBirth(employee.date_of_birth)}
+          </div>
+        </div>
       </div>
 
-      {/* Radial status badges */}
-      {statusModules.map((module) => (
+      {/* Central body silhouette with subtle glow */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative">
+          {/* Aggressive fade glow around the image */}
+          <div 
+            className="absolute inset-0 rounded-full blur-lg scale-110"
+            style={{ 
+              background: 'radial-gradient(circle, rgba(45, 212, 191, 0.25) 0%, rgba(45, 212, 191, 0.1) 40%, transparent 70%)'
+            }}
+          />
+          <div 
+            className="absolute inset-0 rounded-full blur-md scale-105"
+            style={{ 
+              background: 'radial-gradient(circle, rgba(56, 178, 172, 0.2) 0%, rgba(56, 178, 172, 0.05) 30%, transparent 60%)'
+            }}
+          />
+          <Image
+            src={getBodyImage()}
+            alt={`${employee.gender || 'Employee'} silhouette`}
+            width={getImageSize().width}
+            height={getImageSize().height}
+            className="object-contain opacity-80 relative z-10 filter drop-shadow-xl"
+            priority
+          />
+        </div>
+      </div>
+
+      {/* Clinical Vitals Display - Modern glass morphism */}
+      <div className="absolute inset-0 flex items-center justify-center z-20">
+        <div className="flex items-center gap-6">
+          {/* Left side vitals */}
+          <div className="flex flex-col gap-2">
+            <ClinicalVitalsDisplay employeeId={employeeId} side="left" />
+          </div>
+          
+          {/* Space for central image */}
+          <div style={{ width: getImageSize().width - 20 }} />
+          
+          {/* Right side vitals */}
+          <div className="flex flex-col gap-2">
+            <ClinicalVitalsDisplay employeeId={employeeId} side="right" />
+          </div>
+        </div>
+      </div>
+
+      {/* Age and Weight - Combined card */}
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[115px] z-10">
+        <div className="bg-white/95 backdrop-blur-md rounded-full px-4 py-2 shadow-lg shadow-teal-100/50">
+          <div className="text-sm font-semibold text-teal-700 text-center whitespace-nowrap">
+            {calculateAge(employee.date_of_birth)}
+          </div>
+          <WeightDisplay employeeId={employeeId} />
+        </div>
+      </div>
+
+      {/* Radial status badges with modern styling */}
+      {statusModules.map((module, index) => (
         <StatusBadge
-          key={module.name}
+          key={`module-${index}-${module.name}`}
           moduleName={module.name}
           displayName={module.displayName}
           recordCount={module.recordCount}

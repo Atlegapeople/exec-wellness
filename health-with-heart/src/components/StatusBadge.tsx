@@ -1,7 +1,5 @@
 'use client';
 
-import { Badge } from '@/components/ui/badge';
-import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 
 interface StatusBadgeProps {
@@ -23,44 +21,44 @@ export default function StatusBadge({
 }: StatusBadgeProps) {
   return (
     <div
-      className="absolute transform -translate-x-1/2 -translate-y-1/2 cursor-pointer transition-all duration-200 hover:scale-105 hover:z-10"
+      className="absolute transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group"
       style={{
         left: `${position.x}%`,
         top: `${position.y}%`,
       }}
       onClick={onClick}
     >
-      <Card
+      <div
         className={cn(
-          "glass-effect px-2 py-1.5 min-w-[100px] text-center shadow-md hover:shadow-lg transition-all",
+          "w-16 h-16 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-110 group-hover:z-30 flex flex-col items-center justify-center relative",
+          "active:scale-95",
           isActive 
-            ? "border-green-500/50 bg-green-50/80 hover:bg-green-50" 
-            : "border-gray-300/50 bg-gray-50/40 opacity-60 hover:opacity-80"
+            ? "bg-teal-100/90 border border-teal-300/60 shadow-lg shadow-teal-200/30 hover:bg-teal-50 hover:shadow-xl" 
+            : "bg-amber-100/90 border border-amber-300/60 shadow-lg shadow-amber-200/30 hover:bg-amber-50 hover:shadow-xl"
         )}
       >
-        <div className="text-xs font-medium text-gray-900 mb-1 leading-tight truncate">
-          {displayName}
-        </div>
-        <div className="flex items-center justify-center gap-1">
-          <Badge 
-            variant={isActive ? "default" : "secondary"}
-            className={cn(
-              "text-xs font-semibold px-1 py-0",
-              isActive 
-                ? "bg-green-600 hover:bg-green-700" 
-                : "bg-gray-400"
-            )}
-          >
-            {recordCount > 99 ? '99+' : recordCount}
-          </Badge>
-          <span className={cn(
-            "text-xs font-medium",
-            isActive ? "text-green-700" : "text-gray-500"
+        {/* Content */}
+        <div className="flex flex-col items-center justify-center h-full">
+          <div className={cn(
+            "text-[8px] font-bold leading-tight mb-1 text-center px-0.5 w-full",
+            isActive ? "text-teal-800" : "text-amber-800"
           )}>
-            {isActive ? 'Active' : 'Inactive'}
-          </span>
+            {displayName}
+          </div>
+          <div className={cn(
+            "text-[10px] font-bold leading-none mb-0.5 bg-white/60 rounded-full px-1.5 py-0.5",
+            isActive ? "text-teal-700" : "text-amber-700"
+          )}>
+            {recordCount > 99 ? '99+' : recordCount}
+          </div>
+          <div className={cn(
+            "text-[6px] font-semibold uppercase tracking-wide leading-none bg-white/40 rounded-full px-1 py-0.5",
+            isActive ? "text-teal-600" : "text-amber-600"
+          )}>
+            {isActive ? 'Done' : 'Pending'}
+          </div>
         </div>
-      </Card>
+      </div>
     </div>
   );
 }

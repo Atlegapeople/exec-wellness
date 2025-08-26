@@ -146,6 +146,18 @@ const menuSections: MenuSection[] = [
         description: 'Employee records and information'
       },
       {
+        title: 'Users',
+        href: '/users',
+        icon: UserCheck,
+        description: 'System users and accounts'
+      },
+      {
+        title: 'User Profiles',
+        href: '/user-profile',
+        icon: UserCog,
+        description: 'Detailed user profiles and management'
+      },
+      {
         title: 'Managers',
         href: '/managers',
         icon: UserCheck,

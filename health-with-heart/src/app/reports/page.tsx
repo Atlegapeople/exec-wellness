@@ -138,12 +138,6 @@ export default function ReportsPage() {
   const [statusSummary, setStatusSummary] = useState<{ [key: string]: number }>(
     {}
   );
-  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
-  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
-  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
-  const [editingReport, setEditingReport] = useState<MedicalReport | null>(
-    null
-  );
 
   // Fetch reports data
   // Fetch all reports data once
@@ -411,22 +405,6 @@ export default function ReportsPage() {
       console.error('Error generating PDF:', error);
       alert('Error generating PDF');
     }
-  };
-
-  const openCreateModal = () => {
-    setFormData({});
-    setIsCreateModalOpen(true);
-  };
-
-  const openEditModal = (report: MedicalReport) => {
-    setEditingReport(report);
-    setFormData(report);
-    setIsEditModalOpen(true);
-  };
-
-  const openDeleteModal = (report: MedicalReport) => {
-    setEditingReport(report);
-    setIsDeleteModalOpen(true);
   };
 
   const canGeneratePDF = () => {
@@ -2073,8 +2051,7 @@ export default function ReportsPage() {
                                 );
 
                                 const total = Object.values(riskCounts).reduce(
-                                  (sum: number, count) =>
-                                    sum + (count as number),
+                                  (sum: number, count) => sum + count,
                                   0
                                 );
                                 const colors = {
@@ -2089,20 +2066,16 @@ export default function ReportsPage() {
                                     status,
                                     count,
                                     percentage: Math.round(
-                                      ((count as number) / (total as number)) *
-                                        100
+                                      (count / total) * 100
                                     ),
                                     color:
                                       colors[status as keyof typeof colors] ||
                                       '#6B7280',
                                   }))
-                                  .filter(slice => (slice.count as number) > 0);
+                                  .filter(slice => slice.count > 0);
 
                                 // Sort by count descending
-                                slices.sort(
-                                  (a, b) =>
-                                    (b.count as number) - (a.count as number)
-                                );
+                                slices.sort((a, b) => b.count - a.count);
 
                                 return (
                                   <div className='flex justify-center items-center gap-8'>
@@ -2200,8 +2173,7 @@ export default function ReportsPage() {
                                                 {status}
                                               </span>
                                               <span className='text-sm text-gray-600'>
-                                                {count as number} factors (
-                                                {percentage}%)
+                                                {count as number} factors ({percentage}%)
                                               </span>
                                             </div>
                                           </div>

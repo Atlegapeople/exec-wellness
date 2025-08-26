@@ -1,23 +1,50 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DashboardLayout from '@/components/DashboardLayout';
-import { 
-  Search, 
-  Plus, 
-  Edit, 
-  Trash2, 
+import {
+  Search,
+  Plus,
+  Edit,
+  Trash2,
   FileText,
   User,
   Heart,
@@ -31,7 +58,7 @@ import {
   Loader2,
   X,
   ArrowLeft,
-  ExternalLink
+  ExternalLink,
 } from 'lucide-react';
 
 interface MedicalHistory {
@@ -112,13 +139,15 @@ interface PaginationInfo {
 export default function MedicalHistoryPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
   // Get filter parameters from URL
   const employeeFilter = searchParams.get('employee');
   const employeeName = searchParams.get('employeeName');
   const returnUrl = searchParams.get('returnUrl');
-  
-  const [medicalHistories, setMedicalHistories] = useState<MedicalHistory[]>([]);
+
+  const [medicalHistories, setMedicalHistories] = useState<MedicalHistory[]>(
+    []
+  );
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
     page: 1,
@@ -126,30 +155,36 @@ export default function MedicalHistoryPage() {
     total: 0,
     totalPages: 0,
     hasNextPage: false,
-    hasPreviousPage: false
+    hasPreviousPage: false,
   });
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
-  const [selectedMedicalHistory, setSelectedMedicalHistory] = useState<MedicalHistory | null>(null);
+  const [selectedMedicalHistory, setSelectedMedicalHistory] =
+    useState<MedicalHistory | null>(null);
   const [formData, setFormData] = useState<Partial<MedicalHistory>>({});
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
 
+  // Delete state
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [deletingMedicalHistory, setDeletingMedicalHistory] =
+    useState<MedicalHistory | null>(null);
+
   const fetchMedicalHistories = async (page = 1, search = '') => {
     try {
       setLoading(true);
       let url = `/api/medical-history?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`;
-      
+
       if (employeeFilter) {
         url += `&employee=${encodeURIComponent(employeeFilter)}`;
       }
-      
+
       const response = await fetch(url);
       if (!response.ok) throw new Error('Failed to fetch medical histories');
-      
+
       const data = await response.json();
       setMedicalHistories(data.medicalHistories);
       setPagination(data.pagination);
@@ -164,7 +199,7 @@ export default function MedicalHistoryPage() {
     try {
       const response = await fetch('/api/employees?limit=1000');
       if (!response.ok) throw new Error('Failed to fetch employees');
-      
+
       const data = await response.json();
       setEmployees(data.employees);
     } catch (error) {
@@ -172,48 +207,17 @@ export default function MedicalHistoryPage() {
     }
   };
 
-  // Helper function to find medical history by employee ID
-  // If an employee has multiple medical history records, select the first one
-  const findMedicalHistoryByEmployeeId = (
-    medicalHistories: MedicalHistory[],
-    employeeId: string
-  ): MedicalHistory | null => {
-    const employeeHistories = medicalHistories.filter(
-      history => history.employee_id === employeeId
-    );
-    // Return the first medical history record if multiple exist, otherwise return null
-    return employeeHistories.length > 0 ? employeeHistories[0] : null;
-  };
-
   useEffect(() => {
     fetchMedicalHistories();
     fetchEmployees();
   }, [employeeFilter]);
 
-  // Auto-select medical history when employeeFilter is in URL and medical histories are loaded
-  useEffect(() => {
-    if (employeeFilter && medicalHistories.length > 0 && !selectedMedicalHistory) {
-      const historyToSelect = findMedicalHistoryByEmployeeId(medicalHistories, employeeFilter);
-      if (historyToSelect) {
-        setSelectedMedicalHistory(historyToSelect);
-      }
-    }
-  }, [employeeFilter, medicalHistories, selectedMedicalHistory]);
-
   const handleSearch = () => {
     fetchMedicalHistories(1, searchTerm);
-    // Preserve employee ID in URL when searching
-    if (employeeFilter) {
-      updateURL(employeeFilter);
-    }
   };
 
   const handlePageChange = (newPage: number) => {
     fetchMedicalHistories(newPage, searchTerm);
-    // Preserve employee ID in URL when changing pages
-    if (employeeFilter) {
-      updateURL(employeeFilter);
-    }
   };
 
   const handleCreateMedicalHistory = async () => {
@@ -247,16 +251,19 @@ export default function MedicalHistoryPage() {
 
     try {
       setSubmitting(true);
-      const response = await fetch(`/api/medical-history/${selectedMedicalHistory.id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ...formData,
-          user_updated: '1', // TODO: Use actual user ID from auth
-        }),
-      });
+      const response = await fetch(
+        `/api/medical-history/${selectedMedicalHistory.id}`,
+        {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            ...formData,
+            user_updated: '1', // TODO: Use actual user ID from auth
+          }),
+        }
+      );
 
       if (!response.ok) throw new Error('Failed to update medical history');
 
@@ -272,8 +279,6 @@ export default function MedicalHistoryPage() {
   };
 
   const handleDeleteMedicalHistory = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this medical history?')) return;
-
     try {
       const response = await fetch(`/api/medical-history/${id}`, {
         method: 'DELETE',
@@ -290,25 +295,32 @@ export default function MedicalHistoryPage() {
     }
   };
 
+  const handleDelete = async () => {
+    if (!deletingMedicalHistory) return;
+
+    try {
+      await handleDeleteMedicalHistory(deletingMedicalHistory.id);
+      setIsDeleteModalOpen(false);
+      setDeletingMedicalHistory(null);
+    } catch (error) {
+      console.error('Error in delete modal:', error);
+    }
+  };
+
   const openEditDialog = (medicalHistory: MedicalHistory) => {
     setFormData(medicalHistory);
     setSelectedMedicalHistory(medicalHistory);
     setIsEditDialogOpen(true);
   };
 
-  const handleMedicalHistoryClick = (medicalHistory: MedicalHistory) => {
-    setSelectedMedicalHistory(medicalHistory);
-    // Update URL to include employee ID
-    updateURL(medicalHistory.employee_id);
+  const openDeleteModal = (medicalHistory: MedicalHistory) => {
+    setDeletingMedicalHistory(medicalHistory);
+    setIsDeleteModalOpen(true);
   };
 
-  const updateURL = useCallback((employeeId?: string) => {
-    const params = new URLSearchParams();
-    if (employeeId) params.set('employee', employeeId);
-    
-    const newURL = `/medical-history${params.toString() ? `?${params.toString()}` : ''}`;
-    router.replace(newURL, { scroll: false });
-  }, [router]);
+  const handleMedicalHistoryClick = (medicalHistory: MedicalHistory) => {
+    setSelectedMedicalHistory(medicalHistory);
+  };
 
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString();
@@ -319,7 +331,8 @@ export default function MedicalHistoryPage() {
     if (medicalHistory.high_blood_pressure) conditions.push('High BP');
     if (medicalHistory.diabetes) conditions.push('Diabetes');
     if (medicalHistory.asthma) conditions.push('Asthma');
-    if (medicalHistory.anxiety_or_depression) conditions.push('Anxiety/Depression');
+    if (medicalHistory.anxiety_or_depression)
+      conditions.push('Anxiety/Depression');
     if (medicalHistory.tb) conditions.push('TB');
     return conditions.slice(0, 3); // Show only first 3
   };
@@ -333,13 +346,14 @@ export default function MedicalHistoryPage() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       if (!isResizing) return;
-      
+
       const container = document.querySelector('.medical-history-container');
       if (!container) return;
-      
+
       const containerRect = container.getBoundingClientRect();
-      const newLeftWidth = ((e.clientX - containerRect.left) / containerRect.width) * 100;
-      
+      const newLeftWidth =
+        ((e.clientX - containerRect.left) / containerRect.width) * 100;
+
       // Constrain between 30% and 80%
       const constrainedWidth = Math.min(Math.max(newLeftWidth, 30), 80);
       setLeftPanelWidth(constrainedWidth);
@@ -363,8 +377,8 @@ export default function MedicalHistoryPage() {
   if (loading) {
     return (
       <DashboardLayout>
-        <div className="flex items-center justify-center min-h-[600px]">
-          <Loader2 className="h-8 w-8 animate-spin" />
+        <div className='flex items-center justify-center min-h-[600px]'>
+          <Loader2 className='h-8 w-8 animate-spin' />
         </div>
       </DashboardLayout>
     );
@@ -372,92 +386,104 @@ export default function MedicalHistoryPage() {
 
   return (
     <DashboardLayout>
-      <div className="pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden">
+      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
         {/* Back Button and Filters */}
         {(returnUrl || employeeFilter) && (
-          <div className="mb-6 flex items-center justify-between">
-            <div className="flex items-center gap-4">
+          <div className='mb-6 flex items-center justify-between'>
+            <div className='flex items-center gap-4'>
               {returnUrl && (
                 <Button
-                  variant="outline"
+                  variant='outline'
                   onClick={() => router.push(returnUrl)}
-                  className="flex items-center gap-2"
+                  className='flex items-center gap-2'
                 >
-                  <ArrowLeft className="h-4 w-4" />
+                  <ArrowLeft className='h-4 w-4' />
                   Back
                 </Button>
               )}
-              
+
               {employeeFilter && employeeName && (
-                <div className="flex items-center gap-2">
-                  <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-                    <User className="h-3 w-3 mr-1" />
+                <div className='flex items-center gap-2'>
+                  <Badge
+                    variant='outline'
+                    className='bg-blue-50 text-blue-700 border-blue-200'
+                  >
+                    <User className='h-3 w-3 mr-1' />
                     Filtered by: {decodeURIComponent(employeeName)}
                   </Badge>
                   <Button
-                    variant="ghost"
-                    size="sm"
+                    variant='ghost'
+                    size='sm'
                     onClick={() => {
-                      const params = new URLSearchParams(searchParams.toString());
+                      const params = new URLSearchParams(
+                        searchParams.toString()
+                      );
                       params.delete('employee');
                       params.delete('employeeName');
                       router.push(`/medical-history?${params.toString()}`);
                     }}
-                    className="h-6 w-6 p-0"
+                    className='h-6 w-6 p-0'
                   >
-                    <X className="h-3 w-3" />
+                    <X className='h-3 w-3' />
                   </Button>
                 </div>
               )}
             </div>
           </div>
         )}
-        
+
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className='flex items-center justify-between mb-6'>
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">Medical History</h1>
-            <p className="text-muted-foreground">
+            <h1 className='text-3xl font-bold tracking-tight'>
+              Medical History
+            </h1>
+            <p className='text-muted-foreground'>
               Manage employee medical history records
             </p>
           </div>
-          
-          <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
+
+          <Dialog
+            open={isCreateDialogOpen}
+            onOpenChange={setIsCreateDialogOpen}
+          >
             <DialogTrigger asChild>
-              <Button className="hover-lift">
-                <Plus className="h-4 w-4 mr-2" />
+              <Button className='hover-lift'>
+                <Plus className='h-4 w-4 mr-2' />
                 Add Medical History
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+            <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
               <DialogHeader>
                 <DialogTitle>Create New Medical History</DialogTitle>
                 <DialogDescription>
                   Add a new medical history record
                 </DialogDescription>
               </DialogHeader>
-              
-              <Tabs defaultValue="conditions" className="space-y-4">
-                <TabsList className="grid w-full grid-cols-5">
-                  <TabsTrigger value="conditions">Conditions</TabsTrigger>
-                  <TabsTrigger value="allergies">Allergies</TabsTrigger>
-                  <TabsTrigger value="medications">Medications</TabsTrigger>
-                  <TabsTrigger value="family">Family History</TabsTrigger>
-                  <TabsTrigger value="surgery">Surgery</TabsTrigger>
+
+              <Tabs defaultValue='conditions' className='space-y-4'>
+                <TabsList className='grid w-full grid-cols-5'>
+                  <TabsTrigger value='conditions'>Conditions</TabsTrigger>
+                  <TabsTrigger value='allergies'>Allergies</TabsTrigger>
+                  <TabsTrigger value='medications'>Medications</TabsTrigger>
+                  <TabsTrigger value='family'>Family History</TabsTrigger>
+                  <TabsTrigger value='surgery'>Surgery</TabsTrigger>
                 </TabsList>
-                
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="employee_id">Employee</Label>
+
+                <div className='space-y-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='employee_id'>Employee</Label>
                     <Select
                       value={formData.employee_id || ''}
-                      onValueChange={(value) => setFormData({...formData, employee_id: value})}
+                      onValueChange={value =>
+                        setFormData({ ...formData, employee_id: value })
+                      }
                     >
                       <SelectTrigger>
-                        <SelectValue placeholder="Select employee" />
+                        <SelectValue placeholder='Select employee' />
                       </SelectTrigger>
                       <SelectContent>
-                        {employees.map((employee) => (
+                        {employees.map(employee => (
                           <SelectItem key={employee.id} value={employee.id}>
                             {employee.name} {employee.surname}
                           </SelectItem>
@@ -467,239 +493,338 @@ export default function MedicalHistoryPage() {
                   </div>
                 </div>
 
-                <TabsContent value="conditions" className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center space-x-2">
+                <TabsContent value='conditions' className='space-y-4'>
+                  <div className='grid grid-cols-2 gap-4'>
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="high_blood_pressure"
+                        type='checkbox'
+                        id='high_blood_pressure'
                         checked={formData.high_blood_pressure || false}
-                        onChange={(e) => setFormData({...formData, high_blood_pressure: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            high_blood_pressure: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="high_blood_pressure">High Blood Pressure</Label>
+                      <Label htmlFor='high_blood_pressure'>
+                        High Blood Pressure
+                      </Label>
                     </div>
-                    
-                    <div className="flex items-center space-x-2">
+
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="diabetes"
+                        type='checkbox'
+                        id='diabetes'
                         checked={formData.diabetes || false}
-                        onChange={(e) => setFormData({...formData, diabetes: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            diabetes: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="diabetes">Diabetes</Label>
+                      <Label htmlFor='diabetes'>Diabetes</Label>
                     </div>
-                    
-                    <div className="flex items-center space-x-2">
+
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="asthma"
+                        type='checkbox'
+                        id='asthma'
                         checked={formData.asthma || false}
-                        onChange={(e) => setFormData({...formData, asthma: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({ ...formData, asthma: e.target.checked })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="asthma">Asthma</Label>
+                      <Label htmlFor='asthma'>Asthma</Label>
                     </div>
-                    
-                    <div className="flex items-center space-x-2">
+
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="anxiety_or_depression"
+                        type='checkbox'
+                        id='anxiety_or_depression'
                         checked={formData.anxiety_or_depression || false}
-                        onChange={(e) => setFormData({...formData, anxiety_or_depression: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            anxiety_or_depression: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="anxiety_or_depression">Anxiety/Depression</Label>
+                      <Label htmlFor='anxiety_or_depression'>
+                        Anxiety/Depression
+                      </Label>
                     </div>
                   </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="notes_text">Notes</Label>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='notes_text'>Notes</Label>
                     <Textarea
-                      id="notes_text"
+                      id='notes_text'
                       value={formData.notes_text || ''}
-                      onChange={(e) => setFormData({...formData, notes_text: e.target.value})}
-                      placeholder="Additional notes about conditions"
+                      onChange={e =>
+                        setFormData({ ...formData, notes_text: e.target.value })
+                      }
+                      placeholder='Additional notes about conditions'
                       rows={3}
                     />
                   </div>
                 </TabsContent>
 
-                <TabsContent value="allergies" className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center space-x-2">
+                <TabsContent value='allergies' className='space-y-4'>
+                  <div className='grid grid-cols-2 gap-4'>
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="medication_allergy"
+                        type='checkbox'
+                        id='medication_allergy'
                         checked={formData.medication || false}
-                        onChange={(e) => setFormData({...formData, medication: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            medication: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="medication_allergy">Medication Allergies</Label>
+                      <Label htmlFor='medication_allergy'>
+                        Medication Allergies
+                      </Label>
                     </div>
-                    
-                    <div className="flex items-center space-x-2">
+
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="food_allergy"
+                        type='checkbox'
+                        id='food_allergy'
                         checked={formData.food || false}
-                        onChange={(e) => setFormData({...formData, food: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({ ...formData, food: e.target.checked })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="food_allergy">Food Allergies</Label>
+                      <Label htmlFor='food_allergy'>Food Allergies</Label>
                     </div>
                   </div>
-                  
+
                   {formData.medication && (
-                    <div className="space-y-2">
-                      <Label htmlFor="medication_type">Medication Type</Label>
+                    <div className='space-y-2'>
+                      <Label htmlFor='medication_type'>Medication Type</Label>
                       <Input
-                        id="medication_type"
+                        id='medication_type'
                         value={formData.medication_type || ''}
-                        onChange={(e) => setFormData({...formData, medication_type: e.target.value})}
-                        placeholder="Specify medication allergens"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            medication_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify medication allergens'
                       />
                     </div>
                   )}
-                  
+
                   {formData.food && (
-                    <div className="space-y-2">
-                      <Label htmlFor="food_type">Food Type</Label>
+                    <div className='space-y-2'>
+                      <Label htmlFor='food_type'>Food Type</Label>
                       <Input
-                        id="food_type"
+                        id='food_type'
                         value={formData.food_type || ''}
-                        onChange={(e) => setFormData({...formData, food_type: e.target.value})}
-                        placeholder="Specify food allergens"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            food_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify food allergens'
                       />
                     </div>
                   )}
                 </TabsContent>
 
-                <TabsContent value="medications" className="space-y-4">
-                  <div className="flex items-center space-x-2">
+                <TabsContent value='medications' className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="on_medication"
+                      type='checkbox'
+                      id='on_medication'
                       checked={formData.on_medication || false}
-                      onChange={(e) => setFormData({...formData, on_medication: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          on_medication: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="on_medication">Currently on Medication</Label>
+                    <Label htmlFor='on_medication'>
+                      Currently on Medication
+                    </Label>
                   </div>
-                  
+
                   {formData.on_medication && (
-                    <div className="space-y-2">
-                      <Label htmlFor="chronic_medication">Chronic Medication</Label>
+                    <div className='space-y-2'>
+                      <Label htmlFor='chronic_medication'>
+                        Chronic Medication
+                      </Label>
                       <Input
-                        id="chronic_medication"
+                        id='chronic_medication'
                         value={formData.chronic_medication || ''}
-                        onChange={(e) => setFormData({...formData, chronic_medication: e.target.value})}
-                        placeholder="List chronic medications"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            chronic_medication: e.target.value,
+                          })
+                        }
+                        placeholder='List chronic medications'
                       />
                     </div>
                   )}
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="vitamins_or_supplements">Vitamins/Supplements</Label>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='vitamins_or_supplements'>
+                      Vitamins/Supplements
+                    </Label>
                     <Input
-                      id="vitamins_or_supplements"
+                      id='vitamins_or_supplements'
                       value={formData.vitamins_or_supplements || ''}
-                      onChange={(e) => setFormData({...formData, vitamins_or_supplements: e.target.value})}
-                      placeholder="List vitamins and supplements"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          vitamins_or_supplements: e.target.value,
+                        })
+                      }
+                      placeholder='List vitamins and supplements'
                     />
                   </div>
                 </TabsContent>
 
-                <TabsContent value="family" className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center space-x-2">
+                <TabsContent value='family' className='space-y-4'>
+                  <div className='grid grid-cols-2 gap-4'>
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="heart_attack"
+                        type='checkbox'
+                        id='heart_attack'
                         checked={formData.heart_attack || false}
-                        onChange={(e) => setFormData({...formData, heart_attack: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            heart_attack: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="heart_attack">Family Heart Attack History</Label>
+                      <Label htmlFor='heart_attack'>
+                        Family Heart Attack History
+                      </Label>
                     </div>
-                    
-                    <div className="flex items-center space-x-2">
+
+                    <div className='flex items-center space-x-2'>
                       <input
-                        type="checkbox"
-                        id="cancer_family"
+                        type='checkbox'
+                        id='cancer_family'
                         checked={formData.cancer_family || false}
-                        onChange={(e) => setFormData({...formData, cancer_family: e.target.checked})}
-                        className="rounded border-gray-300"
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            cancer_family: e.target.checked,
+                          })
+                        }
+                        className='rounded border-gray-300'
                       />
-                      <Label htmlFor="cancer_family">Family Cancer History</Label>
+                      <Label htmlFor='cancer_family'>
+                        Family Cancer History
+                      </Label>
                     </div>
                   </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="family_conditions">Family Conditions</Label>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='family_conditions'>Family Conditions</Label>
                     <Textarea
-                      id="family_conditions"
+                      id='family_conditions'
                       value={formData.family_conditions || ''}
-                      onChange={(e) => setFormData({...formData, family_conditions: e.target.value})}
-                      placeholder="Describe family medical history"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          family_conditions: e.target.value,
+                        })
+                      }
+                      placeholder='Describe family medical history'
                       rows={3}
                     />
                   </div>
                 </TabsContent>
 
-                <TabsContent value="surgery" className="space-y-4">
-                  <div className="flex items-center space-x-2">
+                <TabsContent value='surgery' className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="surgery"
+                      type='checkbox'
+                      id='surgery'
                       checked={formData.surgery || false}
-                      onChange={(e) => setFormData({...formData, surgery: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({ ...formData, surgery: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="surgery">Previous Surgery</Label>
+                    <Label htmlFor='surgery'>Previous Surgery</Label>
                   </div>
-                  
+
                   {formData.surgery && (
                     <>
-                      <div className="space-y-2">
-                        <Label htmlFor="surgery_type">Surgery Type</Label>
+                      <div className='space-y-2'>
+                        <Label htmlFor='surgery_type'>Surgery Type</Label>
                         <Input
-                          id="surgery_type"
+                          id='surgery_type'
                           value={formData.surgery_type || ''}
-                          onChange={(e) => setFormData({...formData, surgery_type: e.target.value})}
-                          placeholder="Type of surgery"
+                          onChange={e =>
+                            setFormData({
+                              ...formData,
+                              surgery_type: e.target.value,
+                            })
+                          }
+                          placeholder='Type of surgery'
                         />
                       </div>
-                      
-                      <div className="space-y-2">
-                        <Label htmlFor="surgery_year">Surgery Year</Label>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='surgery_year'>Surgery Year</Label>
                         <Input
-                          id="surgery_year"
+                          id='surgery_year'
                           value={formData.surgery_year || ''}
-                          onChange={(e) => setFormData({...formData, surgery_year: e.target.value})}
-                          placeholder="Year of surgery"
+                          onChange={e =>
+                            setFormData({
+                              ...formData,
+                              surgery_year: e.target.value,
+                            })
+                          }
+                          placeholder='Year of surgery'
                         />
                       </div>
                     </>
                   )}
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="recommendation_text">Recommendations</Label>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='recommendation_text'>Recommendations</Label>
                     <Textarea
-                      id="recommendation_text"
+                      id='recommendation_text'
                       value={formData.recommendation_text || ''}
-                      onChange={(e) => setFormData({...formData, recommendation_text: e.target.value})}
-                      placeholder="Medical recommendations"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          recommendation_text: e.target.value,
+                        })
+                      }
+                      placeholder='Medical recommendations'
                       rows={3}
                     />
                   </div>
                 </TabsContent>
               </Tabs>
-              
-              <div className="flex justify-end gap-2">
+
+              <div className='flex justify-end gap-2'>
                 <Button
-                  variant="outline"
+                  variant='outline'
                   onClick={() => {
                     setIsCreateDialogOpen(false);
                     setFormData({});
@@ -707,8 +832,13 @@ export default function MedicalHistoryPage() {
                 >
                   Cancel
                 </Button>
-                <Button onClick={handleCreateMedicalHistory} disabled={submitting}>
-                  {submitting && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
+                <Button
+                  onClick={handleCreateMedicalHistory}
+                  disabled={submitting}
+                >
+                  {submitting && (
+                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                  )}
                   Create Medical History
                 </Button>
               </div>
@@ -716,67 +846,80 @@ export default function MedicalHistoryPage() {
           </Dialog>
         </div>
 
-        <div className="medical-history-container flex gap-1 min-h-[600px]">
+        <div className='medical-history-container flex gap-1 min-h-[600px]'>
           {/* Left Panel - Medical History Table */}
-          <div 
-            className="space-y-4"
-            style={{ width: selectedMedicalHistory ? `${leftPanelWidth}%` : '100%' }}
+          <div
+            className='space-y-4'
+            style={{
+              width: selectedMedicalHistory ? `${leftPanelWidth}%` : '100%',
+            }}
           >
             {/* Stats Cards */}
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Total Records</CardTitle>
-                  <FileText className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    Total Records
+                  </CardTitle>
+                  <FileText className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">{pagination.total}</div>
-                  <p className="text-xs text-muted-foreground">
+                  <div className='text-2xl font-bold'>{pagination.total}</div>
+                  <p className='text-xs text-muted-foreground'>
                     Medical history records
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">High BP Cases</CardTitle>
-                  <Heart className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    High BP Cases
+                  </CardTitle>
+                  <Heart className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
-                    {medicalHistories.filter(mh => mh.high_blood_pressure).length}
+                  <div className='text-2xl font-bold'>
+                    {
+                      medicalHistories.filter(mh => mh.high_blood_pressure)
+                        .length
+                    }
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     High blood pressure cases
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Diabetes Cases</CardTitle>
-                  <Activity className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    Diabetes Cases
+                  </CardTitle>
+                  <Activity className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
+                  <div className='text-2xl font-bold'>
                     {medicalHistories.filter(mh => mh.diabetes).length}
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     Diabetes cases
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">On Medication</CardTitle>
-                  <Pill className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    On Medication
+                  </CardTitle>
+                  <Pill className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
+                  <div className='text-2xl font-bold'>
                     {medicalHistories.filter(mh => mh.on_medication).length}
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     Currently on medication
                   </p>
                 </CardContent>
@@ -784,35 +927,31 @@ export default function MedicalHistoryPage() {
             </div>
 
             {/* Search */}
-            <Card className="glass-effect">
-              <CardContent className="p-4">
-                <div className="flex items-center gap-4">
-                  <div className="flex-1 relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+            <Card className='glass-effect'>
+              <CardContent className='p-4'>
+                <div className='flex items-center gap-4'>
+                  <div className='flex-1 relative'>
+                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
                     <Input
-                      type="text"
+                      type='text'
                       value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      placeholder="Search by employee name or notes..."
-                      className="pl-9"
-                      onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                      onChange={e => setSearchTerm(e.target.value)}
+                      placeholder='Search by employee name or notes...'
+                      className='pl-9'
+                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
                     />
                   </div>
-                  <Button onClick={handleSearch} className="hover-lift">
+                  <Button onClick={handleSearch} className='hover-lift'>
                     Search
                   </Button>
                   {searchTerm && (
                     <Button
-                      variant="outline"
+                      variant='outline'
                       onClick={() => {
                         setSearchTerm('');
                         fetchMedicalHistories(1, '');
-                        // Preserve employee ID in URL when clearing search
-                        if (employeeFilter) {
-                          updateURL(employeeFilter);
-                        }
                       }}
-                      className="hover-lift"
+                      className='hover-lift'
                     >
                       Clear
                     </Button>
@@ -822,10 +961,10 @@ export default function MedicalHistoryPage() {
             </Card>
 
             {/* Medical History Table */}
-            <Card className="hover-lift">
+            <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-2xl">
-                  <FileText className="h-6 w-6" />
+                <CardTitle className='flex items-center gap-2 text-2xl'>
+                  <FileText className='h-6 w-6' />
                   Medical History ({pagination.total})
                 </CardTitle>
                 <CardDescription>
@@ -834,15 +973,19 @@ export default function MedicalHistoryPage() {
               </CardHeader>
               <CardContent>
                 {medicalHistories.length === 0 ? (
-                  <div className="text-center py-12">
-                    <FileText className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-                    <h3 className="text-lg font-medium text-foreground mb-2">No medical history found</h3>
-                    <p className="text-muted-foreground">
-                      {searchTerm ? 'Try adjusting your search criteria.' : 'No medical history records available.'}
+                  <div className='text-center py-12'>
+                    <FileText className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                    <h3 className='text-lg font-medium text-foreground mb-2'>
+                      No medical history found
+                    </h3>
+                    <p className='text-muted-foreground'>
+                      {searchTerm
+                        ? 'Try adjusting your search criteria.'
+                        : 'No medical history records available.'}
                     </p>
                   </div>
                 ) : (
-                  <div className="max-h-[500px] overflow-auto scrollbar-premium">
+                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -854,69 +997,90 @@ export default function MedicalHistoryPage() {
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        {medicalHistories.map((medicalHistory) => (
-                          <TableRow 
-                            key={medicalHistory.id} 
+                        {medicalHistories.map(medicalHistory => (
+                          <TableRow
+                            key={medicalHistory.id}
                             className={`cursor-pointer transition-colors hover:bg-muted/50 ${
-                              selectedMedicalHistory?.id === medicalHistory.id ? 'bg-muted border-l-4 border-l-primary' : ''
+                              selectedMedicalHistory?.id === medicalHistory.id
+                                ? 'bg-muted border-l-4 border-l-primary'
+                                : ''
                             }`}
-                            onClick={() => handleMedicalHistoryClick(medicalHistory)}
+                            onClick={() =>
+                              handleMedicalHistoryClick(medicalHistory)
+                            }
                           >
                             <TableCell>
                               <div>
-                                <div className="font-medium">
-                                  {medicalHistory.employee_name || 'Unknown Employee'}
+                                <div className='font-medium'>
+                                  {medicalHistory.employee_name ||
+                                    'Unknown Employee'}
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className='text-sm text-muted-foreground'>
                                   ID: {medicalHistory.id.substring(0, 8)}...
                                 </div>
                               </div>
                             </TableCell>
                             <TableCell>
-                              <div className="flex flex-wrap gap-1">
-                                {getConditionsBadges(medicalHistory).map((condition, index) => (
-                                  <Badge key={index} variant="secondary" className="text-xs">
-                                    {condition}
-                                  </Badge>
-                                ))}
-                                {getConditionsBadges(medicalHistory).length === 0 && (
-                                  <span className="text-sm text-muted-foreground">None</span>
+                              <div className='flex flex-wrap gap-1'>
+                                {getConditionsBadges(medicalHistory).map(
+                                  (condition, index) => (
+                                    <Badge
+                                      key={index}
+                                      variant='secondary'
+                                      className='text-xs'
+                                    >
+                                      {condition}
+                                    </Badge>
+                                  )
+                                )}
+                                {getConditionsBadges(medicalHistory).length ===
+                                  0 && (
+                                  <span className='text-sm text-muted-foreground'>
+                                    None
+                                  </span>
                                 )}
                               </div>
                             </TableCell>
                             <TableCell>
                               {medicalHistory.on_medication ? (
-                                <Badge variant="outline" className="bg-blue-100 text-blue-800">
+                                <Badge
+                                  variant='outline'
+                                  className='bg-blue-100 text-blue-800'
+                                >
                                   On Medication
                                 </Badge>
                               ) : (
-                                <span className="text-sm text-muted-foreground">None</span>
+                                <span className='text-sm text-muted-foreground'>
+                                  None
+                                </span>
                               )}
                             </TableCell>
-                            <TableCell className="text-sm">
+                            <TableCell className='text-sm'>
                               {formatDate(medicalHistory.date_updated)}
                             </TableCell>
                             <TableCell>
-                              <div className="flex items-center gap-2">
+                              <div className='flex items-center gap-2'>
                                 <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={(e) => {
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={e => {
                                     e.stopPropagation();
                                     openEditDialog(medicalHistory);
                                   }}
                                 >
-                                  <Edit className="h-4 w-4" />
+                                  <Edit className='h-4 w-4' />
                                 </Button>
                                 <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={(e) => {
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={e => {
                                     e.stopPropagation();
-                                    handleDeleteMedicalHistory(medicalHistory.id);
+                                    handleDeleteMedicalHistory(
+                                      medicalHistory.id
+                                    );
                                   }}
                                 >
-                                  <Trash2 className="h-4 w-4" />
+                                  <Trash2 className='h-4 w-4' />
                                 </Button>
                               </div>
                             </TableCell>
@@ -929,75 +1093,85 @@ export default function MedicalHistoryPage() {
 
                 {/* Pagination */}
                 {pagination.totalPages > 1 && (
-                  <div className="flex items-center justify-between pt-4 border-t">
-                    <div className="text-sm text-muted-foreground">
-                      Showing {((pagination.page - 1) * pagination.limit) + 1} to{' '}
-                      {Math.min(pagination.page * pagination.limit, pagination.total)} of{' '}
-                      {pagination.total} results
+                  <div className='flex items-center justify-between pt-4 border-t'>
+                    <div className='text-sm text-muted-foreground'>
+                      Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
+                      {Math.min(
+                        pagination.page * pagination.limit,
+                        pagination.total
+                      )}{' '}
+                      of {pagination.total} results
                     </div>
-                    <div className="flex items-center space-x-2">
+                    <div className='flex items-center space-x-2'>
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(1)}
                         disabled={pagination.page === 1}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
-                        <ChevronsLeft className="h-4 w-4" />
+                        <ChevronsLeft className='h-4 w-4' />
                         First
                       </Button>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
-                        <ChevronLeft className="h-4 w-4" />
+                        <ChevronLeft className='h-4 w-4' />
                         Previous
                       </Button>
-                      
-                      <div className="flex items-center gap-1">
-                        {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
-                          const startPage = Math.max(1, pagination.page - 2);
-                          const page = startPage + i;
-                          if (page > pagination.totalPages) return null;
-                          
-                          return (
-                            <Button
-                              key={`medical-history-page-${page}`}
-                              variant={page === pagination.page ? "default" : "outline"}
-                              size="sm"
-                              onClick={() => handlePageChange(page)}
-                              className="hover-lift min-w-[40px]"
-                            >
-                              {page}
-                            </Button>
-                          );
-                        })}
+
+                      <div className='flex items-center gap-1'>
+                        {Array.from(
+                          { length: Math.min(5, pagination.totalPages) },
+                          (_, i) => {
+                            const startPage = Math.max(1, pagination.page - 2);
+                            const page = startPage + i;
+                            if (page > pagination.totalPages) return null;
+
+                            return (
+                              <Button
+                                key={`medical-history-page-${page}`}
+                                variant={
+                                  page === pagination.page
+                                    ? 'default'
+                                    : 'outline'
+                                }
+                                size='sm'
+                                onClick={() => handlePageChange(page)}
+                                className='hover-lift min-w-[40px]'
+                              >
+                                {page}
+                              </Button>
+                            );
+                          }
+                        )}
                       </div>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
                         Next
-                        <ChevronRight className="h-4 w-4" />
+                        <ChevronRight className='h-4 w-4' />
                       </Button>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={pagination.page === pagination.totalPages}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
                         Last
-                        <ChevronsRight className="h-4 w-4" />
+                        <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
                   </div>
@@ -1008,8 +1182,8 @@ export default function MedicalHistoryPage() {
 
           {/* Resize Handle */}
           {selectedMedicalHistory && (
-            <div 
-              className="w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0"
+            <div
+              className='w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0'
               onMouseDown={handleMouseDown}
               style={{ cursor: isResizing ? 'col-resize' : 'col-resize' }}
             />
@@ -1017,92 +1191,121 @@ export default function MedicalHistoryPage() {
 
           {/* Right Panel - Medical History Details */}
           {selectedMedicalHistory && (
-            <div 
-              className="space-y-4 animate-slide-up"
+            <div
+              className='space-y-4 animate-slide-up'
               style={{ width: `${100 - leftPanelWidth}%` }}
             >
-              <Card className="glass-effect">
-                <CardHeader className="pb-3">
-                  <div className="flex justify-between items-start">
-                    <div className="space-y-1">
-                      <CardTitle className="text-2xl medical-heading">
-                        {selectedMedicalHistory.employee_name || 'Unknown Employee'}
+              <Card className='glass-effect'>
+                <CardHeader className='pb-3'>
+                  <div className='flex justify-between items-start'>
+                    <div className='space-y-1'>
+                      <CardTitle className='text-2xl medical-heading'>
+                        {selectedMedicalHistory.employee_name ||
+                          'Unknown Employee'}
                       </CardTitle>
-                      <CardDescription className="flex items-center gap-2">
-                        <Badge variant="outline">
-                          Updated: {formatDate(selectedMedicalHistory.date_updated)}
+                      <CardDescription className='flex items-center gap-2'>
+                        <Badge variant='outline'>
+                          Updated:{' '}
+                          {formatDate(selectedMedicalHistory.date_updated)}
                         </Badge>
                         {selectedMedicalHistory.on_medication && (
-                          <Badge variant="secondary" className="bg-blue-100 text-blue-800">
+                          <Badge
+                            variant='secondary'
+                            className='bg-blue-100 text-blue-800'
+                          >
                             On Medication
                           </Badge>
                         )}
                       </CardDescription>
                     </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => {
-                        setSelectedMedicalHistory(null);
-                        // Remove employeeId from URL when closing medical history
-                        updateURL();
-                      }}
-                      className="hover-lift"
-                    >
-                      <X className="h-4 w-4" />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openDeleteModal(selectedMedicalHistory)}
+                        className='hover-lift text-destructive hover:text-destructive hover:bg-destructive/10'
+                        title='Delete medical history'
+                      >
+                        <Trash2 className='h-4 w-4 text-destructive' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedMedicalHistory(null)}
+                        className='hover-lift'
+                        title='Close details'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium">
+                <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Medical Conditions */}
-                  <div className="space-y-3">
-                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
-                      <Heart className="h-4 w-4" />
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Heart className='h-4 w-4' />
                       Medical Conditions
                     </h3>
-                    <div className="grid grid-cols-2 gap-3 text-sm">
-                      <div className="flex items-center gap-2">
-                        <div className={`w-2 h-2 rounded-full ${selectedMedicalHistory.high_blood_pressure ? 'bg-red-500' : 'bg-gray-300'}`} />
+                    <div className='grid grid-cols-2 gap-3 text-sm'>
+                      <div className='flex items-center gap-2'>
+                        <div
+                          className={`w-2 h-2 rounded-full ${selectedMedicalHistory.high_blood_pressure ? 'bg-red-500' : 'bg-gray-300'}`}
+                        />
                         <span>High Blood Pressure</span>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <div className={`w-2 h-2 rounded-full ${selectedMedicalHistory.diabetes ? 'bg-red-500' : 'bg-gray-300'}`} />
+                      <div className='flex items-center gap-2'>
+                        <div
+                          className={`w-2 h-2 rounded-full ${selectedMedicalHistory.diabetes ? 'bg-red-500' : 'bg-gray-300'}`}
+                        />
                         <span>Diabetes</span>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <div className={`w-2 h-2 rounded-full ${selectedMedicalHistory.asthma ? 'bg-red-500' : 'bg-gray-300'}`} />
+                      <div className='flex items-center gap-2'>
+                        <div
+                          className={`w-2 h-2 rounded-full ${selectedMedicalHistory.asthma ? 'bg-red-500' : 'bg-gray-300'}`}
+                        />
                         <span>Asthma</span>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <div className={`w-2 h-2 rounded-full ${selectedMedicalHistory.anxiety_or_depression ? 'bg-red-500' : 'bg-gray-300'}`} />
+                      <div className='flex items-center gap-2'>
+                        <div
+                          className={`w-2 h-2 rounded-full ${selectedMedicalHistory.anxiety_or_depression ? 'bg-red-500' : 'bg-gray-300'}`}
+                        />
                         <span>Anxiety/Depression</span>
                       </div>
                     </div>
                     {selectedMedicalHistory.notes_text && (
-                      <div className="mt-3 p-3 bg-muted/50 rounded-lg">
-                        <p className="text-sm">{selectedMedicalHistory.notes_text}</p>
+                      <div className='mt-3 p-3 bg-muted/50 rounded-lg'>
+                        <p className='text-sm'>
+                          {selectedMedicalHistory.notes_text}
+                        </p>
                       </div>
                     )}
                   </div>
 
                   {/* Medications */}
                   {selectedMedicalHistory.on_medication && (
-                    <div className="space-y-3">
-                      <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
-                        <Pill className="h-4 w-4" />
+                    <div className='space-y-3'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Pill className='h-4 w-4' />
                         Current Medications
                       </h3>
-                      <div className="text-sm space-y-2">
+                      <div className='text-sm space-y-2'>
                         {selectedMedicalHistory.chronic_medication && (
                           <div>
-                            <span className="font-medium">Chronic Medication: </span>
-                            <span>{selectedMedicalHistory.chronic_medication}</span>
+                            <span className='font-medium'>
+                              Chronic Medication:{' '}
+                            </span>
+                            <span>
+                              {selectedMedicalHistory.chronic_medication}
+                            </span>
                           </div>
                         )}
                         {selectedMedicalHistory.vitamins_or_supplements && (
                           <div>
-                            <span className="font-medium">Supplements: </span>
-                            <span>{selectedMedicalHistory.vitamins_or_supplements}</span>
+                            <span className='font-medium'>Supplements: </span>
+                            <span>
+                              {selectedMedicalHistory.vitamins_or_supplements}
+                            </span>
                           </div>
                         )}
                       </div>
@@ -1110,57 +1313,64 @@ export default function MedicalHistoryPage() {
                   )}
 
                   {/* Allergies */}
-                  {(selectedMedicalHistory.medication || selectedMedicalHistory.food) && (
-                    <div className="space-y-3">
-                      <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
-                        <Shield className="h-4 w-4" />
+                  {(selectedMedicalHistory.medication ||
+                    selectedMedicalHistory.food) && (
+                    <div className='space-y-3'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Shield className='h-4 w-4' />
                         Allergies
                       </h3>
-                      <div className="text-sm space-y-2">
-                        {selectedMedicalHistory.medication && selectedMedicalHistory.medication_type && (
-                          <div>
-                            <span className="font-medium">Medication: </span>
-                            <span>{selectedMedicalHistory.medication_type}</span>
-                          </div>
-                        )}
-                        {selectedMedicalHistory.food && selectedMedicalHistory.food_type && (
-                          <div>
-                            <span className="font-medium">Food: </span>
-                            <span>{selectedMedicalHistory.food_type}</span>
-                          </div>
-                        )}
+                      <div className='text-sm space-y-2'>
+                        {selectedMedicalHistory.medication &&
+                          selectedMedicalHistory.medication_type && (
+                            <div>
+                              <span className='font-medium'>Medication: </span>
+                              <span>
+                                {selectedMedicalHistory.medication_type}
+                              </span>
+                            </div>
+                          )}
+                        {selectedMedicalHistory.food &&
+                          selectedMedicalHistory.food_type && (
+                            <div>
+                              <span className='font-medium'>Food: </span>
+                              <span>{selectedMedicalHistory.food_type}</span>
+                            </div>
+                          )}
                       </div>
                     </div>
                   )}
 
                   {/* Family History */}
                   {selectedMedicalHistory.family_conditions && (
-                    <div className="space-y-3">
-                      <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                    <div className='space-y-3'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                         Family History
                       </h3>
-                      <div className="p-3 bg-muted/50 rounded-lg">
-                        <p className="text-sm">{selectedMedicalHistory.family_conditions}</p>
+                      <div className='p-3 bg-muted/50 rounded-lg'>
+                        <p className='text-sm'>
+                          {selectedMedicalHistory.family_conditions}
+                        </p>
                       </div>
                     </div>
                   )}
 
                   {/* Surgery History */}
                   {selectedMedicalHistory.surgery && (
-                    <div className="space-y-3">
-                      <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                    <div className='space-y-3'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                         Surgery History
                       </h3>
-                      <div className="text-sm space-y-2">
+                      <div className='text-sm space-y-2'>
                         {selectedMedicalHistory.surgery_type && (
                           <div>
-                            <span className="font-medium">Type: </span>
+                            <span className='font-medium'>Type: </span>
                             <span>{selectedMedicalHistory.surgery_type}</span>
                           </div>
                         )}
                         {selectedMedicalHistory.surgery_year && (
                           <div>
-                            <span className="font-medium">Year: </span>
+                            <span className='font-medium'>Year: </span>
                             <span>{selectedMedicalHistory.surgery_year}</span>
                           </div>
                         )}
@@ -1170,45 +1380,67 @@ export default function MedicalHistoryPage() {
 
                   {/* Recommendations */}
                   {selectedMedicalHistory.recommendation_text && (
-                    <div className="space-y-3">
-                      <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                    <div className='space-y-3'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                         Recommendations
                       </h3>
-                      <div className="p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                        <p className="text-sm text-blue-800">{selectedMedicalHistory.recommendation_text}</p>
+                      <div className='p-3 bg-blue-50 border border-blue-200 rounded-lg'>
+                        <p className='text-sm text-blue-800'>
+                          {selectedMedicalHistory.recommendation_text}
+                        </p>
                       </div>
                     </div>
                   )}
 
                   {/* System Information */}
-                  <div className="space-y-3">
-                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                       Record Information
                     </h3>
-                    <div className="grid grid-cols-1 gap-3 text-sm">
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Created:</span>
-                        <span className="font-medium">{formatDate(selectedMedicalHistory.date_created)}</span>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Created:
+                        </span>
+                        <span className='font-medium'>
+                          {formatDate(selectedMedicalHistory.date_created)}
+                        </span>
                       </div>
                       {selectedMedicalHistory.created_by_name && (
-                        <div className="flex gap-2">
-                          <span className="text-muted-foreground min-w-[120px]">Created By:</span>
-                          <span className="font-medium">{selectedMedicalHistory.created_by_name}</span>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Created By:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedMedicalHistory.created_by_name}
+                          </span>
                         </div>
                       )}
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Last Updated:</span>
-                        <span className="font-medium">{formatDate(selectedMedicalHistory.date_updated)}</span>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Last Updated:
+                        </span>
+                        <span className='font-medium'>
+                          {formatDate(selectedMedicalHistory.date_updated)}
+                        </span>
                       </div>
                       {selectedMedicalHistory.updated_by_name && (
-                        <div className="flex gap-2">
-                          <span className="text-muted-foreground min-w-[120px]">Updated By:</span>
-                          <span className="font-medium">{selectedMedicalHistory.updated_by_name}</span>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Updated By:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedMedicalHistory.updated_by_name}
+                          </span>
                         </div>
                       )}
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Record ID:</span>
-                        <span className="font-mono text-xs">{selectedMedicalHistory.id}</span>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Record ID:
+                        </span>
+                        <span className='font-mono text-xs'>
+                          {selectedMedicalHistory.id}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -1220,35 +1452,37 @@ export default function MedicalHistoryPage() {
 
         {/* Edit Dialog - Similar structure to Create Dialog */}
         <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
-          <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
             <DialogHeader>
               <DialogTitle>Edit Medical History</DialogTitle>
               <DialogDescription>
                 Update medical history information
               </DialogDescription>
             </DialogHeader>
-            
-            <Tabs defaultValue="conditions" className="space-y-4">
-              <TabsList className="grid w-full grid-cols-5">
-                <TabsTrigger value="conditions">Conditions</TabsTrigger>
-                <TabsTrigger value="allergies">Allergies</TabsTrigger>
-                <TabsTrigger value="medications">Medications</TabsTrigger>
-                <TabsTrigger value="family">Family History</TabsTrigger>
-                <TabsTrigger value="surgery">Surgery</TabsTrigger>
+
+            <Tabs defaultValue='conditions' className='space-y-4'>
+              <TabsList className='grid w-full grid-cols-5'>
+                <TabsTrigger value='conditions'>Conditions</TabsTrigger>
+                <TabsTrigger value='allergies'>Allergies</TabsTrigger>
+                <TabsTrigger value='medications'>Medications</TabsTrigger>
+                <TabsTrigger value='family'>Family History</TabsTrigger>
+                <TabsTrigger value='surgery'>Surgery</TabsTrigger>
               </TabsList>
-              
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <Label htmlFor="edit_employee_id">Employee</Label>
+
+              <div className='space-y-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_employee_id'>Employee</Label>
                   <Select
                     value={formData.employee_id || ''}
-                    onValueChange={(value) => setFormData({...formData, employee_id: value})}
+                    onValueChange={value =>
+                      setFormData({ ...formData, employee_id: value })
+                    }
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder="Select employee" />
+                      <SelectValue placeholder='Select employee' />
                     </SelectTrigger>
                     <SelectContent>
-                      {employees.map((employee) => (
+                      {employees.map(employee => (
                         <SelectItem key={employee.id} value={employee.id}>
                           {employee.name} {employee.surname}
                         </SelectItem>
@@ -1258,72 +1492,91 @@ export default function MedicalHistoryPage() {
                 </div>
               </div>
 
-              <TabsContent value="conditions" className="space-y-4">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex items-center space-x-2">
+              <TabsContent value='conditions' className='space-y-4'>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="edit_high_blood_pressure"
+                      type='checkbox'
+                      id='edit_high_blood_pressure'
                       checked={formData.high_blood_pressure || false}
-                      onChange={(e) => setFormData({...formData, high_blood_pressure: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          high_blood_pressure: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="edit_high_blood_pressure">High Blood Pressure</Label>
+                    <Label htmlFor='edit_high_blood_pressure'>
+                      High Blood Pressure
+                    </Label>
                   </div>
-                  
-                  <div className="flex items-center space-x-2">
+
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="edit_diabetes"
+                      type='checkbox'
+                      id='edit_diabetes'
                       checked={formData.diabetes || false}
-                      onChange={(e) => setFormData({...formData, diabetes: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({ ...formData, diabetes: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="edit_diabetes">Diabetes</Label>
+                    <Label htmlFor='edit_diabetes'>Diabetes</Label>
                   </div>
-                  
-                  <div className="flex items-center space-x-2">
+
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="edit_asthma"
+                      type='checkbox'
+                      id='edit_asthma'
                       checked={formData.asthma || false}
-                      onChange={(e) => setFormData({...formData, asthma: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({ ...formData, asthma: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="edit_asthma">Asthma</Label>
+                    <Label htmlFor='edit_asthma'>Asthma</Label>
                   </div>
-                  
-                  <div className="flex items-center space-x-2">
+
+                  <div className='flex items-center space-x-2'>
                     <input
-                      type="checkbox"
-                      id="edit_anxiety_or_depression"
+                      type='checkbox'
+                      id='edit_anxiety_or_depression'
                       checked={formData.anxiety_or_depression || false}
-                      onChange={(e) => setFormData({...formData, anxiety_or_depression: e.target.checked})}
-                      className="rounded border-gray-300"
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          anxiety_or_depression: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
                     />
-                    <Label htmlFor="edit_anxiety_or_depression">Anxiety/Depression</Label>
+                    <Label htmlFor='edit_anxiety_or_depression'>
+                      Anxiety/Depression
+                    </Label>
                   </div>
                 </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="edit_notes_text">Notes</Label>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_notes_text'>Notes</Label>
                   <Textarea
-                    id="edit_notes_text"
+                    id='edit_notes_text'
                     value={formData.notes_text || ''}
-                    onChange={(e) => setFormData({...formData, notes_text: e.target.value})}
-                    placeholder="Additional notes about conditions"
+                    onChange={e =>
+                      setFormData({ ...formData, notes_text: e.target.value })
+                    }
+                    placeholder='Additional notes about conditions'
                     rows={3}
                   />
                 </div>
               </TabsContent>
 
               {/* Similar content for other tabs... */}
-
             </Tabs>
-            
-            <div className="flex justify-end gap-2">
+
+            <div className='flex justify-end gap-2'>
               <Button
-                variant="outline"
+                variant='outline'
                 onClick={() => {
                   setIsEditDialogOpen(false);
                   setFormData({});
@@ -1332,10 +1585,58 @@ export default function MedicalHistoryPage() {
                 Cancel
               </Button>
               <Button onClick={handleEditMedicalHistory} disabled={submitting}>
-                {submitting && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
+                {submitting && (
+                  <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                )}
                 Update Medical History
               </Button>
             </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Confirmation Modal */}
+        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <Trash2 className='h-5 w-5 text-destructive' />
+                Delete Medical History
+              </DialogTitle>
+              <DialogDescription>
+                Are you sure you want to delete the medical history for{' '}
+                <span className='font-medium'>
+                  {deletingMedicalHistory
+                    ? deletingMedicalHistory.employee_name || 'Unknown Employee'
+                    : ''}
+                </span>
+                ? This action cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setIsDeleteModalOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={handleDelete}
+                disabled={submitting}
+              >
+                {submitting ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Medical History
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
           </DialogContent>
         </Dialog>
       </div>

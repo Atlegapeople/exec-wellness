@@ -61,7 +61,7 @@ export default function EmployeeDocuments({ employeeId }: EmployeeDocumentsProps
           variant={documentsData.has_records ? "default" : "secondary"}
           className="text-xs"
         >
-          {documentsData.record_count} files
+          {documentsData.record_count} documents
         </Badge>
       </div>
       
@@ -70,8 +70,8 @@ export default function EmployeeDocuments({ employeeId }: EmployeeDocumentsProps
           <div className="flex items-center gap-2 text-xs text-gray-600">
             <span>
               {documentsData.has_records 
-                ? `${documentsData.record_count} document${documentsData.record_count !== 1 ? 's' : ''} available`
-                : 'No documents uploaded'
+                ? `${documentsData.record_count} document${documentsData.record_count !== 1 ? 's' : ''} on file`
+                : 'No documents available'
               }
             </span>
           </div>

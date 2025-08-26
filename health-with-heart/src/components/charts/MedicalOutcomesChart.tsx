@@ -281,7 +281,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
                     <h4 className="text-sm font-medium mb-3 text-gray-700">Age Group Breakdown</h4>
                     <div className="space-y-2">
                       {data.ageGroups.map((group, index) => (
-                        <div key={group.age_group} className="flex justify-between items-center p-3 border rounded-lg">
+                        <div key={`age-group-${index}-${group.age_group}`} className="flex justify-between items-center p-3 border rounded-lg">
                           <div className="flex items-center gap-3">
                             <div 
                               className="w-3 h-3 rounded-full" 

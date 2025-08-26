@@ -37,6 +37,7 @@ import {
   Trash2,
   Plus
 } from 'lucide-react';
+import Employee360View from '@/components/Employee360View';
 
 interface MedicalReport {
   id: string;
@@ -681,6 +682,10 @@ export default function MyDashboard() {
           >
             {selectedReport && (
               <>
+
+
+                 
+
                 {/* Form Header Card */}
                 <Card className="glass-effect">
                   <CardContent className="p-4 min-h-[120px] flex items-center">
@@ -1600,8 +1605,8 @@ export default function MyDashboard() {
               <CardDescription>Workplaces with most employees examined</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              {dashboardData?.topWorkplaces.map((workplace) => (
-                <div key={workplace.workplace} className="p-4 rounded-lg border">
+              {dashboardData?.topWorkplaces.map((workplace, index) => (
+                <div key={`workplace-${index}-${workplace.workplace}`} className="p-4 rounded-lg border">
                   <div className="flex items-start justify-between">
                     <div className="space-y-1">
                       <h4 className="font-medium">{workplace.workplace}</h4>

@@ -550,7 +550,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
           <CardContent>
             <div className="space-y-3">
               {topPerformers.slice(0, 5).map((staff, index) => (
-                <div key={staff.staff_name} className="flex items-center justify-between p-3 border rounded-lg">
+                <div key={`staff-${index}-${staff.staff_name}`} className="flex items-center justify-between p-3 border rounded-lg">
                   <div className="flex items-center space-x-3">
                     <div className="flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full">
                       <span className="text-sm font-semibold text-blue-600">{index + 1}</span>

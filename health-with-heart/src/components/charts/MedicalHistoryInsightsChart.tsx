@@ -257,7 +257,7 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
                 .filter((condition: any) => condition.yesCount > 0)
                 .slice(0, 20)
                 .map((condition: any, index: number) => (
-                <div key={condition.condition} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
+                <div key={`condition-${index}-${condition.condition}`} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
                   <div className="flex-1">
                     <div className="text-sm font-medium">
                       {condition.condition ? 

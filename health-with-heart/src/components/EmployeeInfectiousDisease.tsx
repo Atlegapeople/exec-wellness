@@ -65,7 +65,7 @@ export default function EmployeeInfectiousDisease({ employeeId }: EmployeeInfect
           variant={infectiousData.has_records ? "destructive" : "secondary"}
           className="text-xs"
         >
-          {infectiousData.record_count} records
+          {infectiousData.record_count} screenings
         </Badge>
       </div>
       
@@ -78,8 +78,8 @@ export default function EmployeeInfectiousDisease({ employeeId }: EmployeeInfect
           <div className="flex items-center gap-2 text-xs text-gray-600">
             <span>
               {infectiousData.has_records 
-                ? `${infectiousData.record_count} infectious disease record${infectiousData.record_count !== 1 ? 's' : ''} on file`
-                : 'No infectious disease records'
+                ? `${infectiousData.record_count} infectious disease screening${infectiousData.record_count !== 1 ? 's' : ''} completed`
+                : 'No infectious disease screenings'
               }
             </span>
           </div>

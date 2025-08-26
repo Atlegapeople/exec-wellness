@@ -22,15 +22,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
+import DashboardLayout from '@/components/DashboardLayout';
 import {
   Dialog,
   DialogContent,
@@ -40,7 +32,15 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
-import DashboardLayout from '@/components/DashboardLayout';
+import { Label } from '@/components/ui/label';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import { Textarea } from '@/components/ui/textarea';
 import {
   Search,
   Calendar,
@@ -55,12 +55,10 @@ import {
   ChevronsRight,
   CalendarDays,
   Edit,
-  CheckCircle,
-  Loader2,
   Plus,
-  Trash2,
-  AlertCircle,
   Save,
+  Loader2,
+  Trash2,
 } from 'lucide-react';
 
 interface AppointmentWithEmployee extends Appointment {
@@ -83,9 +81,6 @@ interface PaginationInfo {
 export default function AppointmentsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-
-  // Extract employee ID from URL if present
-  const employeeId = searchParams.get('employee');
 
   const [allAppointments, setAllAppointments] = useState<
     AppointmentWithEmployee[]
@@ -114,29 +109,99 @@ export default function AppointmentsPage() {
   const [leftWidth, setLeftWidth] = useState(40);
   const [isResizing, setIsResizing] = useState(false);
 
-  // Section-specific edit states
-  const [isEmployeeEditOpen, setIsEmployeeEditOpen] = useState(false);
-  const [isAppointmentEditOpen, setIsAppointmentEditOpen] = useState(false);
-  const [isReportEditOpen, setIsReportEditOpen] = useState(false);
-  const [isCalendarEditOpen, setIsCalendarEditOpen] = useState(false);
-  const [isNotesEditOpen, setIsNotesEditOpen] = useState(false);
+  // Edit states for each section
+  const [isEditingAppointment, setIsEditingAppointment] = useState(false);
+  const [isEditingReport, setIsEditingReport] = useState(false);
+  const [isEditingCalendar, setIsEditingCalendar] = useState(false);
+  const [isEditingRecord, setIsEditingRecord] = useState(false);
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
 
-  // Form data for editing
-  const [formData, setFormData] = useState<any>({});
-  const [formLoading, setFormLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
-
-  // Create appointment modal state
+  // Modal states
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
-  const [createFormData, setCreateFormData] = useState<any>({});
-  const [createLoading, setCreateLoading] = useState(false);
+  const [formData, setFormData] = useState<Partial<Appointment>>({});
+  const [formLoading, setFormLoading] = useState(false);
   const [employees, setEmployees] = useState<any[]>([]);
 
-  // Edit and delete modal state
-  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  // Delete state
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
-  const [editingAppointment, setEditingAppointment] =
+  const [deletingAppointment, setDeletingAppointment] =
     useState<AppointmentWithEmployee | null>(null);
+
+  // Fetch employees for dropdown
+  const fetchEmployees = async () => {
+    try {
+      const response = await fetch('/api/employees?limit=1000');
+      const data = await response.json();
+      setEmployees(data.employees || []);
+    } catch (error) {
+      console.error('Error fetching employees:', error);
+    }
+  };
+
+  // CRUD functions
+  const handleCreate = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/appointments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setIsCreateModalOpen(false);
+        setFormData({});
+        await fetchAllAppointments();
+      } else {
+        const error = await response.json();
+        console.error('Create failed:', error);
+      }
+    } catch (error) {
+      console.error('Error creating appointment:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const openCreateModal = () => {
+    setFormData({});
+    setIsCreateModalOpen(true);
+  };
+
+  const openDeleteModal = (appointment: AppointmentWithEmployee) => {
+    setDeletingAppointment(appointment);
+    setIsDeleteModalOpen(true);
+  };
+
+  const handleDelete = async () => {
+    if (!deletingAppointment) return;
+
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/appointments?id=${deletingAppointment.id}`,
+        {
+          method: 'DELETE',
+        }
+      );
+
+      if (response.ok) {
+        setIsDeleteModalOpen(false);
+        setDeletingAppointment(null);
+        if (selectedAppointment?.id === deletingAppointment.id) {
+          setSelectedAppointment(null);
+        }
+        await fetchAllAppointments();
+      } else {
+        const error = await response.json();
+        console.error('Delete failed:', error);
+      }
+    } catch (error) {
+      console.error('Error deleting appointment:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
 
   // Fetch all appointments data once
   const fetchAllAppointments = async () => {
@@ -154,17 +219,6 @@ export default function AppointmentsPage() {
       console.error('Error fetching appointments:', error);
     } finally {
       setLoading(false);
-    }
-  };
-
-  // Fetch employees for create form
-  const fetchEmployees = async () => {
-    try {
-      const response = await fetch('/api/employees');
-      const data = await response.json();
-      setEmployees(data.employees || []);
-    } catch (error) {
-      console.error('Error fetching employees:', error);
     }
   };
 
@@ -188,24 +242,6 @@ export default function AppointmentsPage() {
     },
     []
   );
-
-  // Helper function to find appointment by employee ID
-  // If multiple appointments exist for the same employee, select the first one
-  const findAppointmentByEmployeeId = (
-    appointments: AppointmentWithEmployee[],
-    employeeId: string
-  ): AppointmentWithEmployee | null => {
-    const employeeAppointments = appointments.filter(
-      appointment => appointment.employee_id === employeeId
-    );
-
-    if (employeeAppointments.length === 0) {
-      return null;
-    }
-
-    // If multiple appointments exist, select the first one
-    return employeeAppointments[0];
-  };
 
   // Client-side pagination
   const paginateAppointments = useCallback(
@@ -257,19 +293,6 @@ export default function AppointmentsPage() {
     fetchEmployees();
   }, []);
 
-  // Auto-select appointment when employeeId is in URL and appointments are loaded
-  useEffect(() => {
-    if (employeeId && allAppointments.length > 0 && !selectedAppointment) {
-      const appointmentToSelect = findAppointmentByEmployeeId(
-        allAppointments,
-        employeeId
-      );
-      if (appointmentToSelect) {
-        setSelectedAppointment(appointmentToSelect);
-      }
-    }
-  }, [employeeId, allAppointments, selectedAppointment]);
-
   // Handle filtering when search term or all appointments change
   useEffect(() => {
     const filtered = filterAppointments(allAppointments, searchTerm);
@@ -279,17 +302,6 @@ export default function AppointmentsPage() {
     const page = searchTerm ? 1 : parseInt(searchParams.get('page') || '1');
     const paginated = paginateAppointments(filtered, page, pagination.limit);
     setDisplayedAppointments(paginated);
-
-    // Auto-select appointment if employeeId is in URL and no appointment is currently selected
-    if (employeeId && !selectedAppointment && filtered.length > 0) {
-      const appointmentToSelect = findAppointmentByEmployeeId(
-        filtered,
-        employeeId
-      );
-      if (appointmentToSelect) {
-        setSelectedAppointment(appointmentToSelect);
-      }
-    }
   }, [
     allAppointments,
     searchTerm,
@@ -297,8 +309,6 @@ export default function AppointmentsPage() {
     paginateAppointments,
     pagination.limit,
     searchParams,
-    employeeId,
-    selectedAppointment,
   ]);
 
   // Handle page changes from URL
@@ -316,15 +326,14 @@ export default function AppointmentsPage() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    updateURL(1, searchTerm, employeeId || undefined);
+    updateURL(1, searchTerm);
   };
 
   const updateURL = useCallback(
-    (page: number, search: string, employeeId?: string) => {
+    (page: number, search: string) => {
       const params = new URLSearchParams();
       if (page > 1) params.set('page', page.toString());
       if (search) params.set('search', search);
-      if (employeeId) params.set('employee', employeeId);
 
       const newURL = `/appointments${params.toString() ? `?${params.toString()}` : ''}`;
       router.replace(newURL, { scroll: false });
@@ -333,14 +342,12 @@ export default function AppointmentsPage() {
   );
 
   const handlePageChange = (newPage: number) => {
-    updateURL(newPage, searchTerm, employeeId || undefined);
+    updateURL(newPage, searchTerm);
     transitionToPage(newPage);
   };
 
   const handleAppointmentClick = (appointment: AppointmentWithEmployee) => {
     setSelectedAppointment(appointment);
-    // Update URL to include employee ID
-    updateURL(pagination.page, searchTerm, appointment.employee_id);
   };
 
   const formatDate = (date: Date | string | undefined) => {
@@ -384,276 +391,6 @@ export default function AppointmentsPage() {
   const handleMouseUp = useCallback(() => {
     setIsResizing(false);
   }, []);
-
-  // Create new appointment
-  const handleCreateAppointment = async () => {
-    try {
-      setCreateLoading(true);
-
-      const response = await fetch('/api/appointments', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...createFormData,
-          user_created: 'system', // You can replace this with actual user ID
-        }),
-      });
-
-      if (response.ok) {
-        const result = await response.json();
-        console.log('Appointment created successfully:', result);
-
-        // Close modal and reset form
-        setIsCreateModalOpen(false);
-        setCreateFormData({});
-
-        // Refresh appointments and select the new one
-        await fetchAllAppointments();
-
-        // Find and select the new appointment
-        const newAppointment = allAppointments.find(
-          apt => apt.id === result.appointment.id
-        );
-        if (newAppointment) {
-          setSelectedAppointment(newAppointment);
-          updateURL(pagination.page, searchTerm, newAppointment.employee_id);
-        }
-
-        setSuccessMessage('Appointment created successfully!');
-        setTimeout(() => setSuccessMessage(null), 3000);
-      } else {
-        const error = await response.json();
-        console.error('Failed to create appointment:', error);
-        alert('Failed to create appointment: ' + error.error);
-      }
-    } catch (error) {
-      console.error('Error creating appointment:', error);
-      alert('Error creating appointment');
-    } finally {
-      setCreateLoading(false);
-    }
-  };
-
-  // Delete appointment
-  const handleDeleteAppointment = async () => {
-    if (!editingAppointment?.id) return;
-
-    try {
-      setFormLoading(true);
-
-      const response = await fetch(
-        `/api/appointments?id=${editingAppointment.id}`,
-        {
-          method: 'DELETE',
-        }
-      );
-
-      if (response.ok) {
-        const result = await response.json();
-        console.log('Appointment deleted successfully:', result);
-
-        // Close the modal and reset state
-        setIsDeleteModalOpen(false);
-        setEditingAppointment(null);
-
-        // Close the appointment details if it was the selected one
-        if (selectedAppointment?.id === editingAppointment?.id) {
-          setSelectedAppointment(null);
-          updateURL(pagination.page, searchTerm);
-        }
-
-        // Refresh appointments
-        await fetchAllAppointments();
-
-        setSuccessMessage('Appointment deleted successfully!');
-        setTimeout(() => setSuccessMessage(null), 3000);
-      } else {
-        let errorMessage = 'Failed to delete appointment';
-        try {
-          const error = await response.json();
-          errorMessage +=
-            ': ' + (error.error || error.message || 'Unknown error');
-        } catch (parseError) {
-          errorMessage += `: HTTP ${response.status} - ${response.statusText}`;
-        }
-        console.error('Failed to delete appointment:', errorMessage);
-        alert(errorMessage);
-      }
-    } catch (error) {
-      console.error('Error deleting appointment:', error);
-      alert('Error deleting appointment');
-    } finally {
-      setFormLoading(false);
-    }
-  };
-
-  const openCreateModal = () => {
-    setCreateFormData({});
-    setIsCreateModalOpen(true);
-  };
-
-  const openEditModal = (appointment: AppointmentWithEmployee) => {
-    setEditingAppointment(appointment);
-    setFormData(appointment);
-    setIsEditModalOpen(true);
-  };
-
-  const openDeleteModal = (appointment: AppointmentWithEmployee) => {
-    setEditingAppointment(appointment);
-    setIsDeleteModalOpen(true);
-  };
-
-  // Initialize form data when entering edit mode
-  const handleEditClick = (sectionName: string) => {
-    // Initialize form data with current values
-    setFormData({
-      id: selectedAppointment?.id,
-      employee_name: selectedAppointment?.employee_name,
-      employee_surname: selectedAppointment?.employee_surname,
-      employee_email: selectedAppointment?.employee_email,
-      type: selectedAppointment?.type,
-      start_date: selectedAppointment?.start_date,
-      end_date: selectedAppointment?.end_date,
-      start_time: selectedAppointment?.start_time,
-      end_time: selectedAppointment?.end_time,
-      start_datetime: selectedAppointment?.start_datetime,
-      end_datetime: selectedAppointment?.end_datetime,
-      notes: selectedAppointment?.notes,
-      calander_id: selectedAppointment?.calander_id,
-      calander_link: selectedAppointment?.calander_link,
-      report_id: selectedAppointment?.report_id,
-    });
-
-    // Open the appropriate edit mode
-    switch (sectionName) {
-      case 'employee':
-        setIsEmployeeEditOpen(true);
-        break;
-      case 'appointment':
-        setIsAppointmentEditOpen(true);
-        break;
-      case 'report':
-        setIsReportEditOpen(true);
-        break;
-      case 'calendar':
-        setIsCalendarEditOpen(true);
-        break;
-      case 'notes':
-        setIsNotesEditOpen(true);
-        break;
-    }
-  };
-
-  // Save section-specific data
-  const handleSectionSave = async (sectionName: string) => {
-    if (!selectedAppointment?.id) {
-      console.error('No appointment record selected for saving');
-      return;
-    }
-
-    try {
-      setFormLoading(true);
-
-      // Start with the complete existing record to preserve all data
-      let updateData: any = { ...selectedAppointment };
-
-      // Only update the specific fields for the section being edited
-      switch (sectionName) {
-        case 'employee':
-          if (formData.employee_name !== undefined)
-            updateData.employee_name = formData.employee_name;
-          if (formData.employee_surname !== undefined)
-            updateData.employee_surname = formData.employee_surname;
-          if (formData.employee_email !== undefined)
-            updateData.employee_email = formData.employee_email;
-          break;
-        case 'appointment':
-          if (formData.type !== undefined) updateData.type = formData.type;
-          if (formData.start_date !== undefined)
-            updateData.start_date = formData.start_date;
-          if (formData.end_date !== undefined)
-            updateData.end_date = formData.end_date;
-          if (formData.start_time !== undefined)
-            updateData.start_time = formData.start_time;
-          if (formData.end_time !== undefined)
-            updateData.end_time = formData.end_time;
-          if (formData.start_datetime !== undefined)
-            updateData.start_datetime = formData.start_datetime;
-          if (formData.end_datetime !== undefined)
-            updateData.end_datetime = formData.end_datetime;
-          break;
-        case 'report':
-          if (formData.report_id !== undefined)
-            updateData.report_id = formData.report_id;
-          break;
-        case 'calendar':
-          if (formData.calander_id !== undefined)
-            updateData.calander_id = formData.calander_id;
-          if (formData.calander_link !== undefined)
-            updateData.calander_link = formData.calander_link;
-          break;
-        case 'notes':
-          if (formData.notes !== undefined) updateData.notes = formData.notes;
-          break;
-        default:
-          console.error(`Unknown section: ${sectionName}`);
-          return;
-      }
-
-      console.log(`Saving ${sectionName} data:`, updateData);
-
-      const response = await fetch('/api/appointments', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(updateData),
-      });
-
-      if (response.ok) {
-        const updatedAppointment = await response.json();
-        console.log(`${sectionName} saved successfully:`, updatedAppointment);
-
-        // Update the selected appointment with new data
-        setSelectedAppointment(
-          updatedAppointment.appointment || updatedAppointment
-        );
-
-        // Refresh all appointments to get updated data
-        await fetchAllAppointments();
-
-        // Close the edit mode for the specific section
-        switch (sectionName) {
-          case 'employee':
-            setIsEmployeeEditOpen(false);
-            break;
-          case 'appointment':
-            setIsAppointmentEditOpen(false);
-            break;
-          case 'report':
-            setIsReportEditOpen(false);
-            break;
-          case 'calendar':
-            setIsCalendarEditOpen(false);
-            break;
-          case 'notes':
-            setIsNotesEditOpen(false);
-            break;
-        }
-
-        setFormData({});
-        setSuccessMessage(
-          `${sectionName.charAt(0).toUpperCase() + sectionName.slice(1)} section updated successfully!`
-        );
-        setTimeout(() => setSuccessMessage(null), 3000);
-      } else {
-        const error = await response.json();
-        console.error(`${sectionName} save failed:`, error);
-      }
-    } catch (error) {
-      console.error(`Error saving ${sectionName} data:`, error);
-    } finally {
-      setFormLoading(false);
-    }
-  };
 
   useEffect(() => {
     if (isResizing) {
@@ -718,7 +455,7 @@ export default function AppointmentsPage() {
                       variant='outline'
                       onClick={() => {
                         setSearchTerm('');
-                        updateURL(1, '', employeeId || undefined);
+                        updateURL(1, '');
                       }}
                       className='hover-lift'
                     >
@@ -732,7 +469,7 @@ export default function AppointmentsPage() {
             {/* Appointments Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <div className='flex justify-between items-start'>
+                <div className='flex items-center justify-between'>
                   <div>
                     <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
                       <CalendarDays className='h-6 w-6' />
@@ -742,19 +479,9 @@ export default function AppointmentsPage() {
                       Medical appointment scheduling and records
                     </CardDescription>
                   </div>
-                  <Button
-                    onClick={() => setIsCreateModalOpen(true)}
-                    className={`hover-lift transition-all duration-300 ease-in-out ${
-                      selectedAppointment
-                        ? 'w-12 h-12 rounded-full p-0'
-                        : 'px-4 py-2'
-                    }`}
-                    size='sm'
-                  >
-                    <Plus
-                      className={`${selectedAppointment ? 'h-5 w-5' : 'h-4 w-4 mr-2'}`}
-                    />
-                    {!selectedAppointment && <span>New Appointment</span>}
+                  <Button onClick={openCreateModal} className='hover-lift'>
+                    <Plus className='h-4 w-4 mr-2' />
+                    Add New Appointment
                   </Button>
                 </div>
               </CardHeader>
@@ -894,13 +621,17 @@ export default function AppointmentsPage() {
                           ),
                         },
                         (_, i) => {
-                          const startPage = Math.max(1, pagination.page - 2);
+                          const startPage = Math.max(
+                            1,
+                            pagination.page -
+                              (selectedAppointment && leftWidth < 50 ? 1 : 2)
+                          );
                           const page = startPage + i;
                           if (page > pagination.totalPages) return null;
 
                           return (
                             <Button
-                              key={`employees-page-${page}`}
+                              key={`appointments-page-${page}`}
                               variant={
                                 page === pagination.page ? 'default' : 'outline'
                               }
@@ -924,10 +655,12 @@ export default function AppointmentsPage() {
                         className='hover-lift'
                         title='Go to next page'
                       >
-                        <span className='hidden sm:inline mr-1'>Next</span>
-                        <ChevronRight
-                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        />
+                        <span
+                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                        >
+                          Next
+                        </span>
+                        <ChevronRight className='h-4 w-4' />
                       </Button>
 
                       {/* Last Page */}
@@ -939,10 +672,12 @@ export default function AppointmentsPage() {
                         className='hover-lift'
                         title='Go to last page'
                       >
-                        <span className='hidden sm:inline mr-1'>Last</span>
-                        <ChevronsRight
-                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        />
+                        <span
+                          className={`${selectedAppointment && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                        >
+                          Last
+                        </span>
+                        <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
                   </div>
@@ -1000,793 +735,516 @@ export default function AppointmentsPage() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => openEditModal(selectedAppointment!)}
-                        className='hover-lift'
-                        title='Edit appointment details'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => openDeleteModal(selectedAppointment!)}
-                        className='hover-lift text-red-600 hover:text-red-700 hover:bg-red-50'
+                        onClick={() => openDeleteModal(selectedAppointment)}
+                        className='hover-lift text-destructive hover:text-destructive hover:bg-destructive/10'
                         title='Delete appointment'
-                        disabled={formLoading}
                       >
                         <Trash2 className='h-4 w-4' />
                       </Button>
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => {
-                          setSelectedAppointment(null);
-                          // Remove employeeId from URL when closing appointment
-                          updateURL(pagination.page, searchTerm);
-                        }}
+                        onClick={() => setSelectedAppointment(null)}
                         className='hover-lift'
-                        title='Close appointment record'
+                        title='Close details'
                       >
                         <X className='h-4 w-4' />
                       </Button>
                     </div>
                   </div>
                 </CardHeader>
-
-                {/* Success Message */}
-                {successMessage && (
-                  <div className='px-6 pt-0 pb-3'>
-                    <div className='p-3 bg-green-50 border border-green-200 rounded-lg'>
-                      <div className='flex items-center gap-2 text-green-700'>
-                        <CheckCircle className='h-4 w-4' />
-                        <span className='text-sm font-medium'>
-                          {successMessage}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Employee Information */}
                   <div className='space-y-3'>
-                    <div className='flex justify-between items-center'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <User className='h-4 w-4' />
-                        Employee Information
-                      </h3>
-                      {!isEmployeeEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => handleEditClick('employee')}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit employee information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            onClick={() => {
-                              setIsEmployeeEditOpen(false);
-                              setFormData({});
-                            }}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('employee')}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <User className='h-4 w-4' />
+                      Employee Information
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Name:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedAppointment.employee_name}{' '}
+                          {selectedAppointment.employee_surname}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Email:
+                        </span>
+                        <span className='font-medium text-xs break-all'>
+                          {selectedAppointment.employee_email || 'N/A'}
+                        </span>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Employee ID:
+                        </span>
+                        <Badge variant='outline'>
+                          {selectedAppointment.employee_id}
+                        </Badge>
+                      </div>
                     </div>
-
-                    {!isEmployeeEditOpen ? (
-                      // Display current employee information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Name:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedAppointment.employee_name}{' '}
-                            {selectedAppointment.employee_surname}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Email:
-                          </span>
-                          <span className='font-medium text-xs break-all'>
-                            {selectedAppointment.employee_email || 'N/A'}
-                          </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Employee ID:
-                          </span>
-                          <Badge variant='outline'>
-                            {selectedAppointment.employee_id}
-                          </Badge>
-                        </div>
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='employee_name'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Name:
-                          </Label>
-                          <Input
-                            id='employee_name'
-                            value={
-                              formData.employee_name !== undefined
-                                ? formData.employee_name
-                                : selectedAppointment.employee_name || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                employee_name: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter employee name'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='employee_surname'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Surname:
-                          </Label>
-                          <Input
-                            id='employee_surname'
-                            value={
-                              formData.employee_surname !== undefined
-                                ? formData.employee_surname
-                                : selectedAppointment.employee_surname || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                employee_surname: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter employee surname'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='employee_email'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Email:
-                          </Label>
-                          <Input
-                            id='employee_email'
-                            value={
-                              formData.employee_email !== undefined
-                                ? formData.employee_email
-                                : selectedAppointment.employee_email || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                employee_email: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter employee email'
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                   <Separator />
 
                   {/* Appointment Details */}
                   <div className='space-y-3'>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <Calendar className='h-4 w-4' />
                         Appointment Details
                       </h3>
-                      {!isAppointmentEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => openEditModal(selectedAppointment!)}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit appointment details'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
+                      <div className='flex gap-2'>
+                        {isEditingAppointment && (
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => {
-                              setIsAppointmentEditOpen(false);
-                              setFormData({});
-                            }}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
+                            className='hover-lift'
+                            onClick={() => setIsEditingAppointment(false)}
                           >
                             Cancel
                           </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('appointment')}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                        )}
+                        <Button
+                          variant={isEditingAppointment ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingAppointment(!isEditingAppointment)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingAppointment ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
                     </div>
-
-                    {!isAppointmentEditOpen ? (
-                      // Display current appointment details
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Type:
-                          </span>
-                          <Badge variant='outline'>
-                            {selectedAppointment.type}
-                          </Badge>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Start Date:
-                          </span>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Type:
+                        </span>
+                        <Badge variant='outline'>
+                          {selectedAppointment.type}
+                        </Badge>
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Start Date:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='date'
+                            defaultValue={
+                              selectedAppointment.start_date
+                                ? new Date(selectedAppointment.start_date)
+                                    .toISOString()
+                                    .split('T')[0]
+                                : ''
+                            }
+                            className='w-40'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatDate(selectedAppointment.start_date)}
                           </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            End Date:
-                          </span>
+                        )}
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          End Date:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='date'
+                            defaultValue={
+                              selectedAppointment.end_date
+                                ? new Date(selectedAppointment.end_date)
+                                    .toISOString()
+                                    .split('T')[0]
+                                : ''
+                            }
+                            className='w-40'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatDate(selectedAppointment.end_date)}
                           </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Start Time:
-                          </span>
+                        )}
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Start Time:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='time'
+                            defaultValue={selectedAppointment.start_time || ''}
+                            className='w-32'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatTime(selectedAppointment.start_time)}
                           </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            End Time:
-                          </span>
+                        )}
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          End Time:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='time'
+                            defaultValue={selectedAppointment.end_time || ''}
+                            className='w-32'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatTime(selectedAppointment.end_time)}
                           </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Start DateTime:
-                          </span>
+                        )}
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Start DateTime:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='datetime-local'
+                            defaultValue={
+                              selectedAppointment.start_datetime
+                                ? new Date(selectedAppointment.start_datetime)
+                                    .toISOString()
+                                    .slice(0, 16)
+                                : ''
+                            }
+                            className='w-48'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatDateTime(selectedAppointment.start_datetime)}
                           </span>
-                        </div>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            End DateTime:
-                          </span>
+                        )}
+                      </div>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          End DateTime:
+                        </span>
+                        {isEditingAppointment ? (
+                          <Input
+                            type='datetime-local'
+                            defaultValue={
+                              selectedAppointment.end_datetime
+                                ? new Date(selectedAppointment.end_datetime)
+                                    .toISOString()
+                                    .slice(0, 16)
+                                : ''
+                            }
+                            className='w-48'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {formatDateTime(selectedAppointment.end_datetime)}
                           </span>
-                        </div>
+                        )}
                       </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='type'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Type:
-                          </Label>
-                          <Badge variant='outline'>
-                            {selectedAppointment.type}
-                          </Badge>
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='start_date'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Start Date:
-                          </Label>
-                          <Input
-                            id='start_date'
-                            type='date'
-                            value={
-                              formData.start_date !== undefined
-                                ? formData.start_date
-                                : selectedAppointment.start_date
-                                  ? new Date(selectedAppointment.start_date)
-                                      .toISOString()
-                                      .split('T')[0]
-                                  : ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                start_date: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='end_date'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            End Date:
-                          </Label>
-                          <Input
-                            id='end_date'
-                            type='date'
-                            value={
-                              formData.end_date !== undefined
-                                ? formData.end_date
-                                : selectedAppointment.end_date
-                                  ? new Date(selectedAppointment.end_date)
-                                      .toISOString()
-                                      .split('T')[0]
-                                  : ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                end_date: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='start_time'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Start Time:
-                          </Label>
-                          <Input
-                            id='start_time'
-                            type='time'
-                            value={
-                              formData.start_time !== undefined
-                                ? formData.start_time
-                                : selectedAppointment.start_time || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                start_time: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                          />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='end_time'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            End Time:
-                          </Label>
-                          <Input
-                            id='end_time'
-                            type='time'
-                            value={
-                              formData.end_time !== undefined
-                                ? formData.end_time
-                                : selectedAppointment.end_time || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                end_time: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                          />
-                        </div>
-                      </div>
-                    )}
+                    </div>
                   </div>
 
                   <Separator />
 
                   {/* Report Information */}
                   <div className='space-y-3'>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <FileText className='h-4 w-4' />
                         Report Information
                       </h3>
-                      {!isReportEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => handleEditClick('report')}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit report information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
+                      <div className='flex gap-2'>
+                        {isEditingReport && (
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => {
-                              setIsReportEditOpen(false);
-                              setFormData({});
-                            }}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
+                            className='hover-lift'
+                            onClick={() => setIsEditingReport(false)}
                           >
                             Cancel
                           </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('report')}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                        )}
+                        <Button
+                          variant={isEditingReport ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingReport(!isEditingReport)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingReport ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
                     </div>
-
-                    {!isReportEditOpen ? (
-                      // Display current report information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Report ID:
-                          </span>
-                          {selectedAppointment.report_id ? (
-                            <Badge variant='default'>
-                              {selectedAppointment.report_id}
-                            </Badge>
-                          ) : (
-                            <Badge variant='secondary'>No Report</Badge>
-                          )}
-                        </div>
-                      </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='report_id'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Report ID:
-                          </Label>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Report ID:
+                        </span>
+                        {isEditingReport ? (
                           <Input
-                            id='report_id'
-                            value={
-                              formData.report_id !== undefined
-                                ? formData.report_id
-                                : selectedAppointment.report_id || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                report_id: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter report ID'
+                            defaultValue={selectedAppointment.report_id || ''}
+                            className='w-48'
+                            placeholder='Report ID'
                           />
-                        </div>
+                        ) : selectedAppointment.report_id ? (
+                          <Badge variant='default'>
+                            {selectedAppointment.report_id}
+                          </Badge>
+                        ) : (
+                          <Badge variant='secondary'>No Report</Badge>
+                        )}
                       </div>
-                    )}
+                    </div>
                   </div>
 
                   <Separator />
 
                   {/* Calendar Information */}
                   <div className='space-y-3'>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <MapPin className='h-4 w-4' />
                         Calendar Information
                       </h3>
-                      {!isCalendarEditOpen ? (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => handleEditClick('calendar')}
-                          className='hover-lift h-8 w-8 p-0'
-                          title='Edit calendar information'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      ) : (
-                        <div className='flex gap-2'>
+                      <div className='flex gap-2'>
+                        {isEditingCalendar && (
                           <Button
                             variant='outline'
                             size='sm'
-                            onClick={() => {
-                              setIsCalendarEditOpen(false);
-                              setFormData({});
-                            }}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
+                            className='hover-lift'
+                            onClick={() => setIsEditingCalendar(false)}
                           >
                             Cancel
                           </Button>
-                          <Button
-                            variant='default'
-                            size='sm'
-                            onClick={() => handleSectionSave('calendar')}
-                            className='hover-lift h-8'
-                            disabled={formLoading}
-                          >
-                            {formLoading ? (
-                              <Loader2 className='h-3 w-3 animate-spin' />
-                            ) : (
-                              'Save'
-                            )}
-                          </Button>
-                        </div>
-                      )}
+                        )}
+                        <Button
+                          variant={isEditingCalendar ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingCalendar(!isEditingCalendar)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingCalendar ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
                     </div>
-
-                    {!isCalendarEditOpen ? (
-                      // Display current calendar information
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Calendar ID:
-                          </span>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Calendar ID:
+                        </span>
+                        {isEditingCalendar ? (
+                          <Input
+                            defaultValue={selectedAppointment.calander_id || ''}
+                            className='w-48'
+                            placeholder='Calendar ID'
+                          />
+                        ) : (
                           <span className='font-medium'>
                             {selectedAppointment.calander_id || 'N/A'}
                           </span>
-                        </div>
-                        {selectedAppointment.calander_link && (
-                          <div className='flex gap-2'>
-                            <span className='text-muted-foreground min-w-[120px]'>
-                              Calendar Link:
-                            </span>
-                            <a
-                              href={selectedAppointment.calander_link}
-                              target='_blank'
-                              rel='noopener noreferrer'
-                              className='text-primary hover:underline text-xs break-all'
-                            >
-                              View in Calendar
-                            </a>
-                          </div>
                         )}
                       </div>
-                    ) : (
-                      // Show input fields for editing
-                      <div className='grid grid-cols-1 gap-3 text-sm'>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='calander_id'
-                            className='text-muted-foreground min-w-[120px] text-xs'
-                          >
-                            Calendar ID:
-                          </Label>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Calendar Link:
+                        </span>
+                        {isEditingCalendar ? (
                           <Input
-                            id='calander_id'
-                            value={
-                              formData.calander_id !== undefined
-                                ? formData.calander_id
-                                : selectedAppointment.calander_id || ''
+                            defaultValue={
+                              selectedAppointment.calander_link || ''
                             }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                calander_id: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter calendar ID'
+                            className='flex-1'
+                            placeholder='Calendar link URL'
                           />
-                        </div>
-                        <div className='flex gap-2 items-center'>
-                          <Label
-                            htmlFor='calander_link'
-                            className='text-muted-foreground min-w-[120px] text-xs'
+                        ) : selectedAppointment.calander_link ? (
+                          <a
+                            href={selectedAppointment.calander_link}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='text-primary hover:underline text-xs break-all'
                           >
-                            Calendar Link:
-                          </Label>
-                          <Input
-                            id='calander_link'
-                            value={
-                              formData.calander_link !== undefined
-                                ? formData.calander_link
-                                : selectedAppointment.calander_link || ''
-                            }
-                            onChange={e =>
-                              setFormData({
-                                ...formData,
-                                calander_link: e.target.value,
-                              })
-                            }
-                            className='h-8 text-sm'
-                            placeholder='Enter calendar link'
-                          />
-                        </div>
+                            View in Calendar
+                          </a>
+                        ) : (
+                          <span className='text-muted-foreground'>No link</span>
+                        )}
                       </div>
-                    )}
+                    </div>
                   </div>
 
                   <Separator />
 
                   {/* System Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Clock className='h-4 w-4' />
-                      Record Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Clock className='h-4 w-4' />
+                        Record Information
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingRecord && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingRecord(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingRecord ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingRecord(!isEditingRecord)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingRecord ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Created:
                         </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedAppointment.date_created)}
-                        </span>
+                        {isEditingRecord ? (
+                          <Input
+                            type='datetime-local'
+                            defaultValue={
+                              selectedAppointment.date_created
+                                ? new Date(selectedAppointment.date_created)
+                                    .toISOString()
+                                    .slice(0, 16)
+                                : ''
+                            }
+                            className='w-48'
+                          />
+                        ) : (
+                          <span className='font-medium'>
+                            {formatDateTime(selectedAppointment.date_created)}
+                          </span>
+                        )}
                       </div>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Created By:
                         </span>
-                        <span className='font-medium'>
-                          {selectedAppointment.created_by_name ||
-                            selectedAppointment.user_created}
-                        </span>
+                        {isEditingRecord ? (
+                          <Input
+                            defaultValue={
+                              selectedAppointment.created_by_name ||
+                              selectedAppointment.user_created ||
+                              ''
+                            }
+                            className='w-48'
+                            placeholder='Created by'
+                          />
+                        ) : (
+                          <span className='font-medium'>
+                            {selectedAppointment.created_by_name ||
+                              selectedAppointment.user_created}
+                          </span>
+                        )}
                       </div>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Last Updated:
                         </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedAppointment.date_updated)}
-                        </span>
+                        {isEditingRecord ? (
+                          <Input
+                            type='datetime-local'
+                            defaultValue={
+                              selectedAppointment.date_updated
+                                ? new Date(selectedAppointment.date_updated)
+                                    .toISOString()
+                                    .slice(0, 16)
+                                : ''
+                            }
+                            className='w-48'
+                          />
+                        ) : (
+                          <span className='font-medium'>
+                            {formatDateTime(selectedAppointment.date_updated)}
+                          </span>
+                        )}
                       </div>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Updated By:
                         </span>
-                        <span className='font-medium'>
-                          {selectedAppointment.updated_by_name ||
-                            selectedAppointment.user_updated}
-                        </span>
+                        {isEditingRecord ? (
+                          <Input
+                            defaultValue={
+                              selectedAppointment.updated_by_name ||
+                              selectedAppointment.user_updated ||
+                              ''
+                            }
+                            className='w-48'
+                            placeholder='Updated by'
+                          />
+                        ) : (
+                          <span className='font-medium'>
+                            {selectedAppointment.updated_by_name ||
+                              selectedAppointment.user_updated}
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
 
-                  {/* Notes Section */}
-                  {(selectedAppointment.notes || isNotesEditOpen) && (
+                  {selectedAppointment.notes && (
                     <>
                       <Separator />
                       <div className='space-y-3'>
-                        <div className='flex justify-between items-center'>
+                        <div className='flex items-center justify-between'>
                           <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                             Notes
                           </h3>
-                          {!isNotesEditOpen ? (
-                            <Button
-                              variant='ghost'
-                              size='sm'
-                              onClick={() => handleEditClick('notes')}
-                              className='hover-lift h-8 w-8 p-0'
-                              title='Edit notes'
-                            >
-                              <Edit className='h-3 w-3' />
-                            </Button>
-                          ) : (
-                            <div className='flex gap-2'>
+                          <div className='flex gap-2'>
+                            {isEditingNotes && (
                               <Button
                                 variant='outline'
                                 size='sm'
-                                onClick={() => {
-                                  setIsNotesEditOpen(false);
-                                  setFormData({});
-                                }}
-                                className='hover-lift h-8'
-                                disabled={formLoading}
+                                className='hover-lift'
+                                onClick={() => setIsEditingNotes(false)}
                               >
                                 Cancel
                               </Button>
-                              <Button
-                                variant='default'
-                                size='sm'
-                                onClick={() => handleSectionSave('notes')}
-                                className='hover-lift h-8'
-                                disabled={formLoading}
-                              >
-                                {formLoading ? (
-                                  <Loader2 className='h-3 w-3 animate-spin' />
-                                ) : (
-                                  'Save'
-                                )}
-                              </Button>
-                            </div>
-                          )}
+                            )}
+                            <Button
+                              variant={isEditingNotes ? 'default' : 'outline'}
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingNotes(!isEditingNotes)}
+                            >
+                              <Edit className='h-3 w-3 mr-1' />
+                              {isEditingNotes ? 'Save' : 'Edit'}
+                            </Button>
+                          </div>
                         </div>
-
-                        {!isNotesEditOpen ? (
-                          // Display current notes
-                          selectedAppointment.notes && (
-                            <div className='text-sm p-3 bg-muted rounded-lg'>
-                              {selectedAppointment.notes}
-                            </div>
-                          )
+                        {isEditingNotes ? (
+                          <textarea
+                            defaultValue={selectedAppointment.notes || ''}
+                            className='w-full p-3 text-sm bg-background border border-input rounded-lg resize-none min-h-[100px]'
+                            placeholder='Enter appointment notes...'
+                          />
                         ) : (
-                          // Show textarea for editing
-                          <div className='space-y-2'>
-                            <Textarea
-                              id='notes'
-                              value={
-                                formData.notes !== undefined
-                                  ? formData.notes
-                                  : selectedAppointment.notes || ''
-                              }
-                              onChange={e =>
-                                setFormData({
-                                  ...formData,
-                                  notes: e.target.value,
-                                })
-                              }
-                              className='min-h-[100px] text-sm'
-                              placeholder='Enter appointment notes...'
-                            />
+                          <div className='text-sm p-3 bg-muted rounded-lg'>
+                            {selectedAppointment.notes}
                           </div>
                         )}
                       </div>
@@ -1798,9 +1256,9 @@ export default function AppointmentsPage() {
           )}
         </div>
 
-        {/* Create Appointment Modal */}
+        {/* Create Modal */}
         <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
-          <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
+          <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
             <DialogHeader>
               <DialogTitle>Create New Appointment</DialogTitle>
               <DialogDescription>
@@ -1808,189 +1266,9 @@ export default function AppointmentsPage() {
               </DialogDescription>
             </DialogHeader>
 
-            <div className='space-y-6'>
-              {/* Employee Selection */}
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='space-y-2'>
-                <Label htmlFor='employee_id'>Employee *</Label>
-                <Select
-                  value={createFormData.employee_id || ''}
-                  onValueChange={value =>
-                    setCreateFormData({
-                      ...createFormData,
-                      employee_id: value,
-                    })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select an employee' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {employees.map(employee => (
-                      <SelectItem key={employee.id} value={employee.id}>
-                        {employee.name} {employee.surname} -{' '}
-                        {employee.work_email}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Appointment Type */}
-              <div className='space-y-2'>
-                <Label htmlFor='type'>Appointment Type *</Label>
-                <Select
-                  value={createFormData.type || ''}
-                  onValueChange={value =>
-                    setCreateFormData({
-                      ...createFormData,
-                      type: value,
-                    })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select appointment type' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Executive Medical'>
-                      Executive Medical
-                    </SelectItem>
-                    <SelectItem value='General Checkup'>
-                      General Checkup
-                    </SelectItem>
-                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
-                    <SelectItem value='Consultation'>Consultation</SelectItem>
-                    <SelectItem value='Emergency'>Emergency</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Date and Time */}
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='start_date'>Start Date</Label>
-                  <Input
-                    type='date'
-                    value={createFormData.start_date || ''}
-                    onChange={e =>
-                      setCreateFormData({
-                        ...createFormData,
-                        start_date: e.target.value,
-                      })
-                    }
-                  />
-                </div>
-                <div className='space-y-2'>
-                  <Label htmlFor='end_date'>End Date</Label>
-                  <Input
-                    type='date'
-                    value={createFormData.end_date || ''}
-                    onChange={e =>
-                      setCreateFormData({
-                        ...createFormData,
-                        end_date: e.target.value,
-                      })
-                    }
-                  />
-                </div>
-              </div>
-
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='start_time'>Start Time</Label>
-                  <Input
-                    type='time'
-                    value={createFormData.start_time || ''}
-                    onChange={e =>
-                      setCreateFormData({
-                        ...createFormData,
-                        start_time: e.target.value,
-                      })
-                    }
-                  />
-                </div>
-                <div className='space-y-2'>
-                  <Label htmlFor='end_time'>End Time</Label>
-                  <Input
-                    type='time'
-                    value={createFormData.end_time || ''}
-                    onChange={e =>
-                      setCreateFormData({
-                        ...createFormData,
-                        end_time: e.target.value,
-                      })
-                    }
-                  />
-                </div>
-              </div>
-
-              {/* Notes */}
-              <div className='space-y-2'>
-                <Label htmlFor='notes'>Notes</Label>
-                <Textarea
-                  value={createFormData.notes || ''}
-                  onChange={e =>
-                    setCreateFormData({
-                      ...createFormData,
-                      notes: e.target.value,
-                    })
-                  }
-                  placeholder='Enter appointment notes...'
-                  className='min-h-[100px]'
-                />
-              </div>
-            </div>
-
-            <DialogFooter>
-              <Button
-                variant='outline'
-                onClick={() => {
-                  setIsCreateModalOpen(false);
-                  setCreateFormData({});
-                }}
-                disabled={createLoading}
-              >
-                Cancel
-              </Button>
-              <Button
-                onClick={handleCreateAppointment}
-                disabled={
-                  createLoading ||
-                  !createFormData.employee_id ||
-                  !createFormData.type
-                }
-                className='hover-lift'
-              >
-                {createLoading ? (
-                  <>
-                    <Loader2 className='h-4 w-4 animate-spin mr-2' />
-                    Creating...
-                  </>
-                ) : (
-                  'Create Appointment'
-                )}
-              </Button>
-            </DialogFooter>
-          </DialogContent>
-        </Dialog>
-
-        {/* Edit Appointment Modal */}
-        <Dialog open={isEditModalOpen} onOpenChange={setIsEditModalOpen}>
-          <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
-            <DialogHeader>
-              <DialogTitle>Edit Appointment</DialogTitle>
-              <DialogDescription>
-                Update the appointment information for{' '}
-                {editingAppointment
-                  ? `${editingAppointment.employee_name} ${editingAppointment.employee_surname}`
-                  : ''}
-                .
-              </DialogDescription>
-            </DialogHeader>
-
-            <div className='space-y-6'>
-              {/* Employee Selection */}
-              <div className='space-y-2'>
-                <Label htmlFor='edit_employee_id'>Employee</Label>
+                <Label htmlFor='employee_id'>Employee</Label>
                 <Select
                   value={formData.employee_id || ''}
                   onValueChange={value =>
@@ -1998,22 +1276,20 @@ export default function AppointmentsPage() {
                   }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select an employee' />
+                    <SelectValue placeholder='Select employee' />
                   </SelectTrigger>
                   <SelectContent>
                     {employees.map(employee => (
                       <SelectItem key={employee.id} value={employee.id}>
-                        {employee.name} {employee.surname} -{' '}
-                        {employee.work_email}
+                        {employee.name} {employee.surname}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
 
-              {/* Appointment Type */}
               <div className='space-y-2'>
-                <Label htmlFor='edit_type'>Appointment Type</Label>
+                <Label htmlFor='type'>Appointment Type</Label>
                 <Select
                   value={formData.type || ''}
                   onValueChange={value =>
@@ -2024,76 +1300,166 @@ export default function AppointmentsPage() {
                     <SelectValue placeholder='Select appointment type' />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Executive Medical'>
-                      Executive Medical
-                    </SelectItem>
                     <SelectItem value='General Checkup'>
                       General Checkup
                     </SelectItem>
                     <SelectItem value='Follow-up'>Follow-up</SelectItem>
-                    <SelectItem value='Consultation'>Consultation</SelectItem>
+                    <SelectItem value='Specialist Consultation'>
+                      Specialist Consultation
+                    </SelectItem>
                     <SelectItem value='Emergency'>Emergency</SelectItem>
+                    <SelectItem value='Pre-employment'>
+                      Pre-employment
+                    </SelectItem>
+                    <SelectItem value='Annual Physical'>
+                      Annual Physical
+                    </SelectItem>
+                    <SelectItem value='Vaccination'>Vaccination</SelectItem>
+                    <SelectItem value='Other'>Other</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              {/* Date and Time */}
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='edit_start_date'>Start Date</Label>
-                  <Input
-                    type='date'
-                    value={formData.start_date || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, start_date: e.target.value })
-                    }
-                  />
-                </div>
-                <div className='space-y-2'>
-                  <Label htmlFor='edit_end_date'>End Date</Label>
-                  <Input
-                    type='date'
-                    value={formData.end_date || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, end_date: e.target.value })
-                    }
-                  />
-                </div>
-              </div>
-
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='edit_start_time'>Start Time</Label>
-                  <Input
-                    type='time'
-                    value={formData.start_time || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, start_time: e.target.value })
-                    }
-                  />
-                </div>
-                <div className='space-y-2'>
-                  <Label htmlFor='edit_end_time'>End Time</Label>
-                  <Input
-                    type='time'
-                    value={formData.end_time || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, end_time: e.target.value })
-                    }
-                  />
-                </div>
-              </div>
-
-              {/* Notes */}
               <div className='space-y-2'>
-                <Label htmlFor='edit_notes'>Notes</Label>
+                <Label htmlFor='start_date'>Start Date</Label>
+                <Input
+                  id='start_date'
+                  type='date'
+                  value={
+                    formData.start_date
+                      ? new Date(formData.start_date)
+                          .toISOString()
+                          .split('T')[0]
+                      : ''
+                  }
+                  onChange={e =>
+                    setFormData({ ...formData, start_date: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='end_date'>End Date</Label>
+                <Input
+                  id='end_date'
+                  type='date'
+                  value={
+                    formData.end_date
+                      ? new Date(formData.end_date).toISOString().split('T')[0]
+                      : ''
+                  }
+                  onChange={e =>
+                    setFormData({ ...formData, end_date: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='start_time'>Start Time</Label>
+                <Input
+                  id='start_time'
+                  type='time'
+                  value={formData.start_time || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, start_time: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='end_time'>End Time</Label>
+                <Input
+                  id='end_time'
+                  type='time'
+                  value={formData.end_time || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, end_time: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='start_datetime'>Start DateTime</Label>
+                <Input
+                  id='start_datetime'
+                  type='datetime-local'
+                  value={
+                    formData.start_datetime
+                      ? new Date(formData.start_datetime)
+                          .toISOString()
+                          .slice(0, 16)
+                      : ''
+                  }
+                  onChange={e =>
+                    setFormData({ ...formData, start_datetime: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='end_datetime'>End DateTime</Label>
+                <Input
+                  id='end_datetime'
+                  type='datetime-local'
+                  value={
+                    formData.end_datetime
+                      ? new Date(formData.end_datetime)
+                          .toISOString()
+                          .slice(0, 16)
+                      : ''
+                  }
+                  onChange={e =>
+                    setFormData({ ...formData, end_datetime: e.target.value })
+                  }
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='report_id'>Report ID (Optional)</Label>
+                <Input
+                  id='report_id'
+                  value={formData.report_id || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, report_id: e.target.value })
+                  }
+                  placeholder='Link to medical report'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='calander_id'>Calendar ID (Optional)</Label>
+                <Input
+                  id='calander_id'
+                  value={formData.calander_id || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, calander_id: e.target.value })
+                  }
+                  placeholder='Calendar identifier'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='calander_link'>Calendar Link (Optional)</Label>
+                <Input
+                  id='calander_link'
+                  value={formData.calander_link || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, calander_link: e.target.value })
+                  }
+                  placeholder='Calendar URL'
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='notes'>Notes</Label>
                 <Textarea
+                  id='notes'
                   value={formData.notes || ''}
                   onChange={e =>
                     setFormData({ ...formData, notes: e.target.value })
                   }
-                  placeholder='Enter appointment notes...'
-                  className='min-h-[100px]'
+                  placeholder='Additional notes about the appointment...'
+                  rows={3}
                 />
               </div>
             </div>
@@ -2101,30 +1467,21 @@ export default function AppointmentsPage() {
             <DialogFooter>
               <Button
                 variant='outline'
-                onClick={() => {
-                  setIsEditModalOpen(false);
-                  setFormData({});
-                  setEditingAppointment(null);
-                }}
-                disabled={formLoading}
+                onClick={() => setIsCreateModalOpen(false)}
               >
                 Cancel
               </Button>
-              <Button
-                onClick={async () => {
-                  await handleSectionSave('appointment');
-                  setIsEditModalOpen(false);
-                  setEditingAppointment(null);
-                }}
-                disabled={formLoading}
-              >
+              <Button onClick={handleCreate} disabled={formLoading}>
                 {formLoading ? (
                   <>
                     <Loader2 className='mr-2 h-4 w-4 animate-spin' />
-                    Updating...
+                    Creating...
                   </>
                 ) : (
-                  'Update Appointment'
+                  <>
+                    <Save className='mr-2 h-4 w-4' />
+                    Create Appointment
+                  </>
                 )}
               </Button>
             </DialogFooter>
@@ -2133,7 +1490,7 @@ export default function AppointmentsPage() {
 
         {/* Delete Confirmation Modal */}
         <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
-          <DialogContent className='max-w-md'>
+          <DialogContent>
             <DialogHeader>
               <DialogTitle className='flex items-center gap-2'>
                 <Trash2 className='h-5 w-5 text-destructive' />
@@ -2142,27 +1499,23 @@ export default function AppointmentsPage() {
               <DialogDescription>
                 Are you sure you want to delete this appointment for{' '}
                 <span className='font-medium'>
-                  {editingAppointment
-                    ? `${editingAppointment.employee_name} ${editingAppointment.employee_surname}`
+                  {deletingAppointment
+                    ? `${deletingAppointment.employee_name} ${deletingAppointment.employee_surname}`
                     : ''}
                 </span>
                 ? This action cannot be undone.
               </DialogDescription>
             </DialogHeader>
-
             <DialogFooter>
               <Button
                 variant='outline'
-                onClick={() => {
-                  setIsDeleteModalOpen(false);
-                  setEditingAppointment(null);
-                }}
+                onClick={() => setIsDeleteModalOpen(false)}
               >
                 Cancel
               </Button>
               <Button
                 variant='destructive'
-                onClick={handleDeleteAppointment}
+                onClick={handleDelete}
                 disabled={formLoading}
               >
                 {formLoading ? (
@@ -2171,7 +1524,10 @@ export default function AppointmentsPage() {
                     Deleting...
                   </>
                 ) : (
-                  'Delete Appointment'
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Appointment
+                  </>
                 )}
               </Button>
             </DialogFooter>

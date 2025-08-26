@@ -1,18 +1,18 @@
 'use client';
 
 import { useEmployeeStatus } from '@/hooks/useEmployeeStatus';
-import { Skeleton } from '@/components/ui/skeleton';
-import { Card } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Skeleton } from '@/components/ui/skeleton';
 import { Button } from '@/components/ui/button';
-import { AlertCircle, AlertTriangle, Eye, Plus } from 'lucide-react';
+import { AlertCircle, Activity, Stethoscope, Eye, Plus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
-interface EmployeeComplaintsProps {
+interface EmployeeTBScreeningProps {
   employeeId: string;
 }
 
-export default function EmployeeComplaints({ employeeId }: EmployeeComplaintsProps) {
+export default function EmployeeTBScreening({ employeeId }: EmployeeTBScreeningProps) {
   const router = useRouter();
   const { statusData, loading, error } = useEmployeeStatus(employeeId);
 
@@ -30,27 +30,23 @@ export default function EmployeeComplaints({ employeeId }: EmployeeComplaintsPro
       <Card className="p-3 border-red-200 bg-red-50">
         <div className="flex items-center gap-2 text-red-800 text-sm">
           <AlertCircle className="h-4 w-4" />
-          <span>Failed to load complaints</span>
+          <span>Failed to load TB screening data</span>
         </div>
       </Card>
     );
   }
 
-  const complaintsData = statusData.find(module => module.table_name === 'current_complaints');
+  const tbData = statusData.find(module => module.table_name === 'screening_tb');
   
-  if (!complaintsData) {
+  if (!tbData) {
     return (
       <div className="text-xs text-gray-500">
-        No complaints data available
+        No TB screening data available
       </div>
     );
   }
 
-  const handleViewComplaints = () => {
-    router.push(`/employees?employee=${employeeId}`);
-  };
-
-  const handleAddComplaint = () => {
+  const handleViewTBScreening = () => {
     router.push(`/employees?employee=${employeeId}`);
   };
 
@@ -58,37 +54,37 @@ export default function EmployeeComplaints({ employeeId }: EmployeeComplaintsPro
     <div className="space-y-3">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <AlertTriangle className="h-4 w-4 text-orange-600" />
-          <div className="text-xs font-medium text-gray-900">Current Complaints</div>
+          <Stethoscope className="h-4 w-4 text-blue-600" />
+          <div className="text-xs font-medium text-gray-900">TB Screening</div>
         </div>
         <Badge 
-          variant={complaintsData.has_records ? "destructive" : "secondary"}
+          variant={tbData.has_records ? "default" : "secondary"}
           className="text-xs"
         >
-          {complaintsData.record_count} reported
+          {tbData.record_count} completed
         </Badge>
       </div>
       
       <div className={`rounded-lg p-3 ${
-        complaintsData.has_records 
-          ? 'bg-orange-50 border border-orange-200' 
+        tbData.has_records 
+          ? 'bg-blue-50 border border-blue-200' 
           : 'bg-gray-50'
       }`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 text-xs text-gray-600">
             <span>
-              {complaintsData.has_records 
-                ? `${complaintsData.record_count} complaint${complaintsData.record_count !== 1 ? 's' : ''} reported`
-                : 'No complaints reported'
+              {tbData.has_records 
+                ? `${tbData.record_count} screening${tbData.record_count !== 1 ? 's' : ''} completed`
+                : 'No TB screenings completed'
               }
             </span>
           </div>
           <div className="flex gap-1">
-            {complaintsData.has_records && (
+            {tbData.has_records && (
               <Button
                 variant="ghost"
                 size="sm"
-                onClick={handleViewComplaints}
+                onClick={handleViewTBScreening}
                 className="h-6 px-2 text-xs"
               >
                 <Eye className="h-3 w-3 mr-1" />
@@ -98,19 +94,22 @@ export default function EmployeeComplaints({ employeeId }: EmployeeComplaintsPro
             <Button
               variant="ghost"
               size="sm"
-              onClick={handleAddComplaint}
+              onClick={handleViewTBScreening}
               className="h-6 px-2 text-xs"
             >
               <Plus className="h-3 w-3 mr-1" />
-              Add
+              New
             </Button>
           </div>
         </div>
         
-        {complaintsData.has_records && (
-          <div className="mt-2 pt-2 border-t border-orange-200">
-            <div className="text-xs text-orange-700 font-medium">
-              ⚠️ Requires attention - Employee complaints need review
+        {tbData.has_records && (
+          <div className="mt-2 pt-2 border-t border-blue-200">
+            <div className="flex items-center gap-2 text-xs text-blue-700">
+              <Activity className="h-3 w-3" />
+              <span className="font-medium">
+                TB screenings completed - Monitor for health trends
+              </span>
             </div>
           </div>
         )}

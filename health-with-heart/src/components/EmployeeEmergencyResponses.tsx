@@ -78,8 +78,8 @@ export default function EmployeeEmergencyResponses({ employeeId }: EmployeeEmerg
           <div className="flex items-center gap-2 text-xs text-gray-600">
             <span>
               {emergencyData.has_records 
-                ? `${emergencyData.record_count} emergency incident${emergencyData.record_count !== 1 ? 's' : ''} on record`
-                : 'No emergency incidents recorded'
+                ? `${emergencyData.record_count} emergency response${emergencyData.record_count !== 1 ? 's' : ''} documented`
+                : 'No emergency responses recorded'
               }
             </span>
           </div>

@@ -576,7 +576,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                   const barWidth = total > 0 ? (item.count / total) * 100 : 0;
                   
                   return (
-                    <div key={item.rating} className="flex items-center gap-4 mb-3">
+                    <div key={`rating-${index}-${item.rating}`} className="flex items-center gap-4 mb-3">
                       <div className="w-32 text-sm font-medium text-right flex-shrink-0">
                         {item.rating ? 
                           item.rating.toLowerCase().split(' ').map((word: string) => 
@@ -642,7 +642,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                   const barWidth = maxCount > 0 ? (entry.count / maxCount) * 100 : 0;
                   
                   return (
-                    <div key={entry.level || 'null'} className="flex items-center gap-4 mb-3">
+                    <div key={`level-${index}-${entry.level || 'null'}`} className="flex items-center gap-4 mb-3">
                       <div className="w-24 text-sm font-medium text-right flex-shrink-0">
                         {entry.level ? 
                           entry.level.toLowerCase().split(' ').map((word: string) => 
@@ -717,7 +717,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                 
                 // Executive-ready metric card layout
                 return (
-                  <div key={metric.metric} className="py-4 border-b border-gray-200 last:border-b-0">
+                  <div key={`metric-${index}-${metric.metric}`} className="py-4 border-b border-gray-200 last:border-b-0">
                     <div className="flex items-center gap-6">
                       
                       {/* Left: Metric name */}

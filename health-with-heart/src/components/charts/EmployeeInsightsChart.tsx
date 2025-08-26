@@ -372,7 +372,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentLevel.data.map((org: any, index: number) => (
           <Card 
-            key={org.name} 
+            key={`org-${index}-${org.name}`} 
             className="hover-lift cursor-pointer" 
             onClick={() => handleDrillDown('workplace', org.workplaces, `${org.name} - Workplaces`, org.name)}
           >
@@ -404,7 +404,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentLevel.data.map((workplace: any, index: number) => (
           <Card 
-            key={workplace.name} 
+            key={`workplace-${index}-${workplace.name}`} 
             className="hover-lift cursor-pointer" 
             onClick={() => handleDrillDown('job', workplace.jobs, `${workplace.name} - Job Roles`, workplace.name)}
           >
@@ -432,7 +432,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
     <div className="space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentLevel.data.map((job: any, index: number) => (
-          <Card key={job.name} className="hover-lift">
+          <Card key={`job-${index}-${job.name}`} className="hover-lift">
             <CardContent className="p-4">
               <div className="flex items-center gap-2 mb-2">
                 <UserCheck className="h-4 w-4 text-muted-foreground" />

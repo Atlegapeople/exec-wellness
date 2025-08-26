@@ -67,7 +67,7 @@ const ExaminationOutcomeChart: React.FC<ExaminationOutcomeChartProps> = ({ examN
           const barHeight = maxCount > 0 ? (item.count / maxCount) * 200 : 0;
           
           return (
-            <div key={item.outcome} className="flex flex-col items-center gap-3">
+            <div key={`outcome-${index}-${item.outcome}`} className="flex flex-col items-center gap-3">
               {/* Value label on top */}
               <div 
                 className="text-center transition-all duration-700 ease-out"
@@ -374,7 +374,7 @@ const ClinicalExaminationsChart = ({ data }: { data: any }) => {
                 const barColor = isLeader ? '#00695C' : '#00897B'; // Darker teal for leader
                 
                 return (
-                  <div key={item.exam} className="space-y-2">
+                  <div key={`exam-${index}-${item.exam}`} className="space-y-2">
                     <div className="flex justify-between items-center">
                       <span 
                         className="text-sm font-medium" 
@@ -698,7 +698,7 @@ const ClinicalExaminationsChart = ({ data }: { data: any }) => {
                     
                     return (
                       <div
-                        key={point.examination_type}
+                        key={`point-${index}-${point.examination_type}`}
                         className="absolute transition-all duration-300 hover:scale-125 cursor-pointer"
                         style={{ 
                           left: `${x}%`, 
@@ -721,7 +721,7 @@ const ClinicalExaminationsChart = ({ data }: { data: any }) => {
               <div className="flex justify-between mt-4 text-xs" style={{ color: '#424242' }}>
                 {positiveRateData.map((point: any, index: number) => (
                   <div
-                    key={point.examination_type}
+                    key={`label-${index}-${point.examination_type}`}
                     className="flex-1 text-center"
                     style={{ transform: 'rotate(45deg)', transformOrigin: 'center' }}
                   >
@@ -763,7 +763,7 @@ const ClinicalExaminationsChart = ({ data }: { data: any }) => {
 
               return (
                 <div 
-                  key={exam.examination_type} 
+                  key={`exam-detail-${index}-${exam.examination_type}`} 
                   className="flex items-center justify-between p-4 border rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
                   title={`Exam: ${exam.examination_type}, Positive: ${exam.positive_count}, Negative: ${exam.negative_count}, Total: ${exam.total_count}, % Positive: ${exam.positive_percentage}%`}
                 >
