@@ -985,6 +985,21 @@ export default function ReportsPage() {
                               : '⏳ Pending'}
                           </Badge>
                         </CardDescription>
+                        {/* Last Updated Information */}
+                        <div className='text-xs text-muted-foreground mt-2 lg:ml-14'>
+                          <span>Last updated by </span>
+                          <span className='font-medium'>
+                            {selectedReport.user_updated || 'Unknown'}
+                          </span>
+                          <span> on </span>
+                          <span className='font-medium'>
+                            {selectedReport.date_updated
+                              ? new Date(
+                                  selectedReport.date_updated
+                                ).toLocaleString()
+                              : 'Unknown'}
+                          </span>
+                        </div>
                       </div>
                       <div className='flex items-center gap-2 flex-shrink-0'>
                         <Button
@@ -2173,7 +2188,8 @@ export default function ReportsPage() {
                                                 {status}
                                               </span>
                                               <span className='text-sm text-gray-600'>
-                                                {count as number} factors ({percentage}%)
+                                                {count as number} factors (
+                                                {percentage}%)
                                               </span>
                                             </div>
                                           </div>

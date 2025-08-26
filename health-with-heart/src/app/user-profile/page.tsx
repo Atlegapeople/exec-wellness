@@ -14,6 +14,7 @@ import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DashboardLayout from '@/components/DashboardLayout';
+import { useUser } from '@/contexts/UserContext';
 import {
   Mail,
   Phone,
@@ -42,36 +43,11 @@ interface UserWithMetadata extends User {
 }
 
 export default function UserProfilePage() {
-  const [currentUser, setCurrentUser] = useState<UserWithMetadata | null>(null);
-  const [loading, setLoading] = useState(true);
+  const { currentUser, updateProfileImage, loading } = useUser();
   const [uploading, setUploading] = useState(false);
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
-
-  // Mock current user data - in a real app, this would come from authentication context
-  useEffect(() => {
-    // Simulate fetching current user data
-    const mockCurrentUser: UserWithMetadata = {
-      id: 'current-user-123',
-      name: 'Dr. Smith',
-      surname: 'Johnson',
-      email: 'dr.smith@ohms.com',
-      mobile: '+27 82 123 4567',
-      type: 'Doctor',
-      date_created: new Date('2023-01-15'),
-      date_updated: new Date('2024-01-20'),
-      signature: 'Yes',
-      created_by_name: 'System Admin',
-      updated_by_name: 'Dr. Smith',
-      profileImage: null,
-    };
-
-    setTimeout(() => {
-      setCurrentUser(mockCurrentUser);
-      setLoading(false);
-    }, 500);
-  }, []);
 
   const handleImageSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
@@ -113,12 +89,9 @@ export default function UserProfilePage() {
       //   body: formData,
       // });
 
-      // Update user profile with new image
-      if (currentUser) {
-        setCurrentUser({
-          ...currentUser,
-          profileImage: previewUrl,
-        });
+      // Update user profile with new image using context
+      if (previewUrl) {
+        updateProfileImage(previewUrl);
       }
 
       // Clean up
@@ -180,7 +153,7 @@ export default function UserProfilePage() {
     }
   };
 
-  if (loading) {
+  if (loading || !currentUser) {
     return (
       <div className='min-h-screen bg-background flex items-center justify-center'>
         <Card className='w-96'>
@@ -290,6 +263,19 @@ export default function UserProfilePage() {
                       </Badge>
                     )}
                   </CardDescription>
+                  {/* Last Updated Information */}
+                  <div className='text-xs text-muted-foreground mt-2'>
+                    <span>Last updated by </span>
+                    <span className='font-medium'>
+                      {currentUser.updated_by_name || 'Unknown'}
+                    </span>
+                    <span> on </span>
+                    <span className='font-medium'>
+                      {currentUser.date_updated
+                        ? new Date(currentUser.date_updated).toLocaleString()
+                        : 'Unknown'}
+                    </span>
+                  </div>
                 </div>
 
                 {/* Image Upload Actions */}

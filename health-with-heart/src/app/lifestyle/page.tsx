@@ -123,6 +123,16 @@ export default function LifestylePage() {
   const [costCenters, setCostCenters] = useState<any[]>([]);
   const [relatedEntitiesLoading, setRelatedEntitiesLoading] = useState(false);
 
+  // Edit states for each section
+  const [isEditingSmoking, setIsEditingSmoking] = useState(false);
+  const [isEditingAlcohol, setIsEditingAlcohol] = useState(false);
+  const [isEditingExercise, setIsEditingExercise] = useState(false);
+  const [isEditingNutrition, setIsEditingNutrition] = useState(false);
+  const [isEditingSleep, setIsEditingSleep] = useState(false);
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
+  const [isEditingRecommendations, setIsEditingRecommendations] =
+    useState(false);
+
   // Modal state
   const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] =
     useState(false);
@@ -911,6 +921,21 @@ export default function LifestylePage() {
                         </span>
                         <Badge variant='outline'>{selectedLifestyle.id}</Badge>
                       </CardDescription>
+                      {/* Last Updated Information */}
+                      <div className='text-xs text-muted-foreground mt-2'>
+                        <span>Last updated by </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.user_updated || 'Unknown'}
+                        </span>
+                        <span> on </span>
+                        <span className='font-medium'>
+                          {selectedLifestyle.date_updated
+                            ? new Date(
+                                selectedLifestyle.date_updated
+                              ).toLocaleString()
+                            : 'Unknown'}
+                        </span>
+                      </div>
                     </div>
                     <Button
                       variant='ghost'
@@ -925,11 +950,34 @@ export default function LifestylePage() {
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Smoking Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Cigarette className='h-4 w-4' />
-                      {selectedLifestyle.smoking_header ||
-                        'Smoking Information'}
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Cigarette className='h-4 w-4' />
+                        {selectedLifestyle.smoking_header ||
+                          'Smoking Information'}
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingSmoking && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingSmoking(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingSmoking ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingSmoking(!isEditingSmoking)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingSmoking ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -982,11 +1030,34 @@ export default function LifestylePage() {
 
                   {/* Alcohol Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Wine className='h-4 w-4' />
-                      {selectedLifestyle.alcohol_header ||
-                        'Alcohol Information'}
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Wine className='h-4 w-4' />
+                        {selectedLifestyle.alcohol_header ||
+                          'Alcohol Information'}
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingAlcohol && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingAlcohol(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingAlcohol ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingAlcohol(!isEditingAlcohol)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingAlcohol ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -1063,10 +1134,35 @@ export default function LifestylePage() {
 
                   {/* Exercise Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Dumbbell className='h-4 w-4' />
-                      Exercise & Activity
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Dumbbell className='h-4 w-4' />
+                        Exercise & Activity
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingExercise && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingExercise(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingExercise ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingExercise(!isEditingExercise)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingExercise ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -1107,10 +1203,35 @@ export default function LifestylePage() {
 
                   {/* Diet Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Apple className='h-4 w-4' />
-                      {selectedLifestyle.diet_header || 'Diet Information'}
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Apple className='h-4 w-4' />
+                        {selectedLifestyle.diet_header || 'Diet Information'}
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingNutrition && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingNutrition(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingNutrition ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingNutrition(!isEditingNutrition)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingNutrition ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -1151,10 +1272,33 @@ export default function LifestylePage() {
 
                   {/* Sleep Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Moon className='h-4 w-4' />
-                      {selectedLifestyle.sleep_header || 'Sleep Information'}
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Moon className='h-4 w-4' />
+                        {selectedLifestyle.sleep_header || 'Sleep Information'}
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingSleep && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingSleep(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingSleep ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingSleep(!isEditingSleep)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingSleep ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -1187,9 +1331,32 @@ export default function LifestylePage() {
                     <>
                       <Separator />
                       <div className='space-y-3'>
-                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                          {selectedLifestyle.notes_header || 'Notes'}
-                        </h3>
+                        <div className='flex items-center justify-between'>
+                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                            {selectedLifestyle.notes_header || 'Notes'}
+                          </h3>
+                          <div className='flex gap-2'>
+                            {isEditingNotes && (
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                className='hover-lift'
+                                onClick={() => setIsEditingNotes(false)}
+                              >
+                                Cancel
+                              </Button>
+                            )}
+                            <Button
+                              variant={isEditingNotes ? 'default' : 'outline'}
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingNotes(!isEditingNotes)}
+                            >
+                              <Edit className='h-3 w-3 mr-1' />
+                              {isEditingNotes ? 'Save' : 'Edit'}
+                            </Button>
+                          </div>
+                        </div>
                         <div className='text-sm p-3 bg-muted rounded-lg'>
                           {selectedLifestyle.notes_text}
                         </div>
@@ -1201,10 +1368,41 @@ export default function LifestylePage() {
                     <>
                       <Separator />
                       <div className='space-y-3'>
-                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                          <Heart className='h-4 w-4' />
-                          Recommendations
-                        </h3>
+                        <div className='flex items-center justify-between'>
+                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                            <Heart className='h-4 w-4' />
+                            Recommendations
+                          </h3>
+                          <div className='flex gap-2'>
+                            {isEditingRecommendations && (
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                className='hover-lift'
+                                onClick={() =>
+                                  setIsEditingRecommendations(false)
+                                }
+                              >
+                                Cancel
+                              </Button>
+                            )}
+                            <Button
+                              variant={
+                                isEditingRecommendations ? 'default' : 'outline'
+                              }
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() =>
+                                setIsEditingRecommendations(
+                                  !isEditingRecommendations
+                                )
+                              }
+                            >
+                              <Edit className='h-3 w-3 mr-1' />
+                              {isEditingRecommendations ? 'Save' : 'Edit'}
+                            </Button>
+                          </div>
+                        </div>
                         <div className='text-sm p-3 bg-blue-50 border border-blue-200 rounded-lg'>
                           {selectedLifestyle.recommendation_text}
                         </div>

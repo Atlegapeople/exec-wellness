@@ -2,21 +2,47 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
 import DashboardLayout from '@/components/DashboardLayout';
-import { 
-  Search, 
-  Plus, 
-  Edit, 
-  Trash2, 
+import {
+  Search,
+  Plus,
+  Edit,
+  Trash2,
   MapPin,
   Building2,
   Users,
@@ -28,7 +54,7 @@ import {
   Loader2,
   X,
   ArrowLeft,
-  ExternalLink
+  ExternalLink,
 } from 'lucide-react';
 
 interface Location {
@@ -70,12 +96,12 @@ interface PaginationInfo {
 export default function LocationsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
   // Get filter parameters from URL
   const siteFilter = searchParams.get('site');
   const siteName = searchParams.get('siteName');
   const returnUrl = searchParams.get('returnUrl');
-  
+
   const [locations, setLocations] = useState<Location[]>([]);
   const [sites, setSites] = useState<Site[]>([]);
   const [managers, setManagers] = useState<Manager[]>([]);
@@ -85,13 +111,15 @@ export default function LocationsPage() {
     total: 0,
     totalPages: 0,
     hasNextPage: false,
-    hasPreviousPage: false
+    hasPreviousPage: false,
   });
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
-  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [selectedLocation, setSelectedLocation] = useState<Location | null>(
+    null
+  );
   const [formData, setFormData] = useState<Partial<Location>>({});
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
@@ -101,14 +129,14 @@ export default function LocationsPage() {
     try {
       setLoading(true);
       let url = `/api/locations?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`;
-      
+
       if (siteFilter) {
         url += `&site=${encodeURIComponent(siteFilter)}`;
       }
-      
+
       const response = await fetch(url);
       if (!response.ok) throw new Error('Failed to fetch locations');
-      
+
       const data = await response.json();
       setLocations(data.locations);
       setPagination(data.pagination);
@@ -123,7 +151,7 @@ export default function LocationsPage() {
     try {
       const response = await fetch('/api/sites?limit=1000');
       if (!response.ok) throw new Error('Failed to fetch sites');
-      
+
       const data = await response.json();
       setSites(data.sites);
     } catch (error) {
@@ -135,7 +163,7 @@ export default function LocationsPage() {
     try {
       const response = await fetch('/api/managers?limit=1000');
       if (!response.ok) throw new Error('Failed to fetch managers');
-      
+
       const data = await response.json();
       setManagers(data.managers);
     } catch (error) {
@@ -239,7 +267,7 @@ export default function LocationsPage() {
     setFormData({
       ...location,
       site_id: location.site_id || 'none',
-      manager: location.manager || 'none'
+      manager: location.manager || 'none',
     });
     setSelectedLocation(location);
     setIsEditDialogOpen(true);
@@ -255,11 +283,13 @@ export default function LocationsPage() {
 
   const handleViewSite = (location: Location) => {
     if (!location.site_name || !location.site_id) return;
-    
+
     const returnUrl = encodeURIComponent('/locations');
     const siteFilter = encodeURIComponent(location.site_id);
     const siteName = encodeURIComponent(location.site_name);
-    router.push(`/sites?site=${siteFilter}&siteName=${siteName}&returnUrl=${returnUrl}`);
+    router.push(
+      `/sites?site=${siteFilter}&siteName=${siteName}&returnUrl=${returnUrl}`
+    );
   };
 
   // Resize functionality
@@ -271,13 +301,14 @@ export default function LocationsPage() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       if (!isResizing) return;
-      
+
       const container = document.querySelector('.locations-container');
       if (!container) return;
-      
+
       const containerRect = container.getBoundingClientRect();
-      const newLeftWidth = ((e.clientX - containerRect.left) / containerRect.width) * 100;
-      
+      const newLeftWidth =
+        ((e.clientX - containerRect.left) / containerRect.width) * 100;
+
       // Constrain between 30% and 80%
       const constrainedWidth = Math.min(Math.max(newLeftWidth, 30), 80);
       setLeftPanelWidth(constrainedWidth);
@@ -301,8 +332,8 @@ export default function LocationsPage() {
   if (loading) {
     return (
       <DashboardLayout>
-        <div className="flex items-center justify-center min-h-[600px]">
-          <Loader2 className="h-8 w-8 animate-spin" />
+        <div className='flex items-center justify-center min-h-[600px]'>
+          <Loader2 className='h-8 w-8 animate-spin' />
         </div>
       </DashboardLayout>
     );
@@ -310,94 +341,106 @@ export default function LocationsPage() {
 
   return (
     <DashboardLayout>
-      <div className="pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden">
+      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
         {/* Back Button and Filters */}
         {(returnUrl || siteFilter) && (
-          <div className="mb-6 flex items-center justify-between">
-            <div className="flex items-center gap-4">
+          <div className='mb-6 flex items-center justify-between'>
+            <div className='flex items-center gap-4'>
               {returnUrl && (
                 <Button
-                  variant="outline"
+                  variant='outline'
                   onClick={() => router.push(returnUrl)}
-                  className="flex items-center gap-2"
+                  className='flex items-center gap-2'
                 >
-                  <ArrowLeft className="h-4 w-4" />
+                  <ArrowLeft className='h-4 w-4' />
                   Back to Sites
                 </Button>
               )}
-              
+
               {siteFilter && siteName && (
-                <div className="flex items-center gap-2">
-                  <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-                    <MapPin className="h-3 w-3 mr-1" />
+                <div className='flex items-center gap-2'>
+                  <Badge
+                    variant='outline'
+                    className='bg-blue-50 text-blue-700 border-blue-200'
+                  >
+                    <MapPin className='h-3 w-3 mr-1' />
                     Filtered by: {decodeURIComponent(siteName)}
                   </Badge>
                   <Button
-                    variant="ghost"
-                    size="sm"
+                    variant='ghost'
+                    size='sm'
                     onClick={() => {
-                      const params = new URLSearchParams(searchParams.toString());
+                      const params = new URLSearchParams(
+                        searchParams.toString()
+                      );
                       params.delete('site');
                       params.delete('siteName');
                       router.push(`/locations?${params.toString()}`);
                     }}
-                    className="h-6 w-6 p-0"
+                    className='h-6 w-6 p-0'
                   >
-                    <X className="h-3 w-3" />
+                    <X className='h-3 w-3' />
                   </Button>
                 </div>
               )}
             </div>
           </div>
         )}
-        
+
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className='flex items-center justify-between mb-6'>
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">Locations</h1>
-            <p className="text-muted-foreground">
+            <h1 className='text-3xl font-bold tracking-tight'>Locations</h1>
+            <p className='text-muted-foreground'>
               Manage specific locations within sites
             </p>
           </div>
-          
-          <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
+
+          <Dialog
+            open={isCreateDialogOpen}
+            onOpenChange={setIsCreateDialogOpen}
+          >
             <DialogTrigger asChild>
-              <Button className="hover-lift">
-                <Plus className="h-4 w-4 mr-2" />
+              <Button className='hover-lift'>
+                <Plus className='h-4 w-4 mr-2' />
                 Add Location
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-2xl">
+            <DialogContent className='max-w-2xl'>
               <DialogHeader>
                 <DialogTitle>Create New Location</DialogTitle>
                 <DialogDescription>
                   Add a new location to the system
                 </DialogDescription>
               </DialogHeader>
-              
-              <div className="grid grid-cols-1 gap-4 py-4">
-                <div className="space-y-2">
-                  <Label htmlFor="name">Location Name</Label>
+
+              <div className='grid grid-cols-1 gap-4 py-4'>
+                <div className='space-y-2'>
+                  <Label htmlFor='name'>Location Name</Label>
                   <Input
-                    id="name"
+                    id='name'
                     value={formData.name || ''}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
-                    placeholder="Enter location name"
+                    onChange={e =>
+                      setFormData({ ...formData, name: e.target.value })
+                    }
+                    placeholder='Enter location name'
                   />
                 </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="site_id">Site</Label>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='site_id'>Site</Label>
                   <Select
                     value={formData.site_id || ''}
-                    onValueChange={(value) => setFormData({...formData, site_id: value})}
+                    onValueChange={value =>
+                      setFormData({ ...formData, site_id: value })
+                    }
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder="Select site" />
+                      <SelectValue placeholder='Select site' />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="none">No Site</SelectItem>
-                      {sites.map((site) => (
+                      <SelectItem value='none'>No Site</SelectItem>
+                      {sites.map(site => (
                         <SelectItem key={site.id} value={site.id}>
                           {site.name}
                         </SelectItem>
@@ -405,30 +448,34 @@ export default function LocationsPage() {
                     </SelectContent>
                   </Select>
                 </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="address">Address</Label>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='address'>Address</Label>
                   <Textarea
-                    id="address"
+                    id='address'
                     value={formData.address || ''}
-                    onChange={(e) => setFormData({...formData, address: e.target.value})}
-                    placeholder="Enter location address"
+                    onChange={e =>
+                      setFormData({ ...formData, address: e.target.value })
+                    }
+                    placeholder='Enter location address'
                     rows={3}
                   />
                 </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="manager">Manager</Label>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='manager'>Manager</Label>
                   <Select
                     value={formData.manager || ''}
-                    onValueChange={(value) => setFormData({...formData, manager: value})}
+                    onValueChange={value =>
+                      setFormData({ ...formData, manager: value })
+                    }
                   >
                     <SelectTrigger>
-                      <SelectValue placeholder="Select manager" />
+                      <SelectValue placeholder='Select manager' />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="none">No Manager</SelectItem>
-                      {managers.map((manager) => (
+                      <SelectItem value='none'>No Manager</SelectItem>
+                      {managers.map(manager => (
                         <SelectItem key={manager.id} value={manager.id}>
                           {manager.manager_name}
                         </SelectItem>
@@ -437,10 +484,10 @@ export default function LocationsPage() {
                   </Select>
                 </div>
               </div>
-              
-              <div className="flex justify-end gap-2">
+
+              <div className='flex justify-end gap-2'>
                 <Button
-                  variant="outline"
+                  variant='outline'
                   onClick={() => {
                     setIsCreateDialogOpen(false);
                     setFormData({});
@@ -449,7 +496,9 @@ export default function LocationsPage() {
                   Cancel
                 </Button>
                 <Button onClick={handleCreateLocation} disabled={submitting}>
-                  {submitting && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
+                  {submitting && (
+                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                  )}
                   Create Location
                 </Button>
               </div>
@@ -457,67 +506,79 @@ export default function LocationsPage() {
           </Dialog>
         </div>
 
-        <div className="locations-container flex gap-1 min-h-[600px]">
+        <div className='locations-container flex gap-1 min-h-[600px]'>
           {/* Left Panel - Locations Table */}
-          <div 
-            className="space-y-4"
+          <div
+            className='space-y-4'
             style={{ width: selectedLocation ? `${leftPanelWidth}%` : '100%' }}
           >
             {/* Stats Cards */}
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Total Locations</CardTitle>
-                  <MapPin className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    Total Locations
+                  </CardTitle>
+                  <MapPin className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">{pagination.total}</div>
-                  <p className="text-xs text-muted-foreground">
+                  <div className='text-2xl font-bold'>{pagination.total}</div>
+                  <p className='text-xs text-muted-foreground'>
                     Active locations
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Sites</CardTitle>
-                  <Building2 className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>Sites</CardTitle>
+                  <Building2 className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
-                    {new Set(locations.map(l => l.site_id).filter(Boolean)).size}
+                  <div className='text-2xl font-bold'>
+                    {
+                      new Set(locations.map(l => l.site_id).filter(Boolean))
+                        .size
+                    }
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     Sites with locations
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Managed Locations</CardTitle>
-                  <UserCheck className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    Managed Locations
+                  </CardTitle>
+                  <UserCheck className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
+                  <div className='text-2xl font-bold'>
                     {locations.filter(l => l.manager).length}
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     With assigned managers
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Addresses</CardTitle>
-                  <MapPin className="h-4 w-4 text-muted-foreground" />
+                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+                  <CardTitle className='text-sm font-medium'>
+                    Addresses
+                  </CardTitle>
+                  <MapPin className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
-                    {locations.filter(l => l.address && l.address.trim()).length}
+                  <div className='text-2xl font-bold'>
+                    {
+                      locations.filter(l => l.address && l.address.trim())
+                        .length
+                    }
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className='text-xs text-muted-foreground'>
                     Locations with addresses
                   </p>
                 </CardContent>
@@ -525,31 +586,31 @@ export default function LocationsPage() {
             </div>
 
             {/* Search */}
-            <Card className="glass-effect">
-              <CardContent className="p-4">
-                <div className="flex items-center gap-4">
-                  <div className="flex-1 relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+            <Card className='glass-effect'>
+              <CardContent className='p-4'>
+                <div className='flex items-center gap-4'>
+                  <div className='flex-1 relative'>
+                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
                     <Input
-                      type="text"
+                      type='text'
                       value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      placeholder="Search by location name or address..."
-                      className="pl-9"
-                      onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                      onChange={e => setSearchTerm(e.target.value)}
+                      placeholder='Search by location name or address...'
+                      className='pl-9'
+                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
                     />
                   </div>
-                  <Button onClick={handleSearch} className="hover-lift">
+                  <Button onClick={handleSearch} className='hover-lift'>
                     Search
                   </Button>
                   {searchTerm && (
                     <Button
-                      variant="outline"
+                      variant='outline'
                       onClick={() => {
                         setSearchTerm('');
                         fetchLocations(1, '');
                       }}
-                      className="hover-lift"
+                      className='hover-lift'
                     >
                       Clear
                     </Button>
@@ -559,10 +620,10 @@ export default function LocationsPage() {
             </Card>
 
             {/* Locations Table */}
-            <Card className="hover-lift">
+            <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-2xl">
-                  <MapPin className="h-6 w-6" />
+                <CardTitle className='flex items-center gap-2 text-2xl'>
+                  <MapPin className='h-6 w-6' />
                   Locations ({pagination.total})
                 </CardTitle>
                 <CardDescription>
@@ -571,15 +632,19 @@ export default function LocationsPage() {
               </CardHeader>
               <CardContent>
                 {locations.length === 0 ? (
-                  <div className="text-center py-12">
-                    <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-                    <h3 className="text-lg font-medium text-foreground mb-2">No locations found</h3>
-                    <p className="text-muted-foreground">
-                      {searchTerm ? 'Try adjusting your search criteria.' : 'No locations available.'}
+                  <div className='text-center py-12'>
+                    <MapPin className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                    <h3 className='text-lg font-medium text-foreground mb-2'>
+                      No locations found
+                    </h3>
+                    <p className='text-muted-foreground'>
+                      {searchTerm
+                        ? 'Try adjusting your search criteria.'
+                        : 'No locations available.'}
                     </p>
                   </div>
                 ) : (
-                  <div className="max-h-[500px] overflow-auto scrollbar-premium">
+                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -592,69 +657,82 @@ export default function LocationsPage() {
                         </TableRow>
                       </TableHeader>
                       <TableBody>
-                        {locations.map((location) => (
-                          <TableRow 
-                            key={location.id} 
+                        {locations.map(location => (
+                          <TableRow
+                            key={location.id}
                             className={`cursor-pointer transition-colors hover:bg-muted/50 ${
-                              selectedLocation?.id === location.id ? 'bg-muted border-l-4 border-l-primary' : ''
+                              selectedLocation?.id === location.id
+                                ? 'bg-muted border-l-4 border-l-primary'
+                                : ''
                             }`}
                             onClick={() => handleLocationClick(location)}
                           >
                             <TableCell>
                               <div>
-                                <div className="font-medium">
+                                <div className='font-medium'>
                                   {location.name || 'Unnamed Location'}
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className='text-sm text-muted-foreground'>
                                   ID: {location.id.substring(0, 8)}...
                                 </div>
                               </div>
                             </TableCell>
                             <TableCell>
                               {location.site_name ? (
-                                <Badge variant="secondary" className="bg-blue-100 text-blue-800">
+                                <Badge
+                                  variant='secondary'
+                                  className='bg-blue-100 text-blue-800'
+                                >
                                   {location.site_name}
                                 </Badge>
                               ) : (
-                                <span className="text-sm text-muted-foreground">No site</span>
+                                <span className='text-sm text-muted-foreground'>
+                                  No site
+                                </span>
                               )}
                             </TableCell>
-                            <TableCell className="text-sm max-w-[200px] truncate">
+                            <TableCell className='text-sm max-w-[200px] truncate'>
                               {location.address || 'N/A'}
                             </TableCell>
                             <TableCell>
                               {location.manager_name ? (
-                                <div className="font-medium">{location.manager_name}</div>
+                                <div className='font-medium'>
+                                  {location.manager_name}
+                                </div>
                               ) : (
-                                <span className="text-sm text-muted-foreground">No manager</span>
+                                <span className='text-sm text-muted-foreground'>
+                                  No manager
+                                </span>
                               )}
                             </TableCell>
                             <TableCell>
-                              <div className="flex items-center gap-2">
-                                <span className="text-sm text-muted-foreground">N/A</span>
+                              <div className='flex items-center gap-2'>
+                                <span className='text-sm text-muted-foreground'>
+                                  N/A
+                                </span>
                               </div>
                             </TableCell>
                             <TableCell>
-                              <div className="flex items-center gap-2">
+                              <div className='flex items-center gap-2'>
                                 <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={(e) => {
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={e => {
                                     e.stopPropagation();
                                     openEditDialog(location);
                                   }}
                                 >
-                                  <Edit className="h-4 w-4" />
+                                  <Edit className='h-4 w-4' />
                                 </Button>
                                 <Button
-                                  variant="ghost"
-                                  size="sm"
-                                  onClick={(e) => {
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={e => {
                                     e.stopPropagation();
                                     handleDeleteLocation(location.id);
                                   }}
                                 >
-                                  <Trash2 className="h-4 w-4" />
+                                  <Trash2 className='h-4 w-4' />
                                 </Button>
                               </div>
                             </TableCell>
@@ -667,75 +745,85 @@ export default function LocationsPage() {
 
                 {/* Pagination */}
                 {pagination.totalPages > 1 && (
-                  <div className="flex items-center justify-between pt-4 border-t">
-                    <div className="text-sm text-muted-foreground">
-                      Showing {((pagination.page - 1) * pagination.limit) + 1} to{' '}
-                      {Math.min(pagination.page * pagination.limit, pagination.total)} of{' '}
-                      {pagination.total} results
+                  <div className='flex items-center justify-between pt-4 border-t'>
+                    <div className='text-sm text-muted-foreground'>
+                      Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
+                      {Math.min(
+                        pagination.page * pagination.limit,
+                        pagination.total
+                      )}{' '}
+                      of {pagination.total} results
                     </div>
-                    <div className="flex items-center space-x-2">
+                    <div className='flex items-center space-x-2'>
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(1)}
                         disabled={pagination.page === 1}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
-                        <ChevronsLeft className="h-4 w-4" />
+                        <ChevronsLeft className='h-4 w-4' />
                         First
                       </Button>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
-                        <ChevronLeft className="h-4 w-4" />
+                        <ChevronLeft className='h-4 w-4' />
                         Previous
                       </Button>
-                      
-                      <div className="flex items-center gap-1">
-                        {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
-                          const startPage = Math.max(1, pagination.page - 2);
-                          const page = startPage + i;
-                          if (page > pagination.totalPages) return null;
-                          
-                          return (
-                            <Button
-                              key={`locations-page-${page}`}
-                              variant={page === pagination.page ? "default" : "outline"}
-                              size="sm"
-                              onClick={() => handlePageChange(page)}
-                              className="hover-lift min-w-[40px]"
-                            >
-                              {page}
-                            </Button>
-                          );
-                        })}
+
+                      <div className='flex items-center gap-1'>
+                        {Array.from(
+                          { length: Math.min(5, pagination.totalPages) },
+                          (_, i) => {
+                            const startPage = Math.max(1, pagination.page - 2);
+                            const page = startPage + i;
+                            if (page > pagination.totalPages) return null;
+
+                            return (
+                              <Button
+                                key={`locations-page-${page}`}
+                                variant={
+                                  page === pagination.page
+                                    ? 'default'
+                                    : 'outline'
+                                }
+                                size='sm'
+                                onClick={() => handlePageChange(page)}
+                                className='hover-lift min-w-[40px]'
+                              >
+                                {page}
+                              </Button>
+                            );
+                          }
+                        )}
                       </div>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
                         Next
-                        <ChevronRight className="h-4 w-4" />
+                        <ChevronRight className='h-4 w-4' />
                       </Button>
-                      
+
                       <Button
-                        variant="outline"
-                        size="sm"
+                        variant='outline'
+                        size='sm'
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={pagination.page === pagination.totalPages}
-                        className="hover-lift"
+                        className='hover-lift'
                       >
                         Last
-                        <ChevronsRight className="h-4 w-4" />
+                        <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
                   </div>
@@ -746,8 +834,8 @@ export default function LocationsPage() {
 
           {/* Resize Handle */}
           {selectedLocation && (
-            <div 
-              className="w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0"
+            <div
+              className='w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0'
               onMouseDown={handleMouseDown}
               style={{ cursor: isResizing ? 'col-resize' : 'col-resize' }}
             />
@@ -755,98 +843,135 @@ export default function LocationsPage() {
 
           {/* Right Panel - Location Details */}
           {selectedLocation && (
-            <div 
-              className="space-y-4 animate-slide-up"
+            <div
+              className='space-y-4 animate-slide-up'
               style={{ width: `${100 - leftPanelWidth}%` }}
             >
-              <Card className="glass-effect">
-                <CardHeader className="pb-3">
-                  <div className="flex justify-between items-start">
-                    <div className="space-y-1">
-                      <CardTitle className="text-2xl medical-heading">
+              <Card className='glass-effect'>
+                <CardHeader className='pb-3'>
+                  <div className='flex justify-between items-start'>
+                    <div className='space-y-1'>
+                      <CardTitle className='text-2xl medical-heading'>
                         {selectedLocation.name || 'Unnamed Location'}
                       </CardTitle>
-                      <CardDescription className="flex items-center gap-2">
+                      <CardDescription className='flex items-center gap-2'>
                         {selectedLocation.site_name && (
-                          <Badge variant="secondary" className="bg-blue-100 text-blue-800">
+                          <Badge variant='secondary' className='bg-blue-800'>
                             {selectedLocation.site_name}
                           </Badge>
                         )}
                         {selectedLocation.manager_name && (
-                          <Badge variant="outline">
+                          <Badge variant='outline'>
                             Manager: {selectedLocation.manager_name}
                           </Badge>
                         )}
                       </CardDescription>
+                      {/* Last Updated Information */}
+                      <div className='text-xs text-muted-foreground mt-2'>
+                        <span>Last updated by </span>
+                        <span className='font-medium'>
+                          {selectedLocation.updated_by_name ||
+                            selectedLocation.user_updated ||
+                            'Unknown'}
+                        </span>
+                        <span> on </span>
+                        <span className='font-medium'>
+                          {selectedLocation.date_updated
+                            ? new Date(
+                                selectedLocation.date_updated
+                              ).toLocaleString()
+                            : 'Unknown'}
+                        </span>
+                      </div>
                     </div>
                     <Button
-                      variant="ghost"
-                      size="sm"
+                      variant='ghost'
+                      size='sm'
                       onClick={() => setSelectedLocation(null)}
-                      className="hover-lift"
+                      className='hover-lift'
                     >
-                      <X className="h-4 w-4" />
+                      <X className='h-4 w-4' />
                     </Button>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium">
+                <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Location Information */}
-                  <div className="space-y-3">
-                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
-                      <MapPin className="h-4 w-4" />
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <MapPin className='h-4 w-4' />
                       Location Information
                     </h3>
-                    <div className="grid grid-cols-1 gap-3 text-sm">
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Name:</span>
-                        <span className="font-medium">{selectedLocation.name || 'N/A'}</span>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Name:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLocation.name || 'N/A'}
+                        </span>
                       </div>
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Site:</span>
-                        <span className="font-medium">{selectedLocation.site_name || 'N/A'}</span>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Site:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedLocation.site_name || 'N/A'}
+                        </span>
                       </div>
                       {selectedLocation.address && (
-                        <div className="flex gap-2 items-start">
-                          <span className="text-muted-foreground min-w-[120px]">Address:</span>
-                          <span className="font-medium">{selectedLocation.address}</span>
+                        <div className='flex gap-2 items-start'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Address:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLocation.address}
+                          </span>
                         </div>
                       )}
                       {selectedLocation.manager_name && (
-                        <div className="flex gap-2">
-                          <span className="text-muted-foreground min-w-[120px]">Manager:</span>
-                          <span className="font-medium">{selectedLocation.manager_name}</span>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Manager:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLocation.manager_name}
+                          </span>
                         </div>
                       )}
                     </div>
                   </div>
 
                   {/* Statistics */}
-                  <div className="space-y-3">
-                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2">
-                      <Building2 className="h-4 w-4" />
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <Building2 className='h-4 w-4' />
                       Site Information
                     </h3>
-                    <div className="grid grid-cols-1 gap-4">
+                    <div className='grid grid-cols-1 gap-4'>
                       {/* Site Information */}
                       <div>
-                        <div className="text-muted-foreground">Site Information</div>
-                        <div className="font-semibold flex items-center gap-2 mb-2">
-                          <Building2 className="h-4 w-4 text-muted-foreground" />
+                        <div className='text-muted-foreground'>
+                          Site Information
+                        </div>
+                        <div className='font-semibold flex items-center gap-2 mb-2'>
+                          <Building2 className='h-4 w-4 text-muted-foreground' />
                           {selectedLocation.site_name || 'No site assigned'}
                         </div>
-                        <div className="text-xs text-muted-foreground mb-2">
-                          {selectedLocation.site_name ? 'Location within site' : 'Standalone location'}
+                        <div className='text-xs text-muted-foreground mb-2'>
+                          {selectedLocation.site_name
+                            ? 'Location within site'
+                            : 'Standalone location'}
                         </div>
                         {selectedLocation.site_name && (
                           <Button
-                            variant="outline"
-                            size="sm"
+                            variant='outline'
+                            size='sm'
                             onClick={() => handleViewSite(selectedLocation)}
-                            className="flex items-center gap-2"
+                            className='flex items-center gap-2'
                           >
-                            <Building2 className="h-3 w-3" />
+                            <Building2 className='h-3 w-3' />
                             View Site
-                            <ExternalLink className="h-3 w-3" />
+                            <ExternalLink className='h-3 w-3' />
                           </Button>
                         )}
                       </div>
@@ -854,34 +979,54 @@ export default function LocationsPage() {
                   </div>
 
                   {/* System Information */}
-                  <div className="space-y-3">
-                    <h3 className="font-semibold text-sm uppercase tracking-wide text-muted-foreground">
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                       Record Information
                     </h3>
-                    <div className="grid grid-cols-1 gap-3 text-sm">
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Created:</span>
-                        <span className="font-medium">{formatDate(selectedLocation.date_created)}</span>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Created:
+                        </span>
+                        <span className='font-medium'>
+                          {formatDate(selectedLocation.date_created)}
+                        </span>
                       </div>
                       {selectedLocation.created_by_name && (
-                        <div className="flex gap-2">
-                          <span className="text-muted-foreground min-w-[120px]">Created By:</span>
-                          <span className="font-medium">{selectedLocation.created_by_name}</span>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Created By:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLocation.created_by_name}
+                          </span>
                         </div>
                       )}
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Last Updated:</span>
-                        <span className="font-medium">{formatDate(selectedLocation.date_updated)}</span>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Last Updated:
+                        </span>
+                        <span className='font-medium'>
+                          {formatDate(selectedLocation.date_updated)}
+                        </span>
                       </div>
                       {selectedLocation.updated_by_name && (
-                        <div className="flex gap-2">
-                          <span className="text-muted-foreground min-w-[120px]">Updated By:</span>
-                          <span className="font-medium">{selectedLocation.updated_by_name}</span>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Updated By:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedLocation.updated_by_name}
+                          </span>
                         </div>
                       )}
-                      <div className="flex gap-2">
-                        <span className="text-muted-foreground min-w-[120px]">Location ID:</span>
-                        <span className="font-mono text-xs">{selectedLocation.id}</span>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Location ID:
+                        </span>
+                        <span className='font-mono text-xs'>
+                          {selectedLocation.id}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -893,37 +1038,39 @@ export default function LocationsPage() {
 
         {/* Edit Dialog */}
         <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
-          <DialogContent className="max-w-2xl">
+          <DialogContent className='max-w-2xl'>
             <DialogHeader>
               <DialogTitle>Edit Location</DialogTitle>
-              <DialogDescription>
-                Update location information
-              </DialogDescription>
+              <DialogDescription>Update location information</DialogDescription>
             </DialogHeader>
-            
-            <div className="grid grid-cols-1 gap-4 py-4">
-              <div className="space-y-2">
-                <Label htmlFor="edit_name">Location Name</Label>
+
+            <div className='grid grid-cols-1 gap-4 py-4'>
+              <div className='space-y-2'>
+                <Label htmlFor='edit_name'>Location Name</Label>
                 <Input
-                  id="edit_name"
+                  id='edit_name'
                   value={formData.name || ''}
-                  onChange={(e) => setFormData({...formData, name: e.target.value})}
-                  placeholder="Enter location name"
+                  onChange={e =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
+                  placeholder='Enter location name'
                 />
               </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="edit_site_id">Site</Label>
+
+              <div className='space-y-2'>
+                <Label htmlFor='edit_site_id'>Site</Label>
                 <Select
                   value={formData.site_id || ''}
-                  onValueChange={(value) => setFormData({...formData, site_id: value})}
+                  onValueChange={value =>
+                    setFormData({ ...formData, site_id: value })
+                  }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select site" />
+                    <SelectValue placeholder='Select site' />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="none">No Site</SelectItem>
-                    {sites.map((site) => (
+                    <SelectItem value='none'>No Site</SelectItem>
+                    {sites.map(site => (
                       <SelectItem key={site.id} value={site.id}>
                         {site.name}
                       </SelectItem>
@@ -931,30 +1078,34 @@ export default function LocationsPage() {
                   </SelectContent>
                 </Select>
               </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="edit_address">Address</Label>
+
+              <div className='space-y-2'>
+                <Label htmlFor='edit_address'>Address</Label>
                 <Textarea
-                  id="edit_address"
+                  id='edit_address'
                   value={formData.address || ''}
-                  onChange={(e) => setFormData({...formData, address: e.target.value})}
-                  placeholder="Enter location address"
+                  onChange={e =>
+                    setFormData({ ...formData, address: e.target.value })
+                  }
+                  placeholder='Enter location address'
                   rows={3}
                 />
               </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="edit_manager">Manager</Label>
+
+              <div className='space-y-2'>
+                <Label htmlFor='edit_manager'>Manager</Label>
                 <Select
                   value={formData.manager || ''}
-                  onValueChange={(value) => setFormData({...formData, manager: value})}
+                  onValueChange={value =>
+                    setFormData({ ...formData, manager: value })
+                  }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select manager" />
+                    <SelectValue placeholder='Select manager' />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="none">No Manager</SelectItem>
-                    {managers.map((manager) => (
+                    <SelectItem value='none'>No Manager</SelectItem>
+                    {managers.map(manager => (
                       <SelectItem key={manager.id} value={manager.id}>
                         {manager.manager_name}
                       </SelectItem>
@@ -963,10 +1114,10 @@ export default function LocationsPage() {
                 </Select>
               </div>
             </div>
-            
-            <div className="flex justify-end gap-2">
+
+            <div className='flex justify-end gap-2'>
               <Button
-                variant="outline"
+                variant='outline'
                 onClick={() => {
                   setIsEditDialogOpen(false);
                   setFormData({});
@@ -975,7 +1126,9 @@ export default function LocationsPage() {
                 Cancel
               </Button>
               <Button onClick={handleEditLocation} disabled={submitting}>
-                {submitting && <Loader2 className="h-4 w-4 mr-2 animate-spin" />}
+                {submitting && (
+                  <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                )}
                 Update Location
               </Button>
             </div>

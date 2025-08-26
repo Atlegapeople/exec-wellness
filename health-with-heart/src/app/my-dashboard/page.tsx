@@ -93,6 +93,45 @@ interface FormData {
   [key: string]: any;
 }
 
+interface Employee {
+  id: string;
+  date_created?: Date;
+  date_updated?: Date;
+  user_created?: string;
+  user_updated?: string;
+  created_by?: string;
+  updated_by?: string;
+  section_header?: string;
+  name: string;
+  surname: string;
+  id_number?: string;
+  passport_number?: string;
+  gender?: string;
+  date_of_birth?: Date;
+  ethnicity?: string;
+  marriage_status?: string;
+  no_of_children?: number;
+  personal_email_address?: string;
+  mobile_number?: string;
+  section_header_2?: string;
+  medical_aid?: string;
+  medical_aid_number?: string;
+  main_member?: boolean;
+  main_member_name?: string;
+  section_header_3?: string;
+  work_email?: string;
+  employee_number?: string;
+  organisation?: string;
+  organisation_name?: string;
+  workplace?: string;
+  workplace_name?: string;
+  job?: string;
+  notes_header?: string;
+  notes_text?: string;
+  work_startdate?: Date;
+  manager_count?: number;
+}
+
 interface DashboardData {
   doctor: {
     id: string;
@@ -179,8 +218,12 @@ export default function MyDashboard() {
   const [selectedReport, setSelectedReport] = useState<MedicalReport | null>(
     null
   );
+  const [selectedEmployee, setSelectedEmployee] = useState<Employee | null>(
+    null
+  );
   const [formData, setFormData] = useState<FormData | null>(null);
   const [formLoading, setFormLoading] = useState(false);
+  const [employeeLoading, setEmployeeLoading] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
@@ -240,6 +283,9 @@ export default function MyDashboard() {
   useEffect(() => {
     setSelectedDoctorId('');
     setSelectedNurseId('');
+    setSelectedReport(null);
+    setSelectedEmployee(null);
+    setFormData(null);
   }, [selectedStaffType]);
 
   // Helper functions
@@ -262,21 +308,37 @@ export default function MyDashboard() {
   const handleReportClick = async (report: MedicalReport) => {
     setSelectedReport(report);
     setFormLoading(true);
+    setEmployeeLoading(true);
 
     try {
-      const response = await fetch(`/api/reports/form-data/${report.id}`);
-      if (response.ok) {
-        const data = await response.json();
+      // Fetch employee data
+      const employeeResponse = await fetch(
+        `/api/employees/${report.employee_id}`
+      );
+      if (employeeResponse.ok) {
+        const employeeData = await employeeResponse.json();
+        setSelectedEmployee(employeeData);
+      } else {
+        console.error('Failed to fetch employee data');
+        setSelectedEmployee(null);
+      }
+
+      // Fetch form data
+      const formResponse = await fetch(`/api/reports/form-data/${report.id}`);
+      if (formResponse.ok) {
+        const data = await formResponse.json();
         setFormData(data);
       } else {
         console.error('Failed to fetch form data');
         setFormData(null);
       }
     } catch (error) {
-      console.error('Error fetching form data:', error);
+      console.error('Error fetching data:', error);
       setFormData(null);
+      setSelectedEmployee(null);
     } finally {
       setFormLoading(false);
+      setEmployeeLoading(false);
     }
   };
 
@@ -785,7 +847,7 @@ export default function MyDashboard() {
             </div>
           )}
 
-          {/* Right Panel - Form Preview */}
+          {/* Right Panel - Employee 360 View */}
           <div
             className={`space-y-4 ${selectedReport ? 'animate-slide-up' : ''}`}
             style={{
@@ -803,14 +865,14 @@ export default function MyDashboard() {
           >
             {selectedReport && (
               <>
-                {/* Form Header Card */}
+                {/* Employee Header Card */}
                 <Card className='glass-effect'>
                   <CardContent className='p-4 min-h-[120px] flex items-center'>
                     <div className='flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-4'>
                       <div className='space-y-2 flex-1'>
                         <CardTitle className='text-2xl flex items-center gap-3 heading-montserrat-bold'>
                           <div className='p-2 bg-teal-100 rounded-lg'>
-                            <FileText className='h-6 w-6 text-teal-600' />
+                            <Users className='h-6 w-6 text-teal-600' />
                           </div>
                           <span className='medical-heading'>
                             {getEmployeeName(selectedReport)}
@@ -821,7 +883,7 @@ export default function MyDashboard() {
                             variant='outline'
                             className='font-mono text-xs font-medium'
                           >
-                            ID: {selectedReport.id.slice(0, 12)}...
+                            ID: {selectedReport.employee_id.slice(0, 12)}...
                           </Badge>
                           <Badge
                             variant={
@@ -836,6 +898,21 @@ export default function MyDashboard() {
                               : '⏳ Pending'}
                           </Badge>
                         </CardDescription>
+                        {/* Last Updated Information */}
+                        <div className='text-xs text-muted-foreground mt-2 lg:ml-14'>
+                          <span>Last updated by </span>
+                          <span className='font-medium'>
+                            {selectedReport.user_updated || 'Unknown'}
+                          </span>
+                          <span> on </span>
+                          <span className='font-medium'>
+                            {selectedReport.date_updated
+                              ? new Date(
+                                  selectedReport.date_updated
+                                ).toLocaleString()
+                              : 'Unknown'}
+                          </span>
+                        </div>
                       </div>
                       <div className='flex items-center gap-2 flex-shrink-0'>
                         <Button
@@ -846,7 +923,6 @@ export default function MyDashboard() {
                           title='Edit this medical report'
                         >
                           <Edit className='h-4 w-4 mr-1' />
-                          Edit
                         </Button>
                         <Button
                           onClick={handleDeleteReport}
@@ -856,7 +932,6 @@ export default function MyDashboard() {
                           title='Delete this medical report'
                         >
                           <Trash2 className='h-4 w-4 mr-1' />
-                          Delete
                         </Button>
                         <Button
                           onClick={handleGeneratePDF}
@@ -871,12 +946,15 @@ export default function MyDashboard() {
                           }
                         >
                           <Download className='h-4 w-4 mr-1' />
-                          PDF
                         </Button>
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedReport(null)}
+                          onClick={() => {
+                            setSelectedReport(null);
+                            setSelectedEmployee(null);
+                            setFormData(null);
+                          }}
                           className='hover-lift'
                         >
                           <X className='h-4 w-4' />
@@ -886,1294 +964,38 @@ export default function MyDashboard() {
                   </CardContent>
                 </Card>
 
-                {/* Form Content Card */}
-                <Card className='hover-lift' style={{ maxHeight: '565px' }}>
+                {/* Employee 360 View */}
+                <Card className='hover-lift' style={{ maxHeight: '700px' }}>
                   <CardContent
-                    className='h-full overflow-y-auto scrollbar-premium'
-                    style={{ maxHeight: '525px' }}
+                    className='h-full overflow-y-auto scrollbar-premium p-6'
+                    style={{ maxHeight: '650px' }}
                   >
-                    {formLoading ? (
+                    {employeeLoading ? (
                       <div className='text-center py-12'>
                         <div className='relative'>
                           <Loader2 className='h-8 w-8 animate-spin text-primary mx-auto mb-4' />
                           <div className='absolute inset-0 flex items-center justify-center'>
-                            <FileText className='h-4 w-4 text-primary/30' />
+                            <Users className='h-4 w-4 text-primary/30' />
                           </div>
                         </div>
                         <p className='text-muted-foreground'>
-                          Loading form data...
+                          Loading employee data...
                         </p>
                       </div>
-                    ) : formData ? (
-                      <div className='space-y-6'>
-                        {/* Report Heading */}
-                        <Card className='border-primary/20'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Report Information
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-3'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Report ID:
-                                </span>
-                                <span className='font-medium font-mono'>
-                                  {formData.report_heading?.report_id}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Doctor:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.report_heading?.doctor_name ||
-                                    'Unassigned'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Nurse:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.report_heading?.nurse_name ||
-                                    'Unassigned'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Last Updated:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.report_heading?.date_updated
-                                    ? new Date(
-                                        formData.report_heading.date_updated
-                                      ).toLocaleDateString()
-                                    : 'N/A'}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Personal Details */}
-                        <Card className='border-green-500/20'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Users className='h-5 w-5' />
-                              Personal Details
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-3'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  ID:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.id}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Name:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.name}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Surname:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.surname}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Gender:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.gender}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  ID/Passport:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.id_or_passport}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Age:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.age}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Height:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.height_cm} cm
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Weight:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.weight_kg} kg
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  BMI:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.bmi}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  BMI Status:
-                                </span>
-                                <Badge variant='outline'>
-                                  {formData.personal_details?.bmi_status}
-                                </Badge>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Blood Pressure:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.personal_details?.blood_pressure}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  BP Status:
-                                </span>
-                                <Badge variant='outline'>
-                                  {
-                                    formData.personal_details
-                                      ?.blood_pressure_status
-                                  }
-                                </Badge>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Clinical Examinations */}
-                        <Card className='border-teal-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Stethoscope className='h-5 w-5' />
-                              Clinical Examinations
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-1 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  General Assessment:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.general_assessment || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Head & Neck (incl Thyroid):
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.head_neck_incl_thyroid || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Cardiovascular:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.cardiovascular || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Respiratory:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.respiratory || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Gastrointestinal:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.gastrointestinal || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Musculoskeletal:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.musculoskeletal || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Neurological:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.neurological || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Skin:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations?.skin ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Hearing Assessment:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.hearing_assessment || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Eyesight Status:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.clinical_examinations
-                                    ?.eyesight_status || 'Not Done'}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Lab Tests */}
-                        <Card className='border-gray-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Lab Tests
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Full Blood Count & ESR:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests
-                                    ?.full_blood_count_an_esr || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Kidney Function:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.kidney_function ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Liver Enzymes:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.liver_enzymes ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Vitamin D:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.vitamin_d || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Uric Acid:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.uric_acid || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  hs-CRP:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.hs_crp || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Homocysteine:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.homocysteine ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Total Cholesterol:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.total_cholesterol ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Fasting Glucose:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.fasting_glucose ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Insulin Level:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.insulin_level ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Thyroid Stimulating Hormone:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests
-                                    ?.thyroid_stimulating_hormone || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Adrenal Response:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.adrenal_response ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Sex Hormones:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.sex_hormones ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  PSA:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.psa || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  HIV:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.lab_tests?.hiv || 'Not Done'}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Special Investigations */}
-                        <Card className='border-teal-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Special Investigations
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Resting ECG:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.resting_ecg || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Stress ECG:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.stress_ecg || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Lung Function:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.lung_function || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Urine Dipstix:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.urine_dipstix || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  KardioFit:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations?.kardiofit ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  NerveIQ Cardio:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.nerveiq_cardio || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  NerveIQ CNS:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.nerveiq_cns || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  NerveIQ:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations?.nerveiq ||
-                                    'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Predicted VO2 Max:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.predicted_vo2_max || 'Not Done'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Body Fat Percentage:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.special_investigations
-                                    ?.body_fat_percentage || 'Not Done'}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Medical History */}
-                        <Card className='border-gray-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Medical History
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  High Blood Pressure:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.medical_history
-                                      ?.high_blood_pressure
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  High Cholesterol:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.high_cholesterol}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Diabetes:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.diabetes}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Asthma:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.asthma}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Epilepsy:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.epilepsy}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Thyroid Disease:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.thyroid_disease}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Inflammatory Bowel Disease:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.medical_history
-                                      ?.inflammatory_bowel_disease
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Hepatitis:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.hepatitis}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Surgery:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.surgery}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Anxiety or Depression:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.medical_history
-                                      ?.anxiety_or_depression
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Bipolar Mood Disorder:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.medical_history
-                                      ?.bipolar_mood_disorder
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  HIV:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.hiv}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  TB:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.tb}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Disability:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.disability}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Cardiac Event in Family:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.medical_history
-                                      ?.cardiac_event_in_family
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Cancer Family:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.medical_history?.cancer_family}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Allergies */}
-                        <Card className='border-teal-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <AlertTriangle className='h-5 w-5' />
-                              Allergies
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-3 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Environmental:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.allergies?.environmental}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Food:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.allergies?.food}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Medication:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.allergies?.medication}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Current Medication and Supplements */}
-                        <Card className='border-gray-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Current Medication and Supplements
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-1 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Chronic Medication:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.current_medication_supplements
-                                      ?.chronic_medication
-                                  }
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Vitamins/Supplements:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.current_medication_supplements
-                                      ?.vitamins_supplements
-                                  }
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Screening */}
-                        <Card className='border-teal-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Search className='h-5 w-5' />
-                              Screening
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Abdominal UltraSound:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.screening?.abdominal_ultrasound}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Colonoscopy:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.screening?.colonoscopy}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Gastroscopy:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.screening?.gastroscopy}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Bone Density Scan:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.screening?.bone_density_scan}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Annual Screening for Prostate:
-                                </span>
-                                <span className='font-medium'>
-                                  {
-                                    formData.screening
-                                      ?.annual_screening_prostate
-                                  }
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Mental Health */}
-                        <Card className='border-gray-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Users className='h-5 w-5' />
-                              Mental Health
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='space-y-3 text-sm'>
-                            <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Anxiety Level:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.mental_health?.anxiety_level ||
-                                    'Not assessed'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Energy Level:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.mental_health?.energy_level ||
-                                    'Not assessed'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Mood Level:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.mental_health?.mood_level ||
-                                    'Not assessed'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Stress Level:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.mental_health?.stress_level ||
-                                    'Not assessed'}
-                                </span>
-                              </div>
-                              <div className='flex gap-2'>
-                                <span className='text-muted-foreground'>
-                                  Sleep Rating:
-                                </span>
-                                <span className='font-medium'>
-                                  {formData.mental_health?.sleep_rating ||
-                                    'Not assessed'}
-                                </span>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Cardiovascular/Stroke Risk */}
-                        <Card className='border-teal-200'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Stethoscope className='h-5 w-5' />
-                              Cardiovascular/Stroke Risk
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='pt-0'>
-                            {/* Risk factors table */}
-                            <div className='bg-white rounded border divide-y mb-6'>
-                              {formData.cardiovascular_stroke_risk &&
-                                Object.entries({
-                                  'Age & Gender':
-                                    formData.cardiovascular_stroke_risk
-                                      .age_and_gender_risk,
-                                  'Blood Pressure':
-                                    formData.cardiovascular_stroke_risk
-                                      .blood_pressure,
-                                  Cholesterol:
-                                    formData.cardiovascular_stroke_risk
-                                      .cholesterol,
-                                  Diabetes:
-                                    formData.cardiovascular_stroke_risk
-                                      .diabetes,
-                                  Obesity:
-                                    formData.cardiovascular_stroke_risk.obesity,
-                                  'Waist to Hip Ratio':
-                                    formData.cardiovascular_stroke_risk
-                                      .waist_to_hip_ratio,
-                                  'Overall Diet':
-                                    formData.cardiovascular_stroke_risk
-                                      .overall_diet,
-                                  Exercise:
-                                    formData.cardiovascular_stroke_risk
-                                      .exercise,
-                                  'Alcohol Consumption':
-                                    formData.cardiovascular_stroke_risk
-                                      .alcohol_consumption,
-                                  Smoking:
-                                    formData.cardiovascular_stroke_risk.smoking,
-                                  'Stress Level':
-                                    formData.cardiovascular_stroke_risk
-                                      .stress_level,
-                                  'Previous Cardiac Event':
-                                    formData.cardiovascular_stroke_risk
-                                      .previous_cardiac_event,
-                                  'Cardiac History In Family':
-                                    formData.cardiovascular_stroke_risk
-                                      .cardiac_history_in_family,
-                                  'Stroke History In Family':
-                                    formData.cardiovascular_stroke_risk
-                                      .stroke_history_in_family,
-                                  'Reynolds Risk Score':
-                                    formData.cardiovascular_stroke_risk
-                                      .reynolds_risk_score,
-                                }).map(([factor, status]) => (
-                                  <div
-                                    key={factor}
-                                    className='flex justify-between items-center px-3 py-2 text-sm'
-                                  >
-                                    <span>{factor}</span>
-                                    <span
-                                      className={`px-2 py-1 rounded text-xs font-semibold ${
-                                        status === 'At Risk'
-                                          ? 'bg-red-100 text-red-800'
-                                          : status === 'Medium Risk' ||
-                                              status === 'Medium'
-                                            ? 'bg-yellow-100 text-yellow-800'
-                                            : status === 'Low Risk' ||
-                                                status === 'No Risk'
-                                              ? 'bg-green-100 text-green-800'
-                                              : 'bg-green-100 text-green-800'
-                                      }`}
-                                    >
-                                      {status}
-                                    </span>
-                                  </div>
-                                ))}
-                            </div>
-
-                            {/* Risk Distribution Pie Chart */}
-                            <div className='bg-white p-6 rounded border'>
-                              <h5 className='font-semibold text-gray-900 text-center text-base mb-6'>
-                                Risk Distribution
-                              </h5>
-                              {(() => {
-                                const riskFactors =
-                                  formData.cardiovascular_stroke_risk
-                                    ? Object.values({
-                                        age_gender:
-                                          formData.cardiovascular_stroke_risk
-                                            .age_and_gender_risk,
-                                        blood_pressure:
-                                          formData.cardiovascular_stroke_risk
-                                            .blood_pressure,
-                                        cholesterol:
-                                          formData.cardiovascular_stroke_risk
-                                            .cholesterol,
-                                        diabetes:
-                                          formData.cardiovascular_stroke_risk
-                                            .diabetes,
-                                        obesity:
-                                          formData.cardiovascular_stroke_risk
-                                            .obesity,
-                                        waist_to_hip_ratio:
-                                          formData.cardiovascular_stroke_risk
-                                            .waist_to_hip_ratio,
-                                        overall_diet:
-                                          formData.cardiovascular_stroke_risk
-                                            .overall_diet,
-                                        exercise:
-                                          formData.cardiovascular_stroke_risk
-                                            .exercise,
-                                        alcohol_consumption:
-                                          formData.cardiovascular_stroke_risk
-                                            .alcohol_consumption,
-                                        smoking:
-                                          formData.cardiovascular_stroke_risk
-                                            .smoking,
-                                        stress_level:
-                                          formData.cardiovascular_stroke_risk
-                                            .stress_level,
-                                        previous_cardiac_event:
-                                          formData.cardiovascular_stroke_risk
-                                            .previous_cardiac_event,
-                                        cardiac_history_in_family:
-                                          formData.cardiovascular_stroke_risk
-                                            .cardiac_history_in_family,
-                                        stroke_history_in_family:
-                                          formData.cardiovascular_stroke_risk
-                                            .stroke_history_in_family,
-                                        reynolds_risk_score:
-                                          formData.cardiovascular_stroke_risk
-                                            .reynolds_risk_score,
-                                      })
-                                    : [];
-
-                                const riskCounts = riskFactors.reduce(
-                                  (acc: Record<string, number>, risk) => {
-                                    const normalizedRisk =
-                                      risk === 'No Risk' || risk === 'Low Risk'
-                                        ? 'Low Risk'
-                                        : risk === 'Medium Risk' ||
-                                            risk === 'Medium'
-                                          ? 'Medium Risk'
-                                          : 'At Risk';
-                                    acc[normalizedRisk] =
-                                      (acc[normalizedRisk] || 0) + 1;
-                                    return acc;
-                                  },
-                                  {}
-                                );
-
-                                const total = Object.values(riskCounts).reduce(
-                                  (sum: number, count) => sum + count,
-                                  0
-                                );
-                                const colors = {
-                                  'Low Risk': '#0F766E',
-                                  'Medium Risk': '#374151',
-                                  'At Risk': '#6B7280',
-                                };
-
-                                // Create slices for pie chart
-                                const slices = Object.entries(riskCounts)
-                                  .map(([status, count]) => ({
-                                    status,
-                                    count,
-                                    percentage: Math.round(
-                                      (count / total) * 100
-                                    ),
-                                    color:
-                                      colors[status as keyof typeof colors] ||
-                                      '#6B7280',
-                                  }))
-                                  .filter(slice => slice.count > 0);
-
-                                // Sort by count descending
-                                slices.sort((a, b) => b.count - a.count);
-
-                                return (
-                                  <div className='flex justify-center items-center gap-8'>
-                                    {/* Pie Chart Visual */}
-                                    <div className='relative'>
-                                      <svg
-                                        width='240'
-                                        height='240'
-                                        className='transform -rotate-90'
-                                      >
-                                        {(() => {
-                                          let cumulativeAngle = 0;
-                                          const radius = 100;
-                                          const centerX = 120;
-                                          const centerY = 120;
-
-                                          return slices.map(
-                                            (
-                                              { status, percentage, color },
-                                              index
-                                            ) => {
-                                              const angle =
-                                                (percentage / 100) * 360;
-                                              const startAngle =
-                                                cumulativeAngle;
-                                              const endAngle =
-                                                cumulativeAngle + angle;
-
-                                              const startAngleRad =
-                                                (startAngle * Math.PI) / 180;
-                                              const endAngleRad =
-                                                (endAngle * Math.PI) / 180;
-
-                                              const x1 =
-                                                centerX +
-                                                radius *
-                                                  Math.cos(startAngleRad);
-                                              const y1 =
-                                                centerY +
-                                                radius *
-                                                  Math.sin(startAngleRad);
-                                              const x2 =
-                                                centerX +
-                                                radius * Math.cos(endAngleRad);
-                                              const y2 =
-                                                centerY +
-                                                radius * Math.sin(endAngleRad);
-
-                                              const largeArcFlag =
-                                                angle > 180 ? 1 : 0;
-
-                                              const pathData = [
-                                                `M ${centerX} ${centerY}`,
-                                                `L ${x1} ${y1}`,
-                                                `A ${radius} ${radius} 0 ${largeArcFlag} 1 ${x2} ${y2}`,
-                                                'Z',
-                                              ].join(' ');
-
-                                              cumulativeAngle += angle;
-
-                                              return (
-                                                <path
-                                                  key={status}
-                                                  d={pathData}
-                                                  fill={color}
-                                                  stroke='#ffffff'
-                                                  strokeWidth='2'
-                                                />
-                                              );
-                                            }
-                                          );
-                                        })()}
-                                      </svg>
-                                    </div>
-
-                                    {/* Legend */}
-                                    <div className='space-y-3'>
-                                      {slices.map(
-                                        ({
-                                          status,
-                                          count,
-                                          percentage,
-                                          color,
-                                        }) => (
-                                          <div
-                                            key={status}
-                                            className='flex items-center gap-3'
-                                          >
-                                            <div
-                                              className='w-4 h-4 rounded-full'
-                                              style={{ backgroundColor: color }}
-                                            ></div>
-                                            <div className='flex flex-col'>
-                                              <span className='font-medium text-gray-900'>
-                                                {status}
-                                              </span>
-                                              <span className='text-sm text-gray-600'>
-                                                {count} factors ({percentage}%)
-                                              </span>
-                                            </div>
-                                          </div>
-                                        )
-                                      )}
-                                    </div>
-                                  </div>
-                                );
-                              })()}
-                            </div>
-                          </CardContent>
-                        </Card>
-
-                        {/* Notes and Recommendations */}
-                        {formData.notes_recommendations
-                          ?.recommendation_text && (
-                          <Card className='border-gray-200'>
-                            <CardHeader className='pb-3'>
-                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                                <FileText className='h-5 w-5' />
-                                Notes and Recommendations
-                              </CardTitle>
-                            </CardHeader>
-                            <CardContent className='pt-0'>
-                              <div className='text-sm'>
-                                <p className='text-gray-700'>
-                                  {
-                                    formData.notes_recommendations
-                                      .recommendation_text
-                                  }
-                                </p>
-                              </div>
-                            </CardContent>
-                          </Card>
-                        )}
-
-                        {/* Men's Health - Only show for male employees */}
-                        {formData.mens_health?.recommendation_text && (
-                          <Card className='border-teal-200'>
-                            <CardHeader className='pb-3'>
-                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                                <Users className='h-5 w-5' />
-                                Men's Health
-                              </CardTitle>
-                            </CardHeader>
-                            <CardContent className='pt-0'>
-                              <div className='text-sm'>
-                                <p className='text-gray-700'>
-                                  {formData.mens_health.recommendation_text}
-                                </p>
-                              </div>
-                            </CardContent>
-                          </Card>
-                        )}
-
-                        {/* Women's Health - Only show for female employees */}
-                        {formData.womens_health?.recommendation_text && (
-                          <Card className='border-teal-200'>
-                            <CardHeader className='pb-3'>
-                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                                <Users className='h-5 w-5' />
-                                Women's Health
-                              </CardTitle>
-                            </CardHeader>
-                            <CardContent className='pt-0'>
-                              <div className='text-sm'>
-                                <p className='text-gray-700'>
-                                  {formData.womens_health.recommendation_text}
-                                </p>
-                              </div>
-                            </CardContent>
-                          </Card>
-                        )}
-
-                        {/* Overview */}
-                        {formData.overview?.notes_text && (
-                          <Card className='border-gray-200'>
-                            <CardHeader className='pb-3'>
-                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                                <FileText className='h-5 w-5' />
-                                Overview
-                              </CardTitle>
-                            </CardHeader>
-                            <CardContent className='pt-0'>
-                              <div className='text-sm'>
-                                <p className='text-gray-700'>
-                                  {formData.overview.notes_text}
-                                </p>
-                              </div>
-                            </CardContent>
-                          </Card>
-                        )}
-
-                        {/* Important Information and Disclaimer */}
-                        <Card className='border-gray-200 border-l-4 border-l-gray-400'>
-                          <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <AlertTriangle className='h-5 w-5' />
-                              Important Information and Disclaimer
-                            </CardTitle>
-                          </CardHeader>
-                          <CardContent className='pt-0'>
-                            <div className='text-sm text-gray-700'>
-                              <p className='whitespace-pre-line'>
-                                {
-                                  formData.important_information_disclaimer
-                                    ?.disclaimer_text
-                                }
-                              </p>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      </div>
+                    ) : selectedEmployee ? (
+                      <Employee360View
+                        employeeId={selectedEmployee.id}
+                        employee={selectedEmployee}
+                      />
                     ) : (
                       <div className='text-center py-12'>
-                        <div className='flex flex-col items-center justify-center space-y-4'>
-                          <AlertTriangle className='h-12 w-12 text-muted-foreground' />
-                          <div>
-                            <h3 className='text-lg font-medium text-foreground mb-2'>
-                              Failed to load form data
-                            </h3>
-                            <p className='text-muted-foreground'>
-                              Please try selecting the report again.
-                            </p>
-                          </div>
-                        </div>
+                        <Users className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                        <h3 className='text-lg font-medium text-foreground mb-2'>
+                          Employee not found
+                        </h3>
+                        <p className='text-muted-foreground'>
+                          Unable to load employee data for this report.
+                        </p>
                       </div>
                     )}
                   </CardContent>

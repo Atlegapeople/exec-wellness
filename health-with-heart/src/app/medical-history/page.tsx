@@ -173,6 +173,17 @@ export default function MedicalHistoryPage() {
   const [deletingMedicalHistory, setDeletingMedicalHistory] =
     useState<MedicalHistory | null>(null);
 
+  // Edit states for each section
+  const [isEditingConditions, setIsEditingConditions] = useState(false);
+  const [isEditingDisability, setIsEditingDisability] = useState(false);
+  const [isEditingAllergies, setIsEditingAllergies] = useState(false);
+  const [isEditingMedication, setIsEditingMedication] = useState(false);
+  const [isEditingFamilyHistory, setIsEditingFamilyHistory] = useState(false);
+  const [isEditingSurgery, setIsEditingSurgery] = useState(false);
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
+  const [isEditingRecommendations, setIsEditingRecommendations] =
+    useState(false);
+
   const fetchMedicalHistories = async (page = 1, search = '') => {
     try {
       setLoading(true);
@@ -1217,6 +1228,23 @@ export default function MedicalHistoryPage() {
                           </Badge>
                         )}
                       </CardDescription>
+                      {/* Last Updated Information */}
+                      <div className='text-xs text-muted-foreground mt-2'>
+                        <span>Last updated by </span>
+                        <span className='font-medium'>
+                          {selectedMedicalHistory.updated_by_name ||
+                            selectedMedicalHistory.user_updated ||
+                            'Unknown'}
+                        </span>
+                        <span> on </span>
+                        <span className='font-medium'>
+                          {selectedMedicalHistory.date_updated
+                            ? new Date(
+                                selectedMedicalHistory.date_updated
+                              ).toLocaleString()
+                            : 'Unknown'}
+                        </span>
+                      </div>
                     </div>
                     <div className='flex items-center gap-2'>
                       <Button
@@ -1243,10 +1271,35 @@ export default function MedicalHistoryPage() {
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Medical Conditions */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Heart className='h-4 w-4' />
-                      Medical Conditions
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Heart className='h-4 w-4' />
+                        Medical Conditions
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingConditions && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingConditions(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingConditions ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingConditions(!isEditingConditions)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingConditions ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-2 gap-3 text-sm'>
                       <div className='flex items-center gap-2'>
                         <div
@@ -1285,10 +1338,37 @@ export default function MedicalHistoryPage() {
                   {/* Medications */}
                   {selectedMedicalHistory.on_medication && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Pill className='h-4 w-4' />
-                        Current Medications
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Pill className='h-4 w-4' />
+                          Current Medications
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingMedication && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingMedication(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={
+                              isEditingMedication ? 'default' : 'outline'
+                            }
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingMedication(!isEditingMedication)
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingMedication ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
                       <div className='text-sm space-y-2'>
                         {selectedMedicalHistory.chronic_medication && (
                           <div>
@@ -1316,10 +1396,35 @@ export default function MedicalHistoryPage() {
                   {(selectedMedicalHistory.medication ||
                     selectedMedicalHistory.food) && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Shield className='h-4 w-4' />
-                        Allergies
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Shield className='h-4 w-4' />
+                          Allergies
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingAllergies && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingAllergies(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={isEditingAllergies ? 'default' : 'outline'}
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingAllergies(!isEditingAllergies)
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingAllergies ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
                       <div className='text-sm space-y-2'>
                         {selectedMedicalHistory.medication &&
                           selectedMedicalHistory.medication_type && (
@@ -1344,9 +1449,36 @@ export default function MedicalHistoryPage() {
                   {/* Family History */}
                   {selectedMedicalHistory.family_conditions && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                        Family History
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                          Family History
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingFamilyHistory && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingFamilyHistory(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={
+                              isEditingFamilyHistory ? 'default' : 'outline'
+                            }
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingFamilyHistory(!isEditingFamilyHistory)
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingFamilyHistory ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
                       <div className='p-3 bg-muted/50 rounded-lg'>
                         <p className='text-sm'>
                           {selectedMedicalHistory.family_conditions}
@@ -1358,9 +1490,34 @@ export default function MedicalHistoryPage() {
                   {/* Surgery History */}
                   {selectedMedicalHistory.surgery && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                        Surgery History
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                          Surgery History
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingSurgery && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingSurgery(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={isEditingSurgery ? 'default' : 'outline'}
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingSurgery(!isEditingSurgery)
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingSurgery ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
                       <div className='text-sm space-y-2'>
                         {selectedMedicalHistory.surgery_type && (
                           <div>
@@ -1381,9 +1538,38 @@ export default function MedicalHistoryPage() {
                   {/* Recommendations */}
                   {selectedMedicalHistory.recommendation_text && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                        Recommendations
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                          Recommendations
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingRecommendations && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingRecommendations(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={
+                              isEditingRecommendations ? 'default' : 'outline'
+                            }
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingRecommendations(
+                                !isEditingRecommendations
+                              )
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingRecommendations ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
                       <div className='p-3 bg-blue-50 border border-blue-200 rounded-lg'>
                         <p className='text-sm text-blue-800'>
                           {selectedMedicalHistory.recommendation_text}
@@ -1394,9 +1580,32 @@ export default function MedicalHistoryPage() {
 
                   {/* System Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                      Record Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                        Record Information
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingNotes && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingNotes(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingNotes ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() => setIsEditingNotes(!isEditingNotes)}
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingNotes ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>

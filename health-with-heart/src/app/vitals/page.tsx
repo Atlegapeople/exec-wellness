@@ -1244,6 +1244,21 @@ export default function VitalsPage() {
                             ).toLocaleDateString()}
                           </Badge>
                         </CardDescription>
+                        {/* Last Updated Information */}
+                        <div className='text-xs text-muted-foreground mt-2 lg:ml-14'>
+                          <span>Last updated by </span>
+                          <span className='font-medium'>
+                            {selectedVital.user_updated || 'Unknown'}
+                          </span>
+                          <span> on </span>
+                          <span className='font-medium'>
+                            {selectedVital.date_updated
+                              ? new Date(
+                                  selectedVital.date_updated
+                                ).toLocaleString()
+                              : 'Unknown'}
+                          </span>
+                        </div>
                       </div>
                       <div className='flex items-center gap-2 flex-shrink-0'>
                         <Button

@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,6 +14,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { useUser } from '@/contexts/UserContext';
 import {
   Users,
   FileText,
@@ -90,6 +91,7 @@ const quickActions = [
 export default function Navigation() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { currentUser } = useUser();
   const currentDate = new Date().toLocaleDateString('en-ZA', {
     weekday: 'long',
     year: 'numeric',
@@ -211,14 +213,22 @@ export default function Navigation() {
                   className='flex items-center gap-2 hover-lift'
                 >
                   <Avatar className='h-8 w-8'>
+                    {currentUser?.profileImage ? (
+                      <AvatarImage 
+                        src={currentUser.profileImage} 
+                        alt={`${currentUser.name} ${currentUser.surname}`}
+                      />
+                    ) : null}
                     <AvatarFallback className='bg-primary text-primary-foreground text-sm'>
-                      DS
+                      {currentUser ? `${currentUser.name?.[0] || ''}${currentUser.surname?.[0] || ''}` : 'U'}
                     </AvatarFallback>
                   </Avatar>
                   <div className='hidden md:block text-left'>
-                    <div className='text-sm font-medium'>Dr. Smith</div>
+                    <div className='text-sm font-medium'>
+                      {currentUser ? `${currentUser.name} ${currentUser.surname}` : 'User'}
+                    </div>
                     <div className='text-xs text-muted-foreground'>
-                      Chief Medical Officer
+                      {currentUser?.type || 'User'}
                     </div>
                   </div>
                   <ChevronDown className='h-3 w-3' />
@@ -227,9 +237,11 @@ export default function Navigation() {
               <DropdownMenuContent align='end' className='w-56'>
                 <DropdownMenuLabel>
                   <div className='flex flex-col space-y-1'>
-                    <p className='text-sm font-medium'>Dr. Smith</p>
+                    <p className='text-sm font-medium'>
+                      {currentUser ? `${currentUser.name} ${currentUser.surname}` : 'User'}
+                    </p>
                     <p className='text-xs text-muted-foreground'>
-                      chief.medical@ohms.com
+                      {currentUser?.email || 'user@example.com'}
                     </p>
                   </div>
                 </DropdownMenuLabel>

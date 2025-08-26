@@ -134,6 +134,11 @@ export default function UsersPage() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // Edit states for each section
+  const [isEditingBasicInfo, setIsEditingBasicInfo] = useState(false);
+  const [isEditingContactInfo, setIsEditingContactInfo] = useState(false);
+  const [isEditingRoleInfo, setIsEditingRoleInfo] = useState(false);
+
   // Fetch all users data once
   const fetchAllUsers = async () => {
     try {
@@ -939,6 +944,23 @@ export default function UsersPage() {
                           {selectedUser.type}
                         </Badge>
                       </CardDescription>
+                      {/* Last Updated Information */}
+                      <div className='text-xs text-muted-foreground mt-2'>
+                        <span>Last updated by </span>
+                        <span className='font-medium'>
+                          {selectedUser.updated_by_name ||
+                            selectedUser.user_updated ||
+                            'Unknown'}
+                        </span>
+                        <span> on </span>
+                        <span className='font-medium'>
+                          {selectedUser.date_updated
+                            ? new Date(
+                                selectedUser.date_updated
+                              ).toLocaleString()
+                            : 'Unknown'}
+                        </span>
+                      </div>
                     </div>
                     <div className='flex items-center gap-2'>
                       <Button
@@ -964,10 +986,35 @@ export default function UsersPage() {
                 <CardContent className='space-y-6'>
                   {/* Contact Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Mail className='h-4 w-4' />
-                      Contact Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Mail className='h-4 w-4' />
+                        Contact Information
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingContactInfo && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingContactInfo(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingContactInfo ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingContactInfo(!isEditingContactInfo)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingContactInfo ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -992,10 +1039,35 @@ export default function UsersPage() {
 
                   {/* System Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Calendar className='h-4 w-4' />
-                      Account Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Calendar className='h-4 w-4' />
+                        Account Information
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingRoleInfo && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingRoleInfo(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingRoleInfo ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingRoleInfo(!isEditingRoleInfo)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingRoleInfo ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -1030,10 +1102,35 @@ export default function UsersPage() {
 
                   {/* Record Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Calendar className='h-4 w-4' />
-                      Record Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Calendar className='h-4 w-4' />
+                        Record Information
+                      </h3>
+                      <div className='flex gap-2'>
+                        {isEditingBasicInfo && (
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingBasicInfo(false)}
+                          >
+                            Cancel
+                          </Button>
+                        )}
+                        <Button
+                          variant={isEditingBasicInfo ? 'default' : 'outline'}
+                          size='sm'
+                          className='hover-lift'
+                          onClick={() =>
+                            setIsEditingBasicInfo(!isEditingBasicInfo)
+                          }
+                        >
+                          <Edit className='h-3 w-3 mr-1' />
+                          {isEditingBasicInfo ? 'Save' : 'Edit'}
+                        </Button>
+                      </div>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>

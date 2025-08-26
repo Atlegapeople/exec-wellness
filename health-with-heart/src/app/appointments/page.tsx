@@ -730,6 +730,17 @@ export default function AppointmentsPage() {
                             : 'Scheduled'}
                         </Badge>
                       </CardDescription>
+                      {/* Last Updated Information */}
+                      <div className='text-xs text-muted-foreground mt-2'>
+                        <span>Last updated by </span>
+                        <span className='font-medium'>
+                          {selectedAppointment.updated_by_name || 'Unknown'}
+                        </span>
+                        <span> on </span>
+                        <span className='font-medium'>
+                          {formatDateTime(selectedAppointment.date_updated)}
+                        </span>
+                      </div>
                     </div>
                     <div className='flex items-center gap-2'>
                       <Button
