@@ -26,8 +26,7 @@ export default function StatusBadge({
         left: `${position.x}%`,
         top: `${position.y}%`,
       }}
-      onClick={onClick}
-    >
+      onClick={onClick}>
       <div
         className={cn(
           'w-16 h-16 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-110 group-hover:z-30 flex flex-col items-center justify-center relative',

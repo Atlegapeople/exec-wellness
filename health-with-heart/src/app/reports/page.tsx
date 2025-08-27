@@ -108,6 +108,7 @@ export default function ReportsPage() {
   const costCenterFilter = searchParams.get('costCenter');
   const costCenterName = searchParams.get('costCenterName');
   const returnUrl = searchParams.get('returnUrl');
+  const employeeFilter = searchParams.get('employee');
 
   const [allReports, setAllReports] = useState<MedicalReport[]>([]);
   const [filteredReports, setFilteredReports] = useState<MedicalReport[]>([]);
@@ -141,7 +142,7 @@ export default function ReportsPage() {
 
   // Fetch reports data
   // Fetch all reports data once
-  const fetchAllReports = async () => {
+  const fetchAllReports = useCallback(async () => {
     try {
       setLoading(true);
 
@@ -151,7 +152,9 @@ export default function ReportsPage() {
         limit: '10000',
       });
 
-      if (organizationFilter) {
+      if (employeeFilter) {
+        params.set('employee', employeeFilter);
+      } else if (organizationFilter) {
         params.set('organization', organizationFilter);
       } else if (siteFilter) {
         params.set('site', siteFilter);
@@ -163,6 +166,27 @@ export default function ReportsPage() {
       const data = await reportsResponse.json();
 
       setAllReports(data.reports || []);
+
+      // If there's an employee filter, automatically select the first report
+      if (employeeFilter && data.reports && data.reports.length > 0) {
+        const employeeReport = data.reports[0];
+        setSelectedReport(employeeReport);
+        // Fetch form data for the selected report
+        try {
+          setFormLoading(true);
+          const response = await fetch(
+            `/api/reports/form-data/${employeeReport.id}`
+          );
+          if (response.ok) {
+            const formDataResponse = await response.json();
+            setFormData(formDataResponse);
+          }
+        } catch (error) {
+          console.error('Error fetching form data:', error);
+        } finally {
+          setFormLoading(false);
+        }
+      }
 
       // Calculate status summary - SIMPLE VERSION
       const summary: { [key: string]: number } = {
@@ -201,7 +225,7 @@ export default function ReportsPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [organizationFilter, siteFilter, costCenterFilter, employeeFilter]);
 
   // Client-side filtering
   const filterReports = useCallback(
@@ -292,10 +316,15 @@ export default function ReportsPage() {
       if (search) params.set('search', search);
       if (status !== 'all') params.set('status', status);
 
+      // Preserve employee filter if present
+      if (employeeFilter) {
+        params.set('employee', employeeFilter);
+      }
+
       const newURL = `/reports${params.toString() ? `?${params.toString()}` : ''}`;
       router.replace(newURL, { scroll: false });
     },
-    [router]
+    [router, employeeFilter]
   );
 
   const handlePageChange = (newPage: number) => {
@@ -306,7 +335,7 @@ export default function ReportsPage() {
   // Initial load
   useEffect(() => {
     fetchAllReports();
-  }, [organizationFilter, siteFilter, costCenterFilter]);
+  }, [fetchAllReports]);
 
   // Handle filtering when search term, status, or all reports change
   useEffect(() => {

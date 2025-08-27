@@ -10,6 +10,7 @@ export async function GET(request: NextRequest) {
     const organization = searchParams.get('organization') || '';
     const site = searchParams.get('site') || '';
     const costCenter = searchParams.get('costCenter') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build filter conditions
@@ -18,7 +19,16 @@ export async function GET(request: NextRequest) {
     let countParams: (string | number)[] = [];
     let queryParams: (string | number)[] = [limit, offset];
 
-    if (organization) {
+    if (employee) {
+      filterCondition = 'AND mr.employee_id = $3';
+      countQuery = `
+        SELECT COUNT(*) as total 
+        FROM medical_report mr
+        WHERE mr.type = 'Executive Medical' AND mr.employee_id = $1
+      `;
+      countParams = [employee];
+      queryParams = [limit, offset, employee];
+    } else if (organization) {
       filterCondition = 'AND s.organisation_id = $3';
       countQuery = `
         SELECT COUNT(*) as total 
@@ -117,7 +127,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const result = await query(reportsQuery, queryParams);
-    
+
     const reports: any[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: new Date(row.date_created),
@@ -162,7 +172,7 @@ export async function GET(request: NextRequest) {
       doctor_surname: row.doctor_surname,
       nurse_name: row.nurse_name,
       nurse_surname: row.nurse_surname,
-      workplace_name: row.workplace_name
+      workplace_name: row.workplace_name,
     }));
 
     return NextResponse.json({
@@ -173,10 +183,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching medical reports:', error);
     return NextResponse.json(
