@@ -134,6 +134,22 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
+    // Log the incoming data for debugging
+    console.log('Creating appointment with data:', body);
+
+    // First, let's check what the actual table structure looks like
+    try {
+      const tableInfo = await query(`
+        SELECT column_name, data_type, is_nullable 
+        FROM information_schema.columns 
+        WHERE table_name = 'appointments' 
+        ORDER BY ordinal_position
+      `);
+      console.log('Appointments table structure:', tableInfo.rows);
+    } catch (tableError) {
+      console.error('Error getting table structure:', tableError);
+    }
+
     const insertQuery = `
       INSERT INTO appointments (
         id, date_created, date_updated, user_created, user_updated,
@@ -163,13 +179,19 @@ export async function POST(request: NextRequest) {
       body.calander_link,
     ];
 
+    console.log('Executing query with values:', values);
+
     const result = await query(insertQuery, values);
 
+    console.log('Insert result:', result.rows[0]);
     return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating appointment:', error);
     return NextResponse.json(
-      { error: 'Failed to create appointment' },
+      {
+        error: 'Failed to create appointment',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }

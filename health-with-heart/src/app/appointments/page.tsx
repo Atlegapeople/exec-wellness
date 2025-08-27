@@ -142,6 +142,24 @@ export default function AppointmentsPage() {
   const handleCreate = async () => {
     try {
       setFormLoading(true);
+
+      // Validate required fields
+      if (!formData.employee_id) {
+        alert('Please select an employee');
+        return;
+      }
+      if (!formData.type) {
+        alert('Please select an appointment type');
+        return;
+      }
+      if (!formData.start_date) {
+        alert('Please select a start date');
+        return;
+      }
+
+      // Log the data being sent for debugging
+      console.log('Creating appointment with data:', formData);
+
       const response = await fetch('/api/appointments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -149,15 +167,23 @@ export default function AppointmentsPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
+        console.log('Appointment created successfully:', result);
         setIsCreateModalOpen(false);
         setFormData({});
         await fetchAllAppointments();
       } else {
         const error = await response.json();
         console.error('Create failed:', error);
+        alert(
+          `Failed to create appointment: ${error.error || 'Unknown error'}`
+        );
       }
     } catch (error) {
       console.error('Error creating appointment:', error);
+      alert(
+        'Error creating appointment. Please check the console for details.'
+      );
     } finally {
       setFormLoading(false);
     }
@@ -179,7 +205,7 @@ export default function AppointmentsPage() {
     try {
       setFormLoading(true);
       const response = await fetch(
-        `/api/appointments?id=${deletingAppointment.id}`,
+        `/api/appointments/${deletingAppointment.id}`,
         {
           method: 'DELETE',
         }
@@ -1344,7 +1370,7 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, start_date: e.target.value })
+                    setFormData({ ...formData, start_date: new Date(e.target.value) })
                   }
                 />
               </div>
@@ -1360,7 +1386,7 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, end_date: e.target.value })
+                    setFormData({ ...formData, end_date: new Date(e.target.value) })
                   }
                 />
               </div>
@@ -1402,7 +1428,7 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, start_datetime: e.target.value })
+                    setFormData({ ...formData, start_datetime: new Date(e.target.value) })
                   }
                 />
               </div>
@@ -1420,7 +1446,7 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, end_datetime: e.target.value })
+                    setFormData({ ...formData, end_datetime: new Date(e.target.value) })
                   }
                 />
               </div>
