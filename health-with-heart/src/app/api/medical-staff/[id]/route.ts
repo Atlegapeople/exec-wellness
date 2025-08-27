@@ -20,20 +20,19 @@ export async function GET(
     `;
 
     const result = await query(userQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
-        { error: 'Medical staff record not found' },
+        { error: 'Medical staff member not found' },
         { status: 404 }
       );
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
-    console.error('Error fetching medical staff record:', error);
+    console.error('Error fetching medical staff member:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch medical staff record' },
+      { error: 'Failed to fetch medical staff member' },
       { status: 500 }
     );
   }
@@ -46,17 +45,14 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    
-    const {
-      user_updated,
-      ...userData
-    } = body;
+
+    const { user_updated, ...userData } = body;
 
     // Build dynamic update query
     const updateFields = Object.keys(userData)
       .map((key, index) => `${key} = $${index + 3}`)
       .join(', ');
-    
+
     const values = Object.values(userData);
 
     const updateQuery = `
@@ -70,20 +66,19 @@ export async function PUT(
     `;
 
     const result = await query(updateQuery, [id, user_updated, ...values]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
-        { error: 'Medical staff record not found' },
+        { error: 'Medical staff member not found' },
         { status: 404 }
       );
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
-    console.error('Error updating medical staff record:', error);
+    console.error('Error updating medical staff member:', error);
     return NextResponse.json(
-      { error: 'Failed to update medical staff record' },
+      { error: 'Failed to update medical staff member' },
       { status: 500 }
     );
   }
@@ -96,30 +91,59 @@ export async function DELETE(
   try {
     const { id } = await params;
 
-    const deleteQuery = `
-      DELETE FROM users 
-      WHERE id = $1
-      RETURNING id
+    // Check if user has related records
+    const relatedRecordsQuery = `
+      SELECT 
+        COUNT(mr.id) as medical_reports_doctor,
+        COUNT(mr2.id) as medical_reports_nurse
+      FROM users u
+      LEFT JOIN medical_report mr ON mr.doctor = u.id
+      LEFT JOIN medical_report mr2 ON mr2.nurse = u.id
+      WHERE u.id = $1
     `;
 
+    const relatedResult = await query(relatedRecordsQuery, [id]);
+    const relatedCounts = relatedResult.rows[0];
+
+    if (
+      relatedCounts.medical_reports_doctor > 0 ||
+      relatedCounts.medical_reports_nurse > 0
+    ) {
+      return NextResponse.json(
+        {
+          error:
+            'Cannot delete medical staff member with existing medical reports',
+          details: {
+            medical_reports_doctor: parseInt(
+              relatedCounts.medical_reports_doctor
+            ),
+            medical_reports_nurse: parseInt(
+              relatedCounts.medical_reports_nurse
+            ),
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    const deleteQuery = `DELETE FROM users WHERE id = $1 RETURNING id`;
     const result = await query(deleteQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
-        { error: 'Medical staff record not found' },
+        { error: 'Medical staff member not found' },
         { status: 404 }
       );
     }
 
-    return NextResponse.json({ 
-      message: 'Medical staff record deleted successfully',
-      id: result.rows[0].id 
+    return NextResponse.json({
+      message: 'Medical staff member deleted successfully',
+      id: result.rows[0].id,
     });
-
   } catch (error) {
-    console.error('Error deleting medical staff record:', error);
+    console.error('Error deleting medical staff member:', error);
     return NextResponse.json(
-      { error: 'Failed to delete medical staff record' },
+      { error: 'Failed to delete medical staff member' },
       { status: 500 }
     );
   }

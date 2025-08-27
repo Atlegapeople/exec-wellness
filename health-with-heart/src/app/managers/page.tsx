@@ -55,6 +55,7 @@ import {
   Loader2,
   X,
   ArrowLeft,
+  Save,
 } from 'lucide-react';
 
 interface Manager {
@@ -117,6 +118,30 @@ export default function ManagersPage() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
 
+  // Sub-section edit states
+  const [isEditingManagerInfo, setIsEditingManagerInfo] = useState(false);
+  const [isEditingContactInfo, setIsEditingContactInfo] = useState(false);
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
+  const [isEditingRecordInfo, setIsEditingRecordInfo] = useState(false);
+
+  // Sub-section form data
+  const [managerInfoData, setManagerInfoData] = useState({
+    manager_name: '',
+    manager_type: '',
+    organisation_name: '',
+  });
+  const [contactInfoData, setContactInfoData] = useState({
+    manager_email: '',
+    manager_contact_number: '',
+  });
+  const [notesData, setNotesData] = useState({
+    notes_text: '',
+  });
+  const [recordInfoData, setRecordInfoData] = useState({
+    date_created: '',
+    date_updated: '',
+  });
+
   const managerTypes = [
     'Line Manager',
     'Senior Manager',
@@ -167,12 +192,123 @@ export default function ManagersPage() {
     fetchOrganizations();
   }, []);
 
+  // Populate sub-section form data when manager is selected
+  useEffect(() => {
+    if (selectedManager) {
+      setManagerInfoData({
+        manager_name: selectedManager.manager_name || '',
+        manager_type: selectedManager.manager_type || '',
+        organisation_name: selectedManager.organisation_name || '',
+      });
+      setContactInfoData({
+        manager_email: selectedManager.manager_email || '',
+        manager_contact_number: selectedManager.manager_contact_number || '',
+      });
+      setNotesData({
+        notes_text: selectedManager.notes_text || '',
+      });
+      setRecordInfoData({
+        date_created: selectedManager.date_created || '',
+        date_updated: selectedManager.date_updated || '',
+      });
+    }
+  }, [selectedManager]);
+
   const handleSearch = () => {
     fetchManagers(1, searchTerm);
   };
 
   const handlePageChange = (newPage: number) => {
     fetchManagers(newPage, searchTerm);
+  };
+
+  // Sub-section save functions
+  const handleSaveManagerInfo = async () => {
+    try {
+      setSubmitting(true);
+      const response = await fetch(`/api/managers/${selectedManager?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(managerInfoData),
+      });
+
+      if (response.ok) {
+        setIsEditingManagerInfo(false);
+        fetchManagers();
+      }
+    } catch (error) {
+      console.error('Error saving manager info:', error);
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleSaveContactInfo = async () => {
+    try {
+      setSubmitting(true);
+      const response = await fetch(`/api/managers/${selectedManager?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(contactInfoData),
+      });
+
+      if (response.ok) {
+        setIsEditingContactInfo(false);
+        fetchManagers();
+      }
+    } catch (error) {
+      console.error('Error saving contact info:', error);
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleSaveNotes = async () => {
+    try {
+      setSubmitting(true);
+      const response = await fetch(`/api/managers/${selectedManager?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(notesData),
+      });
+
+      if (response.ok) {
+        setIsEditingNotes(false);
+        fetchManagers();
+      }
+    } catch (error) {
+      console.error('Error saving notes:', error);
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleSaveRecordInfo = async () => {
+    try {
+      setSubmitting(true);
+      const response = await fetch(`/api/managers/${selectedManager?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(recordInfoData),
+      });
+
+      if (response.ok) {
+        setIsEditingRecordInfo(false);
+        fetchManagers();
+      }
+    } catch (error) {
+      console.error('Error saving record info:', error);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleCreateManager = async () => {
@@ -888,23 +1024,74 @@ export default function ManagersPage() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedManager(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openEditDialog(selectedManager)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedManager(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Manager Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <UserCheck className='h-4 w-4' />
-                      Manager Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <UserCheck className='h-4 w-4' />
+                        Manager Information
+                      </h3>
+                      {isEditingManagerInfo ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingManagerInfo(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveManagerInfo}
+                            disabled={submitting}
+                            className='hover-lift'
+                          >
+                            {submitting ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingManagerInfo(true)}
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
@@ -935,10 +1122,51 @@ export default function ManagersPage() {
 
                   {/* Contact Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Mail className='h-4 w-4' />
-                      Contact Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Mail className='h-4 w-4' />
+                        Contact Information
+                      </h3>
+                      {isEditingContactInfo ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingContactInfo(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveContactInfo}
+                            disabled={submitting}
+                            className='hover-lift'
+                          >
+                            {submitting ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingContactInfo(true)}
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
+                    </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <Mail className='h-4 w-4 text-muted-foreground mt-0.5' />
@@ -968,10 +1196,51 @@ export default function ManagersPage() {
                   {/* Notes Section */}
                   {selectedManager.notes_text && (
                     <div className='space-y-3'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <FileText className='h-4 w-4' />
-                        Notes
-                      </h3>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <FileText className='h-4 w-4' />
+                          Notes
+                        </h3>
+                        {isEditingNotes ? (
+                          <div className='flex items-center gap-2'>
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              onClick={() => setIsEditingNotes(false)}
+                              className='hover-lift'
+                            >
+                              Cancel
+                            </Button>
+                            <Button
+                              size='sm'
+                              onClick={handleSaveNotes}
+                              disabled={submitting}
+                              className='hover-lift'
+                            >
+                              {submitting ? (
+                                <>
+                                  <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                  Saving...
+                                </>
+                              ) : (
+                                <>
+                                  <Save className='mr-2 h-4 w-4' />
+                                  Save
+                                </>
+                              )}
+                            </Button>
+                          </div>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() => setIsEditingNotes(true)}
+                            className='hover-lift'
+                          >
+                            <Edit className='h-3 w-3' />
+                          </Button>
+                        )}
+                      </div>
                       <div className='text-sm p-3 bg-muted rounded-lg'>
                         {selectedManager.notes_text}
                       </div>
@@ -980,9 +1249,50 @@ export default function ManagersPage() {
 
                   {/* System Information */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                      Record Information
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                        Record Information
+                      </h3>
+                      {isEditingRecordInfo ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingRecordInfo(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveRecordInfo}
+                            disabled={submitting}
+                            className='hover-lift'
+                          >
+                            {submitting ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingRecordInfo(true)}
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>

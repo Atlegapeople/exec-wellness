@@ -109,15 +109,41 @@ export default function LabTestsPage() {
   const [formLoading, setFormLoading] = useState(false);
   const [employees, setEmployees] = useState<any[]>([]);
 
-  // Edit states for each section
-  const [isEditingBasicInfo, setIsEditingBasicInfo] = useState(false);
-  const [isEditingTestResults, setIsEditingTestResults] = useState(false);
-  const [isEditingHealthMarkers, setIsEditingHealthMarkers] = useState(false);
-  const [isEditingInfectiousDisease, setIsEditingInfectiousDisease] =
+  // Sub-section edit states
+  const [isEditingBasicBloodWork, setIsEditingBasicBloodWork] = useState(false);
+  const [isEditingCardiovascularMarkers, setIsEditingCardiovascularMarkers] =
     useState(false);
-  const [isEditingReportInfo, setIsEditingReportInfo] = useState(false);
-  const [isEditingNotes, setIsEditingNotes] = useState(false);
-  const [isEditingRecordInfo, setIsEditingRecordInfo] = useState(false);
+  const [isEditingMetabolicPanel, setIsEditingMetabolicPanel] = useState(false);
+  const [isEditingOrganFunction, setIsEditingOrganFunction] = useState(false);
+  const [isEditingVitaminsHormones, setIsEditingVitaminsHormones] =
+    useState(false);
+
+  // Sub-section form data
+  const [basicBloodWorkData, setBasicBloodWorkData] = useState({
+    full_blood_count_an_esr: '',
+    hiv: '',
+  });
+  const [cardiovascularMarkersData, setCardiovascularMarkersData] = useState({
+    total_cholesterol: '',
+    hdl: '',
+    'hs-crp': '',
+    homocysteine: '',
+  });
+  const [metabolicPanelData, setMetabolicPanelData] = useState({
+    fasting_glucose: '',
+    hba1c: '',
+    insulin_level: '',
+    uric_acid: '',
+  });
+  const [organFunctionData, setOrganFunctionData] = useState({
+    kidney_function: '',
+    liver_enzymes: '',
+  });
+  const [vitaminsHormonesData, setVitaminsHormonesData] = useState({
+    vitamin_d: '',
+    thyroid_stimulating_hormone: '',
+    psa: '',
+  });
 
   // Fetch all lab tests data
   const fetchAllLabTests = async () => {
@@ -173,6 +199,117 @@ export default function LabTestsPage() {
     return labTest.employee_name && labTest.employee_surname
       ? `${labTest.employee_name} ${labTest.employee_surname}`
       : 'Unknown Employee';
+  };
+
+  // Sub-section save functions
+  const handleSaveBasicBloodWork = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(`/api/lab-tests/${selectedLabTest?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(basicBloodWorkData),
+      });
+
+      if (response.ok) {
+        setIsEditingBasicBloodWork(false);
+        fetchAllLabTests();
+      }
+    } catch (error) {
+      console.error('Error saving basic blood work:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveCardiovascularMarkers = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(`/api/lab-tests/${selectedLabTest?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(cardiovascularMarkersData),
+      });
+
+      if (response.ok) {
+        setIsEditingCardiovascularMarkers(false);
+        fetchAllLabTests();
+      }
+    } catch (error) {
+      console.error('Error saving cardiovascular markers:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveMetabolicPanel = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(`/api/lab-tests/${selectedLabTest?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(metabolicPanelData),
+      });
+
+      if (response.ok) {
+        setIsEditingMetabolicPanel(false);
+        fetchAllLabTests();
+      }
+    } catch (error) {
+      console.error('Error saving metabolic panel:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveOrganFunction = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(`/api/lab-tests/${selectedLabTest?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(organFunctionData),
+      });
+
+      if (response.ok) {
+        setIsEditingOrganFunction(false);
+        fetchAllLabTests();
+      }
+    } catch (error) {
+      console.error('Error saving organ function:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveVitaminsHormones = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(`/api/lab-tests/${selectedLabTest?.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(vitaminsHormonesData),
+      });
+
+      if (response.ok) {
+        setIsEditingVitaminsHormones(false);
+        fetchAllLabTests();
+      }
+    } catch (error) {
+      console.error('Error saving vitamins & hormones:', error);
+    } finally {
+      setFormLoading(false);
+    }
   };
 
   // Fetch employees for dropdown
@@ -325,6 +462,38 @@ export default function LabTestsPage() {
     fetchAllLabTests();
     fetchEmployees();
   }, []);
+
+  // Populate sub-section form data when lab test is selected
+  useEffect(() => {
+    if (selectedLabTest) {
+      setBasicBloodWorkData({
+        full_blood_count_an_esr: selectedLabTest.full_blood_count_an_esr || '',
+        hiv: selectedLabTest.hiv || '',
+      });
+      setCardiovascularMarkersData({
+        total_cholesterol: selectedLabTest.total_cholesterol || '',
+        hdl: selectedLabTest.hdl || '',
+        'hs-crp': selectedLabTest['hs-crp'] || '',
+        homocysteine: selectedLabTest.homocysteine || '',
+      });
+      setMetabolicPanelData({
+        fasting_glucose: selectedLabTest.fasting_glucose || '',
+        hba1c: selectedLabTest.hba1c || '',
+        insulin_level: selectedLabTest.insulin_level || '',
+        uric_acid: selectedLabTest.uric_acid || '',
+      });
+      setOrganFunctionData({
+        kidney_function: selectedLabTest.kidney_function || '',
+        liver_enzymes: selectedLabTest.liver_enzymes || '',
+      });
+      setVitaminsHormonesData({
+        vitamin_d: selectedLabTest.vitamin_d || '',
+        thyroid_stimulating_hormone:
+          selectedLabTest.thyroid_stimulating_hormone || '',
+        psa: selectedLabTest.psa || '',
+      });
+    }
+  }, [selectedLabTest]);
 
   // Handle filtering when search term or all lab tests change
   useEffect(() => {
@@ -759,23 +928,74 @@ export default function LabTestsPage() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedLabTest(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openEditModal(selectedLabTest)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedLabTest(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Basic Blood Work */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Droplets className='h-4 w-4' />
-                      Basic Blood Work
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Droplets className='h-4 w-4' />
+                        Basic Blood Work
+                      </h3>
+                      {isEditingBasicBloodWork ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingBasicBloodWork(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveBasicBloodWork}
+                            disabled={formLoading}
+                            className='hover-lift'
+                          >
+                            {formLoading ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingBasicBloodWork(true)}
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>
@@ -812,10 +1032,55 @@ export default function LabTestsPage() {
 
                   {/* Cardiovascular Markers */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Heart className='h-4 w-4' />
-                      Cardiovascular Markers
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Heart className='h-4 w-4' />
+                        Cardiovascular Markers
+                      </h3>
+                      {isEditingCardiovascularMarkers ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() =>
+                              setIsEditingCardiovascularMarkers(false)
+                            }
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveCardiovascularMarkers}
+                            disabled={formLoading}
+                            className='hover-lift'
+                          >
+                            {formLoading ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() =>
+                            setIsEditingCardiovascularMarkers(true)
+                          }
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
+                    </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>
@@ -870,10 +1135,20 @@ export default function LabTestsPage() {
 
                   {/* Metabolic Panel */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Activity className='h-4 w-4' />
-                      Metabolic Panel
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Activity className='h-4 w-4' />
+                        Metabolic Panel
+                      </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingMetabolicPanel(true)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-3 w-3' />
+                      </Button>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>
@@ -928,10 +1203,20 @@ export default function LabTestsPage() {
 
                   {/* Organ Function */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Shield className='h-4 w-4' />
-                      Organ Function
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Shield className='h-4 w-4' />
+                        Organ Function
+                      </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingOrganFunction(true)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-3 w-3' />
+                      </Button>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>
@@ -964,10 +1249,20 @@ export default function LabTestsPage() {
 
                   {/* Vitamins & Hormones */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Zap className='h-4 w-4' />
-                      Vitamins & Hormones
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Activity className='h-4 w-4' />
+                        Vitamins & Hormones
+                      </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingVitaminsHormones(true)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-3 w-3' />
+                      </Button>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>

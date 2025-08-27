@@ -52,9 +52,12 @@ export async function GET(
     `;
 
     const result = await query(employeeQuery, [id]);
-    
+
     if (result.rows.length === 0) {
-      return NextResponse.json({ error: 'Employee not found' }, { status: 404 });
+      return NextResponse.json(
+        { error: 'Employee not found' },
+        { status: 404 }
+      );
     }
 
     const row = result.rows[0];
@@ -70,7 +73,9 @@ export async function GET(
       id_number: row.id_number,
       passport_number: row.passport_number,
       gender: row.gender,
-      date_of_birth: row.date_of_birth ? new Date(row.date_of_birth) : undefined,
+      date_of_birth: row.date_of_birth
+        ? new Date(row.date_of_birth)
+        : undefined,
       ethnicity: row.ethnicity,
       marriage_status: row.marriage_status,
       no_of_children: row.no_of_children,
@@ -91,11 +96,12 @@ export async function GET(
       job: row.job,
       notes_header: row.notes_header,
       notes_text: row.notes_text,
-      work_startdate: row.work_startdate ? new Date(row.work_startdate) : undefined
+      work_startdate: row.work_startdate
+        ? new Date(row.work_startdate)
+        : undefined,
     };
 
     return NextResponse.json(employee);
-
   } catch (error) {
     console.error('Error fetching employee:', error);
     return NextResponse.json(
@@ -112,7 +118,7 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    
+
     const updateQuery = `
       UPDATE employee SET
         date_updated = NOW(),
@@ -120,32 +126,29 @@ export async function PUT(
         section_header = $3,
         name = $4,
         surname = $5,
-        employee_id_number = $6,
-        cell_phone = $7,
-        email = $8,
+        id_number = $6,
+        passport_number = $7,
+        gender = $8,
         date_of_birth = $9,
-        gender = $10,
-        id_number = $11,
-        passport_number = $12,
-        home_address = $13,
-        postal_address = $14,
-        postal_code = $15,
-        home_phone = $16,
-        work_phone = $17,
-        emergency_contact_name = $18,
-        emergency_contact_number = $19,
-        relationship = $20,
-        marital_status = $21,
-        dependants = $22,
-        employee_personal_email = $23,
-        employee_work_email = $24,
-        race = $25,
-        home_language = $26,
-        nationality = $27,
-        religion = $28,
-        disabilities = $29,
-        medical_aid = $30,
-        medical_aid_number = $31
+        ethnicity = $10,
+        marriage_status = $11,
+        no_of_children = $12,
+        personal_email_address = $13,
+        mobile_number = $14,
+        section_header_2 = $15,
+        medical_aid = $16,
+        medical_aid_number = $17,
+        main_member = $18,
+        main_member_name = $19,
+        section_header_3 = $20,
+        work_email = $21,
+        employee_number = $22,
+        organisation = $23,
+        workplace = $24,
+        job = $25,
+        notes_header = $26,
+        notes_text = $27,
+        work_startdate = $28
       WHERE id = $1
       RETURNING *
     `;
@@ -156,42 +159,41 @@ export async function PUT(
       body.section_header || '',
       body.name,
       body.surname,
-      body.employee_id_number,
-      body.cell_phone,
-      body.email,
-      body.date_of_birth,
-      body.gender,
       body.id_number,
       body.passport_number,
-      body.home_address,
-      body.postal_address,
-      body.postal_code,
-      body.home_phone,
-      body.work_phone,
-      body.emergency_contact_name,
-      body.emergency_contact_number,
-      body.relationship,
-      body.marital_status,
-      body.dependants,
-      body.employee_personal_email,
-      body.employee_work_email,
-      body.race,
-      body.home_language,
-      body.nationality,
-      body.religion,
-      body.disabilities,
+      body.gender,
+      body.date_of_birth,
+      body.ethnicity,
+      body.marriage_status,
+      body.no_of_children,
+      body.personal_email_address,
+      body.mobile_number,
+      body.section_header_2 || '',
       body.medical_aid,
-      body.medical_aid_number
+      body.medical_aid_number,
+      body.main_member,
+      body.main_member_name,
+      body.section_header_3 || '',
+      body.work_email,
+      body.employee_number,
+      body.organisation,
+      body.workplace,
+      body.job,
+      body.notes_header || '',
+      body.notes_text,
+      body.work_startdate,
     ];
 
     const result = await query(updateQuery, values);
-    
+
     if (result.rows.length === 0) {
-      return NextResponse.json({ error: 'Employee not found' }, { status: 404 });
+      return NextResponse.json(
+        { error: 'Employee not found' },
+        { status: 404 }
+      );
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating employee:', error);
     return NextResponse.json(
@@ -224,15 +226,19 @@ export async function DELETE(
     const relatedResult = await query(relatedRecordsQuery, [id]);
     const relatedCounts = relatedResult.rows[0];
 
-    if (relatedCounts.medical_reports > 0 || relatedCounts.vitals > 0 || relatedCounts.clinical_exams > 0) {
+    if (
+      relatedCounts.medical_reports > 0 ||
+      relatedCounts.vitals > 0 ||
+      relatedCounts.clinical_exams > 0
+    ) {
       return NextResponse.json(
-        { 
+        {
           error: 'Cannot delete employee with existing medical records',
           details: {
             medical_reports: parseInt(relatedCounts.medical_reports),
             vitals: parseInt(relatedCounts.vitals),
-            clinical_exams: parseInt(relatedCounts.clinical_exams)
-          }
+            clinical_exams: parseInt(relatedCounts.clinical_exams),
+          },
         },
         { status: 400 }
       );
@@ -240,13 +246,18 @@ export async function DELETE(
 
     const deleteQuery = `DELETE FROM employee WHERE id = $1 RETURNING id`;
     const result = await query(deleteQuery, [id]);
-    
+
     if (result.rows.length === 0) {
-      return NextResponse.json({ error: 'Employee not found' }, { status: 404 });
+      return NextResponse.json(
+        { error: 'Employee not found' },
+        { status: 404 }
+      );
     }
 
-    return NextResponse.json({ message: 'Employee deleted successfully', id: result.rows[0].id });
-
+    return NextResponse.json({
+      message: 'Employee deleted successfully',
+      id: result.rows[0].id,
+    });
   } catch (error) {
     console.error('Error deleting employee:', error);
     return NextResponse.json(

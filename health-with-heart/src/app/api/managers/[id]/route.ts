@@ -6,7 +6,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: managerId } = await params;
+    const { id } = await params;
 
     const managerQuery = `
       SELECT 
@@ -21,17 +21,13 @@ export async function GET(
       WHERE m.id = $1
     `;
 
-    const result = await query(managerQuery, [managerId]);
+    const result = await query(managerQuery, [id]);
 
     if (result.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'Manager not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'Manager not found' }, { status: 404 });
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error fetching manager:', error);
     return NextResponse.json(
@@ -46,46 +42,42 @@ export async function PUT(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: managerId } = await params;
+    const { id } = await params;
     const body = await request.json();
 
     const updateQuery = `
       UPDATE managers 
       SET 
-        organisation_id = $1,
-        manager_type = $2,
-        manager_name = $3,
-        manager_email = $4,
-        manager_contact_number = $5,
-        notes_text = $6,
-        user_updated = $7,
-        date_updated = NOW()
-      WHERE id = $8
+        date_updated = NOW(),
+        user_updated = $2,
+        organisation_id = $3,
+        manager_type = $4,
+        manager_name = $5,
+        manager_email = $6,
+        manager_contact_number = $7,
+        notes_text = $8
+      WHERE id = $1
       RETURNING *
     `;
 
     const values = [
+      id,
+      body.user_updated || 'system',
       body.organisation_id,
       body.manager_type,
       body.manager_name,
       body.manager_email,
       body.manager_contact_number,
       body.notes_text,
-      body.user_updated || 'system',
-      managerId
     ];
 
     const result = await query(updateQuery, values);
 
     if (result.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'Manager not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'Manager not found' }, { status: 404 });
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating manager:', error);
     return NextResponse.json(
@@ -100,20 +92,43 @@ export async function DELETE(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: managerId } = await params;
+    const { id } = await params;
 
-    const deleteQuery = 'DELETE FROM managers WHERE id = $1 RETURNING *';
-    const result = await query(deleteQuery, [managerId]);
+    // Check if manager has related records
+    const relatedRecordsQuery = `
+      SELECT 
+        COUNT(l.id) as locations
+      FROM managers m
+      LEFT JOIN locations l ON l.manager = m.id
+      WHERE m.id = $1
+    `;
 
-    if (result.rows.length === 0) {
+    const relatedResult = await query(relatedRecordsQuery, [id]);
+    const relatedCounts = relatedResult.rows[0];
+
+    if (relatedCounts.locations > 0) {
       return NextResponse.json(
-        { error: 'Manager not found' },
-        { status: 404 }
+        {
+          error: 'Cannot delete manager with existing related locations',
+          details: {
+            locations: parseInt(relatedCounts.locations),
+          },
+        },
+        { status: 400 }
       );
     }
 
-    return NextResponse.json({ message: 'Manager deleted successfully' });
+    const deleteQuery = `DELETE FROM managers WHERE id = $1 RETURNING id`;
+    const result = await query(deleteQuery, [id]);
 
+    if (result.rows.length === 0) {
+      return NextResponse.json({ error: 'Manager not found' }, { status: 404 });
+    }
+
+    return NextResponse.json({
+      message: 'Manager deleted successfully',
+      id: result.rows[0].id,
+    });
   } catch (error) {
     console.error('Error deleting manager:', error);
     return NextResponse.json(

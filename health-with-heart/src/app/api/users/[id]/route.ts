@@ -6,7 +6,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: userId } = await params;
+    const { id } = await params;
 
     const userQuery = `
       SELECT 
@@ -29,33 +29,13 @@ export async function GET(
       WHERE u.id = $1
     `;
 
-    const result = await query(userQuery, [userId]);
-    
+    const result = await query(userQuery, [id]);
+
     if (result.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'User not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'User not found' }, { status: 404 });
     }
 
-    const user = {
-      id: result.rows[0].id,
-      date_created: new Date(result.rows[0].date_created),
-      date_updated: new Date(result.rows[0].date_updated),
-      user_created: result.rows[0].user_created,
-      user_updated: result.rows[0].user_updated,
-      name: result.rows[0].name,
-      surname: result.rows[0].surname,
-      email: result.rows[0].email,
-      mobile: result.rows[0].mobile,
-      type: result.rows[0].type,
-      signature: result.rows[0].signature,
-      created_by_name: result.rows[0].created_by_name,
-      updated_by_name: result.rows[0].updated_by_name
-    };
-
-    return NextResponse.json(user);
-
+    return NextResponse.json(result.rows[0]);
   } catch (error) {
     console.error('Error fetching user:', error);
     return NextResponse.json(
@@ -70,25 +50,25 @@ export async function PUT(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: userId } = await params;
+    const { id } = await params;
     const body = await request.json();
 
     const updateQuery = `
-      UPDATE users 
-      SET 
+      UPDATE users SET
         date_updated = NOW(),
-        user_updated = $1,
-        name = $2,
-        surname = $3,
-        email = $4,
-        mobile = $5,
-        type = $6,
-        signature = $7
-      WHERE id = $8
+        user_updated = $2,
+        name = $3,
+        surname = $4,
+        email = $5,
+        mobile = $6,
+        type = $7,
+        signature = $8
+      WHERE id = $1
       RETURNING *
     `;
 
     const values = [
+      id,
       body.user_updated || 'system',
       body.name,
       body.surname,
@@ -96,20 +76,15 @@ export async function PUT(
       body.mobile,
       body.type,
       body.signature,
-      userId
     ];
 
     const result = await query(updateQuery, values);
-    
+
     if (result.rows.length === 0) {
-      return NextResponse.json(
-        { error: 'User not found' },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: 'User not found' }, { status: 404 });
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating user:', error);
     return NextResponse.json(
@@ -124,28 +99,82 @@ export async function DELETE(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id: userId } = await params;
+    const { id } = await params;
 
-    // Check if user exists
-    const checkQuery = `SELECT id FROM users WHERE id = $1`;
-    const checkResult = await query(checkQuery, [userId]);
-    
-    if (checkResult.rows.length === 0) {
+    // Check if user has related records
+    const relatedRecordsQuery = `
+      SELECT 
+        COUNT(e.id) as employees_created,
+        COUNT(e2.id) as employees_updated,
+        COUNT(mr.id) as medical_reports_doctor,
+        COUNT(mr2.id) as medical_reports_nurse,
+        COUNT(o.id) as organizations_created,
+        COUNT(o2.id) as organizations_updated,
+        COUNT(s.id) as sites_created,
+        COUNT(s2.id) as sites_updated
+      FROM users u
+      LEFT JOIN employee e ON e.user_created = u.id
+      LEFT JOIN employee e2 ON e2.user_updated = u.id
+      LEFT JOIN medical_report mr ON mr.doctor = u.id
+      LEFT JOIN medical_report mr2 ON mr2.nurse = u.id
+      LEFT JOIN organisation o ON o.user_created = u.id
+      LEFT JOIN organisation o2 ON o2.user_updated = u.id
+      LEFT JOIN sites s ON s.user_created = u.id
+      LEFT JOIN sites s2 ON s2.user_updated = u.id
+      WHERE u.id = $1
+    `;
+
+    const relatedResult = await query(relatedRecordsQuery, [id]);
+    const relatedCounts = relatedResult.rows[0];
+
+    const totalRelated =
+      parseInt(relatedCounts.employees_created) +
+      parseInt(relatedCounts.employees_updated) +
+      parseInt(relatedCounts.medical_reports_doctor) +
+      parseInt(relatedCounts.medical_reports_nurse) +
+      parseInt(relatedCounts.organizations_created) +
+      parseInt(relatedCounts.organizations_updated) +
+      parseInt(relatedCounts.sites_created) +
+      parseInt(relatedCounts.sites_updated);
+
+    if (totalRelated > 0) {
       return NextResponse.json(
-        { error: 'User not found' },
-        { status: 404 }
+        {
+          error: 'Cannot delete user with existing related records',
+          details: {
+            employees_created: parseInt(relatedCounts.employees_created),
+            employees_updated: parseInt(relatedCounts.employees_updated),
+            medical_reports_doctor: parseInt(
+              relatedCounts.medical_reports_doctor
+            ),
+            medical_reports_nurse: parseInt(
+              relatedCounts.medical_reports_nurse
+            ),
+            organizations_created: parseInt(
+              relatedCounts.organizations_created
+            ),
+            organizations_updated: parseInt(
+              relatedCounts.organizations_updated
+            ),
+            sites_created: parseInt(relatedCounts.sites_created),
+            sites_updated: parseInt(relatedCounts.sites_updated),
+          },
+        },
+        { status: 400 }
       );
     }
 
-    // Delete the user
     const deleteQuery = `DELETE FROM users WHERE id = $1 RETURNING id`;
-    const result = await query(deleteQuery, [userId]);
-    
-    return NextResponse.json(
-      { message: 'User deleted successfully', id: result.rows[0].id },
-      { status: 200 }
-    );
+    const result = await query(deleteQuery, [id]);
 
+    if (result.rows.length === 0) {
+      return NextResponse.json({ error: 'User not found' }, { status: 404 });
+    }
+
+    return NextResponse.json({
+      message: 'User deleted successfully',
+      id: result.rows[0].id,
+    });
   } catch (error) {
     console.error('Error deleting user:', error);
     return NextResponse.json(

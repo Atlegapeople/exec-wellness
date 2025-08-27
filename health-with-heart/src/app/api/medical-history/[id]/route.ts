@@ -1,17 +1,55 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { query } from '@/lib/database';
 
+export async function GET(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id } = await params;
+
+    const medicalHistoryQuery = `
+      SELECT 
+        emh.*,
+        e.name || ' ' || e.surname AS employee_name,
+        uc.name || ' ' || uc.surname AS created_by_name,
+        uu.name || ' ' || uu.surname AS updated_by_name
+      FROM employee_medical_history emh
+      LEFT JOIN employee e ON e.id = emh.employee_id
+      LEFT JOIN users uc ON uc.id = emh.user_created
+      LEFT JOIN users uu ON uu.id = emh.user_updated
+      WHERE emh.id = $1
+    `;
+
+    const result = await query(medicalHistoryQuery, [id]);
+
+    if (result.rows.length === 0) {
+      return NextResponse.json(
+        { error: 'Medical history not found' },
+        { status: 404 }
+      );
+    }
+
+    return NextResponse.json(result.rows[0]);
+  } catch (error) {
+    console.error('Error fetching medical history:', error);
+    return NextResponse.json(
+      { error: 'Failed to fetch medical history' },
+      { status: 500 }
+    );
+  }
+}
+
 export async function PUT(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const body = await request.json();
     const { id } = await params;
+    const body = await request.json();
 
     const updateQuery = `
-      UPDATE employee_medical_history 
-      SET 
+      UPDATE employee_medical_history SET
         date_updated = NOW(),
         user_updated = $2,
         employee_id = $3,
@@ -118,11 +156,11 @@ export async function PUT(
       body.surgery_year,
       body.notes_header,
       body.notes_text,
-      body.recommendation_text
+      body.recommendation_text,
     ];
 
     const result = await query(updateQuery, values);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Medical history not found' },
@@ -131,7 +169,6 @@ export async function PUT(
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating medical history:', error);
     return NextResponse.json(
@@ -148,7 +185,7 @@ export async function DELETE(
   try {
     const { id } = await params;
 
-    const deleteQuery = `DELETE FROM employee_medical_history WHERE id = $1 RETURNING *`;
+    const deleteQuery = `DELETE FROM employee_medical_history WHERE id = $1 RETURNING id`;
     const result = await query(deleteQuery, [id]);
 
     if (result.rows.length === 0) {
@@ -158,8 +195,10 @@ export async function DELETE(
       );
     }
 
-    return NextResponse.json({ message: 'Medical history deleted successfully' });
-
+    return NextResponse.json({
+      message: 'Medical history deleted successfully',
+      id: result.rows[0].id,
+    });
   } catch (error) {
     console.error('Error deleting medical history:', error);
     return NextResponse.json(

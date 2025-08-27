@@ -69,6 +69,7 @@ import {
   ChevronsRight,
   Save,
   Plus,
+  Edit,
 } from 'lucide-react';
 
 interface UserWithMetadata extends User {

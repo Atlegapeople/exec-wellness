@@ -116,6 +116,44 @@ export default function SpecialInvestigationsPage() {
   const [formLoading, setFormLoading] = useState(false);
   const [employees, setEmployees] = useState<any[]>([]);
 
+  // Sub-section edit states
+  const [isEditingCardiacTests, setIsEditingCardiacTests] = useState(false);
+  const [isEditingLaboratoryTests, setIsEditingLaboratoryTests] =
+    useState(false);
+  const [isEditingRiskAssessment, setIsEditingRiskAssessment] = useState(false);
+  const [isEditingSpecializedScreenings, setIsEditingSpecializedScreenings] =
+    useState(false);
+  const [isEditingSpecializedAssessments, setIsEditingSpecializedAssessments] =
+    useState(false);
+
+  // Sub-section form data
+  const [cardiacTestsData, setCardiacTestsData] = useState({
+    resting_ecg: '',
+    stress_ecg: '',
+    predicted_vo2_max: '',
+    body_fat_percentage: '',
+  });
+  const [laboratoryTestsData, setLaboratoryTestsData] = useState({
+    urine_dipstix: '',
+    lung_function: '',
+  });
+  const [riskAssessmentData, setRiskAssessmentData] = useState({
+    risk_category: '',
+    risk_score: '',
+    reynolds_cardiovascular_risk_score: '',
+  });
+  const [specializedScreeningsData, setSpecializedScreeningsData] = useState({
+    colonscopy_required: false,
+    gastroscopy: false,
+    abdominal_ultrasound: false,
+    osteroporosis_screen: false,
+  });
+  const [specializedAssessmentsData, setSpecializedAssessmentsData] = useState({
+    nerveiq: '',
+    notes_text: '',
+    recommendation_text: '',
+  });
+
   // Fetch all special investigations data
   const fetchAllInvestigations = async () => {
     try {
@@ -181,6 +219,133 @@ export default function SpecialInvestigationsPage() {
     return investigation.employee_name && investigation.employee_surname
       ? `${investigation.employee_name} ${investigation.employee_surname}`
       : 'Unknown Employee';
+  };
+
+  // Sub-section save functions
+  const handleSaveCardiacTests = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/special-investigations/${selectedInvestigation?.id}`,
+        {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(cardiacTestsData),
+        }
+      );
+
+      if (response.ok) {
+        setIsEditingCardiacTests(false);
+        // Refresh the data
+        fetchAllInvestigations();
+      }
+    } catch (error) {
+      console.error('Error saving cardiac tests:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveLaboratoryTests = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/special-investigations/${selectedInvestigation?.id}`,
+        {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(laboratoryTestsData),
+        }
+      );
+
+      if (response.ok) {
+        setIsEditingLaboratoryTests(false);
+        fetchAllInvestigations();
+      }
+    } catch (error) {
+      console.error('Error saving laboratory tests:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveRiskAssessment = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/special-investigations/${selectedInvestigation?.id}`,
+        {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(riskAssessmentData),
+        }
+      );
+
+      if (response.ok) {
+        setIsEditingRiskAssessment(false);
+        fetchAllInvestigations();
+      }
+    } catch (error) {
+      console.error('Error saving risk assessment:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveSpecializedScreenings = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/special-investigations/${selectedInvestigation?.id}`,
+        {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(specializedScreeningsData),
+        }
+      );
+
+      if (response.ok) {
+        setIsEditingSpecializedScreenings(false);
+        fetchAllInvestigations();
+      }
+    } catch (error) {
+      console.error('Error saving specialized screenings:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveSpecializedAssessments = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch(
+        `/api/special-investigations/${selectedInvestigation?.id}`,
+        {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(specializedAssessmentsData),
+        }
+      );
+
+      if (response.ok) {
+        setIsEditingSpecializedAssessments(false);
+        fetchAllInvestigations();
+      }
+    } catch (error) {
+      console.error('Error saving specialized assessments:', error);
+    } finally {
+      setFormLoading(false);
+    }
   };
 
   // Fetch employees for dropdown
@@ -336,6 +501,41 @@ export default function SpecialInvestigationsPage() {
     fetchAllInvestigations();
     fetchEmployees();
   }, []);
+
+  // Populate sub-section form data when investigation is selected
+  useEffect(() => {
+    if (selectedInvestigation) {
+      setCardiacTestsData({
+        resting_ecg: selectedInvestigation.resting_ecg || '',
+        stress_ecg: selectedInvestigation.stress_ecg || '',
+        predicted_vo2_max: selectedInvestigation.predicted_vo2_max || '',
+        body_fat_percentage: selectedInvestigation.body_fat_percentage || '',
+      });
+      setLaboratoryTestsData({
+        urine_dipstix: selectedInvestigation.urine_dipstix || '',
+        lung_function: selectedInvestigation.lung_function || '',
+      });
+      setRiskAssessmentData({
+        risk_category: selectedInvestigation.risk_category || '',
+        risk_score: selectedInvestigation.risk_score || '',
+        reynolds_cardiovascular_risk_score:
+          selectedInvestigation.reynolds_cardiovascular_risk_score || '',
+      });
+      setSpecializedScreeningsData({
+        colonscopy_required: selectedInvestigation.colonscopy_required || false,
+        gastroscopy: selectedInvestigation.gastroscopy || false,
+        abdominal_ultrasound:
+          selectedInvestigation.abdominal_ultrasound || false,
+        osteroporosis_screen:
+          selectedInvestigation.osteroporosis_screen || false,
+      });
+      setSpecializedAssessmentsData({
+        nerveiq: selectedInvestigation.nerveiq || '',
+        notes_text: selectedInvestigation.notes_text || '',
+        recommendation_text: selectedInvestigation.recommendation_text || '',
+      });
+    }
+  }, [selectedInvestigation]);
 
   // Handle filtering when search term or all investigations change
   useEffect(() => {
@@ -768,151 +968,483 @@ export default function SpecialInvestigationsPage() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedInvestigation(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openEditModal(selectedInvestigation)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedInvestigation(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
                   {/* Cardiac Tests */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Heart className='h-4 w-4' />
-                      Cardiac Tests
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Resting ECG:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.resting_ecg || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Stress ECG:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.stress_ecg || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          VO2 Max:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.predicted_vo2_max || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Body Fat %:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.body_fat_percentage || 'N/A'}
-                        </span>
-                      </div>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Heart className='h-4 w-4' />
+                        Cardiac Tests
+                      </h3>
+                      {isEditingCardiacTests ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingCardiacTests(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveCardiacTests}
+                            disabled={formLoading}
+                            className='hover-lift'
+                          >
+                            {formLoading ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingCardiacTests(true)}
+                          className='hover-lift'
+                        >
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
                     </div>
+                    {isEditingCardiacTests ? (
+                      <div className='space-y-3'>
+                        <div className='grid grid-cols-1 gap-3 text-sm'>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Resting ECG:
+                            </span>
+                            <Input
+                              value={cardiacTestsData.resting_ecg}
+                              onChange={e =>
+                                setCardiacTestsData({
+                                  ...cardiacTestsData,
+                                  resting_ecg: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter resting ECG results'
+                            />
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Stress ECG:
+                            </span>
+                            <Input
+                              value={cardiacTestsData.stress_ecg}
+                              onChange={e =>
+                                setCardiacTestsData({
+                                  ...cardiacTestsData,
+                                  stress_ecg: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter stress ECG results'
+                            />
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              VO2 Max:
+                            </span>
+                            <Input
+                              value={cardiacTestsData.predicted_vo2_max}
+                              onChange={e =>
+                                setCardiacTestsData({
+                                  ...cardiacTestsData,
+                                  predicted_vo2_max: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter VO2 Max value'
+                            />
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Body Fat %:
+                            </span>
+                            <Input
+                              value={cardiacTestsData.body_fat_percentage}
+                              onChange={e =>
+                                setCardiacTestsData({
+                                  ...cardiacTestsData,
+                                  body_fat_percentage: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter body fat percentage'
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Resting ECG:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.resting_ecg || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Stress ECG:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.stress_ecg || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            VO2 Max:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.predicted_vo2_max || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Body Fat %:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.body_fat_percentage || 'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Laboratory Tests */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Microscope className='h-4 w-4' />
-                      Laboratory Tests
-                    </h3>
-                    <div className='space-y-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Urine Dipstick:
-                        </span>
-                        <Badge
-                          variant={
-                            selectedInvestigation.urine_dipstix === 'Normal'
-                              ? 'secondary'
-                              : selectedInvestigation.urine_dipstix ===
-                                  'Abnormal'
-                                ? 'destructive'
-                                : 'outline'
-                          }
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Microscope className='h-4 w-4' />
+                        Laboratory Tests
+                      </h3>
+                      {isEditingLaboratoryTests ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingLaboratoryTests(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveLaboratoryTests}
+                            disabled={formLoading}
+                            className='hover-lift'
+                          >
+                            {formLoading ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingLaboratoryTests(true)}
+                          className='hover-lift'
                         >
-                          {selectedInvestigation.urine_dipstix || 'N/A'}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Lung Function:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.lung_function || 'N/A'}
-                        </span>
-                      </div>
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
                     </div>
+                    {isEditingLaboratoryTests ? (
+                      <div className='space-y-3'>
+                        <div className='space-y-3 text-sm'>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Urine Dipstick:
+                            </span>
+                            <Select
+                              value={laboratoryTestsData.urine_dipstix}
+                              onValueChange={value =>
+                                setLaboratoryTestsData({
+                                  ...laboratoryTestsData,
+                                  urine_dipstix: value,
+                                })
+                              }
+                            >
+                              <SelectTrigger className='flex-1'>
+                                <SelectValue placeholder='Select urine dipstick result' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Normal'>Normal</SelectItem>
+                                <SelectItem value='Abnormal'>
+                                  Abnormal
+                                </SelectItem>
+                                <SelectItem value='Not Tested'>
+                                  Not Tested
+                                </SelectItem>
+                              </SelectContent>
+                            </Select>
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Lung Function:
+                            </span>
+                            <Input
+                              value={laboratoryTestsData.lung_function}
+                              onChange={e =>
+                                setLaboratoryTestsData({
+                                  ...laboratoryTestsData,
+                                  lung_function: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter lung function results'
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className='space-y-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Urine Dipstick:
+                          </span>
+                          <Badge
+                            variant={
+                              selectedInvestigation.urine_dipstix === 'Normal'
+                                ? 'secondary'
+                                : selectedInvestigation.urine_dipstix ===
+                                    'Abnormal'
+                                  ? 'destructive'
+                                  : 'outline'
+                            }
+                          >
+                            {selectedInvestigation.urine_dipstix || 'N/A'}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Lung Function:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.lung_function || 'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Risk Assessment */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Activity className='h-4 w-4' />
-                      Risk Assessment
-                    </h3>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Risk Category:
-                        </span>
-                        <Badge
-                          variant={
-                            selectedInvestigation.risk_category === 'Low'
-                              ? 'secondary'
-                              : selectedInvestigation.risk_category === 'Medium'
-                                ? 'outline'
-                                : selectedInvestigation.risk_category === 'High'
-                                  ? 'destructive'
-                                  : 'outline'
-                          }
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Activity className='h-4 w-4' />
+                        Risk Assessment
+                      </h3>
+                      {isEditingRiskAssessment ? (
+                        <div className='flex items-center gap-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => setIsEditingRiskAssessment(false)}
+                            className='hover-lift'
+                          >
+                            Cancel
+                          </Button>
+                          <Button
+                            size='sm'
+                            onClick={handleSaveRiskAssessment}
+                            disabled={formLoading}
+                            className='hover-lift'
+                          >
+                            {formLoading ? (
+                              <>
+                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                                Saving...
+                              </>
+                            ) : (
+                              <>
+                                <Save className='mr-2 h-4 w-4' />
+                                Save
+                              </>
+                            )}
+                          </Button>
+                        </div>
+                      ) : (
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setIsEditingRiskAssessment(true)}
+                          className='hover-lift'
                         >
-                          {selectedInvestigation.risk_category || 'N/A'}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Risk Score:
-                        </span>
-                        <Badge variant='outline'>
-                          {selectedInvestigation.risk_score || 0}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Reynolds Score:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedInvestigation.reynolds_cardiovascular_risk_score ||
-                            'N/A'}
-                        </span>
-                      </div>
+                          <Edit className='h-3 w-3' />
+                        </Button>
+                      )}
                     </div>
+                    {isEditingRiskAssessment ? (
+                      <div className='space-y-3'>
+                        <div className='grid grid-cols-1 gap-3 text-sm'>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Risk Category:
+                            </span>
+                            <Select
+                              value={riskAssessmentData.risk_category}
+                              onValueChange={value =>
+                                setRiskAssessmentData({
+                                  ...riskAssessmentData,
+                                  risk_category: value,
+                                })
+                              }
+                            >
+                              <SelectTrigger className='flex-1'>
+                                <SelectValue placeholder='Select risk category' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Low'>Low</SelectItem>
+                                <SelectItem value='Medium'>Medium</SelectItem>
+                                <SelectItem value='High'>High</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Risk Score:
+                            </span>
+                            <Input
+                              value={riskAssessmentData.risk_score}
+                              onChange={e =>
+                                setRiskAssessmentData({
+                                  ...riskAssessmentData,
+                                  risk_score: e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter risk score'
+                              type='number'
+                            />
+                          </div>
+                          <div className='flex gap-2 items-center'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Reynolds Score:
+                            </span>
+                            <Input
+                              value={
+                                riskAssessmentData.reynolds_cardiovascular_risk_score
+                              }
+                              onChange={e =>
+                                setRiskAssessmentData({
+                                  ...riskAssessmentData,
+                                  reynolds_cardiovascular_risk_score:
+                                    e.target.value,
+                                })
+                              }
+                              className='flex-1'
+                              placeholder='Enter Reynolds score'
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Risk Category:
+                          </span>
+                          <Badge
+                            variant={
+                              selectedInvestigation.risk_category === 'Low'
+                                ? 'secondary'
+                                : selectedInvestigation.risk_category ===
+                                    'Medium'
+                                  ? 'outline'
+                                  : selectedInvestigation.risk_category ===
+                                      'High'
+                                    ? 'destructive'
+                                    : 'outline'
+                            }
+                          >
+                            {selectedInvestigation.risk_category || 'N/A'}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Risk Score:
+                          </span>
+                          <Badge variant='outline'>
+                            {selectedInvestigation.risk_score || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Reynolds Score:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedInvestigation.reynolds_cardiovascular_risk_score ||
+                              'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <Separator />
 
                   {/* Specialized Screenings */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <TestTube2 className='h-4 w-4' />
-                      Specialized Screenings
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <TestTube2 className='h-4 w-4' />
+                        Specialized Screenings
+                      </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingSpecializedScreenings(true)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-3 w-3' />
+                      </Button>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[140px]'>
@@ -983,10 +1515,20 @@ export default function SpecialInvestigationsPage() {
 
                   {/* Specialized Tests */}
                   <div className='space-y-3'>
-                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                      <Brain className='h-4 w-4' />
-                      Specialized Assessments
-                    </h3>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Brain className='h-4 w-4' />
+                        Specialized Assessments
+                      </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingSpecializedAssessments(true)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-3 w-3' />
+                      </Button>
+                    </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>

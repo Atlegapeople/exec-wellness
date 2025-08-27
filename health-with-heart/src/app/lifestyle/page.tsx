@@ -66,6 +66,7 @@ import {
   AlertCircle,
   Loader2,
   DollarSign,
+  MapPin,
 } from 'lucide-react';
 
 interface PaginationInfo {
