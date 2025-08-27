@@ -82,6 +82,11 @@ export default function AppointmentsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Extract employee filter from URL
+  const employeeFilter = searchParams.get('employee');
+
+  console.log('AppointmentsPage render - employeeFilter:', employeeFilter);
+
   const [allAppointments, setAllAppointments] = useState<
     AppointmentWithEmployee[]
   >([]);
@@ -230,23 +235,40 @@ export default function AppointmentsPage() {
   };
 
   // Fetch all appointments data once
-  const fetchAllAppointments = async () => {
+  const fetchAllAppointments = useCallback(async () => {
     try {
       setLoading(true);
       const url = new URL('/api/appointments', window.location.origin);
       url.searchParams.set('page', '1');
       url.searchParams.set('limit', '10000'); // Get all appointments
 
+      // Add employee filter if present
+      if (employeeFilter) {
+        url.searchParams.set('employee', employeeFilter);
+        console.log('Fetching appointments for employee:', employeeFilter);
+      }
+
+      console.log('Fetching appointments from URL:', url.toString());
       const response = await fetch(url.toString());
       const data = await response.json();
 
+      console.log('Appointments API response:', data);
       setAllAppointments(data.appointments || []);
+
+      // If there's an employee filter, automatically select the first appointment
+      if (employeeFilter && data.appointments && data.appointments.length > 0) {
+        const employeeAppointment = data.appointments[0];
+        console.log('Auto-selecting appointment:', employeeAppointment);
+        setSelectedAppointment(employeeAppointment);
+      } else if (employeeFilter) {
+        console.log('No appointments found for employee:', employeeFilter);
+      }
     } catch (error) {
       console.error('Error fetching appointments:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [employeeFilter]);
 
   // Client-side filtering
   const filterAppointments = useCallback(
@@ -317,7 +339,7 @@ export default function AppointmentsPage() {
   useEffect(() => {
     fetchAllAppointments();
     fetchEmployees();
-  }, []);
+  }, [fetchAllAppointments]);
 
   // Handle filtering when search term or all appointments change
   useEffect(() => {
@@ -350,6 +372,36 @@ export default function AppointmentsPage() {
     transitionToPage,
   ]);
 
+  // Watch for URL changes and refetch if employee filter changes
+  useEffect(() => {
+    const currentEmployeeFilter = searchParams.get('employee');
+    console.log(
+      'URL change detected - current:',
+      currentEmployeeFilter,
+      'previous:',
+      employeeFilter
+    );
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log('URL changed - refetching appointments');
+      fetchAllAppointments();
+    }
+  }, [searchParams, employeeFilter, fetchAllAppointments]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedAppointment: selectedAppointment?.id,
+      allAppointments: allAppointments.length,
+      loading,
+    });
+  }, [
+    employeeFilter,
+    selectedAppointment?.id,
+    allAppointments.length,
+    loading,
+  ]);
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     updateURL(1, searchTerm);
@@ -361,10 +413,15 @@ export default function AppointmentsPage() {
       if (page > 1) params.set('page', page.toString());
       if (search) params.set('search', search);
 
+      // Preserve employee filter if present
+      if (employeeFilter) {
+        params.set('employee', employeeFilter);
+      }
+
       const newURL = `/appointments${params.toString() ? `?${params.toString()}` : ''}`;
       router.replace(newURL, { scroll: false });
     },
-    [router]
+    [router, employeeFilter]
   );
 
   const handlePageChange = (newPage: number) => {
@@ -1370,7 +1427,10 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, start_date: new Date(e.target.value) })
+                    setFormData({
+                      ...formData,
+                      start_date: new Date(e.target.value),
+                    })
                   }
                 />
               </div>
@@ -1386,7 +1446,10 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, end_date: new Date(e.target.value) })
+                    setFormData({
+                      ...formData,
+                      end_date: new Date(e.target.value),
+                    })
                   }
                 />
               </div>
@@ -1428,7 +1491,10 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, start_datetime: new Date(e.target.value) })
+                    setFormData({
+                      ...formData,
+                      start_datetime: new Date(e.target.value),
+                    })
                   }
                 />
               </div>
@@ -1446,7 +1512,10 @@ export default function AppointmentsPage() {
                       : ''
                   }
                   onChange={e =>
-                    setFormData({ ...formData, end_datetime: new Date(e.target.value) })
+                    setFormData({
+                      ...formData,
+                      end_datetime: new Date(e.target.value),
+                    })
                   }
                 />
               </div>

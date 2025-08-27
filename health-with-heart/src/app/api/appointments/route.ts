@@ -9,16 +9,33 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '50');
     const isGetAll = searchParams.get('limit') === '10000';
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build search condition
-    const searchCondition = search
-      ? `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $3 OR a.notes ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3)`
-      : `WHERE a.type = 'Executive Medical'`;
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
 
-    const countSearchCondition = search
-      ? `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $1 OR a.notes ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1)`
-      : `WHERE a.type = 'Executive Medical'`;
+    if (employee) {
+      searchCondition = `WHERE a.type = 'Executive Medical' AND a.employee_id = $1`;
+      countSearchCondition = `WHERE a.type = 'Executive Medical' AND a.employee_id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      if (isGetAll) {
+        searchCondition = `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $1 OR a.notes ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1)`;
+        countSearchCondition = `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $1 OR a.notes ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1)`;
+        queryParams = [`%${search}%`];
+      } else {
+        searchCondition = `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $3 OR a.notes ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3)`;
+        countSearchCondition = `WHERE a.type = 'Executive Medical' AND (a.type ILIKE $1 OR a.notes ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1)`;
+        queryParams = [`%${search}%`];
+      }
+    } else {
+      searchCondition = `WHERE a.type = 'Executive Medical'`;
+      countSearchCondition = `WHERE a.type = 'Executive Medical'`;
+      queryParams = [];
+    }
 
     // Get total count
     const countQuery = `
@@ -28,8 +45,7 @@ export async function GET(request: NextRequest) {
       ${countSearchCondition}
     `;
 
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get appointments with employee details and user names
@@ -69,15 +85,11 @@ export async function GET(request: NextRequest) {
       ${isGetAll ? '' : 'LIMIT $1 OFFSET $2'}
     `;
 
-    const queryParams = isGetAll
-      ? search
-        ? [`%${search}%`]
-        : []
-      : search
-        ? [limit, offset, `%${search}%`]
-        : [limit, offset];
+    const finalQueryParams = isGetAll
+      ? queryParams
+      : [limit, offset, ...queryParams];
 
-    const result = await query(appointmentsQuery, queryParams);
+    const result = await query(appointmentsQuery, finalQueryParams);
 
     const appointments: (Appointment & {
       employee_name?: string;
