@@ -116,9 +116,9 @@ export async function PUT(request: NextRequest) {
     // TODO: Save other settings to appropriate tables
     // For now, we'll just return success for the organization update
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Settings updated successfully',
-      organization: organization
+      organization: organization,
     });
   } catch (error) {
     console.error('Error in settings PUT:', error);
