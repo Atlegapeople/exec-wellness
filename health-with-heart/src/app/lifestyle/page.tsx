@@ -82,6 +82,11 @@ export default function LifestylePage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Extract employee filter from URL
+  const employeeFilter = searchParams.get('employee');
+
+  console.log('LifestylePage render - employeeFilter:', employeeFilter);
+
   const [allLifestyles, setAllLifestyles] = useState<Lifestyle[]>([]);
   const [filteredLifestyles, setFilteredLifestyles] = useState<Lifestyle[]>([]);
   const [displayedLifestyles, setDisplayedLifestyles] = useState<Lifestyle[]>(
@@ -142,13 +147,18 @@ export default function LifestylePage() {
   const [isCostCentersModalOpen, setIsCostCentersModalOpen] = useState(false);
 
   // Fetch all lifestyle data
-  const fetchAllLifestyles = async () => {
+  const fetchAllLifestyles = useCallback(async () => {
     try {
       setLoading(true);
       const url = new URL('/api/lifestyle', window.location.origin);
       url.searchParams.set('page', '1');
       url.searchParams.set('limit', '10000');
       url.searchParams.set('_t', Date.now().toString());
+
+      // Add employee filter if present
+      if (employeeFilter) {
+        url.searchParams.set('employee', employeeFilter);
+      }
 
       const response = await fetch(url.toString(), {
         cache: 'no-cache',
@@ -162,12 +172,19 @@ export default function LifestylePage() {
       console.log('Total lifestyles fetched:', data.lifestyles?.length || 0);
 
       setAllLifestyles(data.lifestyles || []);
+
+      // If there's an employee filter, automatically select the first lifestyle
+      if (employeeFilter && data.lifestyles && data.lifestyles.length > 0) {
+        const employeeLifestyle = data.lifestyles[0];
+        console.log('Auto-selecting lifestyle:', employeeLifestyle);
+        setSelectedLifestyle(employeeLifestyle);
+      }
     } catch (error) {
       console.error('Error fetching lifestyles:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [employeeFilter]);
 
   // Client-side filtering
   const filterLifestyles = useCallback(
@@ -437,7 +454,7 @@ export default function LifestylePage() {
     fetchSites();
     fetchLocations();
     fetchCostCenters();
-  }, []);
+  }, [fetchAllLifestyles]);
 
   // Handle filtering when search term or all lifestyles change
   useEffect(() => {
@@ -537,6 +554,27 @@ export default function LifestylePage() {
       };
     }
   }, [isResizing, handleMouseMove, handleMouseUp]);
+
+  // Watch for URL changes and refetch if employee filter changes
+  useEffect(() => {
+    const currentEmployeeFilter = new URLSearchParams(
+      window.location.search
+    ).get('employee');
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log('URL changed - refetching lifestyles');
+      fetchAllLifestyles();
+    }
+  }, [employeeFilter]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedLifestyle: selectedLifestyle?.id,
+      allLifestyles: allLifestyles.length,
+      loading,
+    });
+  }, [employeeFilter, selectedLifestyle?.id, allLifestyles.length, loading]);
 
   if (loading) {
     return (

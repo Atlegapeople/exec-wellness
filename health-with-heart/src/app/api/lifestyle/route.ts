@@ -8,16 +8,27 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build search condition - only for employees with Executive Medical reports
-    const searchCondition = search 
-      ? `AND (l.id ILIKE $3 OR l.employee_id ILIKE $3 OR l.report_id ILIKE $3 OR l.auditc_result ILIKE $3 OR l.tics_result ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`
-      : '';
-    
-    const countSearchCondition = search 
-      ? `AND (l.id ILIKE $1 OR l.employee_id ILIKE $1 OR l.report_id ILIKE $1 OR l.auditc_result ILIKE $1 OR l.tics_result ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`
-      : '';
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
+
+    if (employee) {
+      searchCondition = `AND l.employee_id = $3`;
+      countSearchCondition = `AND l.employee_id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      searchCondition = `AND (l.id ILIKE $3 OR l.employee_id ILIKE $3 OR l.report_id ILIKE $3 OR l.auditc_result ILIKE $3 OR l.tics_result ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`;
+      countSearchCondition = `AND (l.id ILIKE $1 OR l.employee_id ILIKE $1 OR l.report_id ILIKE $1 OR l.auditc_result ILIKE $1 OR l.tics_result ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`;
+      queryParams = [`%${search}%`];
+    } else {
+      searchCondition = '';
+      countSearchCondition = '';
+      queryParams = [];
+    }
 
     // Get total count - only lifestyle records for employees with Executive Medical reports
     const countQuery = `
@@ -28,9 +39,8 @@ export async function GET(request: NextRequest) {
       WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
-    
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get lifestyle records with user info and employee names
@@ -124,12 +134,17 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search 
-      ? [limit, offset, `%${search}%`]
-      : [limit, offset];
+    let queryParamsForLifestyles: (string | number)[] = [];
+    if (employee) {
+      queryParamsForLifestyles = [limit, offset, employee];
+    } else if (search) {
+      queryParamsForLifestyles = [limit, offset, `%${search}%`];
+    } else {
+      queryParamsForLifestyles = [limit, offset];
+    }
 
-    const result = await query(lifestylesQuery, queryParams);
-    
+    const result = await query(lifestylesQuery, queryParamsForLifestyles);
+
     const lifestyles: Lifestyle[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: row.date_created ? new Date(row.date_created) : undefined,
@@ -201,7 +216,7 @@ export async function GET(request: NextRequest) {
       sleep_rest: row.sleep_rest,
       notes_header: row.notes_header,
       notes_text: row.notes_text,
-      recommendation_text: row.recommendation_text
+      recommendation_text: row.recommendation_text,
     }));
 
     return NextResponse.json({
@@ -212,10 +227,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching lifestyle records:', error);
     return NextResponse.json(
@@ -228,7 +242,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO lifestyle (
         id, date_created, date_updated, user_created, user_updated,
@@ -322,13 +336,12 @@ export async function POST(request: NextRequest) {
       body.sleep_rest,
       body.notes_header,
       body.notes_text,
-      body.recommendation_text
+      body.recommendation_text,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating lifestyle record:', error);
     return NextResponse.json(
@@ -486,7 +499,7 @@ export async function PUT(request: NextRequest) {
       updateData.sleep_rest,
       updateData.notes_header,
       updateData.notes_text,
-      updateData.recommendation_text
+      updateData.recommendation_text,
     ];
 
     const result = await query(updateQuery, values);
@@ -499,7 +512,6 @@ export async function PUT(request: NextRequest) {
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating lifestyle record:', error);
     return NextResponse.json(
@@ -531,11 +543,10 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Lifestyle record deleted successfully',
-      deleted: result.rows[0]
+      deleted: result.rows[0],
     });
-
   } catch (error) {
     console.error('Error deleting lifestyle record:', error);
     return NextResponse.json(
