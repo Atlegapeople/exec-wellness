@@ -7,16 +7,27 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build search condition
-    const searchCondition = search 
-      ? `WHERE (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.employee_number ILIKE $3)`
-      : '';
-    
-    const countSearchCondition = search 
-      ? `WHERE (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.employee_number ILIKE $1)`
-      : '';
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
+
+    if (employee) {
+      searchCondition = `WHERE v.employee_id = $3`;
+      countSearchCondition = `WHERE v.employee_id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      searchCondition = `WHERE (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.employee_number ILIKE $3)`;
+      countSearchCondition = `WHERE (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.employee_number ILIKE $1)`;
+      queryParams = [`%${search}%`];
+    } else {
+      searchCondition = '';
+      countSearchCondition = '';
+      queryParams = [];
+    }
 
     // Get total count
     const countQuery = `
@@ -25,9 +36,8 @@ export async function GET(request: NextRequest) {
       LEFT JOIN employee e ON e.id = v.employee_id
       ${countSearchCondition}
     `;
-    
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get vitals with employee details (temporarily without notes to debug)
@@ -49,8 +59,7 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search ? [limit, offset, `%${search}%`] : [limit, offset];
-    const result = await query(vitalsQuery, queryParams);
+    const result = await query(vitalsQuery, [limit, offset, ...queryParams]);
 
     return NextResponse.json({
       vitals: result.rows,
@@ -60,15 +69,20 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching vitals:', error);
-    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
+    console.error(
+      'Error details:',
+      error instanceof Error ? error.message : 'Unknown error'
+    );
     return NextResponse.json(
-      { error: 'Failed to fetch vitals', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: 'Failed to fetch vitals',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }
@@ -77,15 +91,13 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const {
-      employee_id,
-      user_created,
-      ...vitalData
-    } = body;
+    const { employee_id, user_created, ...vitalData } = body;
 
     // Get all column names from the table (excluding id, date_created, date_updated)
     const columns = Object.keys(vitalData).join(', ');
-    const placeholders = Object.keys(vitalData).map((_, index) => `$${index + 3}`).join(', ');
+    const placeholders = Object.keys(vitalData)
+      .map((_, index) => `$${index + 3}`)
+      .join(', ');
     const values = Object.values(vitalData);
 
     const insertQuery = `
@@ -94,10 +106,13 @@ export async function POST(request: NextRequest) {
       RETURNING *
     `;
 
-    const result = await query(insertQuery, [employee_id, user_created, ...values]);
-    
-    return NextResponse.json(result.rows[0]);
+    const result = await query(insertQuery, [
+      employee_id,
+      user_created,
+      ...values,
+    ]);
 
+    return NextResponse.json(result.rows[0]);
   } catch (error) {
     console.error('Error creating vital record:', error);
     return NextResponse.json(

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -184,27 +184,60 @@ export default function MedicalHistoryPage() {
   const [isEditingRecommendations, setIsEditingRecommendations] =
     useState(false);
 
-  const fetchMedicalHistories = async (page = 1, search = '') => {
-    try {
-      setLoading(true);
-      let url = `/api/medical-history?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`;
+  const fetchMedicalHistories = useCallback(
+    async (page = 1, search = '') => {
+      try {
+        setLoading(true);
+        let url = `/api/medical-history?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`;
 
-      if (employeeFilter) {
-        url += `&employee=${encodeURIComponent(employeeFilter)}`;
+        if (employeeFilter) {
+          url += `&employee=${encodeURIComponent(employeeFilter)}`;
+        }
+
+        console.log('Fetching medical histories from URL:', url);
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Failed to fetch medical histories');
+
+        const data = await response.json();
+        console.log('API Response:', data);
+        console.log('Medical histories found:', data.medicalHistories?.length);
+        console.log('Employee filter:', employeeFilter);
+
+        setMedicalHistories(data.medicalHistories);
+        setPagination(data.pagination);
+
+        // If there's an employee filter, automatically select the first medical history
+        if (
+          employeeFilter &&
+          data.medicalHistories &&
+          data.medicalHistories.length > 0
+        ) {
+          const employeeMedicalHistory = data.medicalHistories[0];
+          console.log(
+            'Auto-selecting medical history:',
+            employeeMedicalHistory
+          );
+          console.log(
+            'Setting selectedMedicalHistory to:',
+            employeeMedicalHistory.id
+          );
+          setSelectedMedicalHistory(employeeMedicalHistory);
+          console.log('selectedMedicalHistory set successfully');
+        } else {
+          console.log('No auto-selection:', {
+            employeeFilter,
+            medicalHistoriesLength: data.medicalHistories?.length,
+            hasData: !!data.medicalHistories,
+          });
+        }
+      } catch (error) {
+        console.error('Error fetching medical histories:', error);
+      } finally {
+        setLoading(false);
       }
-
-      const response = await fetch(url);
-      if (!response.ok) throw new Error('Failed to fetch medical histories');
-
-      const data = await response.json();
-      setMedicalHistories(data.medicalHistories);
-      setPagination(data.pagination);
-    } catch (error) {
-      console.error('Error fetching medical histories:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    },
+    [employeeFilter]
+  );
 
   const fetchEmployees = async () => {
     try {
@@ -221,7 +254,22 @@ export default function MedicalHistoryPage() {
   useEffect(() => {
     fetchMedicalHistories();
     fetchEmployees();
-  }, [employeeFilter]);
+  }, [fetchMedicalHistories]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedMedicalHistory: selectedMedicalHistory?.id,
+      medicalHistories: medicalHistories.length,
+      loading,
+    });
+  }, [
+    employeeFilter,
+    selectedMedicalHistory?.id,
+    medicalHistories.length,
+    loading,
+  ]);
 
   const handleSearch = () => {
     fetchMedicalHistories(1, searchTerm);

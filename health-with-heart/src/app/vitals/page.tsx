@@ -128,6 +128,12 @@ interface Employee {
 }
 
 export default function VitalsPage() {
+  // Extract employee filter from URL
+  const searchParams = new URLSearchParams(window.location.search);
+  const employeeFilter = searchParams.get('employee');
+
+  console.log('VitalsPage render - employeeFilter:', employeeFilter);
+
   const [vitals, setVitals] = useState<VitalRecord[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
@@ -148,44 +154,66 @@ export default function VitalsPage() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
-  const fetchVitals = async (page = 1, search = '') => {
-    try {
-      setLoading(true);
-      const response = await fetch(
-        `/api/vitals?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`
-      );
-      if (!response.ok) throw new Error('Failed to fetch vitals');
+  const fetchVitals = useCallback(
+    async (page = 1, search = '') => {
+      try {
+        setLoading(true);
+        const url = new URL('/api/vitals', window.location.origin);
+        url.searchParams.set('page', page.toString());
+        url.searchParams.set('limit', pagination.limit.toString());
 
-      const data = await response.json();
-      console.log('API Response - first vital:', data.vitals[0]);
-      console.log(
-        'API Response - systolic_warning in first vital:',
-        data.vitals[0]?.systolic_warning
-      );
-      console.log(
-        'API Response - diastolic_warning in first vital:',
-        data.vitals[0]?.diastolic_warning
-      );
-      console.log(
-        'API Response - glucose_status in first vital:',
-        data.vitals[0]?.glucose_status
-      );
-      console.log(
-        'API Response - notes_text in first vital:',
-        data.vitals[0]?.notes_text
-      );
-      console.log(
-        'API Response - additional_notes in first vital:',
-        data.vitals[0]?.additional_notes
-      );
-      setVitals(data.vitals);
-      setPagination(data.pagination);
-    } catch (error) {
-      console.error('Error fetching vitals:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+        // Add employee filter if present
+        if (employeeFilter) {
+          url.searchParams.set('employee', employeeFilter);
+        }
+
+        // Add search term if present
+        if (search) {
+          url.searchParams.set('search', search);
+        }
+
+        const response = await fetch(url.toString());
+        if (!response.ok) throw new Error('Failed to fetch vitals');
+
+        const data = await response.json();
+        console.log('API Response - first vital:', data.vitals[0]);
+        console.log(
+          'API Response - systolic_warning in first vital:',
+          data.vitals[0]?.systolic_warning
+        );
+        console.log(
+          'API Response - diastolic_warning in first vital:',
+          data.vitals[0]?.diastolic_warning
+        );
+        console.log(
+          'API Response - glucose_status in first vital:',
+          data.vitals[0]?.glucose_status
+        );
+        console.log(
+          'API Response - notes_text in first vital:',
+          data.vitals[0]?.notes_text
+        );
+        console.log(
+          'API Response - additional_notes in first vital:',
+          data.vitals[0]?.additional_notes
+        );
+        setVitals(data.vitals);
+        setPagination(data.pagination);
+
+        // If there's an employee filter, automatically select the first vital
+        if (employeeFilter && data.vitals && data.vitals.length > 0) {
+          const employeeVital = data.vitals[0];
+          console.log('Auto-selecting vital:', employeeVital);
+          setSelectedVital(employeeVital);
+        }
+      } catch (error) {
+        console.error('Error fetching vitals:', error);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [employeeFilter]
+  );
 
   const fetchEmployees = async () => {
     try {
@@ -202,7 +230,7 @@ export default function VitalsPage() {
   useEffect(() => {
     fetchVitals();
     fetchEmployees();
-  }, []);
+  }, [fetchVitals]);
 
   const handleSearch = () => {
     fetchVitals(1, searchTerm);
@@ -428,6 +456,27 @@ export default function VitalsPage() {
     });
     return vital.diastolic_warning;
   };
+
+  // Watch for URL changes and refetch if employee filter changes
+  useEffect(() => {
+    const currentEmployeeFilter = new URLSearchParams(
+      window.location.search
+    ).get('employee');
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log('URL changed - refetching vitals');
+      fetchVitals();
+    }
+  }, [employeeFilter]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedVital: selectedVital?.id,
+      vitals: vitals.length,
+      loading,
+    });
+  }, [employeeFilter, selectedVital?.id, vitals.length, loading]);
 
   return (
     <DashboardLayout>
