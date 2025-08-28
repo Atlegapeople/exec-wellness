@@ -27,6 +27,18 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 import DashboardLayout from '@/components/DashboardLayout';
 import { useAPI } from '@/hooks/useAPI';
 import {
@@ -55,6 +67,9 @@ import {
   Edit,
   Trash2,
   Plus,
+  Save,
+  AlertCircle,
+  DollarSign,
 } from 'lucide-react';
 import Employee360View from '@/components/Employee360View';
 
@@ -227,6 +242,33 @@ export default function MyDashboard() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(60); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
+  // Modal state
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [editingReport, setEditingReport] = useState<MedicalReport | null>(
+    null
+  );
+  const [createFormData, setCreateFormData] = useState<Partial<MedicalReport>>(
+    {}
+  );
+  const [editFormData, setEditFormData] = useState<Partial<MedicalReport>>({});
+  const [modalFormLoading, setModalFormLoading] = useState(false);
+
+  // Related entities state
+  const [organizations, setOrganizations] = useState<any[]>([]);
+  const [sites, setSites] = useState<any[]>([]);
+  const [locations, setLocations] = useState<any[]>([]);
+  const [costCenters, setCostCenters] = useState<any[]>([]);
+  const [relatedEntitiesLoading, setRelatedEntitiesLoading] = useState(false);
+
+  // Modal state for related entities
+  const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] =
+    useState(false);
+  const [isSitesModalOpen, setIsSitesModalOpen] = useState(false);
+  const [isLocationsModalOpen, setIsLocationsModalOpen] = useState(false);
+  const [isCostCentersModalOpen, setIsCostCentersModalOpen] = useState(false);
+
   const currentDate = new Date().toLocaleDateString('en-ZA', {
     weekday: 'long',
     year: 'numeric',
@@ -374,42 +416,199 @@ export default function MyDashboard() {
   // CRUD operations
   const handleEditReport = () => {
     if (!selectedReport) return;
-    // Navigate to edit page or open edit modal
-    window.open(`/reports/edit/${selectedReport.id}`, '_blank');
+    // Open edit modal instead of navigating
+    setEditingReport(selectedReport);
+    setEditFormData(selectedReport);
+    setIsEditModalOpen(true);
   };
 
   const handleDeleteReport = async () => {
     if (!selectedReport) return;
+    // Open delete modal instead of using window.confirm
+    setEditingReport(selectedReport);
+    setIsDeleteModalOpen(true);
+  };
 
-    const confirmDelete = window.confirm(
-      `Are you sure you want to delete the medical report for ${getEmployeeName(selectedReport)}? This action cannot be undone.`
-    );
+  const handleCreateReport = () => {
+    // Open create modal instead of navigating
+    setCreateFormData({});
+    setIsCreateModalOpen(true);
+  };
 
-    if (!confirmDelete) return;
-
+  // Fetch related entities for modals
+  const fetchOrganizations = async () => {
     try {
-      const response = await fetch(`/api/reports/${selectedReport.id}`, {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/organizations?limit=1000');
+      const data = await response.json();
+      setOrganizations(data.organizations || []);
+    } catch (error) {
+      console.error('Error fetching organizations:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchSites = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/sites?limit=1000');
+      const data = await response.json();
+      setSites(data.sites || []);
+    } catch (error) {
+      console.error('Error fetching sites:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchLocations = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/locations?limit=1000');
+      const data = await response.json();
+      setLocations(data.locations || []);
+    } catch (error) {
+      console.error('Error fetching locations:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  const fetchCostCenters = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      const response = await fetch('/api/cost-centers?limit=1000');
+      const data = await response.json();
+      setCostCenters(data.costCenters || []);
+    } catch (error) {
+      console.error('Error fetching cost centers:', error);
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
+  // Modal open functions
+  const openOrganizationsModal = () => {
+    if (organizations.length === 0) {
+      fetchOrganizations();
+    }
+    setIsOrganizationsModalOpen(true);
+  };
+
+  const openSitesModal = () => {
+    if (sites.length === 0) {
+      fetchSites();
+    }
+    setIsSitesModalOpen(true);
+  };
+
+  const openLocationsModal = () => {
+    if (locations.length === 0) {
+      fetchLocations();
+    }
+    setIsLocationsModalOpen(true);
+  };
+
+  const openCostCentersModal = () => {
+    if (costCenters.length === 0) {
+      fetchCostCenters();
+    }
+    setIsCostCentersModalOpen(true);
+  };
+
+  // CRUD modal functions
+  const handleCreate = async () => {
+    try {
+      setModalFormLoading(true);
+      const response = await fetch('/api/reports', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(createFormData),
+      });
+
+      if (response.ok) {
+        setIsCreateModalOpen(false);
+        setCreateFormData({});
+        // Refresh dashboard data
+        window.location.reload();
+      } else {
+        const error = await response.json();
+        console.error('Create failed:', error);
+      }
+    } catch (error) {
+      console.error('Error creating report:', error);
+    } finally {
+      setModalFormLoading(false);
+    }
+  };
+
+  const handleEdit = async () => {
+    try {
+      setModalFormLoading(true);
+      const response = await fetch('/api/reports', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...editFormData, id: editingReport?.id }),
+      });
+
+      if (response.ok) {
+        setIsEditModalOpen(false);
+        setEditingReport(null);
+        setEditFormData({});
+        // Refresh dashboard data
+        window.location.reload();
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (error) {
+      console.error('Error updating report:', error);
+    } finally {
+      setModalFormLoading(false);
+    }
+  };
+
+  const handleDelete = async () => {
+    try {
+      setModalFormLoading(true);
+      const response = await fetch(`/api/reports/${editingReport?.id}`, {
         method: 'DELETE',
       });
 
       if (response.ok) {
-        alert('Report deleted successfully');
-        setSelectedReport(null);
-        setFormData(null);
+        setIsDeleteModalOpen(false);
+        setEditingReport(null);
+        if (selectedReport?.id === editingReport?.id) {
+          setSelectedReport(null);
+        }
         // Refresh dashboard data
         window.location.reload();
       } else {
-        alert('Failed to delete report');
+        const error = await response.json();
+        console.error('Delete failed:', error);
       }
     } catch (error) {
       console.error('Error deleting report:', error);
-      alert('Error deleting report');
+    } finally {
+      setModalFormLoading(false);
     }
   };
 
-  const handleCreateReport = () => {
-    // Navigate to create new report page
-    window.open('/reports/create', '_blank');
+  const openCreateModal = () => {
+    setCreateFormData({});
+    setIsCreateModalOpen(true);
+  };
+
+  const openEditModal = (report: MedicalReport) => {
+    setEditingReport(report);
+    setEditFormData(report);
+    setIsEditModalOpen(true);
+  };
+
+  const openDeleteModal = (report: MedicalReport) => {
+    setEditingReport(report);
+    setIsDeleteModalOpen(true);
   };
 
   // Resizing handlers
@@ -459,6 +658,14 @@ export default function MyDashboard() {
       document.body.style.userSelect = '';
     };
   }, [isResizing]);
+
+  // Fetch related entities on mount
+  useEffect(() => {
+    fetchOrganizations();
+    fetchSites();
+    fetchLocations();
+    fetchCostCenters();
+  }, []);
 
   if (usersLoading) {
     return (
@@ -665,6 +872,74 @@ export default function MyDashboard() {
                 {dashboardData?.stats.signoffRate || 0}%
               </div>
               <p className='text-xs text-muted-foreground'>Completion rate</p>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Navigation Cards */}
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+          <Card
+            className='hover-lift cursor-pointer'
+            onClick={openOrganizationsModal}
+          >
+            <CardContent className='p-4'>
+              <div className='flex items-center gap-3'>
+                <Building2 className='h-8 w-8 text-blue-600' />
+                <div>
+                  <h3 className='font-semibold'>Organizations</h3>
+                  <p className='text-sm text-muted-foreground'>
+                    {organizations.length} organizations
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className='hover-lift cursor-pointer' onClick={openSitesModal}>
+            <CardContent className='p-4'>
+              <div className='flex items-center gap-3'>
+                <MapPin className='h-8 w-8 text-green-600' />
+                <div>
+                  <h3 className='font-semibold'>Sites</h3>
+                  <p className='text-sm text-muted-foreground'>
+                    {sites.length} sites
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card
+            className='hover-lift cursor-pointer'
+            onClick={openLocationsModal}
+          >
+            <CardContent className='p-4'>
+              <div className='flex items-center gap-3'>
+                <MapPin className='h-8 w-8 text-purple-600' />
+                <div>
+                  <h3 className='font-semibold'>Locations</h3>
+                  <p className='text-sm text-muted-foreground'>
+                    {locations.length} locations
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card
+            className='hover-lift cursor-pointer'
+            onClick={openCostCentersModal}
+          >
+            <CardContent className='p-4'>
+              <div className='flex items-center gap-3'>
+                <DollarSign className='h-8 w-8 text-orange-600' />
+                <div>
+                  <h3 className='font-semibold'>Cost Centers</h3>
+                  <p className='text-sm text-muted-foreground'>
+                    {costCenters.length} cost centers
+                  </p>
+                </div>
+              </div>
             </CardContent>
           </Card>
         </div>
@@ -1159,6 +1434,667 @@ export default function MyDashboard() {
             </CardContent>
           </Card>
         </div>
+
+        {/* Create Modal */}
+        <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
+          <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle>Create New Medical Report</DialogTitle>
+              <DialogDescription>
+                Add a new executive medical report for an employee.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+              <div className='space-y-2'>
+                <Label htmlFor='employee_id'>Employee ID</Label>
+                <Input
+                  id='employee_id'
+                  value={createFormData.employee_id || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      employee_id: e.target.value,
+                    })
+                  }
+                  placeholder='Enter employee ID'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='type'>Report Type</Label>
+                <Select
+                  value={createFormData.type || ''}
+                  onValueChange={value =>
+                    setCreateFormData({ ...createFormData, type: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select report type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Executive Medical'>
+                      Executive Medical
+                    </SelectItem>
+                    <SelectItem value='Pre-Employment'>
+                      Pre-Employment
+                    </SelectItem>
+                    <SelectItem value='Periodic'>Periodic</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='sub_type'>Sub Type</Label>
+                <Select
+                  value={createFormData.sub_type || ''}
+                  onValueChange={value =>
+                    setCreateFormData({ ...createFormData, sub_type: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select sub type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Initial'>Initial</SelectItem>
+                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
+                    <SelectItem value='Annual'>Annual</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='workplace'>Workplace</Label>
+                <Input
+                  id='workplace'
+                  value={createFormData.workplace || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      workplace: e.target.value,
+                    })
+                  }
+                  placeholder='Enter workplace'
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='notes_text'>Notes</Label>
+                <Textarea
+                  id='notes_text'
+                  value={createFormData.notes_text || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      notes_text: e.target.value,
+                    })
+                  }
+                  placeholder='Additional notes about the medical report...'
+                  rows={3}
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='recommendation_text'>Recommendations</Label>
+                <Textarea
+                  id='recommendation_text'
+                  value={createFormData.recommendation_text || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      recommendation_text: e.target.value,
+                    })
+                  }
+                  placeholder='Medical recommendations...'
+                  rows={3}
+                />
+              </div>
+            </div>
+
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setIsCreateModalOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button onClick={handleCreate} disabled={modalFormLoading}>
+                {modalFormLoading ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Creating...
+                  </>
+                ) : (
+                  <>
+                    <Save className='mr-2 h-4 w-4' />
+                    Create Report
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Edit Modal */}
+        <Dialog open={isEditModalOpen} onOpenChange={setIsEditModalOpen}>
+          <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle>Edit Medical Report</DialogTitle>
+              <DialogDescription>
+                Update the medical report for{' '}
+                {editingReport ? getEmployeeName(editingReport) : ''}.
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+              <div className='space-y-2'>
+                <Label htmlFor='employee_id_edit'>Employee ID</Label>
+                <Input
+                  id='employee_id_edit'
+                  value={editFormData.employee_id || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      employee_id: e.target.value,
+                    })
+                  }
+                  placeholder='Enter employee ID'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='type_edit'>Report Type</Label>
+                <Select
+                  value={editFormData.type || ''}
+                  onValueChange={value =>
+                    setEditFormData({ ...editFormData, type: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select report type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Executive Medical'>
+                      Executive Medical
+                    </SelectItem>
+                    <SelectItem value='Pre-Employment'>
+                      Pre-Employment
+                    </SelectItem>
+                    <SelectItem value='Periodic'>Periodic</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='sub_type_edit'>Sub Type</Label>
+                <Select
+                  value={editFormData.sub_type || ''}
+                  onValueChange={value =>
+                    setEditFormData({ ...editFormData, sub_type: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select sub type' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Initial'>Initial</SelectItem>
+                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
+                    <SelectItem value='Annual'>Annual</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='workplace_edit'>Workplace</Label>
+                <Input
+                  id='workplace_edit'
+                  value={editFormData.workplace || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      workplace: e.target.value,
+                    })
+                  }
+                  placeholder='Enter workplace'
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='notes_text_edit'>Notes</Label>
+                <Textarea
+                  id='notes_text_edit'
+                  value={editFormData.notes_text || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      notes_text: e.target.value,
+                    })
+                  }
+                  placeholder='Additional notes about the medical report...'
+                  rows={3}
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='recommendation_text_edit'>
+                  Recommendations
+                </Label>
+                <Textarea
+                  id='recommendation_text_edit'
+                  value={editFormData.recommendation_text || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      recommendation_text: e.target.value,
+                    })
+                  }
+                  placeholder='Medical recommendations...'
+                  rows={3}
+                />
+              </div>
+            </div>
+
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setIsEditModalOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button onClick={handleEdit} disabled={modalFormLoading}>
+                {modalFormLoading ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Updating...
+                  </>
+                ) : (
+                  <>
+                    <Save className='mr-2 h-4 w-4' />
+                    Update Report
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Confirmation Modal */}
+        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <AlertCircle className='h-5 w-5 text-destructive' />
+                Delete Medical Report
+              </DialogTitle>
+              <DialogDescription>
+                Are you sure you want to delete this medical report for{' '}
+                <span className='font-medium'>
+                  {editingReport ? getEmployeeName(editingReport) : ''}
+                </span>
+                ? This action cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setIsDeleteModalOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={handleDelete}
+                disabled={modalFormLoading}
+              >
+                {modalFormLoading ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Report
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+
+        {/* Organizations Modal */}
+        <Dialog
+          open={isOrganizationsModalOpen}
+          onOpenChange={setIsOrganizationsModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <Building2 className='h-5 w-5 text-blue-600' />
+                Organizations
+              </DialogTitle>
+              <DialogDescription>
+                View all organizations in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading organizations...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {organizations.map(org => (
+                    <Card key={org.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {org.name || 'Unnamed Organization'}
+                        </CardTitle>
+                        <CardDescription>
+                          {org.registration_number &&
+                            `Reg: ${org.registration_number}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>Sites:</span>
+                          <Badge variant='outline'>{org.site_count || 0}</Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Managers:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.manager_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {org.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                        {org.notes_text && (
+                          <div className='pt-2 border-t'>
+                            <p className='text-sm text-muted-foreground'>
+                              {org.notes_text}
+                            </p>
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Sites Modal */}
+        <Dialog open={isSitesModalOpen} onOpenChange={setIsSitesModalOpen}>
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <MapPin className='h-5 w-5 text-green-600' />
+                Sites
+              </DialogTitle>
+              <DialogDescription>
+                View all sites in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading sites...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {sites.map(site => (
+                    <Card key={site.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {site.name || 'Unnamed Site'}
+                        </CardTitle>
+                        <CardDescription>
+                          {site.organisation_name &&
+                            `Org: ${site.organisation_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {site.address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>{site.address}</p>
+                          </div>
+                        )}
+                        {site.site_admin_email && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Admin Email:
+                            </span>
+                            <p className='font-medium'>
+                              {site.site_admin_email}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {site.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {site.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Locations Modal */}
+        <Dialog
+          open={isLocationsModalOpen}
+          onOpenChange={setIsLocationsModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <MapPin className='h-5 w-5 text-purple-600' />
+                Locations
+              </DialogTitle>
+              <DialogDescription>
+                View all locations in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading locations...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {locations.map(location => (
+                    <Card key={location.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {location.name || 'Unnamed Location'}
+                        </CardTitle>
+                        <CardDescription>
+                          {location.site_name && `Site: ${location.site_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {location.address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>{location.address}</p>
+                          </div>
+                        )}
+                        {location.manager_name && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager:
+                            </span>
+                            <p className='font-medium'>
+                              {location.manager_name}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {location.employee_count || 0}
+                          </Badge>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Cost Centers Modal */}
+        <Dialog
+          open={isCostCentersModalOpen}
+          onOpenChange={setIsCostCentersModalOpen}
+        >
+          <DialogContent className='max-w-6xl max-h-[90vh] overflow-y-auto'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <DollarSign className='h-5 w-5 text-orange-600' />
+                Cost Centers
+              </DialogTitle>
+              <DialogDescription>
+                View all cost centers in the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='space-y-4'>
+              {relatedEntitiesLoading ? (
+                <div className='flex items-center justify-center py-8'>
+                  <Loader2 className='h-8 w-8 animate-spin' />
+                  <span className='ml-2'>Loading cost centers...</span>
+                </div>
+              ) : (
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                  {costCenters.map(costCenter => (
+                    <Card key={costCenter.id} className='hover-lift'>
+                      <CardHeader className='pb-3'>
+                        <CardTitle className='text-lg'>
+                          {costCenter.department || 'Unnamed Department'}
+                        </CardTitle>
+                        <CardDescription>
+                          {costCenter.organisation_name &&
+                            `Org: ${costCenter.organisation_name}`}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className='space-y-2'>
+                        {costCenter.cost_center && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Cost Center:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.cost_center}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.workplace_address && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Address:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.workplace_address}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.manager_name && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.manager_name}
+                            </p>
+                          </div>
+                        )}
+                        {costCenter.manager_email && (
+                          <div className='text-sm'>
+                            <span className='text-muted-foreground'>
+                              Manager Email:
+                            </span>
+                            <p className='font-medium'>
+                              {costCenter.manager_email}
+                            </p>
+                          </div>
+                        )}
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Employees:
+                          </span>
+                          <Badge variant='outline'>
+                            {costCenter.employee_count || 0}
+                          </Badge>
+                        </div>
+                        <div className='flex items-center justify-between text-sm'>
+                          <span className='text-muted-foreground'>
+                            Reports:
+                          </span>
+                          <Badge variant='outline'>
+                            {costCenter.medical_report_count || 0}
+                          </Badge>
+                        </div>
+                        {costCenter.notes_text && (
+                          <div className='pt-2 border-t'>
+                            <p className='text-sm text-muted-foreground'>
+                              {costCenter.notes_text}
+                            </p>
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        </Dialog>
       </div>
     </DashboardLayout>
   );
