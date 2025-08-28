@@ -194,3 +194,95 @@ export async function GET(request: NextRequest) {
     );
   }
 }
+
+export async function POST(request: NextRequest) {
+  try {
+    const reportData = await request.json();
+
+    // Validate required fields
+    if (!reportData.employee_id || !reportData.type) {
+      return NextResponse.json(
+        { error: 'Employee ID and type are required' },
+        { status: 400 }
+      );
+    }
+
+    // Set default values
+    const now = new Date().toISOString();
+    const insertData = {
+      ...reportData,
+      date_created: now,
+      date_updated: now,
+      user_created: reportData.user_created || 'system',
+      user_updated: reportData.user_updated || 'system',
+      doctor_signoff: reportData.doctor_signoff || 'No',
+      report_work_status: reportData.report_work_status || 'Draft',
+      type: reportData.type || 'Executive Medical',
+      sub_type: reportData.sub_type || 'Initial',
+    };
+
+    // Build insert query
+    const fields = Object.keys(insertData);
+    const placeholders = fields.map((_, index) => `$${index + 1}`).join(', ');
+    const values = Object.values(insertData);
+
+    const insertQuery = `
+      INSERT INTO medical_report (${fields.join(', ')})
+      VALUES (${placeholders})
+      RETURNING *
+    `;
+
+    const result = await query(insertQuery, values);
+
+    return NextResponse.json(
+      {
+        message: 'Medical report created successfully',
+        report: result.rows[0],
+      },
+      { status: 201 }
+    );
+  } catch (error) {
+    console.error('Error creating medical report:', error);
+    return NextResponse.json(
+      { error: 'Failed to create medical report' },
+      { status: 500 }
+    );
+  }
+}
+
+export async function DELETE(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const id = searchParams.get('id');
+
+    if (!id) {
+      return NextResponse.json(
+        { error: 'Report ID is required' },
+        { status: 400 }
+      );
+    }
+
+    // Check if report exists
+    const checkQuery = 'SELECT id FROM medical_report WHERE id = $1';
+    const checkResult = await query(checkQuery, [id]);
+
+    if (checkResult.rows.length === 0) {
+      return NextResponse.json({ error: 'Report not found' }, { status: 404 });
+    }
+
+    // Delete the report
+    const deleteQuery = 'DELETE FROM medical_report WHERE id = $1 RETURNING *';
+    const result = await query(deleteQuery, [id]);
+
+    return NextResponse.json({
+      message: 'Medical report deleted successfully',
+      report: result.rows[0],
+    });
+  } catch (error) {
+    console.error('Error deleting medical report:', error);
+    return NextResponse.json(
+      { error: 'Failed to delete medical report' },
+      { status: 500 }
+    );
+  }
+}

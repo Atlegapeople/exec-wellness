@@ -521,23 +521,48 @@ export default function MyDashboard() {
   const handleCreate = async () => {
     try {
       setModalFormLoading(true);
+
+      // Validate required fields
+      if (!createFormData.employee_id || !createFormData.type) {
+        alert('Employee ID and Report Type are required fields');
+        setModalFormLoading(false);
+        return;
+      }
+
+      // Prepare the data for creation
+      const reportData = {
+        ...createFormData,
+        user_created: dashboardData?.doctor?.id || 'system',
+        user_updated: dashboardData?.doctor?.id || 'system',
+        doctor: selectedStaffType === 'Doctor' ? selectedDoctorId : null,
+        nurse: selectedStaffType === 'Nurse' ? selectedNurseId : null,
+        type: createFormData.type || 'Executive Medical',
+        sub_type: createFormData.sub_type || 'Initial',
+        doctor_signoff: 'No',
+        report_work_status: 'Draft',
+      };
+
       const response = await fetch('/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(createFormData),
+        body: JSON.stringify(reportData),
       });
 
       if (response.ok) {
+        const result = await response.json();
+        console.log('Report created successfully:', result);
         setIsCreateModalOpen(false);
         setCreateFormData({});
         // Refresh dashboard data
-        window.location.reload();
+        refreshDashboardData();
       } else {
         const error = await response.json();
         console.error('Create failed:', error);
+        alert(`Failed to create report: ${error.error || 'Unknown error'}`);
       }
     } catch (error) {
       console.error('Error creating report:', error);
+      alert('Error creating report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -546,24 +571,44 @@ export default function MyDashboard() {
   const handleEdit = async () => {
     try {
       setModalFormLoading(true);
-      const response = await fetch('/api/reports', {
+
+      if (!editingReport?.id) {
+        alert('No report selected for editing');
+        return;
+      }
+
+      // Prepare the data for update
+      const updateData = {
+        ...editFormData,
+        user_updated: dashboardData?.doctor?.id || 'system',
+        doctor: selectedStaffType === 'Doctor' ? selectedDoctorId : null,
+        nurse: selectedStaffType === 'Nurse' ? selectedNurseId : null,
+        type: editFormData.type || 'Executive Medical',
+        sub_type: editFormData.sub_type || 'Initial',
+      };
+
+      const response = await fetch(`/api/reports/${editingReport.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...editFormData, id: editingReport?.id }),
+        body: JSON.stringify(updateData),
       });
 
       if (response.ok) {
+        const result = await response.json();
+        console.log('Report updated successfully:', result);
         setIsEditModalOpen(false);
         setEditingReport(null);
         setEditFormData({});
         // Refresh dashboard data
-        window.location.reload();
+        refreshDashboardData();
       } else {
         const error = await response.json();
         console.error('Update failed:', error);
+        alert(`Failed to update report: ${error.error || 'Unknown error'}`);
       }
     } catch (error) {
       console.error('Error updating report:', error);
+      alert('Error updating report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -572,24 +617,34 @@ export default function MyDashboard() {
   const handleDelete = async () => {
     try {
       setModalFormLoading(true);
-      const response = await fetch(`/api/reports/${editingReport?.id}`, {
+
+      if (!editingReport?.id) {
+        alert('No report selected for deletion');
+        return;
+      }
+
+      const response = await fetch(`/api/reports?id=${editingReport.id}`, {
         method: 'DELETE',
       });
 
       if (response.ok) {
+        const result = await response.json();
+        console.log('Report deleted successfully:', result);
         setIsDeleteModalOpen(false);
         setEditingReport(null);
         if (selectedReport?.id === editingReport?.id) {
           setSelectedReport(null);
         }
         // Refresh dashboard data
-        window.location.reload();
+        refreshDashboardData();
       } else {
         const error = await response.json();
         console.error('Delete failed:', error);
+        alert(`Failed to delete report: ${error.error || 'Unknown error'}`);
       }
     } catch (error) {
       console.error('Error deleting report:', error);
+      alert('Error deleting report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -666,6 +721,16 @@ export default function MyDashboard() {
     fetchLocations();
     fetchCostCenters();
   }, []);
+
+  // Function to refresh dashboard data
+  const refreshDashboardData = () => {
+    // This will trigger a re-fetch of the dashboard data
+    // by changing the dependency in the useAPI hook
+    if (selectedDoctorId && selectedStaffType === 'Doctor') {
+      // Force refresh by updating the URL or triggering a refetch
+      window.location.reload();
+    }
+  };
 
   if (usersLoading) {
     return (
@@ -1514,7 +1579,38 @@ export default function MyDashboard() {
                       workplace: e.target.value,
                     })
                   }
-                  placeholder='Enter workplace'
+                  placeholder='Enter workplace or cost center'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='line_manager'>Line Manager</Label>
+                <Input
+                  id='line_manager'
+                  value={createFormData.line_manager || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      line_manager: e.target.value,
+                    })
+                  }
+                  placeholder='Enter line manager name'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='manager_email'>Manager Email</Label>
+                <Input
+                  id='manager_email'
+                  value={createFormData.manager_email || ''}
+                  onChange={e =>
+                    setCreateFormData({
+                      ...createFormData,
+                      manager_email: e.target.value,
+                    })
+                  }
+                  placeholder='Enter manager email'
+                  type='email'
                 />
               </div>
 
@@ -1555,6 +1651,7 @@ export default function MyDashboard() {
               <Button
                 variant='outline'
                 onClick={() => setIsCreateModalOpen(false)}
+                disabled={modalFormLoading}
               >
                 Cancel
               </Button>
@@ -1655,7 +1752,38 @@ export default function MyDashboard() {
                       workplace: e.target.value,
                     })
                   }
-                  placeholder='Enter workplace'
+                  placeholder='Enter workplace or cost center'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='line_manager_edit'>Line Manager</Label>
+                <Input
+                  id='line_manager_edit'
+                  value={editFormData.line_manager || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      line_manager: e.target.value,
+                    })
+                  }
+                  placeholder='Enter line manager name'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='manager_email_edit'>Manager Email</Label>
+                <Input
+                  id='manager_email_edit'
+                  value={editFormData.manager_email || ''}
+                  onChange={e =>
+                    setEditFormData({
+                      ...editFormData,
+                      manager_email: e.target.value,
+                    })
+                  }
+                  placeholder='Enter manager email'
+                  type='email'
                 />
               </div>
 
@@ -1698,6 +1826,7 @@ export default function MyDashboard() {
               <Button
                 variant='outline'
                 onClick={() => setIsEditModalOpen(false)}
+                disabled={modalFormLoading}
               >
                 Cancel
               </Button>
@@ -1738,6 +1867,7 @@ export default function MyDashboard() {
               <Button
                 variant='outline'
                 onClick={() => setIsDeleteModalOpen(false)}
+                disabled={modalFormLoading}
               >
                 Cancel
               </Button>
