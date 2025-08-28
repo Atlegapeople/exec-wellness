@@ -205,6 +205,12 @@ export default function VitalsPage() {
           const employeeVital = data.vitals[0];
           console.log('Auto-selecting vital:', employeeVital);
           setSelectedVital(employeeVital);
+        } else if (employeeFilter && data.vitals && data.vitals.length === 0) {
+          // No vitals found for this employee, open the create modal with employee ID pre-filled
+          console.log('No vitals found for employee, opening create modal');
+          console.log('Setting form data with employee_id:', employeeFilter);
+          setFormData({ employee_id: employeeFilter });
+          setIsCreateDialogOpen(true);
         }
       } catch (error) {
         console.error('Error fetching vitals:', error);

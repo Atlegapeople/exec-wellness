@@ -204,6 +204,18 @@ export default function SpecialInvestigationsPage() {
         const employeeInvestigation = data.investigations[0];
         console.log('Auto-selecting investigation:', employeeInvestigation);
         setSelectedInvestigation(employeeInvestigation);
+      } else if (
+        employeeFilter &&
+        data.investigations &&
+        data.investigations.length === 0
+      ) {
+        // No investigations found for this employee, open the create modal with employee ID pre-filled
+        console.log(
+          'No investigations found for employee, opening create modal'
+        );
+        console.log('Setting form data with employee_id:', employeeFilter);
+        setFormData({ employee_id: employeeFilter });
+        setIsCreateModalOpen(true);
       }
     } catch (error) {
       console.error('Error fetching special investigations:', error);

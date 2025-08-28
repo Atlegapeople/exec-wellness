@@ -186,6 +186,12 @@ export default function ReportsPage() {
         } finally {
           setFormLoading(false);
         }
+      } else if (employeeFilter && data.reports && data.reports.length === 0) {
+        // No reports found for this employee, open the create modal with employee ID pre-filled
+        console.log('No reports found for employee, opening create modal');
+        console.log('Setting form data with employee_id:', employeeFilter);
+        setFormData({ employee_id: employeeFilter });
+        setIsCreateModalOpen(true);
       }
 
       // Calculate status summary - SIMPLE VERSION

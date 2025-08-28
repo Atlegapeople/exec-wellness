@@ -260,6 +260,16 @@ export default function AppointmentsPage() {
         const employeeAppointment = data.appointments[0];
         console.log('Auto-selecting appointment:', employeeAppointment);
         setSelectedAppointment(employeeAppointment);
+      } else if (
+        employeeFilter &&
+        data.appointments &&
+        data.appointments.length === 0
+      ) {
+        // No appointments found for this employee, open the create modal with employee ID pre-filled
+        console.log('No appointments found for employee, opening create modal');
+        console.log('Setting form data with employee_id:', employeeFilter);
+        setFormData({ employee_id: employeeFilter });
+        setIsCreateModalOpen(true);
       } else if (employeeFilter) {
         console.log('No appointments found for employee:', employeeFilter);
       }

@@ -178,6 +178,16 @@ export default function LifestylePage() {
         const employeeLifestyle = data.lifestyles[0];
         console.log('Auto-selecting lifestyle:', employeeLifestyle);
         setSelectedLifestyle(employeeLifestyle);
+      } else if (
+        employeeFilter &&
+        data.lifestyles &&
+        data.lifestyles.length === 0
+      ) {
+        // No lifestyles found for this employee, open the create modal with employee ID pre-filled
+        console.log('No lifestyles found for employee, opening create modal');
+        console.log('Setting form data with employee_id:', employeeFilter);
+        setFormData({ employee_id: employeeFilter });
+        setIsCreateModalOpen(true);
       }
     } catch (error) {
       console.error('Error fetching lifestyles:', error);

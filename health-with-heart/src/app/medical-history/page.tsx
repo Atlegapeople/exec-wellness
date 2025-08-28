@@ -223,6 +223,18 @@ export default function MedicalHistoryPage() {
           );
           setSelectedMedicalHistory(employeeMedicalHistory);
           console.log('selectedMedicalHistory set successfully');
+        } else if (
+          employeeFilter &&
+          data.medicalHistories &&
+          data.medicalHistories.length === 0
+        ) {
+          // No medical histories found for this employee, open the create modal with employee ID pre-filled
+          console.log(
+            'No medical histories found for employee, opening create modal'
+          );
+          console.log('Setting form data with employee_id:', employeeFilter);
+          setFormData({ employee_id: employeeFilter });
+          setIsCreateDialogOpen(true);
         } else {
           console.log('No auto-selection:', {
             employeeFilter,
