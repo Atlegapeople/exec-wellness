@@ -79,6 +79,14 @@ export default function SpecialInvestigationsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Extract employee filter from URL
+  const employeeFilter = searchParams.get('employee');
+
+  console.log(
+    'SpecialInvestigationsPage render - employeeFilter:',
+    employeeFilter
+  );
+
   const [allInvestigations, setAllInvestigations] = useState<
     SpecialInvestigation[]
   >([]);
@@ -155,7 +163,7 @@ export default function SpecialInvestigationsPage() {
   });
 
   // Fetch all special investigations data
-  const fetchAllInvestigations = async () => {
+  const fetchAllInvestigations = useCallback(async () => {
     try {
       setLoading(true);
       const url = new URL(
@@ -165,6 +173,11 @@ export default function SpecialInvestigationsPage() {
       url.searchParams.set('page', '1');
       url.searchParams.set('limit', '10000');
       url.searchParams.set('_t', Date.now().toString());
+
+      // Add employee filter if present
+      if (employeeFilter) {
+        url.searchParams.set('employee', employeeFilter);
+      }
 
       const response = await fetch(url.toString(), {
         cache: 'no-cache',
@@ -181,12 +194,23 @@ export default function SpecialInvestigationsPage() {
       );
 
       setAllInvestigations(data.investigations || []);
+
+      // If there's an employee filter, automatically select the first investigation
+      if (
+        employeeFilter &&
+        data.investigations &&
+        data.investigations.length > 0
+      ) {
+        const employeeInvestigation = data.investigations[0];
+        console.log('Auto-selecting investigation:', employeeInvestigation);
+        setSelectedInvestigation(employeeInvestigation);
+      }
     } catch (error) {
       console.error('Error fetching special investigations:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [employeeFilter]);
 
   // Client-side filtering
   const filterInvestigations = useCallback(
@@ -500,7 +524,7 @@ export default function SpecialInvestigationsPage() {
   useEffect(() => {
     fetchAllInvestigations();
     fetchEmployees();
-  }, []);
+  }, [fetchAllInvestigations]);
 
   // Populate sub-section form data when investigation is selected
   useEffect(() => {
@@ -635,6 +659,32 @@ export default function SpecialInvestigationsPage() {
       };
     }
   }, [isResizing, handleMouseMove, handleMouseUp]);
+
+  // Watch for URL changes and refetch if employee filter changes
+  useEffect(() => {
+    const currentEmployeeFilter = new URLSearchParams(
+      window.location.search
+    ).get('employee');
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log('URL changed - refetching investigations');
+      fetchAllInvestigations();
+    }
+  }, [employeeFilter]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedInvestigation: selectedInvestigation?.id,
+      allInvestigations: allInvestigations.length,
+      loading,
+    });
+  }, [
+    employeeFilter,
+    selectedInvestigation?.id,
+    allInvestigations.length,
+    loading,
+  ]);
 
   if (loading) {
     return (

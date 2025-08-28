@@ -8,16 +8,27 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build search condition - only for employees with Executive Medical reports
-    const searchCondition = search 
-      ? `AND (si.id ILIKE $3 OR si.employee_id ILIKE $3 OR si.report_id ILIKE $3 OR si.urine_dipstix ILIKE $3 OR si.risk_category ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`
-      : '';
-    
-    const countSearchCondition = search 
-      ? `AND (si.id ILIKE $1 OR si.employee_id ILIKE $1 OR si.report_id ILIKE $1 OR si.urine_dipstix ILIKE $1 OR si.risk_category ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`
-      : '';
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
+
+    if (employee) {
+      searchCondition = `AND si.employee_id = $3`;
+      countSearchCondition = `AND si.employee_id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      searchCondition = `AND (si.id ILIKE $3 OR si.employee_id ILIKE $3 OR si.report_id ILIKE $3 OR si.urine_dipstix ILIKE $3 OR si.risk_category ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`;
+      countSearchCondition = `AND (si.id ILIKE $1 OR si.employee_id ILIKE $1 OR si.report_id ILIKE $1 OR si.urine_dipstix ILIKE $1 OR si.risk_category ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`;
+      queryParams = [`%${search}%`];
+    } else {
+      searchCondition = '';
+      countSearchCondition = '';
+      queryParams = [];
+    }
 
     // Get total count - only special investigation records for employees with Executive Medical reports
     const countQuery = `
@@ -28,9 +39,8 @@ export async function GET(request: NextRequest) {
       WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
-    
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get special investigation records with user info and employee names
@@ -90,51 +100,59 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search 
-      ? [limit, offset, `%${search}%`]
-      : [limit, offset];
+    let finalQueryParams: (string | number)[] = [];
+    if (employee) {
+      finalQueryParams = [limit, offset, employee];
+    } else if (search) {
+      finalQueryParams = [limit, offset, `%${search}%`];
+    } else {
+      finalQueryParams = [limit, offset];
+    }
 
-    const result = await query(investigationsQuery, queryParams);
-    
-    const investigations: SpecialInvestigation[] = result.rows.map((row: any) => ({
-      id: row.id,
-      date_created: row.date_created ? new Date(row.date_created) : undefined,
-      date_updated: row.date_updated ? new Date(row.date_updated) : undefined,
-      user_created: row.user_created,
-      user_updated: row.user_updated,
-      report_id: row.report_id,
-      employee_id: row.employee_id,
-      employee_name: row.employee_name,
-      employee_surname: row.employee_surname,
-      employee_work_email: row.employee_work_email,
-      resting_ecg: row.resting_ecg,
-      stress_ecg: row.stress_ecg,
-      lung_function: row.lung_function,
-      urine_dipstix: row.urine_dipstix,
-      predicted_vo2_max: row.predicted_vo2_max,
-      body_fat_percentage: row.body_fat_percentage,
-      cardio_risk_header: row.cardio_risk_header,
-      reynolds_cardiovascular_risk_score: row.reynolds_cardiovascular_risk_score,
-      risk_score: row.risk_score,
-      risk_category: row.risk_category,
-      other_header: row.other_header,
-      colonscopy_required: row.colonscopy_required,
-      gastroscopy: row.gastroscopy,
-      abdominal_ultrasound: row.abdominal_ultrasound,
-      osteroporosis_screen: row.osteroporosis_screen,
-      notes_header: row.notes_header,
-      notes_text: row.notes_text,
-      recommendation_text: row.recommendation_text,
-      nerveiq: row.nerveiq,
-      nerviq_note: row.nerviq_note,
-      kardiofit: row.kardiofit,
-      kardiofit_note: row.kardiofit_note,
-      nerveiq_cns: row.nerveiq_cns,
-      nerveiq_cardio: row.nerveiq_cardio,
-      nerveiq_cnscomment: row.nerveiq_cnscomment,
-      nerveiq_cardiocomment: row.nerveiq_cardiocomment,
-      nerveiq_group: row.nerveiq_group
-    }));
+    const result = await query(investigationsQuery, finalQueryParams);
+
+    const investigations: SpecialInvestigation[] = result.rows.map(
+      (row: any) => ({
+        id: row.id,
+        date_created: row.date_created ? new Date(row.date_created) : undefined,
+        date_updated: row.date_updated ? new Date(row.date_updated) : undefined,
+        user_created: row.user_created,
+        user_updated: row.user_updated,
+        report_id: row.report_id,
+        employee_id: row.employee_id,
+        employee_name: row.employee_name,
+        employee_surname: row.employee_surname,
+        employee_work_email: row.employee_work_email,
+        resting_ecg: row.resting_ecg,
+        stress_ecg: row.stress_ecg,
+        lung_function: row.lung_function,
+        urine_dipstix: row.urine_dipstix,
+        predicted_vo2_max: row.predicted_vo2_max,
+        body_fat_percentage: row.body_fat_percentage,
+        cardio_risk_header: row.cardio_risk_header,
+        reynolds_cardiovascular_risk_score:
+          row.reynolds_cardiovascular_risk_score,
+        risk_score: row.risk_score,
+        risk_category: row.risk_category,
+        other_header: row.other_header,
+        colonscopy_required: row.colonscopy_required,
+        gastroscopy: row.gastroscopy,
+        abdominal_ultrasound: row.abdominal_ultrasound,
+        osteroporosis_screen: row.osteroporosis_screen,
+        notes_header: row.notes_header,
+        notes_text: row.notes_text,
+        recommendation_text: row.recommendation_text,
+        nerveiq: row.nerveiq,
+        nerviq_note: row.nerviq_note,
+        kardiofit: row.kardiofit,
+        kardiofit_note: row.kardiofit_note,
+        nerveiq_cns: row.nerveiq_cns,
+        nerveiq_cardio: row.nerveiq_cardio,
+        nerveiq_cnscomment: row.nerveiq_cnscomment,
+        nerveiq_cardiocomment: row.nerveiq_cardiocomment,
+        nerveiq_group: row.nerveiq_group,
+      })
+    );
 
     return NextResponse.json({
       investigations,
@@ -144,10 +162,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching special investigations:', error);
     return NextResponse.json(
@@ -160,7 +177,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO special_investigations (
         id, date_created, date_updated, user_created, user_updated,
@@ -209,13 +226,12 @@ export async function POST(request: NextRequest) {
       body.nerveiq_cardio,
       body.nerveiq_cnscomment,
       body.nerveiq_cardiocomment,
-      body.nerveiq_group
+      body.nerveiq_group,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating special investigation:', error);
     return NextResponse.json(
@@ -305,7 +321,7 @@ export async function PUT(request: NextRequest) {
       updateData.nerveiq_cardio,
       updateData.nerveiq_cnscomment,
       updateData.nerveiq_cardiocomment,
-      updateData.nerveiq_group
+      updateData.nerveiq_group,
     ];
 
     const result = await query(updateQuery, values);
@@ -318,7 +334,6 @@ export async function PUT(request: NextRequest) {
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating special investigation:', error);
     return NextResponse.json(
@@ -340,7 +355,8 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const deleteQuery = 'DELETE FROM special_investigations WHERE id = $1 RETURNING *';
+    const deleteQuery =
+      'DELETE FROM special_investigations WHERE id = $1 RETURNING *';
     const result = await query(deleteQuery, [id]);
 
     if (result.rows.length === 0) {
@@ -350,11 +366,10 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Special investigation deleted successfully',
-      deleted: result.rows[0]
+      deleted: result.rows[0],
     });
-
   } catch (error) {
     console.error('Error deleting special investigation:', error);
     return NextResponse.json(
