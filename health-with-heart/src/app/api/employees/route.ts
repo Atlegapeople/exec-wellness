@@ -8,18 +8,28 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // Build search condition - only for employees with Executive Medical reports
-    const searchCondition = search 
-      ? `AND (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3 OR e.employee_number ILIKE $3)`
-      : '';
-    
-    const countSearchCondition = search 
-      ? `AND (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1 OR e.employee_number ILIKE $1)`
-      : '';
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
 
-    // Get total count - only employees with Executive Medical reports
+    if (employee) {
+      searchCondition = `AND e.id = $3`;
+      countSearchCondition = `AND e.id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      searchCondition = `AND (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3 OR e.employee_number ILIKE $3)`;
+      countSearchCondition = `AND (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1 OR e.employee_number ILIKE $1)`;
+      queryParams = [`%${search}%`];
+    } else {
+      searchCondition = '';
+      countSearchCondition = '';
+      queryParams = [];
+    }
+
     const countQuery = `
       SELECT COUNT(DISTINCT e.id) as total 
       FROM employee e
@@ -27,9 +37,8 @@ export async function GET(request: NextRequest) {
       WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
-    
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get employees with resolved workplace and organisation names - only those with Executive Medical reports
@@ -93,12 +102,17 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search 
-      ? [limit, offset, `%${search}%`]
-      : [limit, offset];
+    let queryParamsForEmployees: (string | number)[] = [];
+    if (employee) {
+      queryParamsForEmployees = [limit, offset, employee];
+    } else if (search) {
+      queryParamsForEmployees = [limit, offset, `%${search}%`];
+    } else {
+      queryParamsForEmployees = [limit, offset];
+    }
 
-    const result = await query(employeesQuery, queryParams);
-    
+    const result = await query(employeesQuery, queryParamsForEmployees);
+
     const employees: Employee[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: row.date_created ? new Date(row.date_created) : undefined,
@@ -111,7 +125,9 @@ export async function GET(request: NextRequest) {
       id_number: row.id_number,
       passport_number: row.passport_number,
       gender: row.gender,
-      date_of_birth: row.date_of_birth ? new Date(row.date_of_birth) : undefined,
+      date_of_birth: row.date_of_birth
+        ? new Date(row.date_of_birth)
+        : undefined,
       ethnicity: row.ethnicity,
       marriage_status: row.marriage_status,
       no_of_children: row.no_of_children,
@@ -132,8 +148,10 @@ export async function GET(request: NextRequest) {
       job: row.job,
       notes_header: row.notes_header,
       notes_text: row.notes_text,
-      work_startdate: row.work_startdate ? new Date(row.work_startdate) : undefined,
-      manager_count: parseInt(row.manager_count || 0)
+      work_startdate: row.work_startdate
+        ? new Date(row.work_startdate)
+        : undefined,
+      manager_count: parseInt(row.manager_count || 0),
     }));
 
     return NextResponse.json({
@@ -144,10 +162,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching employees:', error);
     return NextResponse.json(
@@ -160,7 +177,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO employee (
         id, date_created, date_updated, user_created, user_updated,
@@ -205,13 +222,12 @@ export async function POST(request: NextRequest) {
       body.job,
       body.notes_header || '',
       body.notes_text,
-      body.work_startdate
+      body.work_startdate,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating employee:', error);
     return NextResponse.json(

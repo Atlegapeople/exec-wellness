@@ -70,6 +70,9 @@ export default function EmployeesPage() {
   const organizationFilter = searchParams.get('organization');
   const organizationName = searchParams.get('organizationName');
   const returnUrl = searchParams.get('returnUrl');
+  const employeeFilter = searchParams.get('employee');
+
+  console.log('EmployeesPage render - employeeFilter:', employeeFilter);
 
   const [allEmployees, setAllEmployees] = useState<Employee[]>([]);
   const [filteredEmployees, setFilteredEmployees] = useState<Employee[]>([]);
@@ -94,13 +97,18 @@ export default function EmployeesPage() {
   const [isResizing, setIsResizing] = useState(false);
 
   // Fetch all employees data once - now filtered to Executive Medical employees only
-  const fetchAllEmployees = async () => {
+  const fetchAllEmployees = useCallback(async () => {
     try {
       setLoading(true);
       const url = new URL('/api/employees', window.location.origin);
       url.searchParams.set('page', '1');
       url.searchParams.set('limit', '10000'); // Get all Executive Medical employees
       url.searchParams.set('_t', Date.now().toString()); // Cache bust
+
+      // Add employee filter if present
+      if (employeeFilter) {
+        url.searchParams.set('employee', employeeFilter);
+      }
 
       const response = await fetch(url.toString(), {
         cache: 'no-cache',
@@ -115,12 +123,19 @@ export default function EmployeesPage() {
       console.log('Pagination total:', data.pagination?.total || 0);
 
       setAllEmployees(data.employees || []);
+
+      // If there's an employee filter, automatically select the first employee
+      if (employeeFilter && data.employees && data.employees.length > 0) {
+        const employeeToSelect = data.employees[0];
+        console.log('Auto-selecting employee:', employeeToSelect);
+        setSelectedEmployee(employeeToSelect);
+      }
     } catch (error) {
       console.error('Error fetching employees:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [employeeFilter]);
 
   // Client-side filtering
   const filterEmployees = useCallback(
@@ -201,7 +216,17 @@ export default function EmployeesPage() {
   // Initial load
   useEffect(() => {
     fetchAllEmployees();
-  }, []);
+  }, [fetchAllEmployees]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedEmployee: selectedEmployee?.id,
+      allEmployees: allEmployees.length,
+      loading,
+    });
+  }, [employeeFilter, selectedEmployee?.id, allEmployees.length, loading]);
 
   // Handle filtering when search term or all employees change
   useEffect(() => {
