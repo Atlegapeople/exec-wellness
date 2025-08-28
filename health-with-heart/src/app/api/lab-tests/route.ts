@@ -8,6 +8,7 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
+    const employee = searchParams.get('employee') || '';
     const offset = (page - 1) * limit;
 
     // First check if lab_tests table exists
@@ -18,7 +19,7 @@ export async function GET(request: NextRequest) {
         AND table_name = 'lab_tests'
       );
     `;
-    
+
     const tableExists = await query(tableCheckQuery);
     if (!tableExists.rows[0].exists) {
       console.log('lab_tests table does not exist');
@@ -30,19 +31,29 @@ export async function GET(request: NextRequest) {
           total: 0,
           totalPages: 0,
           hasNextPage: false,
-          hasPreviousPage: false
-        }
+          hasPreviousPage: false,
+        },
       });
     }
 
     // Build search condition - only for employees with Executive Medical reports
-    const searchCondition = search 
-      ? `AND (lt.id ILIKE $3 OR lt.employee_id ILIKE $3 OR lt.report_id ILIKE $3 OR lt.vitamin_d ILIKE $3 OR lt.total_cholesterol ILIKE $3 OR lt.hiv ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`
-      : '';
-    
-    const countSearchCondition = search 
-      ? `AND (lt.id ILIKE $1 OR lt.employee_id ILIKE $1 OR lt.report_id ILIKE $1 OR lt.vitamin_d ILIKE $1 OR lt.total_cholesterol ILIKE $1 OR lt.hiv ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`
-      : '';
+    let searchCondition = '';
+    let countSearchCondition = '';
+    let queryParams: (string | number)[] = [];
+
+    if (employee) {
+      searchCondition = `AND lt.employee_id = $3`;
+      countSearchCondition = `AND lt.employee_id = $1`;
+      queryParams = [employee];
+    } else if (search) {
+      searchCondition = `AND (lt.id ILIKE $3 OR lt.employee_id ILIKE $3 OR lt.report_id ILIKE $3 OR lt.vitamin_d ILIKE $3 OR lt.total_cholesterol ILIKE $3 OR lt.hiv ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`;
+      countSearchCondition = `AND (lt.id ILIKE $1 OR lt.employee_id ILIKE $1 OR lt.report_id ILIKE $1 OR lt.vitamin_d ILIKE $1 OR lt.total_cholesterol ILIKE $1 OR lt.hiv ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`;
+      queryParams = [`%${search}%`];
+    } else {
+      searchCondition = '';
+      countSearchCondition = '';
+      queryParams = [];
+    }
 
     // Get total count - only lab test records for employees with Executive Medical reports
     const countQuery = `
@@ -53,9 +64,8 @@ export async function GET(request: NextRequest) {
       WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
-    
-    const countParams: string[] = search ? [`%${search}%`] : [];
-    const countResult = await query(countQuery, countParams);
+
+    const countResult = await query(countQuery, queryParams);
     const total = parseInt(countResult.rows[0].total);
 
     // Get lab test records with user info and employee names
@@ -109,12 +119,17 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search 
-      ? [limit, offset, `%${search}%`]
-      : [limit, offset];
+    let finalQueryParams: (string | number)[] = [];
+    if (employee) {
+      finalQueryParams = [limit, offset, employee];
+    } else if (search) {
+      finalQueryParams = [limit, offset, `%${search}%`];
+    } else {
+      finalQueryParams = [limit, offset];
+    }
 
-    const result = await query(labTestsQuery, queryParams);
-    
+    const result = await query(labTestsQuery, finalQueryParams);
+
     const labTests: LabTest[] = result.rows.map((row: any) => ({
       id: row.id,
       date_created: row.date_created ? new Date(row.date_created) : undefined,
@@ -146,7 +161,7 @@ export async function GET(request: NextRequest) {
       notes_text: row.notes_text,
       recommendation_text: row.recommendation_text,
       documents: row.documents,
-      hiv: row.hiv
+      hiv: row.hiv,
     }));
 
     return NextResponse.json({
@@ -157,23 +172,23 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error: any) {
     console.error('Error fetching lab tests:', error);
-    
+
     // Provide more specific error information
     let errorMessage = 'Failed to fetch lab tests';
     if (error.code === 'ECONNREFUSED') {
-      errorMessage = 'Database connection refused - check if database is running';
+      errorMessage =
+        'Database connection refused - check if database is running';
     } else if (error.code === '42P01') {
       errorMessage = 'Table does not exist in database';
     } else if (error.message) {
       errorMessage = error.message;
     }
-    
+
     return NextResponse.json(
       { error: errorMessage, details: error.code || 'Unknown error' },
       { status: 500 }
@@ -184,7 +199,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO lab_tests (
         id, date_created, date_updated, user_created, user_updated,
@@ -224,13 +239,12 @@ export async function POST(request: NextRequest) {
       body.notes_text,
       body.recommendation_text,
       body.documents,
-      body.hiv
+      body.hiv,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating lab test:', error);
     return NextResponse.json(
@@ -308,7 +322,7 @@ export async function PUT(request: NextRequest) {
       updateData.notes_text,
       updateData.recommendation_text,
       updateData.documents,
-      updateData.hiv
+      updateData.hiv,
     ];
 
     const result = await query(updateQuery, values);
@@ -321,7 +335,6 @@ export async function PUT(request: NextRequest) {
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating lab test:', error);
     return NextResponse.json(
@@ -353,11 +366,10 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Lab test deleted successfully',
-      deleted: result.rows[0]
+      deleted: result.rows[0],
     });
-
   } catch (error) {
     console.error('Error deleting lab test:', error);
     return NextResponse.json(

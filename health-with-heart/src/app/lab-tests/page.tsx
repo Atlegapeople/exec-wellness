@@ -80,6 +80,11 @@ export default function LabTestsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Extract employee filter from URL
+  const employeeFilter = searchParams.get('employee');
+
+  console.log('LabTestsPage render - employeeFilter:', employeeFilter);
+
   const [allLabTests, setAllLabTests] = useState<LabTest[]>([]);
   const [filteredLabTests, setFilteredLabTests] = useState<LabTest[]>([]);
   const [displayedLabTests, setDisplayedLabTests] = useState<LabTest[]>([]);
@@ -146,13 +151,18 @@ export default function LabTestsPage() {
   });
 
   // Fetch all lab tests data
-  const fetchAllLabTests = async () => {
+  const fetchAllLabTests = useCallback(async () => {
     try {
       setLoading(true);
       const url = new URL('/api/lab-tests', window.location.origin);
       url.searchParams.set('page', '1');
       url.searchParams.set('limit', '10000');
       url.searchParams.set('_t', Date.now().toString());
+
+      // Add employee filter if present
+      if (employeeFilter) {
+        url.searchParams.set('employee', employeeFilter);
+      }
 
       const response = await fetch(url.toString(), {
         cache: 'no-cache',
@@ -166,12 +176,29 @@ export default function LabTestsPage() {
       console.log('Total lab tests fetched:', data.labTests?.length || 0);
 
       setAllLabTests(data.labTests || []);
+
+      // If there's an employee filter, automatically select the first lab test
+      if (employeeFilter && data.labTests && data.labTests.length > 0) {
+        const employeeLabTest = data.labTests[0];
+        console.log('Auto-selecting lab test:', employeeLabTest);
+        setSelectedLabTest(employeeLabTest);
+      } else if (
+        employeeFilter &&
+        data.labTests &&
+        data.labTests.length === 0
+      ) {
+        // No lab test found for this employee, open the create modal with employee ID pre-filled
+        console.log('No lab test found for employee, opening create modal');
+        console.log('Setting form data with employee_id:', employeeFilter);
+        setFormData({ employee_id: employeeFilter });
+        setIsCreateModalOpen(true);
+      }
     } catch (error) {
       console.error('Error fetching lab tests:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [employeeFilter]);
 
   // Client-side filtering
   const filterLabTests = useCallback((labTests: LabTest[], search: string) => {
@@ -335,7 +362,12 @@ export default function LabTestsPage() {
 
       if (response.ok) {
         setIsCreateModalOpen(false);
-        setFormData({});
+        // Preserve employee_id if it came from URL parameter
+        if (employeeFilter) {
+          setFormData({ employee_id: employeeFilter });
+        } else {
+          setFormData({});
+        }
         await fetchAllLabTests();
       } else {
         const error = await response.json();
@@ -399,7 +431,10 @@ export default function LabTestsPage() {
   };
 
   const openCreateModal = () => {
-    setFormData({});
+    // Preserve employee_id if it's already set (e.g., from URL parameter)
+    const currentEmployeeId = formData.employee_id;
+    console.log('openCreateModal - currentEmployeeId:', currentEmployeeId);
+    setFormData(currentEmployeeId ? { employee_id: currentEmployeeId } : {});
     setIsCreateModalOpen(true);
   };
 
@@ -412,6 +447,24 @@ export default function LabTestsPage() {
   const openDeleteModal = (labTest: LabTest) => {
     setEditingLabTest(labTest);
     setIsDeleteModalOpen(true);
+  };
+
+  const closeCreateModal = () => {
+    // If employee_id came from URL parameter, preserve it; otherwise reset form
+    console.log(
+      'closeCreateModal - employeeFilter:',
+      employeeFilter,
+      'formData.employee_id:',
+      formData.employee_id
+    );
+    if (employeeFilter && !formData.employee_id) {
+      console.log('Preserving employee_id from URL:', employeeFilter);
+      setFormData({ employee_id: employeeFilter });
+    } else {
+      console.log('Resetting form data');
+      setFormData({});
+    }
+    setIsCreateModalOpen(false);
   };
 
   // Client-side pagination
@@ -461,7 +514,7 @@ export default function LabTestsPage() {
   useEffect(() => {
     fetchAllLabTests();
     fetchEmployees();
-  }, []);
+  }, [fetchAllLabTests]);
 
   // Populate sub-section form data when lab test is selected
   useEffect(() => {
@@ -604,6 +657,27 @@ export default function LabTestsPage() {
       };
     }
   }, [isResizing, handleMouseMove, handleMouseUp]);
+
+  // Watch for URL changes and refetch if employee filter changes
+  useEffect(() => {
+    const currentEmployeeFilter = new URLSearchParams(
+      window.location.search
+    ).get('employee');
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log('URL changed - refetching lab tests');
+      fetchAllLabTests();
+    }
+  }, [employeeFilter]);
+
+  // Debug effect to track state changes
+  useEffect(() => {
+    console.log('Current state:', {
+      employeeFilter,
+      selectedLabTest: selectedLabTest?.id,
+      allLabTests: allLabTests.length,
+      loading,
+    });
+  }, [employeeFilter, selectedLabTest?.id, allLabTests.length, loading]);
 
   if (loading) {
     return (
@@ -1643,10 +1717,7 @@ export default function LabTestsPage() {
             </div>
 
             <DialogFooter>
-              <Button
-                variant='outline'
-                onClick={() => setIsCreateModalOpen(false)}
-              >
+              <Button variant='outline' onClick={closeCreateModal}>
                 Cancel
               </Button>
               <Button onClick={handleCreate} disabled={formLoading}>
