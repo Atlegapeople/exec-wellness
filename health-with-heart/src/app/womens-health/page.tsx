@@ -568,7 +568,7 @@ export default function WomensHealthPage() {
                         <TableRow>
                           <TableHead>Employee</TableHead>
                           <TableHead>Breast Health</TableHead>
-                          <TableHead>Gynecological</TableHead>
+                          <TableHead>PAP Results</TableHead>
                           <TableHead>Pregnancy</TableHead>
                           <TableHead>Created</TableHead>
                           <TableHead className='text-right'>Actions</TableHead>
@@ -601,20 +601,6 @@ export default function WomensHealthPage() {
                             </TableCell>
                             <TableCell>
                               <div className='space-y-1'>
-                                {womensHealth.breast_symptoms && (
-                                  <Badge
-                                    variant={
-                                      womensHealth.breast_symptoms === 'Yes'
-                                        ? 'destructive'
-                                        : 'secondary'
-                                    }
-                                    className='text-xs'
-                                  >
-                                    {womensHealth.breast_symptoms === 'Yes'
-                                      ? 'Symptoms'
-                                      : 'No Symptoms'}
-                                  </Badge>
-                                )}
                                 {womensHealth.mammogram_result && (
                                   <Badge
                                     variant={
@@ -637,22 +623,7 @@ export default function WomensHealthPage() {
                             </TableCell>
                             <TableCell>
                               <div className='space-y-1'>
-                                {womensHealth.gynaecological_symptoms && (
-                                  <Badge
-                                    variant={
-                                      womensHealth.gynaecological_symptoms ===
-                                      'Yes'
-                                        ? 'destructive'
-                                        : 'secondary'
-                                    }
-                                    className='text-xs'
-                                  >
-                                    {womensHealth.gynaecological_symptoms ===
-                                    'Yes'
-                                      ? 'Symptoms'
-                                      : 'No Symptoms'}
-                                  </Badge>
-                                )}
+
                                 {womensHealth.pap_result && (
                                   <Badge
                                     variant={
@@ -668,7 +639,7 @@ export default function WomensHealthPage() {
                                 {!womensHealth.gynaecological_symptoms &&
                                   !womensHealth.pap_result && (
                                     <span className='text-muted-foreground text-xs'>
-                                      No data
+                                      N/A
                                     </span>
                                   )}
                               </div>
@@ -706,7 +677,7 @@ export default function WomensHealthPage() {
                                 {!womensHealth.pregnant &&
                                   !womensHealth.breastfeeding && (
                                     <span className='text-muted-foreground text-xs'>
-                                      No data
+                                      N/A
                                     </span>
                                   )}
                               </div>
@@ -1319,7 +1290,7 @@ export default function WomensHealthPage() {
                     <TableRow>
                       <TableHead>Employee</TableHead>
                       <TableHead>Breast Health</TableHead>
-                      <TableHead>Gynecological</TableHead>
+                      <TableHead>PAP Results</TableHead>
                       <TableHead>Pregnancy</TableHead>
                       <TableHead>Created</TableHead>
                       <TableHead className='text-right'>Actions</TableHead>
@@ -1348,20 +1319,7 @@ export default function WomensHealthPage() {
                         </TableCell>
                         <TableCell>
                           <div className='space-y-1'>
-                            {womensHealth.breast_symptoms && (
-                              <Badge
-                                variant={
-                                  womensHealth.breast_symptoms === 'Yes'
-                                    ? 'destructive'
-                                    : 'secondary'
-                                }
-                                className='text-xs'
-                              >
-                                {womensHealth.breast_symptoms === 'Yes'
-                                  ? 'Symptoms'
-                                  : 'No Symptoms'}
-                              </Badge>
-                            )}
+
                             {womensHealth.mammogram_result && (
                               <Badge
                                 variant={
@@ -1377,27 +1335,14 @@ export default function WomensHealthPage() {
                             {!womensHealth.breast_symptoms &&
                               !womensHealth.mammogram_result && (
                                 <span className='text-muted-foreground text-xs'>
-                                  No data
+                                  N/A
                                 </span>
                               )}
                           </div>
                         </TableCell>
                         <TableCell>
                           <div className='space-y-1'>
-                            {womensHealth.gynaecological_symptoms && (
-                              <Badge
-                                variant={
-                                  womensHealth.gynaecological_symptoms === 'Yes'
-                                    ? 'destructive'
-                                    : 'secondary'
-                                }
-                                className='text-xs'
-                              >
-                                {womensHealth.gynaecological_symptoms === 'Yes'
-                                  ? 'Symptoms'
-                                  : 'No Symptoms'}
-                              </Badge>
-                            )}
+
                             {womensHealth.pap_result && (
                               <Badge
                                 variant={
@@ -1413,7 +1358,7 @@ export default function WomensHealthPage() {
                             {!womensHealth.gynaecological_symptoms &&
                               !womensHealth.pap_result && (
                                 <span className='text-muted-foreground text-xs'>
-                                  No data
+                                  N/A
                                 </span>
                               )}
                           </div>
@@ -1451,7 +1396,7 @@ export default function WomensHealthPage() {
                             {!womensHealth.pregnant &&
                               !womensHealth.breastfeeding && (
                                 <span className='text-muted-foreground text-xs'>
-                                  No data
+                                  N/A
                                 </span>
                               )}
                           </div>
