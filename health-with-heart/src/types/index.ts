@@ -283,15 +283,15 @@ export interface MenHealth {
   employee_name?: string;
   employee_surname?: string;
   // Only the fields that are actually populated from the database
-  ever_diagnosed_with?: string;
-  prostate_enlarged?: string;
-  prostate_infection?: string;
-  prostate_cancer?: string;
-  testes_growth?: string;
-  erections?: string;
-  require_urologist?: string;
-  notes_header?: string;
-  notes_text?: string;
+  ever_diagnosed_with?: string | null;
+  prostate_enlarged?: boolean;
+  prostate_infection?: boolean;
+  prostate_cancer?: boolean;
+  testes_growth?: boolean;
+  erections?: boolean;
+  require_urologist?: boolean;
+  notes_header?: string | null;
+  notes_text?: string | null;
 }
 
 export interface SpecialInvestigation {

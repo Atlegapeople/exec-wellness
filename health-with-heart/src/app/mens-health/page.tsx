@@ -787,54 +787,48 @@ export default function MensHealthPage() {
                             </TableCell>
                             <TableCell>
                               <div className='space-y-1'>
-                                {mensHealth.prostate_enlarged && (
+                                {mensHealth.prostate_enlarged !== undefined && (
                                   <Badge
                                     variant={
-                                      mensHealth.prostate_enlarged === 'Yes'
+                                      mensHealth.prostate_enlarged === true
                                         ? 'destructive'
                                         : 'secondary'
                                     }
                                     className='text-xs'
                                   >
-                                    {mensHealth.prostate_enlarged === 'Yes'
+                                    {mensHealth.prostate_enlarged === true
                                       ? 'Enlarged'
                                       : 'Normal'}
                                   </Badge>
                                 )}
-                                {mensHealth.prostate_cancer && (
+                                {mensHealth.prostate_cancer !== undefined && (
                                   <Badge
                                     variant={
-                                      mensHealth.prostate_cancer === 'Yes'
+                                      mensHealth.prostate_cancer === true
                                         ? 'destructive'
                                         : 'secondary'
                                     }
                                     className='text-xs'
                                   >
-                                    {mensHealth.prostate_cancer === 'Yes'
+                                    {mensHealth.prostate_cancer === true
                                       ? 'Cancer'
                                       : 'No Cancer'}
                                   </Badge>
                                 )}
-                                {!mensHealth.prostate_enlarged &&
-                                  !mensHealth.prostate_cancer && (
-                                    <span className='text-muted-foreground text-xs'>
-                                      No data
-                                    </span>
-                                  )}
                               </div>
                             </TableCell>
                             <TableCell>
                               <div className='space-y-1'>
-                                {mensHealth.testes_growth && (
+                                {mensHealth.testes_growth !== undefined && (
                                   <Badge
                                     variant={
-                                      mensHealth.testes_growth === 'Yes'
+                                      mensHealth.testes_growth === true
                                         ? 'destructive'
                                         : 'secondary'
                                     }
                                     className='text-xs'
                                   >
-                                    {mensHealth.testes_growth === 'Yes'
+                                    {mensHealth.testes_growth === true
                                       ? 'Growth'
                                       : 'Normal'}
                                   </Badge>
@@ -851,12 +845,6 @@ export default function MensHealthPage() {
                                     {mensHealth.erections}
                                   </Badge>
                                 )}
-                                {!mensHealth.testes_growth &&
-                                  !mensHealth.erections && (
-                                    <span className='text-muted-foreground text-xs'>
-                                      No data
-                                    </span>
-                                  )}
                               </div>
                             </TableCell>
                             <TableCell>
@@ -1073,29 +1061,6 @@ export default function MensHealthPage() {
                     </>
                   )}
 
-                  {/* General Health Conditions */}
-                  <div className='space-y-3'>
-                    <div className='flex items-center justify-between'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Activity className='h-4 w-4' />
-                        General Health Conditions
-                      </h3>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Ever Diagnosed With:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.ever_diagnosed_with ||
-                            'No data recorded'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <Separator />
-
                   {/* Prostate Health Information */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
@@ -1109,18 +1074,17 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Enlarged:
                         </span>
-                        {selectedMensHealth.prostate_enlarged ? (
+                        {selectedMensHealth.prostate_enlarged !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.prostate_enlarged
-                              ).toLowerCase() === 'yes' ||
                               selectedMensHealth.prostate_enlarged === true
                                 ? 'destructive'
                                 : 'secondary'
                             }
                           >
-                            {String(selectedMensHealth.prostate_enlarged)}
+                            {selectedMensHealth.prostate_enlarged
+                              ? 'Yes'
+                              : 'No'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
@@ -1132,18 +1096,17 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Infection:
                         </span>
-                        {selectedMensHealth.prostate_infection ? (
+                        {selectedMensHealth.prostate_infection !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.prostate_infection
-                              ).toLowerCase() === 'yes' ||
                               selectedMensHealth.prostate_infection === true
                                 ? 'destructive'
                                 : 'secondary'
                             }
                           >
-                            {String(selectedMensHealth.prostate_infection)}
+                            {selectedMensHealth.prostate_infection
+                              ? 'Yes'
+                              : 'No'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
@@ -1155,18 +1118,15 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Cancer:
                         </span>
-                        {selectedMensHealth.prostate_cancer ? (
+                        {selectedMensHealth.prostate_cancer !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.prostate_cancer
-                              ).toLowerCase() === 'yes' ||
                               selectedMensHealth.prostate_cancer === true
                                 ? 'destructive'
                                 : 'secondary'
                             }
                           >
-                            {String(selectedMensHealth.prostate_cancer)}
+                            {selectedMensHealth.prostate_cancer ? 'Yes' : 'No'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
@@ -1192,18 +1152,15 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Testes Growth:
                         </span>
-                        {selectedMensHealth.testes_growth ? (
+                        {selectedMensHealth.testes_growth !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.testes_growth
-                              ).toLowerCase() === 'yes' ||
                               selectedMensHealth.testes_growth === true
                                 ? 'destructive'
                                 : 'secondary'
                             }
                           >
-                            {String(selectedMensHealth.testes_growth)}
+                            {selectedMensHealth.testes_growth ? 'Yes' : 'No'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
@@ -1215,17 +1172,17 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Erections:
                         </span>
-                        {selectedMensHealth.erections ? (
+                        {selectedMensHealth.erections !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.erections
-                              ).toLowerCase() === 'normal'
+                              selectedMensHealth.erections === true
                                 ? 'secondary'
                                 : 'destructive'
                             }
                           >
-                            {String(selectedMensHealth.erections)}
+                            {selectedMensHealth.erections
+                              ? 'Normal'
+                              : 'Abnormal'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
@@ -1250,18 +1207,17 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Urologist Required:
                         </span>
-                        {selectedMensHealth.require_urologist ? (
+                        {selectedMensHealth.require_urologist !== undefined ? (
                           <Badge
                             variant={
-                              String(
-                                selectedMensHealth.require_urologist
-                              ).toLowerCase() === 'yes' ||
                               selectedMensHealth.require_urologist === true
                                 ? 'destructive'
                                 : 'secondary'
                             }
                           >
-                            {String(selectedMensHealth.require_urologist)}
+                            {selectedMensHealth.require_urologist
+                              ? 'Yes'
+                              : 'No'}
                           </Badge>
                         ) : (
                           <span className='text-muted-foreground'>
