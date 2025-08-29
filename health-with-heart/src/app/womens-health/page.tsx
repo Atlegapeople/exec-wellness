@@ -1530,11 +1530,11 @@ export default function WomensHealthPage() {
               </div>
 
               <div className='space-y-2'>
-                <Label htmlFor='breast_exam'>Breast Exam</Label>
+                <Label htmlFor='breastExam'>Breast Exam</Label>
                 <Select
-                  value={formData.breast_exam || ''}
+                  value={formData.breastExam || ''}
                   onValueChange={value =>
-                    setFormData(prev => ({ ...prev, breast_exam: value }))
+                    setFormData(prev => ({ ...prev, breastExam: value }))
                   }
                 >
                   <SelectTrigger>

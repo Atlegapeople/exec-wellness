@@ -67,6 +67,7 @@ import {
   Loader2,
   DollarSign,
   MapPin,
+  FileText,
 } from 'lucide-react';
 
 interface PaginationInfo {
@@ -210,23 +211,47 @@ export default function MensHealthPage() {
           `${record.employee_name || ''} ${record.employee_surname || ''}`.trim();
         const searchLower = search.toLowerCase();
         return (
-          record.id?.toLowerCase().includes(searchLower) ||
-          record.employee_id?.toLowerCase().includes(searchLower) ||
-          record.report_id?.toLowerCase().includes(searchLower) ||
+          record.id?.toString().toLowerCase().includes(searchLower) ||
+          record.employee_id?.toString().toLowerCase().includes(searchLower) ||
+          record.report_id?.toString().toLowerCase().includes(searchLower) ||
           employeeName.toLowerCase().includes(searchLower) ||
-          record.employee_work_email?.toLowerCase().includes(searchLower) ||
+          record.employee_work_email
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
           // Search in new men's health fields
-          record.ever_diagnosed_with?.toLowerCase().includes(searchLower) ||
-          record.prostate_enlarged?.toLowerCase().includes(searchLower) ||
-          record.prostate_infection?.toLowerCase().includes(searchLower) ||
-          record.prostate_cancer?.toLowerCase().includes(searchLower) ||
-          record.testes_growth?.toLowerCase().includes(searchLower) ||
-          record.erections?.toLowerCase().includes(searchLower) ||
-          record.require_urologist?.toLowerCase().includes(searchLower) ||
-          record.notes_text?.toLowerCase().includes(searchLower) ||
+          record.ever_diagnosed_with
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.prostate_enlarged
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.prostate_infection
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.prostate_cancer
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.testes_growth
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.erections?.toString().toLowerCase().includes(searchLower) ||
+          record.require_urologist
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower) ||
+          record.notes_text?.toString().toLowerCase().includes(searchLower) ||
           // Legacy fields for backward compatibility
-          record.psa_result?.toLowerCase().includes(searchLower) ||
-          record.heart_disease_risk?.toLowerCase().includes(searchLower)
+          record.psa_result?.toString().toLowerCase().includes(searchLower) ||
+          record.heart_disease_risk
+            ?.toString()
+            .toLowerCase()
+            .includes(searchLower)
         );
       });
     },
@@ -533,6 +558,25 @@ export default function MensHealthPage() {
   };
 
   const handleMensHealthClick = (mensHealth: MenHealth) => {
+    console.log("Selected men's health data:", mensHealth);
+    console.log(
+      'Prostate enlarged type:',
+      typeof mensHealth.prostate_enlarged,
+      'Value:',
+      mensHealth.prostate_enlarged
+    );
+    console.log(
+      'Prostate infection type:',
+      typeof mensHealth.prostate_infection,
+      'Value:',
+      mensHealth.prostate_infection
+    );
+    console.log(
+      'Prostate cancer type:',
+      typeof mensHealth.prostate_cancer,
+      'Value:',
+      mensHealth.prostate_cancer
+    );
     setSelectedMensHealth(mensHealth);
   };
 
@@ -673,7 +717,7 @@ export default function MensHealthPage() {
               </CardContent>
             </Card>
 
-            {/* Lifestyle Table */}
+            {/* Men's Health Table */}
             <Card className='hover-lift'>
               <CardHeader>
                 <div className='flex items-center justify-between'>
@@ -737,8 +781,7 @@ export default function MensHealthPage() {
                                   {getEmployeeName(mensHealth)}
                                 </div>
                                 <div className='text-sm text-muted-foreground truncate'>
-                                  {mensHealth.employee_work_email ||
-                                    mensHealth.employee_id}
+                                  {mensHealth.employee_id}
                                 </div>
                               </div>
                             </TableCell>
@@ -1005,81 +1048,132 @@ export default function MensHealthPage() {
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
+                  {/* Report Information */}
+                  {selectedMensHealth.report_id && (
+                    <>
+                      <div className='space-y-3'>
+                        <div className='flex items-center justify-between'>
+                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                            <FileText className='h-4 w-4' />
+                            Report Information
+                          </h3>
+                        </div>
+                        <div className='grid grid-cols-1 gap-3 text-sm'>
+                          <div className='flex gap-2'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Report ID:
+                            </span>
+                            <Badge variant='outline' className='font-mono'>
+                              {selectedMensHealth.report_id}
+                            </Badge>
+                          </div>
+                        </div>
+                      </div>
+                      <Separator />
+                    </>
+                  )}
+
+                  {/* General Health Conditions */}
+                  <div className='space-y-3'>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Activity className='h-4 w-4' />
+                        General Health Conditions
+                      </h3>
+                    </div>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Ever Diagnosed With:
+                        </span>
+                        <span className='font-medium'>
+                          {selectedMensHealth.ever_diagnosed_with ||
+                            'No data recorded'}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Separator />
+
                   {/* Prostate Health Information */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <Activity className='h-4 w-4' />
-                        {selectedMensHealth.prostate_header ||
-                          'Prostate Health'}
+                        Prostate Health
                       </h3>
-                      <div className='flex gap-2'>
-                        {isEditingSmoking && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingSmoking(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingSmoking ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() => setIsEditingSmoking(!isEditingSmoking)}
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingSmoking ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
                     </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
-                          PSA Level:
+                          Prostate Enlarged:
                         </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.psa_level || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          PSA Result:
-                        </span>
-                        <Badge
-                          variant={
-                            selectedMensHealth.psa_result?.includes('Normal')
-                              ? 'secondary'
-                              : selectedMensHealth.psa_result?.includes(
-                                    'Elevated'
-                                  )
+                        {selectedMensHealth.prostate_enlarged ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.prostate_enlarged
+                              ).toLowerCase() === 'yes' ||
+                              selectedMensHealth.prostate_enlarged === true
                                 ? 'destructive'
-                                : 'outline'
-                          }
-                        >
-                          {selectedMensHealth.psa_result || 'N/A'}
-                        </Badge>
+                                : 'secondary'
+                            }
+                          >
+                            {String(selectedMensHealth.prostate_enlarged)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
+                          </span>
+                        )}
                       </div>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
-                          Prostate Exam:
+                          Prostate Infection:
                         </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.prostate_exam || 'N/A'}
-                        </span>
+                        {selectedMensHealth.prostate_infection ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.prostate_infection
+                              ).toLowerCase() === 'yes' ||
+                              selectedMensHealth.prostate_infection === true
+                                ? 'destructive'
+                                : 'secondary'
+                            }
+                          >
+                            {String(selectedMensHealth.prostate_infection)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
+                          </span>
+                        )}
                       </div>
-                      {selectedMensHealth.prostate_findings && (
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Findings:
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Prostate Cancer:
+                        </span>
+                        {selectedMensHealth.prostate_cancer ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.prostate_cancer
+                              ).toLowerCase() === 'yes' ||
+                              selectedMensHealth.prostate_cancer === true
+                                ? 'destructive'
+                                : 'secondary'
+                            }
+                          >
+                            {String(selectedMensHealth.prostate_cancer)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
                           </span>
-                          <span className='font-medium'>
-                            {selectedMensHealth.prostate_findings}
-                          </span>
-                        </div>
-                      )}
+                        )}
+                      </div>
                     </div>
                   </div>
 
@@ -1090,364 +1184,150 @@ export default function MensHealthPage() {
                     <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <Activity className='h-4 w-4' />
-                        {selectedMensHealth.testicular_header ||
-                          'Testicular Health'}
+                        Testicular Health
                       </h3>
-                      <div className='flex gap-2'>
-                        {isEditingAlcohol && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingAlcohol(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingAlcohol ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() => setIsEditingAlcohol(!isEditingAlcohol)}
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingAlcohol ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
                     </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
-                          Exam:
+                          Testes Growth:
                         </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.testicular_exam || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Findings:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.testicular_findings || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Concerns:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.testicular_concerns || 'N/A'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <Separator />
-
-                  {/* Cardiovascular Health Information */}
-                  <div className='space-y-3'>
-                    <div className='flex items-center justify-between'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Heart className='h-4 w-4' />
-                        Cardiovascular Health
-                      </h3>
-                      <div className='flex gap-2'>
-                        {isEditingExercise && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingExercise(false)}
+                        {selectedMensHealth.testes_growth ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.testes_growth
+                              ).toLowerCase() === 'yes' ||
+                              selectedMensHealth.testes_growth === true
+                                ? 'destructive'
+                                : 'secondary'
+                            }
                           >
-                            Cancel
-                          </Button>
+                            {String(selectedMensHealth.testes_growth)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
+                          </span>
                         )}
-                        <Button
-                          variant={isEditingExercise ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() =>
-                            setIsEditingExercise(!isEditingExercise)
-                          }
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingExercise ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Heart Disease Risk:
-                        </span>
-                        <Badge
-                          variant={
-                            selectedMensHealth.heart_disease_risk?.includes(
-                              'Low'
-                            )
-                              ? 'secondary'
-                              : selectedMensHealth.heart_disease_risk?.includes(
-                                    'Medium'
-                                  )
-                                ? 'default'
-                                : selectedMensHealth.heart_disease_risk?.includes(
-                                      'High'
-                                    )
-                                  ? 'destructive'
-                                  : 'outline'
-                          }
-                        >
-                          {selectedMensHealth.heart_disease_risk || 'N/A'}
-                        </Badge>
                       </div>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
-                          Blood Pressure:
+                          Erections:
                         </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.blood_pressure || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Cholesterol Level:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.cholesterol_level || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Diabetes Risk:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.diabetes_risk || 'N/A'}
-                        </span>
+                        {selectedMensHealth.erections ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.erections
+                              ).toLowerCase() === 'normal'
+                                ? 'secondary'
+                                : 'destructive'
+                            }
+                          >
+                            {String(selectedMensHealth.erections)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
 
+                  {/* Urologist Requirement */}
                   <Separator />
-
-                  {/* Mental Health Information */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
                         <Activity className='h-4 w-4' />
-                        {selectedMensHealth.mental_health_header ||
-                          'Mental Health'}
+                        Urologist Consultation
                       </h3>
-                      <div className='flex gap-2'>
-                        {isEditingNutrition && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingNutrition(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingNutrition ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() =>
-                            setIsEditingNutrition(!isEditingNutrition)
-                          }
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingNutrition ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
                     </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                    <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
-                          Stress Level:
+                          Urologist Required:
                         </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.stress_level || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Anxiety Level:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.anxiety_level || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Depression Screening:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.depression_screening || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Sleep Quality:
-                        </span>
-                        <Badge variant='outline'>
-                          {selectedMensHealth.sleep_quality || 'N/A'}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Energy Level:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.energy_level || 'N/A'}
-                        </span>
+                        {selectedMensHealth.require_urologist ? (
+                          <Badge
+                            variant={
+                              String(
+                                selectedMensHealth.require_urologist
+                              ).toLowerCase() === 'yes' ||
+                              selectedMensHealth.require_urologist === true
+                                ? 'destructive'
+                                : 'secondary'
+                            }
+                          >
+                            {String(selectedMensHealth.require_urologist)}
+                          </Badge>
+                        ) : (
+                          <span className='text-muted-foreground'>
+                            No data recorded
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
 
+                  {/* Notes */}
                   <Separator />
-
-                  {/* Sexual Health Information */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Heart className='h-4 w-4' />
-                        {selectedMensHealth.sexual_health_header ||
-                          'Sexual Health'}
+                        <FileText className='h-4 w-4' />
+                        Clinical Notes
                       </h3>
-                      <div className='flex gap-2'>
-                        {isEditingSleep && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingSleep(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingSleep ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() => setIsEditingSleep(!isEditingSleep)}
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingSleep ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
                     </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Sexual Function:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.sexual_function || 'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Libido Level:
-                        </span>
-                        <Badge variant='outline'>
-                          {selectedMensHealth.libido_level || 'N/A'}
-                        </Badge>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Sexual Concerns:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedMensHealth.sexual_concerns || 'N/A'}
-                        </span>
-                      </div>
+                    <div className='space-y-3 text-sm'>
+                      {selectedMensHealth.notes_header && (
+                        <div className='text-sm font-medium text-foreground mb-2'>
+                          {selectedMensHealth.notes_header}
+                        </div>
+                      )}
+                      {selectedMensHealth.notes_text ? (
+                        <div className='p-3 bg-muted/30 rounded-lg'>
+                          <span className='text-muted-foreground'>
+                            {selectedMensHealth.notes_text}
+                          </span>
+                        </div>
+                      ) : (
+                        <div className='p-3 bg-muted/30 rounded-lg'>
+                          <span className='text-muted-foreground'>
+                            No clinical notes recorded
+                          </span>
+                        </div>
+                      )}
                     </div>
                   </div>
 
-                  {selectedMensHealth.notes_text && (
-                    <>
-                      <Separator />
-                      <div className='space-y-3'>
-                        <div className='flex items-center justify-between'>
-                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                            {selectedMensHealth.notes_header || 'Notes'}
-                          </h3>
-                          <div className='flex gap-2'>
-                            {isEditingNotes && (
-                              <Button
-                                variant='outline'
-                                size='sm'
-                                className='hover-lift'
-                                onClick={() => setIsEditingNotes(false)}
-                              >
-                                Cancel
-                              </Button>
-                            )}
-                            <Button
-                              variant={isEditingNotes ? 'default' : 'outline'}
-                              size='sm'
-                              className='hover-lift'
-                              onClick={() => setIsEditingNotes(!isEditingNotes)}
-                            >
-                              <Edit className='h-3 w-3 mr-1' />
-                              {isEditingNotes ? 'Save' : 'Edit'}
-                            </Button>
-                          </div>
+                  {/* Recommendations */}
+                  <Separator />
+                  <div className='space-y-3'>
+                    <div className='flex items-center justify-between'>
+                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                        <Activity className='h-4 w-4' />
+                        Health Recommendations
+                      </h3>
+                    </div>
+                    <div className='space-y-3 text-sm'>
+                      {selectedMensHealth.recommendation_text ? (
+                        <div className='p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800'>
+                          <span className='text-blue-800 dark:text-blue-200'>
+                            {selectedMensHealth.recommendation_text}
+                          </span>
                         </div>
-                        <div className='text-sm p-3 bg-muted rounded-lg'>
-                          {selectedMensHealth.notes_text}
+                      ) : (
+                        <div className='p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800'>
+                          <span className='text-blue-800 dark:text-blue-200'>
+                            No health recommendations recorded
+                          </span>
                         </div>
-                      </div>
-                    </>
-                  )}
-
-                  {selectedMensHealth.recommendation_text && (
-                    <>
-                      <Separator />
-                      <div className='space-y-3'>
-                        <div className='flex items-center justify-between'>
-                          <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                            <Heart className='h-4 w-4' />
-                            Recommendations
-                          </h3>
-                          <div className='flex gap-2'>
-                            {isEditingRecommendations && (
-                              <Button
-                                variant='outline'
-                                size='sm'
-                                className='hover-lift'
-                                onClick={() =>
-                                  setIsEditingRecommendations(false)
-                                }
-                              >
-                                Cancel
-                              </Button>
-                            )}
-                            <Button
-                              variant={
-                                isEditingRecommendations ? 'default' : 'outline'
-                              }
-                              size='sm'
-                              className='hover-lift'
-                              onClick={() =>
-                                setIsEditingRecommendations(
-                                  !isEditingRecommendations
-                                )
-                              }
-                            >
-                              <Edit className='h-3 w-3 mr-1' />
-                              {isEditingRecommendations ? 'Save' : 'Edit'}
-                            </Button>
-                          </div>
-                        </div>
-                        <div className='text-sm p-3 bg-blue-50 border border-blue-200 rounded-lg'>
-                          {selectedMensHealth.recommendation_text}
-                        </div>
-                      </div>
-                    </>
-                  )}
+                      )}
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -1498,170 +1378,168 @@ export default function MensHealthPage() {
                 />
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='psa_level'>PSA Level</Label>
+              {/* General Health Conditions */}
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='ever_diagnosed_with'>Ever Diagnosed With</Label>
                 <Input
-                  id='psa_level'
-                  value={formData.psa_level || ''}
+                  id='ever_diagnosed_with'
+                  value={formData.ever_diagnosed_with || ''}
                   onChange={e =>
-                    setFormData({ ...formData, psa_level: e.target.value })
+                    setFormData({
+                      ...formData,
+                      ever_diagnosed_with: e.target.value,
+                    })
                   }
-                  placeholder='e.g., 2.5 ng/mL'
+                  placeholder='Any previous diagnoses or conditions'
                 />
               </div>
 
+              {/* Prostate Health Section */}
               <div className='space-y-2'>
-                <Label htmlFor='psa_result'>PSA Result</Label>
+                <Label htmlFor='prostate_enlarged'>Prostate Enlarged</Label>
                 <Select
-                  value={formData.psa_result || ''}
+                  value={formData.prostate_enlarged || ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, psa_result: value })
+                    setFormData({ ...formData, prostate_enlarged: value })
                   }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select PSA result' />
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='prostate_infection'>Prostate Infection</Label>
+                <Select
+                  value={formData.prostate_infection || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, prostate_infection: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='prostate_cancer'>Prostate Cancer</Label>
+                <Select
+                  value={formData.prostate_cancer || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, prostate_cancer: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Testicular Health Section */}
+              <div className='space-y-2'>
+                <Label htmlFor='testes_growth'>Testes Growth</Label>
+                <Select
+                  value={formData.testes_growth || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, testes_growth: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='erections'>Erections</Label>
+                <Select
+                  value={formData.erections || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, erections: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Elevated'>Elevated</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
+                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
               <div className='space-y-2'>
-                <Label htmlFor='alcohol_consumption'>Alcohol Consumption</Label>
+                <Label htmlFor='require_urologist'>Require Urologist</Label>
                 <Select
-                  value={formData.alcohol_consumption || ''}
+                  value={formData.require_urologist || ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, alcohol_consumption: value })
+                    setFormData({ ...formData, require_urologist: value })
                   }
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select frequency' />
+                    <SelectValue placeholder='Select requirement' />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Never'>Never</SelectItem>
-                    <SelectItem value='Monthly or less'>
-                      Monthly or less
-                    </SelectItem>
-                    <SelectItem value='2-4 times/month'>
-                      2-4 times a month
-                    </SelectItem>
-                    <SelectItem value='2-3 times/week'>
-                      2-3 times a week
-                    </SelectItem>
-                    <SelectItem value='4+ times/week'>
-                      4 or more times a week
-                    </SelectItem>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='heart_disease_risk'>Heart Disease Risk</Label>
-                <Select
-                  value={formData.heart_disease_risk || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, heart_disease_risk: value })
+              {/* Notes and Recommendations */}
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='notes_header'>Notes Header</Label>
+                <Input
+                  id='notes_header'
+                  value={formData.notes_header || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, notes_header: e.target.value })
                   }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select risk level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='exercise_frequency'>Exercise Frequency</Label>
-                <Select
-                  value={formData.exercise_frequency || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, exercise_frequency: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select frequency' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Never'>Never</SelectItem>
-                    <SelectItem value='Seldom'>Seldom</SelectItem>
-                    <SelectItem value='Once or twice a week'>
-                      1-2 times per week
-                    </SelectItem>
-                    <SelectItem value='3 times a week'>
-                      3 times per week
-                    </SelectItem>
-                    <SelectItem value='4 times a week'>
-                      4 times per week
-                    </SelectItem>
-                    <SelectItem value='Daily or more often'>
-                      Daily or more
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='diet_quality'>Diet Quality</Label>
-                <Select
-                  value={formData.diet_quality || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, diet_quality: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select quality' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Poor'>Poor</SelectItem>
-                    <SelectItem value='Fair'>Fair</SelectItem>
-                    <SelectItem value='Good'>Good</SelectItem>
-                    <SelectItem value='Excellent'>Excellent</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='sleep_quality'>Sleep Quality</Label>
-                <Select
-                  value={formData.sleep_quality || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, sleep_quality: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select quality' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Poor'>Poor</SelectItem>
-                    <SelectItem value='Fair'>Fair</SelectItem>
-                    <SelectItem value='Good'>Good</SelectItem>
-                    <SelectItem value='Excellent'>Excellent</SelectItem>
-                  </SelectContent>
-                </Select>
+                  placeholder='Brief summary of notes'
+                />
               </div>
 
               <div className='md:col-span-2 space-y-2'>
-                <Label htmlFor='notes_text'>Notes</Label>
+                <Label htmlFor='notes_text'>Clinical Notes</Label>
                 <Textarea
                   id='notes_text'
                   value={formData.notes_text || ''}
                   onChange={e =>
                     setFormData({ ...formData, notes_text: e.target.value })
                   }
-                  placeholder="Additional notes about men's health assessment..."
+                  placeholder="Additional clinical notes about men's health assessment..."
                   rows={3}
                 />
               </div>
 
               <div className='md:col-span-2 space-y-2'>
-                <Label htmlFor='recommendation_text'>Recommendations</Label>
+                <Label htmlFor='recommendation_text'>
+                  Health Recommendations
+                </Label>
                 <Textarea
                   id='recommendation_text'
                   value={formData.recommendation_text || ''}
@@ -1746,502 +1624,175 @@ export default function MensHealthPage() {
                 />
               </div>
 
+              {/* General Health Conditions */}
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='ever_diagnosed_with_edit'>
+                  Ever Diagnosed With
+                </Label>
+                <Input
+                  id='ever_diagnosed_with_edit'
+                  value={formData.ever_diagnosed_with || ''}
+                  onChange={e =>
+                    setFormData({
+                      ...formData,
+                      ever_diagnosed_with: e.target.value,
+                    })
+                  }
+                  placeholder='Any previous diagnoses or conditions'
+                />
+              </div>
+
               {/* Prostate Health Section */}
               <div className='space-y-2'>
-                <Label htmlFor='psa_level_edit'>PSA Level</Label>
-                <Input
-                  id='psa_level_edit'
-                  value={formData.psa_level || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, psa_level: e.target.value })
-                  }
-                  placeholder='e.g., 2.5 ng/mL'
-                />
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='psa_result_edit'>PSA Result</Label>
-                <Select
-                  value={formData.psa_result || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, psa_result: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select PSA result' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Elevated'>Elevated</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='prostate_exam_edit'>Prostate Exam</Label>
-                <Select
-                  value={formData.prostate_exam || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, prostate_exam: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select exam result' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Performed'>Not Performed</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='prostate_findings_edit'>
-                  Prostate Findings
-                </Label>
-                <Input
-                  id='prostate_findings_edit'
-                  value={formData.prostate_findings || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      prostate_findings: e.target.value,
-                    })
-                  }
-                  placeholder='Describe any findings'
-                />
-              </div>
-
-              {/* Testicular Health Section */}
-              <div className='space-y-2'>
-                <Label htmlFor='testicular_exam_edit'>Testicular Exam</Label>
-                <Select
-                  value={formData.testicular_exam || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, testicular_exam: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select exam result' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Performed'>Not Performed</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='testicular_findings_edit'>
-                  Testicular Findings
-                </Label>
-                <Input
-                  id='testicular_findings_edit'
-                  value={formData.testicular_findings || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      testicular_findings: e.target.value,
-                    })
-                  }
-                  placeholder='Describe any findings'
-                />
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='testicular_concerns_edit'>
-                  Testicular Concerns
-                </Label>
-                <Input
-                  id='testicular_concerns_edit'
-                  value={formData.testicular_concerns || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      testicular_concerns: e.target.value,
-                    })
-                  }
-                  placeholder='Any concerns noted'
-                />
-              </div>
-
-              {/* Cardiovascular Health Section */}
-              <div className='space-y-2'>
-                <Label htmlFor='heart_disease_risk_edit'>
-                  Heart Disease Risk
+                <Label htmlFor='prostate_enlarged_edit'>
+                  Prostate Enlarged
                 </Label>
                 <Select
-                  value={formData.heart_disease_risk || ''}
+                  value={formData.prostate_enlarged || ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, heart_disease_risk: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select risk level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='blood_pressure_edit'>Blood Pressure</Label>
-                <Input
-                  id='blood_pressure_edit'
-                  value={formData.blood_pressure || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, blood_pressure: e.target.value })
-                  }
-                  placeholder='e.g., 120/80 mmHg'
-                />
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='cholesterol_level_edit'>
-                  Cholesterol Level
-                </Label>
-                <Input
-                  id='cholesterol_level_edit'
-                  value={formData.cholesterol_level || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      cholesterol_level: e.target.value,
-                    })
-                  }
-                  placeholder='e.g., 200 mg/dL'
-                />
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='diabetes_risk_edit'>Diabetes Risk</Label>
-                <Select
-                  value={formData.diabetes_risk || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, diabetes_risk: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select risk level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Mental Health Section */}
-              <div className='space-y-2'>
-                <Label htmlFor='stress_level_edit'>Stress Level</Label>
-                <Select
-                  value={formData.stress_level || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, stress_level: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select stress level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Moderate'>Moderate</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Severe'>Severe</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='anxiety_level_edit'>Anxiety Level</Label>
-                <Select
-                  value={formData.anxiety_level || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, anxiety_level: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select anxiety level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='None'>None</SelectItem>
-                    <SelectItem value='Mild'>Mild</SelectItem>
-                    <SelectItem value='Moderate'>Moderate</SelectItem>
-                    <SelectItem value='Severe'>Severe</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='depression_screening_edit'>
-                  Depression Screening
-                </Label>
-                <Select
-                  value={formData.depression_screening || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, depression_screening: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select screening result' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Negative'>Negative</SelectItem>
-                    <SelectItem value='Mild'>Mild</SelectItem>
-                    <SelectItem value='Moderate'>Moderate</SelectItem>
-                    <SelectItem value='Severe'>Severe</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='sleep_quality_edit'>Sleep Quality</Label>
-                <Select
-                  value={formData.sleep_quality || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, sleep_quality: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select sleep quality' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Poor'>Poor</SelectItem>
-                    <SelectItem value='Fair'>Fair</SelectItem>
-                    <SelectItem value='Good'>Good</SelectItem>
-                    <SelectItem value='Excellent'>Excellent</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='energy_level_edit'>Energy Level</Label>
-                <Select
-                  value={formData.energy_level || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, energy_level: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select energy level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Moderate'>Moderate</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Sexual Health Section */}
-              <div className='space-y-2'>
-                <Label htmlFor='sexual_function_edit'>Sexual Function</Label>
-                <Select
-                  value={formData.sexual_function || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, sexual_function: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select function level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Mild Issues'>Mild Issues</SelectItem>
-                    <SelectItem value='Moderate Issues'>
-                      Moderate Issues
-                    </SelectItem>
-                    <SelectItem value='Significant Issues'>
-                      Significant Issues
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='libido_level_edit'>Libido Level</Label>
-                <Select
-                  value={formData.libido_level || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, libido_level: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select libido level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='sexual_concerns_edit'>Sexual Concerns</Label>
-                <Input
-                  id='sexual_concerns_edit'
-                  value={formData.sexual_concerns || ''}
-                  onChange={e =>
-                    setFormData({
-                      ...formData,
-                      sexual_concerns: e.target.value,
-                    })
-                  }
-                  placeholder='Any sexual health concerns'
-                />
-              </div>
-
-              {/* Lifestyle Section */}
-              <div className='space-y-2'>
-                <Label htmlFor='exercise_frequency_edit'>
-                  Exercise Frequency
-                </Label>
-                <Select
-                  value={formData.exercise_frequency || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, exercise_frequency: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select frequency' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Never'>Never</SelectItem>
-                    <SelectItem value='Seldom'>Seldom</SelectItem>
-                    <SelectItem value='Once or twice a week'>
-                      1-2 times per week
-                    </SelectItem>
-                    <SelectItem value='3 times a week'>
-                      3 times per week
-                    </SelectItem>
-                    <SelectItem value='4 times a week'>
-                      4 times per week
-                    </SelectItem>
-                    <SelectItem value='Daily or more often'>
-                      Daily or more
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='diet_quality_edit'>Diet Quality</Label>
-                <Select
-                  value={formData.diet_quality || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, diet_quality: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select quality' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Poor'>Poor</SelectItem>
-                    <SelectItem value='Fair'>Fair</SelectItem>
-                    <SelectItem value='Good'>Good</SelectItem>
-                    <SelectItem value='Excellent'>Excellent</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='alcohol_consumption_edit'>
-                  Alcohol Consumption
-                </Label>
-                <Select
-                  value={formData.alcohol_consumption || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, alcohol_consumption: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select frequency' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Never'>Never</SelectItem>
-                    <SelectItem value='Monthly or less'>
-                      Monthly or less
-                    </SelectItem>
-                    <SelectItem value='2-4 times/month'>
-                      2-4 times a month
-                    </SelectItem>
-                    <SelectItem value='2-3 times/week'>
-                      2-3 times a week
-                    </SelectItem>
-                    <SelectItem value='4+ times/week'>
-                      4 or more times a week
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='smoking_status_edit'>Smoking Status</Label>
-                <Select
-                  value={formData.smoking_status || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, smoking_status: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select smoking status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Non-smoker'>Non-smoker</SelectItem>
-                    <SelectItem value='Former smoker'>Former smoker</SelectItem>
-                    <SelectItem value='Current smoker'>
-                      Current smoker
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='weight_management_edit'>
-                  Weight Management
-                </Label>
-                <Select
-                  value={formData.weight_management || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, weight_management: value })
+                    setFormData({ ...formData, prostate_enlarged: value })
                   }
                 >
                   <SelectTrigger>
                     <SelectValue placeholder='Select status' />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value='Underweight'>Underweight</SelectItem>
-                    <SelectItem value='Normal weight'>Normal weight</SelectItem>
-                    <SelectItem value='Overweight'>Overweight</SelectItem>
-                    <SelectItem value='Obese'>Obese</SelectItem>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
+              <div className='space-y-2'>
+                <Label htmlFor='prostate_infection_edit'>
+                  Prostate Infection
+                </Label>
+                <Select
+                  value={formData.prostate_infection || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, prostate_infection: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='prostate_cancer_edit'>Prostate Cancer</Label>
+                <Select
+                  value={formData.prostate_cancer || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, prostate_cancer: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Testicular Health Section */}
+              <div className='space-y-2'>
+                <Label htmlFor='testes_growth_edit'>Testes Growth</Label>
+                <Select
+                  value={formData.testes_growth || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, testes_growth: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='erections_edit'>Erections</Label>
+                <Select
+                  value={formData.erections || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, erections: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Normal'>Normal</SelectItem>
+                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='require_urologist_edit'>
+                  Require Urologist
+                </Label>
+                <Select
+                  value={formData.require_urologist || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, require_urologist: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select requirement' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='Yes'>Yes</SelectItem>
+                    <SelectItem value='No'>No</SelectItem>
+                    <SelectItem value='Unknown'>Unknown</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Notes and Recommendations */}
               <div className='md:col-span-2 space-y-2'>
-                <Label htmlFor='notes_text_edit'>Notes</Label>
+                <Label htmlFor='notes_header_edit'>Notes Header</Label>
+                <Input
+                  id='notes_header_edit'
+                  value={formData.notes_header || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, notes_header: e.target.value })
+                  }
+                  placeholder='Brief summary of notes'
+                />
+              </div>
+
+              <div className='md:col-span-2 space-y-2'>
+                <Label htmlFor='notes_text_edit'>Clinical Notes</Label>
                 <Textarea
                   id='notes_text_edit'
                   value={formData.notes_text || ''}
                   onChange={e =>
                     setFormData({ ...formData, notes_text: e.target.value })
                   }
-                  placeholder="Additional notes about men's health assessment..."
+                  placeholder="Additional clinical notes about men's health assessment..."
                   rows={3}
                 />
               </div>
 
               <div className='md:col-span-2 space-y-2'>
                 <Label htmlFor='recommendation_text_edit'>
-                  Recommendations
+                  Health Recommendations
                 </Label>
                 <Textarea
                   id='recommendation_text_edit'

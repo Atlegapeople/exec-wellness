@@ -14,13 +14,30 @@ export async function GET(request: NextRequest) {
     let params: any[] = [];
     let paramIndex = 1;
 
-    // Base query to get employees with Executive Medical reports
+    // Base query using the new structure
     const baseQuery = `
-      SELECT e.name, e.surname, w.id, w.date_created, w.user_created, w.report_id, w.employee_id, w.ever_diagnosed_with,
-      w.prostate_enlarged, w.prostate_infection, w.prostate_cancer, w.testes_growth, w.erections, w.require_urologist,
-      w.notes_header, w.notes_text
+      SELECT 
+        e.name, e.surname,
+        w.id, 
+        w.date_created, 
+        w.date_updated,
+        w.user_created, 
+        w.user_updated,
+        w.report_id, 
+        w.employee_id, 
+        w.ever_diagnosed_with,
+        w.prostate_enlarged, 
+        w.prostate_infection, 
+        w.prostate_cancer, 
+        w.testes_growth, 
+        w.erections, 
+        w.require_urologist,
+        w.notes_header, 
+        w.notes_text,
+        w.recommendation_text
       FROM employee e
-      LEFT JOIN mens_health w ON e.id = w.employee_id
+      LEFT JOIN mens_health w 
+        ON e.id = w.employee_id
       WHERE w.employee_id IN (
         SELECT mr.employee_id
         FROM medical_report mr
@@ -76,17 +93,17 @@ export async function GET(request: NextRequest) {
 
     console.log('Data query result rows:', result.rows.length);
 
-    // Transform the result to match the expected structure
+    // Transform the result to match the expected structure with new fields
     const mensHealth = result.rows.map((row: any) => ({
       id: row.id || `emp_${row.employee_id}`,
       employee_id: row.employee_id,
       employee_name: row.name,
       employee_surname: row.surname,
-      employee_work_email: null, // Not returned by the query
       report_id: row.report_id,
       date_created: row.date_created,
+      date_updated: row.date_updated,
       user_created: row.user_created,
-      // Map the new men's health fields
+      user_updated: row.user_updated,
       ever_diagnosed_with: row.ever_diagnosed_with,
       prostate_enlarged: row.prostate_enlarged,
       prostate_infection: row.prostate_infection,
@@ -96,46 +113,7 @@ export async function GET(request: NextRequest) {
       require_urologist: row.require_urologist,
       notes_header: row.notes_header,
       notes_text: row.notes_text,
-      // Set default values for other fields not in this query
-      psa_level: null,
-      psa_result: null,
-      prostate_exam: null,
-      prostate_findings: null,
-      testicular_exam: null,
-      testicular_findings: null,
-      testicular_concerns: null,
-      heart_disease_risk: null,
-      blood_pressure: null,
-      cholesterol_level: null,
-      diabetes_risk: null,
-      stress_level: null,
-      anxiety_level: null,
-      depression_screening: null,
-      sleep_quality: null,
-      energy_level: null,
-      sexual_function: null,
-      libido_level: null,
-      sexual_concerns: null,
-      fertility_concerns: null,
-      family_planning: null,
-      genetic_risks: null,
-      exercise_frequency: null,
-      diet_quality: null,
-      alcohol_consumption: null,
-      smoking_status: null,
-      weight_management: null,
-      cancer_screening: null,
-      vaccination_status: null,
-      dental_health: null,
-      vision_health: null,
-      hearing_health: null,
-      workplace_stress: null,
-      ergonomic_issues: null,
-      chemical_exposure: null,
-      physical_demands: null,
-      recommendation_text: null,
-      date_updated: null,
-      user_updated: null,
+      recommendation_text: row.recommendation_text,
     }));
 
     return NextResponse.json({
