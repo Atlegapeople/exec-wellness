@@ -415,23 +415,6 @@ export default function WomensHealthPage() {
           </Button>
         </div>
 
-        {/* Header */}
-        <div className='flex items-center justify-between'>
-          <div>
-            <h1 className='text-3xl font-bold'>Women's Health</h1>
-            <p className='text-muted-foreground'>
-              Manage women's health assessments and screenings
-            </p>
-          </div>
-          <Button
-            onClick={() => setIsCreateModalOpen(true)}
-            className='flex items-center space-x-2'
-          >
-            <Plus className='h-4 w-4' />
-            <span>Add Record</span>
-          </Button>
-        </div>
-
         {/* Search and Filters */}
         <Card>
           <CardHeader>
@@ -484,12 +467,26 @@ export default function WomensHealthPage() {
         </Card>
 
         {/* Data Table */}
-        <Card>
+        <Card className='hover-lift'>
           <CardHeader>
-            <CardTitle>Women's Health Records</CardTitle>
-            <CardDescription>
-              {filteredWomensHealth.length} records found
-            </CardDescription>
+            <div className='flex items-center justify-between'>
+              <div>
+                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                  <Heart className='h-6 w-6' />
+                  Women's Health ({filteredWomensHealth.length})
+                </CardTitle>
+                <CardDescription>
+                  Women's health assessments and screenings
+                </CardDescription>
+              </div>
+              <Button
+                onClick={() => setIsCreateModalOpen(true)}
+                className='hover-lift'
+              >
+                <Plus className='h-4 w-4 mr-2' />
+                Add New Record
+              </Button>
+            </div>
           </CardHeader>
           <CardContent>
             <div className='max-h-[500px] overflow-auto scrollbar-premium'>

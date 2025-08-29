@@ -309,128 +309,6 @@ export default function AssessmentsPage() {
           </Button>
         </div>
 
-        {/* Header */}
-        <div className='flex items-center justify-between mb-6'>
-          <div>
-            <h1 className='text-3xl font-bold tracking-tight'>
-              Executive Medical Assessments
-            </h1>
-            <p className='text-muted-foreground'>
-              Manage assessment records for employees with Executive Medical
-              reports
-            </p>
-          </div>
-
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
-            <DialogTrigger asChild>
-              <Button>
-                <Plus className='h-4 w-4 mr-2' />
-                Add Assessment
-              </Button>
-            </DialogTrigger>
-            <DialogContent className='max-w-2xl max-h-[90vh] overflow-y-auto'>
-              <DialogHeader>
-                <DialogTitle>Create New Assessment</DialogTitle>
-                <DialogDescription>
-                  Create a new assessment record for an employee.
-                </DialogDescription>
-              </DialogHeader>
-
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='employee'>Employee</Label>
-                  <Select
-                    value={formData.employee_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, employee_id: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select employee' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {employees.map(employee => (
-                        <SelectItem key={employee.id} value={employee.id}>
-                          {employee.name} {employee.surname} (
-                          {employee.employee_number})
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='assessment_type'>Assessment Type</Label>
-                  <Select
-                    value={formData.assessment_type || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, assessment_type: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select assessment type' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='Insurance'>Insurance</SelectItem>
-                      <SelectItem value='Pre-employment'>
-                        Pre-employment
-                      </SelectItem>
-                      <SelectItem value='Annual'>Annual</SelectItem>
-                      <SelectItem value='Exit'>Exit</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='assessment_complete'>
-                    Assessment Complete
-                  </Label>
-                  <Select
-                    value={formData.assessment_complete?.toString() || ''}
-                    onValueChange={value =>
-                      setFormData({
-                        ...formData,
-                        assessment_complete: value === 'true',
-                      })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select completion status' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='true'>Complete</SelectItem>
-                      <SelectItem value='false'>Incomplete</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-
-              <div className='flex justify-end gap-2'>
-                <Button
-                  variant='outline'
-                  onClick={() => setIsCreateDialogOpen(false)}
-                  disabled={submitting}
-                >
-                  Cancel
-                </Button>
-                <Button onClick={handleCreateAssessment} disabled={submitting}>
-                  {submitting ? (
-                    <>
-                      <Loader2 className='h-4 w-4 mr-2 animate-spin' />
-                      Creating...
-                    </>
-                  ) : (
-                    'Create Assessment'
-                  )}
-                </Button>
-              </div>
-            </DialogContent>
-          </Dialog>
-        </div>
-
         {/* Main Content with Split View */}
         <div className='assessments-container flex gap-0 overflow-hidden mb-6'>
           {/* Left Panel - Assessments List */}
@@ -543,20 +421,36 @@ export default function AssessmentsPage() {
             {/* Assessments Table */}
             <Card className='hover-lift flex-1 overflow-hidden'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-3 text-2xl'>
-                  <div className='p-2 bg-blue-100 rounded-lg'>
-                    <ClipboardList className='h-6 w-6 text-blue-600' />
-                  </div>
+                <div className='flex items-center justify-between'>
                   <div>
-                    <span>Assessment Records</span>
-                    <span className='ml-2 text-lg font-medium text-gray-500'>
-                      ({pagination.total})
-                    </span>
+                    <CardTitle className='flex items-center gap-3 text-2xl'>
+                      <div className='p-2 bg-blue-100 rounded-lg'>
+                        <ClipboardList className='h-6 w-6 text-blue-600' />
+                      </div>
+                      <div>
+                        <span>Assessment Records</span>
+                        <span className='ml-2 text-lg font-medium text-gray-500'>
+                          ({pagination.total})
+                        </span>
+                      </div>
+                    </CardTitle>
+                    <CardDescription>
+                      Click on any record to view detailed assessment
+                      information
+                    </CardDescription>
                   </div>
-                </CardTitle>
-                <CardDescription>
-                  Click on any record to view detailed assessment information
-                </CardDescription>
+                  <Dialog
+                    open={isCreateDialogOpen}
+                    onOpenChange={setIsCreateDialogOpen}
+                  >
+                    <DialogTrigger asChild>
+                      <Button>
+                        <Plus className='h-4 w-4 mr-2' />
+                        Add Assessment
+                      </Button>
+                    </DialogTrigger>
+                  </Dialog>
+                </div>
               </CardHeader>
               <CardContent>
                 <div className='max-h-[60vh] overflow-auto scrollbar-thin'>
