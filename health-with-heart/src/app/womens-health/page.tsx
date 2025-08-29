@@ -152,7 +152,7 @@ export default function WomensHealthPage() {
   >([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
     page: parseInt(searchParams.get('page') || '1'),
-    limit: 29,
+    limit: 25,
     total: 0,
     totalPages: 0,
     hasNextPage: false,
@@ -263,6 +263,9 @@ export default function WomensHealthPage() {
       setSearchTerm(search);
       const filtered = filterWomensHealth(allWomensHealth, search);
       setFilteredWomensHealth(filtered);
+
+      // Reset to first page when searching
+      setPagination(prev => ({ ...prev, page: 1 }));
       setDisplayedWomensHealth(filtered.slice(0, pagination.limit));
     },
     [allWomensHealth, filterWomensHealth, pagination.limit]
@@ -281,6 +284,22 @@ export default function WomensHealthPage() {
     [filteredWomensHealth, pagination.limit]
   );
 
+  // Update pagination info when filtered data changes
+  const updatePagination = useCallback(() => {
+    const total = filteredWomensHealth.length;
+    const totalPages = Math.ceil(total / pagination.limit);
+    const hasNextPage = pagination.page < totalPages;
+    const hasPreviousPage = pagination.page > 1;
+
+    setPagination(prev => ({
+      ...prev,
+      total,
+      totalPages,
+      hasNextPage,
+      hasPreviousPage,
+    }));
+  }, [filteredWomensHealth.length, pagination.limit, pagination.page]);
+
   // CRUD operations
   const handleCreate = async () => {
     try {
@@ -292,9 +311,6 @@ export default function WomensHealthPage() {
       });
 
       if (response.ok) {
-        const newRecord = await response.json();
-        setAllWomensHealth(prev => [...prev, newRecord]);
-        setFilteredWomensHealth(prev => [...prev, newRecord]);
         setIsCreateModalOpen(false);
         setFormData({});
         fetchAllWomensHealth();
@@ -318,17 +334,6 @@ export default function WomensHealthPage() {
       });
 
       if (response.ok) {
-        const updatedRecord = await response.json();
-        setAllWomensHealth(prev =>
-          prev.map(record =>
-            record.id === updatedRecord.id ? updatedRecord : record
-          )
-        );
-        setFilteredWomensHealth(prev =>
-          prev.map(record =>
-            record.id === updatedRecord.id ? updatedRecord : record
-          )
-        );
         setIsEditModalOpen(false);
         setEditingWomensHealth(null);
         setFormData({});
@@ -353,12 +358,6 @@ export default function WomensHealthPage() {
       );
 
       if (response.ok) {
-        setAllWomensHealth(prev =>
-          prev.filter(record => record.id !== selectedWomensHealth.id)
-        );
-        setFilteredWomensHealth(prev =>
-          prev.filter(record => record.id !== selectedWomensHealth.id)
-        );
         setSelectedWomensHealth(null);
         setIsDeleteModalOpen(false);
         fetchAllWomensHealth();
@@ -377,8 +376,18 @@ export default function WomensHealthPage() {
   useEffect(() => {
     const filtered = filterWomensHealth(allWomensHealth, searchTerm);
     setFilteredWomensHealth(filtered);
+
+    // Reset to first page when search changes
+    setPagination(prev => ({ ...prev, page: 1 }));
+
+    // Update displayed data for first page
     setDisplayedWomensHealth(filtered.slice(0, pagination.limit));
   }, [allWomensHealth, searchTerm, filterWomensHealth, pagination.limit]);
+
+  // Update pagination when filtered data changes
+  useEffect(() => {
+    updatePagination();
+  }, [updatePagination]);
 
   if (loading) {
     return (
@@ -441,6 +450,35 @@ export default function WomensHealthPage() {
                   />
                 </div>
               </div>
+              <div className='flex items-center space-x-2'>
+                <Label htmlFor='page-size' className='text-sm'>
+                  Page Size:
+                </Label>
+                <Select
+                  value={pagination.limit.toString()}
+                  onValueChange={value => {
+                    const newLimit = parseInt(value);
+                    setPagination(prev => ({
+                      ...prev,
+                      limit: newLimit,
+                      page: 1,
+                    }));
+                    setDisplayedWomensHealth(
+                      filteredWomensHealth.slice(0, newLimit)
+                    );
+                  }}
+                >
+                  <SelectTrigger className='w-20'>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='10'>10</SelectItem>
+                    <SelectItem value='25'>25</SelectItem>
+                    <SelectItem value='50'>50</SelectItem>
+                    <SelectItem value='100'>100</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -454,137 +492,147 @@ export default function WomensHealthPage() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Employee</TableHead>
-                  <TableHead>Breast Health</TableHead>
-                  <TableHead>Gynecological</TableHead>
-                  <TableHead>Cardiovascular</TableHead>
-                  <TableHead>Mental Health</TableHead>
-                  <TableHead>Actions</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {displayedWomensHealth.map(record => (
-                  <TableRow key={record.id}>
-                    <TableCell>
-                      <div>
-                        <div className='font-medium'>
-                          {getEmployeeName(record)}
-                        </div>
-                        <div className='text-sm text-muted-foreground'>
-                          {record.employee_id}
-                        </div>
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className='space-y-1'>
-                        <Badge
-                          variant={record.breast_exam ? 'default' : 'secondary'}
-                        >
-                          {record.breast_exam || 'Not Examined'}
-                        </Badge>
-                        {record.mammogram && (
-                          <Badge variant='outline'>{record.mammogram}</Badge>
-                        )}
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className='space-y-1'>
-                        <Badge
-                          variant={record.pap_smear ? 'default' : 'secondary'}
-                        >
-                          {record.pap_smear || 'Not Done'}
-                        </Badge>
-                        {record.gynecological_exam && (
-                          <Badge variant='outline'>
-                            {record.gynecological_exam}
-                          </Badge>
-                        )}
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className='space-y-1'>
-                        <Badge
-                          variant={
-                            record.heart_disease_risk ? 'default' : 'secondary'
-                          }
-                        >
-                          {record.heart_disease_risk || 'Not Assessed'}
-                        </Badge>
-                        {record.blood_pressure && (
-                          <Badge variant='outline'>
-                            {record.blood_pressure}
-                          </Badge>
-                        )}
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className='space-y-1'>
-                        <Badge
-                          variant={
-                            record.stress_level ? 'default' : 'secondary'
-                          }
-                        >
-                          {record.stress_level || 'Not Assessed'}
-                        </Badge>
-                        {record.anxiety_level && (
-                          <Badge variant='outline'>
-                            {record.anxiety_level}
-                          </Badge>
-                        )}
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <div className='flex space-x-2'>
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => {
-                            setSelectedWomensHealth(record);
-                          }}
-                        >
-                          <Eye className='h-4 w-4' />
-                        </Button>
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => {
-                            setEditingWomensHealth(record);
-                            setFormData(record);
-                            setIsEditModalOpen(true);
-                          }}
-                        >
-                          <Edit className='h-4 w-4' />
-                        </Button>
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => {
-                            setSelectedWomensHealth(record);
-                            setIsDeleteModalOpen(true);
-                          }}
-                        >
-                          <Trash2 className='h-4 w-4' />
-                        </Button>
-                      </div>
-                    </TableCell>
+            <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Employee</TableHead>
+                    <TableHead>Breast Health</TableHead>
+                    <TableHead>Gynecological</TableHead>
+                    <TableHead>Cardiovascular</TableHead>
+                    <TableHead>Mental Health</TableHead>
+                    <TableHead>Actions</TableHead>
                   </TableRow>
-                ))}
-              </TableBody>
-            </Table>
+                </TableHeader>
+                <TableBody>
+                  {displayedWomensHealth.map(record => (
+                    <TableRow key={record.id}>
+                      <TableCell>
+                        <div>
+                          <div className='font-medium'>
+                            {getEmployeeName(record)}
+                          </div>
+                          <div className='text-sm text-muted-foreground'>
+                            {record.employee_id}
+                          </div>
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className='space-y-1'>
+                          <Badge
+                            variant={
+                              record.breast_exam ? 'default' : 'secondary'
+                            }
+                          >
+                            {record.breast_exam || 'Not Examined'}
+                          </Badge>
+                          {record.mammogram && (
+                            <Badge variant='outline'>{record.mammogram}</Badge>
+                          )}
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className='space-y-1'>
+                          <Badge
+                            variant={record.pap_smear ? 'default' : 'secondary'}
+                          >
+                            {record.pap_smear || 'Not Done'}
+                          </Badge>
+                          {record.gynecological_exam && (
+                            <Badge variant='outline'>
+                              {record.gynecological_exam}
+                            </Badge>
+                          )}
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className='space-y-1'>
+                          <Badge
+                            variant={
+                              record.heart_disease_risk
+                                ? 'default'
+                                : 'secondary'
+                            }
+                          >
+                            {record.heart_disease_risk || 'Not Assessed'}
+                          </Badge>
+                          {record.blood_pressure && (
+                            <Badge variant='outline'>
+                              {record.blood_pressure}
+                            </Badge>
+                          )}
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className='space-y-1'>
+                          <Badge
+                            variant={
+                              record.stress_level ? 'default' : 'secondary'
+                            }
+                          >
+                            {record.stress_level || 'Not Assessed'}
+                          </Badge>
+                          {record.anxiety_level && (
+                            <Badge variant='outline'>
+                              {record.anxiety_level}
+                            </Badge>
+                          )}
+                        </div>
+                      </TableCell>
+                      <TableCell>
+                        <div className='flex space-x-2'>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => {
+                              setSelectedWomensHealth(record);
+                            }}
+                          >
+                            <Eye className='h-4 w-4' />
+                          </Button>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => {
+                              setEditingWomensHealth(record);
+                              setFormData(record);
+                              setIsEditModalOpen(true);
+                            }}
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => {
+                              setSelectedWomensHealth(record);
+                              setIsDeleteModalOpen(true);
+                            }}
+                          >
+                            <Trash2 className='h-4 w-4' />
+                          </Button>
+                        </div>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </div>
 
             {/* Pagination */}
             {pagination.totalPages > 1 && (
               <div className='flex items-center justify-between mt-4'>
                 <div className='text-sm text-muted-foreground'>
-                  Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
+                  Showing{' '}
+                  {filteredWomensHealth.length > 0
+                    ? (pagination.page - 1) * pagination.limit + 1
+                    : 0}{' '}
+                  to{' '}
                   {Math.min(
                     pagination.page * pagination.limit,
-                    pagination.total
+                    filteredWomensHealth.length
                   )}{' '}
-                  of {pagination.total} results
+                  of {filteredWomensHealth.length} results
                 </div>
                 <div className='flex items-center space-x-2'>
                   <Button
