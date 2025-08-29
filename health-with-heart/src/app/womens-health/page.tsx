@@ -236,6 +236,8 @@ export default function WomensHealthPage() {
         },
       });
       const data = await response.json();
+      console.log('API response data:', data);
+      console.log('First record sample:', data.womensHealth?.[0]);
 
       setAllWomensHealth(data.womensHealth || []);
 
@@ -263,17 +265,44 @@ export default function WomensHealthPage() {
       if (!search) return womensHealth;
 
       return womensHealth.filter(record => {
-        const employeeName =
-          `${record.employee_name || ''} ${record.employee_surname || ''}`.trim();
-        const searchLower = search.toLowerCase();
-        return (
-          record.id?.toLowerCase().includes(searchLower) ||
-          record.employee_id?.toLowerCase().includes(searchLower) ||
-          employeeName.toLowerCase().includes(searchLower) ||
-          record.breast_symptoms?.toLowerCase().includes(searchLower) ||
-          record.gynaecological_symptoms?.toLowerCase().includes(searchLower) ||
-          record.pap_result?.toLowerCase().includes(searchLower)
-        );
+        try {
+          const employeeName =
+            `${record.employee_name || ''} ${record.employee_surname || ''}`.trim();
+          const searchLower = search.toLowerCase();
+
+          console.log('Filtering record:', record);
+          console.log('Record fields:', {
+            id: record.id,
+            employee_id: record.employee_id,
+            breast_symptoms: record.breast_symptoms,
+            gynaecological_symptoms: record.gynaecological_symptoms,
+            pap_result: record.pap_result,
+          });
+
+          return (
+            (record.id &&
+              typeof record.id === 'string' &&
+              record.id.toLowerCase().includes(searchLower)) ||
+            (record.employee_id &&
+              typeof record.employee_id === 'string' &&
+              record.employee_id.toLowerCase().includes(searchLower)) ||
+            employeeName.toLowerCase().includes(searchLower) ||
+            (record.breast_symptoms &&
+              typeof record.breast_symptoms === 'string' &&
+              record.breast_symptoms.toLowerCase().includes(searchLower)) ||
+            (record.gynaecological_symptoms &&
+              typeof record.gynaecological_symptoms === 'string' &&
+              record.gynaecological_symptoms
+                .toLowerCase()
+                .includes(searchLower)) ||
+            (record.pap_result &&
+              typeof record.pap_result === 'string' &&
+              record.pap_result.toLowerCase().includes(searchLower))
+          );
+        } catch (error) {
+          console.error('Error filtering record:', error, record);
+          return false;
+        }
       });
     },
     []
@@ -601,7 +630,7 @@ export default function WomensHealthPage() {
                                 {!womensHealth.breast_symptoms &&
                                   !womensHealth.mammogram_result && (
                                     <span className='text-muted-foreground text-xs'>
-                                      No data
+                                      N/A
                                     </span>
                                   )}
                               </div>
