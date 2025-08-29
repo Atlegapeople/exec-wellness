@@ -1302,7 +1302,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Yes'>Yes</SelectItem>
                               <SelectItem value='No'>No</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.prostate_enlarged !==
@@ -1365,7 +1364,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Yes'>Yes</SelectItem>
                               <SelectItem value='No'>No</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.prostate_infection !==
@@ -1427,7 +1425,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Yes'>Yes</SelectItem>
                               <SelectItem value='No'>No</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.prostate_cancer !== undefined ? (
@@ -1527,7 +1524,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Yes'>Yes</SelectItem>
                               <SelectItem value='No'>No</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.testes_growth !== undefined ? (
@@ -1583,7 +1579,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Normal'>Normal</SelectItem>
                               <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.erections !== undefined ? (
@@ -1686,7 +1681,6 @@ export default function MensHealthPage() {
                             <SelectContent>
                               <SelectItem value='Yes'>Yes</SelectItem>
                               <SelectItem value='No'>No</SelectItem>
-                              <SelectItem value='Unknown'>Unknown</SelectItem>
                             </SelectContent>
                           </Select>
                         ) : selectedMensHealth.require_urologist !==
@@ -1969,7 +1963,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -1988,7 +1981,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2007,7 +1999,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2027,7 +2018,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2046,7 +2036,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Normal'>Normal</SelectItem>
                     <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2065,7 +2054,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2219,7 +2207,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2240,7 +2227,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2259,7 +2245,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2279,7 +2264,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2298,7 +2282,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Normal'>Normal</SelectItem>
                     <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -2319,7 +2302,6 @@ export default function MensHealthPage() {
                   <SelectContent>
                     <SelectItem value='Yes'>Yes</SelectItem>
                     <SelectItem value='No'>No</SelectItem>
-                    <SelectItem value='Unknown'>Unknown</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
