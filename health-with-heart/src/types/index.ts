@@ -225,6 +225,76 @@ export interface Lifestyle {
   recommendation_text?: string;
 }
 
+export interface MenHealth {
+  id: string;
+  date_created?: Date;
+  date_updated?: Date;
+  user_created?: string;
+  user_updated?: string;
+  report_id?: string;
+  employee_id?: string;
+  employee_name?: string;
+  employee_surname?: string;
+  employee_work_email?: string;
+  // New men's health fields
+  ever_diagnosed_with?: string;
+  prostate_enlarged?: string;
+  prostate_infection?: string;
+  prostate_cancer?: string;
+  testes_growth?: string;
+  erections?: string;
+  require_urologist?: string;
+  // Legacy fields (kept for backward compatibility)
+  prostate_header?: string;
+  psa_level?: string;
+  psa_result?: string;
+  prostate_exam?: string;
+  prostate_findings?: string;
+  testicular_header?: string;
+  testicular_exam?: string;
+  testicular_findings?: string;
+  testicular_concerns?: string;
+  cardiovascular_header?: string;
+  heart_disease_risk?: string;
+  blood_pressure?: string;
+  cholesterol_level?: string;
+  diabetes_risk?: string;
+  mental_health_header?: string;
+  stress_level?: string;
+  anxiety_level?: string;
+  depression_screening?: string;
+  sleep_quality?: string;
+  energy_level?: string;
+  sexual_health_header?: string;
+  sexual_function?: string;
+  libido_level?: string;
+  sexual_concerns?: string;
+  reproductive_header?: string;
+  fertility_concerns?: string;
+  family_planning?: string;
+  genetic_risks?: string;
+  lifestyle_header?: string;
+  exercise_frequency?: string;
+  diet_quality?: string;
+  alcohol_consumption?: string;
+  smoking_status?: string;
+  weight_management?: string;
+  preventive_header?: string;
+  cancer_screening?: string;
+  vaccination_status?: string;
+  dental_health?: string;
+  vision_health?: string;
+  hearing_health?: string;
+  occupational_header?: string;
+  workplace_stress?: string;
+  ergonomic_issues?: string;
+  chemical_exposure?: string;
+  physical_demands?: string;
+  notes_header?: string;
+  notes_text?: string;
+  recommendation_text?: string;
+}
+
 export interface SpecialInvestigation {
   id: string;
   date_created?: Date;

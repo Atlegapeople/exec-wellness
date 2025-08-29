@@ -102,6 +102,8 @@ interface MedicalReport {
   nurse_name: string;
   nurse_surname: string;
   workplace_name: string;
+  user_created?: string;
+  user_updated?: string;
 }
 
 interface FormData {
@@ -522,8 +524,16 @@ export default function MyDashboard() {
     try {
       setModalFormLoading(true);
 
+      console.log('handleCreate called with form data:', createFormData);
+
       // Validate required fields
       if (!createFormData.employee_id || !createFormData.type) {
+        console.log(
+          'Validation failed - employee_id:',
+          createFormData.employee_id,
+          'type:',
+          createFormData.type
+        );
         alert('Employee ID and Report Type are required fields');
         setModalFormLoading(false);
         return;
@@ -536,17 +546,26 @@ export default function MyDashboard() {
         user_updated: dashboardData?.doctor?.id || 'system',
         doctor: selectedStaffType === 'Doctor' ? selectedDoctorId : null,
         nurse: selectedStaffType === 'Nurse' ? selectedNurseId : null,
-        type: createFormData.type || 'Executive Medical',
+        type: 'Executive Medical', // Always set to Executive Medical
         sub_type: createFormData.sub_type || 'Initial',
         doctor_signoff: 'No',
         report_work_status: 'Draft',
       };
 
+      console.log('Sending report data:', reportData);
+
+      console.log('Making POST request to /api/reports...');
       const response = await fetch('/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(reportData),
       });
+
+      console.log('Response status:', response.status);
+      console.log(
+        'Response headers:',
+        Object.fromEntries(response.headers.entries())
+      );
 
       if (response.ok) {
         const result = await response.json();
@@ -651,6 +670,7 @@ export default function MyDashboard() {
   };
 
   const openCreateModal = () => {
+    console.log('Opening create modal, resetting form data');
     setCreateFormData({});
     setIsCreateModalOpen(true);
   };
@@ -1528,25 +1548,12 @@ export default function MyDashboard() {
 
               <div className='space-y-2'>
                 <Label htmlFor='type'>Report Type</Label>
-                <Select
-                  value={createFormData.type || ''}
-                  onValueChange={value =>
-                    setCreateFormData({ ...createFormData, type: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select report type' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Executive Medical'>
-                      Executive Medical
-                    </SelectItem>
-                    <SelectItem value='Pre-Employment'>
-                      Pre-Employment
-                    </SelectItem>
-                    <SelectItem value='Periodic'>Periodic</SelectItem>
-                  </SelectContent>
-                </Select>
+                <Input
+                  id='type'
+                  value='Executive Medical'
+                  disabled
+                  className='bg-muted'
+                />
               </div>
 
               <div className='space-y-2'>
@@ -1714,10 +1721,6 @@ export default function MyDashboard() {
                     <SelectItem value='Executive Medical'>
                       Executive Medical
                     </SelectItem>
-                    <SelectItem value='Pre-Employment'>
-                      Pre-Employment
-                    </SelectItem>
-                    <SelectItem value='Periodic'>Periodic</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

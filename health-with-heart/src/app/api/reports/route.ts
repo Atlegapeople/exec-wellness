@@ -197,34 +197,105 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
+    console.log('POST /api/reports called');
+
     const reportData = await request.json();
+    console.log('Received report data:', reportData);
 
     // Validate required fields
     if (!reportData.employee_id || !reportData.type) {
+      console.log('Validation failed: missing required fields');
       return NextResponse.json(
         { error: 'Employee ID and type are required' },
         { status: 400 }
       );
     }
 
-    // Set default values
+    // Validate employee_id format (should be a valid UUID or string)
+    if (
+      typeof reportData.employee_id !== 'string' ||
+      reportData.employee_id.trim() === ''
+    ) {
+      console.log('Validation failed: invalid employee_id format');
+      return NextResponse.json(
+        { error: 'Employee ID must be a valid string' },
+        { status: 400 }
+      );
+    }
+
+    // Set default values and only include fields that exist in the table
     const now = new Date().toISOString();
     const insertData = {
-      ...reportData,
+      employee_id: reportData.employee_id,
+      type: reportData.type || 'Executive Medical',
+      sub_type: reportData.sub_type || 'Initial',
+      doctor: reportData.doctor || null,
+      nurse: reportData.nurse || null,
+      workplace: reportData.workplace || null,
+      line_manager: reportData.line_manager || null,
+      line_manager2: reportData.line_manager2 || null,
+      notes_text: reportData.notes_text || null,
+      recommendation_text: reportData.recommendation_text || null,
+      manager_email: reportData.manager_email || null,
+      employee_work_email: reportData.employee_work_email || null,
+      employee_personal_email: reportData.employee_personal_email || null,
+      doctor_email: reportData.doctor_email || null,
       date_created: now,
       date_updated: now,
       user_created: reportData.user_created || 'system',
       user_updated: reportData.user_updated || 'system',
       doctor_signoff: reportData.doctor_signoff || 'No',
       report_work_status: reportData.report_work_status || 'Draft',
-      type: reportData.type || 'Executive Medical',
-      sub_type: reportData.sub_type || 'Initial',
+      // Set default values for required fields that might not be in the form
+      site: null,
+      doctor_signature: null,
+      nurse_signature: null,
+      email_certificate: 0, // Use integer 0 instead of boolean false
+      email_report: 0, // Use integer 0 instead of boolean false
+      certificate_send_count: 0,
+      report_send_count: 0,
+      email_certificate_manager: 0, // Use integer 0 instead of boolean false
+      certificate_send_count_manager: 0,
+      column_1: null,
+      column_2: null,
+      column_3: null,
+      column_4: null,
+      column_5: null,
+      column_6: null,
+      column_7: null,
     };
 
+    console.log('Prepared insert data:', insertData);
+
+    // Sanitize data types to ensure compatibility with database schema
+    const sanitizedData = {
+      ...insertData,
+      // Ensure numeric fields are integers
+      email_certificate: parseInt(insertData.email_certificate) || 0,
+      email_report: parseInt(insertData.email_report) || 0,
+      certificate_send_count: parseInt(insertData.certificate_send_count) || 0,
+      report_send_count: parseInt(insertData.report_send_count) || 0,
+      email_certificate_manager:
+        parseInt(insertData.email_certificate_manager) || 0,
+      certificate_send_count_manager:
+        parseInt(insertData.certificate_send_count_manager) || 0,
+      // Ensure doctor and nurse are either valid UUIDs or null
+      doctor: insertData.doctor || null,
+      nurse: insertData.nurse || null,
+    };
+
+    console.log('Sanitized insert data:', sanitizedData);
+
+    // Log data types for debugging
+    console.log('Data types:');
+    Object.entries(sanitizedData).forEach(([key, value]) => {
+      console.log(`  ${key}: ${typeof value} = ${value}`);
+    });
+
     // Build insert query
-    const fields = Object.keys(insertData);
+    const fields = Object.keys(sanitizedData);
     const placeholders = fields.map((_, index) => `$${index + 1}`).join(', ');
-    const values = Object.values(insertData);
+    const values = Object.values(sanitizedData);
 
     const insertQuery = `
       INSERT INTO medical_report (${fields.join(', ')})
@@ -232,7 +303,29 @@ export async function POST(request: NextRequest) {
       RETURNING *
     `;
 
+    console.log('Insert query:', insertQuery);
+    console.log('Insert values:', values);
+
+    // Test database connection first
+    try {
+      const testResult = await query(
+        'SELECT COUNT(*) as count FROM medical_report'
+      );
+      console.log(
+        'Database connection test successful, table has',
+        testResult.rows[0].count,
+        'records'
+      );
+    } catch (testError) {
+      console.error('Database connection test failed:', testError);
+      return NextResponse.json(
+        { error: `Database connection failed: ${testError.message}` },
+        { status: 500 }
+      );
+    }
+
     const result = await query(insertQuery, values);
+    console.log('Insert successful, result:', result.rows[0]);
 
     return NextResponse.json(
       {
@@ -243,8 +336,25 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error('Error creating medical report:', error);
+
+    // Provide more specific error messages for common database issues
+    let errorMessage = error.message;
+    if (error.message.includes('invalid input syntax for type integer')) {
+      errorMessage =
+        'Data type mismatch: Some fields expect numeric values but received text';
+    } else if (
+      error.message.includes('column') &&
+      error.message.includes('does not exist')
+    ) {
+      errorMessage =
+        'Database schema mismatch: Some fields do not exist in the table';
+    } else if (error.message.includes('violates not-null constraint')) {
+      errorMessage =
+        'Missing required field: Some required fields are not provided';
+    }
+
     return NextResponse.json(
-      { error: 'Failed to create medical report' },
+      { error: `Failed to create medical report: ${errorMessage}` },
       { status: 500 }
     );
   }
@@ -281,7 +391,33 @@ export async function DELETE(request: NextRequest) {
   } catch (error) {
     console.error('Error deleting medical report:', error);
     return NextResponse.json(
-      { error: 'Failed to delete medical report' },
+      { error: `Failed to delete medical report: ${error.message}` },
+      { status: 500 }
+    );
+  }
+}
+
+// Test endpoint to check database connection and table structure
+export async function PATCH(request: NextRequest) {
+  try {
+    // Test database connection
+    const testQuery = 'SELECT COUNT(*) as count FROM medical_report';
+    const result = await query(testQuery, []);
+
+    return NextResponse.json({
+      message: 'Database connection successful',
+      tableExists: true,
+      recordCount: result.rows[0].count,
+      tableName: 'medical_report',
+    });
+  } catch (error) {
+    console.error('Database connection test failed:', error);
+    return NextResponse.json(
+      {
+        message: 'Database connection failed',
+        error: error.message,
+        tableExists: false,
+      },
       { status: 500 }
     );
   }
