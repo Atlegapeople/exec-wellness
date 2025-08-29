@@ -138,6 +138,9 @@ export default function MensHealthPage() {
   const [isEditingNotes, setIsEditingNotes] = useState(false);
   const [isEditingRecommendations, setIsEditingRecommendations] =
     useState(false);
+  const [isEditingProstate, setIsEditingProstate] = useState(false);
+  const [isEditingTesticular, setIsEditingTesticular] = useState(false);
+  const [isEditingUrologist, setIsEditingUrologist] = useState(false);
 
   // Modal state
   const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] =
@@ -450,6 +453,186 @@ export default function MensHealthPage() {
   const openDeleteModal = (mensHealth: MenHealth) => {
     setEditingMensHealth(mensHealth);
     setIsDeleteModalOpen(true);
+  };
+
+  // Inline editing handlers
+
+  const handleSaveProstate = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/mens-health', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedMensHealth?.id,
+          prostate_enlarged: formData.prostate_enlarged,
+          prostate_infection: formData.prostate_infection,
+          prostate_cancer: formData.prostate_cancer,
+        }),
+      });
+
+      if (response.ok) {
+        setIsEditingProstate(false);
+        await fetchAllMensHealth();
+        // Update the selected record
+        if (selectedMensHealth) {
+          const updatedRecord = {
+            ...selectedMensHealth,
+            prostate_enlarged: formData.prostate_enlarged,
+            prostate_infection: formData.prostate_infection,
+            prostate_cancer: formData.prostate_cancer,
+          };
+          setSelectedMensHealth(updatedRecord);
+        }
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (error) {
+      console.error('Error updating prostate health:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveTesticular = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/mens-health', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedMensHealth?.id,
+          testes_growth: formData.testes_growth,
+          erections: formData.erections,
+        }),
+      });
+
+      if (response.ok) {
+        setIsEditingTesticular(false);
+        await fetchAllMensHealth();
+        // Update the selected record
+        if (selectedMensHealth) {
+          const updatedRecord = {
+            ...selectedMensHealth,
+            testes_growth: formData.testes_growth,
+            erections: formData.erections,
+          };
+          setSelectedMensHealth(updatedRecord);
+        }
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (error) {
+      console.error('Error updating testicular health:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveUrologist = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/mens-health', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedMensHealth?.id,
+          require_urologist: formData.require_urologist,
+        }),
+      });
+
+      if (response.ok) {
+        setIsEditingUrologist(false);
+        await fetchAllMensHealth();
+        // Update the selected record
+        if (selectedMensHealth) {
+          const updatedRecord = {
+            ...selectedMensHealth,
+            require_urologist: formData.require_urologist,
+          };
+          setSelectedMensHealth(updatedRecord);
+        }
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (loading) {
+      console.error('Error updating urologist requirement:', loading);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveNotes = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/mens-health', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedMensHealth?.id,
+          notes_header: formData.notes_header,
+          notes_text: formData.notes_text,
+        }),
+      });
+
+      if (response.ok) {
+        setIsEditingNotes(false);
+        await fetchAllMensHealth();
+        // Update the selected record
+        if (selectedMensHealth) {
+          const updatedRecord = {
+            ...selectedMensHealth,
+            notes_header: formData.notes_header,
+            notes_text: formData.notes_text,
+          };
+          setSelectedMensHealth(updatedRecord);
+        }
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (error) {
+      console.error('Error updating notes:', error);
+    } finally {
+      setFormLoading(false);
+    }
+  };
+
+  const handleSaveRecommendations = async () => {
+    try {
+      setFormLoading(true);
+      const response = await fetch('/api/mens-health', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedMensHealth?.id,
+          recommendation_text: formData.recommendation_text,
+        }),
+      });
+
+      if (response.ok) {
+        setIsEditingRecommendations(false);
+        await fetchAllMensHealth();
+        // Update the selected record
+        if (selectedMensHealth) {
+          const updatedRecord = {
+            ...selectedMensHealth,
+            recommendation_text: formData.recommendation_text,
+          };
+          setSelectedMensHealth(updatedRecord);
+        }
+      } else {
+        const error = await response.json();
+        console.error('Update failed:', error);
+      }
+    } catch (error) {
+      console.error('Error updating recommendations:', error);
+    } finally {
+      setFormLoading(false);
+    }
   };
 
   // Client-side pagination
@@ -1068,13 +1251,62 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Prostate Health
                       </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingProstate(!isEditingProstate)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
                     </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Enlarged:
                         </span>
-                        {selectedMensHealth.prostate_enlarged !== undefined ? (
+                        {isEditingProstate ? (
+                          <Select
+                            value={(() => {
+                              if (formData.prostate_enlarged !== undefined) {
+                                return formData.prostate_enlarged === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              if (
+                                selectedMensHealth.prostate_enlarged !==
+                                undefined
+                              ) {
+                                return selectedMensHealth.prostate_enlarged ===
+                                  true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                prostate_enlarged:
+                                  value === 'Yes'
+                                    ? true
+                                    : value === 'No'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Yes'>Yes</SelectItem>
+                              <SelectItem value='No'>No</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.prostate_enlarged !==
+                          undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.prostate_enlarged === true
@@ -1096,7 +1328,48 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Infection:
                         </span>
-                        {selectedMensHealth.prostate_infection !== undefined ? (
+                        {isEditingProstate ? (
+                          <Select
+                            value={(() => {
+                              if (formData.prostate_infection !== undefined) {
+                                return formData.prostate_infection === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              if (
+                                selectedMensHealth.prostate_infection !==
+                                undefined
+                              ) {
+                                return selectedMensHealth.prostate_infection ===
+                                  true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                prostate_infection:
+                                  value === 'Yes'
+                                    ? true
+                                    : value === 'No'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Yes'>Yes</SelectItem>
+                              <SelectItem value='No'>No</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.prostate_infection !==
+                          undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.prostate_infection === true
@@ -1118,7 +1391,46 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Prostate Cancer:
                         </span>
-                        {selectedMensHealth.prostate_cancer !== undefined ? (
+                        {isEditingProstate ? (
+                          <Select
+                            value={(() => {
+                              if (formData.prostate_cancer !== undefined) {
+                                return formData.prostate_cancer === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              if (
+                                selectedMensHealth.prostate_cancer !== undefined
+                              ) {
+                                return selectedMensHealth.prostate_cancer ===
+                                  true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                prostate_cancer:
+                                  value === 'Yes'
+                                    ? true
+                                    : value === 'No'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Yes'>Yes</SelectItem>
+                              <SelectItem value='No'>No</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.prostate_cancer !== undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.prostate_cancer === true
@@ -1134,6 +1446,24 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
+                      {isEditingProstate && (
+                        <div className='flex gap-2 mt-2'>
+                          <Button
+                            size='sm'
+                            onClick={() => handleSaveProstate()}
+                          >
+                            <Save className='h-4 w-4 mr-1' />
+                            Save
+                          </Button>
+                          <Button
+                            size='sm'
+                            variant='outline'
+                            onClick={() => setIsEditingProstate(false)}
+                          >
+                            Cancel
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -1146,13 +1476,61 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Testicular Health
                       </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() =>
+                          setIsEditingTesticular(!isEditingTesticular)
+                        }
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
                     </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Testes Growth:
                         </span>
-                        {selectedMensHealth.testes_growth !== undefined ? (
+                        {isEditingTesticular ? (
+                          <Select
+                            value={(() => {
+                              if (formData.testes_growth !== undefined) {
+                                return formData.testes_growth === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              if (
+                                selectedMensHealth.testes_growth !== undefined
+                              ) {
+                                return selectedMensHealth.testes_growth === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                testes_growth:
+                                  value === 'Yes'
+                                    ? true
+                                    : value === 'No'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Yes'>Yes</SelectItem>
+                              <SelectItem value='No'>No</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.testes_growth !== undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.testes_growth === true
@@ -1172,7 +1550,43 @@ export default function MensHealthPage() {
                         <span className='text-muted-foreground min-w-[120px]'>
                           Erections:
                         </span>
-                        {selectedMensHealth.erections !== undefined ? (
+                        {isEditingTesticular ? (
+                          <Select
+                            value={(() => {
+                              if (formData.erections !== undefined) {
+                                return formData.erections === true
+                                  ? 'Normal'
+                                  : 'Abnormal';
+                              }
+                              if (selectedMensHealth.erections !== undefined) {
+                                return selectedMensHealth.erections === true
+                                  ? 'Normal'
+                                  : 'Abnormal';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                erections:
+                                  value === 'Normal'
+                                    ? true
+                                    : value === 'Abnormal'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Normal'>Normal</SelectItem>
+                              <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.erections !== undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.erections === true
@@ -1190,6 +1604,24 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
+                      {isEditingTesticular && (
+                        <div className='flex gap-2 mt-2'>
+                          <Button
+                            size='sm'
+                            onClick={() => handleSaveTesticular()}
+                          >
+                            <Save className='h-4 w-4 mr-1' />
+                            Save
+                          </Button>
+                          <Button
+                            size='sm'
+                            variant='outline'
+                            onClick={() => setIsEditingTesticular(false)}
+                          >
+                            Cancel
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -1201,13 +1633,64 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Urologist Consultation
                       </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() =>
+                          setIsEditingUrologist(!isEditingUrologist)
+                        }
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
                     </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
                         <span className='text-muted-foreground min-w-[120px]'>
                           Urologist Required:
                         </span>
-                        {selectedMensHealth.require_urologist !== undefined ? (
+                        {isEditingUrologist ? (
+                          <Select
+                            value={(() => {
+                              if (formData.require_urologist !== undefined) {
+                                return formData.require_urologist === true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              if (
+                                selectedMensHealth.require_urologist !==
+                                undefined
+                              ) {
+                                return selectedMensHealth.require_urologist ===
+                                  true
+                                  ? 'Yes'
+                                  : 'No';
+                              }
+                              return '';
+                            })()}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                require_urologist:
+                                  value === 'Yes'
+                                    ? true
+                                    : value === 'No'
+                                      ? false
+                                      : undefined,
+                              })
+                            }
+                          >
+                            <SelectTrigger className='max-w-[150px]'>
+                              <SelectValue placeholder='Select status' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='Yes'>Yes</SelectItem>
+                              <SelectItem value='No'>No</SelectItem>
+                              <SelectItem value='Unknown'>Unknown</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        ) : selectedMensHealth.require_urologist !==
+                          undefined ? (
                           <Badge
                             variant={
                               selectedMensHealth.require_urologist === true
@@ -1225,6 +1708,24 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
+                      {isEditingUrologist && (
+                        <div className='flex gap-2 mt-2'>
+                          <Button
+                            size='sm'
+                            onClick={() => handleSaveUrologist()}
+                          >
+                            <Save className='h-4 w-4 mr-1' />
+                            Save
+                          </Button>
+                          <Button
+                            size='sm'
+                            variant='outline'
+                            onClick={() => setIsEditingUrologist(false)}
+                          >
+                            Cancel
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -1236,25 +1737,84 @@ export default function MensHealthPage() {
                         <FileText className='h-4 w-4' />
                         Clinical Notes
                       </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setIsEditingNotes(!isEditingNotes)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
                     </div>
                     <div className='space-y-3 text-sm'>
-                      {selectedMensHealth.notes_header && (
-                        <div className='text-sm font-medium text-foreground mb-2'>
-                          {selectedMensHealth.notes_header}
-                        </div>
-                      )}
-                      {selectedMensHealth.notes_text ? (
-                        <div className='p-3 bg-muted/30 rounded-lg'>
-                          <span className='text-muted-foreground'>
-                            {selectedMensHealth.notes_text}
-                          </span>
-                        </div>
+                      {isEditingNotes ? (
+                        <>
+                          <div className='space-y-2'>
+                            <Input
+                              placeholder='Notes header'
+                              value={
+                                formData.notes_header ||
+                                selectedMensHealth.notes_header ||
+                                ''
+                              }
+                              onChange={e =>
+                                setFormData({
+                                  ...formData,
+                                  notes_header: e.target.value,
+                                })
+                              }
+                            />
+                            <Textarea
+                              placeholder='Clinical notes'
+                              value={
+                                formData.notes_text ||
+                                selectedMensHealth.notes_text ||
+                                ''
+                              }
+                              onChange={e =>
+                                setFormData({
+                                  ...formData,
+                                  notes_text: e.target.value,
+                                })
+                              }
+                              rows={3}
+                            />
+                          </div>
+                          <div className='flex gap-2 mt-2'>
+                            <Button size='sm' onClick={() => handleSaveNotes()}>
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingNotes(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </div>
+                        </>
                       ) : (
-                        <div className='p-3 bg-muted/30 rounded-lg'>
-                          <span className='text-muted-foreground'>
-                            No clinical notes recorded
-                          </span>
-                        </div>
+                        <>
+                          {selectedMensHealth.notes_header && (
+                            <div className='text-sm font-medium text-foreground mb-2'>
+                              {selectedMensHealth.notes_header}
+                            </div>
+                          )}
+                          {selectedMensHealth.notes_text ? (
+                            <div className='p-3 bg-muted/30 rounded-lg'>
+                              <span className='text-muted-foreground'>
+                                {selectedMensHealth.notes_text}
+                              </span>
+                            </div>
+                          ) : (
+                            <div className='p-3 bg-muted/30 rounded-lg'>
+                              <span className='text-muted-foreground'>
+                                No clinical notes recorded
+                              </span>
+                            </div>
+                          )}
+                        </>
                       )}
                     </div>
                   </div>
@@ -1267,9 +1827,53 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Health Recommendations
                       </h3>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() =>
+                          setIsEditingRecommendations(!isEditingRecommendations)
+                        }
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
                     </div>
                     <div className='space-y-3 text-sm'>
-                      {selectedMensHealth.recommendation_text ? (
+                      {isEditingRecommendations ? (
+                        <>
+                          <Textarea
+                            placeholder='Health recommendations'
+                            value={
+                              formData.recommendation_text ||
+                              selectedMensHealth.recommendation_text ||
+                              ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                recommendation_text: e.target.value,
+                              })
+                            }
+                            rows={3}
+                          />
+                          <div className='flex gap-2 mt-2'>
+                            <Button
+                              size='sm'
+                              onClick={() => handleSaveRecommendations()}
+                            >
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingRecommendations(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </div>
+                        </>
+                      ) : selectedMensHealth.recommendation_text ? (
                         <div className='p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800'>
                           <span className='text-blue-800 dark:text-blue-200'>
                             {selectedMensHealth.recommendation_text}
