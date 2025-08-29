@@ -604,6 +604,19 @@ export default function LifestylePage() {
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => router.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         <div className='lifestyle-container flex gap-1 min-h-[600px]'>
           {/* Left Panel - Lifestyle Table */}
           <div

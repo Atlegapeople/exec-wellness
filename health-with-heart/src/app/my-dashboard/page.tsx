@@ -70,6 +70,7 @@ import {
   Save,
   AlertCircle,
   DollarSign,
+  ArrowLeft,
 } from 'lucide-react';
 import Employee360View from '@/components/Employee360View';
 
@@ -772,6 +773,19 @@ export default function MyDashboard() {
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => window.history.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         {/* Header with Doctor Selection */}
         <div className='space-y-4'>
           <div className='flex items-center justify-between'>

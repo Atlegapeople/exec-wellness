@@ -393,24 +393,26 @@ export default function WomensHealthPage() {
   return (
     <DashboardLayout>
       <div className='container mx-auto p-6 space-y-6'>
+        {/* Back Button */}
+        <div className='flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => router.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         {/* Header */}
         <div className='flex items-center justify-between'>
-          <div className='flex items-center space-x-4'>
-            <Button
-              variant='outline'
-              size='sm'
-              onClick={() => router.back()}
-              className='flex items-center space-x-2'
-            >
-              <ArrowLeft className='h-4 w-4' />
-              <span>Back</span>
-            </Button>
-            <div>
-              <h1 className='text-3xl font-bold'>Women's Health</h1>
-              <p className='text-muted-foreground'>
-                Manage women's health assessments and screenings
-              </p>
-            </div>
+          <div>
+            <h1 className='text-3xl font-bold'>Women's Health</h1>
+            <p className='text-muted-foreground'>
+              Manage women's health assessments and screenings
+            </p>
           </div>
           <Button
             onClick={() => setIsCreateModalOpen(true)}

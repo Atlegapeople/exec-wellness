@@ -34,6 +34,7 @@ import {
   Camera,
   Upload,
   X,
+  ArrowLeft,
 } from 'lucide-react';
 
 interface UserWithMetadata extends User {
@@ -186,6 +187,19 @@ export default function UserProfilePage() {
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => window.history.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         <div className='space-y-6 animate-slide-up'>
           {/* Page Header */}
           <div className='flex items-center gap-3'>

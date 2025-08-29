@@ -52,6 +52,7 @@ import {
   Loader2,
   ClipboardList,
   AlertCircle,
+  ArrowLeft,
 } from 'lucide-react';
 import { DialogFooter } from '@/components/ui/dialog';
 
@@ -295,6 +296,19 @@ export default function AssessmentsPage() {
   return (
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => window.history.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         {/* Header */}
         <div className='flex items-center justify-between mb-6'>
           <div>
