@@ -460,7 +460,7 @@ export default function MensHealthPage() {
   const handleSaveProstate = async () => {
     try {
       setFormLoading(true);
-      const response = await fetch('/api/mens-health', {
+      const response = await fetch('/api/mens-health/partial-update', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -472,17 +472,20 @@ export default function MensHealthPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
         setIsEditingProstate(false);
-        await fetchAllMensHealth();
-        // Update the selected record
-        if (selectedMensHealth) {
-          const updatedRecord = {
-            ...selectedMensHealth,
-            prostate_enlarged: formData.prostate_enlarged,
-            prostate_infection: formData.prostate_infection,
-            prostate_cancer: formData.prostate_cancer,
-          };
-          setSelectedMensHealth(updatedRecord);
+
+        if (result.unchanged) {
+          console.log('No changes detected:', result.message);
+
+        } else {
+          console.log('Updated fields:', result.changedFields);
+          await fetchAllMensHealth();
+          // Update the selected record with the returned data
+          if (selectedMensHealth && result.record) {
+            setSelectedMensHealth(result.record);
+          }
+
         }
       } else {
         const error = await response.json();
@@ -498,7 +501,7 @@ export default function MensHealthPage() {
   const handleSaveTesticular = async () => {
     try {
       setFormLoading(true);
-      const response = await fetch('/api/mens-health', {
+      const response = await fetch('/api/mens-health/partial-update', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -509,16 +512,21 @@ export default function MensHealthPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
         setIsEditingTesticular(false);
-        await fetchAllMensHealth();
-        // Update the selected record
-        if (selectedMensHealth) {
-          const updatedRecord = {
-            ...selectedMensHealth,
-            testes_growth: formData.testes_growth,
-            erections: formData.erections,
-          };
-          setSelectedMensHealth(updatedRecord);
+
+        if (result.unchanged) {
+          console.log('No changes detected:', result.message);
+          // Show user feedback that no changes were made
+
+        } else {
+          console.log('Updated fields:', result.changedFields);
+          await fetchAllMensHealth();
+          // Update the selected record with the returned data
+          if (selectedMensHealth && result.record) {
+            setSelectedMensHealth(result.record);
+          }
+      
         }
       } else {
         const error = await response.json();
@@ -534,7 +542,7 @@ export default function MensHealthPage() {
   const handleSaveUrologist = async () => {
     try {
       setFormLoading(true);
-      const response = await fetch('/api/mens-health', {
+      const response = await fetch('/api/mens-health/partial-update', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -544,15 +552,20 @@ export default function MensHealthPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
         setIsEditingUrologist(false);
-        await fetchAllMensHealth();
-        // Update the selected record
-        if (selectedMensHealth) {
-          const updatedRecord = {
-            ...selectedMensHealth,
-            require_urologist: formData.require_urologist,
-          };
-          setSelectedMensHealth(updatedRecord);
+
+        if (result.unchanged) {
+          console.log('No changes detected:', result.message);
+   
+        } else {
+          console.log('Updated fields:', result.changedFields);
+          await fetchAllMensHealth();
+          // Update the selected record with the returned data
+          if (selectedMensHealth && result.record) {
+            setSelectedMensHealth(result.record);
+          }
+
         }
       } else {
         const error = await response.json();
@@ -568,7 +581,7 @@ export default function MensHealthPage() {
   const handleSaveNotes = async () => {
     try {
       setFormLoading(true);
-      const response = await fetch('/api/mens-health', {
+      const response = await fetch('/api/mens-health/partial-update', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -579,16 +592,20 @@ export default function MensHealthPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
         setIsEditingNotes(false);
-        await fetchAllMensHealth();
-        // Update the selected record
-        if (selectedMensHealth) {
-          const updatedRecord = {
-            ...selectedMensHealth,
-            notes_header: formData.notes_header,
-            notes_text: formData.notes_text,
-          };
-          setSelectedMensHealth(updatedRecord);
+
+        if (result.unchanged) {
+          console.log('No changes detected:', result.message);
+
+        } else {
+          console.log('Updated fields:', result.changedFields);
+          await fetchAllMensHealth();
+          // Update the selected record with the returned data
+          if (selectedMensHealth && result.record) {
+            setSelectedMensHealth(result.record);
+          }
+
         }
       } else {
         const error = await response.json();
@@ -604,7 +621,7 @@ export default function MensHealthPage() {
   const handleSaveRecommendations = async () => {
     try {
       setFormLoading(true);
-      const response = await fetch('/api/mens-health', {
+      const response = await fetch('/api/mens-health/partial-update', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -614,15 +631,20 @@ export default function MensHealthPage() {
       });
 
       if (response.ok) {
+        const result = await response.json();
         setIsEditingRecommendations(false);
-        await fetchAllMensHealth();
-        // Update the selected record
-        if (selectedMensHealth) {
-          const updatedRecord = {
-            ...selectedMensHealth,
-            recommendation_text: formData.recommendation_text,
-          };
-          setSelectedMensHealth(updatedRecord);
+
+        if (result.unchanged) {
+          console.log('No changes detected:', result.message);
+ 
+        } else {
+          console.log('Updated fields:', result.changedFields);
+          await fetchAllMensHealth();
+          // Update the selected record with the returned data
+          if (selectedMensHealth && result.record) {
+            setSelectedMensHealth(result.record);
+          }
+     
         }
       } else {
         const error = await response.json();
