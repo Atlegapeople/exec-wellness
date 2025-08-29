@@ -518,7 +518,20 @@ export default function ReportsPage() {
   return (
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
-        {/* Back Button and Filters */}
+        {/* General Back Button */}
+        <div className='mb-6 flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => router.back()}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
+        {/* Conditional Back Button and Filters */}
         {(returnUrl ||
           organizationFilter ||
           siteFilter ||
