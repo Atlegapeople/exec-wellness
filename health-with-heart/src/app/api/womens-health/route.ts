@@ -13,15 +13,20 @@ export async function GET(request: NextRequest) {
     let params: any[] = [];
     let paramIndex = 1;
 
-    // Base query to get employees with Executive Medical reports
+    // Base query using the new structure
     const baseQuery = `
-      SELECT e.name, w.employee_id
+      SELECT e.name, e.surname, w.id, w.date_created, w.date_updated, w.user_created, w.report_id,
+      w.employee_id, w.gynaecological_symptoms, w.yes_gynaecological_symptoms, w.pap_header, w.are_you_header, w.hormonal_contraception,
+      w.hormonel_replacement_therapy, w.pregnant, w.pregnant_weeks, w.breastfeeding, w.concieve, w.last_pap, w.pap_date,
+      w.pap_result, w.require_pap, w.breast_symptoms, w.breast_symptoms_yes, w.mammogram_result, 
+      w.last_mammogram, w.breast_problems, w.require_mamogram, w.notes_header, w.notes_text, w.recommendation_text
       FROM employee e
-      LEFT JOIN womens_health w ON e.id = w.employee_id
+      LEFT JOIN womens_health w 
+        ON e.id = w.employee_id
       WHERE w.employee_id IN (
-        SELECT mr.employee_id
-        FROM medical_report mr
-        WHERE mr.type = 'Executive Medical'
+          SELECT mr.employee_id
+          FROM medical_report mr
+          WHERE mr.type = 'Executive Medical'
       )
     `;
 
@@ -32,7 +37,7 @@ export async function GET(request: NextRequest) {
     }
 
     if (search) {
-      const searchCondition = `AND (e.id ILIKE $${paramIndex} OR e.name ILIKE $${paramIndex})`;
+      const searchCondition = `AND (e.id ILIKE $${paramIndex} OR e.name ILIKE $${paramIndex} OR e.surname ILIKE $${paramIndex})`;
       whereClause += searchCondition;
       params.push(`%${search}%`);
       paramIndex++;
@@ -73,58 +78,41 @@ export async function GET(request: NextRequest) {
 
     console.log('Data query result rows:', result.rows.length);
 
-    // Transform the result to match the expected structure
+    // Transform the result to match the new structure
     const womensHealth = result.rows.map((row: any) => ({
-      id: row.employee_id || `emp_${row.employee_id}`,
+      id: row.id || `emp_${row.employee_id}`,
       employee_id: row.employee_id,
       employee_name: row.name,
-      employee_surname: null, // Not returned by the query
-      employee_work_email: null, // Not returned by the query
-      // Add default values for women's health fields
-      breast_exam: null,
-      breast_findings: null,
-      pap_smear: null,
-      pap_smear_result: null,
-      mammogram: null,
-      mammogram_result: null,
-      gynecological_exam: null,
-      gynecological_findings: null,
-      menstrual_health: null,
-      pregnancy_status: null,
-      family_planning: null,
-      fertility_concerns: null,
-      menopause_status: null,
-      bone_health: null,
-      osteoporosis_screening: null,
-      heart_disease_risk: null,
-      blood_pressure: null,
-      cholesterol_level: null,
-      diabetes_risk: null,
-      stress_level: null,
-      anxiety_level: null,
-      depression_screening: null,
-      sleep_quality: null,
-      energy_level: null,
-      sexual_health: null,
-      sexual_concerns: null,
-      exercise_frequency: null,
-      diet_quality: null,
-      alcohol_consumption: null,
-      smoking_status: null,
-      weight_management: null,
-      cancer_screening: null,
-      vaccination_status: null,
-      dental_health: null,
-      vision_health: null,
-      hearing_health: null,
-      workplace_stress: null,
-      ergonomic_issues: null,
-      chemical_exposure: null,
-      physical_demands: null,
-      notes_text: null,
-      recommendation_text: null,
-      date_created: new Date(),
-      date_updated: new Date(),
+      employee_surname: row.surname,
+      report_id: row.report_id,
+      date_created: row.date_created,
+      date_updated: row.date_updated,
+      user_created: row.user_created,
+
+      // Women's health specific fields from the new query
+      gynaecological_symptoms: row.gynaecological_symptoms,
+      yes_gynaecological_symptoms: row.yes_gynaecological_symptoms,
+      pap_header: row.pap_header,
+      are_you_header: row.are_you_header,
+      hormonal_contraception: row.hormonal_contraception,
+      hormonel_replacement_therapy: row.hormonel_replacement_therapy,
+      pregnant: row.pregnant,
+      pregnant_weeks: row.pregnant_weeks,
+      breastfeeding: row.breastfeeding,
+      concieve: row.concieve,
+      last_pap: row.last_pap,
+      pap_date: row.pap_date,
+      pap_result: row.pap_result,
+      require_pap: row.require_pap,
+      breast_symptoms: row.breast_symptoms,
+      breast_symptoms_yes: row.breast_symptoms_yes,
+      mammogram_result: row.mammogram_result,
+      last_mammogram: row.last_mammogram,
+      breast_problems: row.breast_problems,
+      require_mamogram: row.require_mamogram,
+      notes_header: row.notes_header,
+      notes_text: row.notes_text,
+      recommendation_text: row.recommendation_text,
     }));
 
     return NextResponse.json({
@@ -153,113 +141,69 @@ export async function POST(request: NextRequest) {
     const {
       employee_id,
       report_id,
-      breast_exam,
-      breast_findings,
-      pap_smear,
-      pap_smear_result,
-      mammogram,
+      gynaecological_symptoms,
+      yes_gynaecological_symptoms,
+      pap_header,
+      are_you_header,
+      hormonal_contraception,
+      hormonel_replacement_therapy,
+      pregnant,
+      pregnant_weeks,
+      breastfeeding,
+      concieve,
+      last_pap,
+      pap_date,
+      pap_result,
+      require_pap,
+      breast_symptoms,
+      breast_symptoms_yes,
       mammogram_result,
-      gynecological_exam,
-      gynecological_findings,
-      menstrual_health,
-      pregnancy_status,
-      family_planning,
-      fertility_concerns,
-      menopause_status,
-      bone_health,
-      osteoporosis_screening,
-      heart_disease_risk,
-      blood_pressure,
-      cholesterol_level,
-      diabetes_risk,
-      stress_level,
-      anxiety_level,
-      depression_screening,
-      sleep_quality,
-      energy_level,
-      sexual_health,
-      sexual_concerns,
-      exercise_frequency,
-      diet_quality,
-      alcohol_consumption,
-      smoking_status,
-      weight_management,
-      cancer_screening,
-      vaccination_status,
-      dental_health,
-      vision_health,
-      hearing_health,
-      workplace_stress,
-      ergonomic_issues,
-      chemical_exposure,
-      physical_demands,
+      last_mammogram,
+      breast_problems,
+      require_mamogram,
+      notes_header,
       notes_text,
       recommendation_text,
     } = body;
 
     const insertQuery = `
       INSERT INTO womens_health (
-        employee_id, report_id, breast_exam, breast_findings, pap_smear, pap_smear_result,
-        mammogram, mammogram_result, gynecological_exam, gynecological_findings,
-        menstrual_health, pregnancy_status, family_planning, fertility_concerns,
-        menopause_status, bone_health, osteoporosis_screening, heart_disease_risk,
-        blood_pressure, cholesterol_level, diabetes_risk, stress_level, anxiety_level,
-        depression_screening, sleep_quality, energy_level, sexual_health, sexual_concerns,
-        exercise_frequency, diet_quality, alcohol_consumption, smoking_status,
-        weight_management, cancer_screening, vaccination_status, dental_health,
-        vision_health, hearing_health, workplace_stress, ergonomic_issues,
-        chemical_exposure, physical_demands, notes_text, recommendation_text,
-        date_created, user_created
+        employee_id, report_id, gynaecological_symptoms, yes_gynaecological_symptoms,
+        pap_header, are_you_header, hormonal_contraception, hormonel_replacement_therapy,
+        pregnant, pregnant_weeks, breastfeeding, concieve, last_pap, pap_date,
+        pap_result, require_pap, breast_symptoms, breast_symptoms_yes, mammogram_result,
+        last_mammogram, breast_problems, require_mamogram, notes_header, notes_text,
+        recommendation_text, date_created, user_created
       ) VALUES (
         $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16,
-        $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30,
-        $31, $32, $33, $34, $35, $36, $37, $38, $39, $40, $41, $42, $43, $44
+        $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27
       ) RETURNING *
     `;
 
     const params = [
       employee_id,
       report_id,
-      breast_exam,
-      breast_findings,
-      pap_smear,
-      pap_smear_result,
-      mammogram,
+      gynaecological_symptoms,
+      yes_gynaecological_symptoms,
+      pap_header,
+      are_you_header,
+      hormonal_contraception,
+      hormonel_replacement_therapy,
+      pregnant,
+      pregnant_weeks,
+      breastfeeding,
+      concieve,
+      last_pap,
+      pap_date,
+      pap_result,
+      require_pap,
+      breast_symptoms,
+      breast_symptoms_yes,
       mammogram_result,
-      gynecological_exam,
-      gynecological_findings,
-      menstrual_health,
-      pregnancy_status,
-      family_planning,
-      fertility_concerns,
-      menopause_status,
-      bone_health,
-      osteoporosis_screening,
-      heart_disease_risk,
-      blood_pressure,
-      cholesterol_level,
-      diabetes_risk,
-      stress_level,
-      anxiety_level,
-      depression_screening,
-      sleep_quality,
-      energy_level,
-      sexual_health,
-      sexual_concerns,
-      exercise_frequency,
-      diet_quality,
-      alcohol_consumption,
-      smoking_status,
-      weight_management,
-      cancer_screening,
-      vaccination_status,
-      dental_health,
-      vision_health,
-      hearing_health,
-      workplace_stress,
-      ergonomic_issues,
-      chemical_exposure,
-      physical_demands,
+      last_mammogram,
+      breast_problems,
+      require_mamogram,
+      notes_header,
       notes_text,
       recommendation_text,
       new Date(),

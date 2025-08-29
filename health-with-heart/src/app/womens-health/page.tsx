@@ -80,51 +80,35 @@ interface WomensHealth {
   employee_id?: string;
   employee_name?: string;
   employee_surname?: string;
-  employee_work_email?: string;
-  breast_exam?: string;
-  breast_findings?: string;
-  pap_smear?: string;
-  pap_smear_result?: string;
-  mammogram?: string;
-  mammogram_result?: string;
-  gynecological_exam?: string;
-  gynecological_findings?: string;
-  menstrual_health?: string;
-  pregnancy_status?: string;
-  family_planning?: string;
-  fertility_concerns?: string;
-  menopause_status?: string;
-  bone_health?: string;
-  osteoporosis_screening?: string;
-  heart_disease_risk?: string;
-  blood_pressure?: string;
-  cholesterol_level?: string;
-  diabetes_risk?: string;
-  stress_level?: string;
-  anxiety_level?: string;
-  depression_screening?: string;
-  sleep_quality?: string;
-  energy_level?: string;
-  sexual_health?: string;
-  sexual_concerns?: string;
-  exercise_frequency?: string;
-  diet_quality?: string;
-  alcohol_consumption?: string;
-  smoking_status?: string;
-  weight_management?: string;
-  cancer_screening?: string;
-  vaccination_status?: string;
-  dental_health?: string;
-  vision_health?: string;
-  hearing_health?: string;
-  workplace_stress?: string;
-  ergonomic_issues?: string;
-  chemical_exposure?: string;
-  physical_demands?: string;
-  notes_text?: string;
-  recommendation_text?: string;
+  report_id?: string;
   date_created?: Date;
   date_updated?: Date;
+  user_created?: string;
+
+  // Women's health specific fields from the new query
+  gynaecological_symptoms?: string;
+  yes_gynaecological_symptoms?: string;
+  pap_header?: string;
+  are_you_header?: string;
+  hormonal_contraception?: string;
+  hormonel_replacement_therapy?: string;
+  pregnant?: string;
+  pregnant_weeks?: string;
+  breastfeeding?: string;
+  concieve?: string;
+  last_pap?: string;
+  pap_date?: string;
+  pap_result?: string;
+  require_pap?: string;
+  breast_symptoms?: string;
+  breast_symptoms_yes?: string;
+  mammogram_result?: string;
+  last_mammogram?: string;
+  breast_problems?: string;
+  require_mamogram?: string;
+  notes_header?: string;
+  notes_text?: string;
+  recommendation_text?: string;
 }
 
 interface PaginationInfo {
@@ -165,6 +149,19 @@ export default function WomensHealthPage() {
   const [selectedWomensHealth, setSelectedWomensHealth] =
     useState<WomensHealth | null>(null);
   const [leftWidth, setLeftWidth] = useState(40);
+  const [isResizing, setIsResizing] = useState(false);
+
+  // Editing states for different sections
+  const [isEditingGynaecological, setIsEditingGynaecological] = useState(false);
+  const [isEditingPap, setIsEditingPap] = useState(false);
+  const [isEditingBreast, setIsEditingBreast] = useState(false);
+  const [isEditingPregnancy, setIsEditingPregnancy] = useState(false);
+  const [isEditingNotes, setIsEditingNotes] = useState(false);
+  const [isEditingRecommendations, setIsEditingRecommendations] =
+    useState(false);
+
+  // Page transition state
+  const [pageTransitioning, setPageTransitioning] = useState(false);
 
   // CRUD state
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
@@ -175,6 +172,49 @@ export default function WomensHealthPage() {
   const [formData, setFormData] = useState<Partial<WomensHealth>>({});
   const [formLoading, setFormLoading] = useState(false);
   const [employees, setEmployees] = useState<any[]>([]);
+
+  // Handle women's health click
+  const handleWomensHealthClick = (womensHealth: WomensHealth) => {
+    setSelectedWomensHealth(womensHealth);
+  };
+
+  // Open edit modal
+  const openEditModal = (womensHealth: WomensHealth) => {
+    setEditingWomensHealth(womensHealth);
+    setFormData(womensHealth);
+    setIsEditModalOpen(true);
+  };
+
+  // Open delete modal
+  const openDeleteModal = (womensHealth: WomensHealth) => {
+    setSelectedWomensHealth(womensHealth);
+    setIsDeleteModalOpen(true);
+  };
+
+  // Resize handler
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsResizing(true);
+    const startX = e.clientX;
+    const startWidth = leftWidth;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      const deltaX = e.clientX - startX;
+      const newWidth = Math.max(
+        20,
+        Math.min(80, startWidth + (deltaX / window.innerWidth) * 100)
+      );
+      setLeftWidth(newWidth);
+    };
+
+    const handleMouseUp = () => {
+      setIsResizing(false);
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+  };
 
   // Fetch all women's health data
   const fetchAllWomensHealth = useCallback(async () => {
@@ -230,9 +270,9 @@ export default function WomensHealthPage() {
           record.id?.toLowerCase().includes(searchLower) ||
           record.employee_id?.toLowerCase().includes(searchLower) ||
           employeeName.toLowerCase().includes(searchLower) ||
-          record.employee_work_email?.toLowerCase().includes(searchLower) ||
-          record.breast_findings?.toLowerCase().includes(searchLower) ||
-          record.heart_disease_risk?.toLowerCase().includes(searchLower)
+          record.breast_symptoms?.toLowerCase().includes(searchLower) ||
+          record.gynaecological_symptoms?.toLowerCase().includes(searchLower) ||
+          record.pap_result?.toLowerCase().includes(searchLower)
         );
       });
     },
@@ -466,212 +506,1023 @@ export default function WomensHealthPage() {
           </CardContent>
         </Card>
 
-        {/* Data Table */}
-        <Card className='hover-lift'>
-          <CardHeader>
-            <div className='flex items-center justify-between'>
-              <div>
-                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                  <Heart className='h-6 w-6' />
-                  Women's Health ({filteredWomensHealth.length})
-                </CardTitle>
-                <CardDescription>
-                  Women's health assessments and screenings
-                </CardDescription>
-              </div>
-              <Button
-                onClick={() => setIsCreateModalOpen(true)}
-                className='hover-lift'
-              >
-                <Plus className='h-4 w-4 mr-2' />
-                Add New Record
-              </Button>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <div className='max-h-[500px] overflow-auto scrollbar-premium'>
-              <Table>
-                <TableHeader>
-                  <TableRow>
-                    <TableHead>Employee</TableHead>
-                    <TableHead>Breast Health</TableHead>
-                    <TableHead>Gynecological</TableHead>
-                    <TableHead>Cardiovascular</TableHead>
-                    <TableHead>Mental Health</TableHead>
-                    <TableHead>Actions</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {displayedWomensHealth.map(record => (
-                    <TableRow key={record.id}>
-                      <TableCell>
-                        <div>
-                          <div className='font-medium'>
-                            {getEmployeeName(record)}
-                          </div>
-                          <div className='text-sm text-muted-foreground'>
-                            {record.employee_id}
-                          </div>
-                        </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className='space-y-1'>
-                          <Badge
-                            variant={
-                              record.breast_exam ? 'default' : 'secondary'
+        {/* Data Table - Full Width when no selection, Resizable when selected */}
+        {selectedWomensHealth ? (
+          <div className='flex gap-4'>
+            {/* Left Panel - Data Table */}
+            <div style={{ width: `${leftWidth}%` }}>
+              <Card className='hover-lift'>
+                <CardHeader>
+                  <div className='flex items-center justify-between'>
+                    <div>
+                      <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                        <Heart className='h-6 w-6' />
+                        Women's Health ({filteredWomensHealth.length})
+                      </CardTitle>
+                      <CardDescription>
+                        Women's health assessments and screenings
+                      </CardDescription>
+                    </div>
+                    <Button
+                      onClick={() => setIsCreateModalOpen(true)}
+                      className='hover-lift'
+                    >
+                      <Plus className='h-4 w-4 mr-2' />
+                      Add New Record
+                    </Button>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Employee</TableHead>
+                          <TableHead>Breast Health</TableHead>
+                          <TableHead>Gynecological</TableHead>
+                          <TableHead>Pregnancy</TableHead>
+                          <TableHead>Created</TableHead>
+                          <TableHead className='text-right'>Actions</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody
+                        className={`table-transition ${pageTransitioning ? 'transitioning' : ''}`}
+                      >
+                        {displayedWomensHealth.map(womensHealth => (
+                          <TableRow
+                            key={womensHealth.id}
+                            className={`cursor-pointer transition-colors hover:bg-muted/50 ${
+                              selectedWomensHealth?.id === womensHealth.id
+                                ? 'bg-muted border-l-4 border-l-primary'
+                                : ''
+                            }`}
+                            onClick={() =>
+                              handleWomensHealthClick(womensHealth)
                             }
                           >
-                            {record.breast_exam || 'Not Examined'}
+                            <TableCell>
+                              <div>
+                                <div className='font-medium'>
+                                  {getEmployeeName(womensHealth)}
+                                </div>
+                                <div className='text-sm text-muted-foreground truncate'>
+                                  {womensHealth.employee_id}
+                                </div>
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div className='space-y-1'>
+                                {womensHealth.breast_symptoms && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.breast_symptoms === 'Yes'
+                                        ? 'destructive'
+                                        : 'secondary'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.breast_symptoms === 'Yes'
+                                      ? 'Symptoms'
+                                      : 'No Symptoms'}
+                                  </Badge>
+                                )}
+                                {womensHealth.mammogram_result && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.mammogram_result === 'Normal'
+                                        ? 'secondary'
+                                        : 'destructive'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.mammogram_result}
+                                  </Badge>
+                                )}
+                                {!womensHealth.breast_symptoms &&
+                                  !womensHealth.mammogram_result && (
+                                    <span className='text-muted-foreground text-xs'>
+                                      No data
+                                    </span>
+                                  )}
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div className='space-y-1'>
+                                {womensHealth.gynaecological_symptoms && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.gynaecological_symptoms ===
+                                      'Yes'
+                                        ? 'destructive'
+                                        : 'secondary'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.gynaecological_symptoms ===
+                                    'Yes'
+                                      ? 'Symptoms'
+                                      : 'No Symptoms'}
+                                  </Badge>
+                                )}
+                                {womensHealth.pap_result && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.pap_result === 'Normal'
+                                        ? 'secondary'
+                                        : 'destructive'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.pap_result}
+                                  </Badge>
+                                )}
+                                {!womensHealth.gynaecological_symptoms &&
+                                  !womensHealth.pap_result && (
+                                    <span className='text-muted-foreground text-xs'>
+                                      No data
+                                    </span>
+                                  )}
+                              </div>
+                            </TableCell>
+                            <TableCell>
+                              <div className='space-y-1'>
+                                {womensHealth.pregnant && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.pregnant === 'Yes'
+                                        ? 'destructive'
+                                        : 'secondary'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.pregnant === 'Yes'
+                                      ? 'Pregnant'
+                                      : 'Not Pregnant'}
+                                  </Badge>
+                                )}
+                                {womensHealth.breastfeeding && (
+                                  <Badge
+                                    variant={
+                                      womensHealth.breastfeeding === 'Yes'
+                                        ? 'destructive'
+                                        : 'secondary'
+                                    }
+                                    className='text-xs'
+                                  >
+                                    {womensHealth.breastfeeding === 'Yes'
+                                      ? 'Breastfeeding'
+                                      : 'Not Breastfeeding'}
+                                  </Badge>
+                                )}
+                                {!womensHealth.pregnant &&
+                                  !womensHealth.breastfeeding && (
+                                    <span className='text-muted-foreground text-xs'>
+                                      No data
+                                    </span>
+                                  )}
+                              </div>
+                            </TableCell>
+                            <TableCell className='text-sm'>
+                              {womensHealth.date_created
+                                ? new Date(
+                                    womensHealth.date_created
+                                  ).toLocaleDateString()
+                                : 'N/A'}
+                            </TableCell>
+                            <TableCell className='text-right'>
+                              <div className='flex items-center justify-end gap-2'>
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={e => {
+                                    e.stopPropagation();
+                                    openEditModal(womensHealth);
+                                  }}
+                                  className='hover-lift'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  className='hover-lift text-destructive hover:text-destructive'
+                                  onClick={e => {
+                                    e.stopPropagation();
+                                    openDeleteModal(womensHealth);
+                                  }}
+                                >
+                                  <Trash2 className='h-4 w-4' />
+                                </Button>
+                              </div>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </div>
+
+                  {/* Pagination */}
+                  {pagination.totalPages > 1 && (
+                    <div className='flex items-center justify-between mt-4'>
+                      <div className='text-sm text-muted-foreground'>
+                        Showing{' '}
+                        {filteredWomensHealth.length > 0
+                          ? (pagination.page - 1) * pagination.limit + 1
+                          : 0}{' '}
+                        to{' '}
+                        {Math.min(
+                          pagination.page * pagination.limit,
+                          filteredWomensHealth.length
+                        )}{' '}
+                        of {filteredWomensHealth.length} results
+                      </div>
+                      <div className='flex items-center space-x-2'>
+                        <Button
+                          variant='outline'
+                          size='sm'
+                          onClick={() => handlePageChange(1)}
+                          disabled={!pagination.hasPreviousPage}
+                        >
+                          <ChevronsLeft className='h-4 w-4' />
+                        </Button>
+                        <Button
+                          variant='outline'
+                          size='sm'
+                          onClick={() => handlePageChange(pagination.page - 1)}
+                          disabled={!pagination.hasPreviousPage}
+                        >
+                          <ChevronLeft className='h-4 w-4' />
+                        </Button>
+                        <span className='text-sm'>
+                          Page {pagination.page} of {pagination.totalPages}
+                        </span>
+                        <Button
+                          variant='outline'
+                          size='sm'
+                          onClick={() => handlePageChange(pagination.page + 1)}
+                          disabled={!pagination.hasNextPage}
+                        >
+                          <ChevronRight className='h-4 w-4' />
+                        </Button>
+                        <Button
+                          variant='outline'
+                          size='sm'
+                          onClick={() =>
+                            handlePageChange(pagination.totalPages)
+                          }
+                          disabled={!pagination.hasNextPage}
+                        >
+                          <ChevronsRight className='h-4 w-4' />
+                        </Button>
+                      </div>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Resize Handle */}
+            {selectedWomensHealth && (
+              <div
+                className='w-1 bg-border hover:bg-primary cursor-col-resize transition-colors flex-shrink-0'
+                onMouseDown={handleMouseDown}
+                style={{ cursor: isResizing ? 'col-resize' : 'col-resize' }}
+              />
+            )}
+
+            {/* Right Panel - Women's Health Details */}
+            {selectedWomensHealth && (
+              <div
+                className='space-y-4 animate-slide-up'
+                style={{ width: `${100 - leftWidth}%` }}
+              >
+                <Card className='glass-effect'>
+                  <CardHeader className='pb-3'>
+                    <div className='flex justify-between items-start'>
+                      <div className='space-y-1'>
+                        <CardTitle className='text-2xl medical-heading'>
+                          Women's Health Assessment
+                        </CardTitle>
+                        <CardDescription className='flex items-center gap-2'>
+                          <span className='text-lg font-medium'>
+                            {getEmployeeName(selectedWomensHealth)}
+                          </span>
+                          <Badge variant='outline'>
+                            {selectedWomensHealth.id}
                           </Badge>
-                          {record.mammogram && (
-                            <Badge variant='outline'>{record.mammogram}</Badge>
-                          )}
+                        </CardDescription>
+                        {/* Last Updated Information */}
+                        <div className='text-xs text-muted-foreground mt-2'>
+                          <span>Last updated by </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.user_created || 'Unknown'}
+                          </span>
+                          <span> on </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.date_updated
+                              ? new Date(
+                                  selectedWomensHealth.date_updated
+                                ).toLocaleString()
+                              : selectedWomensHealth.date_created
+                                ? new Date(
+                                    selectedWomensHealth.date_created
+                                  ).toLocaleString()
+                                : 'Unknown'}
+                          </span>
                         </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className='space-y-1'>
-                          <Badge
-                            variant={record.pap_smear ? 'default' : 'secondary'}
+                      </div>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedWomensHealth(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
+                  </CardHeader>
+                  <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
+                    {/* Gynecological Health Information */}
+                    <div className='space-y-3'>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Activity className='h-4 w-4' />
+                          {selectedWomensHealth.pap_header ||
+                            'Gynecological Health'}
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingGynaecological && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingGynaecological(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={
+                              isEditingGynaecological ? 'default' : 'outline'
+                            }
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingGynaecological(
+                                !isEditingGynaecological
+                              )
+                            }
                           >
-                            {record.pap_smear || 'Not Done'}
-                          </Badge>
-                          {record.gynecological_exam && (
-                            <Badge variant='outline'>
-                              {record.gynecological_exam}
-                            </Badge>
-                          )}
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingGynaecological ? 'Save' : 'Edit'}
+                          </Button>
                         </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className='space-y-1'>
+                      </div>
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Symptoms:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.gynaecological_symptoms ||
+                              'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Yes Symptoms:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.yes_gynaecological_symptoms ||
+                              'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Hormonal Contraception:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.hormonal_contraception ||
+                              'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            HRT:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.hormonel_replacement_therapy ||
+                              'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Pap Smear Information */}
+                    <div className='space-y-3'>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Shield className='h-4 w-4' />
+                          {selectedWomensHealth.are_you_header || 'Pap Smear'}
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingPap && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingPap(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={isEditingPap ? 'default' : 'outline'}
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingPap(!isEditingPap)}
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingPap ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Last Pap:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.last_pap || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Pap Date:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.pap_date || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Result:
+                          </span>
                           <Badge
                             variant={
-                              record.heart_disease_risk
+                              selectedWomensHealth.pap_result?.includes(
+                                'Normal'
+                              )
+                                ? 'secondary'
+                                : selectedWomensHealth.pap_result?.includes(
+                                      'Abnormal'
+                                    )
+                                  ? 'destructive'
+                                  : 'outline'
+                            }
+                          >
+                            {selectedWomensHealth.pap_result || 'N/A'}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Require Pap:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.require_pap || 'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Breast Health Information */}
+                    <div className='space-y-3'>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Heart className='h-4 w-4' />
+                          Breast Health
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingBreast && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingBreast(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={isEditingBreast ? 'default' : 'outline'}
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() => setIsEditingBreast(!isEditingBreast)}
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingBreast ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Symptoms:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.breast_symptoms || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Yes Symptoms:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.breast_symptoms_yes || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Mammogram Result:
+                          </span>
+                          <Badge
+                            variant={
+                              selectedWomensHealth.mammogram_result?.includes(
+                                'Normal'
+                              )
+                                ? 'secondary'
+                                : selectedWomensHealth.mammogram_result?.includes(
+                                      'Abnormal'
+                                    )
+                                  ? 'destructive'
+                                  : 'outline'
+                            }
+                          >
+                            {selectedWomensHealth.mammogram_result || 'N/A'}
+                          </Badge>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Last Mammogram:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.last_mammogram || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Problems:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.breast_problems || 'N/A'}
+                          </span>
+                        </div>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Require Mammogram:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.require_mamogram || 'N/A'}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <Separator />
+
+                    {/* Pregnancy Information */}
+                    <div className='space-y-3'>
+                      <div className='flex items-center justify-between'>
+                        <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                          <Baby className='h-4 w-4' />
+                          Pregnancy Status
+                        </h3>
+                        <div className='flex gap-2'>
+                          {isEditingPregnancy && (
+                            <Button
+                              variant='outline'
+                              size='sm'
+                              className='hover-lift'
+                              onClick={() => setIsEditingPregnancy(false)}
+                            >
+                              Cancel
+                            </Button>
+                          )}
+                          <Button
+                            variant={isEditingPregnancy ? 'default' : 'outline'}
+                            size='sm'
+                            className='hover-lift'
+                            onClick={() =>
+                              setIsEditingPregnancy(!isEditingPregnancy)
+                            }
+                          >
+                            <Edit className='h-3 w-3 mr-1' />
+                            {isEditingPregnancy ? 'Save' : 'Edit'}
+                          </Button>
+                        </div>
+                      </div>
+                      <div className='grid grid-cols-1 gap-3 text-sm'>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Pregnant:
+                          </span>
+                          <Badge
+                            variant={
+                              selectedWomensHealth.pregnant === 'Yes'
                                 ? 'default'
                                 : 'secondary'
                             }
                           >
-                            {record.heart_disease_risk || 'Not Assessed'}
+                            {selectedWomensHealth.pregnant || 'No'}
                           </Badge>
-                          {record.blood_pressure && (
-                            <Badge variant='outline'>
-                              {record.blood_pressure}
-                            </Badge>
-                          )}
                         </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className='space-y-1'>
-                          <Badge
-                            variant={
-                              record.stress_level ? 'default' : 'secondary'
-                            }
-                          >
-                            {record.stress_level || 'Not Assessed'}
-                          </Badge>
-                          {record.anxiety_level && (
-                            <Badge variant='outline'>
-                              {record.anxiety_level}
-                            </Badge>
-                          )}
+                        {selectedWomensHealth.pregnant === 'Yes' && (
+                          <div className='flex gap-2'>
+                            <span className='text-muted-foreground min-w-[120px]'>
+                              Weeks:
+                            </span>
+                            <span className='font-medium'>
+                              {selectedWomensHealth.pregnant_weeks || 'N/A'}
+                            </span>
+                          </div>
+                        )}
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Breastfeeding:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.breastfeeding || 'N/A'}
+                          </span>
                         </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className='flex space-x-2'>
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            onClick={() => {
-                              setSelectedWomensHealth(record);
-                            }}
-                          >
-                            <Eye className='h-4 w-4' />
-                          </Button>
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            onClick={() => {
-                              setEditingWomensHealth(record);
-                              setFormData(record);
-                              setIsEditModalOpen(true);
-                            }}
-                          >
-                            <Edit className='h-4 w-4' />
-                          </Button>
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            onClick={() => {
-                              setSelectedWomensHealth(record);
-                              setIsDeleteModalOpen(true);
-                            }}
-                          >
-                            <Trash2 className='h-4 w-4' />
-                          </Button>
+                        <div className='flex gap-2'>
+                          <span className='text-muted-foreground min-w-[120px]'>
+                            Trying to Conceive:
+                          </span>
+                          <span className='font-medium'>
+                            {selectedWomensHealth.concieve || 'N/A'}
+                          </span>
                         </div>
-                      </TableCell>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </div>
+                      </div>
+                    </div>
 
-            {/* Pagination */}
-            {pagination.totalPages > 1 && (
-              <div className='flex items-center justify-between mt-4'>
-                <div className='text-sm text-muted-foreground'>
-                  Showing{' '}
-                  {filteredWomensHealth.length > 0
-                    ? (pagination.page - 1) * pagination.limit + 1
-                    : 0}{' '}
-                  to{' '}
-                  {Math.min(
-                    pagination.page * pagination.limit,
-                    filteredWomensHealth.length
-                  )}{' '}
-                  of {filteredWomensHealth.length} results
-                </div>
-                <div className='flex items-center space-x-2'>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => handlePageChange(1)}
-                    disabled={!pagination.hasPreviousPage}
-                  >
-                    <ChevronsLeft className='h-4 w-4' />
-                  </Button>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => handlePageChange(pagination.page - 1)}
-                    disabled={!pagination.hasPreviousPage}
-                  >
-                    <ChevronLeft className='h-4 w-4' />
-                  </Button>
-                  <span className='text-sm'>
-                    Page {pagination.page} of {pagination.totalPages}
-                  </span>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => handlePageChange(pagination.page + 1)}
-                    disabled={!pagination.hasNextPage}
-                  >
-                    <ChevronRight className='h-4 w-4' />
-                  </Button>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => handlePageChange(pagination.totalPages)}
-                    disabled={!pagination.hasNextPage}
-                  >
-                    <ChevronsRight className='h-4 w-4' />
-                  </Button>
-                </div>
+                    {selectedWomensHealth.notes_text && (
+                      <>
+                        <Separator />
+                        <div className='space-y-3'>
+                          <div className='flex items-center justify-between'>
+                            <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
+                              {selectedWomensHealth.notes_header || 'Notes'}
+                            </h3>
+                            <div className='flex gap-2'>
+                              {isEditingNotes && (
+                                <Button
+                                  variant='outline'
+                                  size='sm'
+                                  className='hover-lift'
+                                  onClick={() => setIsEditingNotes(false)}
+                                >
+                                  Cancel
+                                </Button>
+                              )}
+                              <Button
+                                variant={isEditingNotes ? 'default' : 'outline'}
+                                size='sm'
+                                className='hover-lift'
+                                onClick={() =>
+                                  setIsEditingNotes(!isEditingNotes)
+                                }
+                              >
+                                <Edit className='h-3 w-3 mr-1' />
+                                {isEditingNotes ? 'Save' : 'Edit'}
+                              </Button>
+                            </div>
+                          </div>
+                          <div className='text-sm p-3 bg-muted rounded-lg'>
+                            {selectedWomensHealth.notes_text}
+                          </div>
+                        </div>
+                      </>
+                    )}
+
+                    {selectedWomensHealth.recommendation_text && (
+                      <>
+                        <Separator />
+                        <div className='space-y-3'>
+                          <div className='flex items-center justify-between'>
+                            <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                              <Heart className='h-4 w-4' />
+                              Recommendations
+                            </h3>
+                            <div className='flex gap-2'>
+                              {isEditingRecommendations && (
+                                <Button
+                                  variant='outline'
+                                  size='sm'
+                                  className='hover-lift'
+                                  onClick={() =>
+                                    setIsEditingRecommendations(false)
+                                  }
+                                >
+                                  Cancel
+                                </Button>
+                              )}
+                              <Button
+                                variant={
+                                  isEditingRecommendations
+                                    ? 'default'
+                                    : 'outline'
+                                }
+                                size='sm'
+                                className='hover-lift'
+                                onClick={() =>
+                                  setIsEditingRecommendations(
+                                    !isEditingRecommendations
+                                  )
+                                }
+                              >
+                                <Edit className='h-3 w-3 mr-1' />
+                                {isEditingRecommendations ? 'Save' : 'Edit'}
+                              </Button>
+                            </div>
+                          </div>
+                          <div className='text-sm p-3 bg-blue-50 border border-blue-200 rounded-lg'>
+                            {selectedWomensHealth.recommendation_text}
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </CardContent>
+                </Card>
               </div>
             )}
-          </CardContent>
-        </Card>
+          </div>
+        ) : (
+          /* Full Width Table when no selection */
+          <Card className='hover-lift'>
+            <CardHeader>
+              <div className='flex items-center justify-between'>
+                <div>
+                  <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                    <Heart className='h-6 w-6' />
+                    Women's Health ({filteredWomensHealth.length})
+                  </CardTitle>
+                  <CardDescription>
+                    Women's health assessments and screenings
+                  </CardDescription>
+                </div>
+                <Button
+                  onClick={() => setIsCreateModalOpen(true)}
+                  className='hover-lift'
+                >
+                  <Plus className='h-4 w-4 mr-2' />
+                  Add New Record
+                </Button>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Employee</TableHead>
+                      <TableHead>Breast Health</TableHead>
+                      <TableHead>Gynecological</TableHead>
+                      <TableHead>Pregnancy</TableHead>
+                      <TableHead>Created</TableHead>
+                      <TableHead className='text-right'>Actions</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {displayedWomensHealth.map(womensHealth => (
+                      <TableRow
+                        key={womensHealth.id}
+                        className={`cursor-pointer transition-colors hover:bg-muted/50 ${
+                          selectedWomensHealth?.id === womensHealth.id
+                            ? 'bg-muted border-l-4 border-l-primary'
+                            : ''
+                        }`}
+                        onClick={() => handleWomensHealthClick(womensHealth)}
+                      >
+                        <TableCell>
+                          <div>
+                            <div className='font-medium'>
+                              {getEmployeeName(womensHealth)}
+                            </div>
+                            <div className='text-sm text-muted-foreground truncate'>
+                              {womensHealth.employee_id}
+                            </div>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className='space-y-1'>
+                            {womensHealth.breast_symptoms && (
+                              <Badge
+                                variant={
+                                  womensHealth.breast_symptoms === 'Yes'
+                                    ? 'destructive'
+                                    : 'secondary'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.breast_symptoms === 'Yes'
+                                  ? 'Symptoms'
+                                  : 'No Symptoms'}
+                              </Badge>
+                            )}
+                            {womensHealth.mammogram_result && (
+                              <Badge
+                                variant={
+                                  womensHealth.mammogram_result === 'Normal'
+                                    ? 'secondary'
+                                    : 'destructive'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.mammogram_result}
+                              </Badge>
+                            )}
+                            {!womensHealth.breast_symptoms &&
+                              !womensHealth.mammogram_result && (
+                                <span className='text-muted-foreground text-xs'>
+                                  No data
+                                </span>
+                              )}
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className='space-y-1'>
+                            {womensHealth.gynaecological_symptoms && (
+                              <Badge
+                                variant={
+                                  womensHealth.gynaecological_symptoms === 'Yes'
+                                    ? 'destructive'
+                                    : 'secondary'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.gynaecological_symptoms === 'Yes'
+                                  ? 'Symptoms'
+                                  : 'No Symptoms'}
+                              </Badge>
+                            )}
+                            {womensHealth.pap_result && (
+                              <Badge
+                                variant={
+                                  womensHealth.pap_result === 'Normal'
+                                    ? 'secondary'
+                                    : 'destructive'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.pap_result}
+                              </Badge>
+                            )}
+                            {!womensHealth.gynaecological_symptoms &&
+                              !womensHealth.pap_result && (
+                                <span className='text-muted-foreground text-xs'>
+                                  No data
+                                </span>
+                              )}
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className='space-y-1'>
+                            {womensHealth.pregnant && (
+                              <Badge
+                                variant={
+                                  womensHealth.pregnant === 'Yes'
+                                    ? 'destructive'
+                                    : 'secondary'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.pregnant === 'Yes'
+                                  ? 'Pregnant'
+                                  : 'Not Pregnant'}
+                              </Badge>
+                            )}
+                            {womensHealth.breastfeeding && (
+                              <Badge
+                                variant={
+                                  womensHealth.breastfeeding === 'Yes'
+                                    ? 'destructive'
+                                    : 'secondary'
+                                }
+                                className='text-xs'
+                              >
+                                {womensHealth.breastfeeding === 'Yes'
+                                  ? 'Breastfeeding'
+                                  : 'Not Breastfeeding'}
+                              </Badge>
+                            )}
+                            {!womensHealth.pregnant &&
+                              !womensHealth.breastfeeding && (
+                                <span className='text-muted-foreground text-xs'>
+                                  No data
+                                </span>
+                              )}
+                          </div>
+                        </TableCell>
+                        <TableCell className='text-sm'>
+                          {womensHealth.date_created
+                            ? new Date(
+                                womensHealth.date_created
+                              ).toLocaleDateString()
+                            : 'N/A'}
+                        </TableCell>
+                        <TableCell className='text-right'>
+                          <div className='flex items-center justify-end gap-2'>
+                            <Button
+                              variant='ghost'
+                              size='sm'
+                              onClick={e => {
+                                e.stopPropagation();
+                                openEditModal(womensHealth);
+                              }}
+                              className='hover-lift'
+                            >
+                              <Edit className='h-4 w-4' />
+                            </Button>
+                            <Button
+                              variant='ghost'
+                              size='sm'
+                              className='hover-lift text-destructive hover:text-destructive'
+                              onClick={e => {
+                                e.stopPropagation();
+                                openDeleteModal(womensHealth);
+                              }}
+                            >
+                              <Trash2 className='h-4 w-4' />
+                            </Button>
+                          </div>
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </div>
+
+              {/* Pagination */}
+              {pagination.totalPages > 1 && (
+                <div className='flex items-center justify-between mt-4'>
+                  <div className='text-sm text-muted-foreground'>
+                    Showing{' '}
+                    {filteredWomensHealth.length > 0
+                      ? (pagination.page - 1) * pagination.limit + 1
+                      : 0}{' '}
+                    to{' '}
+                    {Math.min(
+                      pagination.page * pagination.limit,
+                      filteredWomensHealth.length
+                    )}{' '}
+                    of {filteredWomensHealth.length} results
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                    <Button
+                      variant='outline'
+                      size='sm'
+                      onClick={() => handlePageChange(1)}
+                      disabled={!pagination.hasPreviousPage}
+                    >
+                      <ChevronsLeft className='h-4 w-4' />
+                    </Button>
+                    <Button
+                      variant='outline'
+                      size='sm'
+                      onClick={() => handlePageChange(pagination.page - 1)}
+                      disabled={!pagination.hasPreviousPage}
+                    >
+                      <ChevronLeft className='h-4 w-4' />
+                    </Button>
+                    <span className='text-sm'>
+                      Page {pagination.page} of {pagination.totalPages}
+                    </span>
+                    <Button
+                      variant='outline'
+                      size='sm'
+                      onClick={() => handlePageChange(pagination.page + 1)}
+                      disabled={!pagination.hasNextPage}
+                    >
+                      <ChevronRight className='h-4 w-4' />
+                    </Button>
+                    <Button
+                      variant='outline'
+                      size='sm'
+                      onClick={() => handlePageChange(pagination.totalPages)}
+                      disabled={!pagination.hasNextPage}
+                    >
+                      <ChevronsRight className='h-4 w-4' />
+                    </Button>
+                  </div>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        )}
 
         {/* Create Modal */}
         <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
