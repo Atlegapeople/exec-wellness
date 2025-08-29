@@ -1251,14 +1251,37 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Prostate Health
                       </h3>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => setIsEditingProstate(!isEditingProstate)}
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        {isEditingProstate ? (
+                          <>
+                            <Button
+                              size='sm'
+                              onClick={() => handleSaveProstate()}
+                            >
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingProstate(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() =>
+                              setIsEditingProstate(!isEditingProstate)
+                            }
+                            className='hover-lift'
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                        )}
+                      </div>
                     </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
@@ -1443,24 +1466,6 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
-                      {isEditingProstate && (
-                        <div className='flex gap-2 mt-2'>
-                          <Button
-                            size='sm'
-                            onClick={() => handleSaveProstate()}
-                          >
-                            <Save className='h-4 w-4 mr-1' />
-                            Save
-                          </Button>
-                          <Button
-                            size='sm'
-                            variant='outline'
-                            onClick={() => setIsEditingProstate(false)}
-                          >
-                            Cancel
-                          </Button>
-                        </div>
-                      )}
                     </div>
                   </div>
 
@@ -1473,16 +1478,37 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Testicular Health
                       </h3>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() =>
-                          setIsEditingTesticular(!isEditingTesticular)
-                        }
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        {isEditingTesticular ? (
+                          <>
+                            <Button
+                              size='sm'
+                              onClick={() => handleSaveTesticular()}
+                            >
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingTesticular(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() =>
+                              setIsEditingTesticular(!isEditingTesticular)
+                            }
+                            className='hover-lift'
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                        )}
+                      </div>
                     </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
@@ -1599,24 +1625,6 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
-                      {isEditingTesticular && (
-                        <div className='flex gap-2 mt-2'>
-                          <Button
-                            size='sm'
-                            onClick={() => handleSaveTesticular()}
-                          >
-                            <Save className='h-4 w-4 mr-1' />
-                            Save
-                          </Button>
-                          <Button
-                            size='sm'
-                            variant='outline'
-                            onClick={() => setIsEditingTesticular(false)}
-                          >
-                            Cancel
-                          </Button>
-                        </div>
-                      )}
                     </div>
                   </div>
 
@@ -1628,16 +1636,37 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Urologist Consultation
                       </h3>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() =>
-                          setIsEditingUrologist(!isEditingUrologist)
-                        }
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        {isEditingUrologist ? (
+                          <>
+                            <Button
+                              size='sm'
+                              onClick={() => handleSaveUrologist()}
+                            >
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingUrologist(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() =>
+                              setIsEditingUrologist(!isEditingUrologist)
+                            }
+                            className='hover-lift'
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                        )}
+                      </div>
                     </div>
                     <div className='space-y-3 text-sm'>
                       <div className='flex gap-2'>
@@ -1702,24 +1731,6 @@ export default function MensHealthPage() {
                           </span>
                         )}
                       </div>
-                      {isEditingUrologist && (
-                        <div className='flex gap-2 mt-2'>
-                          <Button
-                            size='sm'
-                            onClick={() => handleSaveUrologist()}
-                          >
-                            <Save className='h-4 w-4 mr-1' />
-                            Save
-                          </Button>
-                          <Button
-                            size='sm'
-                            variant='outline'
-                            onClick={() => setIsEditingUrologist(false)}
-                          >
-                            Cancel
-                          </Button>
-                        </div>
-                      )}
                     </div>
                   </div>
 
@@ -1731,14 +1742,32 @@ export default function MensHealthPage() {
                         <FileText className='h-4 w-4' />
                         Clinical Notes
                       </h3>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => setIsEditingNotes(!isEditingNotes)}
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        {isEditingNotes ? (
+                          <>
+                            <Button size='sm' onClick={() => handleSaveNotes()}>
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingNotes(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() => setIsEditingNotes(!isEditingNotes)}
+                            className='hover-lift'
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                        )}
+                      </div>
                     </div>
                     <div className='space-y-3 text-sm'>
                       {isEditingNotes ? (
@@ -1774,19 +1803,6 @@ export default function MensHealthPage() {
                               rows={3}
                             />
                           </div>
-                          <div className='flex gap-2 mt-2'>
-                            <Button size='sm' onClick={() => handleSaveNotes()}>
-                              <Save className='h-4 w-4 mr-1' />
-                              Save
-                            </Button>
-                            <Button
-                              size='sm'
-                              variant='outline'
-                              onClick={() => setIsEditingNotes(false)}
-                            >
-                              Cancel
-                            </Button>
-                          </div>
                         </>
                       ) : (
                         <>
@@ -1821,16 +1837,39 @@ export default function MensHealthPage() {
                         <Activity className='h-4 w-4' />
                         Health Recommendations
                       </h3>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() =>
-                          setIsEditingRecommendations(!isEditingRecommendations)
-                        }
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        {isEditingRecommendations ? (
+                          <>
+                            <Button
+                              size='sm'
+                              onClick={() => handleSaveRecommendations()}
+                            >
+                              <Save className='h-4 w-4 mr-1' />
+                              Save
+                            </Button>
+                            <Button
+                              size='sm'
+                              variant='outline'
+                              onClick={() => setIsEditingRecommendations(false)}
+                            >
+                              Cancel
+                            </Button>
+                          </>
+                        ) : (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() =>
+                              setIsEditingRecommendations(
+                                !isEditingRecommendations
+                              )
+                            }
+                            className='hover-lift'
+                          >
+                            <Edit className='h-4 w-4' />
+                          </Button>
+                        )}
+                      </div>
                     </div>
                     <div className='space-y-3 text-sm'>
                       {isEditingRecommendations ? (
@@ -1850,22 +1889,6 @@ export default function MensHealthPage() {
                             }
                             rows={3}
                           />
-                          <div className='flex gap-2 mt-2'>
-                            <Button
-                              size='sm'
-                              onClick={() => handleSaveRecommendations()}
-                            >
-                              <Save className='h-4 w-4 mr-1' />
-                              Save
-                            </Button>
-                            <Button
-                              size='sm'
-                              variant='outline'
-                              onClick={() => setIsEditingRecommendations(false)}
-                            >
-                              Cancel
-                            </Button>
-                          </div>
                         </>
                       ) : selectedMensHealth.recommendation_text ? (
                         <div className='p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800'>
