@@ -160,6 +160,9 @@ export default function WomensHealthPage() {
   const [isEditingRecommendations, setIsEditingRecommendations] =
     useState(false);
 
+  // Editing data for inline editing
+  const [editingData, setEditingData] = useState<Partial<WomensHealth>>({});
+
   // Page transition state
   const [pageTransitioning, setPageTransitioning] = useState(false);
 
@@ -176,6 +179,104 @@ export default function WomensHealthPage() {
   // Handle women's health click
   const handleWomensHealthClick = (womensHealth: WomensHealth) => {
     setSelectedWomensHealth(womensHealth);
+  };
+
+  // Inline editing functions
+  const startEditing = (section: string) => {
+    setEditingData(selectedWomensHealth || {});
+    switch (section) {
+      case 'gynaecological':
+        setIsEditingGynaecological(true);
+        break;
+      case 'pap':
+        setIsEditingPap(true);
+        break;
+      case 'breast':
+        setIsEditingBreast(true);
+        break;
+      case 'pregnancy':
+        setIsEditingPregnancy(true);
+        break;
+      case 'notes':
+        setIsEditingNotes(true);
+        break;
+      case 'recommendations':
+        setIsEditingRecommendations(true);
+        break;
+    }
+  };
+
+  const cancelEditing = (section: string) => {
+    setEditingData({});
+    switch (section) {
+      case 'gynaecological':
+        setIsEditingGynaecological(false);
+        break;
+      case 'pap':
+        setIsEditingPap(false);
+        break;
+      case 'breast':
+        setIsEditingBreast(false);
+        break;
+      case 'pregnancy':
+        setIsEditingPregnancy(false);
+        break;
+      case 'notes':
+        setIsEditingNotes(false);
+        break;
+      case 'recommendations':
+        setIsEditingRecommendations(false);
+        break;
+    }
+  };
+
+  const saveEditing = async (section: string) => {
+    if (!selectedWomensHealth?.id) return;
+
+    try {
+      setFormLoading(true);
+
+      // Use PATCH endpoint for more efficient partial updates
+      const response = await fetch('/api/womens-health', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: selectedWomensHealth.id,
+          section: section,
+          ...editingData,
+        }),
+      });
+
+      if (response.ok) {
+        // Update local state
+        const updatedData = await response.json();
+        setSelectedWomensHealth(prev => ({ ...prev, ...updatedData }));
+
+        // Refresh the main list
+        fetchAllWomensHealth();
+
+        // Exit edit mode
+        cancelEditing(section);
+        setEditingData({});
+
+        // Show success message if there were changes
+        if (updatedData.changedFields && updatedData.changedFields.length > 0) {
+          console.log(
+            `Successfully updated ${section} section:`,
+            updatedData.message
+          );
+        } else {
+          console.log('No changes detected');
+        }
+      } else {
+        const errorData = await response.json();
+        console.error('Error updating record:', errorData.error);
+      }
+    } catch (error) {
+      console.error("Error updating women's health record:", error);
+    } finally {
+      setFormLoading(false);
+    }
   };
 
   // Open edit modal
@@ -623,7 +724,6 @@ export default function WomensHealthPage() {
                             </TableCell>
                             <TableCell>
                               <div className='space-y-1'>
-
                                 {womensHealth.pap_result && (
                                   <Badge
                                     variant={
@@ -856,7 +956,7 @@ export default function WomensHealthPage() {
                               variant='outline'
                               size='sm'
                               className='hover-lift'
-                              onClick={() => setIsEditingGynaecological(false)}
+                              onClick={() => cancelEditing('gynaecological')}
                             >
                               Cancel
                             </Button>
@@ -868,12 +968,17 @@ export default function WomensHealthPage() {
                             size='sm'
                             className='hover-lift'
                             onClick={() =>
-                              setIsEditingGynaecological(
-                                !isEditingGynaecological
-                              )
+                              isEditingGynaecological
+                                ? saveEditing('gynaecological')
+                                : startEditing('gynaecological')
                             }
+                            disabled={formLoading}
                           >
-                            <Edit className='h-3 w-3 mr-1' />
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                            ) : (
+                              <Edit className='h-3 w-3 mr-1' />
+                            )}
                             {isEditingGynaecological ? 'Save' : 'Edit'}
                           </Button>
                         </div>
@@ -883,37 +988,118 @@ export default function WomensHealthPage() {
                           <span className='text-muted-foreground min-w-[120px]'>
                             Symptoms:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.gynaecological_symptoms ||
-                              'N/A'}
-                          </span>
+                          {isEditingGynaecological ? (
+                            <Select
+                              value={editingData.gynaecological_symptoms || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  gynaecological_symptoms: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select symptoms' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.gynaecological_symptoms ||
+                                'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Yes Symptoms:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.yes_gynaecological_symptoms ||
-                              'N/A'}
-                          </span>
+                          {isEditingGynaecological ? (
+                            <Input
+                              value={
+                                editingData.yes_gynaecological_symptoms || ''
+                              }
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  yes_gynaecological_symptoms: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                              placeholder='Enter symptoms description'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.yes_gynaecological_symptoms ||
+                                'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Hormonal Contraception:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.hormonal_contraception ||
-                              'N/A'}
-                          </span>
+                          {isEditingGynaecological ? (
+                            <Select
+                              value={editingData.hormonal_contraception || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  hormonal_contraception: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select status' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.hormonal_contraception ||
+                                'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             HRT:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.hormonel_replacement_therapy ||
-                              'N/A'}
-                          </span>
+                          {isEditingGynaecological ? (
+                            <Select
+                              value={
+                                editingData.hormonel_replacement_therapy || ''
+                              }
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  hormonel_replacement_therapy: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select status' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.hormonel_replacement_therapy ||
+                                'N/A'}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -933,7 +1119,7 @@ export default function WomensHealthPage() {
                               variant='outline'
                               size='sm'
                               className='hover-lift'
-                              onClick={() => setIsEditingPap(false)}
+                              onClick={() => cancelEditing('pap')}
                             >
                               Cancel
                             </Button>
@@ -942,9 +1128,18 @@ export default function WomensHealthPage() {
                             variant={isEditingPap ? 'default' : 'outline'}
                             size='sm'
                             className='hover-lift'
-                            onClick={() => setIsEditingPap(!isEditingPap)}
+                            onClick={() =>
+                              isEditingPap
+                                ? saveEditing('pap')
+                                : startEditing('pap')
+                            }
+                            disabled={formLoading}
                           >
-                            <Edit className='h-3 w-3 mr-1' />
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                            ) : (
+                              <Edit className='h-3 w-3 mr-1' />
+                            )}
                             {isEditingPap ? 'Save' : 'Edit'}
                           </Button>
                         </div>
@@ -954,45 +1149,122 @@ export default function WomensHealthPage() {
                           <span className='text-muted-foreground min-w-[120px]'>
                             Last Pap:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.last_pap || 'N/A'}
-                          </span>
+                          {isEditingPap ? (
+                            <Input
+                              value={editingData.last_pap || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  last_pap: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                              placeholder='Enter last pap information'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.last_pap || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Pap Date:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.pap_date || 'N/A'}
-                          </span>
+                          {isEditingPap ? (
+                            <Input
+                              type='date'
+                              value={editingData.pap_date || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  pap_date: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.pap_date || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Result:
                           </span>
-                          <Badge
-                            variant={
-                              selectedWomensHealth.pap_result?.includes(
-                                'Normal'
-                              )
-                                ? 'secondary'
-                                : selectedWomensHealth.pap_result?.includes(
-                                      'Abnormal'
-                                    )
-                                  ? 'destructive'
-                                  : 'outline'
-                            }
-                          >
-                            {selectedWomensHealth.pap_result || 'N/A'}
-                          </Badge>
+                          {isEditingPap ? (
+                            <Select
+                              value={editingData.pap_result || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  pap_result: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select result' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Normal'>Normal</SelectItem>
+                                <SelectItem value='Abnormal'>
+                                  Abnormal
+                                </SelectItem>
+                                <SelectItem value='Inconclusive'>
+                                  Inconclusive
+                                </SelectItem>
+                                <SelectItem value='Not Done'>
+                                  Not Done
+                                </SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <Badge
+                              variant={
+                                selectedWomensHealth.pap_result?.includes(
+                                  'Normal'
+                                )
+                                  ? 'secondary'
+                                  : selectedWomensHealth.pap_result?.includes(
+                                        'Abnormal'
+                                      )
+                                    ? 'destructive'
+                                    : 'outline'
+                              }
+                            >
+                              {selectedWomensHealth.pap_result || 'N/A'}
+                            </Badge>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Require Pap:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.require_pap || 'N/A'}
-                          </span>
+                          {isEditingPap ? (
+                            <Select
+                              value={editingData.require_pap || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  require_pap: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select requirement' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.require_pap || 'N/A'}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -1012,7 +1284,7 @@ export default function WomensHealthPage() {
                               variant='outline'
                               size='sm'
                               className='hover-lift'
-                              onClick={() => setIsEditingBreast(false)}
+                              onClick={() => cancelEditing('breast')}
                             >
                               Cancel
                             </Button>
@@ -1021,9 +1293,18 @@ export default function WomensHealthPage() {
                             variant={isEditingBreast ? 'default' : 'outline'}
                             size='sm'
                             className='hover-lift'
-                            onClick={() => setIsEditingBreast(!isEditingBreast)}
+                            onClick={() =>
+                              isEditingBreast
+                                ? saveEditing('breast')
+                                : startEditing('breast')
+                            }
+                            disabled={formLoading}
                           >
-                            <Edit className='h-3 w-3 mr-1' />
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                            ) : (
+                              <Edit className='h-3 w-3 mr-1' />
+                            )}
                             {isEditingBreast ? 'Save' : 'Edit'}
                           </Button>
                         </div>
@@ -1033,61 +1314,174 @@ export default function WomensHealthPage() {
                           <span className='text-muted-foreground min-w-[120px]'>
                             Symptoms:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.breast_symptoms || 'N/A'}
-                          </span>
+                          {isEditingBreast ? (
+                            <Select
+                              value={editingData.breast_symptoms || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  breast_symptoms: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select symptoms' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.breast_symptoms || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Yes Symptoms:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.breast_symptoms_yes || 'N/A'}
-                          </span>
+                          {isEditingBreast ? (
+                            <Input
+                              value={editingData.breast_symptoms_yes || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  breast_symptoms_yes: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                              placeholder='Enter symptoms description'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.breast_symptoms_yes ||
+                                'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Mammogram Result:
                           </span>
-                          <Badge
-                            variant={
-                              selectedWomensHealth.mammogram_result?.includes(
-                                'Normal'
-                              )
-                                ? 'secondary'
-                                : selectedWomensHealth.mammogram_result?.includes(
-                                      'Abnormal'
-                                    )
-                                  ? 'destructive'
-                                  : 'outline'
-                            }
-                          >
-                            {selectedWomensHealth.mammogram_result || 'N/A'}
-                          </Badge>
+                          {isEditingBreast ? (
+                            <Select
+                              value={editingData.mammogram_result || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  mammogram_result: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select result' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Normal'>Normal</SelectItem>
+                                <SelectItem value='Abnormal'>
+                                  Abnormal
+                                </SelectItem>
+                                <SelectItem value='Inconclusive'>
+                                  Inconclusive
+                                </SelectItem>
+                                <SelectItem value='Not Done'>
+                                  Not Done
+                                </SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <Badge
+                              variant={
+                                selectedWomensHealth.mammogram_result?.includes(
+                                  'Normal'
+                                )
+                                  ? 'secondary'
+                                  : selectedWomensHealth.mammogram_result?.includes(
+                                        'Abnormal'
+                                      )
+                                    ? 'destructive'
+                                    : 'outline'
+                              }
+                            >
+                              {selectedWomensHealth.mammogram_result || 'N/A'}
+                            </Badge>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Last Mammogram:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.last_mammogram || 'N/A'}
-                          </span>
+                          {isEditingBreast ? (
+                            <Input
+                              type='date'
+                              value={editingData.last_mammogram || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  last_mammogram: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.last_mammogram || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Problems:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.breast_problems || 'N/A'}
-                          </span>
+                          {isEditingBreast ? (
+                            <Input
+                              value={editingData.breast_problems || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  breast_problems: e.target.value,
+                                }))
+                              }
+                              className='w-[200px]'
+                              placeholder='Enter breast problems'
+                            />
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.breast_problems || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Require Mammogram:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.require_mamogram || 'N/A'}
-                          </span>
+                          {isEditingBreast ? (
+                            <Select
+                              value={editingData.require_mamogram || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  require_mamogram: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select requirement' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.require_mamogram || 'N/A'}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -1107,7 +1501,7 @@ export default function WomensHealthPage() {
                               variant='outline'
                               size='sm'
                               className='hover-lift'
-                              onClick={() => setIsEditingPregnancy(false)}
+                              onClick={() => cancelEditing('pregnancy')}
                             >
                               Cancel
                             </Button>
@@ -1117,10 +1511,17 @@ export default function WomensHealthPage() {
                             size='sm'
                             className='hover-lift'
                             onClick={() =>
-                              setIsEditingPregnancy(!isEditingPregnancy)
+                              isEditingPregnancy
+                                ? saveEditing('pregnancy')
+                                : startEditing('pregnancy')
                             }
+                            disabled={formLoading}
                           >
-                            <Edit className='h-3 w-3 mr-1' />
+                            {formLoading ? (
+                              <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                            ) : (
+                              <Edit className='h-3 w-3 mr-1' />
+                            )}
                             {isEditingPregnancy ? 'Save' : 'Edit'}
                           </Button>
                         </div>
@@ -1130,41 +1531,122 @@ export default function WomensHealthPage() {
                           <span className='text-muted-foreground min-w-[120px]'>
                             Pregnant:
                           </span>
-                          <Badge
-                            variant={
-                              selectedWomensHealth.pregnant === 'Yes'
-                                ? 'default'
-                                : 'secondary'
-                            }
-                          >
-                            {selectedWomensHealth.pregnant || 'No'}
-                          </Badge>
+                          {isEditingPregnancy ? (
+                            <Select
+                              value={editingData.pregnant || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  pregnant: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select status' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <Badge
+                              variant={
+                                selectedWomensHealth.pregnant === 'Yes'
+                                  ? 'default'
+                                  : 'secondary'
+                              }
+                            >
+                              {selectedWomensHealth.pregnant || 'No'}
+                            </Badge>
+                          )}
                         </div>
-                        {selectedWomensHealth.pregnant === 'Yes' && (
+                        {(selectedWomensHealth.pregnant === 'Yes' ||
+                          editingData.pregnant === 'Yes') && (
                           <div className='flex gap-2'>
                             <span className='text-muted-foreground min-w-[120px]'>
                               Weeks:
                             </span>
-                            <span className='font-medium'>
-                              {selectedWomensHealth.pregnant_weeks || 'N/A'}
-                            </span>
+                            {isEditingPregnancy ? (
+                              <Input
+                                type='number'
+                                value={editingData.pregnant_weeks || ''}
+                                onChange={e =>
+                                  setEditingData(prev => ({
+                                    ...prev,
+                                    pregnant_weeks: e.target.value,
+                                  }))
+                                }
+                                className='w-[200px]'
+                                placeholder='Enter weeks'
+                                min='0'
+                                max='42'
+                              />
+                            ) : (
+                              <span className='font-medium'>
+                                {selectedWomensHealth.pregnant_weeks || 'N/A'}
+                              </span>
+                            )}
                           </div>
                         )}
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Breastfeeding:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.breastfeeding || 'N/A'}
-                          </span>
+                          {isEditingPregnancy ? (
+                            <Select
+                              value={editingData.breastfeeding || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  breastfeeding: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select status' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.breastfeeding || 'N/A'}
+                            </span>
+                          )}
                         </div>
                         <div className='flex gap-2'>
                           <span className='text-muted-foreground min-w-[120px]'>
                             Trying to Conceive:
                           </span>
-                          <span className='font-medium'>
-                            {selectedWomensHealth.concieve || 'N/A'}
-                          </span>
+                          {isEditingPregnancy ? (
+                            <Select
+                              value={editingData.concieve || ''}
+                              onValueChange={value =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  concieve: value,
+                                }))
+                              }
+                            >
+                              <SelectTrigger className='w-[200px]'>
+                                <SelectValue placeholder='Select status' />
+                              </SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value='Yes'>Yes</SelectItem>
+                                <SelectItem value='No'>No</SelectItem>
+                                <SelectItem value='Unknown'>Unknown</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          ) : (
+                            <span className='font-medium'>
+                              {selectedWomensHealth.concieve || 'N/A'}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -1183,7 +1665,7 @@ export default function WomensHealthPage() {
                                   variant='outline'
                                   size='sm'
                                   className='hover-lift'
-                                  onClick={() => setIsEditingNotes(false)}
+                                  onClick={() => cancelEditing('notes')}
                                 >
                                   Cancel
                                 </Button>
@@ -1193,17 +1675,38 @@ export default function WomensHealthPage() {
                                 size='sm'
                                 className='hover-lift'
                                 onClick={() =>
-                                  setIsEditingNotes(!isEditingNotes)
+                                  isEditingNotes
+                                    ? saveEditing('notes')
+                                    : startEditing('notes')
                                 }
+                                disabled={formLoading}
                               >
-                                <Edit className='h-3 w-3 mr-1' />
+                                {formLoading ? (
+                                  <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                                ) : (
+                                  <Edit className='h-3 w-3 mr-1' />
+                                )}
                                 {isEditingNotes ? 'Save' : 'Edit'}
                               </Button>
                             </div>
                           </div>
-                          <div className='text-sm p-3 bg-muted rounded-lg'>
-                            {selectedWomensHealth.notes_text}
-                          </div>
+                          {isEditingNotes ? (
+                            <Textarea
+                              value={editingData.notes_text || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  notes_text: e.target.value,
+                                }))
+                              }
+                              className='text-sm min-h-[80px]'
+                              placeholder='Enter notes...'
+                            />
+                          ) : (
+                            <div className='text-sm p-3 bg-muted rounded-lg'>
+                              {selectedWomensHealth.notes_text}
+                            </div>
+                          )}
                         </div>
                       </>
                     )}
@@ -1224,7 +1727,7 @@ export default function WomensHealthPage() {
                                   size='sm'
                                   className='hover-lift'
                                   onClick={() =>
-                                    setIsEditingRecommendations(false)
+                                    cancelEditing('recommendations')
                                   }
                                 >
                                   Cancel
@@ -1239,19 +1742,38 @@ export default function WomensHealthPage() {
                                 size='sm'
                                 className='hover-lift'
                                 onClick={() =>
-                                  setIsEditingRecommendations(
-                                    !isEditingRecommendations
-                                  )
+                                  isEditingRecommendations
+                                    ? saveEditing('recommendations')
+                                    : startEditing('recommendations')
                                 }
+                                disabled={formLoading}
                               >
-                                <Edit className='h-3 w-3 mr-1' />
+                                {formLoading ? (
+                                  <Loader2 className='h-3 w-3 mr-1 animate-spin' />
+                                ) : (
+                                  <Edit className='h-3 w-3 mr-1' />
+                                )}
                                 {isEditingRecommendations ? 'Save' : 'Edit'}
                               </Button>
                             </div>
                           </div>
-                          <div className='text-sm p-3 bg-blue-50 border border-blue-200 rounded-lg'>
-                            {selectedWomensHealth.recommendation_text}
-                          </div>
+                          {isEditingRecommendations ? (
+                            <Textarea
+                              value={editingData.recommendation_text || ''}
+                              onChange={e =>
+                                setEditingData(prev => ({
+                                  ...prev,
+                                  recommendation_text: e.target.value,
+                                }))
+                              }
+                              className='text-sm min-h-[80px]'
+                              placeholder='Enter recommendations...'
+                            />
+                          ) : (
+                            <div className='text-sm p-3 bg-blue-50 border border-blue-200 rounded-lg'>
+                              {selectedWomensHealth.recommendation_text}
+                            </div>
+                          )}
                         </div>
                       </>
                     )}
@@ -1319,7 +1841,6 @@ export default function WomensHealthPage() {
                         </TableCell>
                         <TableCell>
                           <div className='space-y-1'>
-
                             {womensHealth.mammogram_result && (
                               <Badge
                                 variant={
@@ -1342,7 +1863,6 @@ export default function WomensHealthPage() {
                         </TableCell>
                         <TableCell>
                           <div className='space-y-1'>
-
                             {womensHealth.pap_result && (
                               <Badge
                                 variant={

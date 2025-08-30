@@ -477,7 +477,6 @@ export default function MensHealthPage() {
 
         if (result.unchanged) {
           console.log('No changes detected:', result.message);
-
         } else {
           console.log('Updated fields:', result.changedFields);
           await fetchAllMensHealth();
@@ -485,7 +484,6 @@ export default function MensHealthPage() {
           if (selectedMensHealth && result.record) {
             setSelectedMensHealth(result.record);
           }
-
         }
       } else {
         const error = await response.json();
@@ -518,7 +516,6 @@ export default function MensHealthPage() {
         if (result.unchanged) {
           console.log('No changes detected:', result.message);
           // Show user feedback that no changes were made
-
         } else {
           console.log('Updated fields:', result.changedFields);
           await fetchAllMensHealth();
@@ -526,7 +523,6 @@ export default function MensHealthPage() {
           if (selectedMensHealth && result.record) {
             setSelectedMensHealth(result.record);
           }
-      
         }
       } else {
         const error = await response.json();
@@ -557,7 +553,6 @@ export default function MensHealthPage() {
 
         if (result.unchanged) {
           console.log('No changes detected:', result.message);
-   
         } else {
           console.log('Updated fields:', result.changedFields);
           await fetchAllMensHealth();
@@ -565,7 +560,6 @@ export default function MensHealthPage() {
           if (selectedMensHealth && result.record) {
             setSelectedMensHealth(result.record);
           }
-
         }
       } else {
         const error = await response.json();
@@ -597,7 +591,6 @@ export default function MensHealthPage() {
 
         if (result.unchanged) {
           console.log('No changes detected:', result.message);
-
         } else {
           console.log('Updated fields:', result.changedFields);
           await fetchAllMensHealth();
@@ -605,7 +598,6 @@ export default function MensHealthPage() {
           if (selectedMensHealth && result.record) {
             setSelectedMensHealth(result.record);
           }
-
         }
       } else {
         const error = await response.json();
@@ -636,7 +628,6 @@ export default function MensHealthPage() {
 
         if (result.unchanged) {
           console.log('No changes detected:', result.message);
- 
         } else {
           console.log('Updated fields:', result.changedFields);
           await fetchAllMensHealth();
@@ -644,7 +635,6 @@ export default function MensHealthPage() {
           if (selectedMensHealth && result.record) {
             setSelectedMensHealth(result.record);
           }
-     
         }
       } else {
         const error = await response.json();

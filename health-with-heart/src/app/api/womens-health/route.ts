@@ -235,37 +235,113 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const fields = Object.keys(updateData).filter(
-      key => updateData[key] !== undefined
-    );
-    if (fields.length === 0) {
-      return NextResponse.json(
-        { error: 'No fields to update' },
-        { status: 400 }
-      );
-    }
+    // First, get the existing record to compare values
+    const existingRecordQuery = 'SELECT * FROM womens_health WHERE id = $1';
+    const existingResult = await query(existingRecordQuery, [id]);
 
-    const setClause = fields
-      .map((field, index) => `${field} = $${index + 2}`)
-      .join(', ');
-    const updateQuery = `
-      UPDATE womens_health 
-      SET ${setClause}, date_updated = $1, user_updated = 'system'
-      WHERE id = $${fields.length + 2}
-      RETURNING *
-    `;
-
-    const params = [new Date(), ...fields.map(field => updateData[field]), id];
-    const result = await query(updateQuery, params);
-
-    if (result.rows.length === 0) {
+    if (existingResult.rows.length === 0) {
       return NextResponse.json(
         { error: "Women's health record not found" },
         { status: 404 }
       );
     }
 
-    return NextResponse.json(result.rows[0]);
+    const existingRecord = existingResult.rows[0];
+
+    // Filter out undefined values and only include fields that have actually changed
+    const changedFields: string[] = [];
+    const changedValues: any[] = [];
+    const fieldMappings: { [key: string]: string } = {
+      gynaecological_symptoms: 'gynaecological_symptoms',
+      yes_gynaecological_symptoms: 'yes_gynaecological_symptoms',
+      pap_header: 'pap_header',
+      are_you_header: 'are_you_header',
+      hormonal_contraception: 'hormonal_contraception',
+      hormonel_replacement_therapy: 'hormonel_replacement_therapy',
+      pregnant: 'pregnant',
+      pregnant_weeks: 'pregnant_weeks',
+      breastfeeding: 'breastfeeding',
+      concieve: 'concieve',
+      last_pap: 'last_pap',
+      pap_date: 'pap_date',
+      pap_result: 'pap_result',
+      require_pap: 'require_pap',
+      breast_symptoms: 'breast_symptoms',
+      breast_symptoms_yes: 'breast_symptoms_yes',
+      mammogram_result: 'mammogram_result',
+      last_mammogram: 'last_mammogram',
+      breast_problems: 'breast_problems',
+      require_mamogram: 'require_mamogram',
+      notes_header: 'notes_header',
+      notes_text: 'notes_text',
+      recommendation_text: 'recommendation_text',
+    };
+
+    // Check each field for changes
+    Object.entries(fieldMappings).forEach(([key, dbField]) => {
+      if (
+        updateData[key] !== undefined &&
+        updateData[key] !== existingRecord[dbField]
+      ) {
+        changedFields.push(dbField);
+        changedValues.push(updateData[key]);
+      }
+    });
+
+    // If no fields have changed, return the existing record
+    if (changedFields.length === 0) {
+      return NextResponse.json(
+        {
+          ...existingRecord,
+          message: 'No changes detected',
+          changedFields: [],
+          unchangedFields: Object.keys(fieldMappings).filter(
+            key => !changedFields.includes(fieldMappings[key])
+          ),
+        },
+        { status: 200 }
+      );
+    }
+
+    // Build dynamic update query for only changed fields
+    const setClause = changedFields
+      .map((field, index) => `${field} = $${index + 2}`)
+      .join(', ');
+
+    const updateQuery = `
+      UPDATE womens_health 
+      SET ${setClause}, date_updated = $1, user_updated = 'system'
+      WHERE id = $${changedFields.length + 2}
+      RETURNING *
+    `;
+
+    const params = [new Date(), ...changedValues, id];
+
+    console.log('PUT - Update query:', updateQuery);
+    console.log('PUT - Changed fields:', changedFields);
+    console.log('PUT - Changed values:', changedValues);
+    console.log('PUT - Query parameters:', params);
+
+    const result = await query(updateQuery, params);
+
+    if (result.rows.length === 0) {
+      return NextResponse.json(
+        { error: "Women's health record not found" },
+        { status: 400 }
+      );
+    }
+
+    const updatedRecord = result.rows[0];
+
+    // Return the updated record with success message
+    return NextResponse.json({
+      ...updatedRecord,
+      message: `Successfully updated ${changedFields.length} field(s): ${changedFields.join(', ')}`,
+      changedFields,
+      unchangedFields: Object.keys(fieldMappings).filter(
+        key => !changedFields.includes(fieldMappings[key])
+      ),
+    });
   } catch (error) {
     console.error("Error updating women's health record:", error);
     return NextResponse.json(
@@ -304,6 +380,161 @@ export async function DELETE(request: NextRequest) {
     console.error("Error deleting women's health record:", error);
     return NextResponse.json(
       { error: "Failed to delete women's health record" },
+      { status: 500 }
+    );
+  }
+}
+
+export async function PATCH(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const { id, section, ...updateData } = body;
+
+    if (!id) {
+      return NextResponse.json(
+        { error: 'ID is required for update' },
+        { status: 400 }
+      );
+    }
+
+    if (!section) {
+      return NextResponse.json(
+        { error: 'Section is required for partial update' },
+        { status: 400 }
+      );
+    }
+
+    // Get the existing record to compare values
+    const existingRecordQuery = 'SELECT * FROM womens_health WHERE id = $1';
+    const existingResult = await query(existingRecordQuery, [id]);
+
+    if (existingResult.rows.length === 0) {
+      return NextResponse.json(
+        { error: "Women's health record not found" },
+        { status: 404 }
+      );
+    }
+
+    const existingRecord = existingResult.rows[0];
+
+    // Define section-specific field mappings
+    const sectionFieldMappings: { [key: string]: { [key: string]: string } } = {
+      gynaecological: {
+        gynaecological_symptoms: 'gynaecological_symptoms',
+        yes_gynaecological_symptoms: 'yes_gynaecological_symptoms',
+        hormonal_contraception: 'hormonal_contraception',
+        hormonel_replacement_therapy: 'hormonel_replacement_therapy',
+      },
+      pap: {
+        last_pap: 'last_pap',
+        pap_date: 'pap_date',
+        pap_result: 'pap_result',
+        require_pap: 'require_pap',
+      },
+      breast: {
+        breast_symptoms: 'breast_symptoms',
+        breast_symptoms_yes: 'breast_symptoms_yes',
+        mammogram_result: 'mammogram_result',
+        last_mammogram: 'last_mammogram',
+        breast_problems: 'breast_problems',
+        require_mamogram: 'require_mamogram',
+      },
+      pregnancy: {
+        pregnant: 'pregnant',
+        pregnant_weeks: 'pregnant_weeks',
+        breastfeeding: 'breastfeeding',
+        concieve: 'concieve',
+      },
+      notes: {
+        notes_text: 'notes_text',
+      },
+      recommendations: {
+        recommendation_text: 'recommendation_text',
+      },
+    };
+
+    const fieldMappings = sectionFieldMappings[section];
+    if (!fieldMappings) {
+      return NextResponse.json(
+        { error: `Invalid section: ${section}` },
+        { status: 400 }
+      );
+    }
+
+    // Filter out undefined values and only include fields that have actually changed
+    const changedFields: string[] = [];
+    const changedValues: any[] = [];
+
+    Object.entries(fieldMappings).forEach(([key, dbField]) => {
+      if (
+        updateData[key] !== undefined &&
+        updateData[key] !== existingRecord[dbField]
+      ) {
+        changedFields.push(dbField);
+        changedValues.push(updateData[key]);
+      }
+    });
+
+    // If no fields have changed, return the existing record
+    if (changedFields.length === 0) {
+      return NextResponse.json(
+        {
+          ...existingRecord,
+          message: 'No changes detected',
+          changedFields: [],
+          unchangedFields: Object.keys(fieldMappings),
+        },
+        { status: 200 }
+      );
+    }
+
+    // Build dynamic update query for only changed fields
+    const setClause = changedFields
+      .map((field, index) => `${field} = $${index + 2}`)
+      .join(', ');
+
+    const updateQuery = `
+      UPDATE womens_health 
+      SET ${setClause}, date_updated = $1, user_updated = 'system'
+      WHERE id = $${changedFields.length + 2}
+      RETURNING *
+    `;
+
+    const params = [new Date(), ...changedValues, id];
+
+    console.log(`PATCH ${section} - Update query:`, updateQuery);
+    console.log(`PATCH ${section} - Changed fields:`, changedFields);
+    console.log(`PATCH ${section} - Changed values:`, changedValues);
+    console.log(`PATCH ${section} - Query parameters:`, params);
+
+    const result = await query(updateQuery, params);
+
+    if (result.rows.length === 0) {
+      return NextResponse.json(
+        { error: "Women's health record not found" },
+        { status: 404 }
+      );
+    }
+
+    const updatedRecord = result.rows[0];
+
+    // Return the updated record with success message
+    return NextResponse.json({
+      ...updatedRecord,
+      message: `Successfully updated ${section} section: ${changedFields.length} field(s) changed`,
+      section,
+      changedFields,
+      unchangedFields: Object.keys(fieldMappings).filter(
+        key => !changedFields.includes(fieldMappings[key])
+      ),
+    });
+  } catch (error) {
+    console.error(
+      "Error performing partial update on women's health record:",
+      error
+    );
+    return NextResponse.json(
+      { error: "Failed to perform partial update on women's health record" },
       { status: 500 }
     );
   }

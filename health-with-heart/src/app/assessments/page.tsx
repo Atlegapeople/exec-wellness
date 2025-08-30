@@ -112,6 +112,16 @@ export default function AssessmentsPage() {
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
+
+  // Editing states for different sections
+  const [isEditingHeader, setIsEditingHeader] = useState(false);
+  const [isEditingDetails, setIsEditingDetails] = useState(false);
+  const [isEditingRecord, setIsEditingRecord] = useState(false);
+
+  // Editing data for inline editing
+  const [editingData, setEditingData] = useState<Partial<AssessmentRecord>>({});
+
+  // Form states
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [editingAssessment, setEditingAssessment] =
     useState<AssessmentRecord | null>(null);
