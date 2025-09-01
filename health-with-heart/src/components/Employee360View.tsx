@@ -26,8 +26,8 @@ const MODULE_ROUTES: Record<string, string> = {
   employee_medical_history: '/medical-history',
   emergency_responses: '/emergency-responses',
   documents: '/employees',
-  eyesight: '/employees',
-  noise: '/employees',
+  // eyesight: '/employees',
+  // noise: '/employees',
   mental_health: '/employees',
   infectiouse_disease: '/employees',
   mens_health: '/mens-health',
@@ -72,7 +72,7 @@ export default function Employee360View({
     // Filter out documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate of vitals), and gender-specific modules based on employee gender
     const employeeGender = employee.gender?.toLowerCase();
     const filteredData = statusData.filter(status => {
-      // Always exclude documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate), and TB screening
+      // Always exclude documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate), TB screening, noise, and eyesight
       if (
         [
           'documents',
@@ -82,6 +82,8 @@ export default function Employee360View({
           'assesment',
           'clinical_examinations',
           'screening_tb',
+          'noise',
+          'eyesight',
         ].includes(status.table_name)
       )
         return false;
