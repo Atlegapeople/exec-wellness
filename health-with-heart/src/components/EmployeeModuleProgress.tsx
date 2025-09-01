@@ -22,7 +22,7 @@ export default function EmployeeModuleProgress({ employeeId, employee }: Employe
     const employeeGender = employee.gender?.toLowerCase();
     return statusData.filter(status => {
       // Always exclude documents, current complaints, emergency responses, infectious disease, assessments, clinical examinations (duplicate), and TB screening
-      if (['documents', 'current_complaints', 'emergency_responses', 'infectiouse_disease', 'assesment', 'clinical_examinations', 'screening_tb'].includes(status.table_name)) return false;
+      if (['documents', 'current_complaints', 'emergency_responses', 'infectiouse_disease', 'assesment', 'clinical_examinations', 'screening_tb', 'noise', 'eyesight'].includes(status.table_name)) return false;
       
       // Filter gender-specific modules
       if (status.table_name === 'mens_health' && employeeGender !== 'male' && employeeGender !== 'm') {
