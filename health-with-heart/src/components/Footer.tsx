@@ -97,7 +97,7 @@ export default function Footer() {
                 <Button
                   variant='ghost'
                   size='sm'
-                  className='justify-start p-0 h-auto text-sm w-full'
+                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
                   asChild
                 >
                   <a
@@ -111,7 +111,7 @@ export default function Footer() {
                 <Button
                   variant='ghost'
                   size='sm'
-                  className='justify-start p-0 h-auto text-sm w-full'
+                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
                   asChild
                 >
                   <a href='/reports' className='flex items-center gap-2 w-full'>
@@ -122,7 +122,7 @@ export default function Footer() {
                 <Button
                   variant='ghost'
                   size='sm'
-                  className='justify-start p-0 h-auto text-sm w-full'
+                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
                   asChild
                 >
                   <a
@@ -136,7 +136,7 @@ export default function Footer() {
                 <Button
                   variant='ghost'
                   size='sm'
-                  className='justify-start p-0 h-auto text-sm w-full'
+                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
                   asChild
                 >
                   <a
