@@ -101,6 +101,12 @@ const menuSections: MenuSection[] = [
         description: 'Vital signs and clinical metrics',
       },
       {
+        title: 'Vital Statistics',
+        href: '/vital-statistics',
+        icon: Activity,
+        description: 'Vital signs and health metrics',
+      },
+      {
         title: 'Medical Assessments',
         href: '/assessments',
         icon: ClipboardList,
@@ -221,29 +227,6 @@ const menuSections: MenuSection[] = [
     ],
   },
   {
-    title: 'Reports & Analytics',
-    items: [
-      {
-        title: 'Health Trends',
-        href: '/health-trends',
-        icon: TrendingUp,
-        description: 'Health trend analysis',
-      },
-      {
-        title: 'Performance Reports',
-        href: '/performance',
-        icon: FileBarChart,
-        description: 'Performance and productivity reports',
-      },
-      {
-        title: 'Vital Statistics',
-        href: '/vitals',
-        icon: Activity,
-        description: 'Vital signs and health metrics',
-      },
-    ],
-  },
-  {
     title: 'System',
     items: [
       {
@@ -252,12 +235,6 @@ const menuSections: MenuSection[] = [
         icon: Bell,
         badge: '3',
         description: 'System alerts and notifications',
-      },
-      {
-        title: 'Data Management',
-        href: '/data',
-        icon: Database,
-        description: 'Data import/export and backup',
       },
       {
         title: 'Settings',
@@ -336,8 +313,8 @@ export default function Sidebar({ className }: SidebarProps) {
       )}
 
       {/* Navigation */}
-      <div className='flex-1 overflow-y-auto py-4 scrollbar-thin'>
-        <nav className='space-y-6'>
+      <div className='flex-1 overflow-y-auto overflow-x-hidden py-4 scrollbar-thin'>
+        <nav className='space-y-6 w-full'>
           {menuSections.map((section, sectionIndex) => (
             <div key={section.title}>
               {!isCollapsed && (
@@ -348,7 +325,7 @@ export default function Sidebar({ className }: SidebarProps) {
                 </div>
               )}
 
-              <div className='space-y-1 px-2'>
+              <div className='space-y-1 px-2 w-full'>
                 {section.items.map(item => {
                   const Icon = item.icon;
                   const active = isActive(item.href);
@@ -379,13 +356,15 @@ export default function Sidebar({ className }: SidebarProps) {
 
                         {!isCollapsed && (
                           <>
-                            <div className='flex-1 min-w-0'>
-                              <div className='flex items-center justify-between'>
-                                <span className='truncate'>{item.title}</span>
+                            <div className='flex-1 min-w-0 overflow-hidden'>
+                              <div className='flex items-center justify-between w-full'>
+                                <span className='truncate flex-1'>
+                                  {item.title}
+                                </span>
                                 {item.badge && (
                                   <Badge
                                     variant='secondary'
-                                    className='ml-2 h-5 px-2 text-xs'
+                                    className='ml-2 h-5 px-2 text-xs flex-shrink-0'
                                   >
                                     {item.badge}
                                   </Badge>

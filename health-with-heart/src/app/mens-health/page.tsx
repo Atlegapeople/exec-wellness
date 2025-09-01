@@ -1045,9 +1045,9 @@ export default function MensHealthPage() {
                             <TableCell>
                               <Badge
                                 variant={
-                                  mensHealth.require_urologist === 'Yes'
+                                  mensHealth.require_urologist === true
                                     ? 'destructive'
-                                    : mensHealth.require_urologist === 'No'
+                                    : mensHealth.require_urologist === false
                                       ? 'secondary'
                                       : 'outline'
                                 }
