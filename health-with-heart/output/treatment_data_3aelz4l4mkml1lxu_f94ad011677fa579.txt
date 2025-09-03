@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:46
+Employee ID: 3aelz4l4mkml1lxu
+Report ID: f94ad011677fa579
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Rejoice Bekezulu
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: cholesterol , ARV
+Special Investigation Notes: None
+------------------------------
+Employee: Rejoice Bekezulu
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Multivitamin
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,51 @@
+{
+  "employee_id": "44c6d26edc68fcd5",
+  "employee_name": "Khumbulani Kenneth Mlotshwa",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-18",
+      "report_id": "326bf95d3b8578d2",
+      "report_date": "2022-08-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khumbulani Kenneth Mlotshwa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Small red bumps noted on your abdomen and a few on your back. Consider seeing a dermatologist to diagnose what they are.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please watch the sugar in your diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Your vitamin D levels are very low and your cholesterol is marginally raised, please follow the advice given with regards to this. Your kidney function was borderline - so please recheck this in 3 months and avoid taking anti-inflammatories.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:37:40",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

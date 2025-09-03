@@ -1,0 +1,63 @@
+{
+  "employee_id": "5839526d80591935",
+  "employee_name": "Arnold Human",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "b42ea465d585f303",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Arnold Human",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy screen due from the age of 45 - 50. Ask your doctor to help refer you next year.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reduce cm around your waist rather than the number on the scale to improve your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase BMI and waist circumference. Reduce cm around your waist rather than the number on the scale to improve your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new changes to your doctor for further review.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new changes to your doctor for further review.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:50:48",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

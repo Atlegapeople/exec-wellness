@@ -1,0 +1,63 @@
+{
+  "employee_id": "449d2849e6ff8380",
+  "employee_name": "Martin Cohen",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-05",
+      "report_id": "7cb823387bc9002f",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Martin Cohen",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Wears glasses (short sighted) - Please remember to keep up with your annual Optometry consultations.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Martin it is recommended that from the age of 50 you go for a prostate examination/ultrasound.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your body fat percentage is on the high side. Please pay attention to your diet and exercise.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please pay attention to your lifestyle in terms of your diet (decrease sugar) and increase your exercise.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Waist to height ratio increased. Please aim for waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:37:15",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

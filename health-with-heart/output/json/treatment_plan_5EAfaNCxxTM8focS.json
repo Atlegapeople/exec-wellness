@@ -1,0 +1,75 @@
+{
+  "employee_id": "5EAfaNCxxTM8focS",
+  "employee_name": "Lusani Konyana",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "MboejEw67WCucg2a",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lusani Konyana",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal hearing, please see full report.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No specific men's health recommendations found.",
+          "status": "Not specified",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI doesn't account for body composition, which means it misses the difference between muscle mass and fat because muscles are more dense and heavier than fat.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "An annual bone density screen for osteoporosis and colonoscopy for colon cancer is recommended from age 50.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "No specific monitoring recommendations found.",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "No specific referral recommendations found.",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNote"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "No specific follow-up recommendations found.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:54:26",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

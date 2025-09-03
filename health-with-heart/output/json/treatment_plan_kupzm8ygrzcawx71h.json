@@ -1,0 +1,98 @@
+{
+  "employee_id": "kupzm8ygrzcawx71h",
+  "employee_name": "Samantha Forbes or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2020-12-01",
+      "report_id": "or4ria9oie0aeqd8m",
+      "report_date": "Report date not specified",
+      "doctor": "Christie Pilossof or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Samantha Forbes or Not specified",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Repeat your mammogram yearly and your pap smear every 1 - 2 years.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Slightly increased cholesterol: try to manage with lifestyle alone. Supplement with 2g per day of omega 3.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Suboptimal Vitamin D level. Supplement with Vitamin D.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-31",
+      "report_id": "042a80e22e93f8da",
+      "report_date": "Report date from the data or 'Not specified'",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Samantha Forbes",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Repeat your mammogram yearly",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Repeat your pap smear every 1 - 2 years",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-19",
+      "report_id": "Not specified",
+      "report_date": "2025-03-19",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Samantha Shipway (Forbes)",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Repeat your mammogram yearly and your pap smear every 1 - 2 years.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Menopausal changes can be difficult to navigate. Please speak to your doctor to find ways to help you through this period.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "-Supplement with Rychol to improve cholesterol. Ensure enough water intake daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:21:18",
+  "total_reports": 3,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof or Not specified",
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

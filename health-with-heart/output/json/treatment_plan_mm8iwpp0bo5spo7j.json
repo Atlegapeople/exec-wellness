@@ -1,0 +1,73 @@
+{
+  "employee_id": "mm8iwpp0bo5spo7j",
+  "employee_name": "Arun Varughese",
+  "treatment_timeline": [
+    {
+      "date": "2024-11-06",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Arun Varughese",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Refine your everyday lifestyle choices for improved future health. These adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Omega-3 supplements daily.",
+          "status": "Planned",
+          "source_field": "Lifestyle Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-23",
+      "report_id": "e6dd15d45709f0ea",
+      "report_date": "2025-07-23",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Arun Varughese",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please review this with one of our doctor in 1 month for further investigation if still elevated.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:31:09",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "83x3vdaw3kwdfddx",
+  "employee_name": "Shantel Francis",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-17",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Shantel Francis",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "You are up to date with your women's health screening, which is important for early detection. Given your strong family history of breast cancer, it’s reassuring that you maintain yearly mammograms to catch any concerns early.",
+          "status": "Completed",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-26",
+      "report_id": "104f56ea94b62736",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Shantel Francis",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "You are up to date with your women's health screening, which is important for early detection. Given your strong family history of breast cancer, it’s reassuring that you maintain yearly mammograms to catch any concerns early.",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:22:40",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Masha Tisetso",
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

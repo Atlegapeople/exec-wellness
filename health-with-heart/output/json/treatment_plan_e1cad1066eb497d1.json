@@ -1,0 +1,45 @@
+{
+  "employee_id": "e1cad1066eb497d1",
+  "employee_name": "Dora Phetla",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-18",
+      "report_id": "b34e8877f5797b57",
+      "report_date": "2023-05-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dora Phetla",
+      "actions": [
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please try to increase your activity levels and optimise your vitamin B & D levels",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Please take Stellar Activ-Folate/Metagenics MethylCare & recheck the level in 6 months. Aim for <7 umol/l",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:37:21",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

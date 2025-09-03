@@ -1,0 +1,45 @@
+{
+  "employee_id": "a47c206fb455fa54",
+  "employee_name": "Lehlohonolo Magooa",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-08",
+      "report_id": "a214a01638e6c00a",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lehlohonolo Magooa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Runny nose, swollen nasal turbinates - Avamys, Cetirizine prescribed",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "In order to limit cardiovascular risk aim for BMI <25 and waist to height ratio of <50%",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram as requested",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:19",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

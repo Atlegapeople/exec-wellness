@@ -1,0 +1,33 @@
+{
+  "employee_id": "f8c3f7b29a544ad3",
+  "employee_name": "Mdumiseni Mlambo",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-16",
+      "report_id": "a3a0c7285c344dd1",
+      "report_date": "2021-03-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Mdumiseni Mlambo",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "PH6 , SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:50:30",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

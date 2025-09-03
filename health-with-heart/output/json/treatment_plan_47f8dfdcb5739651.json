@@ -1,0 +1,45 @@
+{
+  "employee_id": "47f8dfdcb5739651",
+  "employee_name": "Meliska Kandhai",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-21",
+      "report_id": "e2eaa3dc5fdd3942",
+      "report_date": "2023-07-06",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Meliska Kandhai",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please recheck the level in 3 months after lifestyle changes have been implemented.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Try to increase exercise and fitness levels slowly.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:38:25",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

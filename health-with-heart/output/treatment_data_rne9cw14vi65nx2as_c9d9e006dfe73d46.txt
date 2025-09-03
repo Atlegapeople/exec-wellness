@@ -1,0 +1,1505 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:30
+Employee ID: rne9cw14vi65nx2as
+Report ID: c9d9e006dfe73d46
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor , Antihypertensives , Anti-arrhythmics
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor , Antihypertensives , Anti-arrhythmics
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor , Antihypertensives , Anti-arrhythmics
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestRecommendation
+Comment Value: 1. Your kidney filtration rate is mildly decreased.  Repeat the test in 3 months when well hydrated (not fasting) to monitor the trend.
+2. Cholesterol is well controlled on medication.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestRecommendation
+Comment Value: 1. Your kidney filtration rate is mildly decreased.  Repeat the test in 3 months when well hydrated (not fasting) to monitor the trend.
+2. Cholesterol is well controlled on medication.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestRecommendation
+Comment Value: 1. Your kidney filtration rate is mildly decreased.  Repeat the test in 3 months when well hydrated (not fasting) to monitor the trend.
+2. Cholesterol is well controlled on medication.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleRecommendation
+Comment Value: You generally live a healthy lifestyle.  Keep making healthy choices to reduce the progression of chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleRecommendation
+Comment Value: You generally live a healthy lifestyle.  Keep making healthy choices to reduce the progression of chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleRecommendation
+Comment Value: You generally live a healthy lifestyle.  Keep making healthy choices to reduce the progression of chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryNote
+Comment Value: Martin it was a pleasure to do your medical today, There were no issues detected and your bloods looked great. Your blood pressure and cholesterol levels look well controlled on your meds. The only area that needs more attention is to make sure you get enough rest and down time and try and keep your stress levels down. We wish you a happy and healthy year!
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryNote
+Comment Value: Martin it was a pleasure to do your medical today, There were no issues detected and your bloods looked great. Your blood pressure and cholesterol levels look well controlled on your meds. The only area that needs more attention is to make sure you get enough rest and down time and try and keep your stress levels down. We wish you a happy and healthy year!
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryNote
+Comment Value: Martin it was a pleasure to do your medical today, There were no issues detected and your bloods looked great. Your blood pressure and cholesterol levels look well controlled on your meds. The only area that needs more attention is to make sure you get enough rest and down time and try and keep your stress levels down. We wish you a happy and healthy year!
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Follow up with your cardiologist as recommended to manage your AF well.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Follow up with your cardiologist as recommended to manage your AF well.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Follow up with your cardiologist as recommended to manage your AF well.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthRecommendation
+Comment Value: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthRecommendation
+Comment Value: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthRecommendation
+Comment Value: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Please monitor and visit a GP if you feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Please monitor and visit a GP if you feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Please monitor and visit a GP if you feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: A new Colonoscopy screen (+-  G-scope) recommended. Ask one of our GP's to help refer you in the new year.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: A new Colonoscopy screen (+-  G-scope) recommended. Ask one of our GP's to help refer you in the new year.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: A new Colonoscopy screen (+-  G-scope) recommended. Ask one of our GP's to help refer you in the new year.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsRecommendation
+Comment Value: Your waist circumference is more important than a number on the scale. Focus on building muscle rather than loosing kg.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsRecommendation
+Comment Value: Your waist circumference is more important than a number on the scale. Focus on building muscle rather than loosing kg.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsRecommendation
+Comment Value: Your waist circumference is more important than a number on the scale. Focus on building muscle rather than loosing kg.
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Martin Oberholster
+Report Date: 2022-12-07
+Doctor: Janine Silberbauer
+Nurse: Rebecca Mogale
+Clinical Recommendations: 
+Men's Health Recommendations: Normal prostate screen on blood test.  Monitor for any urinary symptoms and visit your GP for a review +- referral to a urologist if any symptoms occur.
+Women's Health Recommendations: 
+Overview Notes: Dear Martin, thank you for allowing us to help you identify any health concerns with this personalized screen.  You are already following up with a cardiologist and a dermatologist regularly.  From our side I would like to monitor your kidney function. You generally live a very healthy lifestyle which is positive for your future health. Repeat the tests that were abnormal in 3- 6months to review. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-10-27 - 2020-10-27
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2022-01-27 - 2022-01-27
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2022-01-27 - 2022-01-27
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

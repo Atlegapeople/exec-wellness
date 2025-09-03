@@ -1,0 +1,45 @@
+{
+  "employee_id": "8b531257043bcbb3",
+  "employee_name": "Anthony Ian Tait or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-03",
+      "report_id": "11cab43c4b83c814",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole or Not specified",
+      "nurse": "Rebecca Mogale or Not specified",
+      "employee_name": "Anthony Ian Tait or Not specified",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Increased waist circumference (> cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:27:50",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole or Not specified"
+    ],
+    "nurses": [
+      "Rebecca Mogale or Not specified"
+    ]
+  }
+}

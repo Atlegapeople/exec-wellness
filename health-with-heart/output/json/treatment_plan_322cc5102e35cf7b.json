@@ -1,0 +1,69 @@
+{
+  "employee_id": "322cc5102e35cf7b",
+  "employee_name": "Ushana Chetty",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-29",
+      "report_id": "d220fed8574ef879",
+      "report_date": "2023-06-29",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ushana Chetty",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your NervIQ exam suggests you are pushing into sympathetic (fight or flight) overdrive. Please prioritize rest, relaxation and mindful self-care.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Very low VO2 max - try to increase fitness.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal lung function - consider repeating, if remains low consider pulmonologist assessment.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please watch your sugar consumption.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Very low VO2 max - try to increase fitness.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your NervIQ exam suggests you are pushing into sympathetic (fight or flight) overdrive. Please prioritize rest, relaxation and mindful self-care.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:22:46",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

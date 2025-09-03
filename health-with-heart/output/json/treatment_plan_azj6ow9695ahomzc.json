@@ -1,0 +1,45 @@
+{
+  "employee_id": "azj6ow9695ahomzc",
+  "employee_name": "Emelia Botha",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-23",
+      "report_id": "a676c0ad8dd2d617",
+      "report_date": "2022-08-31",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Emelia Botha",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue going for your annual papsmear and mammogram.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a BMI < 25 and a waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:57:18",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

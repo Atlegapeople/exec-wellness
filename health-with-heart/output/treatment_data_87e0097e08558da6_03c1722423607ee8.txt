@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 87e0097e08558da6
+Report ID: 03c1722423607ee8
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Boithabiso Khabo
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Has 3+ Leucocytes, asymptomatic
+------------------------------
+Employee: Boithabiso Khabo
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Has 3+ Leucocytes, asymptomatic
+------------------------------
+Employee: Boithabiso Khabo
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Has 3+ Leucocytes, asymptomatic
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

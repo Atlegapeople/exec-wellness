@@ -1,0 +1,45 @@
+{
+  "employee_id": "021vxgcdh9yxec3n",
+  "employee_name": "Sachin Arjun",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-25",
+      "report_id": "dd3bc822b5817aff",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sachin Arjun",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Audio report: Left ear - Mild to moderate sloping high frequency hearing loss detected. A full audiogram is recommended as a retest, as well as to determine the type and nature of this loss to guide potential management.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "- Increased waist circumference (> 90cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Collagen , Probiotics , whey , Creatinine",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:54:15",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

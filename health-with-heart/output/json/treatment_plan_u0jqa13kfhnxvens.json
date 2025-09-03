@@ -1,0 +1,63 @@
+{
+  "employee_id": "u0jqa13kfhnxvens",
+  "employee_name": "Esli Rall",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-28",
+      "report_id": "692d0df82d2ea5ef",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Esli Rall",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "The hearing test showed hearing loss in the left ear (which may be the cause of the tinnitus). Please see an audiologist for a full audiogram to determine the type of hearing loss.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce the risk of chronic disease it is ideal to maintain a BMI < 25 and waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please monitor your BP since the Diastolic (lower) reading is high (normal range is <85 mmHg).",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please prioritise rest/relaxation since persistent stress can contribute to elevated blood pressure.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Repeat BP improved to 128/96 mmHg.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Alkaline powder , Bio77",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:09:58",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

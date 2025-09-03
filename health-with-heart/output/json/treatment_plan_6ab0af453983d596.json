@@ -1,0 +1,39 @@
+{
+  "employee_id": "6ab0af453983d596",
+  "employee_name": "Chrisna Dippenaar",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-29",
+      "report_id": "98c588f50d50d8b4",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Chrisna Dippenaar",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 27.8 is raised. Waist-to-height ratio at 48.5 is normal. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50% in order to lower your risk of conditions such as diabetes & hypertension.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-From the age of 45 cancer screening is recommended. In addition to the mammogram & Pap smear, colonoscopy & gastroscopy are encouraged.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:02:23",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

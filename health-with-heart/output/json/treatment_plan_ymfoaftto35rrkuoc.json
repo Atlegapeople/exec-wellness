@@ -1,0 +1,96 @@
+{
+  "employee_id": "ymfoaftto35rrkuoc",
+  "employee_name": "Alison Badenhorst",
+  "treatment_timeline": [
+    {
+      "date": "2020-09-22",
+      "report_id": "0hcz45wh3v8qobbj0",
+      "report_date": "2020-09-22",
+      "doctor": "Not specified",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alison Badenhorst",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-28",
+      "report_id": "Not specified",
+      "report_date": "2024-11-28",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alison Badenhorst",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Please repeat your Pap smear as advised. The early detection of abnormalities can save lives",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Monitor cholesterol levels & make the necessary diet changes",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "-Supplement with magnesium gylcinate for better sleep",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-28",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alison Badenhorst",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-28",
+      "report_id": "6d55ef9fff328c3c",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Alison Badenhorst",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:28:36",
+  "total_reports": 4,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Joy Sitole",
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Ntombikayise Seane"
+    ]
+  }
+}

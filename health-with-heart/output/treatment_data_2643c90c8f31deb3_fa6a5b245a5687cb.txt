@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:49
+Employee ID: 2643c90c8f31deb3
+Report ID: fa6a5b245a5687cb
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Victor Mphahlele
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Proteins trace
+------------------------------
+Employee: Victor Mphahlele
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Proteins trace
+------------------------------
+Employee: Victor Mphahlele
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Proteins trace
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

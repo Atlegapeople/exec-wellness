@@ -1,0 +1,63 @@
+{
+  "employee_id": "p67gdwh7vnle35g1",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-28",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Audiology test showed a mild component of hearing loss at 8kHz in the right ear. Repeat full audio gram in 6 months.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consider going to www.primehearing.co.za",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "- Insumax , Evening Primrose Oil , Vitamin C , Calciferol",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "- Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:44:14",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

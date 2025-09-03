@@ -1,0 +1,45 @@
+{
+  "employee_id": "6dkj1jqxacum092r0",
+  "employee_name": "Glenn Brickhill",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-20",
+      "report_id": "mat81dsokthnhfopy",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Glenn Brickhill",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Frequent exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Consider supplementing with 2g of omega 3 fish oil daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:04:21",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

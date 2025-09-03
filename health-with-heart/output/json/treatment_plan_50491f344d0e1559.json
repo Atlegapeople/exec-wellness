@@ -1,0 +1,86 @@
+{
+  "employee_id": "50491f344d0e1559",
+  "employee_name": "Donald Khumalo",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-04",
+      "report_id": "dabf50ba8452aa8c",
+      "report_date": "2023-04-04",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Donald Khumalo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue to monitoring renal and cardiac health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Review liver function, uric acid and cholesterol levels in 3-6 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Include a variety of fresh fruit and veggies in your daily meals. Avoid foods high in saturated fats and purines.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on active rest to combat fatigue.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A follow-up appointment on 2025-08-21.",
+          "status": "Planned",
+          "source_field": "APPOINTMENTS"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consult a doctor for further evaluation and management of high BP.",
+          "status": "Referral",
+          "source_field": "Notes"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "6b62783f3f9b0e03",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Aphiwo Masondo",
+      "employee_name": "Donald Khumalo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Lotemax (ChronicMedicationList)",
+          "status": "Not specified",
+          "source_field": "Comment Key: ChronicMedicationList, Comment Value: Lotemax"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:45:30",
+  "total_reports": 2,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Aphiwo Masondo",
+      "Rebecca Mogale"
+    ]
+  }
+}

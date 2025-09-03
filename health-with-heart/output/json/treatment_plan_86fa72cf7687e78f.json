@@ -1,0 +1,57 @@
+{
+  "employee_id": "86fa72cf7687e78f",
+  "employee_name": "Mandisa Jiyane",
+  "treatment_timeline": [
+    {
+      "date": "2024-01-23",
+      "report_id": "5d1e0181e36508ff",
+      "report_date": "2023-12-13",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mandisa Jiyane",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular Pap smear screening is important so that we can detect any irregularities early. This can be done at our practice.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Good sleep quality is important for your daily functioning as well as your general well being. Keep working on a good bedtime rhythm.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I am glad to hear that you are currently doing well with no concerns. If any symptoms arise, you can consult your GP for further investigation.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regular self breast examinations are recommended. If you pick up any irregularities to consult for further investigation.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:25:30",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "employee_id": "iM5nbBmKNdVQjtff",
+  "employee_name": "Abongile Vambe",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "Xk6pkDp7DKtnCasy",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Abongile Vambe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 29.9 is slightly raised. This increases the risk of conditions such as diabetes & hypertension.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase the intensity of your exercise so you can improve your fitness levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A repeat lung function test is advised.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Pay close attention to your period, cholesterol & GGT levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor your cycle, if our period continues to be irregular discuss this with your GP or Gynaecologist.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:08:22",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "9b3a9c320f1699eb",
+  "employee_name": "Roy Etienne",
+  "treatment_timeline": [
+    {
+      "date": "2024-03-28",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Keamogetse Selabe",
+      "employee_name": "Roy Etienne",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Clinically you have a low weight, however still showing to be within a normal BMI range. With improved nutrition and supplementation, your overall muscle mass and body stores will increase.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Currently you report no concerning symptoms. If anything arises you can consult your family doctor/ GP. As you get older (>40 years), regular prostate screening can be done. This includes a PSA blood level (prostate screening marker).",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "There were a few areas that we identify as currently causing low energy levels & general fatigue. However these can definitely be improved and restored.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I recommend consulting a dietician to help you with your nutritional intake.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "We also discussed the benefits of supplementing and replacing your Vitamin D and B12 levels.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:38:08",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Keamogetse Selabe"
+    ]
+  }
+}

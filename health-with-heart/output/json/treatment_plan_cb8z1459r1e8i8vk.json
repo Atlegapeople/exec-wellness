@@ -1,0 +1,26 @@
+{
+  "employee_id": "cb8z1459r1e8i8vk",
+  "employee_name": "Chad Mentor",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "f23ea52e374e101f",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Chad Mentor",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

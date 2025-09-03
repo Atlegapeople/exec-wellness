@@ -1,0 +1,33 @@
+{
+  "employee_id": "2846a58059c617bc",
+  "employee_name": "Aletta Ntuli",
+  "treatment_timeline": [
+    {
+      "date": "2021-05-11",
+      "report_id": "2b6b2f55e77234b1",
+      "report_date": "2021-05-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Aletta Ntuli",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "S.G 1.030 Ph 6 NAD",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:15:42",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

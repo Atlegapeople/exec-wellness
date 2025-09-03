@@ -1,0 +1,114 @@
+{
+  "employee_id": "zjzfl8v9bivldlkcv",
+  "employee_name": "Judy Kobus",
+  "treatment_timeline": [
+    {
+      "date": "2020-11-17",
+      "report_id": "08xbeqrz9ou7l29z5",
+      "report_date": "2020-11-17",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Judy Kobus",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "I am glad to hear that you are up-to-date with your screening (Mammogram/ Pap smear). Regular review helps to detect any abnormalities early & improves management outcomes.",
+          "status": "Completed",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Another screening scan that to be done is a Bone Density. This can be done through any radiology department.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "We use body mass index (BMI) and waist to height ratio (WHtR) to assess the distribution of excess body fat. People who carry more weight around their mid section, are at higher risk for heart disease, type 2 diabetes and cancer. Your BMI and your waist circumference are high. Try to reduce your BMI to 25 and waist circumference to 80 cm.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Deficient vitamin D level: supplement with vitamin D and recheck in 4 to 6 months aiming for a level between 50 to 80 ng/ml. Vitamin D is not only important for your bones but also your mood and cognitive health. It is also has anti-inflammatory and anti-cancer properties.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-11-30",
+      "report_id": "k8dkitj1isxj8mgcb",
+      "report_date": "2021-11-30",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Judy Kobus",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Another screening scan that to be done is a Bone Density. This can be done through any radiology department.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular review helps to detect any abnormalities early & improves management outcomes.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with 2g per day of omega 3.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a healthy diet, continue your exercise, lose weight, and manage your stress.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-08",
+      "report_id": "656570ff9a028986",
+      "report_date": "2024-08-08",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "I am glad to hear that you are up-to-date with your screening (Mammogram/ Pap smear). Regular review helps to detect any abnormalities early & improves management outcomes.",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Another screening scan that to be done is a Bone Density. This can be done through any radiology department.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep going! Making and sustaining these changes is challenging, but so worth it in the long run.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:33:15",
+  "total_reports": 3,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

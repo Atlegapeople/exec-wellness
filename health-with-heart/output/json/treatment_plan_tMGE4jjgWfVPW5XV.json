@@ -1,0 +1,57 @@
+{
+  "employee_id": "tMGE4jjgWfVPW5XV",
+  "employee_name": "Shouneez Kajee",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-14",
+      "report_id": "YuVJ7s5DWc5Cr6gY",
+      "report_date": "2023-09-14",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Shouneez Kajee",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "Vitals Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Help for fatigue: Eat a whole food, anti-inflammatory diet, Check for hidden infections and allergies, address any gut issues, exercise regularly, practice deep relaxation,sleep for 8 hours every night",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:08:51",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

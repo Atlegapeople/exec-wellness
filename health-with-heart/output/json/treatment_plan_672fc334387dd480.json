@@ -1,0 +1,49 @@
+{
+  "employee_id": "672fc334387dd480",
+  "employee_name": "Ellen Vundla",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "77c3b5424a1349e8",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Ellen Vundla",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Employee is currently on her periods",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-26",
+      "report_id": "be77fe71c184f2bb",
+      "report_date": "2023-06-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Ellen Vundla",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Blood 1+. Employee going on her periods.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:01:56",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

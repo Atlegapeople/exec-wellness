@@ -1,0 +1,63 @@
+{
+  "employee_id": "odn1t87mbrl2q7m9e",
+  "employee_name": "Adriaan Els",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-11",
+      "report_id": "v74pvu8yn9z1u9sda",
+      "report_date": "2022-01-11",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Adriaan Els",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your Nerve IQ is suggesting you need rest.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decreasing your amount of coffee to 2 cups a day and practicing mindfulness can assist.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Dietician recommended - BMI is raised, you have an increased waist circumference and your cholesterol levels are raised despite being on cholesterol treatment and being active. Increase Omega 3 intake by taking a supplement of 2-4g's daily",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Increased waist circumference and BMI",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "One of your liver markers the GGT is slightly raised. Please stop alcohol intake for at least 2-4 weeks and have it repeated.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your eGFR (kidney function) is 82. This can be normal or a marker of early disease. A urine sample for protein:creatinine ratio is indicated as well as a repeat of your eGFR in 3 months time.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:39:19",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

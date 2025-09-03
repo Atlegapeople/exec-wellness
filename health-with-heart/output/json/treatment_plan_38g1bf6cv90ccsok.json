@@ -1,0 +1,45 @@
+{
+  "employee_id": "38g1bf6cv90ccsok",
+  "employee_name": "Zaheer Ismail",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-15",
+      "report_id": "6f7822878d61f0e3",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Zaheer Ismail",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report the onset of any new urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "I have referred you to the cardiologist to review the significance of your abnormal ECG.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:27:28",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

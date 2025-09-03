@@ -1,0 +1,63 @@
+{
+  "employee_id": "aa6466ce4e99626d",
+  "employee_name": "Shelley Brett",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-18",
+      "report_id": "d05fb5f9ebd44cb1",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Shelley Brett",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up annually with your Audiologist",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "See the dietician and start being more active. Atleast 3-4 times a week for 30mins",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "BMI in Obesity range. To decrease cardiovascular risk aim for BMI <25 and waist to height circumference <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Sleep Apnoea Assessment",
+          "recommendation": "Sleep Apnoea assessment recommended by Dr Allison Bentley",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:52:29",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

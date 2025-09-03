@@ -1,0 +1,45 @@
+{
+  "employee_id": "e3b0d2eab061ed0c",
+  "employee_name": "Lourens Martinus Visagie",
+  "treatment_timeline": [
+    {
+      "date": "2025-07-29",
+      "report_id": "c15f33a5a2974af6",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Lourens Martinus Visagie",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To lower your cardiovascular risk focus on reducing your waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:38:19",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

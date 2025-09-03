@@ -1,0 +1,45 @@
+{
+  "employee_id": "f0a53cc8a32e4384",
+  "employee_name": "Maryke Mulder",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "84f62df87c860d8c",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Maryke Mulder",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Well done for keeping up with your women's health screening. Keep monitoring with a breast ultrasound at least yearly.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Visit a doctor if you experience any new worrying or persistent symptoms.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Zinplex",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:48:02",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

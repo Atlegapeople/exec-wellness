@@ -1,0 +1,51 @@
+{
+  "employee_id": "e10a89531099943f",
+  "employee_name": "Tshepo Pitse",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-13",
+      "report_id": "0a540a56e065fd21",
+      "report_date": "2023-01-13",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Tshepo Pitse",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your resting ECG shows features in keeping with Hypertension.  Continue a good lifestyle to decrease your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You have already come far from previously but focus loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:37:13",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

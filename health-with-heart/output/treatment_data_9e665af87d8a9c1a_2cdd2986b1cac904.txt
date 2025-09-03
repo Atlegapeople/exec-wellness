@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:55
+Employee ID: 9e665af87d8a9c1a
+Report ID: 2cdd2986b1cac904
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Victor Seiphemo
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, SG 1.025, pH 5.
+------------------------------
+Employee: Victor Seiphemo
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, SG 1.025, pH 5.
+------------------------------
+Employee: Victor Seiphemo
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, SG 1.025, pH 5.
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

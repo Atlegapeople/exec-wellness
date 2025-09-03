@@ -1,0 +1,57 @@
+{
+  "employee_id": "1fhkgtngp4s3c36d",
+  "employee_name": "Nyiko Carol Mashimbyi",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-25",
+      "report_id": "Not specified",
+      "report_date": "2022-11-25",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nyiko Carol Mashimbyi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat lung function test with different apparatus.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a variety of fresh fruit & veggies, avoid processed foods. Choose lean meats & whole grains.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately 3-5x a week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consult your doctor for cortisol levels work up.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:09:17",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

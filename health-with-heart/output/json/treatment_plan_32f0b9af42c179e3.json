@@ -1,0 +1,57 @@
+{
+  "employee_id": "32f0b9af42c179e3",
+  "employee_name": "Nkosinathi Sibiya",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-31",
+      "report_id": "d59818cc47e28bfd",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nkosinathi Sibiya",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn't necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin B co , ginko",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:23:10",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

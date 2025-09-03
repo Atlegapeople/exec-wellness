@@ -1,0 +1,45 @@
+{
+  "employee_id": "q7g3r2pz328uvcwq",
+  "employee_name": "Riasha Garrib",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "15c8e9f5fee511ab",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Riasha Garrib",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal lung function - you mention that you had a cough when it was done. I would recommend repeating it to see.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To Reduce your risk of chronic diseases it is recommended that you maintain a BMI < 25 and waist to height ratio < 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please reduce all sugar and carbs and increase your exercise levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:51:05",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

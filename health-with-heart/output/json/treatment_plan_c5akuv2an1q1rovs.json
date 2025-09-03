@@ -1,0 +1,39 @@
+{
+  "employee_id": "c5akuv2an1q1rovs",
+  "employee_name": "Darren Pullen",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-27",
+      "report_id": "f13f5f3c1b4d8aa4",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Darren Pullen",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up with an audiologist for a full hearing test.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:16:18",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

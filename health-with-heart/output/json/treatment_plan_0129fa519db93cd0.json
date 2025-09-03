@@ -1,0 +1,51 @@
+{
+  "employee_id": "0129fa519db93cd0",
+  "employee_name": "Christopher De Kock",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-30",
+      "report_id": "4a06e513df54b502",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Christopher De Kock",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Consider a repeat colonoscopy in a year's time.",
+          "status": "Planned",
+          "source_field": "Men's HealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "See a urologist to check your prostate.",
+          "status": "Planned",
+          "source_field": "Men's HealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Follow up with your cardiologist regarding a possible enlargement of the right atrium of your heart.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take actively methylated B vitamins such as Metagenics MethylCare.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:54:27",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

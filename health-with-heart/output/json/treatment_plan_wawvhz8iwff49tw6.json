@@ -1,0 +1,45 @@
+{
+  "employee_id": "wawvhz8iwff49tw6",
+  "employee_name": "Sinda Chetty",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "69c0e5bdb1bc2ef7",
+      "report_date": "2022-10-20",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sinda Chetty",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing test abnormal bilaterally. Both Tympanic membranes look thickened, hazy and congested. ENT referral given to Wilgeheuwel ENT.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "ENT referral given to Wilgeheuwel ENT. Avamys and Cetirizine prescribed for now.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:21:48",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

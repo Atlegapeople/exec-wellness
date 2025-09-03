@@ -1,0 +1,45 @@
+{
+  "employee_id": "6f24fb252d160562",
+  "employee_name": "Yash Patel",
+  "treatment_timeline": [
+    {
+      "date": "2024-03-05",
+      "report_id": "490938440c010224",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Yash Patel",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "For a lower cardiovascular risk maintain a good waist circumference rather than a number on a scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Multivitamin , Vitamin C",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:05:45",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

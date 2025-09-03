@@ -1,0 +1,81 @@
+{
+  "employee_id": "9c47b187d9c045c0",
+  "employee_name": "Jonica Wilkinson",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-17",
+      "report_id": "8f46c8187e5b604e",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jonica Wilkinson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Low VO2 max suggesting low level of fitness - try to increase exercise and build up slowly. High body fat percentage - try to reduce through diet and exercise.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Calcium",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Higher than optimal homocysteine level - can be reduced by supplementing with activated B vitamins eg NeuroXcel.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:39:15",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

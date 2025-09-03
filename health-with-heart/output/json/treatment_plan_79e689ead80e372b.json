@@ -1,0 +1,51 @@
+{
+  "employee_id": "79e689ead80e372b",
+  "employee_name": "Sumaya Mohamed",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-11",
+      "report_id": "d4c871d67760da3d",
+      "report_date": "2023-07-11",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sumaya Mohamed",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your BMI and body fat % were both high. This puts you at higher risk for chronic illness progression and future cardiovascular events. Together with your current medication, making some lifestyle adjustments (especially with diet) should help reduce this risk.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "I am glad to hear that your recent Pap Smear & Mammogram were normal. Regular screening helps detect any irregularities early & helps improve management outcomes. Self breast examinations are also helpful to note any abnormalities & then to seek medical review.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "An area for improvement would be diet - reducing sugar & processed foods. This will also help weight loss.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Homocysteine",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:14:42",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

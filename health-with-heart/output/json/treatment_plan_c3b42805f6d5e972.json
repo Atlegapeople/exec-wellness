@@ -1,0 +1,66 @@
+{
+  "employee_id": "c3b42805f6d5e972",
+  "employee_name": "Phaphang Malotsane",
+  "treatment_timeline": [
+    {
+      "date": "2021-09-14",
+      "report_id": "8d93a4b9f1707d36",
+      "report_date": "2021-09-14",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Phaphang Malotsane",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Blood 2+ and Leucocytes 2+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-22",
+      "report_id": "f8609d91ff323912",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Phaphang Malotsane",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-20",
+      "report_id": "887af9a74ac20eaf",
+      "report_date": "2023-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Phaphang Malotsane",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Employee about to go on her period.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:15:30",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ntombikayise Seane"
+    ]
+  }
+}

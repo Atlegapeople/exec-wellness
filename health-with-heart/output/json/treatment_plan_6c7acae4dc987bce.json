@@ -1,0 +1,63 @@
+{
+  "employee_id": "6c7acae4dc987bce",
+  "employee_name": "Lisa Brown",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "1efc9a98c1eeb851",
+      "report_date": "2023-05-11",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lisa Brown",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Below average VO2max - try to increase exercise/fitness level.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High body fat percentage noted.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Planned",
+          "source_field": "Vitals Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reduce sugar intake.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Pcositol , Omega 3 , Vitamin C , Berberine",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:03:23",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

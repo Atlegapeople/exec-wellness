@@ -1,0 +1,39 @@
+{
+  "employee_id": "92996ec5932e98ec",
+  "employee_name": "Zinhle Maseko",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-10",
+      "report_id": "46a333090cd86883",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Zinhle Maseko",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please see a general surgeon to review your abdominal hernia.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:33:09",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

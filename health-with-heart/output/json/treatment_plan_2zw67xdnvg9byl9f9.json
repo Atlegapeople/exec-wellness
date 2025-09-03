@@ -1,0 +1,57 @@
+{
+  "employee_id": "2zw67xdnvg9byl9f9",
+  "employee_name": "Nuno Xavier",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-16",
+      "report_id": "mklrhzqm5rl9d67a0",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nuno Xavier",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Cut back on alcohol and red meat, drink at least 2 to 3 L of water a day and read 'Drop Acid' by Dr David Perlmutter.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cut back on alcohol and red meat, drink at least 2 to 3 L of water a day and read 'Drop Acid' by Dr David Perlmutter.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Cut out refined carbs",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Cholesterol Management",
+          "recommendation": "Please pay attention to lifestyle - diet, exercise and stress. Cut out refined carbs&processed foods. Supp with omega 3 and consider taking rychol. Recheck annually.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Vitamin D Management",
+          "recommendation": "Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:21:49",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

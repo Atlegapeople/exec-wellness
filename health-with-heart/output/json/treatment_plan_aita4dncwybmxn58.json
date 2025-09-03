@@ -1,0 +1,45 @@
+{
+  "employee_id": "aita4dncwybmxn58",
+  "employee_name": "Tarryn Hood",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "2e8d858d5ab7868e",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tarryn Hood",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Start moving more with purpose and include lots of fresh veggies in your diet, limiting refined carbs and sugar.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please start vitamin D supplementation to improve Vit D levels.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:55:43",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

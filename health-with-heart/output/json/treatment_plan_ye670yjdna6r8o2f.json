@@ -1,0 +1,87 @@
+{
+  "employee_id": "ye670yjdna6r8o2f",
+  "employee_name": "Preshantha Moodley",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-25",
+      "report_id": "dd967313f70d1ad4",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Preshantha Moodley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "High BP - monitor your BP and follow up if remains high.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please ensure that you take your thyroid medication every morning away from food.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I would also encourage you to start exercising and make some dietary changes.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "A good dietician/nutritionist can also help you in this regard.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Vitamin B12/BCo",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Completed",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Completed",
+          "source_field": "VitalsScreeningNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Completed",
+          "source_field": "VitalsScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:27:52",
+  "total_reports": 1,
+  "total_actions": 10,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

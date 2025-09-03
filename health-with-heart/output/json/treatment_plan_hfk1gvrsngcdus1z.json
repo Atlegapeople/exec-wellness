@@ -1,0 +1,26 @@
+{
+  "employee_id": "hfk1gvrsngcdus1z",
+  "employee_name": "Wardah Ushan",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "635c7a00db3cd839",
+      "report_date": "2022-08-31",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Wardah Ushan",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

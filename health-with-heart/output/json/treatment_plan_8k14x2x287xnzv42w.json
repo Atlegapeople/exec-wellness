@@ -1,0 +1,81 @@
+{
+  "employee_id": "8k14x2x287xnzv42w",
+  "employee_name": "Michael (Mike) Yates",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-27",
+      "report_id": "ltxcgoxkj7w80nblk",
+      "report_date": "2022-01-27",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Michael (Mike) Yates",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Impacted wax in the right ear: Please use Cerumol as prescribed",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Left ear: You have 2 polyps in your ear canal. Please have an ENT review",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Chronic Sinusitis; Allergies; Screening Colonoscopy; hs-CRP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Significant family history of heart disease and stroke",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decrease sugar in your diet, follow a mediterranean diet, continue being active in order to decrease your cardiovascular risk. Good supplements to consider Omega 3&non-flush niacin. Review annually.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You have known allergies that cause your chronic sinusitis. I have prescribed the anti-histamine for you as well as the Flixonase nasal spray. Please see Dr McDonald for the de-sensitisation of your dust and mould allergy",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You are turning 50 this year - part of health promotion and screening is having a Colonoscopy done. Please book one with a Gastroenterologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Ophthalmology follow up; Ear polyps and impacted wax with decreased bilateral hearing",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "You had a previous cataract surgery and right conjunctival haemorrhage but haven't followed up recently. This is your gentle reminder to book an Opthalmology follow up and review this year.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:30:57",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

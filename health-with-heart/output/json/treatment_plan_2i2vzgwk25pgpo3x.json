@@ -1,0 +1,51 @@
+{
+  "employee_id": "2i2vzgwk25pgpo3x",
+  "employee_name": "Tayla Degger",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-06",
+      "report_id": "10a71b4b811d7cf9",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tayla Degger",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Gastroscopy of acid reflux persists.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "An annual mammogram is recommended from age 40.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "There are several triggers for acid reflux, certain foods, eating right before bed or on an already full stomach as well as chronic stress. Try take five breaths before each meal to reduce anxiety while eating, avoid the triggers and consider a g-scope if persists.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "ds24",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:20:18",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "b4a87be46c442827",
+  "employee_name": "Ishmael Mogale Seshoka",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-18",
+      "report_id": "2720f0c618058f25",
+      "report_date": "2022-11-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Ishmael Mogale Seshoka",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Protein 1+ and Leucocytes trace. Will consult with our Doctor onsite",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:00:40",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

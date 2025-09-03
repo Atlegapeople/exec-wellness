@@ -1,0 +1,63 @@
+{
+  "employee_id": "kgp57r2ep8z9gtihi",
+  "employee_name": "Angela Rass",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-11",
+      "report_id": "nz24b5asad3i1oit9",
+      "report_date": "2022-05-11",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Angela Rass",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Consider breathwork classes, yoga or meditation for symapthetic overdrive/high stress.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Consider breathwork classes, yoga or meditation for symapthetic overdrive/high stress.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Remember annual mammogram, bone density screen and pap smear.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Take Vit B12, B6,B2 and METHYLATED folate to lower homocysteine levels.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:18:51",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

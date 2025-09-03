@@ -1,0 +1,69 @@
+{
+  "employee_id": "c81bffa35bc0c7d6",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-20",
+      "report_id": "c56abc2ca42c3422",
+      "report_date": "2023-06-20",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Follow through with your mammogram and visit a gynae to discuss the indication of a pap smear to screen for cervical cancer.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "For improved cardiovascular health focus on reducing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Burberine",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Not yet sexually active, but close to 40. Advised we usually wait until you become sexually active but close to 40 a pap smear may be indicated.",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "SymptomScreening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:17:59",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

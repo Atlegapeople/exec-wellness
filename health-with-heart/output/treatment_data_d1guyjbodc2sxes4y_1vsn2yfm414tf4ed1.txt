@@ -1,0 +1,4485 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:20
+Employee ID: d1guyjbodc2sxes4y
+Report ID: 1vsn2yfm414tf4ed1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 5mg once daily
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MedicalHistoryNote
+Comment Value: Dear Krishna, thank you for doing your medical with us. We hope it was insightful and inspiring. You are in good physical shape, with no red flags on your blood work. Making some lifestyle changes will go a long way to ensue that your health profile does not change and that you stay well and healthy long into your life. We switch our genes on and off with our daily choices and so a family history is not a sure prediction of an at risk future. Wishing you a well and happy rest of 2022. 
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: SpecialInvestigationNote
+Comment Value: Low vit D, High homocysteine c.f recommendations
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add CoQ10 to supplements. This is necessary for patients taking statins and helps with energy production within cells. Statins deplete coQ10
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Vit D3 5000iu daily. Your blood level is low and Vitamin D is integral to immune and bone health. Gentle sunshine and fatty fish also help.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: In spite of your family history, your cardiovascular risk profile is very low when appraising your bloods and physical examination. You can further reduce risk by following the recommendations section of this report to optimise your elevated homocysteine and compensate for your vitamin D and low coQ10 (assoc with statin use).
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Regular Holidays; Family time; Balanced diet; Low body fat; Adequate sleep
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Not enough physical exercise; Family History of Metabolic disease
+Work stress
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Add Methylcare by Metagenics to lower your homocysteine. High homocysteine can be genetic/stress induced&this supplement gives your body activated B vit's. Repeat in 3-6/12
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+Employee: Krishna Nagar
+Report Date: 2022-04-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Make room for daily meditation, quiet space for yourself can make all the difference. Life is so full&busy, finding small windows of tranquility for restoration&self reflection make for more fulfilling life. 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Low vit D, High homocysteine c.f recommendations
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-05-03 - 2022-05-03
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,57 @@
+{
+  "employee_id": "5f57f580b2e64762",
+  "employee_name": "Nkosingimele Ngcobo",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-30",
+      "report_id": "2686b243dc818725",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nkosingimele Ngcobo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Low Vo2 max - try to increase fitness level.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Probable fungal infection of nails.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider abdominal ultrasound to assess liver and part of work up.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Low Vo2 max - refer to a fitness professional or sports medicine specialist.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Please reach out if you need any support emotionally or physically.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:54:40",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

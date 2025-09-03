@@ -1,0 +1,45 @@
+{
+  "employee_id": "iWY8aUdZW5oKuxxf",
+  "employee_name": "Brandon Pinto",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "jK8EevV568hWVMCd",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Brandon Pinto",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ECG: Normal sinus rhythm, hypertensive patient, partial inter-ventricular conduction delay within normal limits. No stress done.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn't necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI doesn't account for body composition, which means it misses the difference between muscle mass and fat because muscles are more dense and heavier than fat.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:11:50",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

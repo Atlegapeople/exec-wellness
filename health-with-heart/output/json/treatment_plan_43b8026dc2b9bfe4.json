@@ -1,0 +1,33 @@
+{
+  "employee_id": "43b8026dc2b9bfe4",
+  "employee_name": "Agnes Shaibu",
+  "treatment_timeline": [
+    {
+      "date": "2021-08-30",
+      "report_id": "168d08024d891b9d",
+      "report_date": "2021-08-30",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Agnes Shaibu",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Leucocytes trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:36:27",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "employee_id": "87ada44c6413830f",
+  "employee_name": "Evelyn Kanengoni",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-22",
+      "report_id": "08e9495dd3a20c3e",
+      "report_date": "2023-06-22",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Evelyn Kanengoni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing is within normal limits bilaterally, apart from a mild component at 8kHz in the right ear. A full audiogram is necessary to determine the type of hearing loss as well as if/what management is necessary.",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please focus on reducing carbs and sugar in your diet and start exercising.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please follow up in 3 months time to recheck the level.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "High BP noted - please monitor.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:26:03",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

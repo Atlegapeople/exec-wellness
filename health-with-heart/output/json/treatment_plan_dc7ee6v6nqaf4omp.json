@@ -1,0 +1,51 @@
+{
+  "employee_id": "dc7ee6v6nqaf4omp",
+  "employee_name": "Lungisa Madinga",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-03",
+      "report_id": "922e38c1b0bfb7b4",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lungisa Madinga",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat resting ECG if abnormal rhythm persists",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Report any new urinary symptoms to doctor",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a normal waist circumference rather than a number on the scale",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:33:06",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

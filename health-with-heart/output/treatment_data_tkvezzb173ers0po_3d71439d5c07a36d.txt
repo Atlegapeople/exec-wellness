@@ -1,0 +1,45 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:49:49
+Employee ID: tkvezzb173ers0po
+Report ID: 3d71439d5c07a36d
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Magnus Evans
+Report Date: 2022-08-31
+Doctor: 
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Visit your urologist beyond your annual screens if you experience any new or progressed urinary symptoms.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Valvasc , Sylodix
+Special Investigation Notes: None
+------------------------------
+Employee: Magnus Evans
+Report Date: 2022-08-31
+Doctor: 
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Visit your urologist beyond your annual screens if you experience any new or progressed urinary symptoms.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2024-08-07 - 2024-08-07
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2024-08-07 - 2024-08-07
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

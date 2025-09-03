@@ -1,0 +1,510 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:36
+Employee ID: 2c75e133ede40a64
+Report ID: 35e262c975968af2
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: Enlarged tonsils - apparently long standing.
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ClinicalExamRecommendation
+Comment Value: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: LabTestRecommendation
+Comment Value: 1. Slightly reduced kidney function noted. Please repeat within the next 3 months. Ensure good hydration and avoid NSAIDs.
+2. Marginally raised cholesterol. Watch saturated fat and junk in your diet. Repeat annually.
+3. Your homocysteine is higher than optimal at 14umol/l. You can reduce this by supplementing with methylated B vitamins. Please take Neuro Xcel/Metagenics MethylCare & recheck the level in 6 months. Aim for <7 umol/l.
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Good mental health reported hower your nerveIQ results suggest that you are pushing into sympathetic (fight or flight) overdrive. Please prioritize rest, relaxation and mindful self-care.
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Blood noted in your urine - if this persists it is recommended that you go for an abdominal ultrasound.
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Steven Harris
+Report Date: 2023-08-24
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: Enlarged tonsils noted - apparently a long standing problem for you. Otherwise normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Steven you are still young and relatively healthy, however the presence of blood in your urine may be of concern or could just be transient. If it persists we need to look deeper to see if there is any pathology of the urinary tract. Please repeat the urine dipstick and if still present I would recommend going for an ultrasound as the next step.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-09-07 - 2023-09-07
+Time: 08:45:00 - 10:45:00
+Notes: Steven HarrisID/Passport Number: 9610015096081
+Status: Completed
+------------------------------

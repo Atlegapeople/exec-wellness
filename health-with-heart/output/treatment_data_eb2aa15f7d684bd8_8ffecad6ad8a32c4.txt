@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:44
+Employee ID: eb2aa15f7d684bd8
+Report ID: 8ffecad6ad8a32c4
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ntokozo Moloi
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.015, pH 6
+------------------------------
+Employee: Ntokozo Moloi
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.015, pH 6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

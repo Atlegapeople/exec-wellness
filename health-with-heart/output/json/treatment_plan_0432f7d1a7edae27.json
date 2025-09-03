@@ -1,0 +1,33 @@
+{
+  "employee_id": "0432f7d1a7edae27",
+  "employee_name": "Muziwenkosi Madlala",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "17ecad9ef1bef0d8",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Muziwenkosi Madlala",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "pH 6.5, SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:55:04",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

@@ -1,0 +1,4485 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:42
+Employee ID: ceszef1xsdkpu4tn0
+Report ID: qt0csblhmxn56i5kn
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor, Lexamil, Omega 3, Vit C,D, Slow Mag
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamNote
+Comment Value: Left ear pinna - erythematous and tender to touch
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MedicalHistoryNote
+Comment Value: Laurant it was a pleasure doing your medical. Hope the advice directs you in a healthier direction. 
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: VitalsNote
+Comment Value: Borderline BMI and waist:height ratio
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of a cyst on your kidney. Noted to have protein in your urine - the formal Protein:creatinine ratio was raised - Urology consultation recommended.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Proteinuria
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your left ear was tender and cataflam was recommended. If not resolving to consult with a GP.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol controlled on Aspavor; Family history of cardiovascular disease
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Active, non-smoker
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Left ear inflammation
+Cardiologist/Dermatology reviews
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a previous history of Basal Cell Carcinoma - reminder to check in with your Dermatologist regularly
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Laurent Scholtz
+Report Date: 2022-04-26
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is controlled on Aspavor. Continue exercising frequently and be mindful to follow a more mediterranean style diet. 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-05-04 - 2022-05-04
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

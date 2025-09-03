@@ -1,0 +1,63 @@
+{
+  "employee_id": "7atzpmenfezlv0gw",
+  "employee_name": "Masentle Moatlhodi",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-19",
+      "report_id": "1add7a74d35d3d0a",
+      "report_date": "2022-10-20",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Masentle Moatlhodi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Waist circumference is less than 80 cm and BMI of <25. These are associated with a lower risk of heart disease and diabetes. Good job!",
+          "status": "Completed",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap Smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Gastritis - resolved - dx with H pylori",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please follow the advice regarding your lab results and retest at the recommended intervals.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "If you cannot determine a date, use 'Not specified'. Status determination rules: - If recommendation involves repeating something in the future → status = 'Planned' - If recommendation is lifestyle advice or ongoing monitoring → status = 'Ongoing' - If it is a screening already completed → status = 'Completed' - If status cannot be determined from text, use 'Not specified'.",
+          "status": "Not specified",
+          "source_field": "Extraction Rules"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:14:53",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

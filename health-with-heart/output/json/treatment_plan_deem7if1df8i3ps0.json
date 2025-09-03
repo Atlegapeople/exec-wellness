@@ -1,0 +1,75 @@
+{
+  "employee_id": "deem7if1df8i3ps0",
+  "employee_name": "Andrew Souter",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-22",
+      "report_id": "f7dd8ef1b0d2c96e",
+      "report_date": "2022-11-07",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Andrew Souter",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram with an audiologist is recommended to determine the need for further tests/interventions",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-21",
+      "report_id": "b887ce7740ac05c2",
+      "report_date": "Report date from the data or 'Not specified'",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Andrew Souter",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram with an audiologist is recommended to determine the need for further tests/interventions.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:34:35",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

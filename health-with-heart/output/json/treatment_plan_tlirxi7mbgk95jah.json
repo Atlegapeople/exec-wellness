@@ -1,0 +1,51 @@
+{
+  "employee_id": "tlirxi7mbgk95jah",
+  "employee_name": "Drinellen Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-31",
+      "report_id": "57b9bb955e4d6b42",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Drinellen Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Twitching eyes also known as myokymia has multiple causes like stress/fatigue, overconsumption of caffeine or alcohol, strained or dry eyes and many other causes, discuss this further with your family doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Probiotics",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:08:22",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

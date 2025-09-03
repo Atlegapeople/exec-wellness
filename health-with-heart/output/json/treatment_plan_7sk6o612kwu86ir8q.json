@@ -1,0 +1,51 @@
+{
+  "employee_id": "7sk6o612kwu86ir8q",
+  "employee_name": "Penelope (Penny) Potgieter",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-02",
+      "report_id": "z8yt1ntz6usmzp46t",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Penelope (Penny) Potgieter",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Decrease red meat intake, Omega 3 supplement, work on gaining muscle mass and losing body fat content, repeat in 6/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Practice mindfulness, increase yoga to 2/week, L-theanine supplementation. Sleepio.com is also a very good resource",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "If it reoccurs, please see your GP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please book a mammogram, Colonoscopy, bone density screen",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:17:06",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

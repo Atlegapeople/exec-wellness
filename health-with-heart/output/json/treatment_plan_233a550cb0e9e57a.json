@@ -1,0 +1,33 @@
+{
+  "employee_id": "233a550cb0e9e57a",
+  "employee_name": "Simon Mthembu",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-11",
+      "report_id": "34418416e5908e97",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Simon Mthembu",
+      "actions": [
+        {
+          "category": "Monitoring",
+          "recommendation": "Health advise given",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:12:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "84173be28405624c",
+  "employee_name": "Katie Mbatsane",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-03",
+      "report_id": "d0020a94bc4379d3",
+      "report_date": "Not specified",
+      "doctor": "Dr. Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Katie Mbatsane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Regular breast self-examinations are recommended. If you notice any irregularities to consult your doctor.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular Pap smear screening helps detect any abnormalities early & improves management outcomes. Your recent Pap Smears have been normal. You can book your next follow-up with your GP or Gynae.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Mammogram screening also becomes important as you get older (>40 years).",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A few areas that we identified to be optimised include developing an exercise routine as well as improving diet (avoiding high sugar intake). Making these adjustments will have a positive impact on your general well-being & future health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:22:50",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

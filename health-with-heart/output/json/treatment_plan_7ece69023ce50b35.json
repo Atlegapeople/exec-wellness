@@ -1,0 +1,51 @@
+{
+  "employee_id": "7ece69023ce50b35",
+  "employee_name": "Mongezi Mngadi",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-25",
+      "report_id": "63802fa4c2ec69ce",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mongezi Mngadi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal stress response, borderline 1st degree AV heart block. Please discuss with your family doctor.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn’t necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels.",
+          "status": "Planned",
+          "source_field": "Men's HealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , Vitamin D , Vitamin C",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:16:18",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

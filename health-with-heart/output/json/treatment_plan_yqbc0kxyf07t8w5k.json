@@ -1,0 +1,45 @@
+{
+  "employee_id": "yqbc0kxyf07t8w5k",
+  "employee_name": "Shane Ranjit",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-21",
+      "report_id": "471cd99e47d36160",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Shane Ranjit",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a good waist circumference to reduce your risk for cardiovascular illnesses.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "If a change in nasal spray does not help your post nasal drip visit your GP for a review.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:30:10",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

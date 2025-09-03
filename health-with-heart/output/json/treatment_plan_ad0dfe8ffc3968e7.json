@@ -1,0 +1,57 @@
+{
+  "employee_id": "ad0dfe8ffc3968e7",
+  "employee_name": "Steven Routledge",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-10",
+      "report_id": "541f1dede78f3769",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Steven Routledge",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Body fat of  6.5% is very lean. Aim for at least 8% body fat.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "V02 shows oxygen consumption while exercising. Yours is below average at 38.5. Improve this by doing exercises that keep your heart rate between 161-175bpm",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Monitor LDL cholesterol & improve it by adding whole grains & fatty fish to your diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Increase your body fat percentage to at least 8%.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-BMI & waist-to-height ratio are normal. This lowers the risk of illnesses like diabetes & hypertension. -Keep BMI between 18.5-24.9 & waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:54:08",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

@@ -1,0 +1,4699 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:29
+Employee ID: r1cdg7cebhdpn59ar
+Report ID: p3t45449klaxase7a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Antihistamines PRN
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamNote
+Comment Value: Very fair skin, I recommend that you continue with frequent dermatology check ups
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: LabTestNote
+Comment Value: Slightly raised ALT liver enzyme, above optimal homocysteine level, low DHEA level. Vitamin D level and lipogram not done, patient will do these.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MedicalHistoryNote
+Comment Value: Overall you seem to be in good health however try to lose a bit of weight especially around your abdomen. This will help to lower your risk of chronic diseases and will also help to bring your fasting insulin into the optimal range. Stress management is also crucial as stress has very real effects on our health. I know it is difficult to do this but take note of the suggestions above and see if you can incorporate some of the ideas. Please check your vitamin D levels and your cholesterol levels as these were unfortunately done. Thank you for doing your medical with us.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: VitalsNote
+Comment Value: Increased waist circumference and BMI. BMI seems disproportionately high, this is probably due to being quite muscular and not very tall.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: None
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fasting insulin is normal but above optimal. Aim to reduce it to around 5. Exercise, a lower carbohydrate diet, some weight loss and stress management will assist with this.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased waist circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Non drinker
+Regular exercise
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Marginally raised ALT
+Fasting insulin normal but above optimal
+Homocysteine above optimal range
+Low DHEA
+Increased waist circumference and body fat percentage
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ross Peasey
+Report Date: 2020-02-25
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-02-25 - 2020-02-25
+Time: 08:00:00 - 08:00:00
+Notes: 
+Status: Completed
+------------------------------

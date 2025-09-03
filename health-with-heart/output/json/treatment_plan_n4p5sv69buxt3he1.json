@@ -1,0 +1,49 @@
+{
+  "employee_id": "n4p5sv69buxt3he1",
+  "employee_name": "Philani Mkhize",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "d7c4ae03112f184f",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Philani Mkhize",
+      "actions": [
+        {
+          "category": "Supplements",
+          "recommendation": "Take ACC200",
+          "status": "Planned",
+          "source_field": "Comment Key: VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "2022-11-29",
+      "report_id": "e8a97a4cb8f5ad2a",
+      "report_date": "2022-11-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Philani Mkhize",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.025, Prot trace",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:34:41",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

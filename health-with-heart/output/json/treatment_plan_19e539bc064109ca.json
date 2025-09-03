@@ -1,0 +1,33 @@
+{
+  "employee_id": "19e539bc064109ca",
+  "employee_name": "Pheladi Ledwaba",
+  "treatment_timeline": [
+    {
+      "date": "2024-04-18",
+      "report_id": "1d651f184ad10d8a",
+      "report_date": "2024-04-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Keamogetse Selabe",
+      "employee_name": "Pheladi Ledwaba",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Protein trace and Leukocytes +1",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:05:58",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Keamogetse Selabe"
+    ]
+  }
+}

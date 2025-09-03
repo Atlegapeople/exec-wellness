@@ -1,0 +1,57 @@
+{
+  "employee_id": "ro898ljbsfdhyse8x",
+  "employee_name": "Deshanthra Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-23",
+      "report_id": "42p292a0r72hfii87",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Deshanthra Naidoo",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Please start exercising very slowly. Start by increasing your walking from once a week and build up to at least 5 times per week. As you get fitter you can increase the pace and intensity of your exercise. If the high heart rate persist indefinitely then please consider a cardiology check up.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "High fasting insulin suggests that you are prediabetic. We want to reverse this if possible through lifestyle changes - a low carb diet, weight loss, exercise and stress reduction.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Take 5000iu of vitamin D daily and recheck in 4 months aiming for a level of 50 to 80.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Eliminate all refined carbohydrates and eat as close to nature as possible. For example lentils and chickpeas rather than bread, pasta and pizza.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Take 'active' b vitamins such as the methycare formula to lower high homocysteine level. You are aiming for a level around 7.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:00:18",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

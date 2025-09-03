@@ -1,0 +1,105 @@
+{
+  "employee_id": "d5d3748d58071f4f",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-07",
+      "report_id": "aba244eb960625d9",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please see your GP for the following: Insulin resistance, High Cholesterol levels and ECG abnormality.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please check BP 1-2 monthly at GP.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "By following a calorie deficit diet or intermittent fasting, you can help reduce your overall body fat levels and thus, lower your BMI level. Even small changes can add up over the long run, as long as you're consistent.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "The best way to prevent kidney stones is to make sure you drink plenty of water each day to avoid becoming dehydrated(tea and coffee also count!),add fresh lemon juice to your water and avoid fizzy drinks and excess salt.",
+          "status": "Ongoing",
+          "source_field": "Men's HealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please contact ICASA for further assistance with weight loss.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider joining a gym or exercise class to help with weight loss.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Try to walk for at least 30 minutes a day, if possible.",
+          "status": "Ongoing",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider reducing your alcohol intake to help with weight loss.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Try to eat a balanced diet, including plenty of fruits and vegetables.",
+          "status": "Ongoing",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider keeping a food diary to help track your diet and identify areas for improvement.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider using a pedometer or fitness tracker to help monitor your physical activity.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Referral to a dietitian for further assistance with weight loss.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Follow-up appointment in 3 months for a review of your progress.",
+          "status": "Planned",
+          "source_field": "WeightLossRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:29:17",
+  "total_reports": 1,
+  "total_actions": 13,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

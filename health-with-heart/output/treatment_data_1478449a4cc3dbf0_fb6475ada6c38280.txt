@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:45
+Employee ID: 1478449a4cc3dbf0
+Report ID: fb6475ada6c38280
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ernest Mathebula
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace
+------------------------------
+Employee: Ernest Mathebula
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace
+------------------------------
+Employee: Ernest Mathebula
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

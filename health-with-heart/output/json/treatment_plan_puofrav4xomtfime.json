@@ -1,0 +1,39 @@
+{
+  "employee_id": "puofrav4xomtfime",
+  "employee_name": "Rima Bridgemohan",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "4d9c6d4d7a086df8",
+      "report_date": "2022-10-20",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Rima Bridgemohan",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "The results of your lung function showed that you struggled with the exercise, in light of your previous occupational exposure we recommend you see a pulmonologist to investigate further.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:49:37",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

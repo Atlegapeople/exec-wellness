@@ -1,0 +1,33 @@
+{
+  "employee_id": "u2pds0w5iqjr7b6m",
+  "employee_name": "Sibusiso Dube",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-30",
+      "report_id": "777945faaa7bc41b",
+      "report_date": "2022-11-30",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sibusiso Dube",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.020 and Prot trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:10:18",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

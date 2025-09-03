@@ -1,0 +1,26 @@
+{
+  "employee_id": "rmbxwojfy1pkmeio",
+  "employee_name": "Bandile Qamba",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "51538b8c63d40b96",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Bandile Qamba",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "25b61dcaffe053b9",
+  "employee_name": "Lindokuhle Mbuthuma",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-28",
+      "report_id": "f2c5773892ecd651",
+      "report_date": "2023-06-28",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lindokuhle Mbuthuma",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNotes"
+        },
+        {
+          "category": "Symptom Screening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "The patient will do best with endurance type training.",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:13:36",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

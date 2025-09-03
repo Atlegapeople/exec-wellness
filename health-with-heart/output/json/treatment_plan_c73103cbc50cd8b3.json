@@ -1,0 +1,115 @@
+{
+  "employee_id": "c73103cbc50cd8b3",
+  "employee_name": "Albert Nong",
+  "treatment_timeline": [
+    {
+      "date": "2022-02-16",
+      "report_id": "0c573abc090d010b",
+      "report_date": "Not specified",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: ph 6, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-02-16",
+      "report_id": "2fbfabf82f75b690",
+      "report_date": "Not specified",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.030",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-02-16",
+      "report_id": "f0a23636e37baea6",
+      "report_date": "2022-02-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.030",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-24",
+      "report_id": "022bdeb94c57bf89",
+      "report_date": "Not specified",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Glucose 4+, Blood trace, protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-07",
+      "report_id": "14c92752479f88ce",
+      "report_date": "Not specified",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood 1+, Proteins1+, Glucose4+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-07",
+      "report_id": "1fdca35626af1ef4",
+      "report_date": "Not specified",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Albert Nong",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood 1+, Proteins 1+, Glucose 4+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:17:32",
+  "total_reports": 6,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart",
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Rebecca Mogale"
+    ]
+  }
+}

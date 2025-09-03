@@ -1,0 +1,63 @@
+{
+  "employee_id": "a5911a2300a136d9",
+  "employee_name": "Karabo Ditsebe",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-14",
+      "report_id": "6d5897e80898ca5d",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Karabo Ditsebe",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a balanced diet with Calcium, Vitamin B/C/D and Iron supplements if necessary.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim for a BMI of <25 to decrease your risk of future cardiovascular events.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Practice stress management techniques such as meditation, deep breathing exercises or yoga.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Physical Activity",
+          "recommendation": "Engage in regular physical activity for at least 30 minutes a day, 5 days a week.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Sleep",
+          "recommendation": "Aim for 7-9 hours of sleep per night.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Seek help from a mental health professional if you feel overwhelmed or unable to cope.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:49:21",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

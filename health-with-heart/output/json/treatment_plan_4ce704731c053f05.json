@@ -1,0 +1,63 @@
+{
+  "employee_id": "4ce704731c053f05",
+  "employee_name": "Roseanne Sadiki",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "24b1e0216b146bf3",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Roseanne Sadiki",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Implement the lifestyle changes discussed in this medical.  Please visit a doctor if your headaches become more frequent or intense despite these changes.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:41:42",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

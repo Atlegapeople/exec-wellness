@@ -1,0 +1,45 @@
+{
+  "employee_id": "xs57odka4br2b1d9",
+  "employee_name": "Hlobisile Rampai",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-24",
+      "report_id": "da1e60e5d649e0c9",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Hlobisile Rampai",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "ECG: Electrical Alternans, no symptoms reported, please discuss this with your family doctor.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Lower abdominal pain: Investigate the possible causes such as hormone imbalance, high stress, nutrient deficiency or even lack of sleep.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:25:48",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

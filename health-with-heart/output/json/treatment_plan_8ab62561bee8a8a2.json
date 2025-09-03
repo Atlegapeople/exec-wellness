@@ -1,0 +1,33 @@
+{
+  "employee_id": "8ab62561bee8a8a2",
+  "employee_name": "Arnold Manyelo",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-23",
+      "report_id": "402224594c17a1e6",
+      "report_date": "2024-05-23",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Arnold Manyelo",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Protein trace, pH6.5 SG 1,010",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:26:59",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

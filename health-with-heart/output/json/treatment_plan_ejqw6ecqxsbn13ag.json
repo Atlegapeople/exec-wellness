@@ -1,0 +1,33 @@
+{
+  "employee_id": "ejqw6ecqxsbn13ag",
+  "employee_name": "Lizanne Maxsean Philander",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-24",
+      "report_id": "e032c383aaf0cd21",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lizanne Maxsean Philander",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:45:52",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

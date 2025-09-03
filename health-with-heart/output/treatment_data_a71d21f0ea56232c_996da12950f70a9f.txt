@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:51
+Employee ID: a71d21f0ea56232c
+Report ID: 996da12950f70a9f
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Yasaar Greeff
+Report Date: 2021-04-22
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD Ph 6 SG 1.025"
+------------------------------
+Employee: Yasaar Greeff
+Report Date: 2021-04-22
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD Ph 6 SG 1.025"
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

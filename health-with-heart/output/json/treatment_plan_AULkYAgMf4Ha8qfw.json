@@ -1,0 +1,26 @@
+{
+  "employee_id": "AULkYAgMf4Ha8qfw",
+  "employee_name": "Nazeera Asvat",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "KBMVv6tuvFnE8mJw",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Nazeera Asvat",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

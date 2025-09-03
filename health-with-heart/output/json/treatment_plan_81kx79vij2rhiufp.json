@@ -1,0 +1,69 @@
+{
+  "employee_id": "81kx79vij2rhiufp",
+  "employee_name": "Matthew Eb",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-16",
+      "report_id": "8b8653c8deef77da",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Matthew Eb",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat renal function & cholesterol levels test in the near future.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate examinations and PSA blood levels as you get older (>40 years).",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendations for women.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Mole mapping can be done through a dermatologist. Any change in the shape, color or size of a skin lesion should be reviewed by a doctor.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Mole mapping for skin lesions.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor any changes in the shape, color or size of skin lesions.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Consult a dermatologist for mole mapping.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:18:55",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

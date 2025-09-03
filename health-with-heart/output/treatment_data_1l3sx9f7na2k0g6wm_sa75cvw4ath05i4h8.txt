@@ -1,0 +1,4649 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:35
+Employee ID: 1l3sx9f7na2k0g6wm
+Report ID: sa75cvw4ath05i4h8
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Crestor 5mg
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamNote
+Comment Value: Mild abdominal adiposity with a small lump felt in subcutaneous tissue in right lower quadrant of abdomen, likely a lipoma.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: LabTestNote
+Comment Value: Very good blood results!
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MedicalHistoryNote
+Comment Value: Sundeep you are currently at low risk of heart disease despite your family history and your blood results look great. My only recommendations are as above, to lose some weight around your abdomen and try and increase your activity levels. It was a pleasure to do your medical today and we look forward to seeing you next year.
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: VitalsNote
+Comment Value: Very marginally increased waist circumference, WHtR and BMI, good blood pressure
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Currently your cholesterol is very well controlled on 5mg of crestor. Continue to pay attention to lifestyle factors such as a healthy diet, exercise, avoiding sugar and refined carbohydrates and manage your stress levels. This will help to keep your cardiac risk low despite your family history.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased waist circumference is associated with an increased risk of chronic disease such as heart disease and diabetes. Your waist circumference is 95cm, just above the maximum recommended measurement of 94cm. Try to lose a bit of weight around your abdomen to negate this risk by increasing your activity levels and watching the sugars and carbohydrates.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Strong family history of heart disease, marginally increased waist circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Excellent blood results
+Non smoker
+Walks as much as possible
+Good vitamin D levels
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: History of high cholesterol and family history of heart disease
+Marginally increased waist circumference
+Decreased physical activity since lockdown started
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Lockdown has caused you to stop going to the gym. Consider trying to do some home workouts / resistance exercise and continue with your walking.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+Employee: Sundeep Naran
+Report Date: 2020-07-28
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil. Stress ECG and lung functions not done due to COVID-19 pandemic
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-07-28 - 2020-07-28
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

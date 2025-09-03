@@ -1,0 +1,66 @@
+{
+  "employee_id": "a3cb60925a5f119e",
+  "employee_name": "Palesa Letsholo",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-18",
+      "report_id": "b50cdb987a76452f",
+      "report_date": "2021-03-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Palesa Letsholo",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH6, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-09-15",
+      "report_id": "8b7c3bdb58af26ef",
+      "report_date": "2021-09-15",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Palesa Letsholo",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Blood 3+- employee is currently on her period",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-20",
+      "report_id": "2680fdae4926bc92",
+      "report_date": "2022-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Palesa Letsholo",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:47:36",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ntombikayise Seane"
+    ]
+  }
+}

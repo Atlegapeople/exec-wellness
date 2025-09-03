@@ -1,0 +1,69 @@
+{
+  "employee_id": "u6uoxmgofjljor3u",
+  "employee_name": "Leon Bock",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-21",
+      "report_id": "b65f932e8d55c11a",
+      "report_date": "2023-06-21",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Leon Bock",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Clinical examination and audiology assessment within normal range.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-An increased waist circumference (>90 cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Probiotics , Calcium , Vitamin C",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please follow the advice regarding supplementation or lifestyle modifications which need to take place and retest at the recommended time intervals.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "We look forward to seeing you again next year.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:11:08",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

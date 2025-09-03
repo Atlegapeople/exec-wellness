@@ -1,0 +1,80 @@
+{
+  "employee_id": "w1wt2xueqbl73fv68",
+  "employee_name": "Lucy Lightfoot",
+  "treatment_timeline": [
+    {
+      "date": "2020-03-17",
+      "report_id": "q6o7qt8px1cegg41d",
+      "report_date": "2020-03-17",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lucy Lightfoot",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Slightly increased BMI. You are already aware of this, have consulted with a dietician and making an effort to lose weight. Continue eating healthily and exercising moderately, however drastic weight loss would not be advisable either whilst on your fertility journey.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-04",
+      "report_id": "39a3793efd612b85",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lucy Lightfoot",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "To lower your cardiovascular risk focus on reducing your waist circumference rather than a number on the scale",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Phytomulti",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:20:33",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

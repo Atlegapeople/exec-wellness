@@ -1,0 +1,57 @@
+{
+  "employee_id": "5c0ca6643d1c0251",
+  "employee_name": "Nischal Rampersad",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-15",
+      "report_id": "10d8b9f8ce00bc36",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Nischal Rampersad",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal Clinical Examination.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "As noted , you have seen the Urologist last year  (2022) , please continue follow  up as per Urologist request. Normal Prostate Specific Antigen (PSA)",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please see your GP for Iron optimization and your Cholesterol levels.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take an Omega 3, Niacin and Magnesium supplement.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "iron , Vitamin D",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:53:21",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

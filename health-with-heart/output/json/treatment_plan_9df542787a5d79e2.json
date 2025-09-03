@@ -1,0 +1,33 @@
+{
+  "employee_id": "9df542787a5d79e2",
+  "employee_name": "Timothy Mokwena",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-19",
+      "report_id": "b82187ec2b897b36",
+      "report_date": "2023-06-19",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Timothy Mokwena",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Leukocytes 2+",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:41:02",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

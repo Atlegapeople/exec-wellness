@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:51
+Employee ID: 625c5cf30519421b
+Report ID: d81d44c7461ec522
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Joseph Tlhogoe
+Report Date: 2021-03-25
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: PH 7, SG 1.015
+------------------------------
+Employee: Joseph Tlhogoe
+Report Date: 2021-03-25
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: PH 7, SG 1.015
+------------------------------
+Employee: Joseph Tlhogoe
+Report Date: 2021-03-25
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: PH 7, SG 1.015
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

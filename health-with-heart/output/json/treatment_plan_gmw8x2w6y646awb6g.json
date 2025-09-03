@@ -1,0 +1,51 @@
+{
+  "employee_id": "gmw8x2w6y646awb6g",
+  "employee_name": "Andre Diedericks",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-05",
+      "report_id": "7mp9wtpgzhwxnbla7",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Andre Diedericks",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Insulin/sugar: Please do a Glucose Tolerance Test and follow up with your GP.Very important to loose weight, Increase exercise, stop alcohol use.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric acid: Decrease alcohol and meat intake and repeat in 3/12.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Raised ALT: Stop alcohol use and repeat in 3/12, if still raised - liver sonar indicated.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol&BP: Decrease alcohol use, loose weight and exercise more, follow mediteranean style diet, Omega 3 2-4g daily. Repeat in 3/12.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:58:40",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

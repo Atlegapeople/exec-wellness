@@ -1,0 +1,33 @@
+{
+  "employee_id": "e0e35566aa1c21cb",
+  "employee_name": "Themba Ngoma",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-11",
+      "report_id": "046cf63aff1b6b1a",
+      "report_date": "2022-04-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Themba Ngoma",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Consulting with his own GP (Special Investigation Notes)",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:37:05",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

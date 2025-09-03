@@ -1,0 +1,36 @@
+{
+  "employee_id": "lko593sw4aa23y6nm",
+  "employee_name": "Jacobus Van Wyk",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "ioszfyi88ym8di66b",
+      "report_date": "2019-12-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jacobus Van Wyk",
+      "actions": []
+    },
+    {
+      "date": "Not specified",
+      "report_id": "t1jueej7ge3z7zwov",
+      "report_date": "2021-11-16",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jacobus Van Wyk",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 2,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "ebaa0f01ee215876",
+  "employee_name": "Pariksha Chetty",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-10",
+      "report_id": "7856c128b3ca2065",
+      "report_date": "2022-10-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pariksha Chetty",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No specific recommendation found.",
+          "status": "Not specified",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is recommended that you maintain a BMI < 25 and a waist to height ratio < 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Chromium , Alpha Lipoic Acid",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:42:13",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

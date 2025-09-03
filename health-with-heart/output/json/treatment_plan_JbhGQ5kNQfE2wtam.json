@@ -1,0 +1,39 @@
+{
+  "employee_id": "JbhGQ5kNQfE2wtam",
+  "employee_name": "Kirsty Lamberti Fisher",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "P6Ur9LmyAstyc788",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kirsty Lamberti Fisher",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "VitaminsOrSupplements",
+          "recommendation": "Iron supplements , Multivitamin , Omega 3",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:13:10",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

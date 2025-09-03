@@ -1,0 +1,761 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:43
+Employee ID: 57abbdb055f82c20
+Report ID: d1dd60cc1488317c
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol is elevated. Supplements like Rychol may help lower this.
+-Cortisol levels are lower than expected. Please repeat this test.
+HsCRP is a risk marker for heart disease. Yours at 2.6 shows moderate risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: LifestyleRecommendation
+Comment Value: -Keep exercising 3-5x weekly.
+-Add more fresh fruit & veggies, aim for 5 daily. Choose wholegrains
+-Limit saturated fats such as is found in full cream & animal products.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue frequent mole mapping & review as recommended by your treating doctor.
+-Colon cancer screening should start early given your family history.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -It is important to pay attention to your mental well-being. In times of increased stress, anxiety or depressive symptoms always reach out for support.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -A resting heart rate of 48 bpm is low. In fit individuals this is acceptable.
+-You are well suited for endurance training. Allow for active rest & complete recovery between training.
+-V02 which is oxygen consumption when exercising is excellent.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI & waist-to-height ratio are normal. Keeping your BMI between 18.5- 24.9 & waist-to-height ratio below 50 lessens the risk of illness like diabetes & hypertension.
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: VitaminsOrSupplements
+Comment Value: SlowMag
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear
+Special Investigation Notes: None
+------------------------------
+Employee: Claire Kelty
+Report Date: 2023-05-02
+Doctor: Joy Sitole
+Nurse: Londeka Mkhwanazi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Overview Notes: Claire, thank you for doing your medical with us.
+-Keep physically active. Keep your diet high in fresh fruit & veggies.
+-Frequent cancer screening is important for early detection.
+-Supplements like Rychol will help lower your cholesterol levels. Monitor this every 6 months.
+-You are well suited for endurance training. Training to a heart rate between 153-167 bpm will aid your aerobic development.
+-Cortisol levels are slightly low. Repeat this test in 3 months.
+-A Pap smear is recommended.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner or a gynaecologist for a Pap smear.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-06-06 - 2023-06-06
+Time: 09:30:00 - 11:30:00
+Notes: Claire KeltyID/Passport Number: 8603061160183
+Status: Completed
+------------------------------

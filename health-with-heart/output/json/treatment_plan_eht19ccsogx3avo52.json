@@ -1,0 +1,85 @@
+{
+  "employee_id": "eht19ccsogx3avo52",
+  "employee_name": "Tanya Weitz",
+  "treatment_timeline": [
+    {
+      "date": "2020-10-13",
+      "report_id": "bmzg2r3lifhl43qz9",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tanya Weitz",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Lockdown has been a stressful time for many and has had a negative impact on many people's lifestyles. Try to make one small change at a time with regards to your lifestyle (diet, alcohol, caffeine, exercise) and slowly but surely you will start to turn things around.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Please visit a dentist to address your dental issues. Dental issues can lead to general inflammation in the body and even be a risk factor for heart disease if not addressed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with vitamin D 3 5000iu daily and spend some time in the sun without burning. Retest level in 4 to 6 months aiming for a level of 50ng/ml.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Cholesterol levels: to try manage with lifestyle only. Take omega 3 supplements 2g daily, avoid trans fats and refined carbohydrates, increase exercise and manage stress. Repeat blood after 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "99a5a4ce55a27759",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Tanya Weitz",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "You can choose to turn this around and hopefully now that the pandemic is easing slightly and the weather is improving, you will feel more motivated to make healthy choices.",
+          "status": "Planned",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Most of your concerns currently relate to lifestyle changes that have occured during lockdown.",
+          "status": "Planned",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Tanya, a very low vitamin D level was found in your blood results.",
+          "status": "Planned",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "A slightly raised cholesterol level was found in your blood results.",
+          "status": "Planned",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:45:20",
+  "total_reports": 2,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

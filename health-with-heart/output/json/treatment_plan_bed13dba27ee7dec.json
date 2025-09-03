@@ -1,0 +1,57 @@
+{
+  "employee_id": "bed13dba27ee7dec",
+  "employee_name": "Sandra Johnson",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-05",
+      "report_id": "de373a28821ec861",
+      "report_date": "2022-09-05",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sandra Johnson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat blood tests in 3-6 months.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve your diet by having more fruits, veggies and wholegrains. Decrease processed foods with saturated fats, salt and sugar. Add more fish and limit the amount of red meat you eat.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately 3-5x a week. This will aid weight loss which will improve BMI, body fat %, the risk of heart disease and overall health!",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin B co , iron",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:08:14",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

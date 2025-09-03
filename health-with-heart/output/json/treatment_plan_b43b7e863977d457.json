@@ -1,0 +1,33 @@
+{
+  "employee_id": "b43b7e863977d457",
+  "employee_name": "Pasca Mohlaoleng Motale",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-08",
+      "report_id": "73b14df2c0b6e536",
+      "report_date": "2022-06-08",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Pasca Mohlaoleng Motale",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:00:24",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

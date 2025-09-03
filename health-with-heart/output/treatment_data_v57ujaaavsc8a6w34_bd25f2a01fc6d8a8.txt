@@ -1,0 +1,213 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:20
+Employee ID: v57ujaaavsc8a6w34
+Report ID: bd25f2a01fc6d8a8
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: LifestyleRecommendation
+Comment Value: Increase your daily vegetable intake and your exercise to 3-5x a week.  Reduce restaurant food and daily sugar intake.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: LifestyleRecommendation
+Comment Value: Increase your daily vegetable intake and your exercise to 3-5x a week.  Reduce restaurant food and daily sugar intake.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Thank you for trusting us with your executive medical. In general, looking at both the laboratory and physical aspects, you seem to be in very good health. Your risk of cardiovascular disease is currently very low. The only improvements we can recommend is to adjust your intake of red meat and vegetables to improve your cholesterol profile.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Thank you for trusting us with your executive medical. In general, looking at both the laboratory and physical aspects, you seem to be in very good health. Your risk of cardiovascular disease is currently very low. The only improvements we can recommend is to adjust your intake of red meat and vegetables to improve your cholesterol profile.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MensHealthRecommendation
+Comment Value: Please report any new worrying or persistent urinary symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MensHealthRecommendation
+Comment Value: Please report any new worrying or persistent urinary symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: You appear resilient in the face of stress.  Monitor and visit a psychologist or a doctor if you feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: You appear resilient in the face of stress.  Monitor and visit a psychologist or a doctor if you feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitalsRecommendation
+Comment Value: To lower your cardiovascular risk focus on reducing your waist circumference rather than a number on the scale.
+Special Investigation Notes: None
+------------------------------
+Employee: Arnold Kalibo
+Report Date: 2025-07-28
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitalsRecommendation
+Comment Value: To lower your cardiovascular risk focus on reducing your waist circumference rather than a number on the scale.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2021-05-25 - 2021-05-25
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2025-07-30 - 2025-07-30
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

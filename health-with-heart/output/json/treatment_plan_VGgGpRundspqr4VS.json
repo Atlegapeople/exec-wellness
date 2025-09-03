@@ -1,0 +1,57 @@
+{
+  "employee_id": "VGgGpRundspqr4VS",
+  "employee_name": "Ajay Somla",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "36sJ4ik8HPgUmwN8",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ajay Somla",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "If you experience symptoms such as dizziness & fainting please see a cardiologist.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "You are better suited for endurance training & exercises that require skill & coordination.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep BMI between 18.5-24.9 & waist-to-height ratio below 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor your resting heart rate.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:16:07",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

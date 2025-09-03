@@ -1,0 +1,4526 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:08
+Employee ID: 6dkj1jqxacum092r0
+Report ID: mat81dsokthnhfopy
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Cipramil 20mg daily
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: LabTestNote
+Comment Value: All results within normal except for mildly raised cholesterol
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MedicalHistoryNote
+Comment Value: Glenn it was a pleasure to meet you and do your medical today. Overall your results were all normal apart from the slightly raised cholesterol. With your family history of heart disease it's prudent that you pay attention to this and your lifestyle to ensure that you remain healthy. I hope that this information will help you and motivate you to have an active and healthy 2022.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist to height ratio
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol - does not warrant medication but pay attention to lifestyle factors including your diet, exercise, stress management and reducing alcohol consumption. Also consider supplementing with 2g of omega 3 fish oil daily.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin falls within the normal range but is at the upper limit. A raised fasting insulin level can be the first indication of insulin resistance and prediabetes. To reduce this to a more optimal level pay attention to reducing sugar and starchy carbohydrates in your diet, continue to exercise and manage your stress levels.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels, family history, waist circumference, moderate alcohol consumption
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Frequent exercise
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol
+Borderline fasting insulin levels
+Raised waist to height ratio
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised waist to height ratio indicates that you are carrying some extra weight around your abdomen. This weight can increase your risk of cardiovascular disease and other chronic disease such as type 2 diabetes.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Glenn Brickhill
+Report Date: 2022-01-20
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-01-25 - 2022-01-25
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

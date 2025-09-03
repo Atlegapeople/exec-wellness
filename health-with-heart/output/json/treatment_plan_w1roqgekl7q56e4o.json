@@ -1,0 +1,57 @@
+{
+  "employee_id": "w1roqgekl7q56e4o",
+  "employee_name": "Tian Roelofse",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-31",
+      "report_id": "c2c5aba7bb19ed3a",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tian Roelofse",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "1st degree AV block",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Make time for rest and relaxation",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "No further cardiology referral required",
+          "status": "Completed",
+          "source_field": "My professional opinion"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Start screening for prostate cancer sooner and more frequently due to family history",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific women's health recommendations",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:20:14",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

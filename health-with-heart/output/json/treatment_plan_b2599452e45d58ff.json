@@ -1,0 +1,45 @@
+{
+  "employee_id": "b2599452e45d58ff",
+  "employee_name": "Mapula Mohale",
+  "treatment_timeline": [
+    {
+      "date": "2024-02-01",
+      "report_id": "3f8ddf3ff51b4315",
+      "report_date": "2024-02-01",
+      "doctor": "Skye Scott",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mapula Mohale",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Please book a pap smear soon. Remember that stopping the pill can be a little hormonally unsettling and things take time to reset.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise, optimising diet and having some therapy will all help to build better mental resilience and muscle!",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "You can collect DHEA 10mg from reception to support energy and mood.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:58:28",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Skye Scott"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

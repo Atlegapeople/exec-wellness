@@ -1,0 +1,33 @@
+{
+  "employee_id": "d62bf8cefc0c922d",
+  "employee_name": "Tsakane Mavunda",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-13",
+      "report_id": "b1e49cb826e9c3b4",
+      "report_date": "2022-06-13",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Tsakane Mavunda",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:29:31",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

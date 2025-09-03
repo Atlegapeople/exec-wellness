@@ -1,0 +1,45 @@
+{
+  "employee_id": "sw55mc7z6qx3bijg",
+  "employee_name": "Graham Clark",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-20",
+      "report_id": "963f810d87f13dfe",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Graham Clark",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram is recommended to assess the nature of this loss, and if management is necessary.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40: if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45: if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:05:36",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

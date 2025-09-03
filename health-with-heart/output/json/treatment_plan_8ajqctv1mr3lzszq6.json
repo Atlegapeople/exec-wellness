@@ -1,0 +1,71 @@
+{
+  "employee_id": "8ajqctv1mr3lzszq6",
+  "employee_name": "Thobeka Tubela",
+  "treatment_timeline": [
+    {
+      "date": "2020-03-10",
+      "report_id": "Not specified",
+      "report_date": "2020-03-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thobeka Tubela",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Over the age of 40 it is recommended that you have a mammogram done.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-24",
+      "report_id": "pr8koz1wnzjkmioa5",
+      "report_date": "2022-03-24",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thobeka Tubela",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Have a mammogram done once over the age of 40. Encouraged to do so when finished breastfeeding.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Discuss vitamin D supplementation with your gynae. Your levels are not terrible but certainly not optimal. I would recommend 4000iu daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-12-15",
+      "report_id": "Not specified",
+      "report_date": "2022-12-15",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thobeka Tubela",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Over the age of 40 it is recommended that you have a mammogram done. When you finish breastfeeding I would encourage you to do this.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:27:24",
+  "total_reports": 3,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

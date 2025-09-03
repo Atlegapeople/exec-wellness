@@ -1,0 +1,51 @@
+{
+  "employee_id": "4223b455e408a748",
+  "employee_name": "Lawrence Motaung",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-01",
+      "report_id": "9108195490083",
+      "report_date": "2023-09-01",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lawrence Motaung",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a good waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Protein Shake",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:35:39",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

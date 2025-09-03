@@ -1,0 +1,63 @@
+{
+  "employee_id": "nG2WJqaBPbh3pQzw",
+  "employee_name": "Phumza Gama",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "3pijStzJmrBfM9ah",
+      "report_date": "2023-09-14",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Phumza Gama",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor your kidney function.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Work to improve your diet & lifestyle so as to lower your risk of chronic diseases.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Learn how to manage stress. Reach out for support regarding your mental health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Continue Pap smear screening as recommended. From the age of 40 mammogram screening is also advised.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "-BMI at 47.6 & waist-to-height ratio at 67.2 are high. This increased your risk of conditions such as diabetes & hypertension. Lower this risk by losing weight. Aim for a BMI between 18.5- 24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:36:10",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

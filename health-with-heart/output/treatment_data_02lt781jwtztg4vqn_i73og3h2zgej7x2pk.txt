@@ -1,0 +1,4830 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:38
+Employee ID: 02lt781jwtztg4vqn
+Report ID: i73og3h2zgej7x2pk
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ChronicMedicationList
+Comment Value: Stilpaine as needed when gets migraines
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamNote
+Comment Value: Neck: thyroidectomy scar
+Musculoskeletal: Decreased back movement, generalise joint tenderness
+Eyesight: poor vision at night
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: LabTestNote
+Comment Value: DHEA low advised 10mg DHEA daily for 3/12
+High Chol: discussed saturated fat in diet, omega 3 advised
+B vitamins advised for high homocysteine
+Recommended a vault smear
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MedicalHistoryNote
+Comment Value: Rochelle you have many significant issues that have put strain on you, your family and your work however you maintain a positive outlook and I respect that. I highly recommend that you chat to a genetic counsellor (Prof Krause at Donald Gordon) about your genetic risk for Motor Neuron Disease. This will help you to decide if you want to do the genetic tests or not. It will also help you manage the fear of the unknown. I also recommend that you see a physio urgently to work on your musculoskeletal health and work towards better mobility. A biokinetisist may also be needed, but the physio can comment on that. Melissa De Waard can offer psychological counselling (ICAS can pay for this) and I highly recommend you speak to her to help you to manage all your trauma, stress and pressures. Carry on with your healthy diet. For your High homocysteine levels and borderline vitamin D levels I recommend phytomulti 2 tabs a day and for the inflammation in your muscles and back omega 3 two tablets a day.
+Your DHEA levels are a bit low and you might be heading towards burn out, so DHEA 10mg can help manage this.
+I have prescribed circadian 4mg nocte for you to help you to fall asleep at night.
+I also gave you Tramadol 100mg and stemitil 10mg IMI STAT for your pending migraine today.
+Remember health has many layers, look after yourself, invest in you psychological and emotional well being and please don't ignore you back pain any longer. You matter and you need to seek help!
+Lastly if time with the physio, the psychologist and the supplements don't help the muscle pain, stiff thumbs and headaches I think a neurologist consult might be indicated. For that reason please check in with us or your GP regularly to monitor your progress with this in the back of your mind.
+I wish you all the health and happiness you deserve.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: SpecialInvestigationNote
+Comment Value: Very poor VO2max
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: VitalsNote
+Comment Value: Blood pressure normally normal but she can feel a migraine coming, so might be high because of that. Recommended repeat in 1/52.
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic Counselling
+Counselling about function and managing work situation
+Physio and biokinetics
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: DHEA supplement and circadian
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Genetic risk for MND
+Back pain and decreased mobility
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat BP with nurse in 1/52
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Needs to recheck her blood pressure
+Diet might be a bit high in saturated fats
+Unable to do much exercise due to pain
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure
+Low DHEA
+Fatigue Unable to fall asleep at night
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+Employee: Rochelle Lupton
+Report Date: 2022-01-19
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Phytomulti
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Very poor VO2max
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-01-19 - 2022-01-19
+Time: 08:00:00 - 09:45:00
+Notes: 
+Status: Completed
+------------------------------

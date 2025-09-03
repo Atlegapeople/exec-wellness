@@ -1,0 +1,508 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:59
+Employee ID: 2i2vzgwk25pgpo3x
+Report ID: 10a71b4b811d7cf9
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ChronicMedicationList
+Comment Value: Serdep
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ClinicalExamRecommendation
+Comment Value: No abnormalities detected
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: LabTestRecommendation
+Comment Value: Fats are critical for our health. Our cells need fat, our brains need fat,  use extra-virgin olive oil for raw and low-temperature uses. For high-temperature cooking, he suggests avocado oil, coconut oil or ghee. This will help increase good cholesterol.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: LifestyleRecommendation
+Comment Value: Combat the sedentary job by walking during breaks and meetings and also do stretches and desk exercises. Aim to eat a rainbow with each meal the benefits are due to the phytochemicals in different foods, which give different nutrients and distinct aroma&taste
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Studies have shown a connection between what you eat/ gut health and mood. Feed your brain and body with a nutrient-dense, whole, fresh, plant-based diet, cut out sugar, keep exercising and add supplements like omega-3 fatty acids and 5-HTP. Try deep meditation/ journaling.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Emotional balance is a state of being aware of our emotions enough to manage them in a way that is gentle, honest, and wise. Self-care is an important part of managing stress. Well done for prioritising this. Contact ICAS phone number 0800 212 699 if you feel you need extra support.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Gastroscopy of acid reflux persists.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: There are several triggers for acid reflux, certain foods, eating right before bed or on an already full stomach as well as chronic stress. Try take five breaths before each meal to reduce anxiety while eating, avoid the triggers and consider a g-scope if persists.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: VitalsRecommendation
+Comment Value: Normal parameters. Well done.
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: VitaminsOrSupplements
+Comment Value: ds24
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Tayla Degger
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: An annual mammogram is recommended from age 40.
+Overview Notes: Tayla, thank you for coming for the medical, you are generally in good health, hope these recommendations help you optimise your health.
+Comment Key: WomensHealthRecommendation
+Comment Value: An annual mammogram is recommended from age 40.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-04-06 - 2023-04-06
+Time: 12:00:00 - 14:00:00
+Notes: Tayla DeggerID/Passport Number: 9805290095085
+Status: Completed
+------------------------------

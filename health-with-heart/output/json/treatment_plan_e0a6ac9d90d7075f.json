@@ -1,0 +1,57 @@
+{
+  "employee_id": "e0a6ac9d90d7075f",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-08",
+      "report_id": "fcfe5ab56757c651",
+      "report_date": "2023-06-08",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You have a high BMI & body fat %. Improving your diet & regular exercise can help weight loss. You have a few clinical signs, which together with your PCOS diagnosis, put you at higher risk for developing a future metabolic syndrome.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You experienced mood symptoms when taking Yaz (oral contraceptive) and thus stopped. We can monitor this in the future. Regular self breast examinations are important to help detect any irregularities.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "It is a journey but there are many health professionals to come along side you.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , Chaste Berry",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:36:52",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

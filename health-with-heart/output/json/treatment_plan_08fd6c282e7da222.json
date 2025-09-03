@@ -1,0 +1,63 @@
+{
+  "employee_id": "08fd6c282e7da222",
+  "employee_name": "Bridget Tshamunduku",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "0b22cbe66429e4b9",
+      "report_date": "2023-05-11",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Bridget Tshamunduku",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Good general examination.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regular breast self-exams help to detect any irregularities.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improving your diet & increasing exercise should help reduce this risk.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "You need to go for regular screening. A Pap smear can be booked at a GP/ Gynae (every 3 years if normal).",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "And a Mammogram with Radiology.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "If worsening/ acute onset of symptoms to seek urgent medical review.",
+          "status": "Ongoing",
+          "source_field": "SymptomsOrDiscomfort"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:57:54",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

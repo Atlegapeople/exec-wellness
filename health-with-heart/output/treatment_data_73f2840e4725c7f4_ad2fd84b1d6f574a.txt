@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:08
+Employee ID: 73f2840e4725c7f4
+Report ID: ad2fd84b1d6f574a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Donald Oliphant
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Blood trace, pH 6, SG 1.015
+------------------------------
+Employee: Donald Oliphant
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Blood trace, pH 6, SG 1.015
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,57 @@
+{
+  "employee_id": "tljqgzr13vohrzzl",
+  "employee_name": "Deon Joubert",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-15",
+      "report_id": "d13d2430b499ee95",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Deon Joubert",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Old surgical scar noted on the right forearm. The rest of the examination was normal.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue with regular exercise program.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Ensure that you make time for rest/relaxation and self-care.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Bloating may be a symptom of food intolerance or an underlying condition. A colonoscopy can be considered if this persists despite avoiding lactose containing foods and excluding other food intolerances.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Whey , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:08:32",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

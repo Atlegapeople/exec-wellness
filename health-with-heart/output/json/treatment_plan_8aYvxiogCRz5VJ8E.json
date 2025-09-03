@@ -1,0 +1,51 @@
+{
+  "employee_id": "8aYvxiogCRz5VJ8E",
+  "employee_name": "Melanie Stainbank",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "KixoXn2PXhbbwXxb",
+      "report_date": "2023-09-14",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Melanie Stainbank",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day, apart from obvious limitations due to groin injury.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Due to your injury of your left leg you are experiencing quite a few symptoms. Be cautious of using too many anti-inflammatories as this can cause irreversible damage to your kidneys.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Calcium",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please reach out to Melissa the psychologist for some support.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:27:32",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

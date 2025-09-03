@@ -1,0 +1,45 @@
+{
+  "employee_id": "4447c3333b358f1d",
+  "employee_name": "Nkosinathi Sibanyoni",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-26",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Nkosinathi Sibanyoni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Book a full audiogram for further testing at Prime Hearing.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Lower cholesterol through refining your diet in order to decrease your risk of cardiovascular events.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:36:48",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

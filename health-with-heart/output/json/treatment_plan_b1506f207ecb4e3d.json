@@ -1,0 +1,69 @@
+{
+  "employee_id": "b1506f207ecb4e3d",
+  "employee_name": "Trishern Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "d37fc4631bd15e57",
+      "report_date": "2023-05-11",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Trishern Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary problems to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a good waist circumference to reduce your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying urinary problems to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNotes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Repeat the tests that were abnormal after this time frame to review.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:57:55",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "employee_id": "d2f1265043a5a476",
+  "employee_name": "Khonzi Buthelezi",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-11",
+      "report_id": "7d82ce61b6522690",
+      "report_date": "2021-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Khonzi Buthelezi",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Nitrites + and Leucocytes trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-12",
+      "report_id": "5170e1a14fbbc761",
+      "report_date": "2022-04-12",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Khonzi Buthelezi",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "blood 1+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "fbd8f7e7016fd193",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Khonzi Buthelezi",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "blood 4+, employee currently on her period",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:27:02",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

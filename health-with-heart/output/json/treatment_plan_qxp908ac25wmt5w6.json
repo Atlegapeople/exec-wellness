@@ -1,0 +1,73 @@
+{
+  "employee_id": "qxp908ac25wmt5w6",
+  "employee_name": "Cornelius (Neels) Els",
+  "treatment_timeline": [
+    {
+      "date": "2025-03-24",
+      "report_id": "3ab950107b7781e0",
+      "report_date": "Not specified",
+      "doctor": "Dr Serisha Latchmiah",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cornelius (Neels) Els",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Clinically examines well",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "annual screening for prostate cancer is advised",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increasing your intensity and duration of cardiovascular exercises will improve these and reduce your risk of diseases of lifestyle.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Thank you for allowing us to help you identify any health concerns with this personalized screen. There are no major red flags that need to be addressed immediately, rather refine your everyday lifestyle choices (increase your cardio workouts) for improved future health.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "b94828d63d941995",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Cornelius (Neels) Els",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Annual screening for prostate cancer is advised.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:54:16",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Dr Serisha Latchmiah"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "kul29he0otr3fifx",
+  "employee_name": "Janet Gwaza",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-14",
+      "report_id": "9df8a8a7ff53ea27",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Janet Gwaza",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy: At the age of 50, we recommend a screening colonoscopy and gastroscopy to detect any changes that present a future risk for cancer. An annual bone density screen for osteoporosis is recommended from age 50.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:20:38",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

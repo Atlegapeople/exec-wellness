@@ -1,0 +1,55 @@
+{
+  "employee_id": "f450a22ef772fde6",
+  "employee_name": "Lorraine Maluleke",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-05",
+      "report_id": "8bbc5421f5d9342b",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lorraine Maluleke",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Mild uterine prolapse - continue to see pelvic health physio.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You are experiencing hot flashes - most likely related to the onset of menopause. You can consider testing your hormones and discussing HRT.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "7c886481921d5b4a",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Mild uterine prolapse - continue to see pelvic health physio.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:49:39",
+  "total_reports": 2,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

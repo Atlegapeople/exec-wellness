@@ -1,0 +1,45 @@
+{
+  "employee_id": "642a4401170675cd",
+  "employee_name": "Leshego Mphahlele",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-23",
+      "report_id": "70078f230e23c810",
+      "report_date": "2023-06-23",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Leshego Mphahlele",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay attention to your diet and exercise and make a concerted effort to maintain a healthy body weight.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please also be mindful of your stress levels and find ways to reduce them.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Vitamin B12/BCo",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:59:23",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

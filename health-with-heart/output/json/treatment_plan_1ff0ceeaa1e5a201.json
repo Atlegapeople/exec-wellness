@@ -1,0 +1,63 @@
+{
+  "employee_id": "1ff0ceeaa1e5a201",
+  "employee_name": "Yogan Moodley",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-07",
+      "report_id": "1c1ac14da4043940",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Yogan Moodley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "We start screening for colon cancer from 45, please book a Screening Colonoscopy",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "BP - Diastolic pressures remain above 90. Lifestyle changes are integral to keeping BP normal. Can also do a 24 hour BP to confirm that it is raised in a 24 hour period.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You are inactive and unfit - please start moving more - atleast 4 times a week for 40mins",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise, decrease alcohol use, eat better.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "A natural way of boosting one's mood is through moving and breathing more. Consider incorporating yoga and exercise into your daily routine.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Alcohol also worsens depression, cholesterol and blood pressure. Please cut down on alcohol use.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:09:07",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

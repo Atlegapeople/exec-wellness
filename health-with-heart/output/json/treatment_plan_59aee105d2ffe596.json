@@ -1,0 +1,45 @@
+{
+  "employee_id": "59aee105d2ffe596",
+  "employee_name": "Nomsa Makgoadi",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-30",
+      "report_id": "032fd05f41a2536f",
+      "report_date": "2023-07-30",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Nomsa Makgoadi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor blood pressure as it was high. If remains high, medication may be needed.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Reduce homocysteine level by supplementing with methylated B vitamins (NeuroXcel). Recheck the level in 6 months. Aim for <7 umol/l.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:52:13",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

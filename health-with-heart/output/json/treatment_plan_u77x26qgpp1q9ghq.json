@@ -1,0 +1,57 @@
+{
+  "employee_id": "u77x26qgpp1q9ghq",
+  "employee_name": "Thembinkosi Silinda",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "45d55478225e59aa",
+      "report_date": "Report date from the data or 'Not specified'",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Thembinkosi Silinda",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40: if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45: if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Cholesterol: Optimise diet to reduce this, also take omega 3 supplements 2g daily and coQ10 supplement, use extra-virgin olive oil for raw and low-temperature uses. For high-temperature cooking, avocado oil, coconut oil or ghee.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take omega 3 supplements 2g daily and coQ10 supplement",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "multivitamin",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:11:19",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

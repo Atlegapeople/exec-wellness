@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:08
+Employee ID: n4p5sv69buxt3he1
+Report ID: d7c4ae03112f184f
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Philani Mkhize
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: ACC200
+Special Investigation Notes: None
+------------------------------
+Employee: Philani Mkhize
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: ACC200
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,57 @@
+{
+  "employee_id": "kw68vq28yx274s2y",
+  "employee_name": "Iain Marsden",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-04",
+      "report_id": "67cd8e3bc308420c",
+      "report_date": "2022-08-31",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Iain Marsden",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure is slightly elevated. Please monitor this often.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 30.4 & waist-to-height ratio of 57.3% are high. This increases your risk of illnesses such as hypertension & diabetes. Keeping your BMI between 18.5- 24.9 and waist-to-height ratio below 50% will lower this risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor you blood pressure and kidney function.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue moderate exercise and the diet changes you have made. This will improve your health and lessen the risk of some diseases.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Avoid binge drinking, 1-2 drinks per sitting is moderate.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:21:38",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

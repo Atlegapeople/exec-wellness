@@ -1,0 +1,45 @@
+{
+  "employee_id": "2cc0ffb0c08d1956",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-28",
+      "report_id": "8f702bb323777d19",
+      "report_date": "2022-10-28",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Getting up regularly while working allows you to move and stretch your joints and muscles, which helps relieve that stiffness and discomfort",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram once you turn 40",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "folic acid",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:17:57",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

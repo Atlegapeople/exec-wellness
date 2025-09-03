@@ -1,0 +1,45 @@
+{
+  "employee_id": "6ef3c648f5172655",
+  "employee_name": "Margaretha Melinda Hall",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-10",
+      "report_id": "6210a50d21bf93c1",
+      "report_date": "2022-10-10",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Margaretha Melinda Hall",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Full audiogram recommended to assess hearing further.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than the number on the scale for improved cardiovascular health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:05:29",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

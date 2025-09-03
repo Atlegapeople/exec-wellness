@@ -1,0 +1,26 @@
+{
+  "employee_id": "h0uhdcif0napwjy9",
+  "employee_name": "Gabisile Motjale",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "285d251003c4a0c7",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Gabisile Motjale",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

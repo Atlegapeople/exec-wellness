@@ -1,0 +1,51 @@
+{
+  "employee_id": "zxx822vs1k1ev1x4",
+  "employee_name": "Paul Ronquest",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-17",
+      "report_id": "b83af0751c5cc6ae",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Paul Ronquest",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your left calf has atrophied (become smaller) after the injury sustained years ago. Rehabilitation with a Biokineticist is advised.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please take care of your mental health; it is just as important as physical well being. Make time for relaxation and rest.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Appointment on 2023-03-17 from 08:00:00 to 10:00:00.",
+          "status": "Completed",
+          "source_field": "Appointments"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Omega 3 , Zinc , Vitamin D",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:36:45",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

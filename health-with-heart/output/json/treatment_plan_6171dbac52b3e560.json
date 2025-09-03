@@ -1,0 +1,33 @@
+{
+  "employee_id": "6171dbac52b3e560",
+  "employee_name": "Pranisha Sahadeo",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-25",
+      "report_id": "3620ee3582778197",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pranisha Sahadeo",
+      "actions": [
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:57:56",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

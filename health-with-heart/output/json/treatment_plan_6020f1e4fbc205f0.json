@@ -1,0 +1,81 @@
+{
+  "employee_id": "6020f1e4fbc205f0",
+  "employee_name": "Felicity Mncwango",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-29",
+      "report_id": "5d11b17045a66138",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Felicity Mncwango",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Multiple skin tags around neck, axilla, under breasts",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You require a big lifestyle change and I have introduced you to Bhakti to assist you with this journey",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , Calcium , Vitamin C , Omega 3 , Staminogro",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "To limit cardiovascular risk aim for a waist to height ratio <50% and a BMI of <25",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please see the Dietician&Biokineticist as soon as you can to start your weight loss and exercise journey. I think talking to someone from ICAS is also a good idea.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Date: 2022-08-31 - 2022-08-31, Time: 09:30:00 - 11:30:00",
+          "status": "Completed",
+          "source_field": "Appointments"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:57:25",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

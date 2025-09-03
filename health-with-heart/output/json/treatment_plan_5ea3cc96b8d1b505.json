@@ -1,0 +1,57 @@
+{
+  "employee_id": "5ea3cc96b8d1b505",
+  "employee_name": "Siyabulela Mbi",
+  "treatment_timeline": [
+    {
+      "date": "2024-02-07",
+      "report_id": "6d2354c3f06df0e4",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Siyabulela Mbi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Further work-up is required to exclude life threatening conditions.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to keep your BMI between 18.5-24.9 & waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Employ safe sexual practices.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendations found for Women's Health.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:54:15",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

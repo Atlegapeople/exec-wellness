@@ -1,0 +1,81 @@
+{
+  "employee_id": "c7a4529a89b23d59",
+  "employee_name": "Khutsiso Mhelembe",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-10",
+      "report_id": "5079eebe8c823da6",
+      "report_date": "2022-08-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khutsiso Mhelembe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up with a dermatologist regarding the rash on your back.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Discuss lifestyle and dietary changes with the doctor.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Start glucophage.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-03",
+      "report_id": "164be9b9e00e569e",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Khutsiso Mhelembe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please take note of the comments regarding your blood results. Please follow the advice regarding supplementation and lifestyle modifications need to take place and retest at the recommended time intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Magnesium, Vitamin D, Omega-3 fatty acids, and Probiotics.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Follow up with a dermatologist regarding the rash on your back.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:17:48",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 0b232825bd5fd616
+Report ID: dabc45da1c8b56a8
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Precious Shabalala
+Report Date: 2021-12-08
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "S.G - 1.030 Ph - 5"
+------------------------------
+Employee: Precious Shabalala
+Report Date: 2021-12-08
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "S.G - 1.030 Ph - 5"
+------------------------------
+Employee: Precious Shabalala
+Report Date: 2021-12-08
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "S.G - 1.030 Ph - 5"
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-03-02 - 2023-03-02
+Time: 08:45:00 - 10:45:00
+Notes: Tshepo ShabalalaID/Passport Number: 8905125329088
+Status: Completed
+------------------------------

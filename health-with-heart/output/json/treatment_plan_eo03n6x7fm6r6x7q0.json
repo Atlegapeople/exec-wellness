@@ -1,0 +1,91 @@
+{
+  "employee_id": "eo03n6x7fm6r6x7q0",
+  "employee_name": "Mary Vilakazi",
+  "treatment_timeline": [
+    {
+      "date": "2020-11-24",
+      "report_id": "4io6uzplgfkctl64f",
+      "report_date": "2020-11-24",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mary Vilakazi",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor lung functions yearly for Sarcoidosis flares",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor TSH and thyroid hormones 6 monthly to review Euthyrox script",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decrease BMI and waist circumference to less than 80cm. We use body mass index (BMI) and waist to height ratio (WHtR) to assess the distribution of excess body fat. People who carry more weight around their mid section, known as 'apple-shape', are at higher risk for heart disease, type 2 diabetes and cancer.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-11-30",
+      "report_id": "nele91ej6g9u1uifo",
+      "report_date": "2021-11-30",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mary Vilakazi",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-11",
+      "report_id": "Not specified",
+      "report_date": "2023-04-11",
+      "doctor": "Cindy Smit",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Mary Vilakazi",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue with the lifestyle adjustments in terms of diet and exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:46:31",
+  "total_reports": 3,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "employee_id": "sumu698s3qbpg20j",
+  "employee_name": "Mumbi Odame",
+  "treatment_timeline": [
+    {
+      "date": "2024-10-15",
+      "report_id": "880a18067b041623",
+      "report_date": "2024-10-15",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mumbi Odame",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "An arthritis screen is advised. Seeing a doctor with an interest in menopause may also be beneficial.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "89538d9c73725ff1",
+      "report_date": "Not specified",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Mumbi Odame",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:05:10",
+  "total_reports": 2,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

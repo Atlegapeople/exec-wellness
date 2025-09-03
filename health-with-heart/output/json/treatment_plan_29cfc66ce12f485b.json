@@ -1,0 +1,33 @@
+{
+  "employee_id": "29cfc66ce12f485b",
+  "employee_name": "Liza Machaka",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-07",
+      "report_id": "c458688741b7fa19",
+      "report_date": "2023-07-07",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Liza Machaka",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Employee educated on NB of eating plain yoghurt and drinking cranberry juice.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:16:16",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

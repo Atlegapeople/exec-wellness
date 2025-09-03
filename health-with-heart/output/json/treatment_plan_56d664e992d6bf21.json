@@ -1,0 +1,63 @@
+{
+  "employee_id": "56d664e992d6bf21",
+  "employee_name": "Sanjana Joshua",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-15",
+      "report_id": "2556301f5f0d50c0",
+      "report_date": "2023-06-15",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sanjana Joshua",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-12",
+      "report_id": "0c725e0f7f5fd592",
+      "report_date": "2024-09-12",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Your Women's Health screening is uptodate. I am glad to hear that your latest Pap Smear and Mammogram were normal. Regular screening helps detect any irregularities early and improves outcomes.",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Clinically you examine well with good blood pressure readings. Regular self breast examinations are important as you are more likely to detect any irregularities for further review.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:49:54",
+  "total_reports": 2,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "employee_id": "zobj1sw7kauyidf2f",
+  "employee_name": "Graeme McCabe",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-18",
+      "report_id": "sjezle8zm0x91ml0v",
+      "report_date": "2022-03-18",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Graeme McCabe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Losing weight, especially around your abdomen will help to decrease your risk of chronic disease in general.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take a methylated version of B vitamin complex (present in phytomulti or methyl care by metagenics).",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A vitamin D supplement may help prevent future bone density loss.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:34:00",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

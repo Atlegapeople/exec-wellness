@@ -1,0 +1,49 @@
+{
+  "employee_id": "k0wwdcyssfbv9sqz",
+  "employee_name": "Lizar Legodi",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "cd03bb9544396e7f",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Lizar Legodi",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "3 x cesarean section",
+          "status": "Completed",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        }
+      ]
+    },
+    {
+      "date": "2022-11-22",
+      "report_id": "8f94019a2a8bafec",
+      "report_date": "2022-11-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lizar Legodi",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, Prot trace, SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:17:51",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

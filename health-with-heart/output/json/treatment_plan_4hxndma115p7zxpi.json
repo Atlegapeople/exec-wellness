@@ -1,0 +1,63 @@
+{
+  "employee_id": "4hxndma115p7zxpi",
+  "employee_name": "Khumu Thema",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-30",
+      "report_id": "6e0a60c6b766b378",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khumu Thema",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "If liver enzymes remain elevated, do a liver ultrasound.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please see your doctor if symptoms develop.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No symptoms reported.",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No recommendations found.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:44:04",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

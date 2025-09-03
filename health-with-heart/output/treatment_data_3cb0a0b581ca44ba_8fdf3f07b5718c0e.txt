@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:07
+Employee ID: 3cb0a0b581ca44ba
+Report ID: 8fdf3f07b5718c0e
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Robyn Petersen
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,020  pH6
+------------------------------
+Employee: Robyn Petersen
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,020  pH6
+------------------------------
+Employee: Robyn Petersen
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,020  pH6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

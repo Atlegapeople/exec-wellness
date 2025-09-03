@@ -1,0 +1,81 @@
+{
+  "employee_id": "59AQ9nDPQZuNuWoo",
+  "employee_name": "Renoldah Kobo",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "7DaFisj5e6qpYhws",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Renoldah Kobo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue Pap smear screening as advised.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "After the age of 40, breast cancer screening is also advised.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat more fresh veggies, fruit & water daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Start exercising moderately.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritise stress management & reach out when you struggle.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Your fitness level is low & your body fat % is high. Improve this by exercising moderately 3-5x weekly for at least 30 minutes.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "You are best suited for endurance training. Weight lifting will help you build muscle & burn fat.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "BMI at 25.5 & waist-to-height ratio at 50.3 are slightly raised. This increases the your risk of conditions such as hypertension & diabetes. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Probiotics , Iron supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:52:26",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

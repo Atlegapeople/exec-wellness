@@ -1,0 +1,51 @@
+{
+  "employee_id": "ha7iiuulake78ou7",
+  "employee_name": "Mmajobo Tsholo",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-09",
+      "report_id": "64ace2fba4a9c449",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit or Not specified",
+      "nurse": "Rebecca Mogale or Not specified",
+      "employee_name": "Mmajobo Tsholo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram with an Audiologist is recommended.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a BMI < 25 and a waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Calci Vita , Multivitamin , Vitamin B co , Menoclove",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:01:38",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit or Not specified"
+    ],
+    "nurses": [
+      "Rebecca Mogale or Not specified"
+    ]
+  }
+}

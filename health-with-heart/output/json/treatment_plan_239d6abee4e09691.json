@@ -1,0 +1,51 @@
+{
+  "employee_id": "239d6abee4e09691",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-06",
+      "report_id": "cb4373327219699e",
+      "report_date": "2023-07-06",
+      "doctor": "Jessica Koen",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Use Aqueous cream (washing) & Epimax (lotion). Dry scaly patch on back - Tinea suspected. To trial topical Clotrimazole cream. If not improving, follow up with GP for further review.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Weight loss. It puts you at higher risk for future chronic illnesses.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular screening (Pap smears & mammograms) help detect any abnormalities early and improves management outcomes. I’m glad to hear that your recent results were normal. As you approach menopause we also recommend Bone Density Screening.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , Evening Primrose Oil , Iron supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:12:31",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

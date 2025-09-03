@@ -1,0 +1,57 @@
+{
+  "employee_id": "a71fa40e1cd21e51",
+  "employee_name": "Justine Bolton",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Justine Bolton",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A good waist circumference is a better indicator of cardiovascular risk than a poor BMI. Focus on building muscle and reducing cm rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Well done for keeping up with your women's health screens.",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Your Rheumatologist is already reviewing for Fibromyalgia. You are welcome to visit us for repeat scripts once a final diagnosis has been confirmed.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "You are welcome to visit us for repeat scripts once a final diagnosis has been confirmed.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:50:28",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

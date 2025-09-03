@@ -1,0 +1,45 @@
+{
+  "employee_id": "695c4d683c02cd0a",
+  "employee_name": "Thuli Gumede",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-18",
+      "report_id": "365ab42187f712e5",
+      "report_date": "2023-05-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thuli Gumede",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination noted on the day. If tinnitus in right ear persists, consider seeing an ENT.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I would recommend that you contact ICAS or Melissa to help you manage this. I would also encourage you to exercise more both for your mental and physical wellbeing.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:02:08",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

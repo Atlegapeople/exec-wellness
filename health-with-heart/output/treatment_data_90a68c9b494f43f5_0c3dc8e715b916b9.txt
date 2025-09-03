@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:53
+Employee ID: 90a68c9b494f43f5
+Report ID: 0c3dc8e715b916b9
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Mike Khumalo
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.005, pH 6
+------------------------------
+Employee: Mike Khumalo
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.005, pH 6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

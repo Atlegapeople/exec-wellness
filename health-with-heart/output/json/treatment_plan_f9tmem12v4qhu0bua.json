@@ -1,0 +1,103 @@
+{
+  "employee_id": "f9tmem12v4qhu0bua",
+  "employee_name": "Jashwin Maharaj",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-13",
+      "report_id": "4e7b82acbf0d220a",
+      "report_date": "2022-09-13",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Jashwin Maharaj",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please review any new urinary difficulties with your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendation found for this date.",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "There are no lifestyle recommendations found for this date.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-07",
+      "report_id": "08a232a98af90036",
+      "report_date": "2023-09-07",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jashwin Maharaj",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please review any new urinary difficulties with your doctor.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-07",
+      "report_id": "c64wcfnt2s2pqnhad",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jashwin Maharaj",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor hearing annually",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-18",
+      "report_id": "094dd9046d736437",
+      "report_date": "2024-09-18",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jashwin Maharaj",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Please prioritise movement, a plant rich diet and good sleep and retest some of your parameters in 3-6 months time.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn't necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:52:37",
+  "total_reports": 4,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer",
+      "Melinda Whitfield",
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "employee_id": "6t2541ymkqydyunn",
+  "employee_name": "Wesley Mooi",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Wesley Mooi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Script: Azithromycin, Probiotic, Genemyst, ACC200",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Experiencing 4 days of Sore throat, post nasal drip, congestion.",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Omega 3 , Zinc",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:08:02",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:43
+Employee ID: ihgipyi3l0ixnfno
+Report ID: 2450da0b5d0e0700
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Jason Solomons
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.025
+------------------------------
+Employee: Jason Solomons
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.025
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

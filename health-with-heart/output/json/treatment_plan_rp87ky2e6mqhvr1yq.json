@@ -1,0 +1,45 @@
+{
+  "employee_id": "rp87ky2e6mqhvr1yq",
+  "employee_name": "Sbusiso Mokhele",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-13",
+      "report_id": "6t68wnmryqsckh4pv",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sbusiso Mokhele",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Vitamin D is important for our bone, mood, cognition and has anti inflammatory and immune boosting effects. Supplement with 5000iu daily and recheck your levels in 6 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Homocysteine - supplement with Vit B12, B6 and B2 as well as METHYLATED folate (B9). Can try 'homocysteine lowering formula' from solal or methylcare from metagenics.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Stress is having a huge impact on your wellbeing. Please try to prioritise self care. Set boundaries at work where possible and remember to take breaks.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:00:27",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

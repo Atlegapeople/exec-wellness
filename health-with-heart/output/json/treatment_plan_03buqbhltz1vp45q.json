@@ -1,0 +1,45 @@
+{
+  "employee_id": "03buqbhltz1vp45q",
+  "employee_name": "Pratish Rajcoomar",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-30",
+      "report_id": "7e17f55297527ef0",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pratish Rajcoomar",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A lump was noted in the right upper neck region. A non-urgent ultrasound is recommended.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a BMI < 25 and a waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Spirulina , Vitamin B/C/D , Milkthistle , Essentiale",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:54:42",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

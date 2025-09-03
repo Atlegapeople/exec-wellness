@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:04
+Employee ID: 00dbf57471c682cd
+Report ID: add0dcdd39ad6650
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Andiswa Javu
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.010
+------------------------------
+Employee: Andiswa Javu
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.010
+------------------------------
+Employee: Andiswa Javu
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.010
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

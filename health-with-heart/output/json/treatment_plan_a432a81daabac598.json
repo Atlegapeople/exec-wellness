@@ -1,0 +1,33 @@
+{
+  "employee_id": "a432a81daabac598",
+  "employee_name": "Tshidiso Maila",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-05",
+      "report_id": "e8e7be7190ab2df1",
+      "report_date": "2023-07-05",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Tshidiso Maila",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Protein: trace, SG: 1,025, pH: 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "426zdwo97nc7yfh0",
+  "employee_name": "Nirvasha Harryparshad",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "5f90d058d2fdd56f",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Nirvasha Harryparshad",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Investigation & work up is necessary for the persisting cough you have been having. Please speak to your doctor.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-BMI at 29.9 & waist-to-height ratio at 51.6 are slightly high. This increases the risk of illnesses like hypertension & diabetes. Lower your weight and aim for a BMI between 18.5-24.9 & a waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements , Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:35:49",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

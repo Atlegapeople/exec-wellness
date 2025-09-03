@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:48
+Employee ID: c1bea079b54ac558
+Report ID: fdaae68ef23e2ef0
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ntombizanele Dosine
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.020, pH 7
+------------------------------
+Employee: Ntombizanele Dosine
+Report Date: 2022-06-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.020, pH 7
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

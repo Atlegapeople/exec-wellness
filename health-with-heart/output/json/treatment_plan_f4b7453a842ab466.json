@@ -1,0 +1,39 @@
+{
+  "employee_id": "f4b7453a842ab466",
+  "employee_name": "Tapiwa Mudima",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-08",
+      "report_id": "bc502455519e8e24",
+      "report_date": "2023-05-11",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Tapiwa Mudima",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "lower by reducing your refined carbohydrate & sugar intake",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with Vitamin D3 1000iu daily & repeat in 3 months. Aim for a level of 50-80ng/ml",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:49:46",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

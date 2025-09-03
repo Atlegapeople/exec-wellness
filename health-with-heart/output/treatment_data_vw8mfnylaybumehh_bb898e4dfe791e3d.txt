@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:49:48
+Employee ID: vw8mfnylaybumehh
+Report ID: bb898e4dfe791e3d
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Phillip Selowa
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: antihypertensive
+Special Investigation Notes: None
+------------------------------
+Employee: Phillip Selowa
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: antihypertensive
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

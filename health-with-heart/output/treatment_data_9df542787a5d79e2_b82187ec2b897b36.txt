@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:26
+Employee ID: 9df542787a5d79e2
+Report ID: b82187ec2b897b36
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Timothy Mokwena
+Report Date: 2023-06-19
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leukocytes 2+
+------------------------------
+Employee: Timothy Mokwena
+Report Date: 2023-06-19
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leukocytes 2+
+------------------------------
+Employee: Timothy Mokwena
+Report Date: 2023-06-19
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leukocytes 2+
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

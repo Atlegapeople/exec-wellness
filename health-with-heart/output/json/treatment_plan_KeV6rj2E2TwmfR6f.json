@@ -1,0 +1,45 @@
+{
+  "employee_id": "KeV6rj2E2TwmfR6f",
+  "employee_name": "Nombuso Zuma",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-07",
+      "report_id": "6pqrqhvHvzoc9bvL",
+      "report_date": "2023-09-14",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nombuso Zuma",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "High inflammation - eat a healthy diet, start exercising and try to lose weight.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes 4"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your homocysteine level is higher than optimal - supplement with activated B vitamins e.g. NeuroXcel.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes 5"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:18:23",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

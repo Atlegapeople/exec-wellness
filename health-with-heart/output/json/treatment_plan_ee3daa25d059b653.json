@@ -1,0 +1,81 @@
+{
+  "employee_id": "ee3daa25d059b653",
+  "employee_name": "Naomi Tema",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-25",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Naomi Tema",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Continue Pap smear screening as recommended.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-After the age of 40, mammogram tests are recommended.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Focus on building & maintaining lifestyle habits that improve your current & future health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Focus on burning fat & building muscle. Strength training is beneficial for this.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Avoid alcohol binges of 6+ units at a time. Low & occasional alcohol use is safer.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Improve variety in your diet & keep sugar intake low.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "-BMI at 31.8 & waist-to-height ratio at 57.3% are high. This increases risk of conditions such as hypertension & diabetes.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "-Do varied exercise types to help you burn body fat, while building muscle bulk.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "-Aim for BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:44:13",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

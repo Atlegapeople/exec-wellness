@@ -1,0 +1,45 @@
+{
+  "employee_id": "tm31k8vluyuhsnga",
+  "employee_name": "Afzal Tayob",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-02",
+      "report_id": "b0d56a55b61a4033",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Afzal Tayob",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Diastolic blood pressure raised on clinical examination. Reduce through regularly exercise, eat a healthy diet and reduce salt (sodium) intake in your diet.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Recommend PSA screening from age 40.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Incorporate monthly testicular self examinations into your lifestyle.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:08:41",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

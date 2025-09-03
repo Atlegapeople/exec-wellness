@@ -1,0 +1,33 @@
+{
+  "employee_id": "216363fe34b71949",
+  "employee_name": "Nothando Duma",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-28",
+      "report_id": "7b6885d8c44b816d",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nothando Duma",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "-Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:11:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "employee_id": "rd9bhje7ffwnl5w10",
+  "employee_name": "Sizwe Melusi Ali NxedlanaID/Passport Number: 811205 5486 083",
+  "treatment_timeline": [
+    {
+      "date": "2019-12-03",
+      "report_id": "ka986fqa9rdpc1xns",
+      "report_date": "Report date not specified",
+      "doctor": "Christie Pilossof or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Sizwe Melusi Ali NxedlanaID/Passport Number: 811205 5486 083",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "After the age of 45 prostate screening is important. Some of the signs of prostate disease are poor erections, a weak urinary stream & having to wake up more often to urinate. Be on the look out for these as you grow older.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Losing weight, exercising, eliminating sugar, significantly reducing your alcohol consumption and managing your stress better will all contribute to helping you lose weight, lower your blood pressure and reduce your risk of chronic disease. Please monitor your BP and if it remains elevated then make an appointment with one of our doctors to address it. Blood pressure is thought of as the 'silent' killer and needs active monitoring.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Focus on your diet and lifestyle to lose weight and aim to reduce your waist circumference to below 94cms to reduce your risk of cardiovascular disease, high blood pressure and diabetes. Aim to lose at least 10% of your body weight.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Above optimal homocysteine. Raised GGT liver enzyme. Raised Blood Pressure.",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-07",
+      "report_id": "551248ae9af1c00e",
+      "report_date": "2024-03-07",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sizwe Melusi Ali NxedlanaID/Passport Number: 811205 5486 083",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "After the age of 45 prostate screening is important. Some of the signs of prostate disease are poor erections, a weak urinary stream & having to wake up more often to urinate. Be on the look out for these as you grow older.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure, cholesterol & insulin are of concern. We will monitor these every three months.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:56:38",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof or Not specified",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified",
+      "Rebecca Mogale"
+    ]
+  }
+}

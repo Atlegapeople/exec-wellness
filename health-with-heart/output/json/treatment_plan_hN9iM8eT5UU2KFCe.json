@@ -1,0 +1,26 @@
+{
+  "employee_id": "hN9iM8eT5UU2KFCe",
+  "employee_name": "Lerato Maluleke",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "i4baS6RP3ZQqAbnk",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lerato Maluleke",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

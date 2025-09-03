@@ -1,0 +1,39 @@
+{
+  "employee_id": "9d0d96b35704608f",
+  "employee_name": "Luleka Lumko",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-18",
+      "report_id": "fa41a344f02c20ca",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Luleka Lumko",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing loss detected in your right ear. Visit the audiologist for a full audiogram to determine if a specialist referral is needed.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:40:01",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

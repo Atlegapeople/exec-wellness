@@ -1,0 +1,69 @@
+{
+  "employee_id": "pzx4m4x0vbe3val0l",
+  "employee_name": "Blaine Triegaardt",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-21",
+      "report_id": "c66rrxwxd1pd6gbdp",
+      "report_date": "2022-06-21",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Blaine Triegaardt",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your chronic condition needs a multidisciplinary approach. Dietician, Occupational Therapy, Physiotherapy, Psychology.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Uncontrolled Gout, Uncontrolled BP",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your screening Colonoscopy is due - please book with a Gastroenterologist to book for one (you can discuss facilitation of this with your Physician)",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "High Triglycerides",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Non-smoker",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Outstanding Colonoscopy; Triglyceraemia; Suboptimal Vit D; Diet; Anxiety",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vit D is suboptimal. Please review with your physician re supplementation of Vit D - Vit D3 5000 daily and repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:49:58",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

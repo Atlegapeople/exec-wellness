@@ -1,0 +1,50 @@
+{
+  "employee_id": "e78c0fd49c8df43f",
+  "employee_name": "Modise Joel Malepane",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-25",
+      "report_id": "2a488151eac37005",
+      "report_date": "2022-04-25",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Modise Joel Malepane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Leucocytes 1+",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "report_id": "8c566c38a5f8d366",
+      "report_date": "2024-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Modise Joel Malepane",
+      "actions": [
+        {
+          "category": "Special Investigation Notes",
+          "recommendation": "- PROTEIN: TRACE",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:40:11",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Masha Tisetso"
+    ]
+  }
+}

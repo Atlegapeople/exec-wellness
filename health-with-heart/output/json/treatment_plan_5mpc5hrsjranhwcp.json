@@ -1,0 +1,29 @@
+{
+  "employee_id": "5mpc5hrsjranhwcp",
+  "employee_name": "Carol Boukers",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "b1b6756b2b1ba469",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Carol Boukers",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Metformin , Statin , Antihypertensive",
+          "status": "Planned",
+          "source_field": "ChronicMedicationList"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:55:47",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [],
+    "nurses": []
+  }
+}

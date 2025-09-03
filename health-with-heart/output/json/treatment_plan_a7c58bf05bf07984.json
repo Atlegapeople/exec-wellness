@@ -1,0 +1,56 @@
+{
+  "employee_id": "a7c58bf05bf07984",
+  "employee_name": "Myra Sekopana",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-29",
+      "report_id": "485ebd77e0ab3047",
+      "report_date": "2021-04-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Myra Sekopana",
+      "actions": [
+        {
+          "category": "Supplements",
+          "recommendation": "NAD SG 1.025 Ph6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "d84c01d13273bc14",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Myra Sekopana",
+      "actions": [
+        {
+          "category": "Monitoring",
+          "recommendation": "Drink cranberry juice and fluids for trace Leucocytes",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor blood 4+ on her period",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:50:55",
+  "total_reports": 2,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ramona Azagsiba"
+    ]
+  }
+}

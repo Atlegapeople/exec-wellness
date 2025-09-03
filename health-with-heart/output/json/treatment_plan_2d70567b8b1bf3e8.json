@@ -1,0 +1,51 @@
+{
+  "employee_id": "2d70567b8b1bf3e8",
+  "employee_name": "Manoj Maharaj",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-25",
+      "report_id": "0eb019e5d1a1a10f",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Manoj Maharaj",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your blood pressure was raised. This puts you at risk for future cardiovascular events/ strokes - thus we need to optimise your pressure control. We can help find improved methods of consistently taking your pills daily.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening is important for early detection of any abnormalities as you get older & improves management outcomes. You can monitor for any symptoms & consult for further review.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Stress also plays a role and finding time to rest is important.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Turmeric/ Ginger/ Black pepper/ Cayenne pepper",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:19:10",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

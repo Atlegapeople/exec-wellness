@@ -1,0 +1,45 @@
+{
+  "employee_id": "h0syl2upcyjxd28of",
+  "employee_name": "Serushka Atcha",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-31",
+      "report_id": "mxbnkun4j24mtz97g",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Serushka Atcha",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Change from D2 to D3 as it is better absorbed. Take 5000iu daily and recheck your level in about 6 months, aiming for a level of 50 to 80ng/ml",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Slightly elevated cholesterol levels. I would not recommend medication but rather monitor the levels and pay attention to lifestyle factors as we discussed.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Slightly elevated cholesterol; Suboptimal Vitamin D levels. Very high stress levels; Smoker",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:00:33",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

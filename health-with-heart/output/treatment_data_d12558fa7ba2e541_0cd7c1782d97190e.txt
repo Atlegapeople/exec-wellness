@@ -1,0 +1,510 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:03
+Employee ID: d12558fa7ba2e541
+Report ID: 0cd7c1782d97190e
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ChronicMedicationList
+Comment Value: Antihypertensive , Trustan
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: LabTestRecommendation
+Comment Value: 1. Your Vit D level is low at 10 ng/ml. Please supplement with vit D3 5000iu daily & recheck your level in 3 months. Aim for a level of 50 - 80 ng/ml. Vit D is essential for bone, immune health, mood and hormone balance, amongst other functions.
+2. Your homocysteine (marker for autoimmune, heart and other chronic diseases) is normal but above optimal. We can bring this down by supplementing with methylated B vitamins. Please take Metagenics MethylCare (Wellness Warehouse/Faithful to Nature) or Solal's Homocysteine lowering formula & recheck the level in 6 months. Aim for <7 umol/l. 
+3. Your HDL ("good" cholesterol) level is low. You can increase this level by exercising frequently and by eating oily fish like sardines, pilchards, anchovies and mackerel.
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Known Hypertensive, controlled on treatment
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MensHealthRecommendation
+Comment Value: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Recently went for a scope due to reflux. Was then told he has gallstones and needs a cholecystectomy. (Scheduled for later this month at Unitas)
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: VitalsRecommendation
+Comment Value: To decrease your risk of a cardiovascular event aim for BMI of <25 and waist to height ratio of <50%
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Pule
+Report Date: 2022-07-28
+Doctor: Christie Pilossof
+Nurse: Rebecca Mogale
+Clinical Recommendations: Normal Clinical examination on the day.  Please report any new changes in your health in the coming months.
+Men's Health Recommendations: Over the age of 50 it is recommended that you see a urologist to check your prostate.
+Women's Health Recommendations: 
+Overview Notes: John overall you seem to be in quite good health. You do have hypertension but are managing it with medication. Your vitamin D level is very low so I do recommend that you supplement with vitamin D. I wish you all the best for your operation later this month. It was a pleasure to do your medical today and I look forward to seeing you again next year.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-08-02 - 2022-08-02
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

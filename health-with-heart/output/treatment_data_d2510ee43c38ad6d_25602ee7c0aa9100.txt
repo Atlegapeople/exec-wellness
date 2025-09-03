@@ -1,0 +1,52 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:04
+Employee ID: d2510ee43c38ad6d
+Report ID: 25602ee7c0aa9100
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ballentine Motloung
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,025  Leucocytes 1+  pH6   protein trace. No symptoms. Patient advised to drink  enough water, not hold urine for long, drink cranberry juice.
+------------------------------
+Employee: Ballentine Motloung
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,025  Leucocytes 1+  pH6   protein trace. No symptoms. Patient advised to drink  enough water, not hold urine for long, drink cranberry juice.
+------------------------------
+Employee: Ballentine Motloung
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1,025  Leucocytes 1+  pH6   protein trace. No symptoms. Patient advised to drink  enough water, not hold urine for long, drink cranberry juice.
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-10-13 - 2023-10-13
+Time: 10:33:34 - 11:27:47
+Notes: 
+Status: Completed
+------------------------------

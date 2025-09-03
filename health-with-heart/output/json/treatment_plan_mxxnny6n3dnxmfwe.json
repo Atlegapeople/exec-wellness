@@ -1,0 +1,45 @@
+{
+  "employee_id": "mxxnny6n3dnxmfwe",
+  "employee_name": "Wineka Maseti",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-02",
+      "report_id": "99b0eb8e4b538d91",
+      "report_date": "2022-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Wineka Maseti",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BP high - continue medication and monitor. Reduce salt, start exercising and try to lose weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is advised to maintain a BMI < 25 and a waist to height ratio < 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:33:56",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

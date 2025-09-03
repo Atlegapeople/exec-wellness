@@ -1,0 +1,69 @@
+{
+  "employee_id": "zu7ambwwwstjrm53i",
+  "employee_name": "Kribashni (Amy) Moodley",
+  "treatment_timeline": [
+    {
+      "date": "2021-11-02",
+      "report_id": "kkd673gsolkw32opy",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kribashni (Amy) Moodley",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Type 2 diabetes:controlled on glucophage. Can be significantly improved through lifestyle modification and sometimes even reversed as we discussed. Main areas to focus on are diet, exercise, weight loss and stress reduction.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Numerous risk factors - BP, cholesterol, weight and waist circumference, family history and diet",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "High levels of stress (work related)",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Stress has an impact on health and will increase your blood sugar levels and BP. See how you can make some changes to work and how you can better manage it - think walking, nature, yoga, breathing etc",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Low vitamin D: supplement with 5000iu of vitamin D daily and recheck levels in 3 months time aiming for a level of around 50",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "High cholesterol: continue with your simvastatin and try to exercise and improve your diet. Supplement with omega 3.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Stage 1 hypertension on pritor Mildly raised cholesterol and triglycerides",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:35:38",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

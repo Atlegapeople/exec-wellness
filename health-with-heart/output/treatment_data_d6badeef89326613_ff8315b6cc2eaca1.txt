@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:52
+Employee ID: d6badeef89326613
+Report ID: ff8315b6cc2eaca1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: John Levy Tsuene
+Report Date: 2021-04-16
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD Ph 7 SG 1.010"
+------------------------------
+Employee: John Levy Tsuene
+Report Date: 2021-04-16
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD Ph 7 SG 1.010"
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

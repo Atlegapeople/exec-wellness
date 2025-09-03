@@ -1,0 +1,33 @@
+{
+  "employee_id": "2ecf5c786c0cf863",
+  "employee_name": "Enoque Fernandes",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-16",
+      "report_id": "28f57d5c07fdf0ef",
+      "report_date": "2021-04-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Enoque Fernandes",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "NAD SG 1.025 Ph 5",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:19:35",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

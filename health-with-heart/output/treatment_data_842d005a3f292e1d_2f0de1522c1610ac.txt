@@ -1,0 +1,762 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:26
+Employee ID: 842d005a3f292e1d
+Report ID: 2f0de1522c1610ac
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: Spasm in the lower back.
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol at 5.5 is high. Limit saturated fats.
+-Fasting insulin is slightly raised, this may signal insulin resistance. Intermittent fasting & a low carb diet may help improve this.
+-Cortisol levels are lower than expected. A repeat test is recommended.
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: LifestyleRecommendation
+Comment Value: -Eat a variety of fresh fruit & veggies with every meal. Aim for at least 5 a day. Choose unrefined carbohydrates & lean meats. Vary your protein sources.
+-Limit full cream, baked goods & animal products
+-Exercise moderately 3-5x weekly at least 30 minutes.
+-Keep sugar intake low.
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: MentalHealthStressRecommendation
+Comment Value:  
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Please repeat your lung function & urine tests.
+-Your nervous system is in a state of fatigue. Combat this by taking active rest.
+-Exercise moderately to improve your fitness, keep your heart rate between 104-130 bpm.
+-There is evidence of stress.
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: -The muscles of your lower back are in spasm. Rehabilitation & physical therapy may help relieve the tension & the pain.
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Mary Mudzingwa
+Report Date: 2023-06-15
+Doctor: Joy Sitole
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: Mary, thank you for doing your medical with us.
+-Improve you physical health by exercising moderately 3-5x weekly.
+-Limit foods high in saturated fats such as full cream, animal products & baked goods. This will improve cholesterol.
+-Keep sugar & salt low.
+-Combat fatigue & stress by active rest. Grounding, mindfulness & breathing exercises will help.
+-Monitor blood pressure in 3 months. Repeat morning cortisol levels.
+-Please repeat your lung function & urine tests.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner for a Pap smear and a Radiologist for a mammogram.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-06-20 - 2023-06-20
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

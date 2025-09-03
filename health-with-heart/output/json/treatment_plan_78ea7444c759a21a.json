@@ -1,0 +1,33 @@
+{
+  "employee_id": "78ea7444c759a21a",
+  "employee_name": "Louis Mashele",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-11",
+      "report_id": "eebeb3c9d58de2a1",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Louis Mashele",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "Will consult with his own GP",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:13:32",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

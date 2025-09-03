@@ -1,0 +1,57 @@
+{
+  "employee_id": "1cd76565ba74ca3d",
+  "employee_name": "Rishay Marajah",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-31",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Rishay Marajah",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "See GP to optimize Cholesterol levels with dietary and lifestyle changes and repeat Lipogram in 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat Thyroid Function Test in 6 weeks.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with 5000iu Vitamin D and repeat levels in 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Normal BMI . Continue healthy eating habits , regular exercise and strength training to maintain ideal BMI.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "no symptoms reported",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:07:37",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

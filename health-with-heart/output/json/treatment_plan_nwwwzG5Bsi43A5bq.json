@@ -1,0 +1,26 @@
+{
+  "employee_id": "nwwwzG5Bsi43A5bq",
+  "employee_name": "Refilwe Pieter",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "eKYTrniauum2gN2L",
+      "report_date": "2023-09-14",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Refilwe Pieter",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

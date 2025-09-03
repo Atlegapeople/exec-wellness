@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:56
+Employee ID: 43bd59babbaab0ac
+Report ID: 9a102b4084429cd2
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Rainaash Preethapal
+Report Date: 2022-06-20
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.020
+------------------------------
+Employee: Rainaash Preethapal
+Report Date: 2022-06-20
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.020
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,26 @@
+{
+  "employee_id": "dkzqyazybme84g6y",
+  "employee_name": "Neo Mohube",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "2993736e7bc5348b",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Neo Mohube",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

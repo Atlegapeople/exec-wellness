@@ -1,0 +1,45 @@
+{
+  "employee_id": "a81ab7df5a92cbf5",
+  "employee_name": "Pelokazi Ntluko",
+  "treatment_timeline": [
+    {
+      "date": "2024-02-12",
+      "report_id": "294aa84a8292f8bf",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pelokazi Ntluko",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Mild hearing loss at a higher frequency in the left ear. A full audiogram is needed to investigate further.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear annually.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI of 26.8 & waist-to-height ratio of 54.6 are slightly raised. This increases the risk of conditions such hypertension & diabetes. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:51:27",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

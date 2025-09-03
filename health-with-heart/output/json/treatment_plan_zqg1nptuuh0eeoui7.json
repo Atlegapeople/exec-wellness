@@ -1,0 +1,120 @@
+{
+  "employee_id": "zqg1nptuuh0eeoui7",
+  "employee_name": "Theo Thomas",
+  "treatment_timeline": [
+    {
+      "date": "2019-07-09",
+      "report_id": "qowrghq4n4v818tft",
+      "report_date": "2019-07-09",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Theo Thomas",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "-Continue annual screening. Monitor your cholesterol levels bi-annually.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Pay attention to any changes to your urinary patterns & sexual function. Continue with your urology reviews.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2021-11-23",
+      "report_id": "wrfcm8jshbdqwkn56",
+      "report_date": "2021-11-23",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn't necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric Acid: reduce red meat and alcohol intake",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue annual screening. Monitor your cholesterol levels bi-annually.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-09",
+      "report_id": "a5fc4a02ac363a97",
+      "report_date": "2023-11-09",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Theo Thomas",
+      "actions": [
+        {
+          "category": "Monitoring",
+          "recommendation": "Continue annual screening.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Monitor your cholesterol levels bi-annually.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-12",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Theo Thomas",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40. Elevated PSA level doesn't necessarily indicate prostate cancer. Other conditions, such as benign prostatic hyperplasia (BPH) and prostate infections, can also lead to increased PSA levels",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue employing lifestyle habits that serve you.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "-Keep monitoring your cholesterol & blood pressure.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:35:14",
+  "total_reports": 4,
+  "total_actions": 10,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer",
+      "Joy Sitole",
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,4626 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:19
+Employee ID: iz20iz16uvyh2j8ta
+Report ID: gjbuvyc5mub2jy49t
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ChronicMedicationList
+Comment Value: Losar, Bilocor, Eltroxin, Calciferol, Foxair and loratadine 
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamComment
+Comment Value: -1
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamNote
+Comment Value: Eczema rash under both breasts 
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: LabTestNote
+Comment Value: Raised Hs-CRP and ESR, uric acid raised
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MedicalHistoryNote
+Comment Value: Audrey it was lovely meeting you and I hope this medical is the beginning of big changes for your life and the recommendations will assist in helping you to become a healthier, fitter you.
+
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: SpecialInvestigationNote
+Comment Value: Raised Glucose, insulin and homa index
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI is in obesity range and you have asthma with long covid. Exercise needs to be started in a controlled manner please review with a Cardiologist first to assure safety.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker, Planning to start exercising, does not drink alcohol
+
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BP, BMI, Waist to height ratio, sleep and anxiety
+
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your CRP, ESR, uric acid and glucose was discussed for urgent referral to your treating GP for work up. Hopefully that has happened and is being managed
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Hs-CRP, ESR, Glucose, uric acid
+
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears are important to keep up with - try your best to do so.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: General anxiety and stress can contribute to elevated blood pressure.Try deep breathing, gentle exercise, yoga & meditation. Supplement with magnesium & ashwagandha can help.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Sleep is when the body repairs itself and detoxifies. Limit screen time for at least two hours before bed as the blue light inhibits the sleep hormone. Relaxing activities before bedtime. 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+Employee: Audrey Vengadasamy
+Report Date: 2022-06-09
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Blood pressure, Diabetes, waist circumference, diet and obesity
+
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Raised Glucose, insulin and homa index
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-06-14 - 2022-06-14
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,45 @@
+{
+  "employee_id": "f09wdebuq0psscmo",
+  "employee_name": "Jhulan Vyas",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-22",
+      "report_id": "78e9cee69e1e098f",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jhulan Vyas",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Stress levels need improvement.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Follow the advice regarding your lab results and retest at the recommended time intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider stress management techniques such as meditation, exercise, or therapy.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:47:54",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

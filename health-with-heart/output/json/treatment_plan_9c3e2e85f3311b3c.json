@@ -1,0 +1,105 @@
+{
+  "employee_id": "9c3e2e85f3311b3c",
+  "employee_name": "Yefan Ma",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-07",
+      "report_id": "fa59fc526249ffd9",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Yefan Ma",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "-Blood pressure is high at 144/91, please consult your doctor for review.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "-BMI at 30.6 & waist-to-height ratio at 56.0% are high. This increases your risk of diseases such as hypertension.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "-Decrease your weight to keep BMI between 18.5- 24.9 and waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Monitor blood pressure frequently and start treatment at your doctor's discretion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-To improve cholesterol, limit foods high in saturated & trans fats, exercise more often and consider supplements like Rychol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Choose wholegrains and complex carbs. Limiting portion sizes and intermittent fasting may help lower insulin levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Supplement with 50 000iu vitamin D weekly, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Repeat blood tests in 3 months to assess for improvement.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Monitor blood pressure frequently and start treatment at your doctor's discretion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-To improve cholesterol, limit foods high in saturated & trans fats, exercise more often and consider supplements like Rychol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Choose wholegrains and complex carbs. Limiting portion sizes and intermittent fasting may help lower insulin levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Supplement with 50 000iu vitamin D weekly, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Repeat blood tests in 3 months to assess for improvement.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:39:03",
+  "total_reports": 1,
+  "total_actions": 13,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

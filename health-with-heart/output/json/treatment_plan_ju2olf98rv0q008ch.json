@@ -1,0 +1,33 @@
+{
+  "employee_id": "ju2olf98rv0q008ch",
+  "employee_name": "Lynne Maree",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-13",
+      "report_id": "6uerxmzhfjqxf2fs7",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lynne Maree",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:16:51",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

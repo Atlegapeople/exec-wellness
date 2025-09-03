@@ -1,0 +1,63 @@
+{
+  "employee_id": "hlslcgtq1rfif5ieu",
+  "employee_name": "Adele Mosavel",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-26",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Adele Mosavel",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Treatment prescribed for mastitis and skin lesions, please follow up with a family doctor if no improvement",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with vit D3 5000 iu daily. Retest in 3/12. Aim for a level of 50-80ug and then reduce to 1000iu daily",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Exercise and diet to lower high cholesterol",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Smoking cessation to lower risk of lung and heart disease. Aim for 30-45min exercise at least 3 times a week",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Monitor cholesterol levels annually",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Monitor hs-CRP levels for inflammation",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:03:32",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

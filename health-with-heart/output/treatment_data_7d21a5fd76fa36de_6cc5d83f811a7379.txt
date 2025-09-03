@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:43
+Employee ID: 7d21a5fd76fa36de
+Report ID: 6cc5d83f811a7379
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Godwin Segooa
+Report Date: 2021-09-15
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 1+ and Urobilinogen 1
+------------------------------
+Employee: Godwin Segooa
+Report Date: 2021-09-15
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 1+ and Urobilinogen 1
+------------------------------
+Employee: Godwin Segooa
+Report Date: 2021-09-15
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 1+ and Urobilinogen 1
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,4608 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:12
+Employee ID: dqrc6gl4jmsghlhdq
+Report ID: 5z44z0afm23myn9hm
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ChronicMedicationList
+Comment Value: Reaptin 10mg for BP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamNote
+Comment Value: Normal examination. Recent normal mammogram and bone density
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: LabTestNote
+Comment Value: Slightly raised uric acid and cholesterol, very high ultra sensitive CRP, above optimal homocysteine and fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MedicalHistoryNote
+Comment Value: Ilka it was a pleasure to do your medical today. Overall most of the suggestion related to lifestyle modification with regards to nutrition, exercise, stress management and weight loss. We wish you a happy and healthy 2022 and look forward to seeing you again.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: VitalsNote
+Comment Value: High BMI and waist circumference
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your BMI and waist circumference are very high. This puts you at higher risk of chronic disease and also put additional strain on your ankle and other joints. Aim to lose 10% of your body weight and this will significantly decrease your risk already.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Above optimal homocysteine levels - can be reduced by taking 'active' B vitamins in a good quality supplement such as phytomulti from metagenics.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very high BMI and waist circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your fasting insulin is within normal range but on the high side of this range. Ways to reduce it include reducing sugar and carbs in your diet, exercise, weight loss and stress management
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased weight and waist circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Swimming twice a week
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid
+Slightly raised cholesterol
+Above optimal homocysteine
+Above optimal Fasting insulin
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised uric acid - reduce red meat and alcohol consumption.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Ilka Dunne
+Report Date: 2022-02-14
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Slightly raised cholesterol levels - does not warrant medication but please monitor your levels at least annually and pay attention to lifestyle - diet, exercise and stress.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-02-24 - 2022-02-24
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

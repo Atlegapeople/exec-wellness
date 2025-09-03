@@ -1,0 +1,33 @@
+{
+  "employee_id": "50668ccb87d65ff4",
+  "employee_name": "Mduduzi Ernest Mabaso",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-20",
+      "report_id": "8d837639dda01433",
+      "report_date": "2022-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mduduzi Ernest Mabaso",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 5, SG 1.010.",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:45:34",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

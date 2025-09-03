@@ -1,0 +1,26 @@
+{
+  "employee_id": "u2kchv42bzn16bhvs",
+  "employee_name": "Craig Ian Forbes",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "v11x95u2c678mzbhr",
+      "report_date": "2020-02-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Craig Ian Forbes",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

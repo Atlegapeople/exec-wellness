@@ -1,0 +1,24 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:36
+Employee ID: f4mf1ddj20a2cu40
+Report ID: d3379dfd696ae069
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Makhosazana Mmusi
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Epilim
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

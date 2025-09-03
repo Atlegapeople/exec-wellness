@@ -1,0 +1,81 @@
+{
+  "employee_id": "ggo5czleuw4cfcpew",
+  "employee_name": "Landiwe Nkosi",
+  "treatment_timeline": [
+    {
+      "date": "2021-10-26",
+      "report_id": "f4j0qkdsshvuzokm2",
+      "report_date": "2021-10-26",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Landiwe Nkosi",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Be conscious about being more active. Decreasing sitting time and incorporating a consistent exercise routine into your weekly routine. This has excellent benefits for weight gain, mental health and longevity.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "An app to consider for use at home - Sweat App",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Gynae follow up",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Menorrhagia and Gynae follow up",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "You can increase this to 2000iu daily to address the Vit D insufficiency.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-01-31",
+      "report_id": "63a65d20aa6974cf",
+      "report_date": "2023-01-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Landiwe Nkosi",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please be mindful of your high stress levels and ensure that you take time to rest and relax and do things that bring you joy!",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , Magnesium , Folic Acid , Vitamin D , Vitamin C , Probiotics",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:58:32",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

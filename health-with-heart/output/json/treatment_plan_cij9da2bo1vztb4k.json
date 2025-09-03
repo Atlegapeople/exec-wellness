@@ -1,0 +1,45 @@
+{
+  "employee_id": "cij9da2bo1vztb4k",
+  "employee_name": "Meeshal Daya",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-02",
+      "report_id": "2895256f88cd2988",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Meeshal Daya",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal resting ECG and lung function.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To minimise your risk of chronic disease it is advised to maintain a BMI < 25 and a waist to height ratio of < 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:22:12",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

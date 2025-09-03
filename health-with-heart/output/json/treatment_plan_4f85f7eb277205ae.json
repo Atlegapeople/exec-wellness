@@ -1,0 +1,55 @@
+{
+  "employee_id": "4f85f7eb277205ae",
+  "employee_name": "Hleziphi Goge",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-29",
+      "report_id": "01f415e3b5b57557",
+      "report_date": "2023-05-29",
+      "doctor": "Dr. Jessica Koen",
+      "nurse": "Not specified",
+      "employee_name": "Hleziphi Goge",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your BMI is raised which is a risk factor for future chronic conditions. Both exercise & healthy foods can help weight loss.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your menstrual cycle has recently been irregular. This is likely due to the stressful season it has been. You can follow-up with your GP/ Gynae if these irregularities persist.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular breast self-examinations are recommended. If any irregularities noted to follow up with your GP for review.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular Pap Smear screening is important to help detect any abnormalities early.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:43:31",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen"
+    ],
+    "nurses": []
+  }
+}

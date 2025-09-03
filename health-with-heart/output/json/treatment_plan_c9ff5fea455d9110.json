@@ -1,0 +1,51 @@
+{
+  "employee_id": "c9ff5fea455d9110",
+  "employee_name": "Veneta Nair",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-19",
+      "report_id": "bfafb3134d57ea35",
+      "report_date": "2022-07-19",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Veneta Nair",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please follow the advice given for high levels of inflammation, low vitamin D level and high fasting insulin level. Retest these abnormal levels in 6 weeks.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim for a waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Please contact Melissa and see how she might help you navigate this difficult time.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:19:04",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

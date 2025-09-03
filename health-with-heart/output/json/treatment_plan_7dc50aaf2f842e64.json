@@ -1,0 +1,33 @@
+{
+  "employee_id": "7dc50aaf2f842e64",
+  "employee_name": "Sharon Ndaba",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-18",
+      "report_id": "0357db526ccab949",
+      "report_date": "2023-09-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Sharon Ndaba",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Protein trace, pH 5, SG 1,020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:15:49",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

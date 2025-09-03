@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 78699cdeaad39cbb
+Report ID: 8652f5ecdade626a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Patrick Letsoalo
+Report Date: 2021-03-03
+Doctor: Melinda Whitfield
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "Ph - 5 SG - 1.025"
+------------------------------
+Employee: Patrick Letsoalo
+Report Date: 2021-03-03
+Doctor: Melinda Whitfield
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "Ph - 5 SG - 1.025"
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

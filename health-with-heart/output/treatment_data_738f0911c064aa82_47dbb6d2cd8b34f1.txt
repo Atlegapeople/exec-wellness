@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:04
+Employee ID: 738f0911c064aa82
+Report ID: 47dbb6d2cd8b34f1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Emmanuel Matsaudi
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6.5, SG 1.010
+------------------------------
+Employee: Emmanuel Matsaudi
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6.5, SG 1.010
+------------------------------
+Employee: Emmanuel Matsaudi
+Report Date: 2022-06-09
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6.5, SG 1.010
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,45 @@
+{
+  "employee_id": "a8123e903ddce631",
+  "employee_name": "Dale Rimmington",
+  "treatment_timeline": [
+    {
+      "date": "2025-07-28",
+      "report_id": "b7dcf7aaf7c563e0",
+      "report_date": "2025-07-28",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dale Rimmington",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Increase medication for better blood pressure control",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve cardiovascular fitness",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Ongoing monitoring of blood pressure and body composition",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:51:10",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

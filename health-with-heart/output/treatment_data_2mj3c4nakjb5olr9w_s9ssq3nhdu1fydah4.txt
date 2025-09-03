@@ -1,0 +1,4526 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:50
+Employee ID: 2mj3c4nakjb5olr9w
+Report ID: s9ssq3nhdu1fydah4
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ChronicMedicationList
+Comment Value: nil
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamNote
+Comment Value: Some degree of hearing loss in both ears, multiple infections as a child and history of grommets.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: LabTestNote
+Comment Value: Blood results overall very good. hsCRP falls into high risk category for predicting heart disease. Vitamin D level suboptimal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MedicalHistoryNote
+Comment Value: Marc, overall you seem to be in very good health! I commend you on being a non smoker, drinking minimal alcohol and frequently exercising, as this greatly contributes to your overall health. As discussed, your diet is generally good with the exception of the occasional skipped breakfast and unhealthy canteen choices. I think that optimising your vitamin D level is very important. This is not only important for bone health but for over a 100 different processes in your body. Vitamin D functions like a hormone and is important for general wellbeing, cognitive function, preventing certain cancers, reducing inflammation and the risk of autoimmune diseases. Your ultra sensitive CRP value was raised and can be a marker for heart disease risk but could also be due to a recent cold/flu. I recommend you follow an anti inflammatory diet, supplement with Omega 3 and then repeat the test when you are well (no cold/flu). Thank you for doing your medical with us!
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: SpecialInvestigationNote
+Comment Value: No abnormalities on the day of testing
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, however this calculation does not take into account muscle mass. Waist to height ratio falls below 50% which is ideal.
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP is an inflammatory marker used to predict risk of cardiovascular disease. Yours is currently in the high risk range. I recommend that you recheck your level in approximately two weeks. It can also be raised during an infection so do the test when you are well.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Continue with your great exercise habits
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ultra sensitive CRP of 3.6mg/L falls into the high risk category for predicting cardiovascular disease in the next 10 years
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to follow an anti inflammatory, Mediterranean style diet rich in colourful vegetables, healthy fats such as olives, avocado, olive oil, nuts and seeds, good quality protein and fatty fish. Try to limit refined carbohydrates such as bread, pasta, rice, pastries etc and definitely try and skip deep fried foods like the chips in the canteen!
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: No risk factors noted
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Exercises 5 times per week (strength & cardio)
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level of 25ng/ml (ideal is between 50-80)
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with Omegagenics EPA DHA Omega 3 oil 2 capsules daily to support overall health and decrease inflammation.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+Employee: Marc Alvey
+Report Date: 2019-10-29
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100). Once your level is optimal you can decrease the dosage to 1000iu daily.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: No abnormalities on the day of testing
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-10-29 - 2019-10-29
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

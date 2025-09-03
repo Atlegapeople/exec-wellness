@@ -1,0 +1,45 @@
+{
+  "employee_id": "sj7s4l1cgzrmxg0q",
+  "employee_name": "Garth Butcher",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-06",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Garth Butcher",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Ecchinaforce , Vitamin C , Zinc",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please repeat your full blood count in a months time.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:03:17",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

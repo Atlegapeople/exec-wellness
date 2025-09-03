@@ -1,0 +1,57 @@
+{
+  "employee_id": "c4d8bdd75a16c71b",
+  "employee_name": "Cecilia Cameron",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-14",
+      "report_id": "1c70eaf8f40f3687",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Cecilia Cameron",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please visit a general practitioner or one of our doctors for further measures if anti-inflammatories do not help.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your cholesterol should be addressed with medication if exercise and better nutrition does not help lower it in about 6 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Start your exercise journey and decrease sugar (chocolate) to help lower your insulin levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please visit a general surgeon for a C-scope to screen for colon cancer.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:15:53",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

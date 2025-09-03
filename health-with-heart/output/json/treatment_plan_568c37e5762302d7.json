@@ -1,0 +1,45 @@
+{
+  "employee_id": "568c37e5762302d7",
+  "employee_name": "Nomonde Mgaga",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-13",
+      "report_id": "478e407f60f20504",
+      "report_date": "2023-09-13",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nomonde Mgaga",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ECG: Prominent P waves suggestive of right atrial enlargement on resting ECG, 0.5-1mm horizontal ST depression in inferior and anterior leads",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:49:33",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

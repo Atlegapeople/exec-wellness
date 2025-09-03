@@ -1,0 +1,81 @@
+{
+  "employee_id": "4cf018831cb7a4e0",
+  "employee_name": "Carol Rabie",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-18",
+      "report_id": "f89295db7a6e0fcf",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Carol Rabie",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Snotty nose, post nasal drip. Ears normal",
+          "status": "Not specified",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No recommendations found for Men's Health",
+          "status": "Not specified",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decrease your alcohol use, improve your exercise commitments and eat fresh veggies and a diet low in sugar",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Bronchitis 3/52 ago with peristing lingering cough, post nasal drip. Chest feels tight especially at night. Cetirizine, Avamys, ACC200, Sereflo prescribed",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Your body fat % is very poor. Please increase exercise intensity as appropriate with your back. Seeing a biokineticist might be a good fit for you.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Please continue seeing Pippa and make the neccesary dietary changes",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:41:55",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

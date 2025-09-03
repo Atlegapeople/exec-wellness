@@ -1,0 +1,33 @@
+{
+  "employee_id": "2199297e67e1ecb3",
+  "employee_name": "Daniel Mokgojane",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-09",
+      "report_id": "696a0045c5b11959",
+      "report_date": "2022-06-09",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Daniel Mokgojane",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 5, SG 1.015, glucose 3+.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:11:22",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

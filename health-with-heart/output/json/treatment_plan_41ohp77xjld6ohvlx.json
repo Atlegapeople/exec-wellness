@@ -1,0 +1,81 @@
+{
+  "employee_id": "41ohp77xjld6ohvlx",
+  "employee_name": "Peter Cottrell",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-04",
+      "report_id": "a4da14137afccd93",
+      "report_date": "2023-04-04",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Peter Cottrell",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Audiology report is congruent with the know hearing loss in the left ear. Use of your hearing devise will improve your hearing in the affected ear.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "If the changes to your urinary habits persist please see a urologist.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-04",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Peter Cottrell",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Prostate specific antigen is within normal limits.",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "If the changes to your urinary habits persist please see a urologist.",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue to monitor your BP and cholesterol levels, try to lose some weight, exercise regularly and eat a healthy diet.",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Borderline uric acid level - you are already making sure that you don't eat too much red meat but try to reduce your alcohol consumption and make sure that you are drinking enough water.",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Audiology",
+          "recommendation": "Audiology report is congruent with the know hearing loss in the left ear. Use of your hearing devise will improve your hearing in the affected ear.",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:35:31",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

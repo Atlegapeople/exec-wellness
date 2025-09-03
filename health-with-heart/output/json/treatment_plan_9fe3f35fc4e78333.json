@@ -1,0 +1,33 @@
+{
+  "employee_id": "9fe3f35fc4e78333",
+  "employee_name": "Claude Moshyiwa",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-11",
+      "report_id": "e748b9c08a9fe5d7",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Claude Moshyiwa",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "To drink lots of fluid.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:42:09",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

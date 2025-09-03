@@ -1,0 +1,63 @@
+{
+  "employee_id": "r1cdg7cebhdpn59ar",
+  "employee_name": "Ross Peasey",
+  "treatment_timeline": [
+    {
+      "date": "2020-02-25",
+      "report_id": "p3t45449klaxase7a",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ross Peasey",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Focus on your diet and try to lose some weight.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Increased weight circumference can be a risk for chronic diseases. Focus on your diet and try to lose some weight.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Raised liver enzymes can be an indication of non alcoholic fatty liver disease. Keep an eye on sugar and refined carbohydrates in your diet and try to lose some weight around your abdomen. Repeat the level in a few months and if still raised consider a sonar of your liver.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Low DHEA can be an indication of stress. Try to manage your stress levels through exercise, meditation, breathing exercises and spending time doing the things that bring you joy.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Homocysteine above optimal range. Supplement with active B vitamins such as those found in a good quality multivitamin such as phytomulti from metagenics or homocysteine lowering formula from solal.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:54:39",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

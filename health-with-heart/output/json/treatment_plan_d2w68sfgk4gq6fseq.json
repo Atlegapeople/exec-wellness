@@ -1,0 +1,75 @@
+{
+  "employee_id": "d2w68sfgk4gq6fseq",
+  "employee_name": "Roelof Van Huyssteen",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-22",
+      "report_id": "tt01bn7u2aujy8zf1",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Roelof Van Huyssteen",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Mediterranean Style diet, continue exercise, cut out alcohol&add Omega 3 to your supplements. Co-enzymeQ10&Crestor 5mg three times/week have been suggested. Repeat in 3/12",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Cholesterol - Mediterranean Style diet, continue exercise, cut out alcohol&add Omega 3 to your supplements. Co-enzymeQ10&Crestor 5mg three times/week have been suggested. Repeat in 3/12",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Family history of Cholesterol and previous Statin use - Total cholesterol at 7, LDL 4.7",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Anxiety",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Lipomas",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Activate your 'rest&digest' system: switch a hot shower to cold for 30 seconds/walk barefoot on grass for 10 mins each day - this will help activate your parasympathetic nervous system.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Bilateral ear wax impaction: Sweet oil drops as directed, syringed in the office and large piece removed",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "You recently had COVID-19 and have a history of atrial fibrillation - please follow the gradual return to exercise protocol I sent to you. ECG - ?pericardial effusion - Cardiac review booked",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:27:25",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

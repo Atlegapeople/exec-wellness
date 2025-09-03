@@ -1,0 +1,79 @@
+{
+  "employee_id": "wLZtNKNgoFRSGGhG",
+  "employee_name": "Gert Kruger",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "HArzTPUuDkvE8yzY",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gert Kruger",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-08",
+      "report_id": "Not specified",
+      "report_date": "2024-08-08",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Gert Kruger",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-10",
+      "report_id": "Not specified",
+      "report_date": "2025-07-10",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Aphiwo Masondo",
+      "employee_name": "Gert Kruger",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:22:36",
+  "total_reports": 3,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Aphiwo Masondo",
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

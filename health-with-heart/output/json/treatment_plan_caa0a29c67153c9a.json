@@ -1,0 +1,45 @@
+{
+  "employee_id": "caa0a29c67153c9a",
+  "employee_name": "Leoni Van Dyk",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-24",
+      "report_id": "be93980a995a576f",
+      "report_date": "Not specified",
+      "doctor": "Skye Scott",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Leoni Van Dyk",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI in Obesity range, waist to height ratio is elevated. Adjust lifestyle to promote weight loss, aiming for BMI <25, waist to height ratio of <50%. Dietician&Biokineticist Consultation is recommended.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Persisting cough&vertigo - You are 3 weeks post bronchitis. If not resolving please see your GP.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:19:30",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Skye Scott"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "51073lzkc2tz4uhv",
+  "employee_name": "Natasha Brown",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-20",
+      "report_id": "bde35e475bfcf224",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Natasha Brown",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy is recommended from age 50 to screen for colon cancer and a bone density scan to screen for osteoporosis.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:46:07",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

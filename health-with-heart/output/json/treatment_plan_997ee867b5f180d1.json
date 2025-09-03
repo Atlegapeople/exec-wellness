@@ -1,0 +1,57 @@
+{
+  "employee_id": "997ee867b5f180d1",
+  "employee_name": "Elmarie Dreyer",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-25",
+      "report_id": "de4216bfa27c8fae",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Elmarie Dreyer",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Impacted wax in the right ear - ear drops prescribed.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "To decrease cardiovascular risk aim for BMI <25 and waist to height ratio of <50%. Has lost 17kg in the last 18 months, actively trying to achieve this sustainably.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Move more, eat better. You know what you have to do, try and set new goals on a daily basis. Aim for that BMI<30 first.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Magnesium , GABA",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:37:04",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "1b052f3e8dce41fb",
+  "employee_name": "John Gaughran",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-31",
+      "report_id": "1cd8b56936d86316",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "John Gaughran",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please see your GP/us for an Oral Glucose Tolerance Test and a repeat Full Blood count & Liver Function Test in 3 weeks",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "An annual PSA test is advised",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decrease body fat percentage by maintaining a calorie deficit, exercises including high intensity interval training and resistance training, managing your stress levels and having good sleeping habits",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:06:32",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

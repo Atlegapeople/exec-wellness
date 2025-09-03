@@ -1,0 +1,29 @@
+{
+  "employee_id": "f4mf1ddj20a2cu40",
+  "employee_name": "Makhosazana Mmusi",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "d3379dfd696ae069",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Makhosazana Mmusi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Epilim",
+          "status": "Planned",
+          "source_field": "ChronicMedicationList"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:49:50",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [],
+    "nurses": []
+  }
+}

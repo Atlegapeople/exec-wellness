@@ -1,0 +1,57 @@
+{
+  "employee_id": "1b8e2744fc955350",
+  "employee_name": "Mathaganyane Clara Molefe",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-19",
+      "report_id": "4061d4ea449537fa",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mathaganyane Clara Molefe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal hearing test. See report.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "ECG: left axis deviation, can be found with high blood pressure, no symptoms reported.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "An annual mammogram is recommended from age 40. An annual bone density screen for osteoporosis and colonscopy is recommended from age 50.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "omega",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:06:56",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

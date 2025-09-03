@@ -1,0 +1,51 @@
+{
+  "employee_id": "jbiw1zgsfqspizdn5",
+  "employee_name": "Grace Mabasa",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-24",
+      "report_id": "hfr0b3wvprhnlucrq",
+      "report_date": "2022-03-24",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Grace Mabasa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Prediabetes - please do a glucose tolerance test with treating GP. Lifestyle changes required - improve diet, move more. Dietician &Biokineticist can assist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Annual mammograms and pap smears are important to keep up with - try your best to do so",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Hearing - Left Ear - mild component at 4000Hz. Please monitor hearing every 6 months to annually.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:13:19",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

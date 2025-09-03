@@ -1,0 +1,39 @@
+{
+  "employee_id": "baba65eed6f0beac",
+  "employee_name": "Daryl Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-26",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Daryl Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:03:54",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "employee_id": "3m6or81yx9ykp33w",
+  "employee_name": "Lara Teasdale",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-14",
+      "report_id": "ca591533091f842f",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lara Teasdale",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing test abnormality, please see the audiology report.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reports trouble with sleep. Tips for deeper sleep- go to bed same time, keep your bedroom cool. turn off screens 2 hours before bed, de-stress with guided meditation, take magnesium before bed.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "multivitamin",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Colonoscopy: At the age of 50, we recommend a screening colonoscopy and gastroscopy to detect any changes that present a future risk for cancer.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Annual bone density screen for osteoporosis is recommended from age 50.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:30:54",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,4444 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:43
+Employee ID: j1uj4v9j6b5bkn6ys
+Report ID: ei0o4gxqulz4n0jmc
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ChronicMedicationList
+Comment Value: Calcivita
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: LabTestNote
+Comment Value: Vit D insufficiency, Raised Hs-CRP, Raised liver enzymes and GGT
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MedicalHistoryNote
+Comment Value: Thursia, Thank you for coming for your medical, it shows that you care about your health. Weight loss and exercise is essential in tackling a number of the issues mentioned here. A dietician and a biokineticist will help guide you in the right direction so that you can optimised your health and live the wonderful life you deserve.
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: SpecialInvestigationNote
+Comment Value: Increased body fat percentage
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: VitalsNote
+Comment Value: BMI Obesity range, raised waist:heaight ratio
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised liver enzymes and GGT- referred for ultrasound, to follow up with family doctor
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Annual mammograms, pap smears and bone density screens are important to keep up with - try your best to do so
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes:  Raised liver enzymes and GGT
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D is important for bones, mood, cognition and is anti inflammatory. Supplement with D3 5000 iu daily and recheck level in 4 months, aiming for a level of 50 to 80.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Obesity, lack of exercise, diet , occasional smoking 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Normal blood pressure and glucose levels 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D insufficiency, Raised Hs-CRP and BMI, poor diet, lack of exercise 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+Employee: Thursia Henry
+Report Date: 2022-05-26
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Increased body fat percentage
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-05-31 - 2022-05-31
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

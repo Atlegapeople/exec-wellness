@@ -1,0 +1,39 @@
+{
+  "employee_id": "e8ab466eef353a31",
+  "employee_name": "Khazamula Chabalala",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-11",
+      "report_id": "353c88375e739fe1",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khazamula Chabalala",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40 if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45 if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:40:42",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

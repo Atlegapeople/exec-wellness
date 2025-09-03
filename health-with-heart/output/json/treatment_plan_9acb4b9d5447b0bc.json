@@ -1,0 +1,39 @@
+{
+  "employee_id": "9acb4b9d5447b0bc",
+  "employee_name": "Kirsty Fitzhenry",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-31",
+      "report_id": "96d7657c31b17094",
+      "report_date": "2023-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kirsty Fitzhenry",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Try to keep an eye on carbohydrate intake and recheck again next year.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consider repeating lung function when you are completely better.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:37:48",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

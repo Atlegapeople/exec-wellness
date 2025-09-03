@@ -1,0 +1,45 @@
+{
+  "employee_id": "4333d780abc7a5ae",
+  "employee_name": "Johan Koekemoer",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-01",
+      "report_id": "87da6947c1fe5d25",
+      "report_date": "2023-05-30",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Johan Koekemoer",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a good waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "SymptomScreening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:36:16",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

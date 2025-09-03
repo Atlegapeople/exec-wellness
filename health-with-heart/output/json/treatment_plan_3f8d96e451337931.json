@@ -1,0 +1,45 @@
+{
+  "employee_id": "3f8d96e451337931",
+  "employee_name": "Anwar Banoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-13",
+      "report_id": "fda536a2dc7b4ad9",
+      "report_date": "2022-09-13",
+      "doctor": "Skye Scott",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Anwar Banoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You have started a weight loss and fitness journey that is certain to reap rewards with time, perseverance and commitment. You have no red flags other than the need to get to your goal weight.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Zinc , Neurobian",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Other than feeling very low on energy and close to burn out, you have no physical symptoms. I would recommend that you consider speaking with a mental health professional about your feelings of low energy and potential burnout.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:30:23",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Skye Scott"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

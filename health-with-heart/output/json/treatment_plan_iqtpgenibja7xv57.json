@@ -1,0 +1,69 @@
+{
+  "employee_id": "iqtpgenibja7xv57",
+  "employee_name": "Nondyebo Zingitwa",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-18",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nondyebo Zingitwa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Review cholesterol levels in 3 months",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat blood test for HsCRP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue exercising moderately 3-5x a week",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a variety of fresh fruit and veggies daily. Limit intake of processed foods, saturated fats & alcohol",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with 50 000 iu of Vitamin D weekly, aim for levels above 20ng/ml",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Consider psychology to debrief on recent events and to assist you in managing the symptoms of anxiety",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Book a lung function test at our practice",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:09:07",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

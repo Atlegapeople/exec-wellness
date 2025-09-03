@@ -1,0 +1,115 @@
+{
+  "employee_id": "ro3e5ikyiimvk1x8c",
+  "employee_name": "Monique Visee",
+  "treatment_timeline": [
+    {
+      "date": "2020-10-06",
+      "report_id": "m9grzhjkg3nnvphsq",
+      "report_date": "2020-10-06",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Monique Visee",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Reduce wine consumption to one glass per night or less, as waist circumference is currently 88cm.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Consider reducing waist circumference to less than 80 cm for better health.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor iron levels due to hypochromic anemia.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Ensure adequate iron intake in diet.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Consult a gynecologist for further evaluation and treatment of anemia.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-01",
+      "report_id": "9xt32yegn1y8xdiuw",
+      "report_date": "2022-03-01",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Screening: Mammogram",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Lifestyle advice: Address sleeping environment and sleep hygiene",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement: L-theanine daily to assist with anxiety and sleeping",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Lifestyle advice: Cut down on alcohol intake",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-17",
+      "report_id": "4a1374ac90ce1716",
+      "report_date": "2023-04-17",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Monique Visee",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Please supplement your iron with methylated iron and eat iron rich foods such as green leafy veggies, seeds and fortified cereals.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Spend time focusing on regulating your nervous systems, breathing exercises & grounding are beneficial.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:00:06",
+  "total_reports": 3,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

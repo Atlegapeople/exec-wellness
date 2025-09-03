@@ -1,0 +1,45 @@
+{
+  "employee_id": "bds3u0hk8xrh21d3",
+  "employee_name": "Carin Shaw",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "e3fb7e5e1f2670fa",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Carin Shaw",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Keep an eye on mole on left ear, if concerns, discuss with family doctor",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram annually from age 40",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI doesn't account for body composition, muscle is a denser tissue than fat and an abundance of lean mass raises weight on the scale resulting in a high BMI. Waist to height ratio shows low risk",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:07:06",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

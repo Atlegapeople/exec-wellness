@@ -1,0 +1,51 @@
+{
+  "employee_id": "jwwCyZBik2DdDiLZ",
+  "employee_name": "Gareth Bullock",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "6vnN822TQaZUFNer",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gareth Bullock",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Lower 'bad' cholesterol by limiting saturated & trans fats, adding healthy fats i.e. omega 3 fatty acids, eating more plant-based foods.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat cortisol & DHEAS in 3 months. If abnormal please consult with GP.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased waist circumference (> 90cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Probiotics , Centrum",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:17:07",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

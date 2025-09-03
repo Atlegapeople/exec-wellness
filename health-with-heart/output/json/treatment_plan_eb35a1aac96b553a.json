@@ -1,0 +1,26 @@
+{
+  "employee_id": "eb35a1aac96b553a",
+  "employee_name": "Khanyisile Dlamini",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "44158cfd330e477b",
+      "report_date": "2023-05-11",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Khanyisile Dlamini",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

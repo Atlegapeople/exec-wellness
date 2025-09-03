@@ -1,0 +1,51 @@
+{
+  "employee_id": "81c7671ade2d85cd",
+  "employee_name": "Famida Mahomed",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-20",
+      "report_id": "a107eeed0614bbb3",
+      "report_date": "2023-09-06",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Famida Mahomed",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Slight low frequency hearing loss detected bilaterally. A full audiogram is necessary to determine the type of hearing loss as well as if/what management may be required. Book test at: cara@primehearing.co.za",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased waist circumference (> 80cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Calciferol , Collagen , Menacal",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:18:25",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

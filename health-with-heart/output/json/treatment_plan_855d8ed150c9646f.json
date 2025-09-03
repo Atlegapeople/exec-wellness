@@ -1,0 +1,69 @@
+{
+  "employee_id": "855d8ed150c9646f",
+  "employee_name": "Nadine Titus",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-27",
+      "report_id": "102c4295e5feebbf",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nadine Titus",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 36.7 & waist-to-height ratio at 71.7 % are high. This increases the risk of conditions such as hypertension & diabetes.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Improve your fitness by exercising moderately 3-5x weekly, at least 30 minutes.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Aim to keep BMI between 18.5- 24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Add more fresh veggies & fruit to all your meals. Limit saturated fats by choosing lean protein sources. A Mediterranean type diet may help lower inflammation.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Make time for self-care activities.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Because you are breastfeeding your sleep may be disrupted. Supplementing with magnesium before bed may improve the quality of your sleep.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D, Vitamin C & Magnesium supplements may benefit you.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:23:21",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:56
+Employee ID: e78c0fd49c8df43f
+Report ID: 8c566c38a5f8d366
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Modise Joel Malepane
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+------------------------------
+Employee: Modise Joel Malepane
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+------------------------------
+Employee: Modise Joel Malepane
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

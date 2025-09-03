@@ -1,0 +1,75 @@
+{
+  "employee_id": "g5v3e99qkw33f06c3",
+  "employee_name": "Francois Wolf",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-18",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Francois Wolf",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "We detected blood in your urine - please continue the workup&follow up with your GP. Urine culture was negative. You have described a weak urine stream. Please do a prostate sonar",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please continue the workup&follow up with your GP",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please do a prostate sonar",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Blood pressure - lifestyle changes are important. Mediteranean style diet, decrease your BMI, live a more active lifestyle. Repeat BP in 6/12,then consider medication if still raised",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You have wax in both your ears and your hearing test indicated decreased hearing - please repeat the Audiology reveiw once the wax has been removed",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "We detected blood in your urine - please continue the workup&follow up with your GP. Urine culture was negative. You have described a weak urine stream. Please do a prostate sonar",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You are over the age of 50 - please see a Gastroeneterologist for a Colonoscopy",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol raised - Supplement with Omega 3, decrease red meat use, exercise atleast 4 time a week. Repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:57:33",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

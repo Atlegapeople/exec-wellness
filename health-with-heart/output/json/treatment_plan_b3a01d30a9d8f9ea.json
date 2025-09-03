@@ -1,0 +1,39 @@
+{
+  "employee_id": "b3a01d30a9d8f9ea",
+  "employee_name": "Ofentse Ramathibela",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-15",
+      "report_id": "8a59b6a88e61cbe1",
+      "report_date": "2023-06-15",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Ofentse Ramathibela",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Refine your everyday lifestyle choices for improved future health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:59:45",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

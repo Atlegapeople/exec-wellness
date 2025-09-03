@@ -1,0 +1,40 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:40
+Employee ID: eht19ccsogx3avo52
+Report ID: 99a5a4ce55a27759
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Tanya Weitz
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: None
+------------------------------
+Employee: Tanya Weitz
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Tanya overall your blood results were very good apart from a very low vitamin D level and a slightly raised cholesterol level. Most of your concerns currently relate to lifestyle changes that have occured during lockdown. The good news is that you can choose to turn this around and hopefully now that the pandemic is easing slightly and the weather is improving, you will feel more motivated to make healthy choices. It was a pleasure to do your medical today and we look forward to seeing you again next year, fitter and healthier!
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-10-13 - 2020-10-13
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

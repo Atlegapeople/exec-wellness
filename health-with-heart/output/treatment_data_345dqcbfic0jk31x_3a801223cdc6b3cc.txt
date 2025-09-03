@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:06
+Employee ID: 345dqcbfic0jk31x
+Report ID: 3a801223cdc6b3cc
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.020, glucose 2+
+------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.020, glucose 2+
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

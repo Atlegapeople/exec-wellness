@@ -1,0 +1,26 @@
+{
+  "employee_id": "HgapjRYJG2WeJDv6",
+  "employee_name": "Gert De Jager",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "QNhKZnJxYCYHGjmL",
+      "report_date": "2023-09-14",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Gert De Jager",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

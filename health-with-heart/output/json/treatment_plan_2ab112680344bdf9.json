@@ -1,0 +1,45 @@
+{
+  "employee_id": "2ab112680344bdf9",
+  "employee_name": "Hugh Hawarden",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-24",
+      "report_id": "i1kxzalgoxf7gqrxe",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Hugh Hawarden",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Annual Derm&Cardiologist follow ups; Screening Colonoscopy; ENT referral, Impacted Wax, Raised testosterone, Cholesterol, Inflammation markers, abnormal liver markers",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Limit alcohol use and please repeat these markers in 6/52",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Raised cholesterol: Mediterranean style diet, exercise, limit alcohol use, Omega 3 supplement and repeat in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:17:03",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

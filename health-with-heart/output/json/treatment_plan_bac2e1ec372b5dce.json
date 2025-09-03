@@ -1,0 +1,75 @@
+{
+  "employee_id": "bac2e1ec372b5dce",
+  "employee_name": "Mogamat Taahir Bhayat or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-07",
+      "report_id": "5e51d35e03cc5936",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole or Not specified",
+      "nurse": "Devinia Carelse or Not specified",
+      "employee_name": "Mogamat Taahir Bhayat or Not specified",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a balanced diet and exercise regularly to maintain a healthy weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Get enough sleep each night for optimal health.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid smoking and limit alcohol consumption.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Manage stress through relaxation techniques, meditation, or other stress-reducing activities.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take care of your mental health and seek help if needed.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Have a complete physical exam as recommended by your healthcare provider.",
+          "status": "Planned",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Get regular check-ups and screenings for any potential health issues.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:04:05",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole or Not specified"
+    ],
+    "nurses": [
+      "Devinia Carelse or Not specified"
+    ]
+  }
+}

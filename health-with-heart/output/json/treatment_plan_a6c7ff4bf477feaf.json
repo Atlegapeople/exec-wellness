@@ -1,0 +1,51 @@
+{
+  "employee_id": "a6c7ff4bf477feaf",
+  "employee_name": "Diolinda Tallack",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-06",
+      "report_id": "57b965122da56552",
+      "report_date": "2022-07-06",
+      "doctor": "Carla Marais",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Diolinda Tallack",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Flixonase and Cetirizine prescribed for post nasal drip noted on examination",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit your gynaecologists for follow up on the abnormal Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I suggested the Sweat App as an example. Well done on making the change to a plant based diet - I think you will find a dietician referral helpful.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:49:50",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

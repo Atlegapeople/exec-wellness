@@ -1,0 +1,105 @@
+{
+  "employee_id": "oo3fuf64xf55xp4bo",
+  "employee_name": "Raj Rawjee",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-12",
+      "report_id": "rzp8a1wuuz5gvpgph",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Raj Rawjee",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Remember your body needs to rest as well. 'resting and digesting' is just as important as training.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with Vit D 5000iu daily and repeat marker in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Kidney function",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "In very good health - you maintain a very healthy lifestyle",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "report_id": "f270cd705fc04117",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Aphiwo Masondo",
+      "employee_name": "Raj Rawjee",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep making healthy lifestyle choices.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:41:30",
+  "total_reports": 2,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Aphiwo Masondo",
+      "Lebo Cindi"
+    ]
+  }
+}

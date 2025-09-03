@@ -1,0 +1,63 @@
+{
+  "employee_id": "sdd6lbrbakkscxg9",
+  "employee_name": "Trishen Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-03",
+      "report_id": "ea3d673eb222c6b2",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Trishen Naidoo",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually, starting from age 40 if one first-degree relative had prostate cancer before 65 or if there is a female relative with BRCA1 or BRCA2 gene mutation breast cancer. From age 45, if there is a history of prostate cancer on either the mother or father’s side. Every 2 years from age 50.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendations found.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Getting to the route of chronic fatigue: Eat a whole food, anti-inflammatory diet, check for hidden infections and allergies, address and discuss any gut issues, exercise regularly, practice deep relaxation and sleep for 8 hours every night.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium, Multivitamin, fish oil.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "No specific screening recommendations found.",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Normal waist-to-height ratio.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:02:51",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

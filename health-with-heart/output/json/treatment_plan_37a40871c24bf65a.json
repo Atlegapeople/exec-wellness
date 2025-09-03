@@ -1,0 +1,63 @@
+{
+  "employee_id": "37a40871c24bf65a",
+  "employee_name": "Philip Spies",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-12",
+      "report_id": "f21a9d4de433926e",
+      "report_date": "2023-05-12",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Philip Spies",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Difficulties passing urine, poor sexual function, balding & weight gain are some signs to look for as you age. Should you experience any of these, consult your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Use lifestyle habits to help improve your current health & to better your future health. In addition to the ketogenic diet ensure you still get enough fibre, micronutrients & anti-inflammatory benefits.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Cancer screening C & G scopes are recommended.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor red cell count.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Vitals",
+          "recommendation": "BMI at 28.4 & waist-to-height ratio at 55.3 are high. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:26:25",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

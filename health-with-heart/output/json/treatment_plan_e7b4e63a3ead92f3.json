@@ -1,0 +1,33 @@
+{
+  "employee_id": "e7b4e63a3ead92f3",
+  "employee_name": "Khosi Magwaza",
+  "treatment_timeline": [
+    {
+      "date": "2022-02-16",
+      "report_id": "13c718ddf5966305",
+      "report_date": "2022-02-16",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Khosi Magwaza",
+      "actions": [
+        {
+          "category": "Special Investigation Notes",
+          "recommendation": "pH 7, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:40:15",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

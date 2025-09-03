@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:01
+Employee ID: 7dc50aaf2f842e64
+Report ID: 0357db526ccab949
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Sharon Ndaba
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 5, SG 1,020
+------------------------------
+Employee: Sharon Ndaba
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 5, SG 1,020
+------------------------------
+Employee: Sharon Ndaba
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 5, SG 1,020
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

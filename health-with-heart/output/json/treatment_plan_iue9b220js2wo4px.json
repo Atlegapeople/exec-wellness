@@ -1,0 +1,26 @@
+{
+  "employee_id": "iue9b220js2wo4px",
+  "employee_name": "Patsy Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "a9c0a279cad952e3",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Patsy Naidoo",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

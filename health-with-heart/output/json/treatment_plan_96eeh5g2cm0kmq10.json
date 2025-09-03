@@ -1,0 +1,45 @@
+{
+  "employee_id": "96eeh5g2cm0kmq10",
+  "employee_name": "Simone Burger",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-01",
+      "report_id": "f707d9ed819de5e6",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Simone Burger",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Mild difficulty with lung function",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "zinc , vitamin c , Vitamin D",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:35:37",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

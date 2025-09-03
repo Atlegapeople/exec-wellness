@@ -1,0 +1,69 @@
+{
+  "employee_id": "HdkLcCPwwXQsaug4",
+  "employee_name": "Mbalenhle Dhladhla",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "X4SxhbEy5ryBdd5a",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mbalenhle Dhladhla",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 21.1 & waist-to-height ratio at 44% are normal. This lowers your risk of conditions such as diabetes & hypertension. Keep your BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Symptom screening is not required at this time.",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritize mental wellbeing. See a psychologist to debrief & learn how to manage stress effectively.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Supplement Vitamin D & monitor your cortisol levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Work at eating nutritious meals & moderately exercising.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Once you become sexually active, Pap smears are important for cancer screening.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Consider the HPV vaccine to lower the chance of getting cervical cancer.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:02:22",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

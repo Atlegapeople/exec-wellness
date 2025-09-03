@@ -1,0 +1,721 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:53
+Employee ID: 3a03d225f3c912bd
+Report ID: 0f52866c877bd2c1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ChronicMedicationList
+Comment Value: Tetralysal
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol at 5.3 is high. This increases the risk of cardiovascular events. Lower your intake of saturated fats. Choose whole grains/ unrefined carbohydrates & lean meats to help lower this.
+-AST, a liver enzyme, is slightly raised. Monitor this.
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: LifestyleRecommendation
+Comment Value: -Keep your diet high in fresh fruit & veggies daily.
+-Limit alcohol intake.
+-Continue doing varied exercise types 3-5x weekly.
+-Limit foods high in saturated fats such as is found in full cream, animal product & baked goods.
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Given your family history of heart attack, skin cancer & diabetes it is important to frequently screen for these conditions and optimise your risk factors as best as possible.
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: MentalHealthStressRecommendation
+Comment Value:  
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -EGC findings are consistent with hyperkalaemia or a thin tall frame. Please do blood tests.
+-Your autonomic nervous system is well regulated.
+-You are better suited for endurance & strength training.
+-A heart rate between 163-174bpm when exercising will aid anaerobic maintenance.
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: VitalsRecommendation
+Comment Value: -Monitor your blood pressure often.
+-Aim to keep BMI between 18.5-24.9. This will lower the risk of illnesses like diabetes & hypertension.
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: VitaminsOrSupplements
+Comment Value: Multivitamin
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: WomensHealthNote
+Comment Value: Visit a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Michelle Narotzky
+Report Date: 2023-05-11
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a Radiologist for a mammogram.
+Overview Notes: Michelle, thank you for doing your medical with us.
+-Frequently screen for conditions that are present in your family.
+-Given your ECG findings, blood tests to assess your potassium levels are recommended.
+-Monitor cholesterol levels in 3 months.
+-Continue exercising as you have been.
+-Keep alcohol consumption low.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a Radiologist for a mammogram.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-06-20 - 2023-06-20
+Time: 08:45:00 - 10:45:00
+Notes: Michelle NarotzkyID/Passport Number: 8308100072080
+Status: Completed
+------------------------------

@@ -1,0 +1,35 @@
+{
+  "employee_id": "3aelz4l4mkml1lxu",
+  "employee_name": "Rejoice Bekezulu",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "f94ad011677fa579",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Rejoice Bekezulu",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "cholesterol , ARV",
+          "status": "Planned",
+          "source_field": "Comment Key: ChronicMedicationList"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "Comment Key: VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:28:34",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [],
+    "nurses": []
+  }
+}

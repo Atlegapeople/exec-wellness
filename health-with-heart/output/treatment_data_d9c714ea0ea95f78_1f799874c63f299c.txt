@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:06
+Employee ID: d9c714ea0ea95f78
+Report ID: 1f799874c63f299c
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Johannah Sikonyela
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 2+, asymptomatic
+------------------------------
+Employee: Johannah Sikonyela
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 2+, asymptomatic
+------------------------------
+Employee: Johannah Sikonyela
+Report Date: 2022-04-06
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 2+, asymptomatic
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

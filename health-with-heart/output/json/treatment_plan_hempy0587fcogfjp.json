@@ -1,0 +1,33 @@
+{
+  "employee_id": "hempy0587fcogfjp",
+  "employee_name": "Xola Ntlangula",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-23",
+      "report_id": "1a036918d9e27f5f",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Xola Ntlangula",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:02:37",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

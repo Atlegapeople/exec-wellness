@@ -1,0 +1,57 @@
+{
+  "employee_id": "28f1fdf48a32b5f7",
+  "employee_name": "Alexia Towell",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-12",
+      "report_id": "fbda9dee18732074",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Alexia Towell",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase daily water intake to aid kidney function",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Monitor cholesterol levels every 3 months",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Be deliberate about managing your stress levels",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Zinc , Vitamin D , SlowMag",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:16:12",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

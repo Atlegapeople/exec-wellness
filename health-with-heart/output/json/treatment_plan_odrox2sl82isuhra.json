@@ -1,0 +1,45 @@
+{
+  "employee_id": "odrox2sl82isuhra",
+  "employee_name": "Deepa Kalidas",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Deepa Kalidas",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Get ultrasound of shoulder mass done as per GP suggestion",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Iron supplements",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:39:27",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

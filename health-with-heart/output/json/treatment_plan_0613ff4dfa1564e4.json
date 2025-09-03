@@ -1,0 +1,51 @@
+{
+  "employee_id": "0613ff4dfa1564e4",
+  "employee_name": "Khuraisha Patel",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-12",
+      "report_id": "831fd84324ed1f35",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khuraisha Patel",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Normal resting ECG, 0.5-1mm upsloping ST depression in inferior leads - no reciprocal ST elevation. Severe difficulty with lung function. Please discuss with your family doctor.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Normal metrics, well done",
+          "status": "Completed",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Discuss with your family doctor",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:55:53",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

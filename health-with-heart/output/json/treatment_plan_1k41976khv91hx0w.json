@@ -1,0 +1,51 @@
+{
+  "employee_id": "1k41976khv91hx0w",
+  "employee_name": "Kgomotso Mathe",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-20",
+      "report_id": "3aa3d2dc3f606bd0",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kgomotso Mathe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Some evidence of post nasal drip noted - continue antihistamine and use flonase nasal spray.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High BMI and waist to height ratio. Try to lose weight to reduce your risk of chronic diseases.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "ACC200",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:09:45",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

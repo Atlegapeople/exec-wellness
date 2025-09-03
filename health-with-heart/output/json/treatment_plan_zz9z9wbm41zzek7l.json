@@ -1,0 +1,69 @@
+{
+  "employee_id": "zz9z9wbm41zzek7l",
+  "employee_name": "Cara-Lee Short",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-05",
+      "report_id": "8aed8c3bdb9f33e1",
+      "report_date": "2022-08-31",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Cara-Lee Short",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You do have a persisting tachycardia. Frequent monitoring by means of ECG is recommended.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue mammogram screening as advised.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Closely monitor the effects this current contraceptive has on you. If these do not settle or a distressing to you, speak to your gynaecologist about possibly changing to another agent.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI at 39.6 & waist-to height ratio at 69.7% are high. Decrease body weight to improve these. This may also improve your blood pressure & glycemic control.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Body fat % at 37% can be improved by weight loss & strength training.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue eating a diet high in fresh fruit & veggies. Limit saturated fats & sugar.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue exercising. Increase duration to at least 30 minutes of moderate intensity. This will improve your oxygen use and aid weight loss.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:36:58",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

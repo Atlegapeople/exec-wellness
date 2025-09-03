@@ -1,0 +1,45 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:18
+Employee ID: 78f30035cf49e395
+Report ID: 662d13768c2f7afe
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Funeka Gambu
+Report Date: 2023-11-09
+Doctor: 
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Family history of metabolic disease (high blood pressure, high blood sugar, excess body fat around the waist, or abnormal cholesterol) is associated with an increased risk for you. It's important for you to keep up with annual checks.
+Special Investigation Notes: None
+------------------------------
+Employee: Funeka Gambu
+Report Date: 2023-11-09
+Doctor: 
+Nurse: Lebo Cindi
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: organic
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-11-30 - 2023-11-30
+Time: 12:45:00 - 14:45:00
+Notes: Funeka GambuID/Passport Number: 0010071196082
+Status: Completed
+------------------------------
+Date: None - None
+Time: 12:00:00 - None
+Notes: 
+Status: Unknown
+------------------------------

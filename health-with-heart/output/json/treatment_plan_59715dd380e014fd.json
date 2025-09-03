@@ -1,0 +1,69 @@
+{
+  "employee_id": "59715dd380e014fd",
+  "employee_name": "Tumelo Moseki",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-19",
+      "report_id": "79371328546324a4",
+      "report_date": "2023-07-19",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tumelo Moseki",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Manage lifestyle choices and visit your managing GP to help improve your blood sugar level control.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat the other abnormal tests in 3-6 months to monitor.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A pap smear will be indicated once you become active.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "General screening with a mammogram start at age 40.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please stop all sugar drinks and start exercise.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:52:05",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

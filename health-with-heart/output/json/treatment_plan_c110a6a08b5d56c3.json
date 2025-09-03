@@ -1,0 +1,26 @@
+{
+  "employee_id": "c110a6a08b5d56c3",
+  "employee_name": "Claudette Louw",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "f415fd784c96cdd4",
+      "report_date": "2024-10-30",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Claudette Louw",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

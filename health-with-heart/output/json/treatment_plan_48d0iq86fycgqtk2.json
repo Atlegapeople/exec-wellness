@@ -1,0 +1,63 @@
+{
+  "employee_id": "48d0iq86fycgqtk2",
+  "employee_name": "Busisiwe Malunga",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Busisiwe Malunga",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Sloping hearing loss picked up on the audiogram screen. Please visit an audiologist for a full audiogram and further management.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram. You had a pap smear with us today, we will communicate the results.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Refine your everyday lifestyle choices for improved future health. Adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale to improve your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:39:43",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

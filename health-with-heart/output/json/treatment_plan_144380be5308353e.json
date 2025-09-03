@@ -1,0 +1,33 @@
+{
+  "employee_id": "144380be5308353e",
+  "employee_name": "Sarah Maiketso",
+  "treatment_timeline": [
+    {
+      "date": "2021-09-29",
+      "report_id": "7862729ffbbf15f8",
+      "report_date": "2021-09-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sarah Maiketso",
+      "actions": [
+        {
+          "category": "Women's Health Recommendations",
+          "recommendation": "Protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:04:25",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

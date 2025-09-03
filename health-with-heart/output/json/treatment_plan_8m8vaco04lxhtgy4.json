@@ -1,0 +1,45 @@
+{
+  "employee_id": "8m8vaco04lxhtgy4",
+  "employee_name": "Marna Krass de Krassnokutski",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-14",
+      "report_id": "50bf7c950f067c00",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Marna Krass de Krassnokutski",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up with the cardiologist",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a BMI < 25 and a waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , Magnesium",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:31:21",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "3c0eacbd383eab40",
+  "employee_name": "Xolile Qwabe",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-17",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Xolile Qwabe",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "2cm lump in left breast. Referred for ultrasound.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:28:57",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

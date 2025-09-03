@@ -1,0 +1,33 @@
+{
+  "employee_id": "73f2840e4725c7f4",
+  "employee_name": "Donald Oliphant",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "ad2fd84b1d6f574a",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Donald Oliphant",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Blood trace, pH 6, SG 1.015",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:11:18",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "p6llrvpyhrj781ob0",
+  "employee_name": "Wendy Peterson",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-09",
+      "report_id": "06ilahguq5r4so4d3",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Wendy Peterson",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "BMI in obesity range but intervention already started, consider seeing a bio-kineticist who will assist in moving with intention to increase weight loss and build appropriate muscle.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Raised Hs-CRP, consider further investigation.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Leucocytes in urine, consider further investigation.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Annual mammograms and pap smears are important to keep up with.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Non-smoker, maintain current lifestyle.",
+          "status": "Completed",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Already lost 12kg from diet management, continue with current diet plan.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:44:25",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

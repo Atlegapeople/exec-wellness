@@ -1,0 +1,63 @@
+{
+  "employee_id": "5c80db1ca1d78969",
+  "employee_name": "Ursula Du Toit or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "a9fbc231460924ff",
+      "report_date": "Report date not specified",
+      "doctor": "Joy Sitole or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Ursula Du Toit or Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat cholesterol levels in 3 months",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat stress ECG",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve lifestyle by dedicating time to doing varied exercises",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Lower intake of saturated fats. Increase fibre, fresh fruit & veggies and whole grains",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritise mental well-being & active rest",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Closely monitor your cycle. Consult your treating doctor for this",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:53:31",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

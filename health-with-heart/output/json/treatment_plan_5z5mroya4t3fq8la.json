@@ -1,0 +1,51 @@
+{
+  "employee_id": "5z5mroya4t3fq8la",
+  "employee_name": "Mahendra Bhoola",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-15",
+      "report_id": "ee8d891f5b50d2ba",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Mahendra Bhoola",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiometric assessment is recommended to determine the nature of this loss, and if/what management is necessary.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40 if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45: if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Magnesium , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:57:04",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

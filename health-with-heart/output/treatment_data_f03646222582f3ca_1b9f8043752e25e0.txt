@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:06
+Employee ID: f03646222582f3ca
+Report ID: 1b9f8043752e25e0
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Aubrey Mashile
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Prot trace, pH 6, SG 1.020
+------------------------------
+Employee: Aubrey Mashile
+Report Date: 2022-11-22
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Prot trace, pH 6, SG 1.020
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

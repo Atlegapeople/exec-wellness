@@ -1,0 +1,81 @@
+{
+  "employee_id": "bb9dee2cd5482920",
+  "employee_name": "Mkhize Bhekizenzo",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-30",
+      "report_id": "fb6cbdb0a42afe7d",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Mkhize Bhekizenzo",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "report_id": "e21c5fed53510b9e",
+      "report_date": "Report date from the data",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mkhize Bhekizenzo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40.\n-Straining to urinate, dribbling of urine & a weaker urine streams are some signs to look out for.\nGiven your family history, annual screening is advised.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve your lifestyle by eating more good fats & exercising.\nMonitor alcohol use & aim to keep this low.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendation found for Women's Health.",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:04:47",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

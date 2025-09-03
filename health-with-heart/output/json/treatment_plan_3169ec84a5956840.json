@@ -1,0 +1,51 @@
+{
+  "employee_id": "3169ec84a5956840",
+  "employee_name": "Ntsepe Lehungwane",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-19",
+      "report_id": "dae08b8f0353a063",
+      "report_date": "2023-04-19",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ntsepe Lehungwane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please repeat kidney function test. It may be necessary to review your hypertension medication.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Get back to exercising 3-5x weekly. Endurance & high intensity training will be beneficial for you.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve your diet and physical activity, aim for a BMI between 18.5- 24.9 and waist-to-height ratio below 50.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Make time to do a screening gastroscopy & colonoscopy.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:22:35",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

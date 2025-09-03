@@ -1,0 +1,26 @@
+{
+  "employee_id": "c26f84fe681d121b",
+  "employee_name": "Reney Weimers",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "8b85144f69f34d96",
+      "report_date": "2022-07-06",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Reney Weimers",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

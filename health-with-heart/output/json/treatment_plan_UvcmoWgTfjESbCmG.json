@@ -1,0 +1,45 @@
+{
+  "employee_id": "UvcmoWgTfjESbCmG",
+  "employee_name": "Steve Erasmus",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-08",
+      "report_id": "iagHfEfhzM3SxzV8",
+      "report_date": "2023-09-14",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Steve Erasmus",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Improving your diet, alcohol intake and exercise routines.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "You mentioned a family history of Prostate Cancer. This is something that you can regularly screen for - especially as you get older. Both clinical examination and blood tests can be done.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific Women's Health recommendations found.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:14:35",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

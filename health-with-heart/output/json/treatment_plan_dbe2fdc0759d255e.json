@@ -1,0 +1,51 @@
+{
+  "employee_id": "dbe2fdc0759d255e",
+  "employee_name": "Ashley Merris",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-29",
+      "report_id": "7ee9046f8d4cefec",
+      "report_date": "2022-09-20",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ashley Merris",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Dermatology check up",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Vitamin C , Kiko Hormone Balance Supplement",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A full audiogram is recommended.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:32:49",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

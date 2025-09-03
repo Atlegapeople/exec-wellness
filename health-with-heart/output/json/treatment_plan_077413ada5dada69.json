@@ -1,0 +1,57 @@
+{
+  "employee_id": "077413ada5dada69",
+  "employee_name": "Anthony Sfeir",
+  "treatment_timeline": [
+    {
+      "date": "2024-08-02",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Anthony Sfeir",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Referred for a renal US and asked to come back for nephrology referral.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:56:39",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

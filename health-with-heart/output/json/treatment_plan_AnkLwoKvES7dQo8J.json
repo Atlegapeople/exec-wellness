@@ -1,0 +1,33 @@
+{
+  "employee_id": "AnkLwoKvES7dQo8J",
+  "employee_name": "Nomzamo Kobese",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-12",
+      "report_id": "y6X8n4k2azEFeYFZ",
+      "report_date": "2023-09-14",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nomzamo Kobese",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:56:19",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

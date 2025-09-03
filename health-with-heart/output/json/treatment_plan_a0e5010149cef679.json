@@ -1,0 +1,67 @@
+{
+  "employee_id": "a0e5010149cef679",
+  "employee_name": "Gert Visser",
+  "treatment_timeline": [
+    {
+      "date": "2020-10-13",
+      "report_id": "34xk75b2o5786eis0",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gert Visser",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue with your frequent dermatology follow ups",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Recent melanoma excised",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-01-25",
+      "report_id": "yekf0qlrwavhwnoq5",
+      "report_date": "2022-01-25",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gert Visser",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Your NERVIQ results suggest that in spite of your positive and easy going nature that you are somewhat stressed. These results are just a snapshot in time but please focus on ways to activate your 'resting and digesting' - such as breathing exercises, meditation, yoga and quiet time in nature.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please supplement with active B vitamins such as those found in a good multivitamin such as phytomulti.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "0",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:45:12",
+  "total_reports": 2,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

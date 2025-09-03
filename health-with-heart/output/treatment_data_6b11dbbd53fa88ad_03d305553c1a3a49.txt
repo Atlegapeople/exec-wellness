@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:43
+Employee ID: 6b11dbbd53fa88ad
+Report ID: 03d305553c1a3a49
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Thabo Khala
+Report Date: 2024-05-28
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 6.5, SG 1.025
+------------------------------
+Employee: Thabo Khala
+Report Date: 2024-05-28
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 6.5, SG 1.025
+------------------------------
+Employee: Thabo Khala
+Report Date: 2024-05-28
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 6.5, SG 1.025
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

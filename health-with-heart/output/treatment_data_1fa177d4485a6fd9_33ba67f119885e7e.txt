@@ -1,0 +1,24 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:58
+Employee ID: 1fa177d4485a6fd9
+Report ID: 33ba67f119885e7e
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Fuad Abdulla
+Report Date: 2022-04-29
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, SG 1.020
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

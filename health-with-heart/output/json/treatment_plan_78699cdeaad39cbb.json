@@ -1,0 +1,50 @@
+{
+  "employee_id": "78699cdeaad39cbb",
+  "employee_name": "Patrick Letsoalo",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-03",
+      "report_id": "8652f5ecdade626a",
+      "report_date": "2021-03-03",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Patrick Letsoalo",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Ph - 5 SG - 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-21",
+      "report_id": "c85e8de71c393110",
+      "report_date": "2022-04-21",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Patrick Letsoalo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Had an operation done to his prostate gland, Blood 1+ and urobilinogen 1+. He is consulting with his own GP/ Specialist",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:13:19",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ramona Azagsiba"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "76aafe33e677d38d",
+  "employee_name": "Marion Burn",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-07",
+      "report_id": "fff51bdb18d574cf",
+      "report_date": "2023-08-07",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Marion Burn",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Omega-3 supplements daily",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:12:54",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

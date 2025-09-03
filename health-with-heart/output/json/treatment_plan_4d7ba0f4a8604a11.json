@@ -1,0 +1,56 @@
+{
+  "employee_id": "4d7ba0f4a8604a11",
+  "employee_name": "Gladness Mkabela",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-24",
+      "report_id": "e75c6720b86d0ca1",
+      "report_date": "2023-04-24",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Gladness Mkabela",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Blood 4+ (currently on her period)",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Leucocytes 1+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-15",
+      "report_id": "9ab14f37030359bc",
+      "report_date": "2024-04-15",
+      "doctor": "Alex Stuart",
+      "nurse": "Keamogetse Selabe",
+      "employee_name": "Gladness Mkabela",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "bloods (1+) and leukocyte trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:42:11",
+  "total_reports": 2,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Keamogetse Selabe"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "9a57f669b4a6b4ea",
+  "employee_name": "Deborah Swart",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-17",
+      "report_id": "bb33e5a34560ec3f",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Deborah Swart",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Not specified",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No recommendations found for Men's Health",
+          "status": "Not specified",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "altosec , trepilin",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:37:22",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

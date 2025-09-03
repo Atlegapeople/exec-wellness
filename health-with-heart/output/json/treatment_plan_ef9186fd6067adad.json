@@ -1,0 +1,49 @@
+{
+  "employee_id": "ef9186fd6067adad",
+  "employee_name": "Sellwane Maria Msimango",
+  "treatment_timeline": [
+    {
+      "date": "2021-08-30",
+      "report_id": "c254eda24f009627",
+      "report_date": "2021-08-30",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sellwane Maria Msimango",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "trace leucocytes, no symptoms",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "7e368d3f47d257a7",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sellwane Maria Msimango",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Investigate blood 2+ in urine",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:44:53",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

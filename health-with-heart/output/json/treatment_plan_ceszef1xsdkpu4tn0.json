@@ -1,0 +1,51 @@
+{
+  "employee_id": "ceszef1xsdkpu4tn0",
+  "employee_name": "Laurent Scholtz",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-26",
+      "report_id": "qt0csblhmxn56i5kn",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Laurent Scholtz",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You have a history of a cyst on your kidney. Noted to have protein in your urine - Urology consultation recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Proteinuria",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You have anxiety and feel that the Lexamil makes a massive difference. Reminder to also decrease coffee use as this also contributes to it. Continue with your good exercise routine.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Left ear was tender and cataflam was recommended. If not resolving, consult with a GP.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:21:37",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

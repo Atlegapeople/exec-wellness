@@ -1,0 +1,39 @@
+{
+  "employee_id": "a40561f31ebb5be3",
+  "employee_name": "Sharlainie Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-03",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sharlainie Naidoo",
+      "actions": [
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Lipostat",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:47:59",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

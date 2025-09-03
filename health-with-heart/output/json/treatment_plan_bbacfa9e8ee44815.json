@@ -1,0 +1,63 @@
+{
+  "employee_id": "bbacfa9e8ee44815",
+  "employee_name": "Fahmeeda Loonat",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-08",
+      "report_id": "bc976436cf3051dd",
+      "report_date": "2023-06-08",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Fahmeeda Loonat",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Optimise your work station & posture to support your neck & back.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "TSH is raised, this is suggestive of hypothyroidism. Full work up is needed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Increase daily water intake & limit saturated fats. Review kidney function & cholesterol in 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue living an active lifestyle. Improve your diet by adding more fresh veggies, fruit & varied lean protein sources.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:04:57",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

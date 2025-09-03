@@ -1,0 +1,57 @@
+{
+  "employee_id": "3d87fd3804ef41c8",
+  "employee_name": "Komilla Rahman",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "9abd2eac1f8285e7",
+      "report_date": "2023-05-11",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Komilla Rahman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor the liver enzyme levels as they have improved but still need to be monitored.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on losing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Evening Primrose Oil , Magnesium , Calcium , Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:29:41",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "4mxxokyhdrnt0jo1",
+  "employee_name": "Maite Leshabane",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-24",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Maite Leshabane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "An annual mammogram is recommended from age 40",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI doesn't account for body composition, which means it misses the difference between muscle mass and fat because muscles are denser and heavier than fat",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Emotional well-being is important. Prioritize self-care and seek help if needed.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:44:21",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

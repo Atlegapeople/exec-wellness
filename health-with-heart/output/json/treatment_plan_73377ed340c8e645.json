@@ -1,0 +1,63 @@
+{
+  "employee_id": "73377ed340c8e645",
+  "employee_name": "Jeroen Van Den Broek",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-15",
+      "report_id": "db886f4fb810d9ce",
+      "report_date": "2023-05-15",
+      "doctor": "Christie Pilossof",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Jeroen Van Den Broek",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day. Very slow pulse noted (45bpm).",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "It is recommended that from the age of 50 you see a urologist for screening of your prostate.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Jeroen, you were advised to have regular dermatology screening for skin cancers.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Jeroen, you were advised to have a stool sample for occult blood or colonoscopy for screening for colon cancer.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Jeroen, you were advised to see a urologist to check your prostate (this is routine advice for everyone from the age of 50).",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Jeroen, you were advised to have regular monitoring for ongoing health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:10:35",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

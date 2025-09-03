@@ -1,0 +1,57 @@
+{
+  "employee_id": "03c9b21a6bd4dd47",
+  "employee_name": "Phindile Thabane",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-04",
+      "report_id": "f23f608c3c175d9c",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Phindile Thabane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure raised on the day. A waist to height ratio of more than 50% is associated with a significant increased risk for chronic disease and cardiovascular disease events. Focus on losing cm around the waist rather than the number on the scale.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Supplement your Vit D for 3 months and review with your doctor.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase your exercise and reduce refined carbohydrates.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:54:51",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

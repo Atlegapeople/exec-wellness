@@ -1,0 +1,79 @@
+{
+  "employee_id": "0k3d7vemlp82oeq5f",
+  "employee_name": "Matthew Bernath",
+  "treatment_timeline": [
+    {
+      "date": "2020-11-03",
+      "report_id": "gcwxsjvsysyace0jh",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Matthew Bernath",
+      "actions": [
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with vitamin D3 5000 iu daily for 4 months then recheck your level aiming for a level of 50 to 80 ng/ml. Once you are in this range you can decrease your supplement to 1000 to 2000 iu daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Cholesterol levels: to try manage with lifestyle alone. Take omega 3 supplements 2g daily, exercise regularly and eat a healthy diet. Repeat blood after 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please monitor your BP. If it remains elevated please see your GP for further investigation & management.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "f1051b8bf235138e",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Matthew Bernath",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor blood pressure and seek further care if it remains elevated.",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Zytomil (for anxiety)",
+          "status": "Planned",
+          "source_field": "Comment Key: ChronicMedicationList"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Use Flomist",
+          "status": "Planned",
+          "source_field": "Comment Key: ChronicMedicationList"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Monitor marginally raised cholesterol and suboptimal vitamin D levels.",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:01:54",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

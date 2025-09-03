@@ -1,0 +1,49 @@
+{
+  "employee_id": "625c5cf30519421b",
+  "employee_name": "Joseph Tlhogoe",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-25",
+      "report_id": "d81d44c7461ec522",
+      "report_date": "2021-03-25",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Joseph Tlhogoe",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH 7, SG 1.015",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "1ec8ec0830d4081d",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Joseph Tlhogoe",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "trace proteins",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:58:30",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

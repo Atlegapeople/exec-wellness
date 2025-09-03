@@ -1,0 +1,63 @@
+{
+  "employee_id": "c7180c11372c3362",
+  "employee_name": "Itumeleng Manjingolo",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-13",
+      "report_id": "14945fbf91baa34b",
+      "report_date": "2023-07-05",
+      "doctor": "Christie Pilossof",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Itumeleng Manjingolo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Restart thyroid hormone treatment as soon as possible.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Recheck thyroid hormone levels after one month of treatment.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Vitamin B co and Vitamin C.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:16:59",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:22
+Employee ID: x2ddnc2ykwzxpzsg9
+Report ID: dd730bd8a9c66491
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Charl Le Roux
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Trepiline 25mg BD
+Lyrica 75mg BD
+Tegretol 200mg BD
+Special Investigation Notes: None
+------------------------------
+Employee: Charl Le Roux
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Charl you are currently in good health. The only slight issue noted on your blood results was a suboptimal level of vitamin D. Your positive outlook and excellent mental state plays such an important role in your health, so keep it up! It was a pleasure to do your medical today and we look forward to seeing you next year again.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-08-11 - 2020-08-11
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

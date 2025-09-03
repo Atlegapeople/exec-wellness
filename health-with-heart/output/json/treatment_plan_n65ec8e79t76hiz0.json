@@ -1,0 +1,39 @@
+{
+  "employee_id": "n65ec8e79t76hiz0",
+  "employee_name": "Yuvan Lalloo",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-10",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Yuvan Lalloo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "The Erb's Palsy of your right arm does not cause impairment in your daily activities. Continue with biokinetics/exercises to maintain mobility and strength of the right shoulder and arm.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Gastric reflux is usually linked to excess weight and certain foods eg. processed food, fatty food and chilli pepper. It can be prevented by adjusting your diet, eating smaller meals, avoiding meals soon before bedtime and weight loss.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:35:03",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

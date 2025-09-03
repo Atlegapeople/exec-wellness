@@ -1,0 +1,57 @@
+{
+  "employee_id": "1usc8jdf2sxd4mnq6",
+  "employee_name": "Darren Simpson",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-17",
+      "report_id": "6oclep8fz6zkrb546",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Darren Simpson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your Lipogram is derranged and worse than your previous readings. Suggest starting a low dose statin, please book with GP.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "You are over the age of 50 and require a Colonoscopy for screening - please book to see a Gastroenterologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your kidney function has decreased from 69 to 62. We need to control your BP better, repeat levels in 3/12.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Gastroeneterology",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Impacted ear wax bilaterally - use Waxsol as directed.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:10:39",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

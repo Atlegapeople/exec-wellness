@@ -1,0 +1,57 @@
+{
+  "employee_id": "f192acdb7231fa5b",
+  "employee_name": "Thabiso Mohokare",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-30",
+      "report_id": "Not specified",
+      "report_date": "2023-10-30",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thabiso Mohokare",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and visit a doctor if you experience any urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a normal waist circumference to reduce your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please report any new symptoms to your doctor for further investigation.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:48:15",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

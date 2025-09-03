@@ -1,0 +1,51 @@
+{
+  "employee_id": "8fe1a19cf7bd4d2a",
+  "employee_name": "Sereka Sewlal",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-11",
+      "report_id": "ac70a58f3918df59",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Sereka Sewlal",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal Clinical Examination",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "URTI - completed antibiotic one day ago",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "VitaminsOrSupplements",
+          "recommendation": "Insumax",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:29:50",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

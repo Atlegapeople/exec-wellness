@@ -1,0 +1,51 @@
+{
+  "employee_id": "vc51evz7xyew2pxb",
+  "employee_name": "Naomi Van Eck",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "7fbd813d925b5834",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Naomi Van Eck",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy (+- a G-scope) recommended from age 45.  Your GP can help refer you to a general surgeon",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale to improve your risk for chronic diseases of lifestyle",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:15:41",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "dwdvu3bh3we0n97m",
+  "employee_name": "Michael Stephanou",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-22",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Michael Stephanou",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40 if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45 if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's HealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reduce your carbohydrate intake",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:35:53",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

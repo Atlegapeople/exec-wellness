@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:49:48
+Employee ID: vw8mfnylaybumehh
+Report ID: e0250e845b723aef
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Phillip Selowa
+Report Date: 2022-11-29
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.000
+------------------------------
+Employee: Phillip Selowa
+Report Date: 2022-11-29
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.000
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

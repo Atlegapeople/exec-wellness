@@ -1,0 +1,51 @@
+{
+  "employee_id": "gdvcxg0xxdb17y3i9",
+  "employee_name": "Cindy Edwards",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-17",
+      "report_id": "jiflugfmwb2ns6k8u",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Cindy Edwards",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Your report being up-to-date with your medical screening. I am so glad to hear that your latest Mammogram and Pap Smear were clear. Regular screening helps to detect any abnormalities early and improves management outcomes.",
+          "status": "Completed",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regular self breast examinations are important. We can review if you detect any concerns.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Mole map screening (Dermatologist) to review all pigmented skin lesions.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with Vit D3 5000iu daily and repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:58:00",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

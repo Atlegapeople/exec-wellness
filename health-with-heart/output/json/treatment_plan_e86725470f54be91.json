@@ -1,0 +1,33 @@
+{
+  "employee_id": "e86725470f54be91",
+  "employee_name": "Ronnie Maringa",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-09",
+      "report_id": "a32db7298eb372f3",
+      "report_date": "2024-05-09",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Ronnie Maringa",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 8 SG1,010",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:40:26",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

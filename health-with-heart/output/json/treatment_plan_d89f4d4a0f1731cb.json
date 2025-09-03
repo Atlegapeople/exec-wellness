@@ -1,0 +1,33 @@
+{
+  "employee_id": "d89f4d4a0f1731cb",
+  "employee_name": "Themba Ngoveni",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-09",
+      "report_id": "eaee26f7badeba72",
+      "report_date": "2024-05-09",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Themba Ngoveni",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6.0 Sg1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:31:07",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

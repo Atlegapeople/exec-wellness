@@ -1,0 +1,103 @@
+{
+  "employee_id": "sqjkdvwl78ke0vpze",
+  "employee_name": "Dawn Philip or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2019-11-05",
+      "report_id": "jeazev6rbhhoos85j",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof or Not specified",
+      "nurse": "Sr Simphiwe Phenya or Not specified",
+      "employee_name": "Dawn Philip or Not specified",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with vitamin D3 5000iu daily. Recheck your level in 4 to 6 months, aiming for a level of 50 to 80 ng/ml (not more than 100).",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Lower homocysteine levels by supplementing with active B vitamins such as those found in a formula like 'Phytomulti'. Aim for a Homocysteine level of around 8umol/L to minimise cardiac risk and assist with detoxification and DNA repair in the body.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Discuss this with your gynae and look at hormone level testing.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Consider adding some resistance training as this helps to build and maintain muscle mass, which will help increase fat burning. It is also important to maintain bone density.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Vitamin D level of 32ng/ml is within normal but is suboptimal.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Increased homocysteine level of 14.9umol/L.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Menstrual irregularities over the past year.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Gained approximately 4 kg.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "a75c0b0daa11becc",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Dawn Philip",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Optimising your vitamin D level is important.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "There are a few options to try to regulate your cycles and ease the transition.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Hormone testing can be done to confirm perimenopause.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:04:31",
+  "total_reports": 2,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof or Not specified"
+    ],
+    "nurses": [
+      "Sr Simphiwe Phenya or Not specified"
+    ]
+  }
+}

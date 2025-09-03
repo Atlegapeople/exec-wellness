@@ -1,0 +1,39 @@
+{
+  "employee_id": "0b745eeaa862a6af",
+  "employee_name": "Ndumiso Masala",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-13",
+      "report_id": "d88d4c77eb81838a",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ndumiso Masala",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Bilateral conjunctivitis - prescribed eye drops",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High body fat percentage - try to lose some weight through healthy diet and more frequent exercise.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:59:25",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

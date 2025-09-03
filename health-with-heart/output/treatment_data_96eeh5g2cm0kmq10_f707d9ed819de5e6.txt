@@ -1,0 +1,508 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:01
+Employee ID: 96eeh5g2cm0kmq10
+Report ID: f707d9ed819de5e6
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ChronicMedicationList
+Comment Value: Marviline
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamRecommendation
+Comment Value: No abnormalities detected
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LabTestRecommendation
+Comment Value: FBC: Low neutrophil count suggestive of viral infection at the time of blood draw. Cholesterol: Optimised diet and exercise to reduce this, also take omega 3 supplements 2g daily and coQ10 supplement. Repeat test 3  in months.
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LifestyleRecommendation
+Comment Value: Excellent life choices being made. Combat the sedentary job by walking during breaks and meetings and also do stretches and desk exercises.
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Cancer has preventable (smoking, alchohol, weight) and non-preventable (genes, age, gender, race) risk factors, well done on doing your best to reduce your risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Emotional balance is a state of being aware of our emotions enough to manage them in a way that is gentle, honest, and wise. Self-care is an important part of managing stress. Well done for prioritising this .
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Mild difficulty with lung function
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: No problems reported
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitalsRecommendation
+Comment Value: No abnormalities detected
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitaminsOrSupplements
+Comment Value: zinc , vitamin c , Vitamin D
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: WomensHealthNote
+Comment Value: Not yet sexually active
+Special Investigation Notes: None
+------------------------------
+Employee: Simone Burger
+Report Date: 2022-10-20
+Doctor: Sarah Mujinga
+Nurse: Nelisiwe Mdabe
+Clinical Recommendations: No abnormalities detected
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Simone, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-03-01 - 2023-03-01
+Time: 12:00:00 - 14:00:00
+Notes: Simone BurgerID/Passport Number: 9502010015085
+Status: Completed
+------------------------------

@@ -1,0 +1,33 @@
+{
+  "employee_id": "ixxwxm4d48izw0t9",
+  "employee_name": "Tsundzuka Ngomani",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-24",
+      "report_id": "f69acf07ad8cf4a0",
+      "report_date": "2023-11-24",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Tsundzuka Ngomani",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:12:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

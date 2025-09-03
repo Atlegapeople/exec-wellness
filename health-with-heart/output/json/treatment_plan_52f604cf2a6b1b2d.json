@@ -1,0 +1,51 @@
+{
+  "employee_id": "52f604cf2a6b1b2d",
+  "employee_name": "Vivian Levin",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "c17b4d28ff6b3b2f",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Vivian Levin",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal special investigations. Please follow up for a colonoscopy with a surgeon to screen for bowel cancers.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "With being vegan take special care to monitor for anemia with your doctor regularly.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin B12 injections",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:47:02",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

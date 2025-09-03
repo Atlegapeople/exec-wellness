@@ -1,0 +1,63 @@
+{
+  "employee_id": "4Vd7vhSsmMLQipWX",
+  "employee_name": "Zain Ismail",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-09",
+      "report_id": "zc9sxKKsk3EHt5eC",
+      "report_date": "2023-09-14",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Zain Ismail",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Normal resting, stress ECG and lung function.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-You are better suited for endurance training.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-To improve your fitness do exercises that keep your heart rate between 151-165 bpm.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-No sign of peripheral vascular disease on ABI measurement.",
+          "status": "Completed",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Autonomic nervous system balanced.",
+          "status": "Completed",
+          "source_field": "Special Investigation Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:44:48",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

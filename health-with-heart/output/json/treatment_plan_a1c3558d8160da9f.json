@@ -1,0 +1,81 @@
+{
+  "employee_id": "a1c3558d8160da9f",
+  "employee_name": "Marcelino De Gouveia",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-27",
+      "report_id": "d8a2238c30372cad",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Marcelino De Gouveia",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "4x2 soft tissue lump on the back - advised to do a sonar to confirm if it is a lipoma.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Normal to moderate sloping high frequency hearing loss bilaterally. A full audiogram is recommended and subsequent possible management.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase your exercise frequency, practice mindfulness and activating you 'rest and digest' as we discussed.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eating well is also important. Consider seeing a Dietician to assist in meal planning and to assist in weight loss.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI and waist to height ratio increased, increasing your cardiovascular risk. Concentrate on bringing down your weight aiming for BMI <25 and waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Full audiogram",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:46:01",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

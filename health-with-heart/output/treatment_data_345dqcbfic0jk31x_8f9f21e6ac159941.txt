@@ -1,0 +1,60 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:06
+Employee ID: 345dqcbfic0jk31x
+Report ID: 8f9f21e6ac159941
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Metformin
+Special Investigation Notes: None
+------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Metformin
+Special Investigation Notes: None
+------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Unsure of names of other medication he is on.
+Special Investigation Notes: None
+------------------------------
+Employee: Maxwell Mohlamme Mathabathe
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Unsure of names of other medication he is on.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,63 @@
+{
+  "employee_id": "G66uKS2eaTv5qfpH",
+  "employee_name": "Shantelle Kibitoe",
+  "treatment_timeline": [
+    {
+      "date": "2024-01-24",
+      "report_id": "mdsaYySVtBuW5Uj5",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Shantelle Kibitoe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day. You are still eligible to come back for an audiology screen.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a good waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Collagen , Evening Primrose Oil , Magnesium , Multivitamin , Probiotics",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:57:43",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

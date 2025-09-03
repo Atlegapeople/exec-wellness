@@ -1,0 +1,57 @@
+{
+  "employee_id": "j8a6gtwj2bbb3zapn",
+  "employee_name": "Caryn Baird",
+  "treatment_timeline": [
+    {
+      "date": "2019-06-04",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Caryn Baird",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Urine test for MCS, PCR and bilharzia requested: to follow up with GP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Diet to reduce inflammation discussed and to take 2g omega 3 daily",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Regular weight training",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "To include 20 to 30 min of moderate intensity cardiovascular exercise at each training session",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Try to stop red bull and try green tea or ginger and berry smoothie instead",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:13:03",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

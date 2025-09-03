@@ -1,0 +1,51 @@
+{
+  "employee_id": "xb9ovxmwdankf6d7",
+  "employee_name": "Ian Ballington",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-07",
+      "report_id": "c3ebbb96397b8b6b",
+      "report_date": "2022-08-31",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ian Ballington",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "The right eardrum was slightly red and may be due to recent infection. Consult your GP if you develop ear pain.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Old surgical scar on the lower abdomen and small scars on the right knee. Right knee swelling - suggestive of fluid in the joint. Please consult your Orthopaedic surgeon.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a BMI < 25 and a waist to height ratio < 50%. Start by aiming to lose 10% of your body weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "See your GP for further investigation on persistent symptoms such as allergies, vitamin deficiencies, or other health concerns.",
+          "status": "Planned",
+          "source_field": "SymptomsOrConcerns"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:24:22",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

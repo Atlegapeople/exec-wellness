@@ -1,0 +1,74 @@
+{
+  "employee_id": "kxrfmmj1tf4j4172k",
+  "employee_name": "Andrew Aitken",
+  "treatment_timeline": [
+    {
+      "date": "2021-08-03",
+      "report_id": "4q0vdc10w8px919ta",
+      "report_date": "2021-08-03",
+      "doctor": "Jessica Friedman",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Andrew Aitken",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "-After the age of 40 prostate screening becomes important.",
+          "status": "Completed",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Decrease alcohol intake to 14 units per week or less (equivalent to 10 small glasses of wine). Try to replace red meats with leaner protein.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-20",
+      "report_id": "80cb89f41d38cb84",
+      "report_date": "2024-12-20",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Andrew Aitken",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Prostate screening becomes important after the age of 40.",
+          "status": "Planned",
+          "source_field": "Men's HealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A Mediterranean type diet, B vitamins & folate supplements will help lower inflammation and lower the risk of cardiovascular disease.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Renal work up is advised based on your blood tests.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Learn how to manage stress in health ways. Reach out for help when you need it.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:21:54",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Friedman",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

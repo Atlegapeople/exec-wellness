@@ -1,0 +1,24 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:49:51
+Employee ID: um13udwcy6epzy6y
+Report ID: 9ec85fc93f2841f2
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Sanny Monageng
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: analapril , Amlodipine
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

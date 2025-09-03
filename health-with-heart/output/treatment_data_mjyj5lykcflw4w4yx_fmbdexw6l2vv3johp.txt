@@ -1,0 +1,4485 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:12
+Employee ID: mjyj5lykcflw4w4yx
+Report ID: fmbdexw6l2vv3johp
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Yaz plus, vitamin B, D, Zn, Mg, Krill oil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: LabTestNote
+Comment Value: Did have some atypical cells on PAP but last one this year was normal
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Tamara it was a pleasure to see you today. Overall you seem to be in excellent health, reflected in your body measurements and blood results. Keep an eye on your stress levels but you seem to be coping well. Thanks for taking the time to do your medical with us today.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: 0
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mom has a history of ischemic heart disease
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker; Excellent blood results
+Fit and healthy
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised total cholesterol but good total to HDL ratio
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Tamara D'Onofrio
+Report Date: 2022-06-08
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-06-14 - 2022-06-14
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,45 @@
+{
+  "employee_id": "azpdbiydf5zme3hq",
+  "employee_name": "Zandile Sahe",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-20",
+      "report_id": "fb60fc457fe58d48",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Zandile Sahe",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue your follow ups and mammograms with your oncologist.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To improve your cardiovascular health loose cm around your waist rather than focus on a number on the scale.",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Magnesium",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:57:26",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

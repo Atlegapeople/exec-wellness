@@ -1,0 +1,79 @@
+{
+  "employee_id": "de275d2e40871f47",
+  "employee_name": "Bydon Longwe",
+  "treatment_timeline": [
+    {
+      "date": "2024-11-18",
+      "report_id": "f8d05a7af321b13f",
+      "report_date": "2024-11-18",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Bydon Longwe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your blood pressure is dangerously high, please start on the prescribed medication & come in for follow up.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve your lifestyle by exercising often & eating better. Consider a mediterranean type diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with Vitamin D, B12, Folate & magnesium glycinate.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "After the age of 40, prostate screening becomes important. Frequent urination, straining to urinate & dribbling urine are some signs to look out for.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Note"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendations found.",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "568faa25f1226087",
+      "report_date": "2025-08-05",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Bydon Longwe",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "After the age of 40, prostate screening becomes important. Frequent urination, straining to urinate & dribbling urine are some signs to look out for.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay attention to the conditions that have occurred in your family. Employ lifestyle habits that improve your present & future health.",
+          "status": "Ongoing",
+          "source_field": "Comment Value"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:34:12",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

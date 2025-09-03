@@ -1,0 +1,69 @@
+{
+  "employee_id": "accaa4a716fdf743",
+  "employee_name": "Sebastian Collins",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-19",
+      "report_id": "c1643ee64c894357",
+      "report_date": "Not specified",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sebastian Collins",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "You need to cut down on alcohol use. Reach out to your preferred health professional if you feel that you would benefit from some support in changing this behaviour.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "3 Days of 30-40mins exercise is recommended weekly.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Fruit & vegetables are part of a healthy, balanced diet and can help you stay healthy.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid Sugar. The effects of added sugar intake are all linked to an increased risk for heart attack and stroke.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Reported tingling sensation on the face sometimes, the possible causes require a work up to identify, please consult with your family doctor about these symptoms",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Raised waist to height ratio: This can be addressed with exercise.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure: You are being treated for hypertension. The ideal blood pressure is considered to be between 90-60mmHg diastolic (bottom number) and 120-80mmHg systolic (top number). Try to optimise your diet.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:53:39",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

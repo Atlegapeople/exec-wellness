@@ -1,0 +1,63 @@
+{
+  "employee_id": "28b308ee39c7e6f7",
+  "employee_name": "Zandra Bester",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-10",
+      "report_id": "dc2065563db87db0",
+      "report_date": "2023-05-10",
+      "doctor": "Joy Sitole",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Zandra Bester",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Improve your lifestyle by exercising at moderate intensity 3-5x for at least 30 minutes weekly.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Be cautious of foods high in saturated fats as these affect cholesterol levels. Given your family history, treatment may be necessary.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Prioritise rest & do activities in the day that will help lessen your stress levels. Breathing exercises & grounding may help.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Keep sugar & alcohol intake low.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Supplement vitamin D.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:15:52",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

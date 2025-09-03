@@ -1,0 +1,39 @@
+{
+  "employee_id": "mqderu0le2xsdilx7",
+  "employee_name": "Helen Mtshali",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-10",
+      "report_id": "kis4lf5uhmb92p8si",
+      "report_date": "2022-06-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Helen Mtshali",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with vitamin D3 5000 iu daily for 4 to ^ months then recheck your level, aiming for a blood level of 50-80 ng/ml",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Try to take small steps to help your body cope with stress - deep breathing, gentle exercise, yoga and meditation are some suggestions. Also supplementing with magnesium and ashwagandha can help.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:32:39",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

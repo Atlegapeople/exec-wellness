@@ -1,0 +1,45 @@
+{
+  "employee_id": "70b432ddcfa5ea95",
+  "employee_name": "Rahab Manbolo",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-12",
+      "report_id": "0c66cb4bae383893",
+      "report_date": "2022-04-12",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Rahab Manbolo",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Blood 3+(on period)",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Leucocytes trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:08:43",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

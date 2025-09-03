@@ -1,0 +1,63 @@
+{
+  "employee_id": "e8bb051f58a7dd71",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-18",
+      "report_id": "52c901b9877f387e",
+      "report_date": "2023-05-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "High blood pressure noted on the day. Please monitor at home am and pm for 1 week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please try to start exercising and be mindful of your stress levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "1. Monitor BP\n2. A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Not specified",
+          "recommendation": "1. Monitor BP\n2. A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Not specified",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:40:52",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

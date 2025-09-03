@@ -1,0 +1,108 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:15
+Employee ID: 3mr66m65gqoexasoy
+Report ID: 81e354b34d6053cd
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Azoptic, Duotrav. Omega 3, Vitamin C, Ocuvite, Homocysteine lowering formula.
+Special Investigation Notes: None
+------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Azoptic, Duotrav. Omega 3, Vitamin C, Ocuvite, Homocysteine lowering formula.
+Special Investigation Notes: None
+------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Azoptic, Duotrav. Omega 3, Vitamin C, Ocuvite, Homocysteine lowering formula.
+Special Investigation Notes: None
+------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: James you remain in great health and apart from the need for a few vitamins, no problems were identified. It was a pleasure to do your medical, we look forward to seeing you again next year and wish you well for the rest of the year. 
+Special Investigation Notes: None
+------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: James you remain in great health and apart from the need for a few vitamins, no problems were identified. It was a pleasure to do your medical, we look forward to seeing you again next year and wish you well for the rest of the year. 
+Special Investigation Notes: None
+------------------------------
+Employee: James Formby
+Report Date: 2024-09-30
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: James you remain in great health and apart from the need for a few vitamins, no problems were identified. It was a pleasure to do your medical, we look forward to seeing you again next year and wish you well for the rest of the year. 
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-01-15 - 2019-01-15
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2020-01-21 - 2020-01-21
+Time: 09:26:15 - 09:23:20
+Notes: 
+Status: Completed
+------------------------------
+Date: 2021-02-16 - 2021-02-16
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2022-06-03 - 2022-06-03
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2024-10-09 - 2024-10-09
+Time: 09:00:00 - 11:00:00
+Notes: 
+Status: Completed
+------------------------------

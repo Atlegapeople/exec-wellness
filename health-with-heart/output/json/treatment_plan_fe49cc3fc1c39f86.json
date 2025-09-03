@@ -1,0 +1,51 @@
+{
+  "employee_id": "fe49cc3fc1c39f86",
+  "employee_name": "Tracy Pringle",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-19",
+      "report_id": "4a488154dbe1d22f",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tracy Pringle",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy and gastroscopy recommended from age 45 - 50. Ask your GP to help refer you to a surgeon.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Good waist circumference and BMI. This reduces your cardiovascular risk significantly.",
+          "status": "Completed",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Well done for keeping up with your health screens.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:54:31",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

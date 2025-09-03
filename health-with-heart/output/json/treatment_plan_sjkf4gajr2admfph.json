@@ -1,0 +1,69 @@
+{
+  "employee_id": "sjkf4gajr2admfph",
+  "employee_name": "Yagashen Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "8359733118507ffc",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Yagashen Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "The ringing in your ears & occasional headaches are likely due to episodes of higher blood pressure. Your blood pressure readings have been high on multiple occasions. This can be controlled with medication & the lifestyle changes we discussed.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Stress also has a negative impact.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your high blood pressure is the main area that needs intervention & control.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular Prostate screening helps detect any abnormalities early & improves management outcomes. This can be done with PSA blood tests & a clinical examination.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Controlling your current chronic conditions (hypertension & cholesterol) with medication & the lifestyle changes discussed is essential to preventing future cardiovascular events. Avoiding smoking/ alcohol is recommended due to the impact seen on your investigations.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Making these changes will have a big impact on your health.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Bio-Strath",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:03:30",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

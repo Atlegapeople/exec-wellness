@@ -1,0 +1,63 @@
+{
+  "employee_id": "dcnnb2pno3i82x5c3",
+  "employee_name": "Miempie Maria Van der Mescht",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-17",
+      "report_id": "kxzc1ndv9a1dut9lr",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Miempie Maria Van der Mescht",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "Unilateral hearing loss requires an NET assessment and full audiogram. Referral done to Dr van Schalkwyk",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "The hip and lower back pain wakes you up at night - XRAY imaging has been requested. Please follow up with a GP visit with the results",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "You are over the age of 50 - Colonoscopy referral has been done. Screening is necessary for colon cancer prevention, mammogram referral also done.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "unilateral hearing loss - ENT consult booked",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Frequent urination - Start with the XRAYs we have requested and screening referrals - if all normal - Uro-gynaecology referral probably needed",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:33:36",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

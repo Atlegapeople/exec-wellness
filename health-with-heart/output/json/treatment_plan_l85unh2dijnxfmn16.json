@@ -1,0 +1,69 @@
+{
+  "employee_id": "l85unh2dijnxfmn16",
+  "employee_name": "Herman Bosman",
+  "treatment_timeline": [
+    {
+      "date": "2019-07-16",
+      "report_id": "g3vp6odeclx8cr8le",
+      "report_date": "2019-07-16",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Herman Bosman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A consult with your cardiologist might be beneficial.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your cholesterol is the highest risk factor picked up",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric acid levels",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Increase your intake of vegetables and red/blue fruit",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:22:36",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

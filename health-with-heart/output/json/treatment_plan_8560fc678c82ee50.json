@@ -1,0 +1,26 @@
+{
+  "employee_id": "8560fc678c82ee50",
+  "employee_name": "Ilse Smit",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "88240eeaa5bfb811",
+      "report_date": "2022-10-10",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ilse Smit",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

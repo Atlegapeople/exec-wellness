@@ -1,0 +1,51 @@
+{
+  "employee_id": "8d3c3579747f9e5a",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-13",
+      "report_id": "bd8df8e4c025e831",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your blood pressure was marginally high on multiple readings. It improved to normal levels when you were calm (126/83). Managing your stress levels will help maintain lower readings. We will continue to monitor this.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening is important for early detection of any abnormalities as you get older & improves management outcomes. You can monitor for any symptoms & consult for further review if concerned.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You mentioned intermittent right leg pain that has been causing you discomfort. You’ve been managing on analgesia. We can monitor your symptoms & if they worsen to review for further management (physio referral).",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "SlowMag , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:28:51",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

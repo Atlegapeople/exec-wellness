@@ -1,0 +1,33 @@
+{
+  "employee_id": "f96c45dcda39c5fc",
+  "employee_name": "Sheron Sakhile Motha",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-15",
+      "report_id": "5b9e26a87c33b7a1",
+      "report_date": "2021-03-15",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sheron Sakhile Motha",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH 6, SG 1020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:51:10",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

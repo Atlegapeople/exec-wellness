@@ -1,0 +1,57 @@
+{
+  "employee_id": "nxnhdoxeybaiff247",
+  "employee_name": "Lurika Juries",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-02",
+      "report_id": "mvqdxey2b9tht7v3q",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lurika Juries",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Vit D is suboptimal - supplement with Vit D 5000 dly and repeat levels in 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Investigate with GP reason why anaemia hasn't improved despite supplements.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please see your physician to review your current diabetes management or dietician if struggling to follow diabetic friendly diet.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Annual mammograms, pap smears are important to keep up with - try your best to do so.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Exercise will improve your risk for chronic illness, help reduce weight and also decrease stress and anxiety. 3x30-40mins a week recommended.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:37:42",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

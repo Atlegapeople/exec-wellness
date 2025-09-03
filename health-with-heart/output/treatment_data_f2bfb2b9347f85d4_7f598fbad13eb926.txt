@@ -1,0 +1,68 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:58
+Employee ID: f2bfb2b9347f85d4
+Report ID: 7f598fbad13eb926
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Eugene King
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+- S.G: 1020
+- PH: 6
+------------------------------
+Employee: Eugene King
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+- S.G: 1020
+- PH: 6
+------------------------------
+Employee: Eugene King
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+- S.G: 1020
+- PH: 6
+------------------------------
+Employee: Eugene King
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PROTEIN: TRACE
+- S.G: 1020
+- PH: 6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

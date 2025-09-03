@@ -1,0 +1,50 @@
+{
+  "employee_id": "vyq0l1bz4pcxkft47",
+  "employee_name": "Anoop Hira",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-03",
+      "report_id": "972807b2f4944ae3",
+      "report_date": "2022-11-03",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Anoop Hira",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "report_id": "6b4791699347d39d",
+      "report_date": "2025-02-12",
+      "doctor": "Dr Serisha Latchmiah",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Anoop Hira",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:19:46",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Dr Serisha Latchmiah"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "f03646222582f3ca",
+  "employee_name": "Aubrey Mashile",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-22",
+      "report_id": "1b9f8043752e25e0",
+      "report_date": "2022-11-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Aubrey Mashile",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Prot trace, pH 6, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:47:40",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

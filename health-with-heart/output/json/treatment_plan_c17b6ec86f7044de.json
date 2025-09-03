@@ -1,0 +1,65 @@
+{
+  "employee_id": "c17b6ec86f7044de",
+  "employee_name": "Nkululeko Mabena",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-13",
+      "report_id": "831aaf49406e7c7a",
+      "report_date": "2022-06-13",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nkululeko Mabena",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.010.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "report_id": "03b2c1a92f6d4a45",
+      "report_date": "2023-09-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nkululeko Mabena",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-18",
+      "report_id": "144a442401ed5f5e",
+      "report_date": "2023-09-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nkululeko Mabena",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:13:26",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

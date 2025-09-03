@@ -1,0 +1,57 @@
+{
+  "employee_id": "ca7pjqx5r0d9zhso",
+  "employee_name": "Olwethu Gontsana",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-22",
+      "report_id": "f06aedb028e4e811",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Olwethu Gontsana",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up on thyroid with a second test to rule out an underactive thyroid.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Refine your everyday lifestyle choices for improved future health. These adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:19:22",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "hcwc0epe2deefcgfu",
+  "employee_name": "Louis Jordaan",
+  "treatment_timeline": [
+    {
+      "date": "2019-12-10",
+      "report_id": "h3j7xe32i4akwahoo",
+      "report_date": "2019-12-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Louis Jordaan",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You may have subclinical hypothyroidism - this needs to be followed up in the new year. If TSH is still raised, consider thyroid hormone replacement.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "As discussed you do need to follow up in the new year to manage your glucose and insulin levels. It is likely that you have type 2 diabetes.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue exercising",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay close attention to your diet. Significantly reduce your carbohydrate intake, eliminate sugar from your diet and reduce your alcohol intake.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplements recommended: Vitamin D 5000 iu daily, Metagenics Phytomulti to lower homocysteine and support thyroid function, Good quality Omega 3, Berberine - to lower blood glucose and insulin levels and help with possible fatty liver.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:02:04",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

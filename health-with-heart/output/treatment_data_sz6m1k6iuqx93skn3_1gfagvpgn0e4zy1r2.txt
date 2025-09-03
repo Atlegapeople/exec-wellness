@@ -1,0 +1,4576 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:36
+Employee ID: sz6m1k6iuqx93skn3
+Report ID: 1gfagvpgn0e4zy1r2
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ChronicMedicationList
+Comment Value: Prexum for newly diagnosed hypertension
+Slow mag
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamNote
+Comment Value: NIl
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: LabTestNote
+Comment Value: Slightly raised LDL, slightly raised homocysteine, raised hsCRP
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MedicalHistoryNote
+Comment Value: Muzi it was lovely to meet you today and to do your medical. Most of what we discussed really focuses around lifestyle - nutrition, exercise and stress reduction! We wish you a happy and healthy 2022 and we look forward to seeing you again next year.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: VitalsNote
+Comment Value: Slightly elevated BP, waist to height ratio and BMI
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Monitor your BP, continue taking your medication, reduce salt, take magnesium, try to stop smoking, start exercising gently and then follow up with your doctor.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have already started cutting down your smoking. I encourage you to go full steam ahead and quit!
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: An increased BMI and waist circumference increases your risk of cardiovascular and chronic disease. Try to reduce alcohol, increase your exercise and eat a healthy diet.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Fair amount of risk factors noted
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cutting down smoking
+Reducing salt in diet
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Newly diagnosed hypertension; Increased BMI & waist circumference
+Somewhat stressed and fatigued;Mildly raised LDL cholesterol & homocysteine
+Smoker;Increased alcohol consumption on weekends
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please try to pay attention to reducing your stress levels. Consider exercise, breathing exercises and getting enough rest and relaxation time.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Muzi Nkosi
+Report Date: 2022-01-21
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High homocysteine levels can increase your risk of heart disease. This can be lowered by taking B vitamins in their active form. Consider supplementing with phytomulti or homocysteine lowering formula from solal.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-02-03 - 2022-02-03
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

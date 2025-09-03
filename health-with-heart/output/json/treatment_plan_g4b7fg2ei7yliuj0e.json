@@ -1,0 +1,93 @@
+{
+  "employee_id": "g4b7fg2ei7yliuj0e",
+  "employee_name": "Kevin Fraser",
+  "treatment_timeline": [
+    {
+      "date": "2020-02-04",
+      "report_id": "e7szw26l27w7mqf0y",
+      "report_date": "2020-02-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kevin Fraser",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Pay attention to your cholesterol levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Eat a low-salt diet that emphasizes fruits, vegetables and whole grains.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Limit the amount of animal fats and focus on good fats like olive oil, avo, nuts and seeds.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Drink alcohol in moderation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Stop smoking and manage your stress levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Based on your age I would encourage you to have a prostate check up with a urologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You also need to make sure you have done a screening coloscopy in the last 5 years.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "I would encourage you to do regular exercise, at least 30 minutes per day including some resistance training to build muscle.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplementing with active B vitamins (such as those found in Phytomulti multivitamin for example) will help to lower your homocysteine level.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "In addition to the above advice, follow up with your primary doctor (Dr Scott) regarding your cholesterol levels and continued management thereof.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Recommend a follow up with cardiologist to be prudent.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:57:21",
+  "total_reports": 1,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

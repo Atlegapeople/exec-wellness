@@ -1,0 +1,39 @@
+{
+  "employee_id": "50ce008727f04358",
+  "employee_name": "Pedro Augustus",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-19",
+      "report_id": "b813db1a05b8f440",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Pedro Augustus",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Left ear - erythematous and wet tympanic membrane. Azithromycin and Cilodex prescribed",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI in obesity range. To decrease cardiovascular risk aim for BMI <25 and waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:45:50",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

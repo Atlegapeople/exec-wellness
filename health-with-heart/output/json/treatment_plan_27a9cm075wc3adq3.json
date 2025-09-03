@@ -1,0 +1,33 @@
+{
+  "employee_id": "27a9cm075wc3adq3",
+  "employee_name": "Karabo Masuku",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-28",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Karabo Masuku",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:15:01",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

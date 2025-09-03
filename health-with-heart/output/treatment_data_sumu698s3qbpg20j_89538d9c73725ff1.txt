@@ -1,0 +1,40 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:32
+Employee ID: sumu698s3qbpg20j
+Report ID: 89538d9c73725ff1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Mumbi Odame
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor
+Special Investigation Notes: None
+------------------------------
+Employee: Mumbi Odame
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2024-10-23 - 2024-10-23
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

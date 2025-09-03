@@ -1,0 +1,33 @@
+{
+  "employee_id": "hxq9oacboxtg7yl6",
+  "employee_name": "Sureka Ramdhani",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-15",
+      "report_id": "c50f0b3f0ac68cfe",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sureka Ramdhani",
+      "actions": [
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:04:56",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

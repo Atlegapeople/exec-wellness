@@ -1,0 +1,51 @@
+{
+  "employee_id": "c26e956aa6777358",
+  "employee_name": "Moiketsi Lehoko",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-14",
+      "report_id": "09f92f6c703b7ee4",
+      "report_date": "Not specified",
+      "doctor": "Dr. Jessica Koen or Not specified",
+      "nurse": "Rebecca Mogale or Not specified",
+      "employee_name": "Moiketsi Lehoko",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You examine well with a good baseline. If any concerns arise to seek medical review.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "As you get older (>40 years) - routine screening of your prostate becomes important to help early detection & management of any irregularities. In males, this means regular prostate examinations & PSA blood levels. You will only need this later in life.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintaining good lifestyle routines, including a healthy diet & regular exercise, can have a positive preventative impact. All this leading to better general well-being & health outcomes.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "There were no current concerning symptoms. You report a good baseline. If you develop anything of concern - to follow up for review with your GP.",
+          "status": "Ongoing",
+          "source_field": "Symptom Screening Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:14:07",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen or Not specified"
+    ],
+    "nurses": [
+      "Rebecca Mogale or Not specified"
+    ]
+  }
+}

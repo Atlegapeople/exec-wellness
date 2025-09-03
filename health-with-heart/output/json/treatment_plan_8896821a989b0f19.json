@@ -1,0 +1,51 @@
+{
+  "employee_id": "8896821a989b0f19",
+  "employee_name": "Carmona Vorster",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-19",
+      "report_id": "f37d83668b2be90b",
+      "report_date": "2022-07-19",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Carmona Vorster",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You are scheduled to see your gynae to do a repeat pap smear.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please make sure that you are adequately fuelling your body and prioritise rest and recovery!",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:26:34",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "employee_id": "78xv7htg7eyghoot",
+  "employee_name": "Aubrey Gouws",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "550909ebf64ae117",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Aubrey Gouws",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Impacted wax in the left ear - Cerumol use discussed",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Fair skinned with several small dark moles - advised on mole mapping (Dr O'Kennedy recommended)",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "You can bring the cholesterol levels down, remmeber to repeat in 3-6 months time.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Special Investigation Notes: None",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:14:05",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "36e84da7c46e465a",
+  "employee_name": "Annetsharne Davids",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-02",
+      "report_id": "0dd983956a485f1e",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Annetsharne Davids",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Fitness can be measured by the volume of O2 you can consume while exercising at your maximum. Your score was very poor, your lung function was also borderline. You had severe COVID-19. Please have a review with a physician.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "ICU follow-up",
+          "status": "Planned",
+          "source_field": "Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Quit smoking",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Regular blood pressure monitoring",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Regular diabetes check-ups",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "PAPsmear and Mammogram up to date",
+          "status": "Completed",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:26:13",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

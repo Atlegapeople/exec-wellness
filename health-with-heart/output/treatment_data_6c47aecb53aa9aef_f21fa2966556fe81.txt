@@ -1,0 +1,2497 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:24
+Employee ID: 6c47aecb53aa9aef
+Report ID: f21fa2966556fe81
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamRecommendation
+Comment Value: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamRecommendation
+Comment Value: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamRecommendation
+Comment Value: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ClinicalExamRecommendation
+Comment Value: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestRecommendation
+Comment Value: -Kidney function is lower than expected. This has previously been low in the past but it them improved. Please monitor this.
+-Cholesterol levels are high. Given your family history, we do need to get these levels well controlled.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestRecommendation
+Comment Value: -Kidney function is lower than expected. This has previously been low in the past but it them improved. Please monitor this.
+-Cholesterol levels are high. Given your family history, we do need to get these levels well controlled.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestRecommendation
+Comment Value: -Kidney function is lower than expected. This has previously been low in the past but it them improved. Please monitor this.
+-Cholesterol levels are high. Given your family history, we do need to get these levels well controlled.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LabTestRecommendation
+Comment Value: -Kidney function is lower than expected. This has previously been low in the past but it them improved. Please monitor this.
+-Cholesterol levels are high. Given your family history, we do need to get these levels well controlled.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleRecommendation
+Comment Value: -Smoking can be very harmful to your health. It is advisable that you reduce-with the aim being to stop.
+-Add more veggies to your meals. Limit foods high in sugar & saturated fats. Ensure you drink enough water daily. A mediterranean type diet may help improve cholesterol levels.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleRecommendation
+Comment Value: -Smoking can be very harmful to your health. It is advisable that you reduce-with the aim being to stop.
+-Add more veggies to your meals. Limit foods high in sugar & saturated fats. Ensure you drink enough water daily. A mediterranean type diet may help improve cholesterol levels.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleRecommendation
+Comment Value: -Smoking can be very harmful to your health. It is advisable that you reduce-with the aim being to stop.
+-Add more veggies to your meals. Limit foods high in sugar & saturated fats. Ensure you drink enough water daily. A mediterranean type diet may help improve cholesterol levels.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: LifestyleRecommendation
+Comment Value: -Smoking can be very harmful to your health. It is advisable that you reduce-with the aim being to stop.
+-Add more veggies to your meals. Limit foods high in sugar & saturated fats. Ensure you drink enough water daily. A mediterranean type diet may help improve cholesterol levels.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Screen often for the conditions that have occurred in your family. High cholesterol levels do increase the risk of strokes & heart attacks.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Screen often for the conditions that have occurred in your family. High cholesterol levels do increase the risk of strokes & heart attacks.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Screen often for the conditions that have occurred in your family. High cholesterol levels do increase the risk of strokes & heart attacks.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Screen often for the conditions that have occurred in your family. High cholesterol levels do increase the risk of strokes & heart attacks.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -You seem very content at this point in your life. Continue filling your life with activities that bring you joy and help you manage stress.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -You seem very content at this point in your life. Continue filling your life with activities that bring you joy and help you manage stress.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -You seem very content at this point in your life. Continue filling your life with activities that bring you joy and help you manage stress.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -You seem very content at this point in your life. Continue filling your life with activities that bring you joy and help you manage stress.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Lung function is lower than expected. This may be caused by poor technique or this may be early changes caused by smoking.
+-Keep monitoring your heart function. There were no signs of ischaemia.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Lung function is lower than expected. This may be caused by poor technique or this may be early changes caused by smoking.
+-Keep monitoring your heart function. There were no signs of ischaemia.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Lung function is lower than expected. This may be caused by poor technique or this may be early changes caused by smoking.
+-Keep monitoring your heart function. There were no signs of ischaemia.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Lung function is lower than expected. This may be caused by poor technique or this may be early changes caused by smoking.
+-Keep monitoring your heart function. There were no signs of ischaemia.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI at 25.2 & waist-to-height ratio at 50% are slightly raised. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI at 25.2 & waist-to-height ratio at 50% are slightly raised. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI at 25.2 & waist-to-height ratio at 50% are slightly raised. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI at 25.2 & waist-to-height ratio at 50% are slightly raised. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitaminsOrSupplements
+Comment Value: Essentiale , Vitamin D , Bio-Strath , Antagolin , Omega 3 , Calcium , Magnesium
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitaminsOrSupplements
+Comment Value: Essentiale , Vitamin D , Bio-Strath , Antagolin , Omega 3 , Calcium , Magnesium
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitaminsOrSupplements
+Comment Value: Essentiale , Vitamin D , Bio-Strath , Antagolin , Omega 3 , Calcium , Magnesium
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: VitaminsOrSupplements
+Comment Value: Essentiale , Vitamin D , Bio-Strath , Antagolin , Omega 3 , Calcium , Magnesium
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Special Investigation Notes: None
+------------------------------
+Employee: Helen Potgieter
+Report Date: 2024-03-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: -Hearing in the right ear is normal. Hearing in the left ear has a slight abnormality at 250Hz. A full audiogram is recommended in order to investigate this hearing loss.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: Helen, thank you for doing your Pap smear with us.
+-Your cholesterol levels are still a concern. Please commit to the medication & come in for review so we can see whether there is improvement.
+-Continue with exercise, add strength training as well.
+-Cancer screening is important at this age as well. Please prioritise this.
+Comment Key: WomensHealthRecommendation
+Comment Value: -Visit a general practitioner for a Pap smear and a radiologist for a mammogram. Cancer screening is very important.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-01-24 - 2023-01-24
+Time: 13:30:00 - 15:30:00
+Notes: Helen PotgieterID/Passport Number: 6408200012085
+Status: Completed
+------------------------------
+Date: 2024-03-12 - 2024-03-12
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

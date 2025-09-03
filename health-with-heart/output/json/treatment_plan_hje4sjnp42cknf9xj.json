@@ -1,0 +1,49 @@
+{
+  "employee_id": "hje4sjnp42cknf9xj",
+  "employee_name": "Rautie Nel",
+  "treatment_timeline": [
+    {
+      "date": "2020-02-14",
+      "report_id": "wbl1y0x6bc1qvcg17",
+      "report_date": "2020-02-14",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rautie Nel",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your total cholesterol and LDL levels are slightly raised. This does not warrant medication at this stage. Continue to pay attention to your diet and lifestyle and consider omega 3 supplementation to drive the bad LDL down.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "0efea14616f6d119",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Rautie Nel",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain the current healthy lifestyle",
+          "status": "Ongoing",
+          "source_field": "Comment Value"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:03:12",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

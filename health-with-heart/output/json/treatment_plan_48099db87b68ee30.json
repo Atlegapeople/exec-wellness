@@ -1,0 +1,51 @@
+{
+  "employee_id": "48099db87b68ee30",
+  "employee_name": "Nabeelah Ismail",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-27",
+      "report_id": "8810020007088",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nabeelah Ismail",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Start pap smear screening when eligible and mammogram screening at the age of 40.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Gaining healthy muscle will be very important going forward and I advise the support of a Bio and a Dietician.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "VitaminsOrSupplements",
+          "recommendation": "Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:38:34",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

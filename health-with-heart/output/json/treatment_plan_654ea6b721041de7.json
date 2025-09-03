@@ -1,0 +1,39 @@
+{
+  "employee_id": "654ea6b721041de7",
+  "employee_name": "Lauren Zock",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-15",
+      "report_id": "9a4e3001b2296d5a",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lauren Zock",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Bio assessment omitted due to pregnancy. Your NervIQ exam suggests you are pushing into sympathetic (fight or flight) overdrive. Please prioritize rest, relaxation and mindful self-care.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "PregOmega",
+          "status": "Completed",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:00:37",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

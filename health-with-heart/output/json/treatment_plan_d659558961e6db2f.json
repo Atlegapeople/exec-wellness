@@ -1,0 +1,33 @@
+{
+  "employee_id": "d659558961e6db2f",
+  "employee_name": "Charlotte De La Harpe",
+  "treatment_timeline": [
+    {
+      "date": "2024-07-19",
+      "report_id": "cff5d76d9f880b04",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Charlotte De La Harpe",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:29:36",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "employee_id": "1cbe27f5a1d644c1",
+  "employee_name": "Leone Mathole",
+  "treatment_timeline": [
+    {
+      "date": "2021-12-08",
+      "report_id": "6944960fc7b11b38",
+      "report_date": "2021-12-08",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Leone Mathole",
+      "actions": [
+        {
+          "category": "Special Investigation Notes",
+          "recommendation": "Blood 1+- completed her period on Tuesday",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-12",
+      "report_id": "8914946b507b4a60",
+      "report_date": "2022-04-12",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Leone Mathole",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: Leuco 2+, Blood 3+(on period),ketones 1+, protein trace",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "e58015e23b76f933",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Leone Mathole",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "She will consult with her own GP",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:07:28",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

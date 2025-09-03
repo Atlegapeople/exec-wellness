@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:43
+Employee ID: e0e35566aa1c21cb
+Report ID: 046cf63aff1b6b1a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Themba Ngoma
+Report Date: 2022-04-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 3+(consulting with his own GP)
+------------------------------
+Employee: Themba Ngoma
+Report Date: 2022-04-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 3+(consulting with his own GP)
+------------------------------
+Employee: Themba Ngoma
+Report Date: 2022-04-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 3+(consulting with his own GP)
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

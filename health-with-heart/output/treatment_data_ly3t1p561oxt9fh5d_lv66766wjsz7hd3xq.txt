@@ -1,0 +1,4571 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:35
+Employee ID: ly3t1p561oxt9fh5d
+Report ID: lv66766wjsz7hd3xq
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ChronicMedicationList
+Comment Value: Antidepressant, Statin
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamComment
+Comment Value: 2
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamNote
+Comment Value: Right ear high frequency hearing loss (Wax impacted) Pharyngitis, post nasal drip, hole in septum(previous cauterisation); Breast recon post breast ca
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: LabTestNote
+Comment Value: Suboptimal Vit D; PAPsmear done in 2020 and due
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MedicalHistoryNote
+Comment Value: Dianne it was lovely meeting you.
+You are almost retiring and I am sure you are going to keep yourself busy! Enjoy every moment of it.
+Please keep your screenings up to date. Your Colonoscopy, Papmsmear, Mammogram and bone density scans are overdue. Please get them done this year.
+You can improve on your diet and be mindful to decrease your alcohol use.
+Enjoy your baby Alpaca! 
+
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: SpecialInvestigationNote
+Comment Value: Overweight, unfit 
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range; Aim for waist:height ratio of below 50. Diastolic BP raised at 92
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol: Uncontrolled on treatment. Please see your physician to review your treatment. Very important to decrease alcohol use, improve your diet. Supplement with Omega 3 dly
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would strongly recommend a Dietician and a Biokineticist to assist you in eating better and moving better. You need this intervention to improve your cholesterol control.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol uncontrolled on treatment
+Upper respiratory tract infection
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You had a cough for 4 weeks, very red throat when you consulted for your medical - if the medications prescribed doesn't resolve it please consult with your GP
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol Uncontrolled on Medication; Diastolic pressure >90
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Mammogram, PAPsmear, Colonospcy, Bone Density
+BMI, Suboptimal Vit D; Impacted Wax
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You have a history of breast cancer and your Mammogram is overdue - please get your Mammogram done
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+Employee: Dianne Kruger
+Report Date: 2022-05-27
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Vit D3 is suboptimal - supplement with D3 5000iu daily and repeat in 3/12 time
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Overweight, unfit 
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-06-01 - 2022-06-01
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

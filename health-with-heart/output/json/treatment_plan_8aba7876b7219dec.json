@@ -1,0 +1,33 @@
+{
+  "employee_id": "8aba7876b7219dec",
+  "employee_name": "Thabo Mahlako",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-16",
+      "report_id": "95ee606f1a79fe53",
+      "report_date": "2021-03-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Thabo Mahlako",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH 6, SG1.005",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:27:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

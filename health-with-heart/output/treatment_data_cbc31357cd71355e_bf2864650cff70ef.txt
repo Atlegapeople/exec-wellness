@@ -1,0 +1,112 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:39
+Employee ID: cbc31357cd71355e
+Report ID: bf2864650cff70ef
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Humira , Arcoxia , Trustan , Corticosteroid Nasal Spray
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ClinicalExamRecommendation
+Comment Value: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: LifestyleRecommendation
+Comment Value: High alcohol intake was flagged as a risk for future health concerns. For men, the recommended limit is 14 units per week (roughly 10 units per bottle of wine; 2–3 units per glass depending on size). Cutting back can benefit your physical health and help manage chronic conditions.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: You are already under the care of a Family GP and Rheumatologist for your chronic conditions, and I’m glad to hear you have a follow-up scheduled in October. We can send your results and reports to share with your specialist.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MensHealthRecommendation
+Comment Value: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Stress can impact both physical and mental wellbeing. You’ve noted periods of heightened anxiety followed by dips. We’ll continue to monitor how this affects you. You're currently coping well, but if that changes, we can reassess and look at further support.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: You mentioned ongoing gut & digestive issues. I'm glad your scopes showed no concerns. Probiotics, stress management, and a low-inflammatory diet can help support gut health. Techniques like focused breathing may also reduce sympathetic drive and improve symptoms.
+Special Investigation Notes: None
+------------------------------
+Employee: Nicolaas van Staden
+Report Date: 2025-08-07
+Doctor: Jessica Koen
+Nurse: Lebo Cindi
+Clinical Recommendations: You examine well clinically with normal blood pressure. With a family history of melanoma, a Mole Map screening can help detect concerns early. Your BMI is in the overweight range — improving nutrition, reducing alcohol, and staying active can help return it to normal.
+Men's Health Recommendations: Screening is an important part of medical reviews. For men, this includes prostate health. You're still young with no clinical concerns, and your PSA result was normal. This can be repeated in the coming years, along with examinations as you get older, to monitor for any changes.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Probiotics
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2025-08-07 - 2025-08-07
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

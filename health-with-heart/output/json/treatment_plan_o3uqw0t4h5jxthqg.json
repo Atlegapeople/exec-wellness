@@ -1,0 +1,51 @@
+{
+  "employee_id": "o3uqw0t4h5jxthqg",
+  "employee_name": "Sandile Phungula",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-27",
+      "report_id": "568041fdb9182cdc",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sandile Phungula",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Some irregularities noted on Resting and stress ECG - Discussed and referred to Cardiologist.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Skin rash if uses harsh soap",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Testosterone Boosting Supplement , Zinc , Magnesium",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "- To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:38:22",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

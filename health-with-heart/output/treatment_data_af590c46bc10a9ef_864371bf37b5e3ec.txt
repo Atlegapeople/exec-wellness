@@ -1,0 +1,33 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:38
+Employee ID: af590c46bc10a9ef
+Report ID: 864371bf37b5e3ec
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Amith Singh
+Report Date: 2025-07-29
+Doctor: Jessica Koen
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: URINE DIPSTICK: PROT- TRACE| S.G 1.30
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2025-08-22 - 2025-08-22
+Time: 09:30:00 - 11:30:00
+Notes: Amith SinghID/Passport Number: 8610295157083
+Status: Completed
+------------------------------
+Date: 2025-09-26 - 2025-09-26
+Time: 08:00:00 - 10:00:00
+Notes: Amith SinghID/Passport Number: 8610295157083
+Status: Upcoming
+------------------------------

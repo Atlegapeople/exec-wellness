@@ -1,0 +1,45 @@
+{
+  "employee_id": "b6z0407zsdp5qj2f",
+  "employee_name": "Rose Mokoto",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "d4ee109ac98be36b",
+      "report_date": "2022-10-20",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rose Mokoto",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Mammogram recommended from age 40",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a good waist to height ratio to reduce your cardiovascular risk",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:02:32",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

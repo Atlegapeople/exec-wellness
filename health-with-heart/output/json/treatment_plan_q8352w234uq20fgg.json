@@ -1,0 +1,63 @@
+{
+  "employee_id": "q8352w234uq20fgg",
+  "employee_name": "Nazabella",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-29",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nazabella",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No recommendations found for Men's Health",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "Vitals Recommendation"
+        },
+        {
+          "category": "Not specified",
+          "recommendation": "SymptomScreeningRecommendation: No symptoms reported",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Not specified",
+          "recommendation": "VitaminsOrSupplements: None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:51:34",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

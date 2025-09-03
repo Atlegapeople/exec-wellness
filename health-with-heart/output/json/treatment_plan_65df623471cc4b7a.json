@@ -1,0 +1,33 @@
+{
+  "employee_id": "65df623471cc4b7a",
+  "employee_name": "Daniel Moloko Rameetse",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-14",
+      "report_id": "2bd00e31fc8bbb88",
+      "report_date": "2022-06-14",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Daniel Moloko Rameetse",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:00:42",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

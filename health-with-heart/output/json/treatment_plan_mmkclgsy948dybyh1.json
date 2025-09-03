@@ -1,0 +1,145 @@
+{
+  "employee_id": "mmkclgsy948dybyh1",
+  "employee_name": "Steven Moodley",
+  "treatment_timeline": [
+    {
+      "date": "2021-02-02",
+      "report_id": "abmjenuduededoi7m",
+      "report_date": "2021-02-02",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Steven Moodley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Follow a low carbohydrate and sugar free diet, increase your exercise levels as able to and lose weight specifically around your abdomen. Please recheck level in 6 weeks.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with vitamin D3 5000iu daily. Recheck your level in 3 months aiming for a level of 50ng/ml.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    },
+    {
+      "date": "2021-02-02",
+      "report_id": "tmz93yx5kfrm377bj",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "BMI in obesity range - Please see a dietician and a Biokineticist - will assist in moving with intention to increase weight loss.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your Diastolic BP is raised - this needs to be reviewed. Lifestyle management as discussed, but please see your GP for review.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Colonoscopy/Gastroenterologist review - you are due for a Colonoscopy for screening.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Fecal incontinence.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Suboptimal Vit D levels: Supplement Vit D 5000iu dly for 3/12 and then repeat levels.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-14",
+      "report_id": "980ba9d52d918048",
+      "report_date": "2024-05-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Steven Moodley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Review chronic cholesterol medication in 6 months.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep refining everyday lifestyle choices for improved future health.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Vitamin D and Omega 3 supplements.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:31:51",
+  "total_reports": 3,
+  "total_actions": 16,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

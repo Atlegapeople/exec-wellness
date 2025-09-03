@@ -1,0 +1,80 @@
+{
+  "employee_id": "8176d644a2bd968a",
+  "employee_name": "Chantell Soga",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-15",
+      "report_id": "8af8e39b1ae55dd3",
+      "report_date": "2023-05-15",
+      "doctor": "Not specified",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Chantell Soga",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Choose a healthy lifestyle to reduce your risk for familial related chronic illnesses.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-15",
+      "report_id": "faf0fd4baf16ec2b",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Chantell Soga",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up with a doctor to discuss investigating your dizziness - you appear anemic on your blood test.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a good waist circumference to reduce your cardiovascular risk for heart attacks and strokes.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:18:08",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "employee_id": "85xha5n28px4gdozo",
+  "employee_name": "Jean Du Plessis",
+  "treatment_timeline": [
+    {
+      "date": "2019-04-30",
+      "report_id": "cgeadjhyyenvc0v4g",
+      "report_date": "2019-04-30",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jean Du Plessis",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening is important to detect any irregularities early.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "ST Elevation in V4 and V5: referred for cardiologist review",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-27",
+      "report_id": "576c6f811a82996d",
+      "report_date": "2024-02-27",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Jean du Plessis",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening is important to detect any irregularities early.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Keep working towards these goals of improved nutrition, regular exercise and stress reduction.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Jean du PlessisID/Passport Number: 6606215125087",
+          "status": "Completed",
+          "source_field": "Notes"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-18",
+      "report_id": "fbfb00fba9ca6b58",
+      "report_date": "2025-06-18",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jean du Plessis",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "There are no major red flags that need to be addressed immediately, rather refine your everyday lifestyle choices for improved future health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:24:34",
+  "total_reports": 3,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Jessica Koen",
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

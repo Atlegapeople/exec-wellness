@@ -1,0 +1,69 @@
+{
+  "employee_id": "6p4NBB3d4Lt6XqCB",
+  "employee_name": "Natasha Ramnarain",
+  "treatment_timeline": [
+    {
+      "date": "2024-01-30",
+      "report_id": "MKjAs5eCqVpJ8E29",
+      "report_date": "2023-09-14",
+      "doctor": "Dr. Jess Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Natasha Ramnarain",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Regular self breast examinations are recommended.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "If you defect any irregularities, consult your GP.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor any pigmented skin lesions, if any changes occur, consult for mole mapping.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Everything sounds like it has been going well post pregnancy. I am glad you’ve been following up with your Gynae - to also monitor and review your fibroids.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Continued regular Pap smear screening helps early detection of any irregularities.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You’ve been doing really well making the adjustments around having a new baby. Finding ways of incorporating healthy lifestyle habits into your new schedule can be challenging, however will have many long term benefits.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Pregnancy Supplement",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:07:47",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jess Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

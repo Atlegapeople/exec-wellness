@@ -1,0 +1,97 @@
+{
+  "employee_id": "8labgbdsvhfmrc68",
+  "employee_name": "Hugo Le Roux",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "3686013cf53649da",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Hugo Le Roux",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Protein Shake",
+          "status": "Not specified",
+          "source_field": "Comment Key: VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-22",
+      "report_id": "c74d487f4dc7ece8",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Hugo Le Roux",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To lower your cardiovascular risk focus on reducing your waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Your blood pressure and cholesterol will need a follow up to review if you need treatment for these.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Refine your everyday lifestyle choices to improve these parameters. Adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Repeat the cholesterol test after this time frame to review.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:31:13",
+  "total_reports": 2,
+  "total_actions": 10,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

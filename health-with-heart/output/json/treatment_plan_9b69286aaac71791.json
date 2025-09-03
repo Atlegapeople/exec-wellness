@@ -1,0 +1,51 @@
+{
+  "employee_id": "9b69286aaac71791",
+  "employee_name": "Kerridwen Fletcher",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-19",
+      "report_id": "060197c7a54802be",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Kerridwen Fletcher",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Post nasal drip and runny nose noted on examination - Cetirizine and Flixonase prescribed during consultation",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Practice mindfulness and self care. Your DHEA was low and we discussed ways of improving this. More mindfulness and 'resting and digesting'",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Phytomulti , Omega 3 , Probiotics",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:38:34",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

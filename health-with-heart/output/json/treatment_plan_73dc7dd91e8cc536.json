@@ -1,0 +1,33 @@
+{
+  "employee_id": "73dc7dd91e8cc536",
+  "employee_name": "Lucky Nemudzivhadi",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-22",
+      "report_id": "51def56768796823",
+      "report_date": "2021-04-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Lucky Nemudzivhadi",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD SG 1.030 Ph 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:10:59",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

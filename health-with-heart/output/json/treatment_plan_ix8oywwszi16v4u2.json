@@ -1,0 +1,51 @@
+{
+  "employee_id": "ix8oywwszi16v4u2",
+  "employee_name": "Melanie Gow",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-29",
+      "report_id": "565cf984fb51c017",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Melanie Gow",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a Gynaecologist for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reduce smoking, make some dietary adjustments and become more active",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please consult an Optometrist to evaluate your vision",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "A biokinetics or physiotherapy assessment is recommended for the feeling of the right knee giving in under you at times",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:11:59",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

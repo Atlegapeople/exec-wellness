@@ -1,0 +1,24 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:26
+Employee ID: 1e4eb28f4d16d1a4
+Report ID: 373b7e7229b5e02c
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Patrick Hlongwani
+Report Date: 2024-05-01
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 1+, protein trace, ph 6, Ketones trace
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

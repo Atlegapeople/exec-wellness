@@ -1,0 +1,4444 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:16
+Employee ID: h96c5rwoa8p035920
+Report ID: i3gj45ujtfzqu1gfa
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Lyrica , Tramadol
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: 1
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: bilateral shoulder click
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: LabTestNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Systolic BP raised, BMI slightly elevated, aim for waist to height ratio of <50%
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased blood pressure, family history
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Robin Goodall
+Report Date: 2022-06-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-06-14 - 2022-06-14
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

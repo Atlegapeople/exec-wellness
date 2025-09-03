@@ -1,0 +1,4699 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:11
+Employee ID: viyez0nxj1zfx2xaj
+Report ID: y1beoakuube8ddxxz
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ChronicMedicationList
+Comment Value: Zuvamor, Lexamil 20mg
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamNote
+Comment Value: Small red mole on right leg, uniform edges and no changes noted by patient. Fair skin with lots of freckles, encourage yearly dermatology check up.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: LabTestNote
+Comment Value: Low DHEA level of 2.1umol/L
+Suboptimal vitamin D level of 24ng/ml (aim for 50 to 80)
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MedicalHistoryNote
+Comment Value: You are currently healthy but do have some significant risk factors for cardiovascular disease including family history, an increased BMI and waist circumference. However I am confident that this risk can be mitigated through your lifestyle. Pay particular attention to your nutrition, lose some weight, continue exercising regularly and reduce your stress and anxiety levels as best you can. Your current cardiovascular risk score is low, which is great so our aim is to keep it that way!
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: SpecialInvestigationNote
+Comment Value: All normal on the day of testing
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: VitalsNote
+Comment Value: A waist to height ratio >50% is assoc with incr risk of chronic disease such as diabetes & heart disease. Increased BMI.
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Try to lose approximately 10% of your body weight to reduce your risk for chronic disease. As mentioned, abdominal fat is especially risky. Try to avoid late night snacking by making sure you eat regular meals during the day, to avoid getting overly hungry at night. If you do feel the need to snack after dinner have a couple of pieces of dark chocolate (85%).
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Consider non pharmacological ways of managing your anxiety such as exercise (which you already do), breathing exercises and meditation. Nice apps to help you with this are "Insight timer" or "Headspace"
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Waist Circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Focus on eating an anti inflammatory diet that is rich in colourful vegetables, high quality protein and good fats (avo, nuts, seeds, olive oil etc). Avoid refined carbohydrates (pasta, bread, rice, pastries etc) and sugar.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A waist circumference >94cm is associated with increased risk of chronic disease so please try to lose some weight to mitigate this risk. Father had a heart attack at 49 years old.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non Smoker
+Only occasional alcohol consumption
+Regular physical activity
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+Low DHEA level
+Father died from a heart attack at 49 years old
+Anxiety
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement recommendations: Vitamin D3 5000iu per day DHEA 50mg per day
+CoQ10 to counteract side effects of taking a statin (zuvamor)
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+Employee: Theuns De Wet
+Report Date: 2019-10-15
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Repeat DHEA, vitamin D and thyroid tests in 4 to 6 months
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: All normal on the day of testing
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-10-15 - 2019-10-15
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,45 @@
+{
+  "employee_id": "JnuHJ5yyUuYwSLHa",
+  "employee_name": "Norman Mulaudzi",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-15",
+      "report_id": "VZ4nxMm9RQWVJAbR",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Norman Mulaudzi",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and visit a doctor if you experience any urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on reducing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , Multivitamin , Zinc",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:16:04",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

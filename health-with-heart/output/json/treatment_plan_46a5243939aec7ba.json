@@ -1,0 +1,33 @@
+{
+  "employee_id": "46a5243939aec7ba",
+  "employee_name": "Lebogang Modibedi",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-01",
+      "report_id": "427066f9e00584ba",
+      "report_date": "2023-11-01",
+      "doctor": "Joy Sitole",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Lebogang Modibedi",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please implement good back conservation techniques.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:38:01",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

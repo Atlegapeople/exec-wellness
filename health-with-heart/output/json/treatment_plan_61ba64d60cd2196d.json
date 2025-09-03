@@ -1,0 +1,39 @@
+{
+  "employee_id": "61ba64d60cd2196d",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-12",
+      "report_id": "86b6b797deaf7968",
+      "report_date": "2023-06-27",
+      "doctor": "Jessica Koen",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You are carrying a lot of excess weight and your body is taking strain. Sustainably loosing weight (diet/ exercise) will greatly benefit not only your joints, general mood, hormone levels but also your chronic conditions. Preventing complications and future cardiovascular events.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "There is a family history of Prostate Cancer (father). Regular screening can help early detection & management of any abnormalities (greatly improves outcomes). Your PSA level (blood marker) was normal. I would recommend a regular clinical prostate examination & repeated blood levels.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:58:12",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "eseg2urixzwv3zmt2",
+  "employee_name": "Jagriti Harry",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-04",
+      "report_id": "w20yuv29b65vsltvs",
+      "report_date": "2022-05-04",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jagriti Harry",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Book a Mammogram",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "See a Gastroenterologist for a Colonoscopy",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Do a glucose tolerance test and follow up with your GP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Lose weight to decrease cardiovascular risk",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Address cholesterol with lifestyle change - Mediterranean diet, be more active, increase Omega 3 intake on a daily basis",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:46:48",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

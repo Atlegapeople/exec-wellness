@@ -1,0 +1,51 @@
+{
+  "employee_id": "uthzpz7ew0d5pxhf",
+  "employee_name": "Molebogeng Sekome",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-14",
+      "report_id": "a35e7a0ee6b9c0ae",
+      "report_date": "2022-10-20",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Molebogeng Sekome",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a normal waist circumference rather than a number on the scale - BMI can be misleading without considering factors like fat percentages (muscle mass and bone weight can increase BMI too).",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Berocca , Biogen Immune Booster",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:14:20",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

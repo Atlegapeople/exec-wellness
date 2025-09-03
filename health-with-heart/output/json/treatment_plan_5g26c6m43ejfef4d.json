@@ -1,0 +1,57 @@
+{
+  "employee_id": "5g26c6m43ejfef4d",
+  "employee_name": "Louisa Gowar",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "d27492c880cd869e",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Louisa Gowar",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Colonoscopy: At the age of 50, we recommend a screening colonoscopy and gastroscopy to detect any changes that present a future risk for cancer.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Bone density screen recommended from age 50",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Mild difficulty with lung function test",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:55:03",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

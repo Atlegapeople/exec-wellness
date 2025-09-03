@@ -1,0 +1,55 @@
+{
+  "employee_id": "rxncqpcm92clbzoyd",
+  "employee_name": "Taryn Geyser",
+  "treatment_timeline": [
+    {
+      "date": "2022-02-18",
+      "report_id": "pms9ioapr2tj07rqn",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Taryn Geyser",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Slightly raised cholesterol - Be consistent with your training, mediteranean style diet, add an Omega 3 2g supplement, decrease alcohol intake. Repeat in 6/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Gentle reminder to continue following up with your different specialists for your chronic diseases.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "5493f3c4914a09bb",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Taryn Geyser",
+      "actions": [
+        {
+          "category": "Supplements",
+          "recommendation": "Epitec, Omega 3, Calcium",
+          "status": "Not specified",
+          "source_field": "Comment Key: ChronicMedicationList"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:01:16",
+  "total_reports": 2,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

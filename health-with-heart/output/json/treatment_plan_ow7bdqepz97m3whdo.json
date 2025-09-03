@@ -1,0 +1,69 @@
+{
+  "employee_id": "ow7bdqepz97m3whdo",
+  "employee_name": "Stuart Inglis",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-06",
+      "report_id": "vu9zdr62i9lxe0gni",
+      "report_date": "2022-04-06",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Stuart Inglis",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Working on your weight&physical activity will significantly reduce your risk for heart disease.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Managing your diabetes better is also very important for looking after your heart.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Controlling your sugar levels is a priority. You are seeing your GP soon so these results may help him to adjust your medication.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Your DHEA levels are low- this indicates that you are running out of your stress response reserves. You can supplement DHEA, please talk to your GP&psychiatrist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "You need to move as much as possible. Taking time at lunch to go for a walk will have benefits for all of your risk factors as well as improve your mood, energy levels and weight.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Your homocysteine levels: Supplement with methylated vit B's. I recommend you start Methyl care, which you can but form Metagenics (online or in most health stores).",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "I have referred you for a liver ultrasound to check for a possible fatty liver. We need to see what the cause for the high liver enzymes are. Please take this report to your GP.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:42:12",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

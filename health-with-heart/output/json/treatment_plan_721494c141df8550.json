@@ -1,0 +1,51 @@
+{
+  "employee_id": "721494c141df8550",
+  "employee_name": "Marzanne Beytell",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-15",
+      "report_id": "fea1e1a6b56c77d5",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Marzanne Beytell",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Swollen left ankle - no history of trauma. Consider xray or sonar if not resolving.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements , Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please ensure adequate rest and relaxation. It was a pleasure to do your medical today and I wish you a happy and healthy year further.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:09:57",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "employee_id": "a9d8b47f5b73a392",
+  "employee_name": "Senzeni Mkhwanazi",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-07",
+      "report_id": "b8ef935c2a6878e8",
+      "report_date": "2023-11-07",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Senzeni Mkhwanazi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing is normal bilaterally, apart from a slight component at 8kHz in the left ear. Annual hearing testing is recommended.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor your blood pressure monthly.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "White cell count is low. These are infection fighting cells. Please repeat the blood count.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue living an active lifestyle. Include varied exercise types to help body recomposition.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid saturated fats to help lower cholesterol. Rhychol may also help.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Ensure you dedicate effort into recuperation/ recovery after strenuous activities such as the marathon you recently ran.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to keep BMI between 18.5- 24.9 & waist-to-height ratio below 50%. Add weight training to help you build muscle while burning body fat.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:52:12",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

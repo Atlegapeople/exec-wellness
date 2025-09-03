@@ -1,0 +1,93 @@
+{
+  "employee_id": "e05ce74c030f3553",
+  "employee_name": "Ookame Maruping",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-08",
+      "report_id": "ca247a94d65b6f24",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Ookame Maruping",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "To decrease your risk of a cardiovascular events aim for a BMI of <25 and maintain a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Normal special investigations.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Symptom screening is normal.",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a healthy diet and regular exercise to manage weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Quit smoking or seek help to quit if you are a smoker.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit alcohol consumption.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Manage stress through relaxation techniques, meditation, or counseling.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Get enough sleep and maintain a consistent sleep schedule.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "MensHealth",
+          "recommendation": "Regular prostate cancer screening is recommended starting at age 50 or earlier if you have a family history of the disease.",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "WomensHealth",
+          "recommendation": "Regular breast cancer screening is recommended starting at age 40 or earlier if you have a family history of the disease.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "No specific supplement recommendations were made.",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:36:31",
+  "total_reports": 1,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

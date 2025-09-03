@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:07
+Employee ID: 233a550cb0e9e57a
+Report ID: 34418416e5908e97
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Simon Mthembu
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace. No symptoms. Health advise given
+------------------------------
+Employee: Simon Mthembu
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace. No symptoms. Health advise given
+------------------------------
+Employee: Simon Mthembu
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace. No symptoms. Health advise given
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

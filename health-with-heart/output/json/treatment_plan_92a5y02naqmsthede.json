@@ -1,0 +1,132 @@
+{
+  "employee_id": "92a5y02naqmsthede",
+  "employee_name": "Phillip Spangenberg",
+  "treatment_timeline": [
+    {
+      "date": "2020-03-03",
+      "report_id": "96rlix2qzbbhbdryk",
+      "report_date": "2020-03-03",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Phillip Spangenberg",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Try meds I've given you and let me know if all is good. Please see Urologist regularly for check ups.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Need to reduce waist circumference - weight training!",
+          "status": "Planned",
+          "source_field": "Toe - need to xray and then consider referral to ortho."
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular screening of any skin lesions is recommended - ‘Mole Mapping’ can be done with a Dermatologist.",
+          "status": "Ongoing",
+          "source_field": "There were no current concerns on your examination."
+        }
+      ]
+    },
+    {
+      "date": "2022-01-13",
+      "report_id": "Not specified",
+      "report_date": "2022-01-13",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Philip Spangenberg",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular screening of any skin lesions is recommended - ‘Mole Mapping’ can be done with a Dermatologist.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A repeat of your kidney function with a urine Protein:creatinine is recommended in 3/12.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-23",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Phillip Spangenberg",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "I am glad to hear that you are following up with a Urologist (2 yearly).",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "hopefully with some habit adjustments (avoid fluids before bedtime) & continuing Betmiga this will improve.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular screening of any skin lesions is recommended - ‘Mole Mapping’ can be done with a Dermatologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-28",
+      "report_id": "2b05e2bbc11a1068",
+      "report_date": "Not specified",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Phillip Spangenberg",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Toe - need to xray and then consider referral to ortho. Looks like a ganglion from trauma.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Shoulder needs review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Need to reduce waist circumference - weight training!",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Specialists - shoulder (Breckon), toe (xray & general ortho), palm (dermatologist), prostate (urologist).",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:33:50",
+  "total_reports": 4,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof",
+      "Jessica Koen",
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

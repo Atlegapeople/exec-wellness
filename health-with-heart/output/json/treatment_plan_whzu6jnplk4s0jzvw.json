@@ -1,0 +1,57 @@
+{
+  "employee_id": "whzu6jnplk4s0jzvw",
+  "employee_name": "Ruth Boaka",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-14",
+      "report_id": "xd56punb7t8jt6ern",
+      "report_date": "2022-06-14",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ruth Boaka",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Mammogram request was given to you because some dense cystic changes found upon breast examination - please discuss the results with your GP",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Gastroenterology booking for screening Colonoscopy is due over the age of 50. Please make an appointment.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your Vit D was suboptimal. Please replace with 5000iu as prescribed and repeat levels in 3/12, aiming for levels of 50-80",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You are fair skinned and have a skin tag you want removed and some moles. Mole mapping at a dermatologist recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol was raised. You follow a Keto diet and we discussed limiting red meat and alcohol. Increasing fatty fish, supplement with Omega 3. Repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:22:07",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

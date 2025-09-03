@@ -1,0 +1,51 @@
+{
+  "employee_id": "ojudmhlx59zjxpldv",
+  "employee_name": "Titus Nampala",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-22",
+      "report_id": "ssob7sc9ibrv417vw",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Titus Nampala",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please repeat free testosterone levels and consult once done as we will review with results for possible Endocrinology referral",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "High blood pressure - 146/91, 140/100 repeated manually",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "lifestyle changes are important - mediteranean style diet, exercise more frequently. Repeat in 6/12 and if still raised to consider starting treatment.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Your Vit D was suboptimal - please supplement with Vit D 5000iu for 3 months and then repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:40:15",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

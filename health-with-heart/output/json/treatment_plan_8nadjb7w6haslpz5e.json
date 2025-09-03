@@ -1,0 +1,69 @@
+{
+  "employee_id": "8nadjb7w6haslpz5e",
+  "employee_name": "Nils Tania",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-30",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nils Tania",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Reduce the regular consumption of alcohol.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Reduce your diet coke intake and increase your intake of water.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Keep an eye on your pulse it should be regular.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Check your blood pressure regularly and keep it below 120/80.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "A review with your GP in 3/12 might be worthwhile.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Monitor your kidney function by repeating the eGFR test in 3/12.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Monitor your prostate health annually, review if any issues arise.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:31:31",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

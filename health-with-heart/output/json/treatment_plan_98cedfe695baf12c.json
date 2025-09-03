@@ -1,0 +1,63 @@
+{
+  "employee_id": "98cedfe695baf12c",
+  "employee_name": "Hazel Longwe",
+  "treatment_timeline": [
+    {
+      "date": "2024-11-04",
+      "report_id": "7ead48c95c304ddc",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Hazel Longwe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat bloods for FBC, Iron studies, Kidney function & HsCRP",
+          "status": "Planned",
+          "source_field": "Repeat bloods"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Mammograms after the age of 40",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritize health & well-being",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Manage expectations and seek psychological support",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to keep BMI between 18.5 - 24.9 & waist-to-height ratio below 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D aim for levels above 30ng/ml",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:36:41",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

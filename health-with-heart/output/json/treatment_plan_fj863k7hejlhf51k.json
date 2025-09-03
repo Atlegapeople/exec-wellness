@@ -1,0 +1,57 @@
+{
+  "employee_id": "fj863k7hejlhf51k",
+  "employee_name": "Liesha Chanderman",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-30",
+      "report_id": "12ceaaf626ab1ca7",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Liesha Chanderman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Raised diastolic blood pressure. Incorporate lifestyle changes and monitor your blood pressure in 3 months time.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Add the fasting insulin if you have managed some lifestyle changes.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor your liver function tests again.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram yearly.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:56:12",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

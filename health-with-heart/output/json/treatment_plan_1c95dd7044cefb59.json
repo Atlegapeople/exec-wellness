@@ -1,0 +1,33 @@
+{
+  "employee_id": "1c95dd7044cefb59",
+  "employee_name": "Jacob Ramaoka",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-02",
+      "report_id": "104f0a7b01cc1050",
+      "report_date": "2021-03-02",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Jacob Ramaoka",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH 7 and SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:07:01",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

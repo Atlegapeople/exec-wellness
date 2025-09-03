@@ -1,0 +1,66 @@
+{
+  "employee_id": "62ac5ce14183da90",
+  "employee_name": "Adeline Khutsana Mogale",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-18",
+      "report_id": "c8206b851decc7ac",
+      "report_date": "2021-03-18",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Adeline Khutsana Mogale",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Blood 1+ and Leucocytes trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-10-26",
+      "report_id": "a9358705c11c50a0",
+      "report_date": "2021-10-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Adeline Khutsana Mogale",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Blood 2+, client currently on her period.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-22",
+      "report_id": "bcfcf0b288cd0a73",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Adeline Khutsana Mogale",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "pH 6, Protein 1+, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:58:44",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ntombikayise Seane"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "8d5c07688add5771",
+  "employee_name": "Themba Ntuli",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-24",
+      "report_id": "d02c73387a55d099",
+      "report_date": "2023-04-24",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Themba Ntuli",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Special Investigation Notes: Glucose 2+ in urine",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:28:55",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

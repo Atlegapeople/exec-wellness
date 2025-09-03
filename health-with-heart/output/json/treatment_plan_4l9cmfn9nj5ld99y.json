@@ -1,0 +1,45 @@
+{
+  "employee_id": "4l9cmfn9nj5ld99y",
+  "employee_name": "Nobuhle Ngcobo",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-26",
+      "report_id": "a6156c9dd2d9277f",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Nobuhle Ngcobo",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "vitamin c",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:44:12",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "employee_id": "ed5a9731131d0137",
+  "employee_name": "Tracey Clare Rossini",
+  "treatment_timeline": [
+    {
+      "date": "2020-11-10",
+      "report_id": "8ypp9x2nfu9es4nnt",
+      "report_date": "2020-11-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tracey Clare Rossini",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Good body composition",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Excellent fasting glucose and fasting insulin levels",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Non smoker",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Regular exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram - you are aware of this and you know your next one needs to be in November 2022",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal Audiology Screen: Left ear - mild 'notch' at 4000Hz. A full assessment is recommended to determine the nature of the hearing loss.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Uric Acid: be conscious of red meat and alcohol intake",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D: your level is not very low but a level of 50 to 80 ng/ml is optimal. Supplement with vitamin D3 5000 iu daily and recheck level in 3 months. Once in optimal range reduce supplementation to 2000 iu daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Homocysteine levels: supplement with B12, B2, B6 and folate to reduce levels ( a good multivitamin such as Phytomulti from Metagenics will cover these or homocysteine lowering formula from Solal)",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Slightly raised cholesterol and age over 45",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Slightly raised uric acid",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-13",
+      "report_id": "6de8b2348845bc03",
+      "report_date": "2022-07-13",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tracey Clare Rossini",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram - you are aware of this and you know your next one needs to be in November 2022",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Supplement with Omega 3, niacin and Glucochol-22 for the cholesterol and review the reading in the next 6 months",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Phytomulti , Vitamin D , Omega 3",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:43:31",
+  "total_reports": 2,
+  "total_actions": 14,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

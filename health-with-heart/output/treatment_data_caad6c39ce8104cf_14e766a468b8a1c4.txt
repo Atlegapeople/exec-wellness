@@ -1,0 +1,42 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:05
+Employee ID: caad6c39ce8104cf
+Report ID: 14e766a468b8a1c4
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Thulile Tshabalala
+Report Date: 2022-11-21
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Urobilinogen 4+
+protein trace
+ph 5
+SG 1,025
+------------------------------
+Employee: Thulile Tshabalala
+Report Date: 2022-11-21
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Urobilinogen 4+
+protein trace
+ph 5
+SG 1,025
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

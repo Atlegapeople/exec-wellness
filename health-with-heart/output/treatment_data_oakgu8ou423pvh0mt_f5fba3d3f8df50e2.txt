@@ -1,0 +1,40 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:10
+Employee ID: oakgu8ou423pvh0mt
+Report ID: f5fba3d3f8df50e2
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Henk De Hoop
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Avodart (for hair loss)
+Special Investigation Notes: None
+------------------------------
+Employee: Henk De Hoop
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: You currently seem to be in good health. I would encourage you to continue with your healthy diet and regular exercise. Your good attitude towards life and stress will greatly contribute to keeping you healthy! The only minor area of concern noted in your medical is a marginally raised cholesterol level, which does not warrant medication currently. Continue with your good lifestyle and diet and monitor the levels.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-02-25 - 2020-02-25
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

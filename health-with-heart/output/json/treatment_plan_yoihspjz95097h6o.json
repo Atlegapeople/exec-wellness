@@ -1,0 +1,90 @@
+{
+  "employee_id": "yoihspjz95097h6o",
+  "employee_name": "Ivy Maluleke",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "865cdbd264dc74e0",
+      "report_date": "2022-08-31",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Ivy Maluleke",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ARV (Antiretroviral therapy)",
+          "status": "Planned",
+          "source_field": "Comment Key: ChronicMedicationList"
+        }
+      ]
+    },
+    {
+      "date": "2022-11-22",
+      "report_id": "294294564c1b2ef4",
+      "report_date": "2022-11-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Ivy Maluleke",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Leuk 2+, Blood 3+, Prot trace, pH 6, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-20",
+      "report_id": "0c5a6c2c88354f8e",
+      "report_date": "2023-10-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Ivy Maluleke",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Advised on citro-soda ,cranberry juice and lots of water",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "lots of water",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "citro-soda",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "cranberry juice",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "TCB 30/10/23 for repeat urine",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:29:27",
+  "total_reports": 3,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane",
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "employee_id": "g3f8hyv3cl5tgleb",
+  "employee_name": "Casandra Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "6c61fbd20b0d7ccc",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Casandra Naidoo",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

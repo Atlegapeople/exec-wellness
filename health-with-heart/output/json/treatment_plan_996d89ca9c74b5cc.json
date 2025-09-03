@@ -1,0 +1,33 @@
+{
+  "employee_id": "996d89ca9c74b5cc",
+  "employee_name": "Rumbi Sithole",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-01",
+      "report_id": "1d36241ee3db7fe6",
+      "report_date": "2024-05-01",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Rumbi Sithole",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "On intermittent fasting",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:36:54",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

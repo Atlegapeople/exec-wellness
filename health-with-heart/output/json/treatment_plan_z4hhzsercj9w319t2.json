@@ -1,0 +1,63 @@
+{
+  "employee_id": "z4hhzsercj9w319t2",
+  "employee_name": "Werner Joubert or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-03",
+      "report_id": "0zngoleyc0jlf8hb9",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Werner Joubert or Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat fasting glucose and HBA1C level. If it remains high we will need to investigate further",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Supplementing with active b vitamins such as phytomulti, homocysteine lowering formula or methylcare will help to bring your homocysteine down to a more optimal level",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A full hearing test is recommended to determine further management",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your cholesterol is slightly raised. Please start exercising and improve your lifestyle factors and then monitor your cholesterol yearly",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Repeat fasting glucose and HBA1C level. If it remains high we will need to investigate further",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor your cholesterol yearly",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:31:24",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

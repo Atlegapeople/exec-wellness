@@ -1,0 +1,41 @@
+{
+  "employee_id": "yaxoruj81hsznvet",
+  "employee_name": "Mohammed Khan",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "71b50de2e5bc3a36",
+      "report_date": "Not specified",
+      "doctor": "Not specified",
+      "nurse": "Not specified",
+      "employee_name": "Mohammed Khan",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "SlowMag",
+          "status": "Ongoing",
+          "source_field": "Comment Key: VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:27:38",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [],
+    "nurses": []
+  }
+}

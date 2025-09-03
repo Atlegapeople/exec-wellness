@@ -1,0 +1,63 @@
+{
+  "employee_id": "717311f2ade26373",
+  "employee_name": "Mantsho Msibi",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-08",
+      "report_id": "e8df6920bf276e64",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mantsho Msibi",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately and improve your diet by eating 5 fresh fruit & veg daily, eat more fish. Avoid sugary & fatty foods. Aim to bring down your weight and waist circumference. This will decrease the risk of hypertension, diabetes, stokes and help to bring down the cholesterol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your BMI and your waist to height ratio is high and this increases the risk of lifestyle diseases like hypertension and diabetes. Aim for a waist to height ratio of less than 50 and a BMI less than 50 to decrease your risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please repeat the lung function test & hsCRP. Repeat cholesterol in 3 months time.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Speak to your GP/ICAS/psychologist for the anxiety you have been feeling.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "-Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Calming tea",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:09:27",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

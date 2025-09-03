@@ -1,0 +1,51 @@
+{
+  "employee_id": "580c2ece0e349edb",
+  "employee_name": "Lebohang Boshoff",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "a9973506fd59eb21",
+      "report_date": "2023-05-11",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lebohang Boshoff",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Tinea corporis and tinea capitis noted - antifungal prescribed.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay some attention to stress management, rest relaxation and self care.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please monitor your blood pressure as it was slightly high. If it remains elevated then we need to discuss treatment.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Vitamin B co , Magnesium , Zinc",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:50:38",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

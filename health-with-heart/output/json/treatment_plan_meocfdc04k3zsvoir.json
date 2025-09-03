@@ -1,0 +1,26 @@
+{
+  "employee_id": "meocfdc04k3zsvoir",
+  "employee_name": "Mathelane Mabotja",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-23",
+      "report_id": "vfyg7giy139a26p0i",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mathelane Mabotja",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 15:30:36",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

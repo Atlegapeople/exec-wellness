@@ -1,0 +1,51 @@
+{
+  "employee_id": "cvjiwjich9uca0jv",
+  "employee_name": "Lynette Brink",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-13",
+      "report_id": "06f7df84c637c543",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lynette Brink",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "For abnormal periods- check for hormone imbalance, high stress, nutrient deficiency or even lack of sleep. Try a combination of a calcium supplement plus vitamin D.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a general practitioner or a gynaecologist",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a Radiologist",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:24:46",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "TvverXv2gg7vy76N",
+  "employee_name": "Bridgete Buyiwe Rametse",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "MJYWT8yAwNhgUB7L",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Bridgete Buyiwe Rametse",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a General practitioner for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Your fitness level is poor & body fat % is high. Add strength training to your exercise routine. This will aid fat loss & muscle building.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-You are well suited for coordination & skill exercise types.",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "-BMI at 37.3 & waist-to-height ratio at 60 are high. This increases the risk of conditions such as hypertension & diabetes. Lower body weight, aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Avoid substances that are irritating to your skin. If your finger continues to feel hot & sore please see your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:09:46",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

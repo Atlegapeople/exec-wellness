@@ -1,0 +1,63 @@
+{
+  "employee_id": "gn78j0d4p1ub1gy6",
+  "employee_name": "Batsile Ngomane",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-04",
+      "report_id": "996a839f0728e3de",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Batsile Ngomane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Physiotherapy assessment is recommended.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase fiber and water intake, limit caffeine/alcohol for constipation. Magnesium citrate supplements may help.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue taking care of your mental health as persistent stress can have a negative long-term effect.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "As previously mentioned, your physical health will benefit from lifestyle adjustments eg. becoming more active and adjusting your diet.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "A Dermatologist or GP can assist with acne management.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please continue seeing your Optometrist regularly.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:58:50",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

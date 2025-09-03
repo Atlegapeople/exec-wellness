@@ -1,0 +1,51 @@
+{
+  "employee_id": "QM4k6aCV7AVgXCUq",
+  "employee_name": "Willicia Reed",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "X3vn3vFWbQuCaTz3",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Willicia Reed",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Treated for UTI.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "The ideal diet contains plant-based foods, non-starchy vegetables, low-sugar fruits-berries& avocado,legumes, nuts& seeds, high-quality protein like wild-caught seafood, grass-fed beef.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements , multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:52:33",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

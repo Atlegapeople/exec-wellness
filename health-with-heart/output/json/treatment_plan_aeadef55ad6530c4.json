@@ -1,0 +1,45 @@
+{
+  "employee_id": "aeadef55ad6530c4",
+  "employee_name": "Vijaya Naidu",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-10",
+      "report_id": "4ab912e77d6b5cdf",
+      "report_date": "Not specified",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Vijaya Naidu",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "By following a calorie deficit diet or intermittent fasting, you can help reduce your overall body fat levels and thus, lower your BMI level. Even small changes can add up over the long run, as long as you're consistent.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Check BP regularly and take medication as prescribed.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:55:05",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

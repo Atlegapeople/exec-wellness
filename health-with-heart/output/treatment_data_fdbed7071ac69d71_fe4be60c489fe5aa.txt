@@ -1,0 +1,64 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:06
+Employee ID: fdbed7071ac69d71
+Report ID: fe4be60c489fe5aa
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ryan Hill
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PH: 6
+- PROTEIN: TRACE
+------------------------------
+Employee: Ryan Hill
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PH: 6
+- PROTEIN: TRACE
+------------------------------
+Employee: Ryan Hill
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PH: 6
+- PROTEIN: TRACE
+------------------------------
+Employee: Ryan Hill
+Report Date: 2024-03-11
+Doctor: Alex Stuart
+Nurse: Masha Tisetso
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: - PH: 6
+- PROTEIN: TRACE
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

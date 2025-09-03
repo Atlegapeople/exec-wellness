@@ -1,0 +1,45 @@
+{
+  "employee_id": "ae96802c68d2770b",
+  "employee_name": "Sandiswa Magama",
+  "treatment_timeline": [
+    {
+      "date": "2024-01-29",
+      "report_id": "944bfe0132b2d405",
+      "report_date": "2024-01-29",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sandiswa Magama",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Regular self breast examinations are recommended. If you detect any irregularities to consult your GP for further investigation.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Overall you have a good baseline with no current concerns. There were a few areas that we identified for optimisation - diet and exercise being two of them. Making these lifestyle changes can be hard but so worth it in the long run!",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:54:57",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

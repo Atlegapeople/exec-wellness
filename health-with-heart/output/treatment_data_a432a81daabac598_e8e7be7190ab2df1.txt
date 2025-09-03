@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:07
+Employee ID: a432a81daabac598
+Report ID: e8e7be7190ab2df1
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Tshidiso Maila
+Report Date: 2023-07-05
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein: trace, SG: 1,025, pH: 6
+------------------------------
+Employee: Tshidiso Maila
+Report Date: 2023-07-05
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein: trace, SG: 1,025, pH: 6
+------------------------------
+Employee: Tshidiso Maila
+Report Date: 2023-07-05
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein: trace, SG: 1,025, pH: 6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

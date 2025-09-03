@@ -1,0 +1,57 @@
+{
+  "employee_id": "96ifierluhhves07f",
+  "employee_name": "Johan du Toit",
+  "treatment_timeline": [
+    {
+      "date": "2020-08-18",
+      "report_id": "0uyr7xuwumv0bbkny",
+      "report_date": "2020-08-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Johan du Toit",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Left ear - mild to moderate/severe sloping high frequency hearing loss. Right ear - mild hearing loss at 8kHz. A full audiogram is recommended ASAP to determine the type and nature of the hearing loss.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Monitor your cholesterol levels annually. Your levels are slightly high but try to manage with lifestyle only.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take omega 3 supplements 2g daily and reduce the carbohydrates and sugar in your diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Continue with your vitamin D3 supplement",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please follow up with the practice or your GP to monitor and manage hyperthyroidism.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:35:55",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

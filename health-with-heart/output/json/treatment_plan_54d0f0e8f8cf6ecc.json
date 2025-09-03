@@ -1,0 +1,79 @@
+{
+  "employee_id": "54d0f0e8f8cf6ecc",
+  "employee_name": "Nyiko Desmond Maluleke",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-25",
+      "report_id": "4d0fdfb788af6e0f",
+      "report_date": "2022-04-25",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Nyiko Desmond Maluleke",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "Refer to Dr.Carla Marais for further management",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-11",
+      "report_id": "132c3ad21daf5bed",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Nyiko Desmond Maluleke",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Patient had 3 cups of coffee with 4 teaspoons of sugar",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "report_id": "3c722e19ff214c88",
+      "report_date": "2024-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Keamogetse Selabe",
+      "employee_name": "Nyiko Desmond Maluleke",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "PROTEIN- TRACE",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "GLUCOSE - 3+",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "S.G- 1.025",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:48:24",
+  "total_reports": 3,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Keamogetse Selabe",
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

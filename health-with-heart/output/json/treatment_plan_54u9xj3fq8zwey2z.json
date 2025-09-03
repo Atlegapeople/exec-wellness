@@ -1,0 +1,57 @@
+{
+  "employee_id": "54u9xj3fq8zwey2z",
+  "employee_name": "Sandisiwe Linyana",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "39d18adbacfe084d",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sandisiwe Linyana",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ECG: Sinus arrhythmia, mild electrical alternans- please have this test repeated with your family doctor.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Skin tags and throat cyst, referred to family doctor for further work up.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Annual pap smear recommended",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a whole food, anti-inflammatory diet, Check for hidden infections and allergies, address any gut issues, exercise regularly, practice deep relaxation, sleep for 8 hours every night",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:48:40",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

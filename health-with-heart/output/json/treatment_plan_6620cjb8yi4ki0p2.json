@@ -1,0 +1,26 @@
+{
+  "employee_id": "6620cjb8yi4ki0p2",
+  "employee_name": "Elisna Potgieter",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "06b922903655d334",
+      "report_date": "2022-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Elisna Potgieter",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

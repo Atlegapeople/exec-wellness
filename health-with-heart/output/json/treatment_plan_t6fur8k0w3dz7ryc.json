@@ -1,0 +1,45 @@
+{
+  "employee_id": "t6fur8k0w3dz7ryc",
+  "employee_name": "Ben Bechet",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-13",
+      "report_id": "05acf27964b12502",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ben Bechet",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Small abscess on scalp - try topical antibiotic ointment. If not clearing take oral antibiotics and it may require drainage.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin C , Vitamin B co",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:07:19",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

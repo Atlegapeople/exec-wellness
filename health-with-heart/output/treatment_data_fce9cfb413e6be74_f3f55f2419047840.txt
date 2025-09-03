@@ -1,0 +1,38 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:56
+Employee ID: fce9cfb413e6be74
+Report ID: f3f55f2419047840
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Hasani Maswanganyi
+Report Date: 2022-06-20
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 2+, pH 5, SG 1.010
+-TCB on Monday for BP review and urine dipsticks.
+------------------------------
+Employee: Hasani Maswanganyi
+Report Date: 2022-06-20
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Glucose 2+, pH 5, SG 1.010
+-TCB on Monday for BP review and urine dipsticks.
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

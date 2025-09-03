@@ -1,0 +1,57 @@
+{
+  "employee_id": "ae934b398987f847",
+  "employee_name": "Anael Granoux",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-16",
+      "report_id": "bd460a33dc1ab3c5",
+      "report_date": "2023-05-16",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Anael Granoux",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "See a cardiologist for review due to first degree heart block with bradycardia.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat renal function test when well hydrated.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit saturated and trans fats. Choose complex carbohydrates & fibre.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Add resistance training to current routine. Start at a low intensity and increase gradually.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Pay attention to any persistent changes in urinary & respiratory systems.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:54:49",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

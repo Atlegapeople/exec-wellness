@@ -1,0 +1,57 @@
+{
+  "employee_id": "ypid4w7872k32j7s",
+  "employee_name": "Vedanti Applesamy",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-30",
+      "report_id": "04b7bbd557821e8f",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Vedanti Applesamy",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Cervical rib so gets pain in left shoulder in certain positions",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No specific recommendations found",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Up to date with screening tests",
+          "status": "Completed",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a healthy lifestyle and keep up with annual check-ups to avoid developing diabetes",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Kiko Hormone Balance Supplement , Vitamin D , Centrum",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:29:53",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

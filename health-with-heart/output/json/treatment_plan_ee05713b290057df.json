@@ -1,0 +1,33 @@
+{
+  "employee_id": "ee05713b290057df",
+  "employee_name": "Zakhele Thungo",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-05",
+      "report_id": "afa8844253b73d21",
+      "report_date": "2023-07-05",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Zakhele Thungo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Protein trace, Leuk trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:43:51",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

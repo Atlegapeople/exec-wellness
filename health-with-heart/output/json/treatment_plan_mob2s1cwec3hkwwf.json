@@ -1,0 +1,51 @@
+{
+  "employee_id": "mob2s1cwec3hkwwf",
+  "employee_name": "Anuroop Nair",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-19",
+      "report_id": "d0620ae080332f87",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Anuroop Nair",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a normal waist circumference to keep your cardiovascular risk low.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin C , Vitamin B12/BCo",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:32:19",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

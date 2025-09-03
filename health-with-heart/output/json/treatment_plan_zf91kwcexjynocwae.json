@@ -1,0 +1,81 @@
+{
+  "employee_id": "zf91kwcexjynocwae",
+  "employee_name": "Roberta Appolis",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-21",
+      "report_id": "qr89s8lyyr8jf65lr",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Roberta Appolis",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "BMI is in the Obesity range, aim for BMI of 25. I believe you can achieve this. Physical activity will help with anxiety, loosing weight, increasing your tissue sensitivity to insulin.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol raised",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Raised fasting insulin",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric Acid raised",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Slightly raised cholesterol - Exercise, Mediterranean style diet, add an Omega 3- 2g supplement, decrease alcohol intake. Repeat in 6months",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric Acid: reduce red meat and keep alcohol intake low",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol, Waist Circumference, smoking , exercise, diet, BMI",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:32:14",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

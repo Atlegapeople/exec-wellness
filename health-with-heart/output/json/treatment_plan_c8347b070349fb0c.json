@@ -1,0 +1,45 @@
+{
+  "employee_id": "c8347b070349fb0c",
+  "employee_name": "PABALLO NEER",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "5bf81f7f6c1bedea",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "PABALLO NEER",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and visit a doctor if you ever experience any urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a good waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Follow up with the physio for an assessment of your joint pain. If this does not get better then a GP can review for more investigations.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:18:13",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

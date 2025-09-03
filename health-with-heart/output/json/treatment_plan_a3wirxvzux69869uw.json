@@ -1,0 +1,80 @@
+{
+  "employee_id": "a3wirxvzux69869uw",
+  "employee_name": "Sibusiso Tashe",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-11",
+      "report_id": "q9cxce1in7t4cwut9",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sibusiso Tashe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Cholesterol raised",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Raised fasting insulin",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Liver enzymes: Please stop alcohol use and repeat a full liver function test in 1 months time. If still raised - to consider doing an abdominal sonar.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take omega 3 supplements 2g daily, increase exercise, eat a mediterranean style diet - low in carbs, decrease stress, alcohol and lose some abdominal fat.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Uric acid: decrease red meat intake and alcohol intake.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-27",
+      "report_id": "a79f9ab0efd2340e",
+      "report_date": "2025-02-27",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sibusiso Tashe",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:47:52",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

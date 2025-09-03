@@ -1,0 +1,508 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:49:07
+Employee ID: 2i2v30vo5jieuxhw
+Report ID: 792960c0356cc6ba
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: Hearing loss detected
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ClinicalExamRecommendation
+Comment Value: Hearing loss detected
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LabTestRecommendation
+Comment Value: Uric Acid: reduce red meat and keep alcohol intake low. Vitamin D: Reduce dose and repeat blood test in 8 weeks. Cholesterol: Optimised diet and exercise to reduce this, also take omega 3 supplements 2g daily and coQ10 supplement. Repeat bloods after 3 months.
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: LifestyleRecommendation
+Comment Value: Making an excellent effort to maintain a healthy lifestyle
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Cancer has preventable (smoking, alchohol, weight) and non-preventable (genes, age, gender, race) risk factors, well done on doing your best to reduce your risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Emotional balance is a state of being aware of our emotions enough to manage them in a way that is gentle, honest, and wise. Self-care is an important part of managing stress. Continue prioritising this.
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Annual bone density scan recommended from age 50 years.
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Loss of taste and smell since having had COVID 19
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitalsRecommendation
+Comment Value: Waist-height ratio is slightly elevated.Increased abdominal circumference is not limited to fat under the skin (subcutaneous fat) but also fat around the organs of your abdomen,it's linked with Type 2 diabetes, high blood pressure and breathing problems.Try reduce waist circumference.
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: VitaminsOrSupplements
+Comment Value: Supplements
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: WomensHealthNote
+Comment Value: Visit a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Francesca Magni
+Report Date: 2022-08-31
+Doctor: Sarah Mujinga
+Nurse: Lebo Cindi
+Clinical Recommendations: Hearing loss detected
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a Radiologist for a mammogram
+Overview Notes: Fran, thank you for coming for the medical, I hope you found it helpful. You are generally in good health, well done on the efforts made so far, hope these few recommendations will help you optimise your health.
+Comment Key: WomensHealthRecommendation
+Comment Value: Visit a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-01-25 - 2023-01-25
+Time: 01:30:00 - 03:30:00
+Notes: 
+Status: Completed
+------------------------------

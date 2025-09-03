@@ -1,0 +1,121 @@
+{
+  "employee_id": "588e929ac5906c85",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-28",
+      "report_id": "c381d43656a969f7",
+      "report_date": "2022-10-28",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "There are no major red flags that need to be addressed immediately, rather refine your everyday lifestyle choices for improved future health. These adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium, Vitamin D, Omega-3 fatty acids, and Probiotics are recommended.",
+          "status": "Planned",
+          "source_field": "Lifestyle"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "report_id": "7e85cbc8c15106d9",
+      "report_date": "2025-06-02",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Takunda Pongweni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue annual health screening, pay attention to the conditions that have occurred in your family. -Monitor cholesterol & kidney function closely. -Employ lifestyle habits that benefit your present & future health.",
+          "status": "Ongoing",
+          "source_field": "MedicalHistoryRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , omega",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "report_id": "0cc6d216f2798d34",
+      "report_date": "2025-06-05",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Takunda Pongweni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Monitor uric acid levels & liver enzymes. Supplement Vitamin D to improve your levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue keeping active & eating a varied diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:51:42",
+  "total_reports": 3,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

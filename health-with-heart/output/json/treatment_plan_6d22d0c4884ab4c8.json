@@ -1,0 +1,26 @@
+{
+  "employee_id": "6d22d0c4884ab4c8",
+  "employee_name": "Emily Mahlase",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "66b97b1f6dc72a45",
+      "report_date": "2022-09-19",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Emily Mahlase",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

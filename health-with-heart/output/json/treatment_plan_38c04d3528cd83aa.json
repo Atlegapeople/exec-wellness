@@ -1,0 +1,33 @@
+{
+  "employee_id": "38c04d3528cd83aa",
+  "employee_name": "Senzokuhle Zwane",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-09",
+      "report_id": "9bd0ee218f6416a2",
+      "report_date": "2024-05-09",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Senzokuhle Zwane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Protein trace, pH6",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:27:07",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

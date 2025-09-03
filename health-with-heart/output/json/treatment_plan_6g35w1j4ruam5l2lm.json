@@ -1,0 +1,63 @@
+{
+  "employee_id": "6g35w1j4ruam5l2lm",
+  "employee_name": "Gillian Zeeman",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-11",
+      "report_id": "vasgvxd6up27sgdja",
+      "report_date": "2022-01-11",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gillian Zeeman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A GP Consultation is required: PAPsmear needs to be done, your BP needs to be reviewed as it was raised on more than one reading. I prescribed you Daktarin gel for the oral candida and sweet oil for the impacted wax - please review that with your GP if resolved.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Gastroenterology referral for a Colonoscopy - You are turning 50 years old this year and you are also struggling with abdominal distention and constipation. A Colonoscopy is definitely indicated. Please book one as soon as you return.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Soft tissue sonar - you have a soft tissue lump on your left ankle that has been enlarging over the last year. It requires a soft tissue sonar of the area to determine what it is.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your Cholesterol levels are quite raised. You have been adjusting your diet for the last 3 months and practicing intermittent fasting and limit sugar in your diet. Exercise can assist, Omega 3 supplementation as well as Flax seed powder.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Dermatology assessment - You have a small irregular mole on your right palm that needs to be reviewed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Full audiology assessment as hearing loss in both ears.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:06:44",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

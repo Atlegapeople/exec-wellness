@@ -1,0 +1,75 @@
+{
+  "employee_id": "bf4ed9965cab139b",
+  "employee_name": "Puseletso Mogapi",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-27",
+      "report_id": "b6851ad130d27a52",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Puseletso Mogapi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "There is mild low frequency hearing loss in both ears. A full audiogram is recommended in order to investigate this finding.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a general practitioner or a gynaecologists for a Pap smear and a radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Limit saturated fats. Continue eating varied free fruit & veggies daily. Keep sugar & alcohol intake low.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "-Repeat cholesterol levels in 3 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-A repeat lung function test is recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "BMI at 25,2 is slightly high. This increases the risk of illnesses such as diabetes & hypertension. Lower your weight, aim for a BMI between 18.5-24.9.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:08:34",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

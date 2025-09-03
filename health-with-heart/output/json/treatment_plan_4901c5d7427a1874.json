@@ -1,0 +1,33 @@
+{
+  "employee_id": "4901c5d7427a1874",
+  "employee_name": "Maxwell Mazibuko",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-20",
+      "report_id": "4acbc326dc0e4ae8",
+      "report_date": "2022-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Maxwell Mazibuko",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "pH 5, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:39:53",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

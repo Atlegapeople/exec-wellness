@@ -1,0 +1,33 @@
+{
+  "employee_id": "5e1bbb55cc239351",
+  "employee_name": "Ramon Brander",
+  "treatment_timeline": [
+    {
+      "date": "2024-04-26",
+      "report_id": "a041e714c6703eb9",
+      "report_date": "2024-04-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Ramon Brander",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Trace protein on urine",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:53:57",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

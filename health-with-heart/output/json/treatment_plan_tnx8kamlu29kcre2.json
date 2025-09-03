@@ -1,0 +1,81 @@
+{
+  "employee_id": "tnx8kamlu29kcre2",
+  "employee_name": "Thabo Lukhaimane",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-10",
+      "report_id": "Not specified",
+      "report_date": "2022-08-31",
+      "doctor": "Cindy Smit",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Thabo Lukhaimane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "There is a soft murmur audible over the heart, which is possibly due to a small congenital abnormality (present from birth). A referral for further evaluation and management is recommended.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your vital signs, BMI and Waist To Height Ratio is normal.  Keep it up!",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "A referral for further evaluation and management is recommended.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Ongoing monitoring of your vital signs, BMI and Waist To Height Ratio.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A referral for further evaluation and management is recommended.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "A follow-up appointment on 2023-03-10.",
+          "status": "Planned",
+          "source_field": "Appointments"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Physical examination, blood tests and other necessary screenings are recommended as part of the ongoing monitoring.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendations for women's health were found.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "No supplements or vitamins were recommended.",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:09:05",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

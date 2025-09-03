@@ -1,0 +1,39 @@
+{
+  "employee_id": "sWwys4pAVtCw9iZQ",
+  "employee_name": "Alice Khumalo",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-06",
+      "report_id": "6KLd7Sujkn77giZh",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alice Khumalo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your hearing is within normal limits but a review is recommended in 6 months as a slight reduction in hearing was detected at a high frequency in your left ear.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear annually.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:05:43",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "employee_id": "nk3k3dvvm4vwbhnt",
+  "employee_name": "Thendo Mulaudzi",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-15",
+      "report_id": "c28df0fe2d9cec02",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Thendo Mulaudzi",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "-From the age of 40, prostate screening becomes important. Look out for signs of prostate disease such as straining to pass urine, dribbling after urinating or more night wakings to urinate.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-15",
+      "report_id": "2598da144215d7e9",
+      "report_date": "2024-11-15",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thendo Mulaudzi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical exam on the day of consultation. Please report on any new changes in your health in the coming months.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-From the age of 40, prostate screening becomes important. Look out for signs of prostate disease such as straining to pass urine, dribbling after urinating or more night wakings to urinate.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-You have good lifestyle habits in place. Maintain them & gradually work at improving them.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "-Not specified-",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Not specified-",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:36:41",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

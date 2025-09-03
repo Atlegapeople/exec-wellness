@@ -1,0 +1,33 @@
+{
+  "employee_id": "1fa177d4485a6fd9",
+  "employee_name": "Fuad Abdulla",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-29",
+      "report_id": "33ba67f119885e7e",
+      "report_date": "2022-04-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Fuad Abdulla",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:08:56",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

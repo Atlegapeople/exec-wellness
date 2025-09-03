@@ -1,0 +1,74 @@
+{
+  "employee_id": "78f30035cf49e395",
+  "employee_name": "Funeka Gambu",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-28",
+      "report_id": "6629ac6e16f8bf75",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Funeka Gambu",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "organic",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "Not specified",
+      "report_id": "662d13768c2f7afe",
+      "report_date": "2023-11-09",
+      "doctor": "Not specified",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Funeka Gambu",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "It's important for you to keep up with annual checks due to family history of metabolic disease",
+          "status": "Ongoing",
+          "source_field": "Comment Key: MedicalHistoryRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:13:46",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

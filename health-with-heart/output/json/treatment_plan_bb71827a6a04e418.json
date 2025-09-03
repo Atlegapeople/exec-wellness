@@ -1,0 +1,51 @@
+{
+  "employee_id": "bb71827a6a04e418",
+  "employee_name": "John Hunter Cairns",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-28",
+      "report_id": "0c0da7eab700f610",
+      "report_date": "2022-10-28",
+      "doctor": "Carla Marais",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "John Hunter Cairns",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Right ear - impacted hard wax. Cerumol prescribed",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please decrease your alcohol use, limit red meat use",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "BP review in 6 months time",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:04:30",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

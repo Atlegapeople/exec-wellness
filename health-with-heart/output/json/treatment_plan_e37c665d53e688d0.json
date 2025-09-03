@@ -1,0 +1,63 @@
+{
+  "employee_id": "e37c665d53e688d0",
+  "employee_name": "Talha Masood",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-17",
+      "report_id": "9b784d3628e91d3b",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Talha Masood",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Cardiology review is recommend given your ECG results.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Prostate screening becomes important for men after the age of 45.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI at 25.1 is raised. This increases the risk of conditions such as diabetes & hypertension.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "In addition to a heart health diet, supplements like Rhychol may help you lower cholesterol & lower inflammation.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:38:12",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

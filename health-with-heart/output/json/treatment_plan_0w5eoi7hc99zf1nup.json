@@ -1,0 +1,62 @@
+{
+  "employee_id": "0w5eoi7hc99zf1nup",
+  "employee_name": "Rylene Riches",
+  "treatment_timeline": [
+    {
+      "date": "2020-10-27",
+      "report_id": "a8jbvobuquugezygg",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rylene Riches",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement with vitamin D3 5000 iu daily for 4 months then recheck your level aiming for a level of 50 to 80 ng/ml. Once you are in this range you can decrease your supplement to 1000 to 2000 iu daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your BMI and waist circumference are both significantly high. Weight around the abdomen is associated with an increased risk of chronic disease such as heart disease, type 2 diabetes and certain cancers. You want to aim for a waist circumference of 80cms or less. Continue with the dietary changes that you have made and try to start exercising.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A hsCRP level above 3 indicates high levels of inflammation and puts you into a high risk category for heart disease. Focus on eating an anti-inflammatory mediterranean style diet, losing weight around your abdomen, gentle exercise and stress management.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-31",
+      "report_id": "cbf1180b6ac3b0f9",
+      "report_date": "Report date from the data or 'Not specified'",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rylene Riches",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:03:10",
+  "total_reports": 2,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

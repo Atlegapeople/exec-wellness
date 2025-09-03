@@ -1,0 +1,4444 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:17
+Employee ID: ym0mdlkkx91oudyo3
+Report ID: x3y5skks7bcjxuk9e
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ChronicMedicationList
+Comment Value: Insulin
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamNote
+Comment Value: Increased waist circumference 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: LabTestNote
+Comment Value: Raised HsCRP, fasting glucose, uric acid and low vitamin D levels 
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MedicalHistoryNote
+Comment Value: Althea, it was a pleasure meeting you, felt like we could have continued talking for hours if time didn't limit us. As a working mom you have carried the world of your shoulders and certainly deserve the retirement that is coming up soon. Carry on seeking out good health and you will surely reap the rewards.
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: SpecialInvestigationNote
+Comment Value: poor VO2 Max
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsNote
+Comment Value: Raise Waist to height ratio and BMI
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Discuss Diabetes medication with your treating doctor to optimise levels. Regular exercise, improving diet, losing weight can also reduce your sugar levels.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal Vit D levels - supplement with vit D 1000iu dly x 3/12 and repeat levels
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated fasting glucose and uric acid level
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Low alcohol consumption, non smoker, normal cholesterol 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Elevated good cholesterol and low bad cholesterol
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Ideally HsCRP should be less than 1; increased uric acid levels 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+Employee: Althea  Davids
+Report Date: 2022-03-24
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver enzymes are only slightly elevated, repeating this blood test with your treating doctor will help determine if they were only transiently elevated or persistently so. 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: poor VO2 Max
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-03-29 - 2022-03-29
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,26 @@
+{
+  "employee_id": "5627lv67tx1gfes8",
+  "employee_name": "Danielle Frank",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "28683132994718c7",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Danielle Frank",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

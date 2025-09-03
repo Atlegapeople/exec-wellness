@@ -1,0 +1,45 @@
+{
+  "employee_id": "izw4woq0z8bt3lsm",
+  "employee_name": "Celeste Fauconnier",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-06",
+      "report_id": "bf0d45801c193f85",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Celeste Fauconnier",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue to eat healthily and get some gentle exercise throughout your pregnancy.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Be mindful of stress and anxiety and ensure adequate rest and relaxation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Zinc",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:12:45",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

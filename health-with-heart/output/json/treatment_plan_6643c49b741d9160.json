@@ -1,0 +1,45 @@
+{
+  "employee_id": "6643c49b741d9160",
+  "employee_name": "Samantha Olaogun",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "2e0defaf5efe3168",
+      "report_date": "2023-05-11",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Samantha Olaogun",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on losing cm around your waist rather than a number on the scale. Implement lifestyle changes and review your blood pressure in 1-3 months.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , Omega 3",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:01:19",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

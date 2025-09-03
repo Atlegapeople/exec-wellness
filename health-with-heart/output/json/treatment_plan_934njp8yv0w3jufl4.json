@@ -1,0 +1,39 @@
+{
+  "employee_id": "934njp8yv0w3jufl4",
+  "employee_name": "Nalisha Pillay",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-15",
+      "report_id": "qfvggid9wepfmee5l",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nalisha Pillay",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "High fasting insulin suggests that you are prediabetic. We want to reverse this if possible through lifestyle changes - a low carb diet, weight loss, exercise and stress reduction.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "In addition I recommend you supplement with berberine.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:34:12",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

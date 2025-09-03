@@ -1,0 +1,39 @@
+{
+  "employee_id": "a4b66dec05ed4ea1",
+  "employee_name": "Karin Paul",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-25",
+      "report_id": "38a10a6da9762304",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Karin Paul",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Trial the Fybogel and review with your GP. Report any new worrying or persistent symptoms with your GP.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:26",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "8665da6e8ad756ea",
+  "employee_name": "Yuben Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-11",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Yuben Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue eating a diet high in fresh fruit & veggies.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Limit foods high in saturated fats ie. animal & full cream products.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Improve insulin metabolism by intermittent fasting, eating unrefined wholegrain carbohydrates or a low carbohydrate diet. Repeat insulin levels in 3 months for review.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Increase water intake & monitor kidney function.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritise mental well-being. Do not hesitate to seek support in times of need.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vascamen supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:25:07",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

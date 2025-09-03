@@ -1,0 +1,45 @@
+{
+  "employee_id": "151d711bca1f7e03",
+  "employee_name": "Jenita Sebastiao",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-05",
+      "report_id": "4fa7e1ffb1ac85f8",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Jenita Sebastiao",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A second opinion by a specialist on surgery for the gallstones found in your gallbladder will be beneficial to help you decide if it is still needed.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on building strength and increase your weight to a healthier BMI with muscle mass. This will reduce your risk of frailty in old age.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist annually for a Pap smear.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:04:54",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

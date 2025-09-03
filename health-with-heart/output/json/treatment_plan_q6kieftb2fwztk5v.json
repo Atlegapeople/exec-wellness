@@ -1,0 +1,45 @@
+{
+  "employee_id": "q6kieftb2fwztk5v",
+  "employee_name": "Danillo Chetty or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2024-07-23",
+      "report_id": "56ee99cff58041d9",
+      "report_date": "Not specified",
+      "doctor": "Dr. Jessica Koen or Not specified",
+      "nurse": "Rebecca Mogale or Not specified",
+      "employee_name": "Danillo Chetty or Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your investigations show a high BMI. Increased adipose tissue can cause metabolic disturbances (see blood results), joint strain as well as increased risk for future chronic illness. Working together with support structures (dietician/ exercise) can help reduce your current weight.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Screening of your prostate gland starts over the age of 40 years old. This can be done through a blood test (PSA levels) and clinically examination as you get older.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "We can follow-up in the next few months for repeat blood work (Vit D/ ALT/ Fasting glucose/ insulin/ hsCRP/ Cholesterol).",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:50:57",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen or Not specified"
+    ],
+    "nurses": [
+      "Rebecca Mogale or Not specified"
+    ]
+  }
+}

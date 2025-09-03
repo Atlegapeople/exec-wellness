@@ -1,0 +1,69 @@
+{
+  "employee_id": "fj5vapzqph31rgwno",
+  "employee_name": "Kish Harry or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-13",
+      "report_id": "qiwlcff2k0igddhyk",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Kish Harry or Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Insulin levels raised, On Glucophage bd now - HGT has improved from the readings in Feb 2022 at the Cardiologist",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Colonoscopy (Over age of 50); Metabolic Syndrome",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Screening Colonoscopy - please book with a Gastroenterologist",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your one liver marker was raised. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Noted to have oral candida on your tongue - antifungals prescribed.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your Vit D levels are suboptimal - supplement with Vit D3 1000iu daily and repeat in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase your physical activity to increase your heart rate and to assist in losing weight. A Biokineticist can be helpful. Diet needs to be adjusted - Dietician referral recommended.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:55:52",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

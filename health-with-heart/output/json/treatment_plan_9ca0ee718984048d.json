@@ -1,0 +1,51 @@
+{
+  "employee_id": "9ca0ee718984048d",
+  "employee_name": "Mulalo Netshiheni",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-06",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mulalo Netshiheni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue your iron supplements as prescribed.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to have 5 fresh fruit & veggies daily. Have fish, chicken and limit red and processed meats.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Please supplement VitD and repeat bloods in 3 months.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please repeat the lung function test.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:39:54",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

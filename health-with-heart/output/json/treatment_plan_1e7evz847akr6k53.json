@@ -1,0 +1,39 @@
+{
+  "employee_id": "1e7evz847akr6k53",
+  "employee_name": "Neil Goosen",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-10",
+      "report_id": "bf1e751f1c2c215e",
+      "report_date": "2023-05-10",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Neil Goosen",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "A review with a urologist for the mildly raised PSA and your family history of prostate cancer.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "A review with a cardiologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:08:48",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

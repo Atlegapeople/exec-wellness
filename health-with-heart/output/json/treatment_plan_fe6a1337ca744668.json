@@ -1,0 +1,39 @@
+{
+  "employee_id": "fe6a1337ca744668",
+  "employee_name": "Segape Makgahlela",
+  "treatment_timeline": [
+    {
+      "date": "2024-03-26",
+      "report_id": "6e3fb6c691c91750",
+      "report_date": "2024-03-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Segape Makgahlela",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "PH: 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "PROTIEN: TRACE",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:54:36",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

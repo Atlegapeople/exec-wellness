@@ -1,0 +1,45 @@
+{
+  "employee_id": "66d994513432006c",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-17",
+      "report_id": "af1d74e139297f37",
+      "report_date": "2023-07-17",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Mildly reduced lung function noted. Below average vo2Max - this can be improved by improving your fitness level.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High body fat percentage - dietary changes and exercise recommended.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:01:47",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

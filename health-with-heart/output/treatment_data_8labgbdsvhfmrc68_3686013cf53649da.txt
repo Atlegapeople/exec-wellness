@@ -1,0 +1,52 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:34
+Employee ID: 8labgbdsvhfmrc68
+Report ID: 3686013cf53649da
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Hugo Le Roux
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Finasteride
+Special Investigation Notes: None
+------------------------------
+Employee: Hugo Le Roux
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+Employee: Hugo Le Roux
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new worrying or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Protein Shake
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2025-01-29 - 2025-01-29
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

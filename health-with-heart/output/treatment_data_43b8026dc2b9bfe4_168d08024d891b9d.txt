@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 43b8026dc2b9bfe4
+Report ID: 168d08024d891b9d
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Agnes Shaibu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace
+------------------------------
+Employee: Agnes Shaibu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace
+------------------------------
+Employee: Agnes Shaibu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,33 @@
+{
+  "employee_id": "aeebfa8d57fa581c",
+  "employee_name": "Michael John Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "055f849f44e53dff",
+      "report_date": "2025-07-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Michael John Naidoo",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "URINE DIPSTICK: PROT- TRACE | S.G 1.002 | pH 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:55:10",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

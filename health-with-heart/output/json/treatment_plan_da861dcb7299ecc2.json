@@ -1,0 +1,26 @@
+{
+  "employee_id": "da861dcb7299ecc2",
+  "employee_name": "Nompumelelo Masuku",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "879314727a9de88f",
+      "report_date": "2023-07-19",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nompumelelo Masuku",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

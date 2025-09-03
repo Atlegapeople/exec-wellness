@@ -1,0 +1,75 @@
+{
+  "employee_id": "5s9qqfiegpckzzy5",
+  "employee_name": "Lynette Lennon",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-18",
+      "report_id": "03ba0b9dcdb53f6b",
+      "report_date": "2022-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lynette Lennon",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Goitre evident on your neck - recently diagnosed with Grave's disease.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Menacal , Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please watch the sugar and carbs in your diet and retest this in the new year.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Recent mole removed, waiting for results from dermatologist.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Your fasting insulin is also high - please watch the sugar and carbs in your diet and retest this in the new year.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "I would recommend that you see an endocrinologist or go back to your GP who initiated the treatment.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Your blood results show that your thyroid is still overactive. You do not have a specialist overseeing your care so I would recommend that you see an endocrinologist or go back to your GP who initiated the treatment.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:56:47",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

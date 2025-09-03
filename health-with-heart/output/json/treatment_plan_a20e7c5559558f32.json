@@ -1,0 +1,69 @@
+{
+  "employee_id": "a20e7c5559558f32",
+  "employee_name": "Denise Hartley",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-08",
+      "report_id": "bfc19e4d11e6de5e",
+      "report_date": "2022-09-08",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Denise Hartley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Consult your GP and repeat the blood tests for fasting insulin and DHEA-S.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please decrease how many cigarettes you smoke daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit your daily alcohol intake to one glass.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Cut down on sugary foods and drinks.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase the fibre in your diet by adding flaxseed powder to your cereal and drinking more water. This will help relieve constipation.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consult a physiotherapist or biokineticist to assess and assist with the knee and hip pain you feel when running.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:46:13",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

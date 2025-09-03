@@ -1,0 +1,508 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:46
+Employee ID: c81f078defe3227c
+Report ID: a5c3843bd3274bfb
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ChronicMedicationList
+Comment Value: Eltroxin , Ginette
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ClinicalExamRecommendation
+Comment Value: Normal examination on the day.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LabTestRecommendation
+Comment Value: 1. A reduced filtration rate is often due to being dehydrated on the day (due to being fasting for the other tests). Recommend to monitor when well hydrated in 3 months. 2. High triglycerides on fasting cholesterol test and mild inflammation - this will improve if you decrease daily sugar and refined carbs. 3. Your TSH is out of range and was normal with your previous visit to us. Do the full monitoring and follow up with a doctor, your Eltroxin may be lacking.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: LifestyleRecommendation
+Comment Value: Increase exercise in your routine to at least 3x a week and reduce daily sugar. A magnesium supplement at night can help improve quality of sleep.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Manage a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Even though you report some stress you appear resilient in the face of stress. Monitor and visit a psychologist or a doctor if you start to feel too overwhelmed on a daily basis.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: Normal special investigations.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Please report any new worrying or persistent symptoms to your doctor.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitalsRecommendation
+Comment Value: Focus on maintaining a normal waist circumference rather than a number on the scale.
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Jolene Sampson
+Report Date: 2023-06-11
+Doctor: Janine Silberbauer
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Overview Notes: Dear Jolene, thank you for allowing us to help you identify any health concerns with this personalized screen. The only red flag currently is that your thyroid medication may not be balanced. I would recommend to follow up with the full thyroid function test and review your current Eltroxin dose. Otherwise implement the suggested changes and review the results out of range in 3 - 6 months. It was a pleasure giving you feedback for your comprehensive medical! Dr Janine
+Comment Key: WomensHealthRecommendation
+Comment Value: Visit a general practitioner or a gynaecologist for a Pap smear and a Radiologist for a mammogram annually.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-10-10 - 2023-10-10
+Time: 09:30:00 - 11:30:00
+Notes: Jolene SampsonID/Passport Number: 8103070090083
+Status: Completed
+------------------------------

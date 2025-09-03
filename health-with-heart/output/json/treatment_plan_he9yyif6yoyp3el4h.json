@@ -1,0 +1,51 @@
+{
+  "employee_id": "he9yyif6yoyp3el4h",
+  "employee_name": "Vikash Singh or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-16",
+      "report_id": "ru1z806cr9xn5ovdu",
+      "report_date": "Not specified",
+      "doctor": "Kim Comline or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Vikash Singh or Not specified",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Its not too late to stop smoking!",
+          "status": "Planned",
+          "source_field": "Overview Notes: FEV1 is 70.3%. The ratio between this and your forced vital capacity is 70% (normal 70 to 80%). Any lower and you are in the zone for emphysema."
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Please book a consult to discuss these results.",
+          "status": "Planned",
+          "source_field": "Overview Notes: Your red blood cells are large - this does mean you should come in to do iron studies , vitamin b12 levels and folate studies."
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Exercises; Good social connections",
+          "status": "Ongoing",
+          "source_field": "Overview Notes: Exercises; Good social connections"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Abnormal lung function tests and abnormal chest measurements",
+          "status": "Ongoing",
+          "source_field": "Overview Notes: Abnormal lung function tests and abnormal chest measurements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:02:31",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

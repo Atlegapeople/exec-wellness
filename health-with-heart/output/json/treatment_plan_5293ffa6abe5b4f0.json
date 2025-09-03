@@ -1,0 +1,57 @@
+{
+  "employee_id": "5293ffa6abe5b4f0",
+  "employee_name": "Lynn Marysse Canham",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-19",
+      "report_id": "630fdc70bec2ba7d",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lynn Marysse Canham",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal Bp when not fasting and taken medicine.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Slow controlled weight loss will help decrease feeling short of breath with movement.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High BMI and waist circumference. Focus on loosing cm around your waist rather than the number on the scale.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Evening Primrose Oil",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:46:54",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "employee_id": "EmAzDrxJHkEXDNNv",
+  "employee_name": "Jyoti Bhanabhai",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-06",
+      "report_id": "rdZ9JmnKrpYVo2jY",
+      "report_date": "2023-09-14",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Jyoti Bhanabhai",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Hearing is within normal limits bilaterally. Annual testing is recommended.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Calcium , Vitamin B , Zinc , Omega 3",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:46:08",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

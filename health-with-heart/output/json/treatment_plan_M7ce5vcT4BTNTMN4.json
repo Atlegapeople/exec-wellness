@@ -1,0 +1,51 @@
+{
+  "employee_id": "M7ce5vcT4BTNTMN4",
+  "employee_name": "Lucian Simon Saldanha",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "ipJA4PUxGYH9sTdN",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lucian Simon Saldanha",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "After the age of 45, prostate screening is important.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay attention to the lifestyle habits that can exacerbate aches & pains. Make provision for the times you are away from home.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Folic Acid , Calcium",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:30:13",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

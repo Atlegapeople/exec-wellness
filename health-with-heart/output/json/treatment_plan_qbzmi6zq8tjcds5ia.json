@@ -1,0 +1,111 @@
+{
+  "employee_id": "qbzmi6zq8tjcds5ia",
+  "employee_name": "Dinesh Fakir",
+  "treatment_timeline": [
+    {
+      "date": "2021-10-26",
+      "report_id": "zkdup4wpfkm8mxqmx",
+      "report_date": "2021-10-26",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dinesh Fakir",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Insufficient Vitamen D level. You can increase your Vitamen D3 supplementation to 5000iu daily.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal lung function test",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Recovery can be as important as training. You need to rest adequately for you to perform at your best. A simple way of activating your 'rest and digest' system is to take 10mins to walk barefoot on grass every day. Remember to include rest days in your week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "You have expressed concern about a possible food allergy and a rash. We have an allergy specialist coming in to the Wellness Centre once a week - please talk to our receptionists about availability.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Dinesh FakirID/Passport Number: 7906285142080",
+          "status": "Completed",
+          "source_field": "Appointments"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-13",
+      "report_id": "e15954231cf39b0d",
+      "report_date": "2025-03-13",
+      "doctor": "Joy Sitole",
+      "nurse": "Aphiwo Masondo",
+      "employee_name": "Dinesh Fakir",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritize rest and relaxation as well.",
+          "status": "Ongoing",
+          "source_field": "MedicalHistoryNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Meditation is also a good way of doing this. Nice apps to help you with this are 'Insight timer' or 'Headspace'",
+          "status": "Ongoing",
+          "source_field": "MedicalHistoryNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A holiday can also do wonders.",
+          "status": "Planned",
+          "source_field": "MedicalHistoryNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Crestor 5mg",
+          "status": "Ongoing",
+          "source_field": "ChronicMedicationList"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Altosec 20mg",
+          "status": "Ongoing",
+          "source_field": "ChronicMedicationList"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Ecotrin daily",
+          "status": "Ongoing",
+          "source_field": "ChronicMedicationList"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Texa, avomist daily",
+          "status": "Ongoing",
+          "source_field": "ChronicMedicationList"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:52:05",
+  "total_reports": 2,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Aphiwo Masondo",
+      "Lebo Cindi"
+    ]
+  }
+}

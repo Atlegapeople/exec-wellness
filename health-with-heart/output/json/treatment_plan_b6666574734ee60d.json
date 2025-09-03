@@ -1,0 +1,39 @@
+{
+  "employee_id": "b6666574734ee60d",
+  "employee_name": "Thuthukile Rakharebe",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-29",
+      "report_id": "Not specified",
+      "report_date": "2023-06-29",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thuthukile Rakharebe",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a Radiologist for a mammogram after you turn 40.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "VitaminsOrSupplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:01:29",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

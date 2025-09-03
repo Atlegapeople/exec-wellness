@@ -1,0 +1,39 @@
+{
+  "employee_id": "jls5va1860m1tmihh",
+  "employee_name": "Adiel Ismail",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-06",
+      "report_id": "Not specified",
+      "report_date": "2023-07-06",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Adiel Ismail",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Lion's Mane , Vitamin D , Phytomulti , Omega 3 , Vitamin C , Zinc",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:15:46",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

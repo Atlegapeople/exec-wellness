@@ -1,0 +1,57 @@
+{
+  "employee_id": "29e4f1859ffdf412",
+  "employee_name": "Manmethy Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-04",
+      "report_id": "38891b1f288c8a46",
+      "report_date": "2022-10-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Manmethy Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please see your gynae for an ultrasound and PAP smear based on perimenopausal symptoms and family history.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To limit cardiovascular and chronic disease risk it is advised to maintain a BMI < 25 and a waist to height ratio of < 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "see Melissa to help you cope",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "if possible try to eat well and start some gentle exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:16:26",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

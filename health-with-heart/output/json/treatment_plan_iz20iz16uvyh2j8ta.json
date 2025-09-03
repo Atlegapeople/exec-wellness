@@ -1,0 +1,26 @@
+{
+  "employee_id": "iz20iz16uvyh2j8ta",
+  "employee_name": "Audrey Vengadasamy",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "gjbuvyc5mub2jy49t",
+      "report_date": "2022-06-09",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Audrey Vengadasamy",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

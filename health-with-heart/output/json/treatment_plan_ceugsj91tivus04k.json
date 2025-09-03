@@ -1,0 +1,99 @@
+{
+  "employee_id": "ceugsj91tivus04k",
+  "employee_name": "Lusani Mofokeng",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-25",
+      "report_id": "5ff197157251e24f",
+      "report_date": "2022-10-25",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lusani Mofokeng",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your repeat blood pressure on the day of the medical was normal at 110/80. Maintain a normal BMI and waist circumference to decrease your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please monitor and review with your doctor if you experience any new urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please monitor and review with your doctor if you experience any new urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A colonoscopy is recommended for colorectal cancer screening.",
+          "status": "Planned",
+          "source_field": "ColonCancerScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A prostate-specific antigen (PSA) test is recommended for prostate cancer screening.",
+          "status": "Planned",
+          "source_field": "ProstateCancerScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A glucose tolerance test is recommended for diabetes screening.",
+          "status": "Planned",
+          "source_field": "DiabetesScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A lipid profile test is recommended for cholesterol screening.",
+          "status": "Planned",
+          "source_field": "CholesterolScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A chest X-ray is recommended for lung cancer screening.",
+          "status": "Planned",
+          "source_field": "LungCancerScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "A mammogram is recommended for breast cancer screening.",
+          "status": "Planned",
+          "source_field": "BreastCancerScreeningRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A pap smear is recommended for cervical cancer screening.",
+          "status": "Planned",
+          "source_field": "CervicalCancerScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:21:52",
+  "total_reports": 1,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

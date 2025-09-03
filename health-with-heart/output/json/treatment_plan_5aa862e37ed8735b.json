@@ -1,0 +1,33 @@
+{
+  "employee_id": "5aa862e37ed8735b",
+  "employee_name": "Petunia Nonkululeko Kumalo",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-29",
+      "report_id": "ca1cab5d9e48b7ff",
+      "report_date": "2022-11-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Petunia Nonkululeko Kumalo",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "Blood trace, Leuk 3+, SG 1.015, pH 6.",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:52:47",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

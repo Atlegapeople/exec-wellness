@@ -1,0 +1,33 @@
+{
+  "employee_id": "9a53375d30252472",
+  "employee_name": "Zaza Mbuyisa",
+  "treatment_timeline": [
+    {
+      "date": "2021-09-29",
+      "report_id": "4dd6e3f9921cc947",
+      "report_date": "2021-09-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Zaza Mbuyisa",
+      "actions": [
+        {
+          "category": "Special Investigation Notes",
+          "recommendation": "Blood 3+, client currently on her period",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:37:12",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

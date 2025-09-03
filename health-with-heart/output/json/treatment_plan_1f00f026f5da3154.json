@@ -1,0 +1,33 @@
+{
+  "employee_id": "1f00f026f5da3154",
+  "employee_name": "Klaas Masemola",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-22",
+      "report_id": "20168010f95da2b2",
+      "report_date": "2021-04-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Klaas Masemola",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD Ph 5 SG 1.030",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:08:52",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

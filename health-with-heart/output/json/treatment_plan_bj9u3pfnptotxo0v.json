@@ -1,0 +1,63 @@
+{
+  "employee_id": "bj9u3pfnptotxo0v",
+  "employee_name": "Jeanette Britton",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "Not specified",
+      "report_date": "Report date not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jeanette Britton",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Improve your diet in order to decrease your cholesterol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "See a physician/cardiologist for investigation as this may be a sign for serious disease.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat this blood test in 3 months time to assess for improvement.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve your body fat % by doing stress training and optimising your diet.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take supplements like Rychol to aid in decreasing cholesterol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:09:24",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "099621de3254797e",
+  "employee_name": "Griesel Joandra",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-27",
+      "report_id": "40237e9de3a33d6c",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Griesel Joandra",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Full audiogram recommended: moderate hearing loss at 800Hz in the right ear, all other frequencies both sides normal.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:58:11",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

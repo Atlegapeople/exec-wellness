@@ -1,0 +1,103 @@
+{
+  "employee_id": "be527kf86xiodk0v",
+  "employee_name": "Pearl Madangombe",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-20",
+      "report_id": "c782fb0ac29c3279",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Pearl Madangombe",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Your dull lower abdominal pain and no periods are to be expected so soon after a D&C. Please monitor and visit a GP or a gynae if this does not get better with time in the next 1-2 months.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Breast cancer screening is important from the age of 40. Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "report_id": "735065323c88d872",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pearl Madangombe",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor and visit a GP or a gynae if your dull lower abdominal pain and no periods do not get better with time in the next 1-2 months.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Breast cancer screening is important from the age of 40. Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue being active in the treatment of the chronic condition you have. Employ lifestyle habits that benefit your present & future health.",
+          "status": "Ongoing",
+          "source_field": "MedicalHistoryRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue annual health screening & pay attention to the conditions that have occurred in your family.",
+          "status": "Ongoing",
+          "source_field": "MedicalHistoryRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "PregOmega",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "report_id": "64479bd0b262786c",
+      "report_date": "2025-06-05",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pearl Madangombe",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Breast cancer screening is important from the age of 40. Visit a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-Monitor and visit a GP or a gynae if lower abdominal pain does not get better with time in the next 1-2 months.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:07:39",
+  "total_reports": 3,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Ntombikayise Seane"
+    ]
+  }
+}

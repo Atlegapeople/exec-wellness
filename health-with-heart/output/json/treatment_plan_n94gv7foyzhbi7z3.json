@@ -1,0 +1,39 @@
+{
+  "employee_id": "n94gv7foyzhbi7z3",
+  "employee_name": "Herbert Happy Daniel",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-28",
+      "report_id": "673215560d1cc495",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Herbert Happy Daniel",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Left inguinal hernia noted.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Herbert, your fasting insulin levels are very high and left unchecked can lead to type 2 diabetes. High cholesterol is a risk factor for heart disease. It is preferable to start with lifestyle changes before considering medication. Please follow up with your GP and consider seeing a Dietician.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:35:33",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

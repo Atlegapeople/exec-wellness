@@ -1,0 +1,50 @@
+{
+  "employee_id": "b1ac6281c87caf16",
+  "employee_name": "Bongiwe Nhlonipho",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-16",
+      "report_id": "c682ef9aa0eae446",
+      "report_date": "2021-04-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Bongiwe Nhlonipho",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD Ph 5 SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "report_id": "ec13a81bebf740c8",
+      "report_date": "2022-06-21",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Bongiwe Nhlonipho",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Employee on her period (No explicit treatment recommendation found)",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:58:04",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ramona Azagsiba"
+    ]
+  }
+}

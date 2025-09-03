@@ -1,0 +1,51 @@
+{
+  "employee_id": "eaxbhajn6iuz2hvo",
+  "employee_name": "Lucas Mokone",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "25d868ee2367fac6",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lucas Mokone",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A cardiologist review is recommended due to abnormal ECG changes and cardiovascular risk factors.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A colonoscopy (with a gastroscopy) is recommended from the age of 45 to screen for bowel cancer. Ask your GP to help refer you to a general surgeon.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Vitamin C supplementation is recommended.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:41:30",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

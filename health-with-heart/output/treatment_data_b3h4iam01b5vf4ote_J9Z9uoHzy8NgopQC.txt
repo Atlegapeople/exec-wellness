@@ -1,0 +1,40 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:40
+Employee ID: b3h4iam01b5vf4ote
+Report ID: J9Z9uoHzy8NgopQC
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ashlene Van der Colff
+Report Date: 2023-09-14
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Tareg 40mg, Aspavor 20mg, Lorien 20mg, Glucophage 500mg bd
+Special Investigation Notes: None
+------------------------------
+Employee: Ashlene Van der Colff
+Report Date: 2023-09-14
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryNote
+Comment Value: Your cardiovascular risk score is currently low however insulin resistance and an increased waist circumference are factors that can increase your risk for chronic disease. Your insulin levels have come down dramatically on the glucophage which is great. It is possible to reverse insulin resistance as discussed through a combination of mild to moderate weight loss, diet, exercise and stress management so I encourage you to continue with the positive changes to your lifestyle that you are already making.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-12-03 - 2019-12-03
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

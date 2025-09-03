@@ -1,0 +1,57 @@
+{
+  "employee_id": "s2hf17mkpmd1khato",
+  "employee_name": "Dassen Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-03-25",
+      "report_id": "dxqoifiy7ggmk9k8h",
+      "report_date": "2022-03-25",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dassen Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your kidney function is on the lower normal side with some protein picked up in your urine. Please do the urine prot:creat that was requested and repeat blood test in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Gastroenterology referral for Colonoscopy to have screening done. You have 2 irregular lesions on your right index finger - You have been referred to a dermatologist",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Fasting insulin is slightly raised as well as your uric acid. Please cut down on red meat and I suggest that you see a dietician to assist you in building a healthier diet plan for you.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Your Vit D level can be optimised. Please supplement with Vit D 3 5000iu daily and repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:01:58",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

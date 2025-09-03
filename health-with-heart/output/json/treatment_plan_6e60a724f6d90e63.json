@@ -1,0 +1,33 @@
+{
+  "employee_id": "6e60a724f6d90e63",
+  "employee_name": "Blondie Molatudi",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-16",
+      "report_id": "1741ad71253af50e",
+      "report_date": "2021-04-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Blondie Molatudi",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD SG 1.010 Ph 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:04:57",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "b684e2e49ad87264",
+  "employee_name": "Lorraine Nkuna",
+  "treatment_timeline": [
+    {
+      "date": "2021-09-29",
+      "report_id": "ea95daf3f38d0e87",
+      "report_date": "2021-09-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Lorraine Nkuna",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Ketones 2+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:01:40",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

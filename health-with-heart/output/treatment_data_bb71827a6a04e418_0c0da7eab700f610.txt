@@ -1,0 +1,552 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:02
+Employee ID: bb71827a6a04e418
+Report ID: 0c0da7eab700f610
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ChronicMedicationList
+Comment Value: Trepiline , Zuvamor , Omez , Lexamil
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ClinicalExamRecommendation
+Comment Value: Right ear - impacted hard wax. Cerumol prescribed
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: LabTestRecommendation
+Comment Value: DHEA is low. Focus on activating "parasympathetic activity" more. Walking barefoot on grass, breathing deeply, taking cold showers, yoga, mindfulness. You can also supplement with DHEA.
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: LifestyleRecommendation
+Comment Value: You need to decrease your alcohol intake
+Your diet can include less red meat - aim for red meat once a week. Also aim to have more fresh vegetables, fish and fruit.
+Continue exercising well.
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MensHealthRecommendation
+Comment Value: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MentalHealthNote
+Comment Value: 1
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: On Lexamil, mood stable, sleep improved on Trepilline. Carry on having good exercise habits and be mindful of alcohol use.
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: VitalsRecommendation
+Comment Value: Diastolic BP raised, normal on resting ECG 128/83. Please review BP in 6 months time. 
+To optimise cardiovascular risk - keep BMI <25 and waist to height ratio below 50%
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: John Hunter Cairns
+Report Date: 2022-10-28
+Doctor: Carla Marais
+Nurse: Rebecca Mogale
+Clinical Recommendations: Right ear - impacted hard wax. Cerumol prescribed
+Men's Health Recommendations: You describe nocturia, dribbling - prostate sonar recommended. Please follow up with your preferred GP re the results
+Women's Health Recommendations: 
+Overview Notes: John, thank you for coming for your medical. You are in good shape! Please decrease your alcohol use, limit red meat use and do the recommended screening suggested. 
+Hope the rest of 2022 is filled with healthy decisions.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-11-02 - 2022-11-02
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

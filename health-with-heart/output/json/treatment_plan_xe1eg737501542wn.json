@@ -1,0 +1,45 @@
+{
+  "employee_id": "xe1eg737501542wn",
+  "employee_name": "Michael Galatis",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-08",
+      "report_id": "9005bbce3d06289f",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Michael Galatis",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please visit your doctor if you experience any urinary symptoms.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendation"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "Visit a doctor if the blood in your stool does not resolve - this may be an indication for a Colonoscopy if the doctor excludes haemorrhoids.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Use the script when needed and please visit a doctor again if the blood in your stool persists.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:24:38",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

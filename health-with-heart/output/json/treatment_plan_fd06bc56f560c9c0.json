@@ -1,0 +1,63 @@
+{
+  "employee_id": "fd06bc56f560c9c0",
+  "employee_name": "Roger Oliver Hewson",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-30",
+      "report_id": "a8a7f1d936ec3a55",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Roger Oliver Hewson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Visit audiologist for full audiogram and further referral if needed.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim to reduce cm around your waist rather than the number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Screening for cardiovascular events and cancer.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Referral to a specialist if needed based on audiogram results.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Repeat the tests that were abnormal after 3-6 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:54:02",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

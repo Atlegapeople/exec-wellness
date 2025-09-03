@@ -1,0 +1,57 @@
+{
+  "employee_id": "5468145e7794745f",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-02",
+      "report_id": "e49cff121646cb9e",
+      "report_date": "2023-08-02",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "We have taken further bloods (full thyroid function, Vit B12, Folate) & will follow up the results.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your cholesterol was high - to attempt control with lifestyle adjustments otherwise we can start a low dose statin.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular screening is important to detect any abnormalities early & improves management. I’m glad to hear your recent Pap Smear was normal & that you received your HPV vaccinations. Mammogram screening normally starts from 40 years.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regular breast self-examinations are recommended. If any irregularities noted to follow up with your GP for review.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Magnesium , Multivitamin",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:47:52",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

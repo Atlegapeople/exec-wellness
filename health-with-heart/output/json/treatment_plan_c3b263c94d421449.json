@@ -1,0 +1,51 @@
+{
+  "employee_id": "c3b263c94d421449",
+  "employee_name": "Thembeni Khoza",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-25",
+      "report_id": "afc5caf1460897b0",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Thembeni Khoza",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular breast self-examinations are recommended. If you notice any irregularities to consult your doctor.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep building wholesome methods of reducing stress levels. I am so glad you are getting time off to relax.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A regular exercise routine & healthy diet (low sugar intake, increased variety of vegetables, avoiding processed foods) has shown many benefits for general well-being and preventing chronic illness.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:15:17",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

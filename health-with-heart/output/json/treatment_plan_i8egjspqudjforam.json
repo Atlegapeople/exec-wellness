@@ -1,0 +1,45 @@
+{
+  "employee_id": "i8egjspqudjforam",
+  "employee_name": "Elna Van Jaarsveld",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "1adff7409b2d1907",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Elna Van Jaarsveld",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please prioritize rest, relaxation and mindful self-care.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Calcium , Omega 3 , Calciferol",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:06:17",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

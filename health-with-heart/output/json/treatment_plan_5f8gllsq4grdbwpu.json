@@ -1,0 +1,33 @@
+{
+  "employee_id": "5f8gllsq4grdbwpu",
+  "employee_name": "Kaseri Pillay",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-03",
+      "report_id": "ba28e6bdf4cc9632",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Kaseri Pillay",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:54:46",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

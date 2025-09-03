@@ -1,0 +1,45 @@
+{
+  "employee_id": "03zqzzapxtd1r7si",
+  "employee_name": "Blessings Magagane",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-30",
+      "report_id": "062bccb92196bbc6",
+      "report_date": "2023-01-13",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Blessings Magagane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please follow the advice regarding your lab results & retest at the recommended intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Although normal now be mindful that an increased waist circumference (> 90 cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:54:59",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

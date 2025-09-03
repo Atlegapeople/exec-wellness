@@ -1,0 +1,45 @@
+{
+  "employee_id": "9fef365fc0e6df57",
+  "employee_name": "Michele Sibley",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-18",
+      "report_id": "0a29cf223d2e9324",
+      "report_date": "2022-10-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Michele Sibley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You have numerous moles. There is one on your back just above your bra strap that you say is itchy and you have scratched it. I recommend that you get it checked by a dermatologist.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is recommended to maintain your BMI < 25 and waist to height ratio < 50%. Aim to lose some weight especially around your waist.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:42:30",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

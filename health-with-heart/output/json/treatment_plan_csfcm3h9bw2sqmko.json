@@ -1,0 +1,69 @@
+{
+  "employee_id": "csfcm3h9bw2sqmko",
+  "employee_name": "Haleema Jamal",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-22",
+      "report_id": "16fa60f7c0a86d4e",
+      "report_date": "2022-11-22",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Haleema Jamal",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Limit foods high in saturated & trans fats, such as full cream items, red meat & fried foods. Add fish, seeds and whole grains to your diet. Supplements like Rychol can help lower cholesterol levels. Repeat these blood tests in 3-6 months.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit the sugar intake in your food & drinks. Opt for fresh fruit instead. Preparing your meals in advance may help you make better food choices.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately for at least 30 minutes 3-5x a week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain your BMI between 18.5 - 24.9 and waist to height ratio below 50. This decreases your risk of developing lifestyle diseases such as hypertension and diabetes.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Strength training will help you burn fat, build muscle and improve your cholesterol.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement vit D daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:24:25",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

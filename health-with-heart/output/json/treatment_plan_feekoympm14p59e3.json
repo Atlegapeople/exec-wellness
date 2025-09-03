@@ -1,0 +1,69 @@
+{
+  "employee_id": "feekoympm14p59e3",
+  "employee_name": "Gino Naidu",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-28",
+      "report_id": "72682f29dcaa92aa",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gino Naidu",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise regularly to maintain a healthy weight and reduce the risk of chronic diseases.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a balanced diet rich in fruits, vegetables, lean proteins, and whole grains.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit intake of processed foods, saturated fats, and added sugars.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid smoking and limit alcohol consumption.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Practice stress management techniques such as meditation, yoga, or deep breathing exercises.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular check-ups and screenings for prostate cancer, colon cancer, and other health issues.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular check-ups and screenings for breast cancer, cervical cancer, and other health issues.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:55:08",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

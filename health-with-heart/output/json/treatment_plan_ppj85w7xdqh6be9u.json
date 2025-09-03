@@ -1,0 +1,63 @@
+{
+  "employee_id": "ppj85w7xdqh6be9u",
+  "employee_name": "Welhemina La Grange",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-15",
+      "report_id": "fc757611a99b78c8",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Welhemina La Grange",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram is recommended for the left ear.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Subsequent ENT referral regarding the relatively sudden, unilateral hearing loss.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately to help burn fat, control BP and improve cholesterol.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat fresh fruit & veggies daily, limit salt & food high in fat and sugar.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Caltrate Plus",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:45:44",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

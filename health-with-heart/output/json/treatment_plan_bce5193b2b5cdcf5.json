@@ -1,0 +1,57 @@
+{
+  "employee_id": "bce5193b2b5cdcf5",
+  "employee_name": "S'lindokuhle Ngobese",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-17",
+      "report_id": "696fd1a440203ba8",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "S'lindokuhle Ngobese",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Mildly reduced lung function - may be due to poor technique or sinus congestion. Repeat when sinuses clear.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Increasing cardiovascular fitness will improve VO2max.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Have a look at the podcasts I mentioned and do keep up with your exercise.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I would also recommend some somatic therapies and getting out into nature.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:06:32",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

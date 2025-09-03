@@ -1,0 +1,33 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:30
+Employee ID: syng3spn7knpj8w9
+Report ID: 2d145fe54737019d
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Sizolwethu Bulelani Khali Makaula
+Report Date: 2022-10-20
+Doctor: 
+Nurse: 
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Choose a healthy lifestyle to reduce your risk for developing familial related chronic illnesses.
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2024-08-01 - 2024-08-01
+Time: 12:45:00 - 14:45:00
+Notes: Bulelani MakaulaID/Passport Number: 9308125023083
+Status: Completed
+------------------------------
+Date: 2024-08-07 - 2024-08-07
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,50 @@
+{
+  "employee_id": "a5231d45cc6042c6",
+  "employee_name": "Glory Makhubele",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-22",
+      "report_id": "c4529ed01dba315b",
+      "report_date": "2021-04-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Glory Makhubele",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD SG 1.030 Ph6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-29",
+      "report_id": "66dc32d215a07b54",
+      "report_date": "2023-03-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Glory Makhubele",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Leucocytes trace, asymptomatic",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:54",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Ramona Azagsiba"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "employee_id": "da3b0876965b28a2",
+  "employee_name": "Stephen Arthur",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-06",
+      "report_id": "ee88b5af396acc57",
+      "report_date": "2023-04-06",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Stephen Arthur",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Profound sloping high frequency hearing loss (at 4 and 8kHz). A full audiogram is recommended and subsequent management.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 , Magnesium",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:31:57",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

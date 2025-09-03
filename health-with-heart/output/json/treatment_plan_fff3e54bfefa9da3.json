@@ -1,0 +1,51 @@
+{
+  "employee_id": "fff3e54bfefa9da3",
+  "employee_name": "John Batchelor",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-29",
+      "report_id": "c6cba01298e11d70",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "John Batchelor",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure improved on third reading to 122 systolic.  Keep monitoring with your GP.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significant increased risk for chronic disease and cardiovascular disease events.  Focus on losing cm around the waist rather than the number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Multivitamin , Iron supplements , Berocca",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "SymptomScreeningRecommendation",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:55:33",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

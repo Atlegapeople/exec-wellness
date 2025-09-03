@@ -1,0 +1,51 @@
+{
+  "employee_id": "5963b59d86e6e635",
+  "employee_name": "Rebone Gloria Paadi",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-12",
+      "report_id": "c9b9c0a487b65b23",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Rebone Gloria Paadi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue to take iron supplements",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Very Heavy periods, being managed by her gynae - hoping to go for an ablation",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue eating liver a few times a week as well as red meat&your greens",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Start slowly and build up exercise",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:51:55",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

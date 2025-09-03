@@ -1,0 +1,24 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:25
+Employee ID: 5mpc5hrsjranhwcp
+Report ID: b1b6756b2b1ba469
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Carol Boukers
+Report Date: 2022-08-31
+Doctor: 
+Nurse: 
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Metformin , Statin , Antihypertensive
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

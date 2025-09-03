@@ -1,0 +1,39 @@
+{
+  "employee_id": "tc7zts6t7ndz4spe",
+  "employee_name": "Tawanda Dube",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-17",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tawanda Dube",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "There is wax build-up in both your ears which may contribute to the tinnitus you're experiencing. Wearing earphones less frequently and ear irrigation may alleviate the symptoms; should it persist, please see your doctor.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase your intake of fresh vegetables/fruit and reduce your consumption of red meat, processed food, sugar and alcohol.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:07:40",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

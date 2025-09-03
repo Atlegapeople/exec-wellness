@@ -1,0 +1,63 @@
+{
+  "employee_id": "34e1ce2efda02058",
+  "employee_name": "Zarush Jackpersad",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-12",
+      "report_id": "a341de415eb9f481",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Zarush Jackpersad",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Resting & stress ECG shows abnormalities. Cardiologist review is recommended.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improve fitness by doing varied exercise types while keeping your heart rate between 161-176 bpm.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue eating a diet high in fresh fruit & veggies. Limit food high in saturated fats. Keep sugar intake low.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Breathing exercises, mindfulness exercises & relaxation techniques may help improve anxiety.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Calciferol , Biogen Immune Booster , Finpecia  , Minoxidil",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "BMI at 27 & waist-to-height ratio at 53% are slightly elevated. This increases the risk of conditions like diabetes & hypertension. Aim to keep your BMI between 18.5-24.9 & waist-to-height ratio below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:25:03",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

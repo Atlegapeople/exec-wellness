@@ -1,0 +1,81 @@
+{
+  "employee_id": "668929bea9a58c2a",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-26",
+      "report_id": "9bf5714598a7d704",
+      "report_date": "2022-07-26",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day. Please report any new changes in your health in the coming months.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Not specified"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:01:31",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

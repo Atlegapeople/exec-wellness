@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:06
+Employee ID: 15d72cd927519d31
+Report ID: 59da90cb7043e39d
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Mampa Dikeledi
+Report Date: 2022-11-21
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, Sg 1.020, Leuk trace
+------------------------------
+Employee: Mampa Dikeledi
+Report Date: 2022-11-21
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 5, Sg 1.020, Leuk trace
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

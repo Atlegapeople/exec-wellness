@@ -1,0 +1,63 @@
+{
+  "employee_id": "7JFcvzWVFhFqHv2X",
+  "employee_name": "Matshediso Nkosi",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "Jcx867LX2KrKthTX",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Matshediso Nkosi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram is recommended to assess the mild sloping hearing loss.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "G & C scopes and an abdominal sonar are recommended for cancer screening.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit saturated fats and increase daily water intake.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor blood pressure and ensure good control. Consider seeing a cardiologist for review.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Podiatrist review is recommended for the numbness you are experiencing in your toes.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Omega 3 and Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:16:38",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

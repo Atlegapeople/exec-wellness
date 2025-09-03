@@ -1,0 +1,33 @@
+{
+  "employee_id": "d6badeef89326613",
+  "employee_name": "John Levy Tsuene",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-16",
+      "report_id": "ff8315b6cc2eaca1",
+      "report_date": "2021-04-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "John Levy Tsuene",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD Ph 7 SG 1.010",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:29:41",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

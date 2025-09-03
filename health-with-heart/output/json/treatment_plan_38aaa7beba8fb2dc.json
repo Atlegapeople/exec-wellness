@@ -1,0 +1,75 @@
+{
+  "employee_id": "38aaa7beba8fb2dc",
+  "employee_name": "Nadia Chotia",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-13",
+      "report_id": "0367004e1190c42b",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Nadia Chotia",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "See your Dr for antibiotics to treat the UTI.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise moderately 3-5 times a week.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat more fresh fruits and veggies, decrease saturated fats and sugary foods.",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Aim for a waist to height ratio below 50. This will help lessen the risk of lifestyle diseases such as diabetes and hypertension which you are at risk for.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "See your Dr for antibiotics to treat the UTI.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:27:03",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

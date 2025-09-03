@@ -1,0 +1,57 @@
+{
+  "employee_id": "ce9fba352eebe768",
+  "employee_name": "Fredrick Lakey",
+  "treatment_timeline": [
+    {
+      "date": "2022-12-14",
+      "report_id": "c86d230010790185",
+      "report_date": "2022-12-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Fredrick Lakey",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal exam on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a normal BMI and waist circumference to reduce your risk for chronic illnesses.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Colonoscopy (with a G-scope) advised from the age 45. Ask a GP to help refer you to a surgeon.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:21:29",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

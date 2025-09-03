@@ -1,0 +1,100 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:52:37
+Employee ID: 6d066863d0ae59ac
+Report ID: e4d55c26c2bbb07a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ClinicalExamRecommendation
+Comment Value: Patient in good health clinically.
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: LabTestRecommendation
+Comment Value: Discussed cholesterol levels with patient. NB to be mindful of foods that may be high in cholesterol however patients diet is good overall. To repeat tests in 3-6 months time.
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: LifestyleRecommendation
+Comment Value: Patient has an overall good lifestyle
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: Elevated cholesterol levels on the blood tests from this medical. Patient reports this is new. Advised on monitoring it with improved lifestyle in 3-6 months time.
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MensHealthRecommendation
+Comment Value: Patient can continue with annual screening of PSA.
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Patient handles stress well and is well informed about how to manage his stress levels.
+Special Investigation Notes: None
+------------------------------
+Employee: Colin Aylward
+Report Date: 2025-06-11
+Doctor: Dr Serisha Latchmiah
+Nurse: Lebo Cindi
+Clinical Recommendations: Patient in good health clinically.
+Men's Health Recommendations: Patient can continue with annual screening of PSA.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: Patient had no current medical complaints
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2025-06-25 - 2025-06-25
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

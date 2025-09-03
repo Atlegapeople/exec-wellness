@@ -1,0 +1,52 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:04
+Employee ID: d2510ee43c38ad6d
+Report ID: 1c4a6fd98d622dc8
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ballentine Motloung
+Report Date: 2022-06-13
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.015
+------------------------------
+Employee: Ballentine Motloung
+Report Date: 2022-06-13
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.015
+------------------------------
+Employee: Ballentine Motloung
+Report Date: 2022-06-13
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: pH 6, SG 1.015
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-10-13 - 2023-10-13
+Time: 10:33:34 - 11:27:47
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,33 @@
+{
+  "employee_id": "af468288cee95152",
+  "employee_name": "Lance Brooks",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-02",
+      "report_id": "2fab58f50170f57a",
+      "report_date": "2021-03-02",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Lance Brooks",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Blood 1+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:55:14",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

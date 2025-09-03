@@ -1,0 +1,57 @@
+{
+  "employee_id": "qnrcz2usabtkv27i4",
+  "employee_name": "Darshana Chauhan",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-10",
+      "report_id": "yfctyczic9wk55mc8",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Darshana Chauhan",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "PCOS - Glucophage was recently reinitiated; its important to increase exercise, eat better and to repeat your insulin levels in 6/12. Can also supplement with Pcositol",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Screening mammogram and PAPsmear due - these screening tests are important to detect cancer",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "You are not happy with your sleep. Increase exercise, eat better, practice more mindfulness. Sleepio.com is a good resource to use",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Your cholesterol is raised. Supplement with Omega 3, increase the intensity and frequency of exercise and eat a mediterannean style diet. Repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Vit D is suboptimal - supplement with Vit D 5000 dly and repeat levels in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:52:54",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

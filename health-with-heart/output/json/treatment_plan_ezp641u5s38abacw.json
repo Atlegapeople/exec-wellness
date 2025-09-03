@@ -1,0 +1,26 @@
+{
+  "employee_id": "ezp641u5s38abacw",
+  "employee_name": "Dineo Masemene",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "94b6fbbc18ac1395",
+      "report_date": "2022-08-31",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dineo Masemene",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

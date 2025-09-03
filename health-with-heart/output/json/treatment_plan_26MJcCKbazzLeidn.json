@@ -1,0 +1,45 @@
+{
+  "employee_id": "26MJcCKbazzLeidn",
+  "employee_name": "Puseletso Rammekwa",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "dDU5RVZRuCYm4PG6",
+      "report_date": "2023-09-14",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Puseletso Rammekwa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Resting ECG: Sinus bradycardia, J waves and ST elevation in anterior leads,please discuss this with your family doctor",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:14:45",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

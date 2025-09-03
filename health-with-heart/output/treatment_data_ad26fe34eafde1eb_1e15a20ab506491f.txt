@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:46
+Employee ID: ad26fe34eafde1eb
+Report ID: 1e15a20ab506491f
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Melinda Whitfield
+Report Date: 2024-03-06
+Doctor: 
+Nurse: Tahl Nurse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: Contact ICAS phone number 0800 212 699 and or complete the one of the following https://tinyurl.com/phqst https://tinyurl.com/gadqst
+Special Investigation Notes: None
+------------------------------
+Employee: Melinda Whitfield
+Report Date: 2024-03-06
+Doctor: 
+Nurse: Tahl Nurse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: 
+Comment Key: WomensHealthNote
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+Employee: Melinda Whitfield
+Report Date: 2024-03-06
+Doctor: 
+Nurse: Tahl Nurse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Overview Notes: 
+Comment Key: WomensHealthRecommendation
+Comment Value: Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

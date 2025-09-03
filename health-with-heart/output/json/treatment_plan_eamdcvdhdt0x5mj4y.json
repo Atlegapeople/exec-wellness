@@ -1,0 +1,69 @@
+{
+  "employee_id": "eamdcvdhdt0x5mj4y",
+  "employee_name": "Heinrich Schempers",
+  "treatment_timeline": [
+    {
+      "date": "2022-04-05",
+      "report_id": "zko68cnisvmmkdqaw",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Heinrich Schempers",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Consider a full cardiac work up with a cardiologist",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A full audiogram is recommended, specifically due to the asymmetrical component",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please repeat your kidney function. Ensure that you are well hydrated when you repeat it.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Not applicable"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Losing weight, especially around your abdomen will help to control your diabetes and decrease your risk of chronic disease in general.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Right bundle branch blocks on ECG can occur in people who otherwise seem normal.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Compliant to medication",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:41:22",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

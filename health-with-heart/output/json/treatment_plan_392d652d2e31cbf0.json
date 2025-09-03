@@ -1,0 +1,33 @@
+{
+  "employee_id": "392d652d2e31cbf0",
+  "employee_name": "Bongani Ndebele",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "ec7c6ccdb6956e19",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Bongani Ndebele",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.025",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:27:33",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

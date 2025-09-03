@@ -1,0 +1,110 @@
+{
+  "employee_id": "hn9dqdf5hu8ce6wde",
+  "employee_name": "Spencer Robus",
+  "treatment_timeline": [
+    {
+      "date": "2020-02-11",
+      "report_id": "ix34fwid4zktzjk01",
+      "report_date": "2020-02-11",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Spencer Robus",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement with vitamin D3 5000.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement with active B vitamins (eg. Phytomulti) to reduce homocysteine levels.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Pay attention to the modifiable risk factors to lower your risk for heart disease. Your father had a heart attack at a young age but he was a smoker etc. So although genetics can play a role, paying attention to your lifestyle is more important. Pay attention to improving your diet, losing some weight especially around your abdomen and continue exercising.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Raised HsCRP levels indicate inflammation, which can put you at higher risk for chronic disease. To reduce inflammation pay attention to lowering stress levels, exercising and eating an anti-inflammatory diet such as the mediterranean style diet. Weight loss around the abdomen will also help and can Omega 3 supplementation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Mildly raised uric acid levels may be insignificant but can lead towards gout and heart disease. Watch alcohol intake and red meat consumption.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-19",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Spencer Robus",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please follow the advice regarding supplementation and lifestyle modifications which need to take place and retest at the recommended time intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Multivitamin and Mineral supplement (Multivitamin and Mineral 100mg) daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Omega-3 fish oil supplement (1000mg) daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Coenzyme Q10 supplement (100mg) daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Consider a PSA test for prostate cancer screening (Not specified).",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Consider a colonoscopy for colorectal cancer screening (Not specified).",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:04:03",
+  "total_reports": 2,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

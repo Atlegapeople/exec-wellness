@@ -1,0 +1,80 @@
+{
+  "employee_id": "3a4e9a1578ed3cdd",
+  "employee_name": "Julian Grieve",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-12",
+      "report_id": "vouxc32sqyuelor39",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Julian Grieve",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Cholesterol: Continue with your active lifestyle and good diet, decrease alcohol use and supplement with Omega 3 2-4g daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes: Total Cholesterol raised slightly at 5.1"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Uric Acid is slightly raised: Decrease alcohol use and limit red meat intake.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes: Uric Acid is slightly raised: Decrease alcohol use and limit red meat intake"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "You have a significant family history of Glaucoma and Melanoma. Please make sure you get annual reviews by a dermatologist and an Opthalmologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes: You have a significant family history of Glaucoma and Melanoma."
+        }
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "report_id": "f824f97ead8eea49",
+      "report_date": "2025-02-17",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Julian Grieve",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Referral to Dr Benjamin for review - ?bigemeny and non condicted P-wave.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep refining your everyday lifestyle choices for improved future health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:28:20",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

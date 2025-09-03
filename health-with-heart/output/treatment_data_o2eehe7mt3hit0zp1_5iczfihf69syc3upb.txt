@@ -1,0 +1,4608 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:13
+Employee ID: o2eehe7mt3hit0zp1
+Report ID: 5iczfihf69syc3upb
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ChronicMedicationList
+Comment Value: Antibiotics for dental infection
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamNote
+Comment Value: Normal physical examination. Recommend doing a PAP smear with gynae or GP.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: LabTestNote
+Comment Value: Good results except for low vitamin D level
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MedicalHistoryNote
+Comment Value: As discussed your family history, smoking and slightly increased waist circumference may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed. Your lab results were good (with exception of low vitamin D) and you are currently healthy and at low risk of heart disease. The aim is to keep it that way by focusing on lifestyle, stress management and stopping smoking.
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: VitalsNote
+Comment Value: BMI in overweight range, slightly high waist circumference
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking is one of the worst things you can do for your health! Please think about stopping smoking. Once you are ready to quit mentally then consider doing the Allen Carr course or reading the book or alternatively talk to your GP about medication that can assist with quitting if you feel you need extra support.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Recheck your levels in 3 to 6 months aiming for a level of 50 to 80ng/ml. Once at this level you can decrease to 1000iu daily.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoker
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: A raised BMI and a waist circumference over 80cm increases your risk for chronic disease such as heart disease and diabetes (as does your family history and smoking). Try to lose some weight by improving your diet and managing your stress. You are already very active so that is not where the issue lies. Focus on a lower carb, high veg, higher healthy fat diet.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Father had a fatal heart attack at 55y (but he was diabetic), smoker, slightly overweight
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Very active
+Minimal alcohol consumption
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: BMI of 28 with waist circumference of 82cm
+Digestive issues related to eating legumes and carbs
+Family history of heart disease and diabetes
+low vitamin D
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Stress may have been the trigger for the start of your digestive issues. Eliminate the foods that are affecting you for now and support your digestion with digestive enzymes taken with meals, probiotics and fermented foods such as kefir, kimchi and sauerkraut. Stress management is also important, consider mindfulness/ meditation using the headspace app.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Shivani Chetty
+Report Date: 2020-02-18
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your family history may put you at slightly higher risk of chronic disease however you can minimise (or eliminate) this risk by paying attention to the factors we discussed regarding lifestyle, stress management and stopping smoking.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-02-18 - 2020-02-18
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

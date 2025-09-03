@@ -1,0 +1,45 @@
+{
+  "employee_id": "8C3p2esqSaqBmLqw",
+  "employee_name": "Abigail Morgan",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-01",
+      "report_id": "wszGhpwBFP5J7YCJ",
+      "report_date": "2023-09-14",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Abigail Morgan",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Gastritis - needs gastroscope",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased waist circumference (> 80cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:28:29",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

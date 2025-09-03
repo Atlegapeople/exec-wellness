@@ -1,0 +1,63 @@
+{
+  "employee_id": "ee0c1b77cbb015f5",
+  "employee_name": "Sungeetha Sewpersad",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-20",
+      "report_id": "5a25bd67681d35d2",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sungeetha Sewpersad",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Improve lifestyle habits by exercising moderately, eating a colourful diet & adequate sleep.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor platelets, liver function, insulin & cortisol levels in 3 months. Further work up may be necessary.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Aim for vitamin D levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "In addition to diet changes, supplements such a Rhychol may help lower cholesterol levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue breast cancer screening as recommended.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To prevent persisting neck pain please optimise your work station. The ergonomics team is able to assist you. Please reach out to your team leader for direction.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:44:01",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

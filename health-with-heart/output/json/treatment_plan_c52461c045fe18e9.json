@@ -1,0 +1,57 @@
+{
+  "employee_id": "c52461c045fe18e9",
+  "employee_name": "Sanna Ndzendevu",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-04",
+      "report_id": "9305010210080",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sanna Ndzendevu",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on maintaining a good waist circumference rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Please seek help from a mental health professional if you are experiencing symptoms of stress, anxiety, or depression.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Consult a dietitian for personalized nutrition advice.",
+          "status": "Planned",
+          "source_field": "NutritionRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:16:02",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

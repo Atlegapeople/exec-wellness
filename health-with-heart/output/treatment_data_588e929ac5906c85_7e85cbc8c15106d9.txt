@@ -1,0 +1,178 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:02
+Employee ID: 588e929ac5906c85
+Report ID: 7e85cbc8c15106d9
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 10mg daily
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 10mg daily
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 10mg daily
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Aspavor 10mg daily
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue annual health screening, pay attention to the conditions that have occurred in your family.
+-Monitor cholesterol & kidney function closely.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue annual health screening, pay attention to the conditions that have occurred in your family.
+-Monitor cholesterol & kidney function closely.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue annual health screening, pay attention to the conditions that have occurred in your family.
+-Monitor cholesterol & kidney function closely.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue annual health screening, pay attention to the conditions that have occurred in your family.
+-Monitor cholesterol & kidney function closely.
+-Employ lifestyle habits that benefit your present & future health.
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Magnesium , omega
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Magnesium , omega
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Bilateral high frequency hearing loss, a full audiogram with the audiologist is recommended to review.  Rest of the examination normal on the day.
+Men's Health Recommendations: -Prostate screening becomes important after the age of 40. Straining to urinate, waking at night to urinate, dribbling after passing urine & a weaker stream are some signs to look out for.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Magnesium , omega
+Special Investigation Notes: None
+------------------------------
+Employee: Takunda Pongweni
+Report Date: 2025-06-02
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please monitor for any urinary symptoms and review with your doctor if needed.
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: VitaminsOrSupplements
+Comment Value: Magnesium , omega
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-11-02 - 2022-11-02
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2025-06-05 - 2025-06-05
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2025-06-05 - 2023-05-05
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

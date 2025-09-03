@@ -1,0 +1,51 @@
+{
+  "employee_id": "6K2mXo2RzLKt33Nt",
+  "employee_name": "Mapitsi Monyamane",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "cCo96g93daUmvb6A",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mapitsi Monyamane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ECG: Normal sinus rhythm with ventricular extrasystoles on resting ECG, no inducible ischaemia, normal stress response",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a whole food, anti-inflammatory diet, Check for hidden infections and allergies, address any gut issues, exercise regularly, practice deep relaxation, sleep for 8 hours every night",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep ,try manage stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:07:02",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

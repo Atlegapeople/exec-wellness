@@ -1,0 +1,33 @@
+{
+  "employee_id": "f8f6ae0ce3a96b87",
+  "employee_name": "MARIA HENDRIENA VENTER",
+  "treatment_timeline": [
+    {
+      "date": "2025-08-14",
+      "report_id": "4873a60cbdee5780",
+      "report_date": "2025-08-14",
+      "doctor": "Jessica Koen",
+      "nurse": "Masha Tisetso",
+      "employee_name": "MARIA HENDRIENA VENTER",
+      "actions": [
+        {
+          "category": "Women's Health Recommendations",
+          "recommendation": "URINE DIPSTICK- pH 5 | PROT- TRACE | S.G 1.015",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:50:54",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

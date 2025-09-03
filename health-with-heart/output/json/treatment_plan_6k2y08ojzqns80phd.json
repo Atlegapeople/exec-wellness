@@ -1,0 +1,115 @@
+{
+  "employee_id": "6k2y08ojzqns80phd",
+  "employee_name": "Gerard Jagga",
+  "treatment_timeline": [
+    {
+      "date": "2019-11-12",
+      "report_id": "hawv7jmeyselvzs89",
+      "report_date": "2019-11-12",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gerard Jagga",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or persistent urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Sleep",
+          "recommendation": "Try to limit screen time for at least two hours before bed as the blue light inhibits melatonin, the sleep hormone. Consider doing something relaxing before bedtime like having a bath with epsom salts and some chamomile tea or 5 minutes of a sleep meditation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Exercise",
+          "recommendation": "Try to increase your exercise to 30 minutes, five times per week.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-14",
+      "report_id": "76ce835fa2fbbe02",
+      "report_date": "2022-10-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gerard Jagga",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new or persistent urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "There are no major red flags that need to be addressed immediately, rather refine your everyday lifestyle choices for improved future health. These adjustments take a good 3-6 months to show change.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-07",
+      "report_id": "Not specified",
+      "report_date": "2024-11-07",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gerard Jagga",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A repeat kidney function test is advised.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Stay attuned to your mental wellbeing, keeping well is a priority.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Commit to being physically active, there are significant benefits to reap.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with Vitamin B & Folate.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:07:29",
+  "total_reports": 3,
+  "total_actions": 11,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

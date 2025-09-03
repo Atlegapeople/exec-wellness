@@ -1,0 +1,51 @@
+{
+  "employee_id": "0pqj0rnun2y7i6vs3",
+  "employee_name": "Debbie Law",
+  "treatment_timeline": [
+    {
+      "date": "2020-03-17",
+      "report_id": "wa2gtal20g5xkn89u",
+      "report_date": "2020-03-17",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Debbie Law",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Increased BMI and waist circumference",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:02:31",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

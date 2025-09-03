@@ -1,0 +1,63 @@
+{
+  "employee_id": "02lt781jwtztg4vqn",
+  "employee_name": "Rochelle Lupton",
+  "treatment_timeline": [
+    {
+      "date": "2022-01-19",
+      "report_id": "i73og3h2zgej7x2pk",
+      "report_date": "Not specified",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rochelle Lupton",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Genetic Counselling, Counselling about function and managing work situation, Physio and biokinetics",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "DHEA supplement and circadian",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Genetic risk for MND",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Needs to recheck her blood pressure, Diet might be a bit high in saturated fats, Unable to do much exercise due to pain",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Omega 3 supplements",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Phytomulti",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:54:25",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

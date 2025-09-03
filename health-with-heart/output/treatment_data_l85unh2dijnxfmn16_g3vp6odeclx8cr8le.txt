@@ -1,0 +1,4471 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:06
+Employee ID: l85unh2dijnxfmn16
+Report ID: g3vp6odeclx8cr8le
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Currently not on medicine, stopped inergy 6 months ago
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamNote
+Comment Value: Mild hearing loss in right ear
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: LabTestNote
+Comment Value: Cholesterol raised, mildly raised uric acid
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MedicalHistoryNote
+Comment Value: You live a healthy lifestyle in general and this will have many protective and beneficial effects on your health.
+The one red flag picked up is your cholesterol levels which are pushing your cardiac age up to 57 y and your risk for a cardiovascular event up to 11.2%. This is classified as a moderate risk. If you could reduce your cholesterol to under 5 the risk would decrease to 7.9% which is low risk and your cardiac age would be 51 years. I suggest chatting to your GP or cardiologist about restarting meds or other options. Your diet is healthy already but you need to be very aware of avoiding animal fats and try to increase your fish, veggie and fibre intake which may help. Keep up the daily exercise which is protecting you by keeping your good cholesterol high enough.
+From a screening point of view you are due for a colonoscope and a dermatology check up. Your prostate screening was reassuring I advise yearly PSA and prostate checks.
+Your mental health is excellent and you look after your self well. I wish you good health for 2019 and look forward to seeing you next year.
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: SpecialInvestigationNote
+Comment Value: Pending Bio exam
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: VitalsNote
+Comment Value: Good results in vital signs
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: I would recommend restarting your cholesterol meds or consulting with Dr Whitfield or Dr Scott for alternative treatments that you could try. A consult with your cardiologist might be beneficial.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol levels
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Omega 3 supplements may help protect against cardiac disease or ensuring that you eat fish 3-4 x a week
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your cholesterol is the highest risk factor picked up
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Exercise
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Uric acid levels
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increase your intake of vegetables and red/blue fruit
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+Employee: Herman Bosman
+Report Date: 2019-07-16
+Doctor: Kim Comline
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Watch for a risk of gout which may flare up after alcohol binges or too much red meat intake
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Pending Bio exam
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-07-16 - 2019-07-16
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

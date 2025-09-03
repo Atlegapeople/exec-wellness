@@ -1,0 +1,86 @@
+{
+  "employee_id": "jloxnux3uj95hky2f",
+  "employee_name": "Grainne Formby",
+  "treatment_timeline": [
+    {
+      "date": "2019-02-05",
+      "report_id": "brvrhmwbmt5ndnix6",
+      "report_date": "2019-02-05",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Grainne Formby",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ECHO should be considered if not already done and to monitor symptoms.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Excellent diet and exercise",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular dermatology checks advised (6 monthly)",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement B vitamins to try and lower homocysteine levels and thus protect against cancer (choose solal or metagenics brands for methylated folate)",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-03-02",
+      "report_id": "ontb27x6vcovrj774",
+      "report_date": "2021-03-02",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Grainne Formby",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Repeat urine dipstix, ensure midstream specimen. If still has leukocytes then send urine for MC&S. Drink lots of water.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Above optimal homocysteine: continue with Phytomulti supplementation and try to take it regularly (2 tablets daily). Aim for a homocysteine around 8",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Skin care: continue to protect your skin from the sun and attend your frequent dermatology follow ups",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "LBBB: monitor symptoms and continue following up with cardiologist",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:15:24",
+  "total_reports": 2,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

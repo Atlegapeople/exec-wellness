@@ -1,0 +1,45 @@
+{
+  "employee_id": "tg6EXKx4NXL7qGCs",
+  "employee_name": "Maropeng Mabotha",
+  "treatment_timeline": [
+    {
+      "date": "2023-11-02",
+      "report_id": "Zg9SY4kUpZdoXJ8D",
+      "report_date": "2023-09-14",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Maropeng Mabotha",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To decrease your risk of cardiovascular events aim for a BMI between 18 and 25 as well as a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:07:48",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

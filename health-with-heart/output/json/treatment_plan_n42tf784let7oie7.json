@@ -1,0 +1,63 @@
+{
+  "employee_id": "n42tf784let7oie7",
+  "employee_name": "Charles Ralefatane",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-31",
+      "report_id": "c5c9064246c87deb",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Charles Ralefatane",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Ideal blood pressure is between 90-60mmHg diastolic (bottom number) and 120-80mmHg systolic (top number). If remains high implement lifestyle changes in consultation with your doctor.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "ECG: LVH is often caused by hypertension, discuss with your doctor. Sinus bradycardia can be a normal finding in athletes, exercise strengthens the heart muscle to pump a greater amount of blood with each heartbeat",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eating a diet rich in fruits, vegetables, lean proteins, and whole grains can help maintain a healthy weight and reduce the risk of chronic diseases.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regular exercise is essential for maintaining a healthy lifestyle. Aim for at least 30 minutes of moderate-intensity exercise most days of the week.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid smoking and limit alcohol consumption to reduce the risk of chronic diseases.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:34:32",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

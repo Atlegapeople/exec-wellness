@@ -1,0 +1,33 @@
+{
+  "employee_id": "99bsn8cvgq26czxn",
+  "employee_name": "Sibusiso Maduna",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-29",
+      "report_id": "a8f9cfdbaad6523f",
+      "report_date": "2022-11-29",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sibusiso Maduna",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "pH 6, SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:37:08",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

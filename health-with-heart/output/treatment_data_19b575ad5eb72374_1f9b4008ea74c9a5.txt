@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:51
+Employee ID: 19b575ad5eb72374
+Report ID: 1f9b4008ea74c9a5
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Zukiswa Masimini
+Report Date: 2022-04-12
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: ketones trace, Leucocytes 1+, blood 1+
+------------------------------
+Employee: Zukiswa Masimini
+Report Date: 2022-04-12
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: ketones trace, Leucocytes 1+, blood 1+
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

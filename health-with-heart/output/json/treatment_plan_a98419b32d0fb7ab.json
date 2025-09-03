@@ -1,0 +1,39 @@
+{
+  "employee_id": "a98419b32d0fb7ab",
+  "employee_name": "Limpho Faku",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-19",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Limpho Faku",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Stop smoking and reduce the number of drinks you have when you do drink.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:51:51",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

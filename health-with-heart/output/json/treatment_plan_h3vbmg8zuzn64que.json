@@ -1,0 +1,69 @@
+{
+  "employee_id": "h3vbmg8zuzn64que",
+  "employee_name": "Johanna Thekiso",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-27",
+      "report_id": "a653e1340abfb4db",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Johanna Thekiso",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Fullness in right axilla, not a mass as such, please monitor it, see a doctor of does not go away.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a whole food, anti-inflammatory diet, Check for hidden infections and allergies, address any gut issues, exercise regularly, practice deep relaxation",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin , Vitamin D , Iron supplements , Omega 3",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "From age 50 annual bone density screen for osteoporosis and colonoscopy for colon cancer is recommended",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Chronic Tiredness",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:01:16",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

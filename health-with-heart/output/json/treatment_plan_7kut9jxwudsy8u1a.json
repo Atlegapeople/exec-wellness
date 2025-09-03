@@ -1,0 +1,63 @@
+{
+  "employee_id": "7kut9jxwudsy8u1a",
+  "employee_name": "Ashley Welch",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-20",
+      "report_id": "6b8ab03130001c51",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Ashley Welch",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Breast ultrasound recommended",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Breast ultrasound recommended",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Emotional self-care is an important part of managing stress, well done for prioritising that.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Patient also requested bloods for iron profile and FSH on the separate form .Patient made aware that results will be given on the day of the medical .Patient verbalised that she is in no rush and will et results on the day of the medical .",
+          "status": "Planned",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:16:48",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

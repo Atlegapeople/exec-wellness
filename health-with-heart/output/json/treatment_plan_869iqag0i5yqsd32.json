@@ -1,0 +1,51 @@
+{
+  "employee_id": "869iqag0i5yqsd32",
+  "employee_name": "Michelle Govender",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-10",
+      "report_id": "305fc8d5404608fe",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Michelle Govender",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear. An annual mammogram is recommended from age 40.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consult with a doctor if the left-sided lower abdominal discomfort persists.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on whole, real unprocessed foods, practice good sleep hygiene, and try to manage your stress.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Neurobion",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:25:20",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

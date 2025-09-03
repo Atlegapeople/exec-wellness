@@ -1,0 +1,51 @@
+{
+  "employee_id": "7298dd2a30488071",
+  "employee_name": "Raksha Maharaj",
+  "treatment_timeline": [
+    {
+      "date": "2022-12-01",
+      "report_id": "78ac4a944661a1c8",
+      "report_date": "2022-09-07",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Raksha Maharaj",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Dense tissue noted on mammogram therefore annual screening has been recommended.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your BMI suggests that you are underweight. Ensure that you are nourishing your body with sufficient, healthy and nutrient dense foods.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Slight dizziness most likely associated with low blood pressure. Ensure adequate hydration and consider a pinch of sea salt in your water.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Lung function was slightly reduced, probably due to poor technique. Consider repeating the test.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:10:13",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "t1plzwfteg5vzqx8",
+  "employee_name": "Devesh Lakman",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-13",
+      "report_id": "a68573018757872c",
+      "report_date": "Not specified",
+      "doctor": "Dr. Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Devesh Lakman",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "You report experiencing tension headaches and occasional migraines. This can often be affected by the ergonomics of your working environment as well as stress levels. Wearing the correct glasses prescription can also reduce eye strain and prevent headaches from being triggered.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:06:47",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

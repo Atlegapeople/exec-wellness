@@ -1,0 +1,69 @@
+{
+  "employee_id": "72bf4fc4d510006b",
+  "employee_name": "Direen Eraman",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-21",
+      "report_id": "096fab39c2fa2fb4",
+      "report_date": "2022-10-21",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Direen Eraman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "If you cannot determine a Reynolds Risk score as no hsCRP result, it may be advisable to do an abdominal ultrasound.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is advised to maintain your BMI < 25 and your waist to height ratio < 50% (i.e. it is advised that you lose weight, especially around your abdomen).",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please start the glucophage and work on the lifestyle factors discussed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "If you are experiencing symptoms of depression, it is recommended to seek help from a mental health professional.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "If you are experiencing symptoms of anxiety, it is recommended to seek help from a mental health professional.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "It may be advisable to refer you to a mental health professional for further evaluation and treatment.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "You have booked a follow up in December where we will review results and meds.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:10:24",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

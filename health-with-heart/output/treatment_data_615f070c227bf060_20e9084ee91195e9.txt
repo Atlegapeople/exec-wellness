@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:50
+Employee ID: 615f070c227bf060
+Report ID: 20e9084ee91195e9
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Roslyn Nelson
+Report Date: 2021-09-16
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 2+, asymptomatic
+------------------------------
+Employee: Roslyn Nelson
+Report Date: 2021-09-16
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes 2+, asymptomatic
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

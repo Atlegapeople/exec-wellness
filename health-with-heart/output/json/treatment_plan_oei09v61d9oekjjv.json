@@ -1,0 +1,26 @@
+{
+  "employee_id": "oei09v61d9oekjjv",
+  "employee_name": "Dineo Sello",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "e17c04e9fa561f66",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dineo Sello",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

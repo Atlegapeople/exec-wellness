@@ -1,0 +1,4526 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:39
+Employee ID: i4oo0g6wvey4f88zg
+Report ID: gll4u9fqaw1mvl81l
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: LabTestNote
+Comment Value: Elevated homocysteine, GGT, Hs-CRP
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryNote
+Comment Value: Ismail, it was a pleasure meeting you, I think it's incredible that you still play soccer with friends, if you make no other changes please keep doing that, you will find that once you manage to quit smoking you will feel stronger. Hope you found this medical helpful.
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: SpecialInvestigationNote
+Comment Value: 0
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: VitalsNote
+Comment Value: Waist to height ratio borderline. BMI normal 
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Smoking cessation will significantly improve your quality of life and lower risk of lung and heart disease
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Incorporate more home cooked meals to keep your cholesterol and sugar levels optimal 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Heavy smoking 
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High-sensitivity C-reactive protein (hsCRP) is a marker of inflammation that predicts incident heart attacks, stroke and arterial disease. A level lower than 1 is ideal
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Family history of heart disease, smoking, diet high in fat
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Good body fat percentage 
+Frequent exercise
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Raised homocysteine and Hs-CRP
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine is raised - cut down on alcohol use, use methylated B vitamins
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+Employee: Ismail Dawood
+Report Date: 2022-04-07
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised GGT- Liver marker. Please avoid all alcohol and repeat the markers in 6/52 and do a sonar if still raised.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: 0
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-04-19 - 2022-04-19
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------

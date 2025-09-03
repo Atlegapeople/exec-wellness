@@ -1,0 +1,63 @@
+{
+  "employee_id": "a169b05e5da6ce34",
+  "employee_name": "Gwen Sefatsa",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-03",
+      "report_id": "6aa1ca5f54c52748",
+      "report_date": "2023-07-03",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gwen Sefatsa",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You examine well with a good baseline. If any concerns arise to seek medical review.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "There is a family history of cervical cancer - regular Pap smear screening helps early detection & management of any irregularities. Mammogram screening is also important as well as regular self breast examinations.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintaining a routine of low impact exercise & a healthy diet both show many benefits. This will help improve your general well-being & long term health outcomes.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:45:40",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "employee_id": "9fa55ee79f1136ea",
+  "employee_name": "Gareth Wright",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-11",
+      "report_id": "ffc779cd85ebd679",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Gareth Wright",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Keep following up with Dr Fischer for an enlarged prostate/prostatitis as he recommends.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your GP or urologist.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-23",
+      "report_id": "c3ec4e47e3ab621e",
+      "report_date": "2024-10-23",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gareth Wright",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Keep following up with Dr Fischer for an enlarged prostate/prostatitis as he recommends.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your GP or urologist.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:42:05",
+  "total_reports": 2,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

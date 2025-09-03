@@ -1,0 +1,45 @@
+{
+  "employee_id": "4ef4bd787daee9c3",
+  "employee_name": "Marius de Lange",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-20",
+      "report_id": "fa46930b110ef5dd",
+      "report_date": "2022-09-20",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Marius de Lange",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "To limit cardiovascular risk maintain BMI <25 and waist to height ratio <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Marius the most important issue that we picked up today is your slightly raised fasting insulin level. As discussed this can be a sign of insulin resistance/pre diabetes. I would encourage you to make lifestyle changes as discussed and to recheck your level in 3 months time. If it remains high please follow up with us or your GP for further assessment and assistance in managing it.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "CoEnzyme Q10 , Zinc , Vitamin B co",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:42:47",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

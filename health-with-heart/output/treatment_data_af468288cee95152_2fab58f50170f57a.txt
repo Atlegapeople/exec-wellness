@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:06
+Employee ID: af468288cee95152
+Report ID: 2fab58f50170f57a
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Lance Brooks
+Report Date: 2021-03-02
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Blood 1+
+------------------------------
+Employee: Lance Brooks
+Report Date: 2021-03-02
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Blood 1+
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

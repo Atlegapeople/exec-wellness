@@ -1,0 +1,39 @@
+{
+  "employee_id": "eac7a51da0abfd8c",
+  "employee_name": "Ahmed Ismail",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-29",
+      "report_id": "Not specified",
+      "report_date": "2022-07-29",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ahmed Ismail",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "To decrease cardiovascular risk aim for BMI <25 and waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Ahmad please follow up with the cardiologist if you continue to get palpitations and episodes of dizziness.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:41:11",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

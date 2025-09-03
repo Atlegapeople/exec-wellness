@@ -1,0 +1,45 @@
+{
+  "employee_id": "ecm04245wvx2r595",
+  "employee_name": "Clayton Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-23",
+      "report_id": "af283a22b135ea89",
+      "report_date": "2022-08-31",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Clayton Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "- Blood pressure raised. Lower by exercising regularly, reduce the salt (sodium) content in your diet and limit alcohol intake.  Review in 3 months.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "- Waist circumference is borderline - lower to decrease risk of heart disease and diabetes.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report on any new changes in your health in the coming months.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:43:08",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

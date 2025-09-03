@@ -1,0 +1,26 @@
+{
+  "employee_id": "baaa48da1ba7c0ec",
+  "employee_name": "Sandile Ngcobo",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "27bbaeb8386049ab",
+      "report_date": "2022-11-16",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sandile Ngcobo",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

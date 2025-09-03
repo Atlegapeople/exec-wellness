@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 8b69d4badde46d74
+Report ID: 495cbd27af6e8965
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Thenjiwe Masondo
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace in urine.
+------------------------------
+Employee: Thenjiwe Masondo
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace in urine.
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

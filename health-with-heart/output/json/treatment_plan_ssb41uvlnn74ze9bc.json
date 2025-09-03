@@ -1,0 +1,63 @@
+{
+  "employee_id": "ssb41uvlnn74ze9bc",
+  "employee_name": "Jannie Van der Walt",
+  "treatment_timeline": [
+    {
+      "date": "2019-11-26",
+      "report_id": "youcjtw6intlas7ty",
+      "report_date": "2019-11-26",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jannie Van der Walt",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Focus on your diet and lifestyle to lose weight and aim to reduce your waist circumference to below 102cm to reduce your risk of chronic disease.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Pilates twice a week",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Supplement recommendations:\n- Vitamin D3 5000iu daily, then repeat level in 3 to 6 months\n- Omega 3, probiotics and curcumin all help to reduce inflammatory conditions and may help manage your psoriatic arthritis\n- Berberine 500mg twice a day can help to reduce your insulin levels",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Mildly raised ALT (liver enzyme) can be an indication of fatty liver disease. Losing weight and focusing on your lifestyle as discussed above should help to correct this. A liver sonar can confirm the diagnosis of fatty liver disease.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "I would strongly encourage you to follow a mediterranean style diet, focusing on lots of colourful vegetables, moderate amounts of good quality protein and fatty fish and healthy fats such as olive oil, olives, avo, nuts and seeds. This anti inflammatory style diet will help to prevent chronic disease and help with managing your psoriasis.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Reduce alcohol consumption as it can put strain on the liver.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:04:57",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

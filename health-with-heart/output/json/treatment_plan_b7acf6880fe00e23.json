@@ -1,0 +1,69 @@
+{
+  "employee_id": "b7acf6880fe00e23",
+  "employee_name": "Tanya Hulley",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-30",
+      "report_id": "667813553a81645c",
+      "report_date": "2022-08-23",
+      "doctor": "Joy Sitole",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Tanya Hulley",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your blood pressure is elevated. It is advisable to start treatment",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "You have a murmur that is most audible over the aortic area. Please consult your doctor or a physician for work up and investigation",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increasing the duration and intensity of your exercise will aid in overall fitness, it may also improve your sleep",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your weight is in the obesity range. To decrease cardiovascular risk aim for BMI 25 and waist to height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Shortness of breathe and palpitations are not normal. In light of the murmur I found while examining this ought to be investigated by a physician",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , vitamin c , Vitamin D , Magnesium , Vitamin B co , biotin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please see a gynaecologist/ fertility specialist.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:02:52",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

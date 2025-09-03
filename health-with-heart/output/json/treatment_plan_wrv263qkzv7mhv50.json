@@ -1,0 +1,45 @@
+{
+  "employee_id": "wrv263qkzv7mhv50",
+  "employee_name": "Tokollo Matsapola",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-10",
+      "report_id": "d0e403b5b449d38a",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Tokollo Matsapola",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "An Increased waist circumference (> 90 cm) is associated with a higher risk of heart disease and diabetes. To decrease your risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure elevated.",
+          "status": "Ongoing",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on stress management as this came through in the results and in our discussion.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:22:53",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

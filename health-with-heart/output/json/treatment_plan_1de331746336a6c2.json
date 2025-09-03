@@ -1,0 +1,201 @@
+{
+  "employee_id": "1de331746336a6c2",
+  "employee_name": "Oduala Osei",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-19",
+      "report_id": "e3feee39fe11ca81",
+      "report_date": "Not specified",
+      "doctor": "Skye Scott",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Oduala Osei",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Before we proceed with any supportive autoimmune intervention, it would be prudent to get a report from your Rheumatologist and hear his thoughts on reducing some of your medicines, this has not been done since your diagnosis. Please do the same with your optometrist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Your blood pressure was elevated when done with the nurse, but was normal in our consultation. Please pop in to check this every few months.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Omega 3 , Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please do the same with your optometrist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "You currently experience fluctuating energy levels, situational anxiety, intermittent joint aches and pains.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "It is recommended to seek help for your mental health concerns. Consider reaching out to a therapist or counselor.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider joining a support group for people with Sjogren's syndrome to connect with others who understand your experiences.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider practicing stress management techniques such as meditation, deep breathing exercises, or yoga to help manage your anxiety.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a physical therapist to help manage your joint pain.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a rheumatologist for ongoing management of your Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a neurologist for ongoing management of any potential neurological symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a dermatologist for ongoing management of any potential skin symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out an endocrinologist for ongoing management of any potential hormonal imbalances related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a gastroenterologist for ongoing management of any potential digestive symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a pulmonologist for ongoing management of any potential respiratory symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a cardiologist for ongoing management of any potential heart symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a nephrologist for ongoing management of any potential kidney symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a hematologist for ongoing management of any potential blood symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a psychiatrist for ongoing management of any potential mental health symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a psychologist for ongoing management of any potential mental health symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a social worker for ongoing management of any potential social or emotional issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a nutritionist for ongoing management of any potential nutritional issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a physical therapist for ongoing management of any potential fatigue related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a pain management specialist for ongoing management of any potential pain related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a rehabilitation specialist for ongoing management of any potential mobility issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a speech therapist for ongoing management of any potential speech or swallowing issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a vision specialist for ongoing management of any potential eye symptoms related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a hearing specialist for ongoing management of any potential hearing issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Mental Health",
+          "recommendation": "Consider seeking out a dentist for ongoing management of any potential dental issues related to Sjogren's syndrome.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:08:27",
+  "total_reports": 1,
+  "total_actions": 29,
+  "medical_staff": {
+    "doctors": [
+      "Skye Scott"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

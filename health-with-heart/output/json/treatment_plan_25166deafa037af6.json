@@ -1,0 +1,51 @@
+{
+  "employee_id": "25166deafa037af6",
+  "employee_name": "Mavis Matshali-Fayson",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-23",
+      "report_id": "875c0bf601c95c57",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Mavis Matshali-Fayson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical exam on the day. Borderline BP (high normal range). Monitor BP at home and if it is above 140/90 please follow up.",
+          "status": "Ongoing",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "See a dietician to assist you with a low carb diet and some weight loss.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please repeat the bloods as discussed and see me when you are back from the USA in September.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin C , Omega 3 , Chlorella",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:13:26",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

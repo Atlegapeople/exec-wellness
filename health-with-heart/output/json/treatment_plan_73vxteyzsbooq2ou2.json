@@ -1,0 +1,80 @@
+{
+  "employee_id": "73vxteyzsbooq2ou2",
+  "employee_name": "Mnisi Isabella",
+  "treatment_timeline": [
+    {
+      "date": "2019-08-06",
+      "report_id": "19jxjkpp3110c9qxe",
+      "report_date": "2019-08-06",
+      "doctor": "Kim Comline",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mnisi Isabella",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Vit D3 supplementation of at least5000iu day is recommended. You can repeat your Vitamin D bloodtest in 2 months and once its normal you can go on to 1000iu a day.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A bone density scan has also been requested.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Please get the mole under your nail and other moles seen by a dermatologist.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Since you are trying to loose a little weight you could Increase your cardio exercise by 1 hour a week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-02-10",
+      "report_id": "3pjj1iawzjntinfow",
+      "report_date": "2022-02-10",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mnisi Isabella",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Consider asking your gynae to check your hormone levels.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Add magnesium citrate and vitamin c if necessary to manage constipation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Vitamin D supplements as prescribed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:11:35",
+  "total_reports": 2,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Kim Comline"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

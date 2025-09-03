@@ -1,0 +1,26 @@
+{
+  "employee_id": "bc0cbf34a54a201b",
+  "employee_name": "Bilal Ebrahim",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "4f6f04dad789f0b1",
+      "report_date": "2022-07-12",
+      "doctor": "Cindy Smit",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Bilal Ebrahim",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

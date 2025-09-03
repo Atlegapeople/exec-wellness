@@ -1,0 +1,63 @@
+{
+  "employee_id": "v7attqqy442bibvm",
+  "employee_name": "Pandelani Nekhumbe",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-15",
+      "report_id": "8eed5324adfd653d",
+      "report_date": "Not specified",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pandelani Nekhumbe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please REPEAT blood tests (thyroid most NB) now in 2024.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Remember to eat a RAINBOW diet :-)",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise/weight training & HIIT will improve testosterone which also improves mood and performance.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise regularly for better health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Neurobion",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Contact ICAS for further assistance.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:15:23",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

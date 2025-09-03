@@ -1,0 +1,63 @@
+{
+  "employee_id": "07eed1d95754b83f",
+  "employee_name": "Keiron Frost",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-18",
+      "report_id": "a3d46d315f9c4f9d",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Keiron Frost",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Prostate screening becomes important from the age of 45. Until then, pay attention to any changes in your urinary patterns & sexual function.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Ensure adequate daily intake of water & protein. Consider supplementing with B vitamins & folic acid.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid alcohol binges, rather keep to 2-3 drinks.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Repeat DHEA levels & kidney function in 3 months. More work up may be necessary.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Waist-to-height ratio of 46.9 % is good. This lowers your risk of conditions such as diabetes & hypertension.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Body fat of 12.2% is good.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:56:58",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

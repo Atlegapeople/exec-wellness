@@ -1,0 +1,63 @@
+{
+  "employee_id": "f2bfb2b9347f85d4",
+  "employee_name": "Eugene King",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-25",
+      "report_id": "7b8e6633b74bb581",
+      "report_date": "2021-03-25",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Eugene King",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "PH 6, SG 1.005",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "report_id": "7f598fbad13eb926",
+      "report_date": "2024-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Eugene King",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "- PROTEIN: TRACE",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "- S.G: 1020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "- PH: 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:48:43",
+  "total_reports": 2,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart",
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Masha Tisetso"
+    ]
+  }
+}

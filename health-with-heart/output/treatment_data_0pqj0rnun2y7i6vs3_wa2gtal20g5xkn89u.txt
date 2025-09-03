@@ -1,0 +1,4626 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:23
+Employee ID: 0pqj0rnun2y7i6vs3
+Report ID: wa2gtal20g5xkn89u
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Depot Provera every 3 months
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamNote
+Comment Value: Eczema in both ears
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: LabTestNote
+Comment Value: Recent PAP smear done and was normal
+Suboptimal vitamin D hsCRP in falls in average range for heart disease risk
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MedicalHistoryNote
+Comment Value: Debbie you currently seem to be in good health, living a very active lifestyle. The only suggestions I would make to improve and maintain your good health are supplementing with vitamin D and trying to reduce your waist circumference if possible. Look after yourself during this trying time and practice stress reduction techniques such as deep breathing and meditation. We look forward to seeing you in the future for your next medical.
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: SpecialInvestigationNote
+Comment Value: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: VitalsNote
+Comment Value: Appears in good health
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Supplement with vitamin D3 5000iu daily. Retest your level in 3 to 4 months aiming for a level of 50 to 80ng/ml. Once it is in this range you can reduce to 1000iu daily.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: hsCRP is a measure of inflammation which is used to predict risk of cardiovascular disease. Your level falls into the average risk category. Ways to reduce inflammation include a mediterranean style diet, avoiding sugar and trans fats, exercise, not smoking, avoiding toxins as much as possible, maintaining an ideal body weight and stress reduction.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Increased BMI and waist circumference
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Minimal alcohol consumption
+Very active
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Suboptimal vitamin D level
+hsCRP in average risk category for predicting cardiovascular disease
+Increased waist circumference and BMI
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Generally, the larger your waist circumference, the higher your risk of developing chronic diseases such as type 2 diabetes, heart disease and some cancers. Aim for a waist circumference of 80cm or less.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+Employee: Debbie Law
+Report Date: 2020-03-17
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Lung function test deferred. Leukocytes noted in urine but no symptoms of UTI
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2020-03-17 - 2020-03-17
+Time: 08:00:00 - 08:00:00
+Notes: 
+Status: Completed
+------------------------------

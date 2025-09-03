@@ -1,0 +1,49 @@
+{
+  "employee_id": "0eab09a4e21f672b",
+  "employee_name": "Mmamajakane Dolly Matlaila",
+  "treatment_timeline": [
+    {
+      "date": "2021-10-26",
+      "report_id": "d4d6708e090840d5",
+      "report_date": "2021-10-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mmamajakane Dolly Matlaila",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Blood trace client says she is currently spotting.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-22",
+      "report_id": "f99849a8bfd38aef",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mmamajakane Dolly Matlaila",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 5, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:00:58",
+  "total_reports": 2,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

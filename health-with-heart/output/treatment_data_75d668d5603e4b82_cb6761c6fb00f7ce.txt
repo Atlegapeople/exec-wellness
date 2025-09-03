@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:15
+Employee ID: 75d668d5603e4b82
+Report ID: cb6761c6fb00f7ce
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Mandla Mkhatshwa
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Nil Abnormalities
+------------------------------
+Employee: Mandla Mkhatshwa
+Report Date: 2023-09-18
+Doctor: Alex Stuart
+Nurse: Ntombikayise Seane
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Nil Abnormalities
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

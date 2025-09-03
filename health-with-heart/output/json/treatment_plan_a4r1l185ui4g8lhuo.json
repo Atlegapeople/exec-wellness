@@ -1,0 +1,57 @@
+{
+  "employee_id": "a4r1l185ui4g8lhuo",
+  "employee_name": "Lincoln Alcock",
+  "treatment_timeline": [
+    {
+      "date": "2021-10-05",
+      "report_id": "zeu5cf3co9g924j5p",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lincoln Alcock",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Repeat hormones, AST, hsCRP and book a NerveIQ and your Lung Function. Once we have all these parameters, we can establish next steps.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Recommend a non urgent appt with a Dermatologist for Mole mapping",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Consider replacing Phytomulti with Methylcare once we have repeated bloods.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Reduce red meat to once a week. Take your foot off the gas a little to avoid burn out",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Integrate some more life-work harmony. Not enough down time is a slow, but sure path towards burn out. You need more than 4 hours of sleep a night and at least an hour of no screen time ahead of going to bed.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:36",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

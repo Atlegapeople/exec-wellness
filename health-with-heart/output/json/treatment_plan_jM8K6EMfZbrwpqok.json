@@ -1,0 +1,63 @@
+{
+  "employee_id": "jM8K6EMfZbrwpqok",
+  "employee_name": "Sandy Ntuli",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "uojtGMSPCprX3xDJ",
+      "report_date": "2023-09-14",
+      "doctor": "Skye Scott",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sandy Ntuli",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You need to nominate our practice for me to refer you to a gastroenterologist to do a gastroscope and fix your hernia.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram. This is recommened screening for your age.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I think we need to start with diet and exercise and reducing meat.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "You also need to take Vit D, I scripted Calciferol 50k twice a week.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "We must watch your kidney function and cardiac risk markers too.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:15:56",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Skye Scott"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "qoommjvkpztcnk9t",
+  "employee_name": "Thembekile Dlamini",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-19",
+      "report_id": "5b502636d2ab0683",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Thembekile Dlamini",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:53:01",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

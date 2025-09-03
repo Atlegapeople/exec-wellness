@@ -1,0 +1,26 @@
+{
+  "employee_id": "cakizj141jpopbqb",
+  "employee_name": "Samashni Cassim",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "7b8077cc8db15c12",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Samashni Cassim",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "employee_id": "yaklzwmwnac0dc7m",
+  "employee_name": "Shaun De Sousa",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-16",
+      "report_id": "1b961a038493c094",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Shaun De Sousa",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Improving exercise routine",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reducing sugar",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Building stress management techniques",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Good sleep quality",
+          "status": "Ongoing",
+          "source_field": "VitalsNote"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular screening of any skin lesions - ‘Mole Mapping’ can be done with a Dermatologist",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "As you get older (>40 years), it is important to go for regular prostate screening. This included PSA blood levels as well as prostate clinical examinations. It helps detect any abnormalities early & improves management outcomes.",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin B , Vitamin D3 , Idexis Stress Capsules",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:27:24",
+  "total_reports": 1,
+  "total_actions": 7,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

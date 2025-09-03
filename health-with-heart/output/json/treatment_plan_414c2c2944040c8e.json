@@ -1,0 +1,75 @@
+{
+  "employee_id": "414c2c2944040c8e",
+  "employee_name": "Lutando Mayekiso",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-02",
+      "report_id": "182fe73a4de92f31",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Lutando Mayekiso",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "ENT - Wax in the right ear (Cerumol prescribed)",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Audio screen - Right ear - mild to moderate-severe sloping hearing loss. Please repeat the screen once the wax has been addressed to determine if hearing loss is still present.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Dietician consult to improve your diet (Regine is available at the Wellness Centre)",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Decreasing alcohol use significantly",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Weight loss",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercising atleast 3-4 times a week",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Raised diastolic BP, repeat done during medical 127/98",
+          "status": "Completed",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Employee verbalised that he had flu over the weekend. Currently medicating with Bronchol syrup, Corenza c, Mybulen tablets and throat lozenges. His throat still feels scratchy and itchy.",
+          "status": "Completed",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:34:37",
+  "total_reports": 1,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

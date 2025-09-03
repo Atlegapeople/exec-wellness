@@ -1,0 +1,57 @@
+{
+  "employee_id": "fj6kmy25slcyfswy",
+  "employee_name": "Madi Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "e995ea62bb57ac6a",
+      "report_date": "2022-08-31",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Madi Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abnormal audiology screen with decreased hearing bilaterally. You do however have wax impacted bilaterally. Cerumol prescribed. Please have wax removed once softened& repeat audiology review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Prostate screens over the age of 50. Your PSA was normal.",
+          "status": "Completed",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "The biggest concern for future complications is your smoking and inactivity with poor dietary choices. Please see a dietitian, aim to be active on a daily basis and enjoy retirement.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "You had a flu like illness in the last 2 weeks and completed antibiotics. This could have affected your inflammation marker levels on your blood tests. Persisting post nasal drip and blocked nose - treatment prescribed.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "To optimise cardiovascular risk maintain BMI <25 and waist to height ratio less than 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:56:03",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

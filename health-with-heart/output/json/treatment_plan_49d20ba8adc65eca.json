@@ -1,0 +1,45 @@
+{
+  "employee_id": "49d20ba8adc65eca",
+  "employee_name": "Kanya Ngewu",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-12",
+      "report_id": "9f494336154e06c4",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Kanya Ngewu",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure readings raised. Please follow up with Doctors at HwH or your own GP after 3x weekly BP checks.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a balanced diet, exercise regularly, and manage stress levels to help lower blood pressure.",
+          "status": "Ongoing",
+          "source_field": "Not specified"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Follow up for elevated blood pressures is required.",
+          "status": "Planned",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:40:23",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

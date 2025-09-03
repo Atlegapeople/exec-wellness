@@ -1,0 +1,45 @@
+{
+  "employee_id": "p03sj0lq7rbtxx0hi",
+  "employee_name": "Ashwin Lakhan",
+  "treatment_timeline": [
+    {
+      "date": "2023-10-25",
+      "report_id": "474ed5cd9f2918e9",
+      "report_date": "2023-10-25",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ashwin Lakhan",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Your blood results showed a normal PSA level. However these levels can be reduced with certain medications (Finasteride). Currently there is no concern as you report no symptoms related to your prostate. As you get older, both clinical prostate screening & PSA levels can be repeated.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Overall you report a good baseline and have been building into your lifestyle positive habits to improve your current health. This will also benefit your long term health and reduce your risk of chronic illness.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Magnesium , Iron supplements , Omega 3",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:43:30",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

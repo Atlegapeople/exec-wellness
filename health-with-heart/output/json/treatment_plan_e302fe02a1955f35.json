@@ -1,0 +1,45 @@
+{
+  "employee_id": "e302fe02a1955f35",
+  "employee_name": "LERATO MTSHALI",
+  "treatment_timeline": [
+    {
+      "date": "2024-06-20",
+      "report_id": "9476beb2b00c9fab",
+      "report_date": "2024-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Masha Tisetso",
+      "employee_name": "LERATO MTSHALI",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "- LUE 1+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Special Investigation",
+          "recommendation": "- PROT 1+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-pH 5",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:38:01",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Masha Tisetso"
+    ]
+  }
+}

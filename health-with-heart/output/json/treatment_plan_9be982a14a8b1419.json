@@ -1,0 +1,63 @@
+{
+  "employee_id": "9be982a14a8b1419",
+  "employee_name": "Stephen Jackson",
+  "treatment_timeline": [
+    {
+      "date": "2022-07-12",
+      "report_id": "1c3017e6b7299ecf",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Stephen Jackson",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Mild to moderate sloping high frequency hearing loss seen bilaterally. A full test is recommended to assess if further management is needed.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Urology review recommended for age appropriate screening",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please monitor your BP as it was slightly high. If it remains high then please discuss with your primary doctor as you may need to start medication.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "You are overweight and your waist to height ratio is more than 50% increasing your risk of cardiovascular disease. Aim for BMI of 25 and waist to height ratio of <50%. Dietician consultation recommended.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please consider making a Dermatology appointment based on family history and examination. They will assist in doing mole mapping.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , CoEnzyme Q10",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:38:46",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:51
+Employee ID: 2fd638ddc0f5923d
+Report ID: 98760d8e449764af
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Azwindinndin Nwendamutswu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: trace of blood
+------------------------------
+Employee: Azwindinndin Nwendamutswu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: trace of blood
+------------------------------
+Employee: Azwindinndin Nwendamutswu
+Report Date: 2021-08-30
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: trace of blood
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

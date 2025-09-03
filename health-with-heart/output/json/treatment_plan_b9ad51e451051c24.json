@@ -1,0 +1,39 @@
+{
+  "employee_id": "b9ad51e451051c24",
+  "employee_name": "Boitumelo Finger",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-30",
+      "report_id": "13bef0b99b88da84",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Boitumelo Finger",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Increased BMI and waist circumference. Focus on loosing cm rather than a number on the scale to reduce your future cardiovascular risk.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:03:35",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

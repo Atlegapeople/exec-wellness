@@ -1,0 +1,56 @@
+{
+  "employee_id": "sqotj3ut7yvbxdgi",
+  "employee_name": "Ian Norden",
+  "treatment_timeline": [
+    {
+      "date": "2024-10-30",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ian Norden",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-30",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ian Norden",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please follow the advice and retest at the recommended time intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Find time to do the things that you enjoy to reduce stress.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:04:44",
+  "total_reports": 2,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer",
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "zo2895l6rl2dk4vc",
+  "employee_name": "Jurgens Van Rooyen",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-20",
+      "report_id": "1c731577a86b1274",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Jurgens Van Rooyen",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "See report for details about the abnormal hearing test.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing annually from age 40 if one first-degree relative had prostate cancer before 65 or if there is a history of prostate cancer on either the mother or father’s side. Every 2 years from age 50.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increased abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, it's linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "No specific recommendation found for this employee.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Symptom Screening",
+          "recommendation": "Left eye vision problems. As discussed, will see a specialist.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:33:43",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

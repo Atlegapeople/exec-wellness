@@ -1,0 +1,45 @@
+{
+  "employee_id": "TPhmcJbXZqLpjH5F",
+  "employee_name": "Bartho Coolen or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "UQUkxBYKEpCYHAAv",
+      "report_date": "Not specified",
+      "doctor": "Dr. Jessica Koen or Not specified",
+      "nurse": "Rebecca Mogale or Not specified",
+      "employee_name": "Bartho Coolen or Not specified",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep going with aiming for nutritious foods, exercise routines and stress reduction methods.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular prostate screening is important as you get older.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:09:13",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Dr. Jessica Koen or Not specified"
+    ],
+    "nurses": [
+      "Rebecca Mogale or Not specified"
+    ]
+  }
+}

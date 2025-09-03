@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:45
+Employee ID: 9403a21ccc8a3ea4
+Report ID: f7eb423f00ff0728
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Alfred Mabuza
+Report Date: 2024-05-02
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 6
+------------------------------
+Employee: Alfred Mabuza
+Report Date: 2024-05-02
+Doctor: Alex Stuart
+Nurse: Sharonice Baaitjie
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Protein trace, pH 6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

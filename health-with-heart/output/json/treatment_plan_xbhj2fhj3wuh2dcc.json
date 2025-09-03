@@ -1,0 +1,39 @@
+{
+  "employee_id": "xbhj2fhj3wuh2dcc",
+  "employee_name": "Khwezi Tsotetsi",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-16",
+      "report_id": "3ea9baa5f039f8db",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Khwezi Tsotetsi",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please ensure adequate rest and relaxation",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Recheck kidney function in 2 weeks",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:24:29",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

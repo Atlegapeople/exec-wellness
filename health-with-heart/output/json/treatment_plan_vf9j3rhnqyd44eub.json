@@ -1,0 +1,33 @@
+{
+  "employee_id": "vf9j3rhnqyd44eub",
+  "employee_name": "William Mahibila",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-30",
+      "report_id": "632d25b543259477",
+      "report_date": "2022-11-30",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "William Mahibila",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG 1.020",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:15:58",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

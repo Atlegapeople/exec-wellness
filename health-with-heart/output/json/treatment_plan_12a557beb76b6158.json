@@ -1,0 +1,33 @@
+{
+  "employee_id": "12a557beb76b6158",
+  "employee_name": "Kgomotso Modipe",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-21",
+      "report_id": "ae94d322fc9c6030",
+      "report_date": "2022-06-21",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Kgomotso Modipe",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "Referred to her own GP",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:04:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

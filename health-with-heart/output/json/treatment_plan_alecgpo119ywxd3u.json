@@ -1,0 +1,63 @@
+{
+  "employee_id": "alecgpo119ywxd3u",
+  "employee_name": "Cynthia Heyneke",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-28",
+      "report_id": "e6f11657417adc72",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cynthia Heyneke",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Old caesarian section scar on the abdomen & surgical scar on right foot. Both hands show features of arthritis. Left knee tenderness may be due to arthritis or other causes.",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Not specified",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Not specified",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is ideal to maintain a waist to height ratio < 50%",
+          "status": "Not specified",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Iron supplements , Magnesium , Selenium , Folate",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Mammogram +/- 20years ago showed 'benign mass' (according to pt) with infective changes. Mammogram done d/t breast pain at the time. Symptoms resolved after antibiotic treatment, subsequent mammograms normal.",
+          "status": "Completed",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:56:03",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

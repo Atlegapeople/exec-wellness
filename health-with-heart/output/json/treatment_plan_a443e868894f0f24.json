@@ -1,0 +1,51 @@
+{
+  "employee_id": "a443e868894f0f24",
+  "employee_name": "Bhuti Nkosi",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-18",
+      "report_id": "319a9528f85ce6ae",
+      "report_date": "2023-05-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Bhuti Nkosi",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "High BMI noted. Ideally maintain BMI less than 25.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Try to eliminate all sugars and refined carbohydrates, exercise for at least 30 minutes 5 times a week and aim to lose 10% of your body weight.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Try to reduce body fat percentage slightly.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Increase exercise/fitness level.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:48:11",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

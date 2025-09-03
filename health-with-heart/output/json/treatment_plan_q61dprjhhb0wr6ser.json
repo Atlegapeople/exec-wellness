@@ -1,0 +1,73 @@
+{
+  "employee_id": "q61dprjhhb0wr6ser",
+  "employee_name": "Dwight Snyman",
+  "treatment_timeline": [
+    {
+      "date": "2020-07-14",
+      "report_id": "1i7r5obx3eqzlakvp",
+      "report_date": "Not specified",
+      "doctor": "Not specified",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dwight Snyman",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Recent prostate exam with your doctor was normal and your PSA is normal. Monitor and review any new urinary symptoms with your doctor",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Reduce alcohol intake. To monitor liver function tests with Vitamin D",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Review cholesterol medications with his own GP - consider switching to Bezafibrate for high Trigs on Lipogram profile",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Supplement Vitamin D with Vit D3 5000iu daily for 3months. Repeat test to monitor",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-16",
+      "report_id": "253846d9c922b184",
+      "report_date": "2022-09-16",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dwight Snyman",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please consider a screening for Vitamin D.",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Consider a referral for a colonoscopy or flexible sigmoidoscopy.",
+          "status": "Planned",
+          "source_field": "Screening"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:50:47",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

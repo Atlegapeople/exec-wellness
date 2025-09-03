@@ -1,0 +1,33 @@
+{
+  "employee_id": "0f6059017d88b29b",
+  "employee_name": "Sipho Thanyane",
+  "treatment_timeline": [
+    {
+      "date": "2021-03-19",
+      "report_id": "45926f4d930f6e15",
+      "report_date": "2021-03-19",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Sipho Thanyane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Special Investigation Notes: PH6, SG 1.005",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:01:03",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

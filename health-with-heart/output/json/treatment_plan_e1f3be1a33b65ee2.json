@@ -1,0 +1,39 @@
+{
+  "employee_id": "e1f3be1a33b65ee2",
+  "employee_name": "Busisiwe Ntombela Ntsiki",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-18",
+      "report_id": "98f698e6c17f9064",
+      "report_date": "2023-01-18",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Busisiwe Ntombela Ntsiki",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Sebaceous cysts on chest area.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear. Most recent PAP smear was normal but history of abnormal PAP and biopsy.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:37:28",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

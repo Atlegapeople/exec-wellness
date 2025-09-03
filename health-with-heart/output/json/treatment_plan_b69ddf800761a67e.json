@@ -1,0 +1,51 @@
+{
+  "employee_id": "b69ddf800761a67e",
+  "employee_name": "Martin Kruger",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-03",
+      "report_id": "ac82e3963aaec84b",
+      "report_date": "2022-11-03",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Martin Kruger",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Maintain your waist to height ratio < 50% to minimise the risk of chronic diseases",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue seeing Melissa and prioritize time to rest, relaxation and mindful self care",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Get back to exercising but be mindful of not going in the opposite direction of over exercising",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Neurobion , Omega 3 , Vitamin B co",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:01:57",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

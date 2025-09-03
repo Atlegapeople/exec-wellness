@@ -1,0 +1,33 @@
+{
+  "employee_id": "6caf9fbd4c4cfaae",
+  "employee_name": "Boitumelo Mbalati",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "a0f7a498920c6618",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Boitumelo Mbalati",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:03:29",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "employee_id": "a9oip4j0xdd1eleo",
+  "employee_name": "La-Nes Bowker",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-24",
+      "report_id": "ac14ac6d0c137b6a",
+      "report_date": "2022-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "La-Nes Bowker",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your BP was slightly high - please monitor this and if it remains high see us or your GP to start treatment.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:52:19",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

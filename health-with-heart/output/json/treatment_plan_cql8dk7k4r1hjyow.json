@@ -1,0 +1,81 @@
+{
+  "employee_id": "cql8dk7k4r1hjyow",
+  "employee_name": "Ronald Scholtz",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-16",
+      "report_id": "78d003eeb1caa19e",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ronald Scholtz",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Mildly reduced lung function in keeping with Asthma.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Reduce asthma symptoms by avoiding triggers, using medication as prescribed, and maintaining a healthy lifestyle.",
+          "status": "Ongoing",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take time to rest and manage stress levels.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consider regular exercise, a balanced diet, and adequate sleep.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Quit smoking or avoid secondhand smoke if possible.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid exposure to air pollution and allergens.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Regularly monitor lung function with a peak flow meter or spirometry.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take prescribed medication as directed by your healthcare provider.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Consult with a healthcare professional if symptoms worsen or persist.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:23:45",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

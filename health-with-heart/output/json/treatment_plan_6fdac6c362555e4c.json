@@ -1,0 +1,39 @@
+{
+  "employee_id": "6fdac6c362555e4c",
+  "employee_name": "Nicolas Vilanculos",
+  "treatment_timeline": [
+    {
+      "date": "2024-02-15",
+      "report_id": "5ca0a0591681fa70",
+      "report_date": "2023-12-13",
+      "doctor": "Yolandí Picton",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nicolas Vilanculos",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your increased BMI is likely related to your increased muscle mass. To lower your cardiovascular risk you should focus on reducing your waist circumference rather that a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:06:26",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Yolandí Picton"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

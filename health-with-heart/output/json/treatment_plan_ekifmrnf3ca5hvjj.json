@@ -1,0 +1,45 @@
+{
+  "employee_id": "ekifmrnf3ca5hvjj",
+  "employee_name": "Risun Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-02",
+      "report_id": "61cd3b69135f9c60",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof or Not specified",
+      "nurse": "Nelisiwe Mdabe or Not specified",
+      "employee_name": "Risun Naidoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal ECG and lung function.",
+          "status": "Completed",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please consider seeing a dietician to help you with your dietary changes, continue to exercise and try to lose some weight.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please follow up with us to monitor the levels and your progress.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:45:59",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof or Not specified"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe or Not specified"
+    ]
+  }
+}

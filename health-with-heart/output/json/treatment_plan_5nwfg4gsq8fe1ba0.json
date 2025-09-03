@@ -1,0 +1,51 @@
+{
+  "employee_id": "5nwfg4gsq8fe1ba0",
+  "employee_name": "Mpedi Keetse",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-21",
+      "report_id": "7e5ff9d225c34044",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Mpedi Keetse",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormality detected",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40 if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45 if history of prostate cancer on either the mother or father’s side. Every 2 years from age 50",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Optimise diet to reduce cholesterol, take omega 3 supplements 2g daily and coQ10 supplement, use extra-virgin olive oil for raw and low-temperature uses. For high-temperature cooking, avocado oil, coconut oil or ghee",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat whole unprocessed foods, practice good sleep hygiene, and try to manage your stress",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:55:57",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

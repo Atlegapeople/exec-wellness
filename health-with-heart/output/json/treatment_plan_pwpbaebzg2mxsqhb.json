@@ -1,0 +1,51 @@
+{
+  "employee_id": "pwpbaebzg2mxsqhb",
+  "employee_name": "Rachel Lobelo",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-30",
+      "report_id": "9984a51399858646",
+      "report_date": "2022-08-31",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Rachel Lobelo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Visit an audiologist for a full audiogram to investigate further.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a good waist to height ratio to reduce your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Please visit your doctor if your reflux does not improve.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:49:46",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

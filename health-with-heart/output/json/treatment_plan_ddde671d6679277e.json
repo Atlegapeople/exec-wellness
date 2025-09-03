@@ -1,0 +1,39 @@
+{
+  "employee_id": "ddde671d6679277e",
+  "employee_name": "Nomathemba Radebe",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-22",
+      "report_id": "b2f0b4c0ba0c0fc6",
+      "report_date": "2023-09-14",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nomathemba Radebe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Follow up with an audiologist for a full audiogram",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "WomensHealth",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear annually",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:33:57",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

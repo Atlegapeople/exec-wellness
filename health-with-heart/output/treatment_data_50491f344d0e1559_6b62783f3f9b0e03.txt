@@ -1,0 +1,33 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:58
+Employee ID: 50491f344d0e1559
+Report ID: 6b62783f3f9b0e03
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Donald Khumalo
+Report Date: 2025-08-12
+Doctor: Joy Sitole
+Nurse: Aphiwo Masondo
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: ChronicMedicationList
+Comment Value: Lotemax
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2023-04-04 - 2023-04-04
+Time: 09:30:00 - 10:15:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2025-08-21 - 2025-08-21
+Time: 08:00:00 - 10:00:00
+Notes: Donald KhumaloID/Passport Number: 770202 5371 083
+Status: Completed
+------------------------------

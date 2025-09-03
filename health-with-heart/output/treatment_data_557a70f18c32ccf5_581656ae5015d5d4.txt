@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:00
+Employee ID: 557a70f18c32ccf5
+Report ID: 581656ae5015d5d4
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Naledi Mashaba
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Yellowish discharge, Leucocytes 1+ in urine
+------------------------------
+Employee: Naledi Mashaba
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Yellowish discharge, Leucocytes 1+ in urine
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

@@ -1,0 +1,67 @@
+{
+  "employee_id": "kmn8pjmzknxt0mxb5",
+  "employee_name": "Erwin Pon",
+  "treatment_timeline": [
+    {
+      "date": "2023-04-25",
+      "report_id": "627fe7a4971fd680",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Erwin Pon",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "-Pay attention to urinary symptoms such as difficulty urinating, frequently urinating, terminal dribbling & poor sexual function. These are some of the signs of prostate disease.",
+          "status": "Not specified",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-26",
+      "report_id": "e37089c4e88defc5",
+      "report_date": "2024-09-26",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Erwin Pon",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Pay attention to urinary symptoms such as difficulty urinating, frequently urinating, terminal dribbling & poor sexual function. These are some of the signs of prostate disease.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-26",
+      "report_id": "tv1lfatdcv3clavvm",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Erwin Pon",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Continue taking Crestor&pay attention to your diet. Avoid too many carbs or sugar. Supplement with omega 3 2g daily and consider adding rychol&increase the fiber in your diet. Your level has improved since last year.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:20:19",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

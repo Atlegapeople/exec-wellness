@@ -1,0 +1,51 @@
+{
+  "employee_id": "guevatxscu7mdkq9",
+  "employee_name": "Pratish Daya",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-15",
+      "report_id": "31029965827c7ea0",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pratish Daya",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "No abnormalities detected",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40 if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45: if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "High insulin levels happens when the pancreas makes more insulin to process high levels of carbohydrates in the blood.Type 2 diabetes develops when pancreas can no longer make large amounts of insulin needed for normal blood sugar, please reduce your carbohydrate intake.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:59:30",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

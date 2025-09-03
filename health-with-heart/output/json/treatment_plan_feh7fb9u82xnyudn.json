@@ -1,0 +1,45 @@
+{
+  "employee_id": "feh7fb9u82xnyudn",
+  "employee_name": "Gugu Ndongeni",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-07",
+      "report_id": "7c158beabce543ff",
+      "report_date": "2022-10-20",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Gugu Ndongeni",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Pallor noted - consistent with low haemoglobin on blood tests. For further investigation.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Diastolic blood pressure raised. Please follow up with blood pressure checks at the Wellbeing Centre or at your local GP in order to see the trend. Continue eating healthy and consider incorporating exercise into your life.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:55:16",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

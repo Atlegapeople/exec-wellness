@@ -1,0 +1,26 @@
+{
+  "employee_id": "6e0caf233404715d",
+  "employee_name": "Zama Lamla",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "c94550eb6e3731b1",
+      "report_date": "2023-09-15",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Zama Lamla",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

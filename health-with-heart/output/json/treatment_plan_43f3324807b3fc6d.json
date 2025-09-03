@@ -1,0 +1,57 @@
+{
+  "employee_id": "43f3324807b3fc6d",
+  "employee_name": "Diana Jo Granoux",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-12",
+      "report_id": "883d81a2d1d94e1f",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Diana Jo Granoux",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat cholesterol levels in 6 months.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Repeat renal function test when well hydrated.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep lifestyle active & high in fresh fruit & veggies. Be mindful of saturated fats & processed foods. Chose unrefined carbohydrates and varied sources of protein.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Spirulina",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:36:41",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

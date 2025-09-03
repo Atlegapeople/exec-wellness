@@ -1,0 +1,48 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:58
+Employee ID: 9fe3f35fc4e78333
+Report ID: e748b9c08a9fe5d7
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Claude Moshyiwa
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace, to drink lots of fluid. Asymptomatic
+------------------------------
+Employee: Claude Moshyiwa
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace, to drink lots of fluid. Asymptomatic
+------------------------------
+Employee: Claude Moshyiwa
+Report Date: 2023-03-11
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Leucocytes trace, to drink lots of fluid. Asymptomatic
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

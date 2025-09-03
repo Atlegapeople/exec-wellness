@@ -1,0 +1,26 @@
+{
+  "employee_id": "85ecd1b26ea34edd",
+  "employee_name": "Lee-Anne Mola",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "9a758a00c6fb91fd",
+      "report_date": "2022-09-22",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lee-Anne Mola",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

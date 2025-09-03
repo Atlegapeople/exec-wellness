@@ -1,0 +1,45 @@
+{
+  "employee_id": "oxx9kc67xxtl3si1",
+  "employee_name": "Simbarashe Dumbura",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-08",
+      "report_id": "7a54cdec2d52b624",
+      "report_date": "2022-11-01",
+      "doctor": "Nokwanda Sithole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Simbarashe Dumbura",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please report on any new changes in your health in the coming months.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To decrease you risk of a cardiovascular events aim for a BMI of <25 and a waist-to-height ratio of <50%. You are doing well.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "ECG and lab results need to be retested at the recommended time intervals.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:42:56",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Nokwanda Sithole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

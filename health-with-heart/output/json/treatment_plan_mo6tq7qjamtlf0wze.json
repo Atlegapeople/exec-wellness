@@ -1,0 +1,86 @@
+{
+  "employee_id": "mo6tq7qjamtlf0wze",
+  "employee_name": "Gerrie Butler",
+  "treatment_timeline": [
+    {
+      "date": "2022-02-28",
+      "report_id": "specele790kfnrqiz",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gerrie Butler",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "-Prostate screening becomes important after the age of 40. Urinating often, staring to pass urine & dribbling of urine are some of the signs to look out for.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Prostate Screening",
+          "recommendation": "-Continue prostate screening every 2-3 years.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-06",
+      "report_id": "3b390c034f9b38cf",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Gerrie Butler",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Multivitamin , Omega 3",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Prioritise screening tests & procedures.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "ECG findings warrant a cardiologist review to exclude other heart blocks.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Cholesterol is a concern for you, please pay attention to this.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthNote"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Prostate screening becomes important after the age of 40. Urinating often, staring to pass urine & dribbling of urine are some of the signs to look out for.",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Continue prostate screening every 2-3 years.",
+          "status": "Planned",
+          "source_field": "Men'sHealthRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:32:10",
+  "total_reports": 2,
+  "total_actions": 8,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

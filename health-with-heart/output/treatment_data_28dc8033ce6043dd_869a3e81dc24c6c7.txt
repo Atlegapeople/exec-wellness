@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:51:27
+Employee ID: 28dc8033ce6043dd
+Report ID: 869a3e81dc24c6c7
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Patience Selwana
+Report Date: 2021-04-22
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD SG 1.030 Ph 5"
+------------------------------
+Employee: Patience Selwana
+Report Date: 2021-04-22
+Doctor: Alex Stuart
+Nurse: Ramona Azagsiba
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: "NAD SG 1.030 Ph 5"
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

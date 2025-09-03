@@ -1,0 +1,65 @@
+{
+  "employee_id": "0d9a725f4244a9fa",
+  "employee_name": "Silingene Sigubudu",
+  "treatment_timeline": [
+    {
+      "date": "2022-05-16",
+      "report_id": "70afb35a0b449391",
+      "report_date": "2022-05-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Silingene Sigubudu",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.010",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-05-16",
+      "report_id": "d1d39165f0a97900",
+      "report_date": "2022-05-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Silingene Sigubudu",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.010",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-26",
+      "report_id": "d7b1fcea3c1eb4d6",
+      "report_date": "2023-05-26",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Silingene Sigubudu",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "pH 6, SG 1.020, Blood 3+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:00:19",
+  "total_reports": 3,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

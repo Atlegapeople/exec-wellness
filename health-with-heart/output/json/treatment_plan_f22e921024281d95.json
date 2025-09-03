@@ -1,0 +1,63 @@
+{
+  "employee_id": "f22e921024281d95",
+  "employee_name": "Richard Forsyth",
+  "treatment_timeline": [
+    {
+      "date": "2022-11-23",
+      "report_id": "d4b69ea8511840fe",
+      "report_date": "2022-11-23",
+      "doctor": "Melinda Whitfield",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Richard Forsyth",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal clinical examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "No red flags for prostate cancer. Do ultra sound of prostate at age 45yrs.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Manage stress and sleep, diet, and alcohol consumption.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D , Glutathione , Omega 3",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Try the Pressure Ease Forte & then do a 24Hr BP monitor",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please repeat these bloods first quarter of next year!",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:48:33",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Melinda Whitfield"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

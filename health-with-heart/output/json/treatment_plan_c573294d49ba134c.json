@@ -1,0 +1,33 @@
+{
+  "employee_id": "c573294d49ba134c",
+  "employee_name": "George Goodison",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-11",
+      "report_id": "5ea9751463ac517c",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "George Goodison",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "Leucocytes trace, no symptoms",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:16:11",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

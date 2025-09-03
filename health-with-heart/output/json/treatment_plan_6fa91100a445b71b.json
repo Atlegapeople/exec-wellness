@@ -1,0 +1,45 @@
+{
+  "employee_id": "6fa91100a445b71b",
+  "employee_name": "Sinthamary Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-19",
+      "report_id": "57cad89cd0074c79",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Sinthamary Naidoo",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "VitalsRecommendation",
+          "recommendation": "BP can be normalised by improving your lifestyle in addition to medication. Consult with your doctor to assist with controlling your BP.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "VitalsRecommendation",
+          "recommendation": "Improve your lifestyle by maintaining a healthy diet, regular exercise and limiting alcohol. This will translate into reduction in weight.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:06:18",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

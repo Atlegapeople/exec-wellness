@@ -1,0 +1,33 @@
+{
+  "employee_id": "e5ba088b70bda346",
+  "employee_name": "Pieter Van Rooyen",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-07",
+      "report_id": "c963bdff59faeb87",
+      "report_date": "2022-06-07",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Pieter Van Rooyen",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 5, SG 1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:38:41",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

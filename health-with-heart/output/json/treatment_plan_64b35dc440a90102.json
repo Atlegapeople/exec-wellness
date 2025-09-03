@@ -1,0 +1,26 @@
+{
+  "employee_id": "64b35dc440a90102",
+  "employee_name": "Mmagopholo Phukubje",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "eeb7efa13f8e2b3e",
+      "report_date": "2023-07-17",
+      "doctor": "Jessica Koen",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mmagopholo Phukubje",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

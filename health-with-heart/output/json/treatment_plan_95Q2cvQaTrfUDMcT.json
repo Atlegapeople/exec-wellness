@@ -1,0 +1,51 @@
+{
+  "employee_id": "95Q2cvQaTrfUDMcT",
+  "employee_name": "Palesa Gamede",
+  "treatment_timeline": [
+    {
+      "date": "2024-01-25",
+      "report_id": "QgBJkXxjp2eNfSZ5",
+      "report_date": "2023-09-14",
+      "doctor": "Jessica Koen",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Palesa Gamede",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular mammogram screening becomes important as you get older (>40 years)",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A good nutritious balanced diet (with reduced sugar and increased vegetable variety) has many benefits. This together with more regular exercise should help manage stress levels during busy seasons.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:35:03",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

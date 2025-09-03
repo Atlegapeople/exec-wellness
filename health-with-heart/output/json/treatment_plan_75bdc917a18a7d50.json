@@ -1,0 +1,57 @@
+{
+  "employee_id": "75bdc917a18a7d50",
+  "employee_name": "Latisha Singh",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-08",
+      "report_id": "86eb321681e359d3",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Latisha Singh",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Continue employing lifestyle habits that improve your health.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Slow down on the iron & vitamin D supplements. Your levels are above normal.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor this as further investigations may be needed.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Cardiologist review is advised.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:12:25",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

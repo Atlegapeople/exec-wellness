@@ -1,0 +1,33 @@
+{
+  "employee_id": "86688a0d35cacf70",
+  "employee_name": "Manase Zwane",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "ba0a3901fc8b0ad0",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Manase Zwane",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6.5, SG 1.015",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:25:11",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

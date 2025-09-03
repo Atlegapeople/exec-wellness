@@ -1,0 +1,26 @@
+{
+  "employee_id": "8364sp7m5q4qhp1p",
+  "employee_name": "Denise Pillay",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "8eb84c2a041f5ad8",
+      "report_date": "2023-07-06",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Nelisiwe Mdabe",
+      "employee_name": "Denise Pillay",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Nelisiwe Mdabe"
+    ]
+  }
+}

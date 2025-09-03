@@ -1,0 +1,33 @@
+{
+  "employee_id": "bfe6e9051963db2d",
+  "employee_name": "Joseph Kganticoe",
+  "treatment_timeline": [
+    {
+      "date": "2021-05-11",
+      "report_id": "a667b66529004a5c",
+      "report_date": "2021-05-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Joseph Kganticoe",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "S.G 1.030 Ph 5 NAD",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:08:57",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

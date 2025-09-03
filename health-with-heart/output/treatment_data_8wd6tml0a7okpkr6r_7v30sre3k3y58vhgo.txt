@@ -1,0 +1,4526 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:51
+Employee ID: 8wd6tml0a7okpkr6r
+Report ID: 7v30sre3k3y58vhgo
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ChronicMedicationList
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamNote
+Comment Value: Appears very thin. Very fair skin with history of BCC'c. Follows up with dermatologist
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: LabTestNote
+Comment Value: High cholesterol, above optimal homocysteine, raised urea and creatinine, low fasting insulin
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MedicalHistoryNote
+Comment Value: Duncan overall you seem to be in good health but are under quite a lot of stress. Your body seems to be coping fairly well for now but please do pay attention to reducing your stress levels - consider breathing exercises, meditation, exercise in general and taking time out from work to do things that you enjoy. Please repeat the kidney function. We wish you a happy and healthy year further.
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: SpecialInvestigationNote
+Comment Value: Nil
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsNote
+Comment Value: Low BMI, underweight
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please repeat your kidney function. It may have been abnormal due to dehydration from fasting. Ensure that you are well hydrated when you repeat it.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Please make sure that you are eating enough protein and good fats as discussed and try not to skip meals. Your insulin is on the low side which is not currently a health concern but it may explain your difficulty in putting on weight.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Nil
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Cholesterol:I do not think that medication is warranted-you are currently very low risk for heart disease. Pay attention to your diet&exercise as well as stress management. Supplement with rychol,omega 3 and recheck in 6/12
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Minimal risk factors
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Decent vitamin D levels
+Very low inflammation levels; Non smoker
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: High cholesterol; High urea and creatinine on kidney function
+Above optimal homocysteine
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 0
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+Employee: Duncan Armstrong
+Report Date: 2022-02-23
+Doctor: Christie Pilossof
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your homocysteine levels are within normal but above optimal. This can be brought down by supplementing with B vitamins in their active form such as phytomulti from metagenics.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Nil
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-03-10 - 2022-03-10
+Time: 09:30:00 - 11:30:00
+Notes: 
+Status: Completed
+------------------------------

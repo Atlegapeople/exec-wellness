@@ -1,0 +1,45 @@
+{
+  "employee_id": "eoi7iueyzoyinm5c",
+  "employee_name": "Teboho Mabe",
+  "treatment_timeline": [
+    {
+      "date": "2023-01-24",
+      "report_id": "3829950d383d4fe0",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Teboho Mabe",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Chronic right-sided flank pain already being seen by treating doctor, can also consider a chiropractor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Lung function showed difficulty with the exercise, please see your family doctor to investigate further",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:46:39",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

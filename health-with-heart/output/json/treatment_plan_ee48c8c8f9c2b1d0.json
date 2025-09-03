@@ -1,0 +1,33 @@
+{
+  "employee_id": "ee48c8c8f9c2b1d0",
+  "employee_name": "Theresa Nieuwoudt",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-20",
+      "report_id": "a672ce4180af3b59",
+      "report_date": "2023-06-20",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Theresa Nieuwoudt",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Special Investigation Notes: Blood 2+",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:44:18",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

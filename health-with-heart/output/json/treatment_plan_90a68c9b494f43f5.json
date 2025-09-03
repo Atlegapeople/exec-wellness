@@ -1,0 +1,33 @@
+{
+  "employee_id": "90a68c9b494f43f5",
+  "employee_name": "Mike Khumalo",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "0c3dc8e715b916b9",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Mike Khumalo",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "SG 1.005, pH 6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:32:25",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

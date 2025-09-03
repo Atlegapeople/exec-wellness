@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:47:54
+Employee ID: 39771b36500274a5
+Report ID: ccf0337c2a6c2695
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Joe Ryan
+Report Date: 2021-03-02
+Doctor: Melinda Whitfield
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.030 PH6
+------------------------------
+Employee: Joe Ryan
+Report Date: 2021-03-02
+Doctor: Melinda Whitfield
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: SG 1.030 PH6
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

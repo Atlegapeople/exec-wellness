@@ -1,0 +1,45 @@
+{
+  "employee_id": "90c66da5d018fb08",
+  "employee_name": "Simone Buckley",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-01",
+      "report_id": "548b320bde37a9b0",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Simone Buckley",
+      "actions": [
+        {
+          "category": "WomensHealth",
+          "recommendation": "Please visit your gynae for any worsening lower abdominal symptoms to review your PCOS.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Raised BMI but waist circumference to height ratio good. Focus on losing cm around your waist rather than a number on the scale to reduce your cardiovascular risk.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:32:33",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

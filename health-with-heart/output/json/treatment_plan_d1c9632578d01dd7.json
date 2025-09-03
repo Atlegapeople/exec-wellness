@@ -1,0 +1,57 @@
+{
+  "employee_id": "d1c9632578d01dd7",
+  "employee_name": "Martine Baker",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-22",
+      "report_id": "0321049d3bfa34f7",
+      "report_date": "2022-09-22",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Martine Baker",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Oral thrush on tongue. Daktarin gel prescribed.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please cut down on red meat and sugar use. Carry on training well.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Chronic cough over the last 2 years, nil workup done, nil weight loss. Nil post nasal drip or other symptoms, runs well. To start work up with CXR, lung function - normal, with ?poor effort during the test.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "We need to also get to the bottom of this chronic cough.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:26:00",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

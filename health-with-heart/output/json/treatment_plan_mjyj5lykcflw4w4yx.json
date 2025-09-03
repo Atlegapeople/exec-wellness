@@ -1,0 +1,39 @@
+{
+  "employee_id": "mjyj5lykcflw4w4yx",
+  "employee_name": "Tamara D'Onofrio",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-08",
+      "report_id": "fmbdexw6l2vv3johp",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Tamara D'Onofrio",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor your cholesterol annually but at this stage it is not concerning as the LDL is within range.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor your cholesterol annually.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:30:54",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

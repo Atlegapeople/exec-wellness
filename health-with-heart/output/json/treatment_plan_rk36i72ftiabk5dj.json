@@ -1,0 +1,51 @@
+{
+  "employee_id": "rk36i72ftiabk5dj",
+  "employee_name": "Craig Aron",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-13",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Craig Aron",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "PSA testing: annually, from age 40: if one first-degree relative who had prostate cancer at <65yrs or female relatives diagnosed with BRCA1 or BRCA2 gene mutation breast cancer. From age 45: if history of prostate cancer on either the mother or father’s side.From age 50: every 2 years",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "None",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI doesn't account for body composition, which means it misses the difference between muscle mass and fat because muscles are more dense and heavier than fat",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "ECG: Normal sinus rhythm, ventricular extrasystoles. Extrasystoles can occur frequently in people with completely normal hearts and often do not cause any problems. Discuss this further with your family doctor.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:58:47",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

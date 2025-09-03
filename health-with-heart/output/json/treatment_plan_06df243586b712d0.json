@@ -1,0 +1,81 @@
+{
+  "employee_id": "06df243586b712d0",
+  "employee_name": "Jessie Kistadoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "932c284ea0aad737",
+      "report_date": "2023-05-11",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Jessie Kistadoo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram is recommended to investigate the cause of this finding.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Schedule time to repeat your ECG’s.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor T4 levels.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Monitor uric acid, cholesterol & kidney function.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Work at improving your fitness by doing varied exercises.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Drink at least 2 litres of water daily.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "BMI at 32 & waist-to-height ratio at 63.8% are high. This increases the risk of conditions such as diabetes & hypertension. Lower your body weight. Aim for BMI between 18.5-24.9 & waist-to-height ration below 50%.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "A bone density scan is recommended if you have not had one recently.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:56:23",
+  "total_reports": 1,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "employee_id": "fd0feee4b90d050a",
+  "employee_name": "Vincent Musa Malambu",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-17",
+      "report_id": "57dfcea43cfbbd33",
+      "report_date": "2023-07-17",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Vincent Musa Malambu",
+      "actions": [
+        {
+          "category": "Lifestyle",
+          "recommendation": "Drink water, cranberry juice and eat plain yoghurt.",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:54:07",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "employee_id": "tre8lrovdppj9czr",
+  "employee_name": "George Philip Karammel",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "6c07b500feb2b230",
+      "report_date": "2022-10-20",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Devinia Carelse",
+      "employee_name": "George Philip Karammel",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

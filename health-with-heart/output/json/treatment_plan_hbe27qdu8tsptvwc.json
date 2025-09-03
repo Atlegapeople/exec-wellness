@@ -1,0 +1,51 @@
+{
+  "employee_id": "hbe27qdu8tsptvwc",
+  "employee_name": "Lindiwe Mokhobo",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-23",
+      "report_id": "4f1b9af12a0d3092",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Lindiwe Mokhobo",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Abdominal ultrasound is recommended if liver enzymes remain elevated.",
+          "status": "Planned",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Postnasal drip: Stay hydrated, use a humidifier in your room at night and saline nasal spray for the day. Avoid irritants such as sugar, dairy and spicy foods.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Abdominal circumference is not limited to fat under the skin but also fat around the organs of your abdomen, linked with Type 2 diabetes, high BP& breathing problems. Eat whole unprocessed foods, get good sleep,manage stress.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:01:53",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

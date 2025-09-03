@@ -1,0 +1,112 @@
+{
+  "employee_id": "z4bh7bitfg8n8rkhj",
+  "employee_name": "Cassim Motala",
+  "treatment_timeline": [
+    {
+      "date": "2019-04-16",
+      "report_id": "4kuvnkpftyibvbfjg",
+      "report_date": "2019-04-16",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cassim Motala",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Remember to do some resistance training with your cardio for bone and joint strength.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Go for abdominal ultrasound as a follow on from slightly deranged liver enzymes.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2021-05-04",
+      "report_id": "k5ottvn1yi80cqdnq",
+      "report_date": "2021-05-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cassim Motala",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist circumference greater than 94 cm in a male is regarded as a risk factor for chronic diseases such as diabetes and heart disease. Based on your strong family history of such diseases I would encourage you to keep an eye on this and try to reduce it through exercise, a healthy diet and stress management.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-24",
+      "report_id": "e52a9d70a33e3392",
+      "report_date": "2023-05-24",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cassim Motala",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Planned",
+          "source_field": "ClinicalRecommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-24",
+      "report_id": "txppulgdu0hoejlyg",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Cassim Motala",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new worrying urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Check vitamin D level and see how it is now.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Keep an eye on waist circumference and try to reduce it through exercise, a healthy diet and stress management.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:31:13",
+  "total_reports": 4,
+  "total_actions": 9,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

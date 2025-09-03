@@ -1,0 +1,3986 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:29
+Employee ID: 6k2y08ojzqns80phd
+Report ID: 4e894c508d67353f
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ChronicMedicationList
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LabTestRecommendation
+Comment Value: -Cholesterol has improved since last year!
+-Kidney function is lower than expected. A repeat test & work up is recommended.
+-Raised homocysteine & HsCRP shows risk of cardiovascular disease. Vitamin B, Folate & eating a mediterranean diet will help break these down & lower the risk.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: LifestyleRecommendation
+Comment Value: -Steadily work towards being active again. Aim to do 150 minutes of moderate to high intensity exercise weekly.
+-Continue eating a diet high in fresh veggies & fruit. Choose lean protein & wholegrain carbs. Ensure you drink enough water daily.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: -Continue screening for the conditions that have occurred in your family.
+-Employ lifestyle habits that will lower your risk of disease while benefiting your present & future self.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MensHealthRecommendation
+Comment Value: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: -Pay attention your mental health. You may need support navigating the ever changing demands of life. Speak to a professional or contact ICAS on 0800 212 699.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: -Your fitness levels are fair, body fat % is elevated. Commit to doing moderate intensity exercise for at least 150 minutes weekly.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitalsRecommendation
+Comment Value: -BMI of 28.9 & waist-to-height ratio of 54.4 are raised. This increases the risk of conditions such as diabetes, hypertension & cardiovascular complications. Aim to keep BMI between 18.5-24.9 & waist-to-height ratio below 50%.
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: VitaminsOrSupplements
+Comment Value: Testosterone Boosting Supplement
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: Normal examination on the day.
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: -Pay attention to the signs of prostate disease. These include frequent urination, straining to pass urine, dribbling urine after urination.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+Employee: Gerard Jagga
+Report Date: 2024-11-05
+Doctor: Joy Sitole
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: Please report any new or persistent urinary symptoms to your doctor.
+Women's Health Recommendations: 
+Overview Notes: Gerard, thank you for doing your medical with us.
+-Stay attuned to your mental wellbeing, keeping well is a priority.
+-Commit to being physically active, there are significant benefits to reap.
+-A repeat kidney function test is advised.
+-Supplement with Vitamin B & Folate.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: None
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2019-11-12 - 2019-11-12
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2022-10-14 - 2022-10-14
+Time: 08:45:00 - 10:45:00
+Notes: 
+Status: Completed
+------------------------------
+Date: 2024-11-07 - 2024-11-07
+Time: 08:00:00 - 10:00:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,63 @@
+{
+  "employee_id": "61dc0fbd90860994",
+  "employee_name": "Ridwan Kathrada",
+  "treatment_timeline": [
+    {
+      "date": "2023-08-02",
+      "report_id": "a84d325f6eb58606",
+      "report_date": "2023-08-02",
+      "doctor": "Fatima Moorad",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Ridwan Kathrada",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal Clinical Examination",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "The best way to prevent kidney stones is to make sure you drink plenty of water each day to avoid becoming dehydrated(tea and coffee counts),add fresh lemon juice to water and avoid fizzy drinks and salt.",
+          "status": "Ongoing",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please see GP for high cholesterol levels and Ecg review and follow up.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A cleaner diet and additional Omega 3, Niacin and Magnesium supplements is advised.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please reduce salt and red meat intake.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "1-2 monthly Blood pressure checks advised.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:58:22",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Fatima Moorad"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

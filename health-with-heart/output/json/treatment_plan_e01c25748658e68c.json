@@ -1,0 +1,33 @@
+{
+  "employee_id": "e01c25748658e68c",
+  "employee_name": "Maria Butsi",
+  "treatment_timeline": [
+    {
+      "date": "2023-07-07",
+      "report_id": "fd6eda2f459a648e",
+      "report_date": "2023-07-07",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Maria Butsi",
+      "actions": [
+        {
+          "category": "Women's Health Recommendations",
+          "recommendation": "pH 6; SG 1,020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:36:18",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "employee_id": "rfc08l0krchv0i8xo",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2020-07-07",
+      "report_id": "cwn1y0x9hnd6uz5jq",
+      "report_date": "2020-07-07",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening, including PSA testing and clinical exams, becomes increasingly important with age. Your recent PSA levels (prostate marker) were normal, and you report no concerning symptoms. We will continue with routine screening.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Your clinical examination was unremarkable, with no concerning findings. Regular mole-mapping with a dermatologist is recommended to screen for any suspicious lesions. Early detection of irregularities can significantly improve management outcomes.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Healthy diet and lifestyle changes, showing some improvement in liver enzymes, homocysteine levels and uric acid levels. Non Smoker. Doing some exercise. Sleeps well.",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take omega 3 supplements 2g daily, eat a healthy mediterranean style diet and increase exercise to 5 times a week if possible.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular mole-mapping with a dermatologist is recommended to screen for any suspicious lesions.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Cholesterol levels: Already taking crestor 5mg. Keep dose the same and try manage with lifestyle only. Repeat blood after 6 months.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Liver enzymes: reduce unnecessary medicine intake and alcohol intake. Crestor can also increase liver enzymes and may be contributing to this.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2021-12-09",
+      "report_id": "c4cp2gg033c3qch6o",
+      "report_date": "2021-12-09",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dario Musso",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Your clinical examination was unremarkable, with no concerning findings.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please report any new urinary symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Monitor blood pressure and implement lifestyle modifications as discussed on cardio pro.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please follow a lower carbohydrate, higher good fat diet as discussed, cut out sugar, exercise regularly and watch your stress levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Regular mole-mapping with a dermatologist is recommended to screen for any suspicious lesions.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Raised fasting insulin may indicate insulin resistance and left unchecked could lead to type 2 diabetes. However this is completely reversible through diet and lifestyle.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Based on your age it is a good idea to see a urologist for a prostate check.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "Repeat the level in March next year.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-25",
+      "report_id": "3d9c31114a31d3ae",
+      "report_date": "2022-10-25",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Dario Musso",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Regular prostate screening, including PSA testing and clinical exams, becomes increasingly important with age. Your recent PSA levels (prostate marker) were normal, and you report no concerning symptoms. We will continue with routine screening.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "watch the sugar and alcohol in your diet as your insulin is above optimal levels.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-10",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Dario Musso",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Based on your age it is a good idea to see a urologist for a prostate check.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Regular mole-mapping with a dermatologist is recommended to screen for any suspicious lesions.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:58:22",
+  "total_reports": 4,
+  "total_actions": 20,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi",
+      "Rebecca Mogale"
+    ]
+  }
+}

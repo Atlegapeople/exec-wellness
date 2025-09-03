@@ -1,0 +1,26 @@
+{
+  "employee_id": "614105de5ed6a31c",
+  "employee_name": "Daya Subban",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "63f5d657e8acbf32",
+      "report_date": "2022-07-27",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Daya Subban",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:06",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

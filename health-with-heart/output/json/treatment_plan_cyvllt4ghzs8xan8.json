@@ -1,0 +1,51 @@
+{
+  "employee_id": "cyvllt4ghzs8xan8",
+  "employee_name": "Brenden Jagunath",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "1d61027d7238b739",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Brenden Jagunath",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Right nostril occluded with deviated septum. Please see an ENT for review.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please book a 24 hour BP monitor at Merchant Place as your BP was raised.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise, eat well, mindfulness and spend time with the people you love.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Zinc , Vitamin D , Vitamin C",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:25:21",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Devinia Carelse"
+    ]
+  }
+}

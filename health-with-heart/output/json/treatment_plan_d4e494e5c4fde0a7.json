@@ -1,0 +1,33 @@
+{
+  "employee_id": "d4e494e5c4fde0a7",
+  "employee_name": "Ziyaad Albertyn",
+  "treatment_timeline": [
+    {
+      "date": "2024-05-09",
+      "report_id": "a96f1a237718d756",
+      "report_date": "2024-05-09",
+      "doctor": "Alex Stuart",
+      "nurse": "Sharonice Baaitjie",
+      "employee_name": "Ziyaad Albertyn",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "pH 6, SG1,020 Protein trace",
+          "status": "Completed",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:28:35",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Sharonice Baaitjie"
+    ]
+  }
+}

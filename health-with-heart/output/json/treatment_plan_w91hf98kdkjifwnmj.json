@@ -1,0 +1,26 @@
+{
+  "employee_id": "w91hf98kdkjifwnmj",
+  "employee_name": "Niranjini Moodley",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "fgjo505ixn8rtw1re",
+      "report_date": "2022-04-13",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Niranjini Moodley",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

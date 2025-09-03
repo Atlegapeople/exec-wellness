@@ -1,0 +1,51 @@
+{
+  "employee_id": "6e3c234994317da1",
+  "employee_name": "Isabel Kruger",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-30",
+      "report_id": "e57915a60e584b22",
+      "report_date": "2023-05-30",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Isabel Kruger",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "High cholesterol - try to reduce through dietary changes, rychol and omega 3 supplementation but consider medication if not reducing.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Your homocysteine is higher than ideal at 12umol/l. You can reduce this by supplementing with methylated B vitamins. Please take Stellar Activ-Folate/Metagenics MethylCare & recheck the level in 6 months. Aim for <7 umol/l.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "A waist to height ratio of more than 50% is associated with a significantly increased risk for chronic disease and adverse cardiovascular events. Focus on losing cm around the waist rather than the kg on the scale for improved health.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:04:39",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

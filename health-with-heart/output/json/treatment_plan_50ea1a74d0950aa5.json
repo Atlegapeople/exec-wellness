@@ -1,0 +1,57 @@
+{
+  "employee_id": "50ea1a74d0950aa5",
+  "employee_name": "Sally-Anne Hatfield",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-22",
+      "report_id": "8c1c637fe43ad1f1",
+      "report_date": "2022-09-22",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Sally-Anne Hatfield",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please make sure that you are up to date with your PAP smear and mammogram.",
+          "status": "Not specified",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Checking thyroid antibodies and repeating the hsCRP (inflammatory marker) that was high.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Referral",
+          "recommendation": "Seeing a cardiologist for an echo due to a very slow heart rate and right atrial enlargement.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please make sure that you nourish your body enough and get some recovery time!",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Phytomulti , Curcumin , Magnesium , Vitamin D , Omega 3",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:46:00",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

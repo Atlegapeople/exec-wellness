@@ -1,0 +1,121 @@
+{
+  "employee_id": "e6smcd8l1trz7kg8e",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2020-01-28",
+      "report_id": "qmh3jid2ac2kkja3s",
+      "report_date": "2020-01-28",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "-From the age of 45 prostate screening is important. Take note of any changes to your urinary habits.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Good body composition",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercises frequently",
+          "status": "Ongoing",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Supplement with vitamin D3 5000iu daily. Recheck level in 3 months. Aim for a vitamin D level of between 50 to 80.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Repeated Cholesterol, ALT and Uric acid levels as per your request and checked CA19.9 and stool for occult blood as a screening for colon cancer due to your concerns.",
+          "status": "Completed",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-15",
+      "report_id": "Not specified",
+      "report_date": "Report date not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Martin Potgieter",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Your PSA is still elevated. Following up with your urologist, as planned, is recommended.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take note of any changes to your urinary habits.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-15",
+      "report_id": "9847b281e885db1e",
+      "report_date": "Report date from the data or 'Not specified'",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Martin Potgieter",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Your PSA is still elevated. Following up with your urologist, as planned, is recommended.",
+          "status": "Planned",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "-G & C scope cancer screening is recommended for you.",
+          "status": "Planned",
+          "source_field": "Women's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Continue leading an active lifestyle, include a variety of exercise types to help maintain good muscle bulk.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Lower intake of foods high in saturated & trans fats. Review cholesterol levels in 3 months.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:39:40",
+  "total_reports": 3,
+  "total_actions": 12,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer",
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

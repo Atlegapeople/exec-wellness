@@ -1,0 +1,51 @@
+{
+  "employee_id": "dvjcz32z0em4v6dya",
+  "employee_name": "Ettienne Le Roux",
+  "treatment_timeline": [
+    {
+      "date": "2019-11-26",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ettienne Le Roux",
+      "actions": [
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Take a good multivitamin such as Phytomulti with active B vitamins in it to help reduce homocysteine level from 11.8umol/l to around 8umol/l.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Continue with your healthy high fiber diet, probiotics, exercise and adequate water intake to encourage a daily bowel movement. As you are still only going every second day I recommend supplementing with magnesium citrate starting at 300mg and Vit C 1000mg at night to have a gentle natural laxative effect.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Continue to manage your stress through your healthy diet and exercise regime. Consider adding some deep breathing exercises or meditation.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "WomensHealthRecommendation",
+          "recommendation": "Supplement with vit D3 5000iu daily. Aim to increase level from 25ng/ml to between 50 to 80ng/ml. Repeat level in 4 to 6 months. If level is optimal then can reduce dosage to 1000iu daily.",
+          "status": "Not specified",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:35:44",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

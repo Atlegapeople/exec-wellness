@@ -1,0 +1,33 @@
+{
+  "employee_id": "5dce89e7aef92b7b",
+  "employee_name": "Bongani Mazibuko",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "bacbae12d309d87f",
+      "report_date": "2022-06-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ntombikayise Seane",
+      "employee_name": "Bongani Mazibuko",
+      "actions": [
+        {
+          "category": "Special Investigation",
+          "recommendation": "pH 6, SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:53:52",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ntombikayise Seane"
+    ]
+  }
+}

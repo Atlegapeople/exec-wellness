@@ -1,0 +1,26 @@
+{
+  "employee_id": "ynymawepk6rcfka2",
+  "employee_name": "Zukiswa Tyesi",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "9200eedd6dbf4037",
+      "report_date": "2022-08-31",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Zukiswa Tyesi",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

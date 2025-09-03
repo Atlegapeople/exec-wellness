@@ -1,0 +1,51 @@
+{
+  "employee_id": "a7055d5436b15c83",
+  "employee_name": "Sheila Ntombela",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-21",
+      "report_id": "661343c02f41569d",
+      "report_date": "2022-09-14",
+      "doctor": "Carla Marais",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Sheila Ntombela",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BP high normal - 24 hour BP booked.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "ENT: Swollen nasal turbinates - Avamys prescibed",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "A full audiogram is recommended to determine the cause and type of hearing loss.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:50:15",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

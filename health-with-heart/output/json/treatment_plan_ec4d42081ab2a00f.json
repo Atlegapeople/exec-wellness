@@ -1,0 +1,51 @@
+{
+  "employee_id": "ec4d42081ab2a00f",
+  "employee_name": "Keamogetswe Mothoagae",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-06",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Keamogetswe Mothoagae",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Consider repeating reduced lung function test and if still abnormal see a pulmonologist wrt your asthma.",
+          "status": "Planned",
+          "source_field": "Special Investigation Recommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "I would encourage you to start exercising as your low VO2 max shows that you are unfit. Exercise not only benefits the cardiovascular system but will also help with body composition as well as stress management.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Iron supplements",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:42:29",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

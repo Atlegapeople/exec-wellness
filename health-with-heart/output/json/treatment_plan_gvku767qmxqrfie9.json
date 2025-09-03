@@ -1,0 +1,51 @@
+{
+  "employee_id": "gvku767qmxqrfie9",
+  "employee_name": "Hope Motau",
+  "treatment_timeline": [
+    {
+      "date": "2023-02-07",
+      "report_id": "e07369a5582ad12f",
+      "report_date": "2022-08-31",
+      "doctor": "Christie Pilossof",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Hope Motau",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear and a Radiologist for a mammogram",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "You mention some difficulty swallowing for many years. You feel like you need to drink water to get your food down. I would advise you to see a gastroenterologist for a scope/barium swallow.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is recommended that you reduce your BMI < 25 and your waist to height ratio < 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Centrum",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:59:39",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "29ny44tmm68jpi63t",
+  "employee_name": "Boshoff Grobler or Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2019-01-19",
+      "report_id": "ai3h9rjdkhuw2i5te",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Boshoff Grobler or Not specified",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Recommend Headspace for daily mindfulness/meditation.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Continue strength and training to support knee post surgery.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Suggest trial of L-Theanine and or 5-HTP to help ameliorate high pressure, stress and anxiety.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Recommend methylated B complex supplement to support brain under stress.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Cholesterol consistent from 2016 - 2019. BP slightly elevated on day of medical - requires monitoring.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:16:36",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

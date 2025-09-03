@@ -1,0 +1,33 @@
+{
+  "employee_id": "43996d90965a5040",
+  "employee_name": "Shaylene Fisher",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "f59ba5e94cd1bb95",
+      "report_date": "Not specified",
+      "doctor": "Joy Sitole",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Shaylene Fisher",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "-Visit a radiologist for a mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:36:22",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

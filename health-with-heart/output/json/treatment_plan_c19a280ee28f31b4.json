@@ -1,0 +1,51 @@
+{
+  "employee_id": "c19a280ee28f31b4",
+  "employee_name": "Valentia Motswene",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-29",
+      "report_id": "09610fed1dd4ba09",
+      "report_date": "Not specified",
+      "doctor": "Sarah Mujinga",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Valentia Motswene",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Sinus bradycardia on resting ECG, flattened ST segments in inferior leads in recovery phase, no inducible ischaemia. Moderate difficulty with lung function test.",
+          "status": "Not specified",
+          "source_field": "SpecialInvestigationRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Annual Pap smear recommended",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Eat a balanced diet, exercise regularly, and avoid smoking.",
+          "status": "Ongoing",
+          "source_field": "LifestyleNote"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Vitamin D supplement if deficient.",
+          "status": "Not specified",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:13:34",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Sarah Mujinga"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

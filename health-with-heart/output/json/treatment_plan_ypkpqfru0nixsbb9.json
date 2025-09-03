@@ -1,0 +1,51 @@
+{
+  "employee_id": "ypkpqfru0nixsbb9",
+  "employee_name": "Brad Carter",
+  "treatment_timeline": [
+    {
+      "date": "2022-08-31",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Brad Carter",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Small 10c coin patch of Tinea corporis (fungal patch) on stomach. Use the antifungal cream prescribed for at least 2-3 weeks and review with a doctor if not better",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Monitor and visit your doctor if you experience any urinary symptoms.",
+          "status": "Ongoing",
+          "source_field": "Men's Health Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Please report any new worrying or persistent symptoms to your doctor.",
+          "status": "Ongoing",
+          "source_field": "SymptomScreeningNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:30:02",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

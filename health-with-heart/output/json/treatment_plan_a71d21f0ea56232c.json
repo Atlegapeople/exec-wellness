@@ -1,0 +1,33 @@
+{
+  "employee_id": "a71d21f0ea56232c",
+  "employee_name": "Yasaar Greeff",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-22",
+      "report_id": "996da12950f70a9f",
+      "report_date": "2021-04-22",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Yasaar Greeff",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD Ph 6 SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:50:19",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

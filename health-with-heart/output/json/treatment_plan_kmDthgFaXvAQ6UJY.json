@@ -1,0 +1,39 @@
+{
+  "employee_id": "kmDthgFaXvAQ6UJY",
+  "employee_name": "Ayesha Khan",
+  "treatment_timeline": [
+    {
+      "date": "2023-09-14",
+      "report_id": "to25uKK82z2hDeH8",
+      "report_date": "2023-09-14",
+      "doctor": "Yolandí Picton",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Ayesha Khan",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologists for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Remember to do monthly breast 'self-examination' and report any new or concerning signs to your health care provider.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendations"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 15:19:33",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Yolandí Picton"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

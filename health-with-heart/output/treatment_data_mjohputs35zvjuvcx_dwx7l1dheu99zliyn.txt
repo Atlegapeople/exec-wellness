@@ -1,0 +1,4489 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:50:29
+Employee ID: mjohputs35zvjuvcx
+Report ID: dwx7l1dheu99zliyn
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ChronicMedicationList
+Comment Value: Omega 3
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamComment
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamNote
+Comment Value: Increased Central Obesity
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ClinicalExamRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: CurrentComplaintNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: CurrentComplaintRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: EyesightNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: EyesightRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: LabTestNote
+Comment Value: FBC - Haemoglobin raised, Raised liver markers; eGFR 72; Raised cholesterol; Raised homocysteine
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: LabTestRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: LifestyleNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: LifestyleRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MedicalHistoryNote
+Comment Value: Adrian, lovely meeting you.
+As emphasised in our consultation - LIFESTYLE change is the most important take home message.
+Your fasting insulin levels were raised and this is usually one of the first signs for insulin resistance and the start of type 2 diabetes.
+You can prevent this by loosing weight, eating well, being active and avoiding alcohol.
+I would suggest that you repeat the fasting insulin in 3 months time.
+Well done on seeing Pippa already - I hope this is the start of healthy change for you.
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MedicalHistoryRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MentalHealthAnxietyRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MentalHealthMoodRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MentalHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: MentalHealthStressRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ReportNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: ReportRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: SpecialInvestigationNote
+Comment Value: Fasting Insulin raised
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: SpecialInvestigationRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: SymptomScreeningNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: SymptomScreeningRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: VitalsNote
+Comment Value: Raised BMI (Obese range); Raised waist:height ratio; Raised blood pressure
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: VitalsRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: VitaminsOrSupplements
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: WomensHealthNote
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: You scored in the moderate risk category for cardiovascular risk. For you to decrease this risk - decrease weight, exercise, decrease BP and cholesterol markers
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your uric acid & inflammatory markers are raised - decrease alcohol use, decrease red meat intake, take methylated B vitamins (Metagenics Phyto-multi is a good option)
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 10% risk of cardiovascular event in the next 10 years
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your liver markers were raised. Please stop alcohol use and repeat these readings in 6 weeks time - if still raised to investigate further
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Multiple Risk factors for Cardiovascular Disease Risk
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Non smoker
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Raised BMI&waist circumference; Raised BP; High Cholesterol; Raised Liver markers; High Uric Acid; eGFR 72; Raised inflammatory markers, Raised haemoglobin, raised fasting insulin
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your lipogram is deranged - Dietician seen, please decrease alcohol consumption, take 2-4g's of Omega 3 supplement and repeat cholesterol in 3/12
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+Employee: Adrian Isemonger
+Report Date: 2022-04-13
+Doctor: Carla Marais
+Nurse: Lebo Cindi
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: Your haemoglobin was raised - I would suggest repeating the full blood count and for it to be reviewed with the consulting haematologist if still abnormal.
+Comment Key: WomensHealthRecommendation
+Comment Value: None
+Special Investigation Notes: Fasting Insulin raised
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+Date: 2022-04-13 - 2022-04-13
+Time: 08:00:00 - 09:00:00
+Notes: 
+Status: Completed
+------------------------------

@@ -1,0 +1,62 @@
+{
+  "employee_id": "4836c51786cd35ac",
+  "employee_name": "Andrew Mamafha",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-11",
+      "report_id": "268fd9399a43ba2b",
+      "report_date": "2023-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Devinia Carelse",
+      "employee_name": "Andrew Mamafha",
+      "actions": [
+        {
+          "category": "Referral",
+          "recommendation": "Will consult with Health with heart Doctor for Leucocytes in urine trace",
+          "status": "Planned",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "report_id": "e2ab1d446e94dcc2",
+      "report_date": "2024-03-11",
+      "doctor": "Alex Stuart",
+      "nurse": "Masha Tisetso",
+      "employee_name": "Andrew Mamafha",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "- PH:6",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "- SG:1.020",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "- PROTEIN: TRACE",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:38:44",
+  "total_reports": 2,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Devinia Carelse",
+      "Masha Tisetso"
+    ]
+  }
+}

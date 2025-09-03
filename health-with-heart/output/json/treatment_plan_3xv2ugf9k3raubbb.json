@@ -1,0 +1,39 @@
+{
+  "employee_id": "3xv2ugf9k3raubbb",
+  "employee_name": "Pranita Ranchhod",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-31",
+      "report_id": "09c2e9a211563085",
+      "report_date": "Not specified",
+      "doctor": "Cindy Smit",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Pranita Ranchhod",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "Consult your Gynaecologist when planning to fall pregnant.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a Radiologist for your annual mammogram.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:33:34",
+  "total_reports": 1,
+  "total_actions": 2,
+  "medical_staff": {
+    "doctors": [
+      "Cindy Smit"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

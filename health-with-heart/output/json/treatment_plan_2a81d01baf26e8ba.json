@@ -1,0 +1,63 @@
+{
+  "employee_id": "2a81d01baf26e8ba",
+  "employee_name": "Thobile Xaba",
+  "treatment_timeline": [
+    {
+      "date": "2023-05-11",
+      "report_id": "432cf2f3344db48a",
+      "report_date": "2023-05-11",
+      "doctor": "Joy Sitole",
+      "nurse": "Londeka Mkhwanazi",
+      "employee_name": "Thobile Xaba",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "BMI & waist-to-height ratio are normal. This lowers the risk of illnesses like diabetes & hypertension. Keep BMI between 18.5- 24.9 & waist-to-height ratio below 50.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Supplement vitamin D, aim for levels above 20ng/ml.",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "Blood tests for vitamin B12 & folic acid levels are recommended.",
+          "status": "Planned",
+          "source_field": "VitaminsOrSupplements"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Visit a general practitioner or a gynaecologist for a Pap smear.",
+          "status": "Planned",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Continue living an active lifestyle. Include a variety of exercises.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Prioritise rest and activities that allow you to destress.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:16:54",
+  "total_reports": 1,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Londeka Mkhwanazi"
+    ]
+  }
+}

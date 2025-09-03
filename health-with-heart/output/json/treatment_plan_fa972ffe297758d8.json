@@ -1,0 +1,26 @@
+{
+  "employee_id": "fa972ffe297758d8",
+  "employee_name": "Lebogang Mahlobogoane",
+  "treatment_timeline": [
+    {
+      "date": "Not specified",
+      "report_id": "99ae8700b3ffcbfc",
+      "report_date": "2023-05-11",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Lebogang Mahlobogoane",
+      "actions": []
+    }
+  ],
+  "generated_at": "2025-08-24 17:14:07",
+  "total_reports": 1,
+  "total_actions": 0,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

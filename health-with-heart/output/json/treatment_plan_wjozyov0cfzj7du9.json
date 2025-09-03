@@ -1,0 +1,45 @@
+{
+  "employee_id": "wjozyov0cfzj7du9",
+  "employee_name": "Portia Mabecuane",
+  "treatment_timeline": [
+    {
+      "date": "2023-03-29",
+      "report_id": "Not specified",
+      "report_date": "Not specified",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Portia Mabecuane",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "You can take anti-inflammatories and visit the physio after the car accident. Visit a GP if your neck pain does not improve.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Focus on loosing cm around your waist rather than a number on the scale.",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin C , Vitamin B12/BCo , Collagen",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:22:15",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "employee_id": "ynqqs7rukgqbxnpw",
+  "employee_name": "Willem Richard",
+  "treatment_timeline": [
+    {
+      "date": "2022-09-27",
+      "report_id": "ff515e122d513b8a",
+      "report_date": "Not specified",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Willem Richard",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Post nasal drip. Avamys and Cetirizine prescribed",
+          "status": "Not specified",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Limit cardiovascular risk by keeping waist to height ratio <50% and BMI <25",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Supplement with magnesium in the evenings and limit screen time before sleep",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Neck pain - cervical spine XRAY done before and physio seen",
+          "status": "Completed",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Tenderness and some deformity in the small joints of his hands",
+          "status": "Not specified",
+          "source_field": "SymptomScreeningRecommendation"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:29:04",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

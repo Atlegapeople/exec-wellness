@@ -1,0 +1,57 @@
+{
+  "employee_id": "axf70h340ad4isql1",
+  "employee_name": "Alison Dippenaar",
+  "treatment_timeline": [
+    {
+      "date": "2022-06-22",
+      "report_id": "cycyd2x7h4uzeoj7m",
+      "report_date": "2022-06-22",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alison Dippenaar",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with Vitamin D 5000iu daily and repeat in 3/12.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "See a Dermatologist for Mole Mapping.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Please see a Cardiologist for review.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Follow a Mediterranean diet, supplement with Omega 3, move more and exercise at least 3 times a week for 40 mins.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Practice mindfulness to help manage anxiety.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:57:03",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

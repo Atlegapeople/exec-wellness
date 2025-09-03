@@ -1,0 +1,36 @@
+Treatment Plan Data Extract
+Generated: 2025-08-24 11:48:00
+Employee ID: 12a557beb76b6158
+Report ID: ae94d322fc9c6030
+================================================================================
+
+MEDICAL RECORDS & RECOMMENDATIONS:
+--------------------------------------------------
+Employee: Kgomotso Modipe
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Employee has a yellowish discharge when urinating. Blood 1+ and Leucocytes 2+ in urine detected. Referred to her own GP
+------------------------------
+Employee: Kgomotso Modipe
+Report Date: 2022-06-21
+Doctor: Alex Stuart
+Nurse: Devinia Carelse
+Clinical Recommendations: 
+Men's Health Recommendations: 
+Women's Health Recommendations: 
+Overview Notes: 
+Comment Key: None
+Comment Value: None
+Special Investigation Notes: Employee has a yellowish discharge when urinating. Blood 1+ and Leucocytes 2+ in urine detected. Referred to her own GP
+------------------------------
+
+APPOINTMENTS:
+--------------------------------------------------
+No appointments found.

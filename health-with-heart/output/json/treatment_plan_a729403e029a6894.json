@@ -1,0 +1,51 @@
+{
+  "employee_id": "a729403e029a6894",
+  "employee_name": "Rajendran Govender",
+  "treatment_timeline": [
+    {
+      "date": "2025-06-30",
+      "report_id": "0b2c70e3dbedc3f3",
+      "report_date": "2025-06-30",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Aphiwo Masondo",
+      "employee_name": "Rajendran Govender",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Normal examination on the day.",
+          "status": "Completed",
+          "source_field": "ClinicalRecommendations"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Visit a GP if you experience any new worrying or persistent urinary symptoms.",
+          "status": "Planned",
+          "source_field": "MensHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Follow up with a physiotherapist for your back and neck pain.  Long term visits may be needed.  A GP can help with further assessments should your pain become worse.",
+          "status": "Planned",
+          "source_field": "SymptomScreeningRecommendation"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Multivitamin",
+          "status": "Ongoing",
+          "source_field": "VitaminsOrSupplements"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:50:37",
+  "total_reports": 1,
+  "total_actions": 4,
+  "medical_staff": {
+    "doctors": [
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Aphiwo Masondo"
+    ]
+  }
+}

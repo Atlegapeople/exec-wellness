@@ -1,0 +1,33 @@
+{
+  "employee_id": "a6d5a004569f3ba3",
+  "employee_name": "Nomsa Moyana",
+  "treatment_timeline": [
+    {
+      "date": "2021-04-16",
+      "report_id": "951ca3844e89fd1e",
+      "report_date": "2021-04-16",
+      "doctor": "Alex Stuart",
+      "nurse": "Ramona Azagsiba",
+      "employee_name": "Nomsa Moyana",
+      "actions": [
+        {
+          "category": "Screening",
+          "recommendation": "NAD Ph 6 SG 1.025",
+          "status": "Not specified",
+          "source_field": "Special Investigation Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:49:54",
+  "total_reports": 1,
+  "total_actions": 1,
+  "medical_staff": {
+    "doctors": [
+      "Alex Stuart"
+    ],
+    "nurses": [
+      "Ramona Azagsiba"
+    ]
+  }
+}

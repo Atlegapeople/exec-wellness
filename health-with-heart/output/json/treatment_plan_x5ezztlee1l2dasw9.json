@@ -1,0 +1,74 @@
+{
+  "employee_id": "x5ezztlee1l2dasw9",
+  "employee_name": "Richard North",
+  "treatment_timeline": [
+    {
+      "date": "2020-02-04",
+      "report_id": "1boamq12z5mcs3l6u",
+      "report_date": "2020-02-04",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Richard North",
+      "actions": [
+        {
+          "category": "Supplements",
+          "recommendation": "Vitamin D 5000iu daily",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "DHEA 50mg daily",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-05-19",
+      "report_id": "jg3uv2stsvdzp5c9f",
+      "report_date": "2022-05-19",
+      "doctor": "Carla Marais",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Richard North",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Urology Consult: You have urinary symptoms, raised PSA and low testosterone. Please see a urologist ASAP as well as doing a prostate sonar",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise regularly, non-smoker",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Your vit D is suboptimal - supplement with Vit D 3 5000iu dly and repeat in 3/12",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "Do a glucose tolerance test",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 16:23:59",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Carla Marais",
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

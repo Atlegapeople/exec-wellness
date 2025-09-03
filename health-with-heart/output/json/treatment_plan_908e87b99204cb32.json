@@ -1,0 +1,45 @@
+{
+  "employee_id": "908e87b99204cb32",
+  "employee_name": "Judy Naidoo",
+  "treatment_timeline": [
+    {
+      "date": "2023-12-12",
+      "report_id": "ccb3eafed098908d",
+      "report_date": "Not specified",
+      "doctor": "Jessica Koen or Not specified",
+      "nurse": "Lebo Cindi or Not specified",
+      "employee_name": "Judy Naidoo",
+      "actions": [
+        {
+          "category": "Women's Health",
+          "recommendation": "You report that your recent mammogram was clear. Regular screening with the Radiologist will help detect any abnormalities early.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Follow-up",
+          "recommendation": "You are following up with your Gynae for your hormone replacement since your surgery. You were recently changed from the patch to Qlaira oral pill.",
+          "status": "Ongoing",
+          "source_field": "WomensHealthRecommendation"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "We are here to help in whatever way we can - as you start building-up your physical, mental and emotional wellbeing again.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:32:12",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Jessica Koen or Not specified"
+    ],
+    "nurses": [
+      "Lebo Cindi or Not specified"
+    ]
+  }
+}

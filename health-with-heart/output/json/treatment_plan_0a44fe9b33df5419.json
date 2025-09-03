@@ -1,0 +1,57 @@
+{
+  "employee_id": "0a44fe9b33df5419",
+  "employee_name": "Not specified",
+  "treatment_timeline": [
+    {
+      "date": "2022-10-10",
+      "report_id": "9abec40c891512bf",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Not specified",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Audio exam overall normal but mild component in R ear - recommend to monitor annually",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "To reduce your risk of chronic disease it is recommended that you maintain a BMI < 25 and a waist to height ratio < 50%",
+          "status": "Ongoing",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please be mindful of your alcohol intake as it may be higher than recommended, which could lead to raised liver enzymes, high triglycerides and high uric acid levels",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "Please monitor your blood pressure as it is at the upper limit of normal. If it remains high you may need to consider medication",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Not specified",
+          "recommendation": "I wish you a happy and healthy remainder of 2022",
+          "status": "Not applicable",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 11:58:30",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

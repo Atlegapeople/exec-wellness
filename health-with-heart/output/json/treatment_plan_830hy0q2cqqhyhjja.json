@@ -1,0 +1,218 @@
+{
+  "employee_id": "830hy0q2cqqhyhjja",
+  "employee_name": "Alan Pullinger",
+  "treatment_timeline": [
+    {
+      "date": "2020-09-01",
+      "report_id": "t7vcy5o4ox6lj4a0l",
+      "report_date": "Not specified",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alan Pullinger",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Your prostate is being managed by a specialist conservatively with watchful waiting.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Phytoestrogen supplements (Evening Primrose Oil, Black Cohosh, Red Clover) and DIM supplements.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Vitamin D3 5000 IU daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Magnesium 400 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Calcium 1200 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Probiotics (Lactobacillus acidophilus and Bifidobacterium bifidum) daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Vitamin B6 50 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Vitamin E 400 IU daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Omega-3 fish oil 1000 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Coenzyme Q10 200 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Turmeric Curcumin 500 mg twice daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Green Tea Extract 500 mg twice daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take DHEA 25 mg daily.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Take Melatonin 3 mg at night.",
+          "status": "Planned",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid soy products.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid alcohol and caffeine.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Avoid smoking.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Exercise regularly.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Maintain a healthy weight.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Get enough sleep.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Regularly monitor hormone levels (Estrogen, Progesterone, Testosterone).",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Regularly monitor thyroid function (TSH, T3, T4).",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Regularly monitor bone density (DXA scan).",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        }
+      ]
+    },
+    {
+      "date": "2021-10-28",
+      "report_id": "kum2hhye86f3rl998",
+      "report_date": "2021-10-28",
+      "doctor": "Janine Silberbauer",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Alan Pullinger",
+      "actions": [
+        {
+          "category": "Men's Health",
+          "recommendation": "Your prostate is being managed by a specialist conservatively with watchful waiting.",
+          "status": "Ongoing",
+          "source_field": "Clinical Recommendations"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Urology review with Dr Gellman is overdue.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Screening Colonoscopy due with Dr Kassianides at Morningside.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Take Methylcobalamin 1200mcg daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Omega-3 Fish Oil 1000mg twice a day.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Coenzyme Q10 200mg daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Supplements",
+          "recommendation": "Take Vitamin D3 5000IU daily.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:19:55",
+  "total_reports": 2,
+  "total_actions": 30,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof",
+      "Janine Silberbauer"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

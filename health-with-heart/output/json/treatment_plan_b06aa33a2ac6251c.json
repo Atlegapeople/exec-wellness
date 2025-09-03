@@ -1,0 +1,57 @@
+{
+  "employee_id": "b06aa33a2ac6251c",
+  "employee_name": "Stephen Dippenaar",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-06",
+      "report_id": "9daaf13970314237",
+      "report_date": "2023-06-06",
+      "doctor": "Joy Sitole",
+      "nurse": "Rebecca Mogale",
+      "employee_name": "Stephen Dippenaar",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Blood pressure is high. This is diagnostic of hypertension. Treatment is necessary.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Clinical",
+          "recommendation": "BMI at 31.2 & waist-to-height ratio at 60 are high. This increases the risk of illnesses such as diabetes & hypertension. Keep BMI between 18.5- 24.9 & waist-to-height ratio below 50.",
+          "status": "Planned",
+          "source_field": "VitalsRecommendation"
+        },
+        {
+          "category": "Men's Health",
+          "recommendation": "-Be cautious of urinary symptoms such as straining, frequent urination, a weak stream and dribbling. These should always be attended to if they occur.",
+          "status": "Ongoing",
+          "source_field": "Men'sHealthRecommendations"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "-Improving your physical activity & diet will help lower your risk of disease & improve control of your blood pressure & sugar levels.",
+          "status": "Ongoing",
+          "source_field": "OverviewNotes"
+        },
+        {
+          "category": "Screening",
+          "recommendation": "-Please repeat these blood tests: kidney function, glucose, insulin & DHEAS.",
+          "status": "Planned",
+          "source_field": "OverviewNotes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 13:57:44",
+  "total_reports": 1,
+  "total_actions": 5,
+  "medical_staff": {
+    "doctors": [
+      "Joy Sitole"
+    ],
+    "nurses": [
+      "Rebecca Mogale"
+    ]
+  }
+}

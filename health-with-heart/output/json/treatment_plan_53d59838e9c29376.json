@@ -1,0 +1,45 @@
+{
+  "employee_id": "53d59838e9c29376",
+  "employee_name": "Mala Somers",
+  "treatment_timeline": [
+    {
+      "date": "2023-06-08",
+      "report_id": "483f29f5ccea048b",
+      "report_date": "2023-06-08",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Mala Somers",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Supplementing with methylated B vitamins (e.g. Stellar Activ-Folate/Metagenics MethylCare) to reduce high homocysteine level. Recheck the level in 6 months. Aim for <7 umol/l.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Lifestyle",
+          "recommendation": "Managing stress, reducing carbohydrates and increasing exercise to reduce high insulin level.",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Monitoring",
+          "recommendation": "Monitor blood pressure if high diastolic blood pressure persists.",
+          "status": "Planned",
+          "source_field": "VitalsNote"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 12:47:32",
+  "total_reports": 1,
+  "total_actions": 3,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}

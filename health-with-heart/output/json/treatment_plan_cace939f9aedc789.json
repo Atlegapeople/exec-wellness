@@ -1,0 +1,73 @@
+{
+  "employee_id": "cace939f9aedc789",
+  "employee_name": "Nielen Van de Vyver",
+  "treatment_timeline": [
+    {
+      "date": "2020-09-15",
+      "report_id": "fz9bxisgp8dkytdlo",
+      "report_date": "2020-09-15",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nielen Van de Vyver",
+      "actions": [
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Take 50mg of DHEA daily. This may help your body to cope better with stress and increase your metabolism and energy levels",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Drinks a bottle of wine once or twice per week. Preferably drink one or two glasses a day than a whole bottle at a time",
+          "status": "Ongoing",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Cholesterol levels: to try manage with lifestyle only. Take omega 3 supplements 2g daily. Repeat blood after 3 months",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health Recommendation",
+          "recommendation": "Supplement with vitamin D3 5000iu daily and get some sun exposure without getting sunburnt. Repeat level in 3 months aiming for a blood level of 50 to 80ng/ml",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    },
+    {
+      "date": "2022-02-08",
+      "report_id": "Not specified",
+      "report_date": "2022-02-08",
+      "doctor": "Christie Pilossof",
+      "nurse": "Lebo Cindi",
+      "employee_name": "Nielen Van de Vyver",
+      "actions": [
+        {
+          "category": "Clinical",
+          "recommendation": "Please repeat your full blood count in a month or two when you are well (no cold/flu/virus) so we can monitor the white blood cell levels. They can be low from a recent viral infection",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        },
+        {
+          "category": "Women's Health",
+          "recommendation": "Please watch your alcohol consumption and we will repeat the level with your full blood count.",
+          "status": "Planned",
+          "source_field": "Overview Notes"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2025-08-24 14:20:04",
+  "total_reports": 2,
+  "total_actions": 6,
+  "medical_staff": {
+    "doctors": [
+      "Christie Pilossof"
+    ],
+    "nurses": [
+      "Lebo Cindi"
+    ]
+  }
+}
