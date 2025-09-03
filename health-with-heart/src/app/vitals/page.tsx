@@ -829,7 +829,7 @@ export default function VitalsPage() {
 
                           return (
                             <Button
-                              key={`appointments-page-${page}`}
+                              key={`vitals-page-${page}`}
                               variant={
                                 page === pagination.page ? 'default' : 'outline'
                               }

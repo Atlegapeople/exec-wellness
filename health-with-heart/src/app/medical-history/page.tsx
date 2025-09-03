@@ -767,7 +767,7 @@ export default function MedicalHistoryPage() {
 
                 {/* Pagination */}
                 {pagination.totalPages > 1 && (
-                  <div className='flex items-center justify-between pt-4 border-t'>
+                  <div className='flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t gap-2'>
                     <div className='text-sm text-muted-foreground'>
                       Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
                       {Math.min(
@@ -776,30 +776,39 @@ export default function MedicalHistoryPage() {
                       )}{' '}
                       of {pagination.total} results
                     </div>
-                    <div className='flex items-center space-x-2'>
+                    <div className='flex items-center space-x-1 flex-wrap'>
+                      {/* First Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(1)}
                         disabled={pagination.page === 1}
                         className='hover-lift'
+                        title='Go to first page'
                       >
                         <ChevronsLeft className='h-4 w-4' />
-                        First
+                        <span className='hidden sm:inline ml-1'>
+                          {selectedMedicalHistory && leftPanelWidth < 50 ? '' : 'First'}
+                        </span>
                       </Button>
 
+                      {/* Previous Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
                         className='hover-lift'
+                        title='Go to previous page'
                       >
                         <ChevronLeft className='h-4 w-4' />
-                        Previous
+                        <span className='hidden sm:inline ml-1'>
+                          {selectedMedicalHistory && leftPanelWidth < 50 ? '' : 'Previous'}
+                        </span>
                       </Button>
 
-                      <div className='flex items-center gap-1'>
+                      {/* Page Numbers */}
+                      <div className='flex items-center space-x-1'>
                         {Array.from(
                           { length: Math.min(5, pagination.totalPages) },
                           (_, i) => {
@@ -818,6 +827,7 @@ export default function MedicalHistoryPage() {
                                 size='sm'
                                 onClick={() => handlePageChange(page)}
                                 className='hover-lift min-w-[40px]'
+                                title={`Go to page ${page}`}
                               >
                                 {page}
                               </Button>
@@ -826,25 +836,33 @@ export default function MedicalHistoryPage() {
                         )}
                       </div>
 
+                      {/* Next Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
                         className='hover-lift'
+                        title='Go to next page'
                       >
-                        Next
+                        <span className='hidden sm:inline mr-1'>
+                          {selectedMedicalHistory && leftPanelWidth < 50 ? '' : 'Next'}
+                        </span>
                         <ChevronRight className='h-4 w-4' />
                       </Button>
 
+                      {/* Last Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={pagination.page === pagination.totalPages}
                         className='hover-lift'
+                        title='Go to last page'
                       >
-                        Last
+                        <span className='hidden sm:inline mr-1'>
+                          {selectedMedicalHistory && leftPanelWidth < 50 ? '' : 'Last'}
+                        </span>
                         <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
