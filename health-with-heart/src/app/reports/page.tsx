@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { Label } from '@/components/ui/label';
 import {
   Table,
   TableBody,
@@ -187,11 +188,8 @@ export default function ReportsPage() {
           setFormLoading(false);
         }
       } else if (employeeFilter && data.reports && data.reports.length === 0) {
-        // No reports found for this employee, open the create modal with employee ID pre-filled
-        console.log('No reports found for employee, opening create modal');
-        console.log('Setting form data with employee_id:', employeeFilter);
-        setFormData({ employee_id: employeeFilter });
-        setIsCreateModalOpen(true);
+        // No reports found for this employee
+        console.log('No reports found for employee:', employeeFilter);
       }
 
       // Calculate status summary - SIMPLE VERSION
@@ -638,6 +636,63 @@ export default function ReportsPage() {
           </div>
         )}
 
+        {/* Search and Filters */}
+        <Card className='mb-6'>
+          <CardHeader>
+            <CardTitle>Search & Filters</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className='flex space-x-4'>
+              <div className='flex-1'>
+                <div className='relative'>
+                  <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4' />
+                  <Input
+                    type='text'
+                    placeholder='Search by employee, doctor, workplace, email, or report ID...'
+                    value={searchTerm}
+                    onChange={e => {
+                      setSearchTerm(e.target.value);
+                      updateURL(1, e.target.value, statusFilter);
+                    }}
+                    className='pl-10'
+                  />
+                </div>
+              </div>
+              <div className='flex items-center gap-2'>
+                <Filter className='h-4 w-4 text-muted-foreground' />
+                <Select
+                  value={statusFilter}
+                  onValueChange={value => {
+                    setStatusFilter(value);
+                    updateURL(1, searchTerm, value);
+                  }}
+                >
+                  <SelectTrigger className='w-48'>
+                    <SelectValue placeholder='Filter by status' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='all'>All Reports</SelectItem>
+                    <SelectItem value='signed'>
+                      Signed by Doctor
+                    </SelectItem>
+                    <SelectItem value='pending'>
+                      Pending Signature
+                    </SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+              <div className='text-sm text-muted-foreground'>
+                {(pagination.page - 1) * pagination.limit + 1}-
+                {Math.min(
+                  pagination.page * pagination.limit,
+                  pagination.total
+                )}{' '}
+                of {pagination.total}
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         <div
           className={`resizable-container flex transition-all duration-300 animate-slide-up overflow-hidden ${selectedReport ? '' : 'justify-center'}`}
         >
@@ -650,59 +705,6 @@ export default function ReportsPage() {
               paddingRight: selectedReport ? '12px' : '0',
             }}
           >
-            {/* Search and Filters */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4 min-h-[120px] flex items-center'>
-                <div className='flex flex-col lg:flex-row gap-4 items-center justify-between w-full'>
-                  <div className='flex flex-col lg:flex-row gap-4 flex-1'>
-                    <div className='flex-1 relative'>
-                      <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                      <Input
-                        type='text'
-                        placeholder='Search by employee, doctor, workplace, email, or report ID...'
-                        value={searchTerm}
-                        onChange={e => {
-                          setSearchTerm(e.target.value);
-                          updateURL(1, e.target.value, statusFilter);
-                        }}
-                        className='pl-9'
-                      />
-                    </div>
-                    <div className='flex items-center gap-2'>
-                      <Filter className='h-4 w-4 text-muted-foreground' />
-                      <Select
-                        value={statusFilter}
-                        onValueChange={value => {
-                          setStatusFilter(value);
-                          updateURL(1, searchTerm, value);
-                        }}
-                      >
-                        <SelectTrigger className='w-48'>
-                          <SelectValue placeholder='Filter by status' />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value='all'>All Reports</SelectItem>
-                          <SelectItem value='signed'>
-                            Signed by Doctor
-                          </SelectItem>
-                          <SelectItem value='pending'>
-                            Pending Signature
-                          </SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-                  <div className='text-sm text-muted-foreground'>
-                    {(pagination.page - 1) * pagination.limit + 1}-
-                    {Math.min(
-                      pagination.page * pagination.limit,
-                      pagination.total
-                    )}{' '}
-                    of {pagination.total}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
 
             {/* Reports Table */}
             <Card className='hover-lift'>

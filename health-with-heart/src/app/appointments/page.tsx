@@ -529,18 +529,8 @@ export default function AppointmentsPage() {
           </Button>
         </div>
 
-        <div className='appointments-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Appointments Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{
-              width: selectedAppointment ? `${leftWidth}%` : '100%',
-              maxWidth: selectedAppointment ? `${leftWidth}%` : '100%',
-              paddingRight: selectedAppointment ? '12px' : '0',
-            }}
-          >
-            {/* Search */}
-            <Card className='glass-effect'>
+                    {/* Search */}
+                    <Card className='glass-effect my-6'>
               <CardContent className='p-4'>
                 <form onSubmit={handleSearch} className='flex gap-4'>
                   <div className='flex-1 relative'>
@@ -572,6 +562,18 @@ export default function AppointmentsPage() {
                 </form>
               </CardContent>
             </Card>
+
+        <div className='appointments-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Appointments Table */}
+          <div
+            className='space-y-4 animate-slide-up'
+            style={{
+              width: selectedAppointment ? `${leftWidth}%` : '100%',
+              maxWidth: selectedAppointment ? `${leftWidth}%` : '100%',
+              paddingRight: selectedAppointment ? '12px' : '0',
+            }}
+          >
+
 
             {/* Appointments Table */}
             <Card className='hover-lift'>
