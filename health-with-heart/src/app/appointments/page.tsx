@@ -117,7 +117,6 @@ export default function AppointmentsPage() {
 
   // Edit states for each section
   const [isEditingAppointment, setIsEditingAppointment] = useState(false);
-  const [isEditingReport, setIsEditingReport] = useState(false);
   const [isEditingCalendar, setIsEditingCalendar] = useState(false);
   const [isEditingRecord, setIsEditingRecord] = useState(false);
   const [isEditingNotes, setIsEditingNotes] = useState(false);
@@ -874,6 +873,30 @@ export default function AppointmentsPage() {
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
+                  {/* Report Information */}
+                  <div className='space-y-3'>
+                    <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
+                      <FileText className='h-4 w-4' />
+                      Report Information
+                    </h3>
+                    <div className='grid grid-cols-1 gap-3 text-sm'>
+                      <div className='flex gap-2'>
+                        <span className='text-muted-foreground min-w-[120px]'>
+                          Report ID:
+                        </span>
+                        {selectedAppointment.report_id ? (
+                          <Badge variant='default'>
+                            {selectedAppointment.report_id}
+                          </Badge>
+                        ) : (
+                          <Badge variant='secondary'>No Report</Badge>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  <Separator />
+
                   {/* Employee Information */}
                   <div className='space-y-3'>
                     <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
@@ -1074,60 +1097,7 @@ export default function AppointmentsPage() {
                     </div>
                   </div>
 
-                  <Separator />
 
-                  {/* Report Information */}
-                  <div className='space-y-3'>
-                    <div className='flex items-center justify-between'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <FileText className='h-4 w-4' />
-                        Report Information
-                      </h3>
-                      <div className='flex gap-2'>
-                        {isEditingReport && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingReport(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingReport ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() => setIsEditingReport(!isEditingReport)}
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingReport ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Report ID:
-                        </span>
-                        {isEditingReport ? (
-                          <Input
-                            defaultValue={selectedAppointment.report_id || ''}
-                            className='w-48'
-                            placeholder='Report ID'
-                          />
-                        ) : selectedAppointment.report_id ? (
-                          <Badge variant='default'>
-                            {selectedAppointment.report_id}
-                          </Badge>
-                        ) : (
-                          <Badge variant='secondary'>No Report</Badge>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-
-                  <Separator />
 
                   {/* Calendar Information */}
                   <div className='space-y-3'>

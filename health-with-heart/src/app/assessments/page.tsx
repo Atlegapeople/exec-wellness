@@ -319,18 +319,8 @@ export default function AssessmentsPage() {
           </Button>
         </div>
 
-        {/* Main Content with Split View */}
-        <div className='assessments-container flex gap-0 overflow-hidden mb-6'>
-          {/* Left Panel - Assessments List */}
-          <div
-            className='space-y-4 flex-shrink-0 flex flex-col'
-            style={{
-              width: selectedAssessment ? `${leftPanelWidth}%` : '100%',
-              maxWidth: selectedAssessment ? `${leftPanelWidth}%` : '100%',
-            }}
-          >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+                    {/* Stats Cards */}
+                    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
@@ -402,7 +392,7 @@ export default function AssessmentsPage() {
             </div>
 
             {/* Search */}
-            <Card className='glass-effect'>
+            <Card className='glass-effect my-6'>
               <CardContent className='p-4'>
                 <div className='flex items-center gap-4 w-full'>
                   <div className='flex-1 flex items-center gap-2'>
@@ -427,6 +417,18 @@ export default function AssessmentsPage() {
                 </div>
               </CardContent>
             </Card>
+
+        {/* Main Content with Split View */}
+        <div className='assessments-container flex gap-0 overflow-hidden mb-6'>
+          {/* Left Panel - Assessments List */}
+          <div
+            className='space-y-4 flex-shrink-0 flex flex-col'
+            style={{
+              width: selectedAssessment ? `${leftPanelWidth}%` : '100%',
+              maxWidth: selectedAssessment ? `${leftPanelWidth}%` : '100%',
+            }}
+          >
+
 
             {/* Assessments Table */}
             <Card className='hover-lift flex-1 overflow-hidden'>
@@ -695,11 +697,9 @@ export default function AssessmentsPage() {
           {/* Resize Handle */}
           {selectedAssessment && (
             <div
-              className='w-1 bg-border hover:bg-primary/50 cursor-col-resize transition-colors duration-200 flex-shrink-0 group'
+              className='w-1 bg-border hover:bg-primary/50 cursor-col-resize transition-colors duration-200 flex-shrink-0'
               onMouseDown={handleMouseDown}
-            >
-              <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1 h-8 bg-border group-hover:bg-primary/50 rounded-full transition-colors duration-200'></div>
-            </div>
+            />
           )}
 
           {/* Right Panel - Assessment Preview */}

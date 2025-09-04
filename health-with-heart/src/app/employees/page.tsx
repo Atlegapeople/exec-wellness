@@ -51,6 +51,7 @@ import {
   User,
   Building2,
   UserCheck,
+  Plus,
 } from 'lucide-react';
 
 interface PaginationInfo {
@@ -444,13 +445,21 @@ export default function EmployeesPage() {
                 {/* Employees Table */}
                 <Card className='hover-lift'>
                   <CardHeader>
-                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                      <Users className='h-6 w-6' />
-                      Employees ({pagination.total})
-                    </CardTitle>
-                    <CardDescription>
-                      Employee records and information
-                    </CardDescription>
+                    <div className='flex items-center justify-between'>
+                      <div>
+                        <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                          <Users className='h-6 w-6' />
+                          Employees ({pagination.total})
+                        </CardTitle>
+                        <CardDescription>
+                          Employee records and information
+                        </CardDescription>
+                      </div>
+                      <Button className='hover-lift'>
+                        <Plus className='h-4 w-4 mr-2' />
+                        Add Employee
+                      </Button>
+                    </div>
                   </CardHeader>
                   <CardContent>
                     {displayedEmployees.length === 0 ? (

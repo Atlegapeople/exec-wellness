@@ -51,6 +51,7 @@ import {
   Building2,
   MapPin,
   DollarSign,
+  Plus,
 } from 'lucide-react';
 
 interface MedicalReport {
@@ -709,20 +710,31 @@ export default function ReportsPage() {
             {/* Reports Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-3 heading-montserrat-bold text-2xl'>
-                  <div className='p-2 bg-teal-100 rounded-lg'>
-                    <FileText className='h-6 w-6 text-teal-600' />
-                  </div>
+                <div className='flex items-center justify-between'>
                   <div>
-                    <span className='medical-heading'>Medical Reports</span>
-                    <span className='ml-2 text-lg font-medium text-gray-500'>
-                      ({pagination.total})
-                    </span>
+                    <CardTitle className='flex items-center gap-3 heading-montserrat-bold text-2xl'>
+                      <div className='p-2 bg-teal-100 rounded-lg'>
+                        <FileText className='h-6 w-6 text-teal-600' />
+                      </div>
+                      <div>
+                        <span className='medical-heading'>Medical Reports</span>
+                        <span className='ml-2 text-lg font-medium text-gray-500'>
+                          ({pagination.total})
+                        </span>
+                      </div>
+                    </CardTitle>
+                    <CardDescription className='mt-2 text-base text-gray-600'>
+                      Comprehensive executive medical reports and health assessments
+                    </CardDescription>
                   </div>
-                </CardTitle>
-                <CardDescription className='mt-2 text-base text-gray-600'>
-                  Comprehensive executive medical reports and health assessments
-                </CardDescription>
+                  <Button 
+                    className={`hover-lift ${selectedReport ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                    title={selectedReport ? 'Add Report' : 'Add Report'}
+                  >
+                    <Plus className={`h-4 w-4 ${selectedReport ? '' : 'mr-2'}`} />
+                    {!selectedReport && 'Add Report'}
+                  </Button>
+                </div>
 
                 {/* Status Summary */}
                 <div className='mt-4 grid grid-cols-5 gap-4 text-sm'>
