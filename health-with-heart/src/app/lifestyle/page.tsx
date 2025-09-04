@@ -610,55 +610,16 @@ export default function LifestylePage() {
             variant='outline'
             size='sm'
             onClick={() => router.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
           </Button>
         </div>
 
-        <div className='lifestyle-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Lifestyle Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{ width: selectedLifestyle ? `${leftWidth}%` : '100%' }}
-          >
-            {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <form onSubmit={handleSearch} className='flex gap-4'>
-                  <div className='flex-1 relative'>
-                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                    <Input
-                      type='text'
-                      value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      placeholder='Search by employee name, ID, email...'
-                      className='pl-9'
-                    />
-                  </div>
-                  <Button type='submit' className='hover-lift'>
-                    Search
-                  </Button>
-                  {searchTerm && (
-                    <Button
-                      type='button'
-                      variant='outline'
-                      onClick={() => {
-                        setSearchTerm('');
-                        updateURL(1, '');
-                      }}
-                      className='hover-lift'
-                    >
-                      Clear
-                    </Button>
-                  )}
-                </form>
-              </CardContent>
-            </Card>
-
-            {/* Navigation Cards */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+        
+                        {/* Navigation Cards */}
+                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
               <Card
                 className='hover-lift cursor-pointer'
                 onClick={openOrganizationsModal}
@@ -727,6 +688,50 @@ export default function LifestylePage() {
                 </CardContent>
               </Card>
             </div>
+            
+            {/* Search */}
+            <Card className='glass-effect my-6'>
+              <CardContent className='p-4'>
+                <form onSubmit={handleSearch} className='flex gap-4'>
+                  <div className='flex-1 relative'>
+                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                    <Input
+                      type='text'
+                      value={searchTerm}
+                      onChange={e => setSearchTerm(e.target.value)}
+                      placeholder='Search by employee name, ID, email...'
+                      className='pl-9'
+                    />
+                  </div>
+                  <Button type='submit' className='hover-lift'>
+                    Search
+                  </Button>
+                  {searchTerm && (
+                    <Button
+                      type='button'
+                      variant='outline'
+                      onClick={() => {
+                        setSearchTerm('');
+                        updateURL(1, '');
+                      }}
+                      className='hover-lift'
+                    >
+                      Clear
+                    </Button>
+                  )}
+                </form>
+              </CardContent>
+            </Card>
+
+        <div className='lifestyle-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Lifestyle Table */}
+          <div
+            className='space-y-4 animate-slide-up'
+            style={{ width: selectedLifestyle ? `${leftWidth}%` : '100%' }}
+          >
+
+
+
 
             {/* Lifestyle Table */}
             <Card className='hover-lift'>
@@ -741,9 +746,12 @@ export default function LifestylePage() {
                       Employee lifestyle assessments and health data
                     </CardDescription>
                   </div>
-                  <Button onClick={openCreateModal} className='hover-lift'>
-                    <Plus className='h-4 w-4 mr-2' />
-                    Add New Record
+                  <Button 
+                    onClick={openCreateModal} 
+                    className={`hover-lift ${selectedLifestyle ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                  >
+                    <Plus className='h-4 w-4' />
+                    {!selectedLifestyle && <span className='ml-2'>Add New Record</span>}
                   </Button>
                 </div>
               </CardHeader>
@@ -761,7 +769,7 @@ export default function LifestylePage() {
                     </p>
                   </div>
                 ) : (
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[600px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -1034,14 +1042,24 @@ export default function LifestylePage() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedLifestyle(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openDeleteModal(selectedLifestyle)}
+                        className='hover-lift text-destructive hover:text-destructive'
+                      >
+                        <Trash2 className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedLifestyle(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -1801,23 +1819,12 @@ export default function LifestylePage() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='space-y-2'>
                 <Label htmlFor='employee_id_edit'>Employee</Label>
-                <Select
-                  value={formData.employee_id || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, employee_id: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select employee' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {employees.map(employee => (
-                      <SelectItem key={employee.id} value={employee.id}>
-                        {employee.name} {employee.surname}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <Input
+                  id='employee_id_edit'
+                  value={editingLifestyle ? getEmployeeName(editingLifestyle) : ''}
+                  disabled
+                  className='bg-muted'
+                />
               </div>
 
               <div className='space-y-2'>
@@ -1825,10 +1832,8 @@ export default function LifestylePage() {
                 <Input
                   id='report_id_edit'
                   value={formData.report_id || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, report_id: e.target.value })
-                  }
-                  placeholder='Link to medical report'
+                  disabled
+                  className='bg-muted'
                 />
               </div>
 
