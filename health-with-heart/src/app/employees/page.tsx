@@ -806,39 +806,6 @@ export default function EmployeesPage() {
         ) : (
           <div className='min-h-[600px]'>
             <div className='space-y-4 animate-slide-up'>
-              {/* Search */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <form onSubmit={handleSearch} className='flex gap-4'>
-                    <div className='flex-1 relative'>
-                      <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                      <Input
-                        type='text'
-                        value={searchTerm}
-                        onChange={e => setSearchTerm(e.target.value)}
-                        placeholder='Search by name, employee number, email...'
-                        className='pl-9'
-                      />
-                    </div>
-                    <Button type='submit' className='hover-lift'>
-                      Search
-                    </Button>
-                    {searchTerm && (
-                      <Button
-                        type='button'
-                        variant='outline'
-                        onClick={() => {
-                          setSearchTerm('');
-                          updateURL(1, '');
-                        }}
-                        className='hover-lift'
-                      >
-                        Clear
-                      </Button>
-                    )}
-                  </form>
-                </CardContent>
-              </Card>
 
               {/* Employees Table */}
               <Card className='hover-lift'>
