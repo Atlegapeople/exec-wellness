@@ -703,21 +703,15 @@ export default function LabTestsPage() {
             variant='outline'
             size='sm'
             onClick={() => router.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
           </Button>
         </div>
 
-        <div className='lab-tests-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Lab Tests Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{ width: selectedLabTest ? `${leftWidth}%` : '100%' }}
-          >
-            {/* Search */}
-            <Card className='glass-effect'>
+                    {/* Search */}
+                    <Card className='glass-effect mb-6'>
               <CardContent className='p-4'>
                 <form onSubmit={handleSearch} className='flex gap-4'>
                   <div className='flex-1 relative'>
@@ -750,6 +744,14 @@ export default function LabTestsPage() {
               </CardContent>
             </Card>
 
+
+          <div className='lab-tests-container flex gap-1 min-h-[700px]'>
+           {/* Left Panel - Lab Tests Table */}
+           <div
+             className='space-y-4 animate-slide-up min-h-[700px]'
+             style={{ width: selectedLabTest ? `${leftWidth}%` : '100%' }}
+           >
+
             {/* Lab Tests Table */}
             <Card className='hover-lift'>
               <CardHeader>
@@ -763,9 +765,12 @@ export default function LabTestsPage() {
                       Laboratory test results and blood work analysis
                     </CardDescription>
                   </div>
-                  <Button onClick={openCreateModal} className='hover-lift'>
-                    <Plus className='h-4 w-4 mr-2' />
-                    Add New Lab Test
+                  <Button 
+                    onClick={openCreateModal} 
+                    className={`hover-lift ${selectedLabTest ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                  >
+                    <Plus className='h-4 w-4' />
+                    {!selectedLabTest && <span className='ml-2'>Add New Lab Test</span>}
                   </Button>
                 </div>
               </CardHeader>
@@ -1050,27 +1055,27 @@ export default function LabTestsPage() {
                         </span>
                       </div>
                     </div>
-                    <div className='flex items-center gap-2'>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => openEditModal(selectedLabTest)}
-                        className='hover-lift'
-                      >
-                        <Edit className='h-4 w-4' />
-                      </Button>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => setSelectedLabTest(null)}
-                        className='hover-lift'
-                      >
-                        <X className='h-4 w-4' />
-                      </Button>
-                    </div>
+                                         <div className='flex items-center gap-2'>
+                       <Button
+                         variant='ghost'
+                         size='sm'
+                         onClick={() => openDeleteModal(selectedLabTest)}
+                         className='hover-lift text-destructive hover:text-destructive'
+                       >
+                         <Trash2 className='h-4 w-4' />
+                       </Button>
+                       <Button
+                         variant='ghost'
+                         size='sm'
+                         onClick={() => setSelectedLabTest(null)}
+                         className='hover-lift'
+                       >
+                         <X className='h-4 w-4' />
+                       </Button>
+                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
+                <CardContent className='space-y-6 max-h-[500px] overflow-y-auto scrollbar-premium'>
                   {/* Basic Blood Work */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
@@ -1762,38 +1767,40 @@ export default function LabTestsPage() {
             </DialogHeader>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-              <div className='space-y-2'>
-                <Label htmlFor='employee_id_edit'>Employee</Label>
-                <Select
-                  value={formData.employee_id || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, employee_id: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select employee' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {employees.map(employee => (
-                      <SelectItem key={employee.id} value={employee.id}>
-                        {employee.name} {employee.surname}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
+                             <div className='space-y-2'>
+                 <Label htmlFor='employee_id_edit'>Employee</Label>
+                 <Select
+                   value={formData.employee_id || ''}
+                   onValueChange={value =>
+                     setFormData({ ...formData, employee_id: value })
+                   }
+                   disabled
+                 >
+                   <SelectTrigger>
+                     <SelectValue placeholder='Select employee' />
+                   </SelectTrigger>
+                   <SelectContent>
+                     {employees.map(employee => (
+                       <SelectItem key={employee.id} value={employee.id}>
+                         {employee.name} {employee.surname}
+                       </SelectItem>
+                     ))}
+                   </SelectContent>
+                 </Select>
+               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='report_id_edit'>Report ID</Label>
-                <Input
-                  id='report_id_edit'
-                  value={formData.report_id || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, report_id: e.target.value })
-                  }
-                  placeholder='Link to medical report'
-                />
-              </div>
+               <div className='space-y-2'>
+                 <Label htmlFor='report_id_edit'>Report ID</Label>
+                 <Input
+                   id='report_id_edit'
+                   value={formData.report_id || ''}
+                   onChange={e =>
+                     setFormData({ ...formData, report_id: e.target.value })
+                   }
+                   placeholder='Link to medical report'
+                   disabled
+                 />
+               </div>
 
               <div className='space-y-2'>
                 <Label htmlFor='vitamin_d_edit'>Vitamin D</Label>
