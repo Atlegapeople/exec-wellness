@@ -83,6 +83,7 @@ interface MedicalReport {
   nurse_name: string;
   nurse_surname: string;
   workplace_name: string;
+  user_updated?: string;
 }
 
 interface PaginationInfo {
