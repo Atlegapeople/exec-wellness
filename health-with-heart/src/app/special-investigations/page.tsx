@@ -1102,7 +1102,7 @@ export default function SpecialInvestigationsPage() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
+                <CardContent className='space-y-6 max-h-[500px] overflow-y-auto scrollbar-premium'>
                   {/* Cardiac Tests */}
                   <div className='space-y-3'>
                     <div className='flex items-center justify-between'>
