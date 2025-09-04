@@ -279,8 +279,44 @@ export default function WomensHealthPage() {
     }
   };
 
+  // Reset form data to empty state
+  const resetFormData = () => {
+    setFormData({
+      employee_id: employeeFilter || '',
+      report_id: '',
+      gynaecological_symptoms: '',
+      yes_gynaecological_symptoms: '',
+      pap_header: '',
+      are_you_header: '',
+      hormonal_contraception: '',
+      hormonel_replacement_therapy: '',
+      pregnant: '',
+      pregnant_weeks: '',
+      breastfeeding: '',
+      concieve: '',
+      last_pap: '',
+      pap_date: '',
+      pap_result: '',
+      require_pap: '',
+      breast_symptoms: '',
+      breast_symptoms_yes: '',
+      mammogram_result: '',
+      last_mammogram: '',
+      breast_problems: '',
+      require_mamogram: '',
+      notes_header: '',
+      notes_text: '',
+      recommendation_text: '',
+    });
+  };
+
   // Open edit modal
   const openEditModal = (womensHealth: WomensHealth) => {
+    console.log('Opening edit modal for:', womensHealth);
+    console.log('Form data being set:', womensHealth);
+    console.log('Gynecological symptoms:', womensHealth.gynaecological_symptoms);
+    console.log('Breast symptoms:', womensHealth.breast_symptoms);
+    console.log('Pregnant:', womensHealth.pregnant);
     setEditingWomensHealth(womensHealth);
     setFormData(womensHealth);
     setIsEditModalOpen(true);
@@ -350,7 +386,7 @@ export default function WomensHealthPage() {
         data.womensHealth &&
         data.womensHealth.length === 0
       ) {
-        setFormData({ employee_id: employeeFilter });
+        resetFormData();
         setIsCreateModalOpen(true);
       }
     } catch (error) {
@@ -427,8 +463,27 @@ export default function WomensHealthPage() {
     }
   };
 
-  // Handle search
-  const handleSearch = useCallback(
+  // Handle search form submission
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    updateURL(1, searchTerm);
+  };
+
+  // Update URL with search parameters
+  const updateURL = useCallback(
+    (page: number, search: string) => {
+      const params = new URLSearchParams();
+      if (page > 1) params.set('page', page.toString());
+      if (search) params.set('search', search);
+
+      const newURL = `/womens-health${params.toString() ? `?${params.toString()}` : ''}`;
+      router.replace(newURL, { scroll: false });
+    },
+    [router]
+  );
+
+  // Handle search filtering
+  const handleSearchFilter = useCallback(
     (search: string) => {
       setSearchTerm(search);
       const filtered = filterWomensHealth(allWomensHealth, search);
@@ -444,6 +499,7 @@ export default function WomensHealthPage() {
   // Handle pagination
   const handlePageChange = useCallback(
     (newPage: number) => {
+      updateURL(newPage, searchTerm);
       const startIndex = (newPage - 1) * pagination.limit;
       const endIndex = startIndex + pagination.limit;
       setDisplayedWomensHealth(
@@ -451,7 +507,7 @@ export default function WomensHealthPage() {
       );
       setPagination(prev => ({ ...prev, page: newPage }));
     },
-    [filteredWomensHealth, pagination.limit]
+    [filteredWomensHealth, pagination.limit, updateURL, searchTerm]
   );
 
   // Update pagination info when filtered data changes
@@ -543,16 +599,30 @@ export default function WomensHealthPage() {
     fetchEmployees();
   }, [fetchAllWomensHealth]);
 
+  // Watch for URL changes and refetch if employee filter changes
   useEffect(() => {
-    const filtered = filterWomensHealth(allWomensHealth, searchTerm);
-    setFilteredWomensHealth(filtered);
+    const currentEmployeeFilter = new URLSearchParams(
+      window.location.search
+    ).get('employee');
+    if (currentEmployeeFilter !== employeeFilter) {
+      console.log("URL changed - refetching women's health records");
+      fetchAllWomensHealth();
+    }
+  }, [employeeFilter, fetchAllWomensHealth]);
 
-    // Reset to first page when search changes
-    setPagination(prev => ({ ...prev, page: 1 }));
+  // Debug form data changes
+  useEffect(() => {
+    console.log('Form data changed:', formData);
+    console.log('Conditional checks:', {
+      gynaecological_symptoms: (formData.gynaecological_symptoms === 'Yes' || formData.gynaecological_symptoms === 'yes'),
+      breast_symptoms: (formData.breast_symptoms === 'Yes' || formData.breast_symptoms === 'yes'),
+      pregnant: (formData.pregnant === 'Yes' || formData.pregnant === 'yes')
+    });
+  }, [formData]);
 
-    // Update displayed data for first page
-    setDisplayedWomensHealth(filtered.slice(0, pagination.limit));
-  }, [allWomensHealth, searchTerm, filterWomensHealth, pagination.limit]);
+  useEffect(() => {
+    handleSearchFilter(searchTerm);
+  }, [allWomensHealth, searchTerm, handleSearchFilter]);
 
   // Update pagination when filtered data changes
   useEffect(() => {
@@ -578,61 +648,44 @@ export default function WomensHealthPage() {
             variant='outline'
             size='sm'
             onClick={() => router.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
           </Button>
         </div>
 
-        {/* Search and Filters */}
-        <Card>
-          <CardHeader>
-            <CardTitle>Search & Filters</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className='flex space-x-4'>
-              <div className='flex-1'>
-                <div className='relative'>
-                  <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4' />
-                  <Input
-                    placeholder='Search by employee name, ID, or findings...'
-                    value={searchTerm}
-                    onChange={e => handleSearch(e.target.value)}
-                    className='pl-10'
-                  />
-                </div>
+        {/* Search */}
+        <Card className='glass-effect mb-4'>
+          <CardContent className='p-4'>
+            <form onSubmit={handleSearch} className='flex gap-4'>
+              <div className='flex-1 relative'>
+                <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                <Input
+                  type='text'
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder='Search by employee name, ID, email...'
+                  className='pl-9'
+                />
               </div>
-              <div className='flex items-center space-x-2'>
-                <Label htmlFor='page-size' className='text-sm'>
-                  Page Size:
-                </Label>
-                <Select
-                  value={pagination.limit.toString()}
-                  onValueChange={value => {
-                    const newLimit = parseInt(value);
-                    setPagination(prev => ({
-                      ...prev,
-                      limit: newLimit,
-                      page: 1,
-                    }));
-                    setDisplayedWomensHealth(
-                      filteredWomensHealth.slice(0, newLimit)
-                    );
+              <Button type='submit' className='hover-lift'>
+                Search
+              </Button>
+              {searchTerm && (
+                <Button
+                  type='button'
+                  variant='outline'
+                  onClick={() => {
+                    setSearchTerm('');
+                    updateURL(1, '');
                   }}
+                  className='hover-lift'
                 >
-                  <SelectTrigger className='w-20'>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='10'>10</SelectItem>
-                    <SelectItem value='25'>25</SelectItem>
-                    <SelectItem value='50'>50</SelectItem>
-                    <SelectItem value='100'>100</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-            </div>
+                  Clear
+                </Button>
+              )}
+            </form>
           </CardContent>
         </Card>
 
@@ -654,16 +707,19 @@ export default function WomensHealthPage() {
                       </CardDescription>
                     </div>
                     <Button
-                      onClick={() => setIsCreateModalOpen(true)}
-                      className='hover-lift'
+                      onClick={() => {
+                        resetFormData();
+                        setIsCreateModalOpen(true);
+                      }}
+                      className={`hover-lift ${selectedWomensHealth ? 'rounded-full w-10 h-10 p-0' : ''}`}
                     >
-                      <Plus className='h-4 w-4 mr-2' />
-                      Add New Record
+                      <Plus className='h-4 w-4' />
+                      {!selectedWomensHealth && <span className='ml-2'>Add New Record</span>}
                     </Button>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[600px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -997,14 +1053,24 @@ export default function WomensHealthPage() {
                           </span>
                         </div>
                       </div>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => setSelectedWomensHealth(null)}
-                        className='hover-lift'
-                      >
-                        <X className='h-4 w-4' />
-                      </Button>
+                      <div className='flex items-center gap-2'>
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => openDeleteModal(selectedWomensHealth)}
+                          className='hover-lift text-destructive hover:text-destructive'
+                        >
+                          <Trash2 className='h-4 w-4' />
+                        </Button>
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => setSelectedWomensHealth(null)}
+                          className='hover-lift'
+                        >
+                          <X className='h-4 w-4' />
+                        </Button>
+                      </div>
                     </div>
                   </CardHeader>
                   <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -1070,7 +1136,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1125,7 +1190,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1157,7 +1221,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1323,7 +1386,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1396,7 +1458,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1540,7 +1601,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1613,7 +1673,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1676,7 +1735,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1705,7 +1763,6 @@ export default function WomensHealthPage() {
                               <SelectContent>
                                 <SelectItem value='Yes'>Yes</SelectItem>
                                 <SelectItem value='No'>No</SelectItem>
-                                <SelectItem value='Unknown'>Unknown</SelectItem>
                               </SelectContent>
                             </Select>
                           ) : (
@@ -1863,16 +1920,19 @@ export default function WomensHealthPage() {
                   </CardDescription>
                 </div>
                 <Button
-                  onClick={() => setIsCreateModalOpen(true)}
-                  className='hover-lift'
+                  onClick={() => {
+                    resetFormData();
+                    setIsCreateModalOpen(true);
+                  }}
+                  className={`hover-lift ${selectedWomensHealth ? 'rounded-full w-10 h-10 p-0' : ''}`}
                 >
-                  <Plus className='h-4 w-4 mr-2' />
-                  Add New Record
+                  <Plus className='h-4 w-4' />
+                  {!selectedWomensHealth && <span className='ml-2'>Add New Record</span>}
                 </Button>
               </div>
             </CardHeader>
             <CardContent>
-              <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+              <div className='max-h-[600px] overflow-auto scrollbar-premium'>
                 <Table>
                   <TableHeader>
                     <TableRow>
@@ -2085,7 +2145,15 @@ export default function WomensHealthPage() {
         )}
 
         {/* Create Modal */}
-        <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
+        <Dialog 
+          open={isCreateModalOpen} 
+          onOpenChange={(open) => {
+            setIsCreateModalOpen(open);
+            if (!open) {
+              resetFormData();
+            }
+          }}
+        >
           <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
             <DialogHeader>
               <DialogTitle>Create Women's Health Record</DialogTitle>
@@ -2093,7 +2161,8 @@ export default function WomensHealthPage() {
                 Add a new women's health assessment record
               </DialogDescription>
             </DialogHeader>
-            <div className='grid grid-cols-2 gap-4'>
+            
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-6'>
               <div className='space-y-2'>
                 <Label htmlFor='employee_id'>Employee</Label>
                 <Select
@@ -2116,133 +2185,370 @@ export default function WomensHealthPage() {
               </div>
 
               <div className='space-y-2'>
-                <Label htmlFor='breastExam'>Breast Exam</Label>
-                <Select
-                  value={formData.breastExam || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, breastExam: value }))
+                <Label htmlFor='report_id'>Report ID</Label>
+                <Input
+                  value={formData.report_id || ''}
+                  onChange={e =>
+                    setFormData(prev => ({ ...prev, report_id: e.target.value }))
                   }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='pap_smear'>Pap Smear</Label>
-                <Select
-                  value={formData.pap_smear || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, pap_smear: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='mammogram'>Mammogram</Label>
-                <Select
-                  value={formData.mammogram || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, mammogram: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='heart_disease_risk'>Heart Disease Risk</Label>
-                <Select
-                  value={formData.heart_disease_risk || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({
-                      ...prev,
-                      heart_disease_risk: value,
-                    }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select risk level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Not Assessed'>Not Assessed</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='stress_level'>Stress Level</Label>
-                <Select
-                  value={formData.stress_level || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, stress_level: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select stress level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Not Assessed'>Not Assessed</SelectItem>
-                  </SelectContent>
-                </Select>
+                  placeholder='Enter report ID (optional)'
+                />
               </div>
             </div>
 
-            <div className='space-y-2'>
-              <Label htmlFor='notes_text'>Notes</Label>
-              <Textarea
-                id='notes_text'
-                placeholder='Enter additional notes...'
-                value={formData.notes_text || ''}
-                onChange={e =>
-                  setFormData(prev => ({ ...prev, notes_text: e.target.value }))
-                }
-                rows={3}
-              />
-            </div>
+            <div className='space-y-6'>
+              {/* Gynecological Health Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Gynecological Health</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='gynaecological_symptoms'>Gynecological Symptoms</Label>
+                    <Select
+                      value={formData.gynaecological_symptoms || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, gynaecological_symptoms: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-            <div className='space-y-2'>
-              <Label htmlFor='recommendation_text'>Recommendations</Label>
-              <Textarea
-                id='recommendation_text'
-                placeholder='Enter recommendations...'
-                value={formData.recommendation_text || ''}
-                onChange={e =>
-                  setFormData(prev => ({
-                    ...prev,
-                    recommendation_text: e.target.value,
-                  }))
-                }
-                rows={3}
-              />
+                  {(formData.gynaecological_symptoms === 'Yes' || formData.gynaecological_symptoms === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='yes_gynaecological_symptoms'>Symptoms Description</Label>
+                        <Input
+                          value={formData.yes_gynaecological_symptoms || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, yes_gynaecological_symptoms: e.target.value }))
+                          }
+                          placeholder='Describe symptoms if yes'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='hormonal_contraception'>Hormonal Contraception</Label>
+                        <Select
+                          value={formData.hormonal_contraception || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, hormonal_contraception: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='hormonel_replacement_therapy'>Hormone Replacement Therapy</Label>
+                        <Select
+                          value={formData.hormonel_replacement_therapy || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, hormonel_replacement_therapy: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+
+              {/* Pap Smear Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Pap Smear</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='last_pap'>Last Pap Smear</Label>
+                    <Input
+                      type='date'
+                      value={formData.last_pap || ''}
+                      onChange={e =>
+                        setFormData(prev => ({ ...prev, last_pap: e.target.value }))
+                      }
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='pap_date'>Pap Smear Date</Label>
+                    <Input
+                      type='date'
+                      value={formData.pap_date || ''}
+                      onChange={e =>
+                        setFormData(prev => ({ ...prev, pap_date: e.target.value }))
+                      }
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='pap_result'>Pap Smear Result</Label>
+                    <Select
+                      value={formData.pap_result || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, pap_result: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select result' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Normal'>Normal</SelectItem>
+                        <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                        <SelectItem value='Inconclusive'>Inconclusive</SelectItem>
+                        <SelectItem value='Not Done'>Not Done</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='require_pap'>Require Pap Smear</Label>
+                    <Select
+                      value={formData.require_pap || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, require_pap: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select requirement' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+              </div>
+
+              {/* Breast Health Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Breast Health</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='breast_symptoms'>Breast Symptoms</Label>
+                    <Select
+                      value={formData.breast_symptoms || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, breast_symptoms: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {(formData.breast_symptoms === 'Yes' || formData.breast_symptoms === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='breast_symptoms_yes'>Symptoms Description</Label>
+                        <Input
+                          value={formData.breast_symptoms_yes || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, breast_symptoms_yes: e.target.value }))
+                          }
+                          placeholder='Describe symptoms if yes'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='mammogram_result'>Mammogram Result</Label>
+                        <Select
+                          value={formData.mammogram_result || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, mammogram_result: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select result' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Normal'>Normal</SelectItem>
+                            <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                            <SelectItem value='Inconclusive'>Inconclusive</SelectItem>
+                            <SelectItem value='Not Done'>Not Done</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='last_mammogram'>Last Mammogram</Label>
+                        <Input
+                          type='date'
+                          value={formData.last_mammogram || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, last_mammogram: e.target.value }))
+                          }
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='breast_problems'>Breast Problems</Label>
+                        <Input
+                          value={formData.breast_problems || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, breast_problems: e.target.value }))
+                          }
+                          placeholder='Describe any breast problems'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='require_mamogram'>Require Mammogram</Label>
+                        <Select
+                          value={formData.require_mamogram || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, require_mamogram: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select requirement' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+
+              {/* Pregnancy Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Pregnancy Status</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='pregnant'>Pregnant</Label>
+                    <Select
+                      value={formData.pregnant || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, pregnant: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {(formData.pregnant === 'Yes' || formData.pregnant === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='pregnant_weeks'>Pregnancy Weeks</Label>
+                        <Input
+                          type='number'
+                          value={formData.pregnant_weeks || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, pregnant_weeks: e.target.value }))
+                          }
+                          placeholder='Enter weeks'
+                          min='0'
+                          max='42'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='breastfeeding'>Breastfeeding</Label>
+                        <Select
+                          value={formData.breastfeeding || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, breastfeeding: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='concieve'>Trying to Conceive</Label>
+                        <Select
+                          value={formData.concieve || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, concieve: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+
+              {/* Notes and Recommendations */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Notes & Recommendations</h3>
+                <div className='space-y-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='notes_text'>Notes</Label>
+                    <Textarea
+                      id='notes_text'
+                      placeholder='Enter additional notes...'
+                      value={formData.notes_text || ''}
+                      onChange={e =>
+                        setFormData(prev => ({ ...prev, notes_text: e.target.value }))
+                      }
+                      rows={3}
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='recommendation_text'>Recommendations</Label>
+                    <Textarea
+                      id='recommendation_text'
+                      placeholder='Enter recommendations...'
+                      value={formData.recommendation_text || ''}
+                      onChange={e =>
+                        setFormData(prev => ({
+                          ...prev,
+                          recommendation_text: e.target.value,
+                        }))
+                      }
+                      rows={3}
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
 
             <DialogFooter>
@@ -2269,128 +2575,348 @@ export default function WomensHealthPage() {
             <DialogHeader>
               <DialogTitle>Edit Women's Health Record</DialogTitle>
               <DialogDescription>
-                Update the women's health assessment record
+                Update the women's health assessment for{' '}
+                {editingWomensHealth ? getEmployeeName(editingWomensHealth) : ''}.
               </DialogDescription>
             </DialogHeader>
-            <div className='grid grid-cols-2 gap-4'>
+            
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-6'>
               <div className='space-y-2'>
-                <Label htmlFor='breast_exam'>Breast Exam</Label>
-                <Select
-                  value={formData.breast_exam || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, breast_exam: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
+                <Label htmlFor='employee_id_edit'>Employee</Label>
+                <div className='p-3 bg-muted/30 rounded-lg border'>
+                  <span className='text-sm'>
+                    {editingWomensHealth ? getEmployeeName(editingWomensHealth) : 'Unknown Employee'}
+                  </span>
+                </div>
               </div>
 
               <div className='space-y-2'>
-                <Label htmlFor='pap_smear'>Pap Smear</Label>
-                <Select
-                  value={formData.pap_smear || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, pap_smear: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
+                <Label htmlFor='report_id_edit'>Report ID</Label>
+                <div className='p-3 bg-muted/30 rounded-lg border'>
+                  <span className='text-sm'>
+                    {formData.report_id || 'No report ID'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className='space-y-6'>
+              {/* Gynecological Health Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Gynecological Health</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='gynaecological_symptoms'>Gynecological Symptoms</Label>
+                    <Select
+                      value={formData.gynaecological_symptoms || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, gynaecological_symptoms: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {(formData.gynaecological_symptoms === 'Yes' || formData.gynaecological_symptoms === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='yes_gynaecological_symptoms'>Symptoms Description</Label>
+                        <Input
+                          value={formData.yes_gynaecological_symptoms || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, yes_gynaecological_symptoms: e.target.value }))
+                          }
+                          placeholder='Describe symptoms if yes'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='hormonal_contraception'>Hormonal Contraception</Label>
+                        <Select
+                          value={formData.hormonal_contraception || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, hormonal_contraception: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='hormonel_replacement_therapy'>Hormone Replacement Therapy</Label>
+                        <Select
+                          value={formData.hormonel_replacement_therapy || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, hormonel_replacement_therapy: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='mammogram'>Mammogram</Label>
-                <Select
-                  value={formData.mammogram || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, mammogram: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Normal'>Normal</SelectItem>
-                    <SelectItem value='Abnormal'>Abnormal</SelectItem>
-                    <SelectItem value='Not Done'>Not Done</SelectItem>
-                  </SelectContent>
-                </Select>
+              {/* Pap Smear Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Pap Smear</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='last_pap'>Last Pap Smear</Label>
+                    <Input
+                      value={formData.last_pap || ''}
+                      onChange={e =>
+                        setFormData(prev => ({ ...prev, last_pap: e.target.value }))
+                      }
+                      placeholder='When was last pap smear'
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='pap_date'>Pap Smear Date</Label>
+                    <Input
+                      type='date'
+                      value={formData.pap_date || ''}
+                      onChange={e =>
+                        setFormData(prev => ({ ...prev, pap_date: e.target.value }))
+                      }
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='pap_result'>Pap Smear Result</Label>
+                    <Select
+                      value={formData.pap_result || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, pap_result: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select result' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Normal'>Normal</SelectItem>
+                        <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                        <SelectItem value='Inconclusive'>Inconclusive</SelectItem>
+                        <SelectItem value='Not Done'>Not Done</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='require_pap'>Require Pap Smear</Label>
+                    <Select
+                      value={formData.require_pap || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, require_pap: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select requirement' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='heart_disease_risk'>Heart Disease Risk</Label>
-                <Select
-                  value={formData.heart_disease_risk || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({
-                      ...prev,
-                      heart_disease_risk: value,
-                    }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select risk level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Not Assessed'>Not Assessed</SelectItem>
-                  </SelectContent>
-                </Select>
+              {/* Breast Health Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Breast Health</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='breast_symptoms'>Breast Symptoms</Label>
+                    <Select
+                      value={formData.breast_symptoms || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, breast_symptoms: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {(formData.breast_symptoms === 'Yes' || formData.breast_symptoms === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='breast_symptoms_yes'>Symptoms Description</Label>
+                        <Input
+                          value={formData.breast_symptoms_yes || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, breast_symptoms_yes: e.target.value }))
+                          }
+                          placeholder='Describe symptoms if yes'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='mammogram_result'>Mammogram Result</Label>
+                        <Select
+                          value={formData.mammogram_result || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, mammogram_result: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select result' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Normal'>Normal</SelectItem>
+                            <SelectItem value='Abnormal'>Abnormal</SelectItem>
+                            <SelectItem value='Inconclusive'>Inconclusive</SelectItem>
+                            <SelectItem value='Not Done'>Not Done</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='last_mammogram'>Last Mammogram</Label>
+                        <Input
+                          type='date'
+                          value={formData.last_mammogram || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, last_mammogram: e.target.value }))
+                          }
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='breast_problems'>Breast Problems</Label>
+                        <Input
+                          value={formData.breast_problems || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, breast_problems: e.target.value }))
+                          }
+                          placeholder='Describe any breast problems'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='require_mamogram'>Require Mammogram</Label>
+                        <Select
+                          value={formData.require_mamogram || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, require_mamogram: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select requirement' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
               </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='stress_level'>Stress Level</Label>
-                <Select
-                  value={formData.stress_level || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, stress_level: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select stress level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Not Assessed'>Not Assessed</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
+              {/* Pregnancy Section */}
+              <div className='space-y-4'>
+                <h3 className='text-lg font-semibold border-b pb-2'>Pregnancy Status</h3>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='pregnant'>Pregnant</Label>
+                    <Select
+                      value={formData.pregnant || ''}
+                      onValueChange={value =>
+                        setFormData(prev => ({ ...prev, pregnant: value }))
+                      }
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select status' />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='Yes'>Yes</SelectItem>
+                        <SelectItem value='No'>No</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-              <div className='space-y-2'>
-                <Label htmlFor='anxiety_level'>Anxiety Level</Label>
-                <Select
-                  value={formData.anxiety_level || ''}
-                  onValueChange={value =>
-                    setFormData(prev => ({ ...prev, anxiety_level: value }))
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select anxiety level' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='Low'>Low</SelectItem>
-                    <SelectItem value='Medium'>Medium</SelectItem>
-                    <SelectItem value='High'>High</SelectItem>
-                    <SelectItem value='Not Assessed'>Not Assessed</SelectItem>
-                  </SelectContent>
-                </Select>
+                  {(formData.pregnant === 'Yes' || formData.pregnant === 'yes') && (
+                    <>
+                      <div className='space-y-2'>
+                        <Label htmlFor='pregnant_weeks'>Pregnancy Weeks</Label>
+                        <Input
+                          type='number'
+                          value={formData.pregnant_weeks || ''}
+                          onChange={e =>
+                            setFormData(prev => ({ ...prev, pregnant_weeks: e.target.value }))
+                          }
+                          placeholder='Enter weeks'
+                          min='0'
+                          max='42'
+                        />
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='breastfeeding'>Breastfeeding</Label>
+                        <Select
+                          value={formData.breastfeeding || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, breastfeeding: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className='space-y-2'>
+                        <Label htmlFor='concieve'>Trying to Conceive</Label>
+                        <Select
+                          value={formData.concieve || ''}
+                          onValueChange={value =>
+                            setFormData(prev => ({ ...prev, concieve: value }))
+                          }
+                        >
+                          <SelectTrigger>
+                            <SelectValue placeholder='Select status' />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value='Yes'>Yes</SelectItem>
+                            <SelectItem value='No'>No</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+                </div>
               </div>
             </div>
 
@@ -2447,8 +2973,11 @@ export default function WomensHealthPage() {
             <DialogHeader>
               <DialogTitle>Delete Women's Health Record</DialogTitle>
               <DialogDescription>
-                Are you sure you want to delete this women's health record? This
-                action cannot be undone.
+                Are you sure you want to delete the women's health record for{' '}
+                <span className='font-semibold text-foreground'>
+                  {selectedWomensHealth ? getEmployeeName(selectedWomensHealth) : 'Unknown Employee'}
+                </span>
+                ? This action cannot be undone.
               </DialogDescription>
             </DialogHeader>
             <DialogFooter>
