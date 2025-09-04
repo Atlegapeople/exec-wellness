@@ -913,7 +913,7 @@ export default function VitalsPage() {
             }}
           >
             {selectedVital && (
-              <div className='space-y-4 min-h-[70vh] max-h-[85vh] overflow-y-auto scrollbar-thin'>
+              <div className='space-y-4 min-h-[70vh] max-h-[82vh] overflow-y-auto scrollbar-thin'>
                 {/* Vital Header Card */}
                 <Card className='glass-effect'>
                   <CardContent className='p-4 min-h-[120px] flex items-center'>

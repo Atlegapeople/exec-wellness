@@ -53,6 +53,7 @@ import {
   ClipboardList,
   AlertCircle,
   ArrowLeft,
+  X,
 } from 'lucide-react';
 import { DialogFooter } from '@/components/ui/dialog';
 
@@ -435,10 +436,10 @@ export default function AssessmentsPage() {
               <CardHeader>
                 <div className='flex items-center justify-between'>
                   <div>
-                    <CardTitle className='flex items-center gap-3 text-2xl'>
-                      <div className='p-2 bg-blue-100 rounded-lg'>
-                        <ClipboardList className='h-6 w-6 text-blue-600' />
-                      </div>
+                                         <CardTitle className='flex items-center gap-3 text-2xl'>
+                       <div className='p-2'>
+                         <ClipboardList className='h-6 w-6 text-primary' />
+                       </div>
                       <div>
                         <span>Assessment Records</span>
                         <span className='ml-2 text-lg font-medium text-gray-500'>
@@ -451,21 +452,21 @@ export default function AssessmentsPage() {
                       information
                     </CardDescription>
                   </div>
-                  <Dialog
-                    open={isCreateDialogOpen}
-                    onOpenChange={setIsCreateDialogOpen}
-                  >
-                    <DialogTrigger asChild>
-                      <Button>
-                        <Plus className='h-4 w-4 mr-2' />
-                        Add Assessment
-                      </Button>
-                    </DialogTrigger>
-                  </Dialog>
+                                     <Dialog
+                     open={isCreateDialogOpen}
+                     onOpenChange={setIsCreateDialogOpen}
+                   >
+                     <DialogTrigger asChild>
+                       <Button className={selectedAssessment ? 'rounded-full w-10 h-10 p-0' : ''}>
+                         <Plus className='h-4 w-4' />
+                         {!selectedAssessment && <span className='ml-2'>Add Assessment</span>}
+                       </Button>
+                     </DialogTrigger>
+                   </Dialog>
                 </div>
               </CardHeader>
               <CardContent>
-                <div className='max-h-[60vh] overflow-auto scrollbar-thin'>
+                <div className='max-h-[55vh] overflow-auto scrollbar-thin'>
                   <Table>
                     <TableHeader>
                       <TableRow>
@@ -554,17 +555,18 @@ export default function AssessmentsPage() {
                                 >
                                   <Edit className='h-4 w-4' />
                                 </Button>
-                                <Button
-                                  variant='ghost'
-                                  size='sm'
-                                  onClick={e => {
-                                    e.stopPropagation();
-                                    setEditingAssessment(assessment);
-                                    setIsDeleteModalOpen(true);
-                                  }}
-                                >
-                                  <Trash2 className='h-4 w-4' />
-                                </Button>
+                                                                 <Button
+                                   variant='ghost'
+                                   size='sm'
+                                   onClick={e => {
+                                     e.stopPropagation();
+                                     setEditingAssessment(assessment);
+                                     setIsDeleteModalOpen(true);
+                                   }}
+                                   className='text-destructive hover:text-destructive hover:bg-destructive/10'
+                                 >
+                                   <Trash2 className='h-4 w-4' />
+                                 </Button>
                               </div>
                             </TableCell>
                           </TableRow>
@@ -718,7 +720,7 @@ export default function AssessmentsPage() {
             }}
           >
             {selectedAssessment && (
-              <div className='space-y-4 max-h-[80vh] overflow-y-auto scrollbar-thin'>
+              <div className='space-y-4 min-h-[75vh] max-h-[85vh] overflow-y-auto scrollbar-thin'>
                 {/* Assessment Header Card */}
                 <Card className='glass-effect'>
                   <CardContent className='p-4 min-h-[120px] flex items-center'>
@@ -753,16 +755,24 @@ export default function AssessmentsPage() {
                           </Badge>
                         </div>
                       </div>
-                      <div className='flex items-center gap-2'>
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => handleDeleteAssessment()}
-                          className='text-destructive hover:text-destructive hover:bg-destructive/10'
-                        >
-                          <Trash2 className='h-4 w-4' />
-                        </Button>
-                      </div>
+                                             <div className='flex items-center gap-2'>
+                         <Button
+                           variant='ghost'
+                           size='sm'
+                           onClick={() => handleDeleteAssessment()}
+                           className='text-destructive hover:text-destructive hover:bg-destructive/10'
+                         >
+                           <Trash2 className='h-4 w-4' />
+                         </Button>
+                         <Button
+                           variant='ghost'
+                           size='sm'
+                           onClick={() => setSelectedAssessment(null)}
+                           className='text-muted-foreground hover:text-foreground hover:bg-muted'
+                         >
+                           <X className='h-4 w-4' />
+                         </Button>
+                       </div>
                     </div>
                   </CardContent>
                 </Card>
