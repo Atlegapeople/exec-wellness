@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -136,7 +136,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function MedicalHistoryPage() {
+function MedicalHistoryPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -2577,5 +2577,13 @@ export default function MedicalHistoryPage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function MedicalHistoryPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <MedicalHistoryPageContent />
+    </Suspense>
   );
 }

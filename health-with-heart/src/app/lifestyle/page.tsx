@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Lifestyle } from '@/types';
 import {
@@ -78,7 +78,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function LifestylePage() {
+function LifestylePageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -2455,5 +2455,13 @@ export default function LifestylePage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function LifestylePage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <LifestylePageContent />
+    </Suspense>
   );
 }

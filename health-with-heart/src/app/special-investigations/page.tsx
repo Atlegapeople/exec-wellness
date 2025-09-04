@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { SpecialInvestigation } from '@/types';
 import {
@@ -75,7 +75,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function SpecialInvestigationsPage() {
+function SpecialInvestigationsPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -2225,5 +2225,13 @@ export default function SpecialInvestigationsPage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function SpecialInvestigationsPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <SpecialInvestigationsPageContent />
+    </Suspense>
   );
 }

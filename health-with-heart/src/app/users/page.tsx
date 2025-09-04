@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { User } from '@/types';
 import {
@@ -95,7 +95,7 @@ interface UserFormData {
   signature: string;
 }
 
-export default function UsersPage() {
+function UsersPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -1281,5 +1281,13 @@ export default function UsersPage() {
         </DialogContent>
       </Dialog>
     </DashboardLayout>
+  );
+}
+
+export default function UsersPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <UsersPageContent />
+    </Suspense>
   );
 }

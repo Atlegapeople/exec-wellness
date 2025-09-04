@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Employee } from '@/types';
 import {
@@ -63,7 +63,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function EmployeesPage() {
+function EmployeesPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -999,4 +999,25 @@ export default function EmployeesPage() {
       </div>
     </DashboardLayout>
   );
+}
+
+export default function EmployeesPage() {
+	return (
+		<Suspense
+			fallback={
+				<div className='min-h-screen bg-background flex items-center justify-center'>
+					<Card className='w-96'>
+						<CardContent className='flex items-center justify-center py-12'>
+							<div className='text-center space-y-4'>
+								<div className='animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto'></div>
+								<p className='text-muted-foreground'>Loading employees...</p>
+							</div>
+						</CardContent>
+					</Card>
+				</div>
+			}
+		>
+			<EmployeesPageContent />
+		</Suspense>
+	);
 }

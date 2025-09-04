@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -93,7 +93,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function LocationsPage() {
+function LocationsPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -1136,5 +1136,13 @@ export default function LocationsPage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function LocationsPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <LocationsPageContent />
+    </Suspense>
   );
 }

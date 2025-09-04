@@ -129,9 +129,15 @@ interface Employee {
 }
 
 export default function VitalsPage() {
-  // Extract employee filter from URL
-  const searchParams = new URLSearchParams(window.location.search);
-  const employeeFilter = searchParams.get('employee');
+  // Extract employee filter from URL (client-side only)
+  const [employeeFilter, setEmployeeFilter] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      setEmployeeFilter(params.get('employee'));
+    }
+  }, []);
 
   console.log('VitalsPage render - employeeFilter:', employeeFilter);
 
@@ -159,7 +165,10 @@ export default function VitalsPage() {
     async (page = 1, search = '') => {
       try {
         setLoading(true);
-        const url = new URL('/api/vitals', window.location.origin);
+        const url = new URL(
+          '/api/vitals',
+          typeof window !== 'undefined' ? window.location.origin : 'http://localhost'
+        );
         url.searchParams.set('page', page.toString());
         url.searchParams.set('limit', pagination.limit.toString());
 
@@ -466,14 +475,13 @@ export default function VitalsPage() {
 
   // Watch for URL changes and refetch if employee filter changes
   useEffect(() => {
-    const currentEmployeeFilter = new URLSearchParams(
-      window.location.search
-    ).get('employee');
+    if (typeof window === 'undefined') return;
+    const currentEmployeeFilter = new URLSearchParams(window.location.search).get('employee');
     if (currentEmployeeFilter !== employeeFilter) {
       console.log('URL changed - refetching vitals');
       fetchVitals();
     }
-  }, [employeeFilter]);
+  }, [employeeFilter, fetchVitals]);
 
   // Debug effect to track state changes
   useEffect(() => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -99,7 +99,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function CostCentersPage() {
+function CostCentersPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -1513,5 +1513,13 @@ export default function CostCentersPage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function CostCentersPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <CostCentersPageContent />
+    </Suspense>
   );
 }

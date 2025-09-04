@@ -271,14 +271,14 @@ export async function POST(request: NextRequest) {
     const sanitizedData = {
       ...insertData,
       // Ensure numeric fields are integers
-      email_certificate: parseInt(insertData.email_certificate) || 0,
-      email_report: parseInt(insertData.email_report) || 0,
-      certificate_send_count: parseInt(insertData.certificate_send_count) || 0,
-      report_send_count: parseInt(insertData.report_send_count) || 0,
+      email_certificate: Number(insertData.email_certificate) || 0,
+      email_report: Number(insertData.email_report) || 0,
+      certificate_send_count: Number(insertData.certificate_send_count) || 0,
+      report_send_count: Number(insertData.report_send_count) || 0,
       email_certificate_manager:
-        parseInt(insertData.email_certificate_manager) || 0,
+        Number(insertData.email_certificate_manager) || 0,
       certificate_send_count_manager:
-        parseInt(insertData.certificate_send_count_manager) || 0,
+        Number(insertData.certificate_send_count_manager) || 0,
       // Ensure doctor and nurse are either valid UUIDs or null
       doctor: insertData.doctor || null,
       nurse: insertData.nurse || null,

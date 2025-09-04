@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { MenHealth } from '@/types';
 import {
@@ -79,7 +79,7 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-export default function MensHealthPage() {
+function MensHealthPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -2823,5 +2823,13 @@ export default function MensHealthPage() {
         </Dialog>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function MensHealthPage() {
+  return (
+    <Suspense fallback={<div />}> 
+      <MensHealthPageContent />
+    </Suspense>
   );
 }
