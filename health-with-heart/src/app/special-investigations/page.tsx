@@ -553,7 +553,7 @@ export default function SpecialInvestigationsPage() {
       });
       setRiskAssessmentData({
         risk_category: selectedInvestigation.risk_category || '',
-        risk_score: selectedInvestigation.risk_score || '',
+        risk_score: String(selectedInvestigation.risk_score || ''),
         reynolds_cardiovascular_risk_score:
           selectedInvestigation.reynolds_cardiovascular_risk_score || '',
       });
@@ -718,15 +718,21 @@ export default function SpecialInvestigationsPage() {
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        <div className='investigations-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Investigations Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{ width: selectedInvestigation ? `${leftWidth}%` : '100%' }}
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            onClick={() => router.back()}
+            className='hover-lift'
           >
-            {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
+            <ArrowLeft className='h-4 w-4 mr-2' />
+            Back
+          </Button>
+        </div>
+
+                                         {/* Search */}
+                     <Card className='glass-effect mb-4'>
+               <CardContent className='p-4'>
                 <form onSubmit={handleSearch} className='flex gap-4'>
                   <div className='flex-1 relative'>
                     <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
@@ -757,6 +763,14 @@ export default function SpecialInvestigationsPage() {
                 </form>
               </CardContent>
             </Card>
+        
+        <div className='investigations-container flex gap-1 min-h-[700px]'>
+          {/* Left Panel - Investigations Table */}
+          <div
+            className='space-y-4 animate-slide-up min-h-[700px]'
+            style={{ width: selectedInvestigation ? `${leftWidth}%` : '100%', minHeight: '700px' }}
+          >
+
 
             {/* Special Investigations Table */}
             <Card className='hover-lift'>
@@ -771,9 +785,12 @@ export default function SpecialInvestigationsPage() {
                       Specialized medical tests and diagnostic investigations
                     </CardDescription>
                   </div>
-                  <Button onClick={openCreateModal} className='hover-lift'>
-                    <Plus className='h-4 w-4 mr-2' />
-                    Add New Investigation
+                  <Button 
+                    onClick={openCreateModal} 
+                    className={`hover-lift ${selectedInvestigation ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                  >
+                    <Plus className={`h-4 w-4 ${selectedInvestigation ? '' : 'mr-2'}`} />
+                    {!selectedInvestigation && 'Add New Investigation'}
                   </Button>
                 </div>
               </CardHeader>
@@ -901,7 +918,7 @@ export default function SpecialInvestigationsPage() {
 
                 {/* Pagination */}
                 {pagination.totalPages > 1 && (
-                  <div className='flex items-center justify-between pt-4 border-t'>
+                  <div className='flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t gap-2'>
                     <div className='text-sm text-muted-foreground'>
                       Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
                       {Math.min(
@@ -910,33 +927,55 @@ export default function SpecialInvestigationsPage() {
                       )}{' '}
                       of {pagination.total} results
                     </div>
-                    <div className='flex items-center space-x-2'>
+                    <div className='flex items-center space-x-1 flex-wrap'>
+                      {/* First Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(1)}
                         disabled={pagination.page === 1}
                         className='hover-lift'
+                        title='Go to first page'
                       >
                         <ChevronsLeft className='h-4 w-4' />
-                        <span className='hidden sm:inline ml-1'>First</span>
+                        <span
+                          className={`${selectedInvestigation && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        >
+                          First
+                        </span>
                       </Button>
 
+                      {/* Previous Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.page - 1)}
                         disabled={!pagination.hasPreviousPage}
                         className='hover-lift'
+                        title='Go to previous page'
                       >
                         <ChevronLeft className='h-4 w-4' />
-                        <span className='hidden sm:inline ml-1'>Previous</span>
+                        <span
+                          className={`${selectedInvestigation && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                        >
+                          Previous
+                        </span>
                       </Button>
 
+                      {/* Page Numbers */}
                       {Array.from(
-                        { length: Math.min(5, pagination.totalPages) },
+                        {
+                          length: Math.min(
+                            selectedInvestigation && leftWidth < 50 ? 3 : 5,
+                            pagination.totalPages
+                          ),
+                        },
                         (_, i) => {
-                          const startPage = Math.max(1, pagination.page - 2);
+                          const startPage = Math.max(
+                            1,
+                            pagination.page -
+                              (selectedInvestigation && leftWidth < 50 ? 1 : 2)
+                          );
                           const page = startPage + i;
                           if (page > pagination.totalPages) return null;
 
@@ -949,6 +988,7 @@ export default function SpecialInvestigationsPage() {
                               size='sm'
                               onClick={() => handlePageChange(page)}
                               className='hover-lift min-w-[40px]'
+                              title={`Go to page ${page}`}
                             >
                               {page}
                             </Button>
@@ -956,25 +996,37 @@ export default function SpecialInvestigationsPage() {
                         }
                       )}
 
+                      {/* Next Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.page + 1)}
                         disabled={!pagination.hasNextPage}
                         className='hover-lift'
+                        title='Go to next page'
                       >
-                        <span className='hidden sm:inline mr-1'>Next</span>
+                        <span
+                          className={`${selectedInvestigation && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                        >
+                          Next
+                        </span>
                         <ChevronRight className='h-4 w-4' />
                       </Button>
 
+                      {/* Last Page */}
                       <Button
                         variant='outline'
                         size='sm'
                         onClick={() => handlePageChange(pagination.totalPages)}
                         disabled={pagination.page === pagination.totalPages}
                         className='hover-lift'
+                        title='Go to last page'
                       >
-                        <span className='hidden sm:inline mr-1'>Last</span>
+                        <span
+                          className={`${selectedInvestigation && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                        >
+                          Last
+                        </span>
                         <ChevronsRight className='h-4 w-4' />
                       </Button>
                     </div>
@@ -1034,10 +1086,10 @@ export default function SpecialInvestigationsPage() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => openEditModal(selectedInvestigation)}
-                        className='hover-lift'
+                        onClick={() => openDeleteModal(selectedInvestigation)}
+                        className='hover-lift text-destructive hover:text-destructive'
                       >
-                        <Edit className='h-4 w-4' />
+                        <Trash2 className='h-4 w-4' />
                       </Button>
                       <Button
                         variant='ghost'
@@ -1911,9 +1963,15 @@ export default function SpecialInvestigationsPage() {
                   onValueChange={value =>
                     setFormData({ ...formData, employee_id: value })
                   }
+                  disabled
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder='Select employee' />
+                    <SelectValue placeholder='Select employee'>
+                      {formData.employee_id && employees.find(emp => emp.id === formData.employee_id) 
+                        ? `${employees.find(emp => emp.id === formData.employee_id)?.name} ${employees.find(emp => emp.id === formData.employee_id)?.surname}`
+                        : 'Select employee'
+                      }
+                    </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     {employees.map(employee => (
@@ -1934,6 +1992,7 @@ export default function SpecialInvestigationsPage() {
                     setFormData({ ...formData, report_id: e.target.value })
                   }
                   placeholder='Link to medical report'
+                  disabled
                 />
               </div>
 
