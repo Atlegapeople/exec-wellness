@@ -29,6 +29,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+import { Textarea } from '@/components/ui/textarea';
 import DashboardLayout from '@/components/DashboardLayout';
 import {
   ArrowLeft,
@@ -52,6 +61,8 @@ import {
   MapPin,
   DollarSign,
   Plus,
+  Edit,
+  Save,
 } from 'lucide-react';
 
 interface MedicalReport {
@@ -142,6 +153,19 @@ export default function ReportsPage() {
   const [statusSummary, setStatusSummary] = useState<{ [key: string]: number }>(
     {}
   );
+
+  // Edit states for form sections
+  const [isEditingOverview, setIsEditingOverview] = useState(false);
+  const [isEditingCardiovascular, setIsEditingCardiovascular] = useState(false);
+  const [isEditingMentalHealth, setIsEditingMentalHealth] = useState(false);
+  const [isEditingScreening, setIsEditingScreening] = useState(false);
+  const [isEditingMedication, setIsEditingMedication] = useState(false);
+  const [isEditingAllergies, setIsEditingAllergies] = useState(false);
+
+  // Modal state
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [createFormData, setCreateFormData] = useState<Partial<MedicalReport>>({});
+  const [createFormLoading, setCreateFormLoading] = useState(false);
 
   // Fetch reports data
   // Fetch all reports data once
@@ -479,6 +503,39 @@ export default function ReportsPage() {
     }
   };
 
+  // Modal functions
+  const openCreateModal = () => {
+    setCreateFormData({});
+    setIsCreateModalOpen(true);
+  };
+
+  const handleCreate = async () => {
+    try {
+      setCreateFormLoading(true);
+      const response = await fetch('/api/reports', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(createFormData),
+      });
+
+      if (response.ok) {
+        setIsCreateModalOpen(false);
+        setCreateFormData({});
+        await fetchAllReports();
+        alert('Report created successfully!');
+      } else {
+        const error = await response.json();
+        console.error('Create failed:', error);
+        alert(`Failed to create report: ${error.message || 'Unknown error'}`);
+      }
+    } catch (error) {
+      console.error('Error creating report:', error);
+      alert('Error creating report. Please try again.');
+    } finally {
+      setCreateFormLoading(false);
+    }
+  };
+
   const handleMouseDown = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsResizing(true);
@@ -771,6 +828,7 @@ export default function ReportsPage() {
                   <Button 
                     className={`hover-lift ${selectedReport ? 'rounded-full w-10 h-10 p-0' : ''}`}
                     title={selectedReport ? 'Add Report' : 'Add Report'}
+                    onClick={openCreateModal}
                   >
                     <Plus className={`h-4 w-4 ${selectedReport ? '' : 'mr-2'}`} />
                     {!selectedReport && 'Add Report'}
@@ -1855,10 +1913,22 @@ export default function ReportsPage() {
                         {/* Allergies */}
                         <Card className='border-teal-200'>
                           <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <AlertCircle className='h-5 w-5' />
-                              Allergies
-                            </CardTitle>
+                            <div className='flex items-center justify-between'>
+                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                <AlertCircle className='h-5 w-5' />
+                                Allergies
+                              </CardTitle>
+                              {selectedReport?.doctor_signoff !== 'Yes' && (
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={() => setIsEditingAllergies(!isEditingAllergies)}
+                                  className='hover-lift hover:border hover:border-border'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                              )}
+                            </div>
                           </CardHeader>
                           <CardContent className='space-y-3 text-sm'>
                             <div className='grid grid-cols-3 gap-x-6 gap-y-2'>
@@ -1893,10 +1963,22 @@ export default function ReportsPage() {
                         {/* Current Medication and Supplements */}
                         <Card className='border-gray-200'>
                           <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <FileText className='h-5 w-5' />
-                              Current Medication and Supplements
-                            </CardTitle>
+                            <div className='flex items-center justify-between'>
+                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                <FileText className='h-5 w-5' />
+                                Current Medication and Supplements
+                              </CardTitle>
+                              {selectedReport?.doctor_signoff !== 'Yes' && (
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={() => setIsEditingMedication(!isEditingMedication)}
+                                  className='hover-lift hover:border hover:border-border'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                              )}
+                            </div>
                           </CardHeader>
                           <CardContent className='space-y-3 text-sm'>
                             <div className='grid grid-cols-1 gap-y-2'>
@@ -1929,10 +2011,22 @@ export default function ReportsPage() {
                         {/* Screening */}
                         <Card className='border-teal-200'>
                           <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Search className='h-5 w-5' />
-                              Screening
-                            </CardTitle>
+                            <div className='flex items-center justify-between'>
+                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                <Search className='h-5 w-5' />
+                                Screening
+                              </CardTitle>
+                              {selectedReport?.doctor_signoff !== 'Yes' && (
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={() => setIsEditingScreening(!isEditingScreening)}
+                                  className='hover-lift hover:border hover:border-border'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                              )}
+                            </div>
                           </CardHeader>
                           <CardContent className='space-y-3 text-sm'>
                             <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
@@ -1986,10 +2080,22 @@ export default function ReportsPage() {
                         {/* Mental Health */}
                         <Card className='border-gray-200'>
                           <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Users className='h-5 w-5' />
-                              Mental Health
-                            </CardTitle>
+                            <div className='flex items-center justify-between'>
+                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                <Users className='h-5 w-5' />
+                                Mental Health
+                              </CardTitle>
+                              {selectedReport?.doctor_signoff !== 'Yes' && (
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={() => setIsEditingMentalHealth(!isEditingMentalHealth)}
+                                  className='hover-lift hover:border hover:border-border'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                              )}
+                            </div>
                           </CardHeader>
                           <CardContent className='space-y-3 text-sm'>
                             <div className='grid grid-cols-2 gap-x-6 gap-y-2'>
@@ -2045,10 +2151,22 @@ export default function ReportsPage() {
                         {/* Cardiovascular/Stroke Risk */}
                         <Card className='border-teal-200'>
                           <CardHeader className='pb-3'>
-                            <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                              <Stethoscope className='h-5 w-5' />
-                              Cardiovascular/Stroke Risk
-                            </CardTitle>
+                            <div className='flex items-center justify-between'>
+                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                <Stethoscope className='h-5 w-5' />
+                                Cardiovascular/Stroke Risk
+                              </CardTitle>
+                              {selectedReport?.doctor_signoff !== 'Yes' && (
+                                <Button
+                                  variant='ghost'
+                                  size='sm'
+                                  onClick={() => setIsEditingCardiovascular(!isEditingCardiovascular)}
+                                  className='hover-lift hover:border hover:border-border'
+                                >
+                                  <Edit className='h-4 w-4' />
+                                </Button>
+                              )}
+                            </div>
                           </CardHeader>
                           <CardContent className='pt-0'>
                             {/* Risk factors table */}
@@ -2399,10 +2517,22 @@ export default function ReportsPage() {
                         {formData.overview?.notes_text && (
                           <Card className='border-gray-200'>
                             <CardHeader className='pb-3'>
-                              <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
-                                <FileText className='h-5 w-5' />
-                                Overview
-                              </CardTitle>
+                              <div className='flex items-center justify-between'>
+                                <CardTitle className='text-lg flex items-center gap-2 section-heading heading-montserrat'>
+                                  <FileText className='h-5 w-5' />
+                                  Overview
+                                </CardTitle>
+                                {selectedReport?.doctor_signoff !== 'Yes' && (
+                                  <Button
+                                    variant='ghost'
+                                    size='sm'
+                                    onClick={() => setIsEditingOverview(!isEditingOverview)}
+                                    className='hover-lift hover:border hover:border-border'
+                                  >
+                                    <Edit className='h-4 w-4' />
+                                  </Button>
+                                )}
+                              </div>
                             </CardHeader>
                             <CardContent className='pt-0'>
                               <div className='text-sm'>
@@ -2475,6 +2605,183 @@ export default function ReportsPage() {
           </div>
         </div>
       </div>
+
+      {/* Create Modal */}
+      <Dialog open={isCreateModalOpen} onOpenChange={setIsCreateModalOpen}>
+        <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
+          <DialogHeader>
+            <DialogTitle>Create New Medical Report</DialogTitle>
+            <DialogDescription>
+              Add a new executive medical report for an employee.
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <div className='space-y-2'>
+              <Label htmlFor='employee_id'>Employee</Label>
+              <Select
+                value={createFormData.employee_id || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, employee_id: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select employee' />
+                </SelectTrigger>
+                <SelectContent>
+                  {/* You'll need to fetch employees list */}
+                  <SelectItem value='employee1'>Employee 1</SelectItem>
+                  <SelectItem value='employee2'>Employee 2</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='space-y-2'>
+              <Label htmlFor='doctor'>Doctor</Label>
+              <Select
+                value={createFormData.doctor || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, doctor: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select doctor' />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value='doctor1'>Dr. Smith</SelectItem>
+                  <SelectItem value='doctor2'>Dr. Johnson</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='space-y-2'>
+              <Label htmlFor='nurse'>Nurse</Label>
+              <Select
+                value={createFormData.nurse || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, nurse: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select nurse' />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value='nurse1'>Nurse Wilson</SelectItem>
+                  <SelectItem value='nurse2'>Nurse Brown</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='space-y-2'>
+              <Label htmlFor='workplace'>Workplace</Label>
+              <Select
+                value={createFormData.workplace || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, workplace: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select workplace' />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value='workplace1'>Main Office</SelectItem>
+                  <SelectItem value='workplace2'>Branch Office</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='space-y-2'>
+              <Label htmlFor='type'>Report Type</Label>
+              <Select
+                value={createFormData.type || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, type: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select report type' />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value='executive'>Executive Medical</SelectItem>
+                  <SelectItem value='routine'>Routine Checkup</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='space-y-2'>
+              <Label htmlFor='sub_type'>Sub Type</Label>
+              <Select
+                value={createFormData.sub_type || ''}
+                onValueChange={value =>
+                  setCreateFormData({ ...createFormData, sub_type: value })
+                }
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder='Select sub type' />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value='comprehensive'>Comprehensive</SelectItem>
+                  <SelectItem value='basic'>Basic</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className='md:col-span-2 space-y-2'>
+              <Label htmlFor='notes_text'>Notes</Label>
+              <Textarea
+                id='notes_text'
+                value={createFormData.notes_text || ''}
+                onChange={e =>
+                  setCreateFormData({
+                    ...createFormData,
+                    notes_text: e.target.value,
+                  })
+                }
+                placeholder='Enter report notes...'
+                rows={3}
+              />
+            </div>
+
+            <div className='md:col-span-2 space-y-2'>
+              <Label htmlFor='recommendation_text'>Recommendations</Label>
+              <Textarea
+                id='recommendation_text'
+                value={createFormData.recommendation_text || ''}
+                onChange={e =>
+                  setCreateFormData({
+                    ...createFormData,
+                    recommendation_text: e.target.value,
+                  })
+                }
+                placeholder='Enter health recommendations...'
+                rows={3}
+              />
+            </div>
+          </div>
+
+          <DialogFooter>
+            <Button
+              variant='outline'
+              onClick={() => setIsCreateModalOpen(false)}
+            >
+              Cancel
+            </Button>
+            <Button onClick={handleCreate} disabled={createFormLoading}>
+              {createFormLoading ? (
+                <>
+                  <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                  Creating...
+                </>
+              ) : (
+                <>
+                  <FileText className='mr-2 h-4 w-4' />
+                  Create Report
+                </>
+              )}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </DashboardLayout>
   );
 }
