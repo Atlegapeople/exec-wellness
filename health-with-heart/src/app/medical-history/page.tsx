@@ -506,8 +506,20 @@ export default function MedicalHistoryPage() {
           </div>
         )}
 
-                    {/* Stats Cards */}
-                    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            onClick={() => router.back()}
+            className='flex items-center gap-2 hover-lift'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            Back
+          </Button>
+        </div>
+
+        {/* Stats Cards */}
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
