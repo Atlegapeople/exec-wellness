@@ -174,13 +174,11 @@ export default function MedicalHistoryPage() {
     useState<MedicalHistory | null>(null);
 
   // Edit states for each section
-  const [isEditingConditions, setIsEditingConditions] = useState(false);
   const [isEditingDisability, setIsEditingDisability] = useState(false);
   const [isEditingAllergies, setIsEditingAllergies] = useState(false);
   const [isEditingMedication, setIsEditingMedication] = useState(false);
   const [isEditingFamilyHistory, setIsEditingFamilyHistory] = useState(false);
   const [isEditingSurgery, setIsEditingSurgery] = useState(false);
-  const [isEditingNotes, setIsEditingNotes] = useState(false);
   const [isEditingRecommendations, setIsEditingRecommendations] =
     useState(false);
 
@@ -234,6 +232,11 @@ export default function MedicalHistoryPage() {
           );
           console.log('Setting form data with employee_id:', employeeFilter);
           setFormData({ employee_id: employeeFilter });
+          setIsCreateDialogOpen(true);
+        } else if (selectedMedicalHistory) {
+          // If there's a selected medical history, pre-populate with that employee
+          console.log('Pre-populating form with selected employee:', selectedMedicalHistory.employee_id);
+          setFormData({ employee_id: selectedMedicalHistory.employee_id });
           setIsCreateDialogOpen(true);
         } else {
           console.log('No auto-selection:', {
@@ -503,18 +506,8 @@ export default function MedicalHistoryPage() {
           </div>
         )}
 
-        {/* Header */}
-
-        <div className='medical-history-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Medical History Table */}
-          <div
-            className='space-y-4'
-            style={{
-              width: selectedMedicalHistory ? `${leftPanelWidth}%` : '100%',
-            }}
-          >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+                    {/* Stats Cards */}
+                    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
@@ -586,7 +579,7 @@ export default function MedicalHistoryPage() {
             </div>
 
             {/* Search */}
-            <Card className='glass-effect'>
+            <Card className='glass-effect my-6'>
               <CardContent className='p-4'>
                 <div className='flex items-center gap-4'>
                   <div className='flex-1 relative'>
@@ -619,13 +612,25 @@ export default function MedicalHistoryPage() {
               </CardContent>
             </Card>
 
+        {/* Header */}
+
+        <div className='medical-history-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Medical History Table */}
+          <div
+            className='space-y-4'
+            style={{
+              width: selectedMedicalHistory ? `${leftPanelWidth}%` : '100%',
+            }}
+          >
+
+
             {/* Medical History Table */}
             <Card className='hover-lift'>
               <CardHeader>
                 <div className='flex items-center justify-between'>
                   <div>
-                    <CardTitle className='flex items-center gap-2 text-2xl'>
-                      <FileText className='h-6 w-6' />
+                    <CardTitle className='flex items-center gap-2 text-2xl text-primary'>
+                      <FileText className='h-6 w-6 text-primary' />
                       Medical History ({pagination.total})
                     </CardTitle>
                     <CardDescription>
@@ -637,9 +642,13 @@ export default function MedicalHistoryPage() {
                     onOpenChange={setIsCreateDialogOpen}
                   >
                     <DialogTrigger asChild>
-                      <Button>
-                        <Plus className='h-4 w-4 mr-2' />
-                        Add Record
+                      <Button className={selectedMedicalHistory ? 'rounded-full w-10 h-10 p-0' : ''}>
+                        <Plus className='h-4 w-4' />
+                        {!selectedMedicalHistory && (
+                          <>
+                            <span className='ml-2'>Add Record</span>
+                          </>
+                        )}
                       </Button>
                     </DialogTrigger>
                   </Dialog>
@@ -749,10 +758,9 @@ export default function MedicalHistoryPage() {
                                   size='sm'
                                   onClick={e => {
                                     e.stopPropagation();
-                                    handleDeleteMedicalHistory(
-                                      medicalHistory.id
-                                    );
+                                    openDeleteModal(medicalHistory);
                                   }}
+                                  className='text-destructive hover:text-destructive hover:bg-destructive/10'
                                 >
                                   <Trash2 className='h-4 w-4' />
                                 </Button>
@@ -957,29 +965,6 @@ export default function MedicalHistoryPage() {
                         <Heart className='h-4 w-4' />
                         Medical Conditions
                       </h3>
-                      <div className='flex gap-2'>
-                        {isEditingConditions && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingConditions(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingConditions ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() =>
-                            setIsEditingConditions(!isEditingConditions)
-                          }
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingConditions ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
                     </div>
                     <div className='grid grid-cols-2 gap-3 text-sm'>
                       <div className='flex items-center gap-2'>
@@ -1037,16 +1022,15 @@ export default function MedicalHistoryPage() {
                           )}
                           <Button
                             variant={
-                              isEditingMedication ? 'default' : 'outline'
+                              isEditingMedication ? 'default' : 'ghost'
                             }
                             size='sm'
-                            className='hover-lift'
+                            className='hover-lift rounded-md w-8 h-8 p-0 hover:border hover:border-border'
                             onClick={() =>
                               setIsEditingMedication(!isEditingMedication)
                             }
                           >
-                            <Edit className='h-3 w-3 mr-1' />
-                            {isEditingMedication ? 'Save' : 'Edit'}
+                            <Edit className='h-3 w-3' />
                           </Button>
                         </div>
                       </div>
@@ -1094,15 +1078,14 @@ export default function MedicalHistoryPage() {
                             </Button>
                           )}
                           <Button
-                            variant={isEditingAllergies ? 'default' : 'outline'}
+                            variant={isEditingAllergies ? 'default' : 'ghost'}
                             size='sm'
-                            className='hover-lift'
+                            className='hover-lift rounded-md w-8 h-8 p-0 hover:border hover:border-border'
                             onClick={() =>
                               setIsEditingAllergies(!isEditingAllergies)
                             }
                           >
-                            <Edit className='h-3 w-3 mr-1' />
-                            {isEditingAllergies ? 'Save' : 'Edit'}
+                            <Edit className='h-3 w-3' />
                           </Button>
                         </div>
                       </div>
@@ -1147,16 +1130,15 @@ export default function MedicalHistoryPage() {
                           )}
                           <Button
                             variant={
-                              isEditingFamilyHistory ? 'default' : 'outline'
+                              isEditingFamilyHistory ? 'default' : 'ghost'
                             }
                             size='sm'
-                            className='hover-lift'
+                            className='hover-lift rounded-md w-8 h-8 p-0 hover:border hover:border-border'
                             onClick={() =>
                               setIsEditingFamilyHistory(!isEditingFamilyHistory)
                             }
                           >
-                            <Edit className='h-3 w-3 mr-1' />
-                            {isEditingFamilyHistory ? 'Save' : 'Edit'}
+                            <Edit className='h-3 w-3' />
                           </Button>
                         </div>
                       </div>
@@ -1187,15 +1169,14 @@ export default function MedicalHistoryPage() {
                             </Button>
                           )}
                           <Button
-                            variant={isEditingSurgery ? 'default' : 'outline'}
+                            variant={isEditingSurgery ? 'default' : 'ghost'}
                             size='sm'
-                            className='hover-lift'
+                            className='hover-lift rounded-md w-8 h-8 p-0 hover:border hover:border-border'
                             onClick={() =>
                               setIsEditingSurgery(!isEditingSurgery)
                             }
                           >
-                            <Edit className='h-3 w-3 mr-1' />
-                            {isEditingSurgery ? 'Save' : 'Edit'}
+                            <Edit className='h-3 w-3' />
                           </Button>
                         </div>
                       </div>
@@ -1236,18 +1217,17 @@ export default function MedicalHistoryPage() {
                           )}
                           <Button
                             variant={
-                              isEditingRecommendations ? 'default' : 'outline'
+                              isEditingRecommendations ? 'default' : 'ghost'
                             }
                             size='sm'
-                            className='hover-lift'
+                            className='hover-lift rounded-md w-8 h-8 p-0 hover:border hover:border-border'
                             onClick={() =>
                               setIsEditingRecommendations(
                                 !isEditingRecommendations
                               )
                             }
                           >
-                            <Edit className='h-3 w-3 mr-1' />
-                            {isEditingRecommendations ? 'Save' : 'Edit'}
+                            <Edit className='h-3 w-3' />
                           </Button>
                         </div>
                       </div>
@@ -1259,94 +1239,20 @@ export default function MedicalHistoryPage() {
                     </div>
                   )}
 
-                  {/* System Information */}
-                  <div className='space-y-3'>
-                    <div className='flex items-center justify-between'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
-                        Record Information
-                      </h3>
-                      <div className='flex gap-2'>
-                        {isEditingNotes && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingNotes(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingNotes ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() => setIsEditingNotes(!isEditingNotes)}
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingNotes ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Created:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDate(selectedMedicalHistory.date_created)}
-                        </span>
-                      </div>
-                      {selectedMedicalHistory.created_by_name && (
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Created By:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedMedicalHistory.created_by_name}
-                          </span>
-                        </div>
-                      )}
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Last Updated:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDate(selectedMedicalHistory.date_updated)}
-                        </span>
-                      </div>
-                      {selectedMedicalHistory.updated_by_name && (
-                        <div className='flex gap-2'>
-                          <span className='text-muted-foreground min-w-[120px]'>
-                            Updated By:
-                          </span>
-                          <span className='font-medium'>
-                            {selectedMedicalHistory.updated_by_name}
-                          </span>
-                        </div>
-                      )}
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Record ID:
-                        </span>
-                        <span className='font-mono text-xs'>
-                          {selectedMedicalHistory.id}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+
                 </CardContent>
               </Card>
             </div>
           )}
         </div>
 
-        {/* Edit Dialog - Similar structure to Create Dialog */}
-        <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+        {/* Create Dialog */}
+        <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
           <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
             <DialogHeader>
-              <DialogTitle>Edit Medical History</DialogTitle>
+              <DialogTitle>Create Medical History</DialogTitle>
               <DialogDescription>
-                Update medical history information
+                Add new medical history information
               </DialogDescription>
             </DialogHeader>
 
@@ -1361,7 +1267,7 @@ export default function MedicalHistoryPage() {
 
               <div className='space-y-4'>
                 <div className='space-y-2'>
-                  <Label htmlFor='edit_employee_id'>Employee</Label>
+                  <Label htmlFor='employee_id'>Employee</Label>
                   <Select
                     value={formData.employee_id || ''}
                     onValueChange={value =>
@@ -1387,6 +1293,633 @@ export default function MedicalHistoryPage() {
                   <div className='flex items-center space-x-2'>
                     <input
                       type='checkbox'
+                      id='high_blood_pressure'
+                      checked={formData.high_blood_pressure || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          high_blood_pressure: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='high_blood_pressure'>
+                      High Blood Pressure
+                    </Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='high_cholesterol'
+                      checked={formData.high_cholesterol || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          high_cholesterol: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='high_cholesterol'>High Cholesterol</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='diabetes'
+                      checked={formData.diabetes || false}
+                      onChange={e =>
+                        setFormData({ ...formData, diabetes: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='diabetes'>Diabetes</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='thyroid_disease'
+                      checked={formData.thyroid_disease || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          thyroid_disease: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='thyroid_disease'>Thyroid Disease</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='asthma'
+                      checked={formData.asthma || false}
+                      onChange={e =>
+                        setFormData({ ...formData, asthma: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='asthma'>Asthma</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='epilepsy'
+                      checked={formData.epilepsy || false}
+                      onChange={e =>
+                        setFormData({ ...formData, epilepsy: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='epilepsy'>Epilepsy</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='bipolar_mood_disorder'
+                      checked={formData.bipolar_mood_disorder || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          bipolar_mood_disorder: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='bipolar_mood_disorder'>
+                      Bipolar/Mood Disorder
+                    </Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='anxiety_or_depression'
+                      checked={formData.anxiety_or_depression || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          anxiety_or_depression: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='anxiety_or_depression'>
+                      Anxiety/Depression
+                    </Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='inflammatory_bowel_disease'
+                      checked={formData.inflammatory_bowel_disease || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          inflammatory_bowel_disease: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='inflammatory_bowel_disease'>
+                      Inflammatory Bowel Disease
+                    </Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='tb'
+                      checked={formData.tb || false}
+                      onChange={e =>
+                        setFormData({ ...formData, tb: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='tb'>Tuberculosis (TB)</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='hepatitis'
+                      checked={formData.hepatitis || false}
+                      onChange={e =>
+                        setFormData({ ...formData, hepatitis: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='hepatitis'>Hepatitis</Label>
+                  </div>
+                </div>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='other'>Other Conditions</Label>
+                  <Input
+                    id='other'
+                    value={formData.other || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, other: e.target.value })
+                    }
+                    placeholder='Specify other medical conditions'
+                  />
+                </div>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='notes_text'>Notes</Label>
+                  <Textarea
+                    id='notes_text'
+                    value={formData.notes_text || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, notes_text: e.target.value })
+                    }
+                    placeholder='Additional notes about conditions'
+                    rows={3}
+                  />
+                </div>
+              </TabsContent>
+
+              <TabsContent value='allergies' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='medication'
+                      checked={formData.medication || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          medication: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='medication'>Medication Allergies</Label>
+                  </div>
+                  {formData.medication && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='medication_type'>Medication Type</Label>
+                      <Input
+                        id='medication_type'
+                        value={formData.medication_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            medication_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify medication allergy'
+                      />
+                      <Label htmlFor='medication_severity'>Severity</Label>
+                      <Select
+                        value={formData.medication_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            medication_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='environmental'
+                      checked={formData.environmental || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          environmental: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='environmental'>Environmental Allergies</Label>
+                  </div>
+                  {formData.environmental && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='environmental_type'>Environmental Type</Label>
+                      <Input
+                        id='environmental_type'
+                        value={formData.environmental_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            environmental_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify environmental allergy'
+                      />
+                      <Label htmlFor='enviromental_severity'>Severity</Label>
+                      <Select
+                        value={formData.enviromental_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            enviromental_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='food'
+                      checked={formData.food || false}
+                      onChange={e =>
+                        setFormData({ ...formData, food: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='food'>Food Allergies</Label>
+                  </div>
+                  {formData.food && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='food_type'>Food Type</Label>
+                      <Input
+                        id='food_type'
+                        value={formData.food_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            food_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify food allergy'
+                      />
+                      <Label htmlFor='food_severity'>Severity</Label>
+                      <Select
+                        value={formData.food_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            food_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
+
+              <TabsContent value='medications' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='on_medication'
+                      checked={formData.on_medication || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          on_medication: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='on_medication'>Currently on Medication</Label>
+                  </div>
+                  {formData.on_medication && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='chronic_medication'>Chronic Medication</Label>
+                      <Textarea
+                        id='chronic_medication'
+                        value={formData.chronic_medication || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            chronic_medication: e.target.value,
+                          })
+                        }
+                        placeholder='List current medications'
+                        rows={3}
+                      />
+                      <Label htmlFor='vitamins_or_supplements'>
+                        Vitamins or Supplements
+                      </Label>
+                      <Textarea
+                        id='vitamins_or_supplements'
+                        value={formData.vitamins_or_supplements || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            vitamins_or_supplements: e.target.value,
+                          })
+                        }
+                        placeholder='List vitamins and supplements'
+                        rows={3}
+                      />
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
+
+              <TabsContent value='family' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='family_conditions'>Family Medical Conditions</Label>
+                    <Textarea
+                      id='family_conditions'
+                      value={formData.family_conditions || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          family_conditions: e.target.value,
+                        })
+                      }
+                      placeholder='Describe family medical history'
+                      rows={4}
+                    />
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='heart_attack'
+                      checked={formData.heart_attack || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          heart_attack: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='heart_attack'>Family History of Heart Attack</Label>
+                  </div>
+                  {formData.heart_attack && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='heart_attack_60'>Under 60 years old?</Label>
+                      <Select
+                        value={formData.heart_attack_60 || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            heart_attack_60: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='yes'>Yes</SelectItem>
+                          <SelectItem value='no'>No</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='cancer_family'
+                      checked={formData.cancer_family || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          cancer_family: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='cancer_family'>Family History of Cancer</Label>
+                  </div>
+                  {formData.cancer_family && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='type_cancer'>Type of Cancer</Label>
+                      <Input
+                        id='type_cancer'
+                        value={formData.type_cancer || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            type_cancer: e.target.value,
+                          })
+                        }
+                        placeholder='Specify type of cancer'
+                      />
+                      <Label htmlFor='age_of_cancer'>Age at Diagnosis</Label>
+                      <Input
+                        id='age_of_cancer'
+                        value={formData.age_of_cancer || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            age_of_cancer: e.target.value,
+                          })
+                        }
+                        placeholder='Age when diagnosed'
+                      />
+                    </div>
+                  )}
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='family_members'>Affected Family Members</Label>
+                    <Input
+                      id='family_members'
+                      value={formData.family_members || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          family_members: e.target.value,
+                        })
+                      }
+                      placeholder='List affected family members'
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='other_family'>Other Family History</Label>
+                    <Textarea
+                      id='other_family'
+                      value={formData.other_family || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          other_family: e.target.value,
+                        })
+                      }
+                      placeholder='Other family medical history'
+                      rows={3}
+                    />
+                  </div>
+                </div>
+              </TabsContent>
+
+              <TabsContent value='surgery' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='surgery'
+                      checked={formData.surgery || false}
+                      onChange={e =>
+                        setFormData({ ...formData, surgery: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='surgery'>Previous Surgery</Label>
+                  </div>
+                  {formData.surgery && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='surgery_type'>Type of Surgery</Label>
+                      <Input
+                        id='surgery_type'
+                        value={formData.surgery_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            surgery_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify type of surgery'
+                      />
+                      <Label htmlFor='surgery_year'>Year of Surgery</Label>
+                      <Input
+                        id='surgery_year'
+                        value={formData.surgery_year || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            surgery_year: e.target.value,
+                          })
+                        }
+                        placeholder='Year (e.g., 2020)'
+                      />
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
+            </Tabs>
+
+            <div className='flex justify-end gap-2'>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsCreateDialogOpen(false);
+                  setFormData({});
+                }}
+              >
+                Cancel
+              </Button>
+              <Button onClick={handleCreateMedicalHistory} disabled={submitting}>
+                {submitting && (
+                  <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                )}
+                Create Medical History
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Edit Dialog - Similar structure to Create Dialog */}
+        <Dialog open={isEditDialogOpen} onOpenChange={setIsEditDialogOpen}>
+          <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
+            <DialogHeader>
+              <div className='text-lg font-medium text-primary mb-2'>
+                {selectedMedicalHistory?.employee_name || 'Unknown Employee'}
+              </div>
+              <DialogTitle>
+                Edit Medical History
+              </DialogTitle>
+              <DialogDescription>
+                Update medical history information
+              </DialogDescription>
+            </DialogHeader>
+
+            <Tabs defaultValue='conditions' className='space-y-4'>
+              <TabsList className='grid w-full grid-cols-5'>
+                <TabsTrigger value='conditions'>Conditions</TabsTrigger>
+                <TabsTrigger value='allergies'>Allergies</TabsTrigger>
+                <TabsTrigger value='medications'>Medications</TabsTrigger>
+                <TabsTrigger value='family'>Family History</TabsTrigger>
+                <TabsTrigger value='surgery'>Surgery</TabsTrigger>
+              </TabsList>
+
+              <TabsContent value='conditions' className='space-y-4'>
+                <div className='grid grid-cols-2 gap-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
                       id='edit_high_blood_pressure'
                       checked={formData.high_blood_pressure || false}
                       onChange={e =>
@@ -1405,6 +1938,22 @@ export default function MedicalHistoryPage() {
                   <div className='flex items-center space-x-2'>
                     <input
                       type='checkbox'
+                      id='edit_high_cholesterol'
+                      checked={formData.high_cholesterol || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          high_cholesterol: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_high_cholesterol'>High Cholesterol</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
                       id='edit_diabetes'
                       checked={formData.diabetes || false}
                       onChange={e =>
@@ -1418,6 +1967,22 @@ export default function MedicalHistoryPage() {
                   <div className='flex items-center space-x-2'>
                     <input
                       type='checkbox'
+                      id='edit_thyroid_disease'
+                      checked={formData.thyroid_disease || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          thyroid_disease: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_thyroid_disease'>Thyroid Disease</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
                       id='edit_asthma'
                       checked={formData.asthma || false}
                       onChange={e =>
@@ -1426,6 +1991,37 @@ export default function MedicalHistoryPage() {
                       className='rounded border-gray-300'
                     />
                     <Label htmlFor='edit_asthma'>Asthma</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_epilepsy'
+                      checked={formData.epilepsy || false}
+                      onChange={e =>
+                        setFormData({ ...formData, epilepsy: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_epilepsy'>Epilepsy</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_bipolar_mood_disorder'
+                      checked={formData.bipolar_mood_disorder || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          bipolar_mood_disorder: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_bipolar_mood_disorder'>
+                      Bipolar/Mood Disorder
+                    </Label>
                   </div>
 
                   <div className='flex items-center space-x-2'>
@@ -1445,6 +2041,62 @@ export default function MedicalHistoryPage() {
                       Anxiety/Depression
                     </Label>
                   </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_inflammatory_bowel_disease'
+                      checked={formData.inflammatory_bowel_disease || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          inflammatory_bowel_disease: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_inflammatory_bowel_disease'>
+                      Inflammatory Bowel Disease
+                    </Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_tb'
+                      checked={formData.tb || false}
+                      onChange={e =>
+                        setFormData({ ...formData, tb: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_tb'>Tuberculosis (TB)</Label>
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_hepatitis'
+                      checked={formData.hepatitis || false}
+                      onChange={e =>
+                        setFormData({ ...formData, hepatitis: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_hepatitis'>Hepatitis</Label>
+                  </div>
+                </div>
+
+                <div className='space-y-2'>
+                  <Label htmlFor='edit_other'>Other Conditions</Label>
+                  <Input
+                    id='edit_other'
+                    value={formData.other || ''}
+                    onChange={e =>
+                      setFormData({ ...formData, other: e.target.value })
+                    }
+                    placeholder='Specify other medical conditions'
+                  />
                 </div>
 
                 <div className='space-y-2'>
@@ -1461,7 +2113,389 @@ export default function MedicalHistoryPage() {
                 </div>
               </TabsContent>
 
-              {/* Similar content for other tabs... */}
+              <TabsContent value='allergies' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_medication'
+                      checked={formData.medication || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          medication: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_medication'>Medication Allergies</Label>
+                  </div>
+                  {formData.medication && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_medication_type'>Medication Type</Label>
+                      <Input
+                        id='edit_medication_type'
+                        value={formData.medication_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            medication_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify medication allergy'
+                      />
+                      <Label htmlFor='edit_medication_severity'>Severity</Label>
+                      <Select
+                        value={formData.medication_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            medication_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_environmental'
+                      checked={formData.environmental || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          environmental: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_environmental'>Environmental Allergies</Label>
+                  </div>
+                  {formData.environmental && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_environmental_type'>Environmental Type</Label>
+                      <Input
+                        id='edit_environmental_type'
+                        value={formData.environmental_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            environmental_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify environmental allergy'
+                      />
+                      <Label htmlFor='edit_enviromental_severity'>Severity</Label>
+                      <Select
+                        value={formData.enviromental_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            enviromental_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_food'
+                      checked={formData.food || false}
+                      onChange={e =>
+                        setFormData({ ...formData, food: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_food'>Food Allergies</Label>
+                  </div>
+                  {formData.food && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_food_type'>Food Type</Label>
+                      <Input
+                        id='edit_food_type'
+                        value={formData.food_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            food_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify food allergy'
+                      />
+                      <Label htmlFor='edit_food_severity'>Severity</Label>
+                      <Select
+                        value={formData.food_severity || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            food_severity: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select severity' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='mild'>Mild</SelectItem>
+                          <SelectItem value='moderate'>Moderate</SelectItem>
+                          <SelectItem value='severe'>Severe</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
+
+              <TabsContent value='medications' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_on_medication'
+                      checked={formData.on_medication || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          on_medication: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_on_medication'>Currently on Medication</Label>
+                  </div>
+                  {formData.on_medication && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_chronic_medication'>Chronic Medication</Label>
+                      <Textarea
+                        id='edit_chronic_medication'
+                        value={formData.chronic_medication || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            chronic_medication: e.target.value,
+                          })
+                        }
+                        placeholder='List current medications'
+                        rows={3}
+                      />
+                      <Label htmlFor='edit_vitamins_or_supplements'>
+                        Vitamins or Supplements
+                      </Label>
+                      <Textarea
+                        id='edit_vitamins_or_supplements'
+                        value={formData.vitamins_or_supplements || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            vitamins_or_supplements: e.target.value,
+                          })
+                        }
+                        placeholder='List vitamins and supplements'
+                        rows={3}
+                      />
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
+
+              <TabsContent value='family' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='space-y-2'>
+                    <Label htmlFor='edit_family_conditions'>Family Medical Conditions</Label>
+                    <Textarea
+                      id='edit_family_conditions'
+                      value={formData.family_conditions || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          family_conditions: e.target.value,
+                        })
+                      }
+                      placeholder='Describe family medical history'
+                      rows={4}
+                    />
+                  </div>
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_heart_attack'
+                      checked={formData.heart_attack || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          heart_attack: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_heart_attack'>Family History of Heart Attack</Label>
+                  </div>
+                  {formData.heart_attack && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_heart_attack_60'>Under 60 years old?</Label>
+                      <Select
+                        value={formData.heart_attack_60 || ''}
+                        onValueChange={value =>
+                          setFormData({
+                            ...formData,
+                            heart_attack_60: value,
+                          })
+                        }
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder='Select' />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value='yes'>Yes</SelectItem>
+                          <SelectItem value='no'>No</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
+
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_cancer_family'
+                      checked={formData.cancer_family || false}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          cancer_family: e.target.checked,
+                        })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_cancer_family'>Family History of Cancer</Label>
+                  </div>
+                  {formData.cancer_family && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_type_cancer'>Type of Cancer</Label>
+                      <Input
+                        id='edit_type_cancer'
+                        value={formData.type_cancer || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            type_cancer: e.target.value,
+                          })
+                        }
+                        placeholder='Specify type of cancer'
+                      />
+                      <Label htmlFor='edit_age_of_cancer'>Age at Diagnosis</Label>
+                      <Input
+                        id='edit_age_of_cancer'
+                        value={formData.age_of_cancer || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            age_of_cancer: e.target.value,
+                          })
+                        }
+                        placeholder='Age when diagnosed'
+                      />
+                    </div>
+                  )}
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='edit_family_members'>Affected Family Members</Label>
+                    <Input
+                      id='edit_family_members'
+                      value={formData.family_members || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          family_members: e.target.value,
+                        })
+                      }
+                      placeholder='List affected family members'
+                    />
+                  </div>
+
+                  <div className='space-y-2'>
+                    <Label htmlFor='edit_other_family'>Other Family History</Label>
+                    <Textarea
+                      id='edit_other_family'
+                      value={formData.other_family || ''}
+                      onChange={e =>
+                        setFormData({
+                          ...formData,
+                          other_family: e.target.value,
+                        })
+                      }
+                      placeholder='Other family medical history'
+                      rows={3}
+                    />
+                  </div>
+                </div>
+              </TabsContent>
+
+              <TabsContent value='surgery' className='space-y-4'>
+                <div className='space-y-4'>
+                  <div className='flex items-center space-x-2'>
+                    <input
+                      type='checkbox'
+                      id='edit_surgery'
+                      checked={formData.surgery || false}
+                      onChange={e =>
+                        setFormData({ ...formData, surgery: e.target.checked })
+                      }
+                      className='rounded border-gray-300'
+                    />
+                    <Label htmlFor='edit_surgery'>Previous Surgery</Label>
+                  </div>
+                  {formData.surgery && (
+                    <div className='space-y-2 ml-6'>
+                      <Label htmlFor='edit_surgery_type'>Type of Surgery</Label>
+                      <Input
+                        id='edit_surgery_type'
+                        value={formData.surgery_type || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            surgery_type: e.target.value,
+                          })
+                        }
+                        placeholder='Specify type of surgery'
+                      />
+                      <Label htmlFor='edit_surgery_year'>Year of Surgery</Label>
+                      <Input
+                        id='edit_surgery_year'
+                        value={formData.surgery_year || ''}
+                        onChange={e =>
+                          setFormData({
+                            ...formData,
+                            surgery_year: e.target.value,
+                          })
+                        }
+                        placeholder='Year (e.g., 2020)'
+                      />
+                    </div>
+                  )}
+                </div>
+              </TabsContent>
             </Tabs>
 
             <div className='flex justify-end gap-2'>
