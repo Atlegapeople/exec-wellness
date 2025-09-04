@@ -446,6 +446,39 @@ export default function ReportsPage() {
     return selectedReport?.doctor_signoff === 'Yes';
   };
 
+  const handleSignReport = async (reportId: string) => {
+    try {
+      const response = await fetch(`/api/reports/sign/${reportId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        // Update the selected report's signoff status
+        if (selectedReport) {
+          setSelectedReport({
+            ...selectedReport,
+            doctor_signoff: 'Yes',
+            date_updated: new Date().toISOString(),
+          });
+        }
+        
+        // Refresh the reports list to show updated status
+        await fetchAllReports();
+        
+        alert('Report signed successfully!');
+      } else {
+        const errorData = await response.json();
+        alert(`Failed to sign report: ${errorData.message || 'Unknown error'}`);
+      }
+    } catch (error) {
+      console.error('Error signing report:', error);
+      alert('Error signing report. Please try again.');
+    }
+  };
+
   const handleMouseDown = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsResizing(true);
@@ -517,19 +550,83 @@ export default function ReportsPage() {
 
   return (
     <DashboardLayout>
-      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[4vw] py-6 max-w-full overflow-hidden'>
         {/* General Back Button */}
         <div className='mb-6 flex justify-start'>
           <Button
             variant='outline'
             size='sm'
             onClick={() => router.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
           </Button>
         </div>
+
+        {/* Search and Filters */}
+         <Card className='glass-effect mb-4'>
+           <CardContent className='p-4'>
+             <div className='space-y-4'>
+               <div className='flex gap-2'>
+                 <div className='flex-1 relative'>
+                   <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                   <Input
+                     type='text'
+                     placeholder='Search by employee, doctor, workplace, email, or report ID...'
+                     value={searchTerm}
+                     onChange={e => {
+                       setSearchTerm(e.target.value);
+                       updateURL(1, e.target.value, statusFilter);
+                     }}
+                     className='pl-9'
+                   />
+                 </div>
+                 <Button 
+                   type='button'
+                   onClick={() => updateURL(1, searchTerm, statusFilter)}
+                   className='hover-lift'
+                 >
+                   Search
+                 </Button>
+               </div>
+               <div className='flex items-center justify-between'>
+                 <div className='flex items-center gap-2'>
+                   <Filter className='h-4 w-4 text-muted-foreground' />
+                   <Select
+                     value={statusFilter}
+                     onValueChange={value => {
+                       setStatusFilter(value);
+                       updateURL(1, searchTerm, value);
+                     }}
+                   >
+                     <SelectTrigger className='w-48'>
+                       <SelectValue placeholder='Filter by status' />
+                     </SelectTrigger>
+                     <SelectContent>
+                       <SelectItem value='all'>All Reports</SelectItem>
+                       <SelectItem value='signed'>
+                         Signed by Doctor
+                       </SelectItem>
+                       <SelectItem value='pending'>
+                         Pending Signature
+                       </SelectItem>
+                     </SelectContent>
+                   </Select>
+                 </div>
+                 <div className='text-sm text-muted-foreground'>
+                   {(pagination.page - 1) * pagination.limit + 1}-
+                   {Math.min(
+                     pagination.page * pagination.limit,
+                     pagination.total
+                   )}{' '}
+                   of {pagination.total}
+                 </div>
+               </div>
+             </div>
+           </CardContent>
+         </Card>
+
 
         {/* Conditional Back Button and Filters */}
         {(returnUrl ||
@@ -542,7 +639,7 @@ export default function ReportsPage() {
                 <Button
                   variant='outline'
                   onClick={() => router.push(returnUrl)}
-                  className='flex items-center gap-2'
+                  className='flex items-center gap-2 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg'
                 >
                   <ArrowLeft className='h-4 w-4' />
                   Back to{' '}
@@ -638,62 +735,7 @@ export default function ReportsPage() {
           </div>
         )}
 
-        {/* Search and Filters */}
-        <Card className='mb-6'>
-          <CardHeader>
-            <CardTitle>Search & Filters</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className='flex space-x-4'>
-              <div className='flex-1'>
-                <div className='relative'>
-                  <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4' />
-                  <Input
-                    type='text'
-                    placeholder='Search by employee, doctor, workplace, email, or report ID...'
-                    value={searchTerm}
-                    onChange={e => {
-                      setSearchTerm(e.target.value);
-                      updateURL(1, e.target.value, statusFilter);
-                    }}
-                    className='pl-10'
-                  />
-                </div>
-              </div>
-              <div className='flex items-center gap-2'>
-                <Filter className='h-4 w-4 text-muted-foreground' />
-                <Select
-                  value={statusFilter}
-                  onValueChange={value => {
-                    setStatusFilter(value);
-                    updateURL(1, searchTerm, value);
-                  }}
-                >
-                  <SelectTrigger className='w-48'>
-                    <SelectValue placeholder='Filter by status' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='all'>All Reports</SelectItem>
-                    <SelectItem value='signed'>
-                      Signed by Doctor
-                    </SelectItem>
-                    <SelectItem value='pending'>
-                      Pending Signature
-                    </SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-              <div className='text-sm text-muted-foreground'>
-                {(pagination.page - 1) * pagination.limit + 1}-
-                {Math.min(
-                  pagination.page * pagination.limit,
-                  pagination.total
-                )}{' '}
-                of {pagination.total}
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+
 
         <div
           className={`resizable-container flex transition-all duration-300 animate-slide-up overflow-hidden ${selectedReport ? '' : 'justify-center'}`}
@@ -714,9 +756,7 @@ export default function ReportsPage() {
                 <div className='flex items-center justify-between'>
                   <div>
                     <CardTitle className='flex items-center gap-3 heading-montserrat-bold text-2xl'>
-                      <div className='p-2 bg-teal-100 rounded-lg'>
-                        <FileText className='h-6 w-6 text-teal-600' />
-                      </div>
+                      <FileText className='h-6 w-6 text-teal-600' />
                       <div>
                         <span className='medical-heading'>Medical Reports</span>
                         <span className='ml-2 text-lg font-medium text-gray-500'>
@@ -1033,13 +1073,13 @@ export default function ReportsPage() {
             className={`space-y-4 ${selectedReport ? 'animate-slide-up' : ''}`}
             style={{
               width: selectedReport
-                ? `calc(${100 - leftPanelWidth}% - 20px)`
+                ? `calc(${100 - leftPanelWidth}% - 0px)`
                 : '0%',
               maxWidth: selectedReport
-                ? `calc(${100 - leftPanelWidth}% - 20px)`
+                ? `calc(${100 - leftPanelWidth}% - 0px)`
                 : '0%',
-              paddingLeft: selectedReport ? '12px' : '0',
-              paddingRight: selectedReport ? '20px' : '0',
+              paddingLeft: selectedReport ? '0px' : '0',
+              paddingRight: selectedReport ? '0px' : '0',
               overflow: selectedReport ? 'visible' : 'hidden',
             }}
           >
@@ -1047,13 +1087,11 @@ export default function ReportsPage() {
               <>
                 {/* Form Header Card */}
                 <Card className='glass-effect'>
-                  <CardContent className='p-4 min-h-[120px] flex items-center'>
+                  <CardContent className='p-4 max-h-[120px] flex items-center'>
                     <div className='flex flex-col lg:flex-row lg:justify-between lg:items-start w-full gap-4'>
                       <div className='space-y-2 flex-1'>
                         <CardTitle className='text-2xl flex items-center gap-3 heading-montserrat-bold'>
-                          <div className='p-2 bg-teal-100 rounded-lg'>
-                            <FileText className='h-6 w-6 text-teal-600' />
-                          </div>
+                          <FileText className='h-6 w-6 text-teal-600' />
                           <span className='medical-heading'>
                             {getEmployeeName(selectedReport)}
                           </span>
@@ -1063,7 +1101,7 @@ export default function ReportsPage() {
                             variant='outline'
                             className='font-mono text-xs font-medium'
                           >
-                            ID: {selectedReport.id.slice(0, 12)}...
+                            ID: {selectedReport.id}
                           </Badge>
                           <Badge
                             variant={
@@ -1124,7 +1162,7 @@ export default function ReportsPage() {
                 </Card>
 
                 {/* Form Content Card */}
-                <Card className='hover-lift max-h-screen overflow-y-auto scrollbar-premium'>
+                <Card className='hover-lift max-h-[575px] overflow-y-auto scrollbar-premium'>
                   <CardContent>
                     {formLoading ? (
                       <div className='text-center py-12'>
@@ -2395,6 +2433,25 @@ export default function ReportsPage() {
                             </div>
                           </CardContent>
                         </Card>
+
+                        {/* Sign Button - Only show when status is pending */}
+                        {selectedReport?.doctor_signoff !== 'Yes' && (
+                          <div className='pt-6 border-t border-border'>
+                            <div className='flex justify-center'>
+                              <Button 
+                                onClick={() => handleSignReport(selectedReport.id)}
+                                className='hover-lift px-8 py-3'
+                                size='lg'
+                              >
+                                <FileText className='h-5 w-5 mr-2' />
+                                Sign Report
+                              </Button>
+                            </div>
+                            <p className='text-center text-sm text-muted-foreground mt-2'>
+                              Click to electronically sign this medical report
+                            </p>
+                          </div>
+                        )}
                       </div>
                     ) : (
                       <div className='text-center py-12'>
