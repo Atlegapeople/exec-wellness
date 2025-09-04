@@ -404,12 +404,8 @@ export default function EmployeesPage() {
           </div>
         )}
 
-        {selectedEmployee ? (
-          <ResizablePanels
-            leftPanel={
-              <div className='space-y-4 animate-slide-up pr-3'>
-                {/* Search */}
-                <Card className='glass-effect'>
+                        {/* Search */}
+                        <Card className='glass-effect mb-6'>
                   <CardContent className='p-4'>
                     <form onSubmit={handleSearch} className='flex gap-4'>
                       <div className='flex-1 relative'>
@@ -442,6 +438,13 @@ export default function EmployeesPage() {
                   </CardContent>
                 </Card>
 
+        {selectedEmployee ? (
+          <>
+            <ResizablePanels
+            leftPanel={
+              <div className='space-y-4 animate-slide-up pr-3'>
+
+
                 {/* Employees Table */}
                 <Card className='hover-lift'>
                   <CardHeader>
@@ -455,9 +458,12 @@ export default function EmployeesPage() {
                           Employee records and information
                         </CardDescription>
                       </div>
-                      <Button className='hover-lift'>
-                        <Plus className='h-4 w-4 mr-2' />
-                        Add Employee
+                      <Button 
+                        className={`hover-lift ${selectedEmployee ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                        title={selectedEmployee ? 'Add Employee' : undefined}
+                      >
+                        <Plus className={`h-4 w-4 ${selectedEmployee ? '' : 'mr-2'}`} />
+                        {!selectedEmployee && 'Add Employee'}
                       </Button>
                     </div>
                   </CardHeader>
@@ -707,7 +713,7 @@ export default function EmployeesPage() {
                       />
                     </div>
                   </CardHeader>
-                  <CardContent className='max-h-[400px] overflow-y-auto scrollbar-premium'>
+                  <CardContent className='max-h-[475px] overflow-y-auto scrollbar-premium'>
                     <Employee360View
                       employeeId={selectedEmployee.id}
                       employee={selectedEmployee}
@@ -715,76 +721,9 @@ export default function EmployeesPage() {
                   </CardContent>
                 </Card>
 
-                {/* Treatment Plans Card - Full Width */}
-                <Card className='glass-effect'>
-                  <CardHeader>
-                    <CardTitle className='text-lg'>Treatment Plans</CardTitle>
-                    <CardDescription>
-                      Medical treatment recommendations and action items
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <EmployeeTreatmentPlans
-                      employeeId={selectedEmployee.id}
-                      employee={selectedEmployee}
-                    />
-                  </CardContent>
-                </Card>
 
-                {/* Two Column Layout for Other Sections */}
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-                  {/* Left Column */}
-                  <div className='space-y-4'>
-                    {/* Employee Documents Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeDocuments employeeId={selectedEmployee.id} />
-                      </CardContent>
-                    </Card>
 
-                    {/* Employee Complaints Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeComplaints employeeId={selectedEmployee.id} />
-                      </CardContent>
-                    </Card>
 
-                    {/* Infectious Disease Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeInfectiousDisease
-                          employeeId={selectedEmployee.id}
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-
-                  {/* Right Column */}
-                  <div className='space-y-4'>
-                    {/* Emergency Responses Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeEmergencyResponses
-                          employeeId={selectedEmployee.id}
-                        />
-                      </CardContent>
-                    </Card>
-
-                    {/* Assessments Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeAssessments employeeId={selectedEmployee.id} />
-                      </CardContent>
-                    </Card>
-
-                    {/* TB Screening Card */}
-                    <Card className='glass-effect'>
-                      <CardContent className='p-4'>
-                        <EmployeeTBScreening employeeId={selectedEmployee.id} />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </div>
               </div>
             }
             className='min-h-[600px]'
@@ -792,6 +731,78 @@ export default function EmployeesPage() {
             minLeftWidth={25}
             maxLeftWidth={75}
           />
+
+          {/* Treatment Plans Card */}
+          <Card className='glass-effect mt-6'>
+            <CardHeader>
+              <CardTitle className='text-lg'>Treatment Plans</CardTitle>
+              <CardDescription>
+                Medical treatment recommendations and action items
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <EmployeeTreatmentPlans
+                employeeId={selectedEmployee.id}
+                employee={selectedEmployee}
+              />
+            </CardContent>
+          </Card>
+
+          {/* Two Column Layout for Other Sections */}
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6'>
+            {/* Left Column */}
+            <div className='space-y-4'>
+              {/* Employee Documents Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeDocuments employeeId={selectedEmployee.id} />
+                </CardContent>
+              </Card>
+
+              {/* Employee Complaints Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeComplaints employeeId={selectedEmployee.id} />
+                </CardContent>
+              </Card>
+
+              {/* Infectious Disease Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeInfectiousDisease
+                    employeeId={selectedEmployee.id}
+                  />
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Right Column */}
+            <div className='space-y-4'>
+              {/* Emergency Responses Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeEmergencyResponses
+                    employeeId={selectedEmployee.id}
+                  />
+                </CardContent>
+              </Card>
+
+              {/* Assessments Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeAssessments employeeId={selectedEmployee.id} />
+                </CardContent>
+              </Card>
+
+              {/* TB Screening Card */}
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <EmployeeTBScreening employeeId={selectedEmployee.id} />
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+          </>
         ) : (
           <div className='min-h-[600px]'>
             <div className='space-y-4 animate-slide-up'>
