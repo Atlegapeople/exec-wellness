@@ -865,21 +865,16 @@ export default function MensHealthPage() {
             variant='outline'
             size='sm'
             onClick={() => router.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
           </Button>
         </div>
 
-        <div className='mens-health-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Lifestyle Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{ width: selectedMensHealth ? `${leftWidth}%` : '100%' }}
-          >
-            {/* Search */}
-            <Card className='glass-effect'>
+
+                                         {/* Search */}
+                     <Card className='glass-effect mb-4'>
               <CardContent className='p-4'>
                 <form onSubmit={handleSearch} className='flex gap-4'>
                   <div className='flex-1 relative'>
@@ -911,6 +906,12 @@ export default function MensHealthPage() {
                 </form>
               </CardContent>
             </Card>
+        <div className='mens-health-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Lifestyle Table */}
+          <div
+            className='space-y-4 animate-slide-up'
+            style={{ width: selectedMensHealth ? `${leftWidth}%` : '100%' }}
+          >
 
             {/* Men's Health Table */}
             <Card className='hover-lift'>
@@ -925,9 +926,12 @@ export default function MensHealthPage() {
                       Men's health assessments and screenings
                     </CardDescription>
                   </div>
-                  <Button onClick={openCreateModal} className='hover-lift'>
-                    <Plus className='h-4 w-4 mr-2' />
-                    Add New Record
+                  <Button 
+                    onClick={openCreateModal} 
+                    className={`hover-lift ${selectedMensHealth ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                  >
+                    <Plus className='h-4 w-4' />
+                    {!selectedMensHealth && <span className='ml-2'>Add New Record</span>}
                   </Button>
                 </div>
               </CardHeader>
@@ -945,7 +949,7 @@ export default function MensHealthPage() {
                     </p>
                   </div>
                 ) : (
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[600px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -1028,16 +1032,16 @@ export default function MensHealthPage() {
                                       : 'Normal'}
                                   </Badge>
                                 )}
-                                {mensHealth.erections && (
+                                {mensHealth.erections !== undefined && (
                                   <Badge
                                     variant={
-                                      mensHealth.erections === 'Normal'
+                                      mensHealth.erections === true
                                         ? 'secondary'
                                         : 'destructive'
                                     }
                                     className='text-xs'
                                   >
-                                    {mensHealth.erections}
+                                    {mensHealth.erections ? 'Normal' : 'Abnormal'}
                                   </Badge>
                                 )}
                               </div>
@@ -1255,14 +1259,24 @@ export default function MensHealthPage() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedMensHealth(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openDeleteModal(selectedMensHealth)}
+                        className='hover-lift text-destructive hover:text-destructive'
+                      >
+                        <Trash2 className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedMensHealth(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -2022,9 +2036,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='prostate_enlarged'>Prostate Enlarged</Label>
                 <Select
-                  value={formData.prostate_enlarged || ''}
+                  value={formData.prostate_enlarged === true ? 'Yes' : formData.prostate_enlarged === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_enlarged: value })
+                    setFormData({ ...formData, prostate_enlarged: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2040,9 +2054,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='prostate_infection'>Prostate Infection</Label>
                 <Select
-                  value={formData.prostate_infection || ''}
+                  value={formData.prostate_infection === true ? 'Yes' : formData.prostate_infection === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_infection: value })
+                    setFormData({ ...formData, prostate_infection: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2058,9 +2072,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='prostate_cancer'>Prostate Cancer</Label>
                 <Select
-                  value={formData.prostate_cancer || ''}
+                  value={formData.prostate_cancer === true ? 'Yes' : formData.prostate_cancer === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_cancer: value })
+                    setFormData({ ...formData, prostate_cancer: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2077,9 +2091,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='testes_growth'>Testes Growth</Label>
                 <Select
-                  value={formData.testes_growth || ''}
+                  value={formData.testes_growth === true ? 'Yes' : formData.testes_growth === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, testes_growth: value })
+                    setFormData({ ...formData, testes_growth: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2095,9 +2109,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='erections'>Erections</Label>
                 <Select
-                  value={formData.erections || ''}
+                  value={formData.erections === true ? 'Normal' : formData.erections === false ? 'Abnormal' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, erections: value })
+                    setFormData({ ...formData, erections: value === 'Normal' ? true : value === 'Abnormal' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2113,9 +2127,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='require_urologist'>Require Urologist</Label>
                 <Select
-                  value={formData.require_urologist || ''}
+                  value={formData.require_urologist === true ? 'Yes' : formData.require_urologist === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, require_urologist: value })
+                    setFormData({ ...formData, require_urologist: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2211,35 +2225,20 @@ export default function MensHealthPage() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='space-y-2'>
                 <Label htmlFor='employee_id_edit'>Employee</Label>
-                <Select
-                  value={formData.employee_id || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, employee_id: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select employee' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {employees.map(employee => (
-                      <SelectItem key={employee.id} value={employee.id}>
-                        {employee.name} {employee.surname}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <div className='p-3 bg-muted/30 rounded-lg border'>
+                  <span className='text-sm'>
+                    {editingMensHealth ? getEmployeeName(editingMensHealth) : 'Unknown Employee'}
+                  </span>
+                </div>
               </div>
 
               <div className='space-y-2'>
                 <Label htmlFor='report_id_edit'>Report ID</Label>
-                <Input
-                  id='report_id_edit'
-                  value={formData.report_id || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, report_id: e.target.value })
-                  }
-                  placeholder='Link to medical report'
-                />
+                <div className='p-3 bg-muted/30 rounded-lg border'>
+                  <span className='text-sm'>
+                    {formData.report_id || 'No report ID'}
+                  </span>
+                </div>
               </div>
 
               {/* General Health Conditions */}
@@ -2266,9 +2265,9 @@ export default function MensHealthPage() {
                   Prostate Enlarged
                 </Label>
                 <Select
-                  value={formData.prostate_enlarged || ''}
+                  value={formData.prostate_enlarged === true ? 'Yes' : formData.prostate_enlarged === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_enlarged: value })
+                    setFormData({ ...formData, prostate_enlarged: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2286,9 +2285,9 @@ export default function MensHealthPage() {
                   Prostate Infection
                 </Label>
                 <Select
-                  value={formData.prostate_infection || ''}
+                  value={formData.prostate_infection === true ? 'Yes' : formData.prostate_infection === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_infection: value })
+                    setFormData({ ...formData, prostate_infection: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2304,9 +2303,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='prostate_cancer_edit'>Prostate Cancer</Label>
                 <Select
-                  value={formData.prostate_cancer || ''}
+                  value={formData.prostate_cancer === true ? 'Yes' : formData.prostate_cancer === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, prostate_cancer: value })
+                    setFormData({ ...formData, prostate_cancer: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2323,9 +2322,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='testes_growth_edit'>Testes Growth</Label>
                 <Select
-                  value={formData.testes_growth || ''}
+                  value={formData.testes_growth === true ? 'Yes' : formData.testes_growth === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, testes_growth: value })
+                    setFormData({ ...formData, testes_growth: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2341,9 +2340,9 @@ export default function MensHealthPage() {
               <div className='space-y-2'>
                 <Label htmlFor='erections_edit'>Erections</Label>
                 <Select
-                  value={formData.erections || ''}
+                  value={formData.erections === true ? 'Normal' : formData.erections === false ? 'Abnormal' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, erections: value })
+                    setFormData({ ...formData, erections: value === 'Normal' ? true : value === 'Abnormal' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
@@ -2361,9 +2360,9 @@ export default function MensHealthPage() {
                   Require Urologist
                 </Label>
                 <Select
-                  value={formData.require_urologist || ''}
+                  value={formData.require_urologist === true ? 'Yes' : formData.require_urologist === false ? 'No' : ''}
                   onValueChange={value =>
-                    setFormData({ ...formData, require_urologist: value })
+                    setFormData({ ...formData, require_urologist: value === 'Yes' ? true : value === 'No' ? false : undefined })
                   }
                 >
                   <SelectTrigger>
