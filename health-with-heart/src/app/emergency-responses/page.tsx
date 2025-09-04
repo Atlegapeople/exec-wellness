@@ -58,6 +58,8 @@ export default function EmergencyResponsesPage() {
     useState<EmergencyResponse | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+  const [responseToDelete, setResponseToDelete] = useState<EmergencyResponse | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -178,22 +180,24 @@ export default function EmergencyResponsesPage() {
   };
 
   const handleDeleteResponse = async (response: EmergencyResponse) => {
-    if (
-      !confirm(
-        'Are you sure you want to delete this emergency response record?'
-      )
-    )
-      return;
+    setResponseToDelete(response);
+    setIsDeleteModalOpen(true);
+  };
+
+  const confirmDelete = async () => {
+    if (!responseToDelete) return;
 
     try {
       const deleteResponse = await fetch(
-        `/api/emergency-responses?id=${response.id}`,
+        `/api/emergency-responses?id=${responseToDelete.id}`,
         {
           method: 'DELETE',
         }
       );
 
       if (deleteResponse.ok) {
+        setIsDeleteModalOpen(false);
+        setResponseToDelete(null);
         fetchEmergencyResponses(currentPage, searchTerm);
       } else {
         const errorData = await deleteResponse.json();
@@ -291,7 +295,7 @@ export default function EmergencyResponsesPage() {
             variant='outline'
             size='sm'
             onClick={() => window.history.back()}
-            className='flex items-center space-x-2'
+            className='flex items-center space-x-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
             <span>Back</span>
@@ -301,39 +305,46 @@ export default function EmergencyResponsesPage() {
         {/* Header */}
         <div className='flex justify-between items-center'>
           <div>
-            <h1 className='text-3xl font-bold tracking-tight'>
-              Emergency Responses
-            </h1>
+                         <h1 className='text-3xl font-bold tracking-tight text-primary'>
+               Emergency Responses
+             </h1>
             <p className='text-muted-foreground'>
               Manage emergency response records and incident reports
             </p>
           </div>
-          <Button onClick={openCreateModal} className='hover-lift'>
-            <Plus className='mr-2 h-4 w-4' />
-            New Emergency Response
-          </Button>
         </div>
 
         {/* Search and Filters */}
-        <Card>
-          <CardContent className='pt-6'>
-            <div className='flex gap-4 items-end'>
-              <div className='flex-1'>
-                <Label htmlFor='search'>Search Emergency Responses</Label>
-                <div className='flex gap-2'>
-                  <Input
-                    id='search'
-                    placeholder='Search by ID, employee, type, complaint, diagnosis...'
-                    value={searchTerm}
-                    onChange={e => setSearchTerm(e.target.value)}
-                    onKeyPress={e => e.key === 'Enter' && handleSearch()}
-                  />
-                  <Button onClick={handleSearch} variant='outline'>
-                    <Search className='h-4 w-4' />
-                  </Button>
-                </div>
+        <Card className='glass-effect mb-4'>
+          <CardContent className='p-4'>
+            <form onSubmit={handleSearch} className='flex gap-4'>
+              <div className='flex-1 relative'>
+                <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                <Input
+                  type='text'
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder='Search by ID, employee, type, complaint, diagnosis...'
+                  className='pl-9'
+                />
               </div>
-            </div>
+              <Button type='submit' className='hover-lift'>
+                Search
+              </Button>
+              {searchTerm && (
+                <Button
+                  type='button'
+                  variant='outline'
+                  onClick={() => {
+                    setSearchTerm('');
+                    fetchEmergencyResponses(1, '');
+                  }}
+                  className='hover-lift'
+                >
+                  Clear
+                </Button>
+              )}
+            </form>
           </CardContent>
         </Card>
 
@@ -343,25 +354,31 @@ export default function EmergencyResponsesPage() {
           <div className='lg:col-span-2'>
             <Card className='h-full'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2'>
-                  <AlertTriangle className='h-5 w-5' />
-                  Emergency Responses ({emergencyResponses.length})
-                </CardTitle>
+                <div className='flex justify-between items-center'>
+                                     <CardTitle className='flex items-center gap-2 text-primary'>
+                     <AlertTriangle className='h-5 w-5' />
+                     Emergency Responses ({emergencyResponses.length})
+                   </CardTitle>
+                  <Button onClick={openCreateModal} className='hover-lift'>
+                    <Plus className='mr-2 h-4 w-4' />
+                    New Emergency Response
+                  </Button>
+                </div>
               </CardHeader>
               <CardContent className='h-full overflow-hidden'>
                 <div className='h-[650px] overflow-y-auto'>
-                  <Table>
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead>Date</TableHead>
-                        <TableHead>Employee</TableHead>
-                        <TableHead>Type</TableHead>
-                        <TableHead>Complaint</TableHead>
-                        <TableHead>Diagnosis</TableHead>
-                        <TableHead>Location</TableHead>
-                        <TableHead>Actions</TableHead>
-                      </TableRow>
-                    </TableHeader>
+                                     <Table>
+                     <TableHeader>
+                       <TableRow className='bg-muted/50'>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Date</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Employee</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Type</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Complaint</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Diagnosis</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Location</TableHead>
+                         <TableHead className='text-base font-semibold text-primary py-4'>Actions</TableHead>
+                       </TableRow>
+                     </TableHeader>
                     <TableBody>
                       {emergencyResponses.map(response => (
                         <TableRow
@@ -399,30 +416,32 @@ export default function EmergencyResponsesPage() {
                           <TableCell className='max-w-[150px] truncate'>
                             {response.place || 'N/A'}
                           </TableCell>
-                          <TableCell>
-                            <div className='flex gap-2'>
-                              <Button
-                                size='sm'
-                                variant='outline'
-                                onClick={e => {
-                                  e.stopPropagation();
-                                  openEditModal(response);
-                                }}
-                              >
-                                <Edit className='h-3 w-3' />
-                              </Button>
-                              <Button
-                                size='sm'
-                                variant='outline'
-                                onClick={e => {
-                                  e.stopPropagation();
-                                  handleDeleteResponse(response);
-                                }}
-                              >
-                                <Trash2 className='h-3 w-3' />
-                              </Button>
-                            </div>
-                          </TableCell>
+                                                     <TableCell>
+                             <div className='flex gap-2'>
+                               <Button
+                                 size='sm'
+                                 variant='ghost'
+                                 className='hover:border hover:border-border'
+                                 onClick={e => {
+                                   e.stopPropagation();
+                                   openEditModal(response);
+                                 }}
+                               >
+                                 <Edit className='h-3 w-3' />
+                               </Button>
+                                                               <Button
+                                  size='sm'
+                                  variant='ghost'
+                                  className='hover:border hover:border-border text-red-600 hover:text-red-700 hover:bg-red-50'
+                                  onClick={e => {
+                                    e.stopPropagation();
+                                    handleDeleteResponse(response);
+                                  }}
+                                >
+                                  <Trash2 className='h-3 w-3' />
+                                </Button>
+                             </div>
+                           </TableCell>
                         </TableRow>
                       ))}
                       {emergencyResponses.length === 0 && (
@@ -1309,6 +1328,50 @@ export default function EmergencyResponsesPage() {
               </Button>
               <Button onClick={handleEditResponse}>
                 Update Emergency Response
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Modal */}
+        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+          <DialogContent className='max-w-md'>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2 text-red-600'>
+                <Trash2 className='h-5 w-5' />
+                Delete Emergency Response
+              </DialogTitle>
+            </DialogHeader>
+            <div className='py-4'>
+              <p className='text-sm text-muted-foreground mb-4'>
+                Are you sure you want to delete this emergency response record? This action cannot be undone.
+              </p>
+              {responseToDelete && (
+                <div className='bg-muted/50 p-3 rounded-md'>
+                  <p className='text-sm font-medium'>
+                    {responseToDelete.employee_name} {responseToDelete.employee_surname}
+                  </p>
+                  <p className='text-xs text-muted-foreground'>
+                    {responseToDelete.emergency_type} - {formatDate(responseToDelete.injury_date)}
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className='flex justify-end gap-2'>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsDeleteModalOpen(false);
+                  setResponseToDelete(null);
+                }}
+              >
+                Cancel
+              </Button>
+              <Button 
+                variant='destructive'
+                onClick={confirmDelete}
+              >
+                Delete Emergency Response
               </Button>
             </div>
           </DialogContent>
