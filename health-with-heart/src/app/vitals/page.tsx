@@ -501,18 +501,8 @@ export default function VitalsPage() {
           </Button>
         </div>
 
-        {/* Main Content with Split View */}
-        <div className='vitals-container flex gap-0 overflow-hidden mb-6'>
-          {/* Left Panel - Vitals List */}
-          <div
-            className='space-y-4 flex-shrink-0 flex flex-col'
-            style={{
-              width: selectedVital ? `${leftPanelWidth}%` : '100%',
-              maxWidth: selectedVital ? `${leftPanelWidth}%` : '100%',
-            }}
-          >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+                    {/* Stats Cards */}
+                    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
@@ -588,7 +578,7 @@ export default function VitalsPage() {
             </div>
 
             {/* Search */}
-            <Card className='glass-effect'>
+            <Card className='glass-effect my-6'>
               <CardContent className='p-4 min-h-[80px] flex items-center'>
                 <div className='flex items-center gap-4 w-full'>
                   <div className='flex-1 flex items-center gap-2'>
@@ -613,6 +603,18 @@ export default function VitalsPage() {
                 </div>
               </CardContent>
             </Card>
+
+        {/* Main Content with Split View */}
+        <div className='vitals-container flex gap-0 overflow-hidden mb-6'>
+          {/* Left Panel - Vitals List */}
+          <div
+            className='space-y-4 flex-shrink-0 flex flex-col'
+            style={{
+              width: selectedVital ? `${leftPanelWidth}%` : '100%',
+              maxWidth: selectedVital ? `${leftPanelWidth}%` : '100%',
+            }}
+          >
+
 
             {/* Vitals Table */}
             <Card className='hover-lift'>
@@ -911,7 +913,7 @@ export default function VitalsPage() {
             }}
           >
             {selectedVital && (
-              <div className='space-y-4 max-h-[80vh] overflow-y-auto scrollbar-thin'>
+              <div className='space-y-4 min-h-[70vh] max-h-[85vh] overflow-y-auto scrollbar-thin'>
                 {/* Vital Header Card */}
                 <Card className='glass-effect'>
                   <CardContent className='p-4 min-h-[120px] flex items-center'>

@@ -2159,7 +2159,7 @@ export default function ReportsPage() {
                                 );
 
                                 const total = Object.values(riskCounts).reduce(
-                                  (sum: number, count) => sum + count,
+                                  (sum: number, count: number) => sum + count,
                                   0
                                 );
                                 const colors = {
@@ -2174,16 +2174,16 @@ export default function ReportsPage() {
                                     status,
                                     count,
                                     percentage: Math.round(
-                                      (count / total) * 100
+                                      ((count as number) / ( total as number)) * 100
                                     ),
                                     color:
                                       colors[status as keyof typeof colors] ||
                                       '#6B7280',
                                   }))
-                                  .filter(slice => slice.count > 0);
+                                  .filter(slice => (slice.count as number) > 0);
 
                                 // Sort by count descending
-                                slices.sort((a, b) => b.count - a.count);
+                                slices.sort((a, b) => (b.count as number) - (a.count as number));
 
                                 return (
                                   <div className='flex justify-center items-center gap-8'>
