@@ -16,6 +16,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -48,6 +49,7 @@ import {
   Mail,
   Phone,
   FileText,
+  AlertCircle,
   ChevronLeft,
   ChevronRight,
   ChevronsLeft,
@@ -117,6 +119,10 @@ function ManagersPageContent() {
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
+
+  // Delete modal state
+  const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
+  const [managerToDelete, setManagerToDelete] = useState<Manager | null>(null);
 
   // Sub-section edit states
   const [isEditingManagerInfo, setIsEditingManagerInfo] = useState(false);
@@ -375,8 +381,6 @@ function ManagersPageContent() {
   };
 
   const handleDeleteManager = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this manager?')) return;
-
     try {
       const response = await fetch(`/api/managers/${id}`, {
         method: 'DELETE',
@@ -390,6 +394,34 @@ function ManagersPageContent() {
       }
     } catch (error) {
       console.error('Error deleting manager:', error);
+    }
+  };
+
+  const openDeleteDialog = (manager: Manager) => {
+    setManagerToDelete(manager);
+    setIsDeleteDialogOpen(true);
+  };
+
+  const handleConfirmDeleteManager = async () => {
+    if (!managerToDelete) return;
+    try {
+      setSubmitting(true);
+      const response = await fetch(`/api/managers/${managerToDelete.id}`, {
+        method: 'DELETE',
+      });
+
+      if (!response.ok) throw new Error('Failed to delete manager');
+
+      setIsDeleteDialogOpen(false);
+      setManagerToDelete(null);
+      fetchManagers(pagination.page, searchTerm);
+      if (selectedManager?.id === managerToDelete.id) {
+        setSelectedManager(null);
+      }
+    } catch (error) {
+      console.error('Error deleting manager:', error);
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -470,208 +502,56 @@ function ManagersPageContent() {
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
         {/* Back Button and Filter Info */}
-        {(returnUrl || organizationFilter) && (
-          <div className='mb-6'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(decodeURIComponent(returnUrl))}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
+        <div className='mb-6'>
+          <div className='flex items-center gap-4'>
+            <Button
+              variant='outline'
+              onClick={() =>
+                returnUrl
+                  ? router.push(decodeURIComponent(returnUrl))
+                  : router.back()
+              }
+              className='flex items-center gap-2 hover-lift'
+            >
+              <ArrowLeft className='h-4 w-4' />
+              {returnUrl ? (
+                <>
                   Back to{' '}
-                  {returnUrl === '/organizations'
-                    ? 'Organizations'
-                    : 'Previous Page'}
-                </Button>
+                  {returnUrl === '/organizations' ? 'Organizations' : 'Previous Page'}
+                </>
+              ) : (
+                'Back'
               )}
+            </Button>
 
-              {organizationFilter && organizationName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <Building2 className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(organizationName)}
-                  </Badge>
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('organization');
-                      params.delete('organizationName');
-                      router.push(`/managers?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
-                  >
-                    <X className='h-3 w-3' />
-                  </Button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
-
-        {/* Header */}
-        <div className='flex items-center justify-between mb-6'>
-          <div>
-            <h1 className='text-3xl font-bold tracking-tight'>Managers</h1>
-            <p className='text-muted-foreground'>
-              Manage organizational managers and their information
-            </p>
-          </div>
-
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
-            <DialogTrigger asChild>
-              <Button className='hover-lift'>
-                <Plus className='h-4 w-4 mr-2' />
-                Add Manager
-              </Button>
-            </DialogTrigger>
-            <DialogContent className='max-w-2xl'>
-              <DialogHeader>
-                <DialogTitle>Create New Manager</DialogTitle>
-                <DialogDescription>
-                  Add a new manager to the system
-                </DialogDescription>
-              </DialogHeader>
-
-              <div className='grid grid-cols-2 gap-4 py-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_name'>Manager Name</Label>
-                  <Input
-                    id='manager_name'
-                    value={formData.manager_name || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, manager_name: e.target.value })
-                    }
-                    placeholder='Enter manager name'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_email'>Email Address</Label>
-                  <Input
-                    id='manager_email'
-                    type='email'
-                    value={formData.manager_email || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        manager_email: e.target.value,
-                      })
-                    }
-                    placeholder='Enter email address'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_type'>Manager Type</Label>
-                  <Select
-                    value={formData.manager_type || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, manager_type: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select manager type' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {managerTypes.map(type => (
-                        <SelectItem key={type} value={type}>
-                          {type}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_contact_number'>Contact Number</Label>
-                  <Input
-                    id='manager_contact_number'
-                    value={formData.manager_contact_number || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        manager_contact_number: e.target.value,
-                      })
-                    }
-                    placeholder='Enter contact number'
-                  />
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='organisation_id'>Organization</Label>
-                  <Select
-                    value={formData.organisation_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, organisation_id: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select organization' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='none'>No Organization</SelectItem>
-                      {organizations.map(org => (
-                        <SelectItem key={org.id} value={org.id}>
-                          {org.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='notes_text'>Notes</Label>
-                  <Textarea
-                    id='notes_text'
-                    value={formData.notes_text || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, notes_text: e.target.value })
-                    }
-                    placeholder='Enter any additional notes'
-                    rows={3}
-                  />
-                </div>
-              </div>
-
-              <div className='flex justify-end gap-2'>
-                <Button
+            {organizationFilter && organizationName && (
+              <div className='flex items-center gap-2'>
+                <Badge
                   variant='outline'
-                  onClick={() => {
-                    setIsCreateDialogOpen(false);
-                    setFormData({});
-                  }}
+                  className='bg-blue-50 text-blue-700 border-blue-200'
                 >
-                  Cancel
-                </Button>
-                <Button onClick={handleCreateManager} disabled={submitting}>
-                  {submitting && (
-                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
-                  )}
-                  Create Manager
+                  <Building2 className='h-3 w-3 mr-1' />
+                  Filtered by: {decodeURIComponent(organizationName)}
+                </Badge>
+                <Button
+                  variant='ghost'
+                  size='sm'
+                  onClick={() => {
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.delete('organization');
+                    params.delete('organizationName');
+                    router.push(`/managers?${params.toString()}`);
+                  }}
+                  className='h-6 w-6 p-0'
+                >
+                  <X className='h-3 w-3' />
                 </Button>
               </div>
-            </DialogContent>
-          </Dialog>
+            )}
+          </div>
         </div>
 
-        <div className='managers-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Managers Table */}
-          <div
-            className='space-y-4'
-            style={{ width: selectedManager ? `${leftPanelWidth}%` : '100%' }}
-          >
+
             {/* Stats Cards */}
             <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
               <Card>
@@ -749,7 +629,7 @@ function ManagersPageContent() {
             </div>
 
             {/* Search */}
-            <Card className='glass-effect'>
+            <Card className='glass-effect my-6'>
               <CardContent className='p-4'>
                 <div className='flex gap-4'>
                   <div className='flex-1 relative'>
@@ -781,17 +661,169 @@ function ManagersPageContent() {
                 </div>
               </CardContent>
             </Card>
+        <div className='managers-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Managers Table */}
+          <div
+            className='space-y-4'
+            style={{ width: selectedManager ? `${leftPanelWidth}%` : '100%' }}
+          >
+
 
             {/* Managers Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl'>
-                  <UserCheck className='h-6 w-6' />
-                  Managers ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Manager records and information
-                </CardDescription>
+                <div className='flex items-center justify-between'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl text-primary'>
+                      <UserCheck className='h-6 w-6 text-primary' />
+                      Managers ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Manager records and information
+                    </CardDescription>
+                  </div>
+                  <Dialog
+                    open={isCreateDialogOpen}
+                    onOpenChange={setIsCreateDialogOpen}
+                  >
+                    <DialogTrigger asChild>
+                      <Button 
+                        className={`hover-lift ${selectedManager ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                        title={selectedManager ? 'Add Manager' : undefined}
+                      >
+                        <Plus className={`h-4 w-4 ${selectedManager ? '' : 'mr-2'}`} />
+                        {!selectedManager && 'Add Manager'}
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className='max-w-2xl'>
+                      <DialogHeader>
+                        <DialogTitle>Create New Manager</DialogTitle>
+                        <DialogDescription>
+                          Add a new manager to the system
+                        </DialogDescription>
+                      </DialogHeader>
+
+                      <div className='grid grid-cols-2 gap-4 py-4'>
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_name'>Manager Name</Label>
+                          <Input
+                            id='manager_name'
+                            value={formData.manager_name || ''}
+                            onChange={e =>
+                              setFormData({ ...formData, manager_name: e.target.value })
+                            }
+                            placeholder='Enter manager name'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_email'>Email Address</Label>
+                          <Input
+                            id='manager_email'
+                            type='email'
+                            value={formData.manager_email || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_email: e.target.value,
+                              })
+                            }
+                            placeholder='Enter email address'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_type'>Manager Type</Label>
+                          <Select
+                            value={formData.manager_type || ''}
+                            onValueChange={value =>
+                              setFormData({ ...formData, manager_type: value })
+                            }
+                          >
+                            <SelectTrigger>
+                              <SelectValue placeholder='Select manager type' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              {managerTypes.map(type => (
+                                <SelectItem key={type} value={type}>
+                                  {type}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_contact_number'>Contact Number</Label>
+                          <Input
+                            id='manager_contact_number'
+                            value={formData.manager_contact_number || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_contact_number: e.target.value,
+                              })
+                            }
+                            placeholder='Enter contact number'
+                          />
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='organisation_id'>Organization</Label>
+                          <Select
+                            value={formData.organisation_id || ''}
+                            onValueChange={value =>
+                              setFormData({ ...formData, organisation_id: value })
+                            }
+                          >
+                            <SelectTrigger>
+                              <SelectValue placeholder='Select organization' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='none'>No Organization</SelectItem>
+                              {organizations.map(org => (
+                                <SelectItem key={org.id} value={org.id}>
+                                  {org.name}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='notes_text'>Notes</Label>
+                          <Textarea
+                            id='notes_text'
+                            value={formData.notes_text || ''}
+                            onChange={e =>
+                              setFormData({ ...formData, notes_text: e.target.value })
+                            }
+                            placeholder='Enter any additional notes'
+                            rows={3}
+                          />
+                        </div>
+                      </div>
+
+                      <div className='flex justify-end gap-2'>
+                        <Button
+                          variant='outline'
+                          onClick={() => {
+                            setIsCreateDialogOpen(false);
+                            setFormData({});
+                          }}
+                        >
+                          Cancel
+                        </Button>
+                        <Button onClick={handleCreateManager} disabled={submitting}>
+                          {submitting && (
+                            <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                          )}
+                          Create Manager
+                        </Button>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </div>
               </CardHeader>
               <CardContent>
                 {managers.length === 0 ? (
@@ -871,8 +903,10 @@ function ManagersPageContent() {
                                   size='sm'
                                   onClick={e => {
                                     e.stopPropagation();
-                                    handleDeleteManager(manager.id);
+                                    openDeleteDialog(manager);
                                   }}
+                                  className='hover-lift text-destructive hover:text-destructive hover:bg-transparent'
+                                  title='Delete manager'
                                 >
                                   <Trash2 className='h-4 w-4' />
                                 </Button>
@@ -1059,10 +1093,11 @@ function ManagersPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => openEditDialog(selectedManager)}
-                        className='hover-lift'
+                        onClick={() => openDeleteDialog(selectedManager)}
+                        className='hover-lift text-destructive hover:text-destructive hover:bg-transparent'
+                        title='Delete manager'
                       >
-                        <Edit className='h-4 w-4' />
+                        <Trash2 className='h-4 w-4' />
                       </Button>
                       <Button
                         variant='ghost'
@@ -1284,45 +1319,6 @@ function ManagersPageContent() {
                       <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground'>
                         Record Information
                       </h3>
-                      {isEditingRecordInfo ? (
-                        <div className='flex items-center gap-2'>
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            onClick={() => setIsEditingRecordInfo(false)}
-                            className='hover-lift'
-                          >
-                            Cancel
-                          </Button>
-                          <Button
-                            size='sm'
-                            onClick={handleSaveRecordInfo}
-                            disabled={submitting}
-                            className='hover-lift'
-                          >
-                            {submitting ? (
-                              <>
-                                <Loader2 className='mr-2 h-4 w-4 animate-spin' />
-                                Saving...
-                              </>
-                            ) : (
-                              <>
-                                <Save className='mr-2 h-4 w-4' />
-                                Save
-                              </>
-                            )}
-                          </Button>
-                        </div>
-                      ) : (
-                        <Button
-                          variant='ghost'
-                          size='sm'
-                          onClick={() => setIsEditingRecordInfo(true)}
-                          className='hover-lift'
-                        >
-                          <Edit className='h-3 w-3' />
-                        </Button>
-                      )}
                     </div>
                     <div className='grid grid-cols-1 gap-3 text-sm'>
                       <div className='flex gap-2'>
@@ -1503,6 +1499,50 @@ function ManagersPageContent() {
                 Update Manager
               </Button>
             </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Delete Confirmation Modal */}
+        <Dialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <AlertCircle className='h-5 w-5 text-destructive' />
+                Delete Manager
+              </DialogTitle>
+              <DialogDescription>
+                Are you sure you want to delete{' '}
+                <span className='font-medium'>
+                  {managerToDelete?.manager_name || 'this manager'}
+                </span>
+                ? This action cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setIsDeleteDialogOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={handleConfirmDeleteManager}
+                disabled={submitting}
+              >
+                {submitting ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Manager
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
           </DialogContent>
         </Dialog>
       </div>
