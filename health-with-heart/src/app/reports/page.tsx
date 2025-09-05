@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Card,
@@ -148,7 +149,8 @@ function ReportsPageContent() {
   const [statusFilter, setStatusFilter] = useState(
     searchParams.get('status') || 'all'
   );
-  const [leftPanelWidth, setLeftPanelWidth] = useState(40); // percentage
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' }); // percentage
+  const [selectedReportId, setSelectedReportId] = useRouteState<string | null>('selectedReportId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
   const [statusSummary, setStatusSummary] = useState<{ [key: string]: number }>(
     {}
@@ -423,6 +425,7 @@ function ReportsPageContent() {
 
   const handleReportClick = async (report: MedicalReport) => {
     setSelectedReport(report);
+    setSelectedReportId(report.id);
     setFormLoading(true);
 
     try {
@@ -582,6 +585,30 @@ function ReportsPageContent() {
       document.body.style.userSelect = '';
     };
   }, [isResizing]);
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedReport && selectedReportId) {
+        const found = allReports.find(r => r.id === selectedReportId);
+        if (found) {
+          setSelectedReport(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/reports/${selectedReportId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedReport(data);
+          } else {
+            setSelectedReportId(null);
+          }
+        } catch {
+          setSelectedReportId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedReportId, selectedReport, allReports]);
 
   if (loading) {
     return (
@@ -1209,7 +1236,7 @@ function ReportsPageContent() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedReport(null)}
+                          onClick={() => { setSelectedReport(null); setSelectedReportId(null); }}
                           className='hover-lift'
                         >
                           <X className='h-4 w-4' />

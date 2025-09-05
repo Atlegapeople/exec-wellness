@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Lifestyle } from '@/types';
 import {
@@ -108,7 +109,8 @@ function LifestylePageContent() {
   const [selectedLifestyle, setSelectedLifestyle] = useState<Lifestyle | null>(
     null
   );
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedLifestyleId, setSelectedLifestyleId] = useRouteState<string | null>('selectedLifestyleId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // CRUD state
@@ -413,6 +415,39 @@ function LifestylePageContent() {
     setIsDeleteModalOpen(true);
   };
 
+  const handleLifestyleClick = (lifestyle: Lifestyle) => {
+    setSelectedLifestyle(lifestyle);
+    setSelectedLifestyleId(lifestyle.id);
+  };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedLifestyle && selectedLifestyleId) {
+        const found = allLifestyles.find(l => l.id === selectedLifestyleId);
+        if (found) {
+          setSelectedLifestyle(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/lifestyle?id=${selectedLifestyleId}`);
+          if (res.ok) {
+            const data = await res.json();
+            const lifestyle = Array.isArray(data)
+              ? data.find((x: any) => x.id === selectedLifestyleId)
+              : data;
+            if (lifestyle) setSelectedLifestyle(lifestyle);
+            else setSelectedLifestyleId(null);
+          } else {
+            setSelectedLifestyleId(null);
+          }
+        } catch {
+          setSelectedLifestyleId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedLifestyleId, selectedLifestyle, allLifestyles]);
+
   // Client-side pagination
   const paginateLifestyles = useCallback(
     (lifestyles: Lifestyle[], page: number, limit: number) => {
@@ -518,9 +553,7 @@ function LifestylePageContent() {
     transitionToPage(newPage);
   };
 
-  const handleLifestyleClick = (lifestyle: Lifestyle) => {
-    setSelectedLifestyle(lifestyle);
-  };
+  // Duplicate handler removed; selection is handled by the handler defined above
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -1054,7 +1087,7 @@ function LifestylePageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedLifestyle(null)}
+                        onClick={() => { setSelectedLifestyle(null); setSelectedLifestyleId(null); }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />

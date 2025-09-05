@@ -3,6 +3,8 @@
 import { ReactNode } from 'react';
 import Sidebar from '@/components/Sidebar';
 import Navigation from '@/components/Navigation';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import RouteStateKeeper from '@/components/RouteStateKeeper';
 import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import { SidebarProvider, useSidebar } from '@/contexts/SidebarContext';
@@ -16,6 +18,7 @@ function DashboardContent({ children }: DashboardLayoutProps) {
 
   return (
     <div className="flex min-h-screen bg-background">
+      <RouteStateKeeper />
       {/* Sidebar */}
       <Sidebar />
       
@@ -23,6 +26,7 @@ function DashboardContent({ children }: DashboardLayoutProps) {
       <div className={`flex-1 flex flex-col ${sidebarWidth} transition-all duration-300`}>
         {/* Top Navigation */}
         <Navigation />
+        <Breadcrumbs />
         
         {/* Page Content */}
         <main className="flex-1">

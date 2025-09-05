@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -117,7 +118,7 @@ function ManagersPageContent() {
   const [selectedManager, setSelectedManager] = useState<Manager | null>(null);
   const [formData, setFormData] = useState<Partial<Manager>>({});
   const [submitting, setSubmitting] = useState(false);
-  const [leftPanelWidth, setLeftPanelWidth] = useState(60);
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState<number>('leftPanelWidth', 60, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Delete modal state
@@ -434,9 +435,38 @@ function ManagersPageContent() {
     setIsEditDialogOpen(true);
   };
 
+  const [selectedManagerId, setSelectedManagerId] = useRouteState<string | null>('selectedManagerId', null, { scope: 'path' });
+
   const handleManagerClick = (manager: Manager) => {
     setSelectedManager(manager);
+    setSelectedManagerId(manager.id);
   };
+
+  // Restore selected manager if present in route state once managers are loaded
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedManager && selectedManagerId) {
+        const found = managers.find(m => m.id === selectedManagerId);
+        if (found) {
+          setSelectedManager(found);
+          return;
+        }
+        // Fallback: fetch by id
+        try {
+          const res = await fetch(`/api/managers/${selectedManagerId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedManager(data);
+          } else {
+            setSelectedManagerId(null);
+          }
+        } catch {
+          setSelectedManagerId(null);
+        }
+      }
+    };
+    restore();
+  }, [managers, selectedManagerId, selectedManager]);
 
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString();
@@ -1102,7 +1132,10 @@ function ManagersPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedManager(null)}
+                        onClick={() => {
+                          setSelectedManager(null);
+                          setSelectedManagerId(null);
+                        }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />

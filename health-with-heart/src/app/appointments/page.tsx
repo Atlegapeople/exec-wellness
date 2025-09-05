@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Appointment } from '@/types';
 import {
@@ -112,7 +113,8 @@ function AppointmentsPageContent() {
   );
   const [selectedAppointment, setSelectedAppointment] =
     useState<AppointmentWithEmployee | null>(null);
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedAppointmentId, setSelectedAppointmentId] = useRouteState<string | null>('selectedAppointmentId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Edit states for each section
@@ -221,6 +223,7 @@ function AppointmentsPageContent() {
         setDeletingAppointment(null);
         if (selectedAppointment?.id === deletingAppointment.id) {
           setSelectedAppointment(null);
+          setSelectedAppointmentId(null);
         }
         await fetchAllAppointments();
       } else {
@@ -260,6 +263,7 @@ function AppointmentsPageContent() {
         const employeeAppointment = data.appointments[0];
         console.log('Auto-selecting appointment:', employeeAppointment);
         setSelectedAppointment(employeeAppointment);
+        setSelectedAppointmentId(employeeAppointment.id);
       } else if (
         employeeFilter &&
         data.appointments &&
@@ -441,7 +445,33 @@ function AppointmentsPageContent() {
 
   const handleAppointmentClick = (appointment: AppointmentWithEmployee) => {
     setSelectedAppointment(appointment);
+    setSelectedAppointmentId(appointment.id);
   };
+
+  // Restore selected appointment when data changes
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedAppointment && selectedAppointmentId) {
+        const found = allAppointments.find(a => a.id === selectedAppointmentId);
+        if (found) {
+          setSelectedAppointment(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/appointments/${selectedAppointmentId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedAppointment(data);
+          } else {
+            setSelectedAppointmentId(null);
+          }
+        } catch {
+          setSelectedAppointmentId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedAppointmentId, selectedAppointment, allAppointments]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';

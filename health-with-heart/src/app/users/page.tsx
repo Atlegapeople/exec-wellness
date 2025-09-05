@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { User } from '@/types';
 import {
@@ -119,7 +120,8 @@ function UsersPageContent() {
   const [selectedUser, setSelectedUser] = useState<UserWithMetadata | null>(
     null
   );
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedUserId, setSelectedUserId] = useRouteState<string | null>('selectedUserId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Form states
@@ -274,7 +276,34 @@ function UsersPageContent() {
 
   const handleUserClick = (user: UserWithMetadata) => {
     setSelectedUser(user);
+    setSelectedUserId(user.id);
   };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedUser && selectedUserId) {
+        // First try in-memory lists
+        const found = displayedUsers.find(u => u.id === selectedUserId) || allUsers.find(u => u.id === selectedUserId);
+        if (found) {
+          setSelectedUser(found);
+          return;
+        }
+        // Fallback: fetch by id
+        try {
+          const res = await fetch(`/api/users/${selectedUserId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedUser(data);
+          } else {
+            setSelectedUserId(null);
+          }
+        } catch {
+          setSelectedUserId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedUserId, selectedUser, displayedUsers, allUsers]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -351,6 +380,7 @@ function UsersPageContent() {
         resetForm();
         fetchAllUsers(); // Refresh the list
         setSelectedUser(null); // Close preview panel
+        setSelectedUserId(null);
       } else {
         console.error('Failed to update user');
       }
@@ -370,6 +400,7 @@ function UsersPageContent() {
       if (response.ok) {
         fetchAllUsers(); // Refresh the list
         setSelectedUser(null); // Close preview panel if deleted user was selected
+        setSelectedUserId(null);
       } else {
         console.error('Failed to delete user');
       }
@@ -1016,7 +1047,7 @@ function UsersPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedUser(null)}
+                        onClick={() => { setSelectedUser(null); setSelectedUserId(null); }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />

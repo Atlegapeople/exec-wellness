@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Employee } from '@/types';
 import {
@@ -94,7 +95,8 @@ function EmployeesPageContent() {
   const [selectedEmployee, setSelectedEmployee] = useState<Employee | null>(
     null
   );
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedEmployeeId, setSelectedEmployeeId] = useRouteState<string | null>('selectedEmployeeId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Fetch all employees data once - now filtered to Executive Medical employees only
@@ -292,7 +294,32 @@ function EmployeesPageContent() {
 
   const handleEmployeeClick = (employee: Employee) => {
     setSelectedEmployee(employee);
+    setSelectedEmployeeId(employee.id);
   };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedEmployee && selectedEmployeeId) {
+        const found = allEmployees.find(e => e.id === selectedEmployeeId);
+        if (found) {
+          setSelectedEmployee(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/employees/${selectedEmployeeId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedEmployee(data);
+          } else {
+            setSelectedEmployeeId(null);
+          }
+        } catch {
+          setSelectedEmployeeId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedEmployeeId, selectedEmployee, allEmployees]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -698,7 +725,7 @@ function EmployeesPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedEmployee(null)}
+                        onClick={() => { setSelectedEmployee(null); setSelectedEmployeeId(null); }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />
