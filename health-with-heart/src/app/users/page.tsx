@@ -51,6 +51,7 @@ import {
 } from '@/components/ui/select';
 import DashboardLayout from '@/components/DashboardLayout';
 import {
+  ArrowLeft,
   Search,
   Users,
   UserPlus,
@@ -136,7 +137,6 @@ function UsersPageContent() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Edit states for each section
-  const [isEditingBasicInfo, setIsEditingBasicInfo] = useState(false);
   const [isEditingContactInfo, setIsEditingContactInfo] = useState(false);
   const [isEditingRoleInfo, setIsEditingRoleInfo] = useState(false);
 
@@ -478,18 +478,19 @@ function UsersPageContent() {
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        <div className='users-container flex gap-1 min-h-[600px]'>
-          {/* Left Panel - Users Table */}
-          <div
-            className='space-y-4 animate-slide-up'
-            style={{
-              width: selectedUser ? `${leftWidth}%` : '100%',
-              maxWidth: selectedUser ? `${leftWidth}%` : '100%',
-              paddingRight: selectedUser ? '12px' : '0',
-            }}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            onClick={() => router.back()}
+            className='flex items-center gap-2 hover-lift'
           >
-            {/* Search and Add Button */}
-            <Card className='glass-effect'>
+            <ArrowLeft className='h-4 w-4' />
+            Back
+          </Button>
+        </div>
+
+                    {/* Search */}
+                    <Card className='glass-effect mb-6'>
               <CardContent className='p-4'>
                 <div className='flex gap-4'>
                   <form onSubmit={handleSearch} className='flex gap-4 flex-1'>
@@ -520,16 +521,46 @@ function UsersPageContent() {
                       </Button>
                     )}
                   </form>
+                  {/* Add User dialog moved to table header */}
+                </div>
+              </CardContent>
+            </Card>
+        <div className='users-container flex gap-1 min-h-[600px]'>
+          {/* Left Panel - Users Table */}
+          <div
+            className='space-y-4 animate-slide-up'
+            style={{
+              width: selectedUser ? `${leftWidth}%` : '100%',
+              maxWidth: selectedUser ? `${leftWidth}%` : '100%',
+              paddingRight: selectedUser ? '12px' : '0',
+            }}
+          >
 
-                  {/* Add User Dialog */}
+
+            {/* Users Table */}
+            <Card className='hover-lift'>
+              <CardHeader>
+                <div className='flex items-center justify-between'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                      <Users className='h-6 w-6' />
+                      Users ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      System user accounts and access management
+                    </CardDescription>
+                  </div>
                   <Dialog
                     open={isAddDialogOpen}
                     onOpenChange={setIsAddDialogOpen}
                   >
                     <DialogTrigger asChild>
-                      <Button className='hover-lift'>
-                        <Plus className='h-4 w-4 mr-2' />
-                        Add User
+                      <Button 
+                        className={`hover-lift ${selectedUser ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                        title={selectedUser ? 'Add User' : undefined}
+                      >
+                        <Plus className={`h-4 w-4 ${selectedUser ? '' : 'mr-2'}`} />
+                        {!selectedUser && 'Add User'}
                       </Button>
                     </DialogTrigger>
                     <DialogContent className='sm:max-w-[425px]'>
@@ -652,19 +683,6 @@ function UsersPageContent() {
                     </DialogContent>
                   </Dialog>
                 </div>
-              </CardContent>
-            </Card>
-
-            {/* Users Table */}
-            <Card className='hover-lift'>
-              <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                  <Users className='h-6 w-6' />
-                  Users ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  System user accounts and access management
-                </CardDescription>
               </CardHeader>
               <CardContent>
                 {displayedUsers.length === 0 ? (
@@ -964,15 +982,37 @@ function UsersPageContent() {
                       </div>
                     </div>
                     <div className='flex items-center gap-2'>
-                      <Button
-                        variant='outline'
-                        size='sm'
-                        onClick={() => openEditDialog(selectedUser)}
-                        className='hover-lift'
-                      >
-                        <Edit3 className='h-4 w-4 mr-2' />
-                        Edit
-                      </Button>
+                      <AlertDialog>
+                        <AlertDialogTrigger asChild>
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            className='hover-lift text-destructive hover:text-destructive'
+                            title='Delete user'
+                          >
+                            <Trash2 className='h-4 w-4' />
+                          </Button>
+                        </AlertDialogTrigger>
+                        <AlertDialogContent>
+                          <AlertDialogHeader>
+                            <AlertDialogTitle>Delete User</AlertDialogTitle>
+                            <AlertDialogDescription>
+                              Are you sure you want to delete {selectedUser.name} {selectedUser.surname}? This action cannot be undone.
+                            </AlertDialogDescription>
+                          </AlertDialogHeader>
+                          <AlertDialogFooter>
+                            <AlertDialogCancel>Cancel</AlertDialogCancel>
+                            <Button
+                              variant='ghost'
+                              className='text-destructive hover:text-destructive hover:bg-transparent'
+                              onClick={() => handleDeleteUser(selectedUser.id)}
+                              title='Confirm delete'
+                            >
+                              <Trash2 className='h-4 w-4' />
+                            </Button>
+                          </AlertDialogFooter>
+                        </AlertDialogContent>
+                      </AlertDialog>
                       <Button
                         variant='ghost'
                         size='sm'
@@ -1010,9 +1050,9 @@ function UsersPageContent() {
                           onClick={() =>
                             setIsEditingContactInfo(!isEditingContactInfo)
                           }
+                          title={isEditingContactInfo ? 'Save' : 'Edit'}
                         >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingContactInfo ? 'Save' : 'Edit'}
+                          <Edit className='h-3 w-3' />
                         </Button>
                       </div>
                     </div>
@@ -1063,9 +1103,9 @@ function UsersPageContent() {
                           onClick={() =>
                             setIsEditingRoleInfo(!isEditingRoleInfo)
                           }
+                          title={isEditingRoleInfo ? 'Save' : 'Edit'}
                         >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingRoleInfo ? 'Save' : 'Edit'}
+                          <Edit className='h-3 w-3' />
                         </Button>
                       </div>
                     </div>
@@ -1099,78 +1139,7 @@ function UsersPageContent() {
                     </div>
                   </div>
 
-                  <Separator />
-
-                  {/* Record Information */}
-                  <div className='space-y-3'>
-                    <div className='flex items-center justify-between'>
-                      <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                        <Calendar className='h-4 w-4' />
-                        Record Information
-                      </h3>
-                      <div className='flex gap-2'>
-                        {isEditingBasicInfo && (
-                          <Button
-                            variant='outline'
-                            size='sm'
-                            className='hover-lift'
-                            onClick={() => setIsEditingBasicInfo(false)}
-                          >
-                            Cancel
-                          </Button>
-                        )}
-                        <Button
-                          variant={isEditingBasicInfo ? 'default' : 'outline'}
-                          size='sm'
-                          className='hover-lift'
-                          onClick={() =>
-                            setIsEditingBasicInfo(!isEditingBasicInfo)
-                          }
-                        >
-                          <Edit className='h-3 w-3 mr-1' />
-                          {isEditingBasicInfo ? 'Save' : 'Edit'}
-                        </Button>
-                      </div>
-                    </div>
-                    <div className='grid grid-cols-1 gap-3 text-sm'>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Created:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedUser.date_created)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Created By:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedUser.created_by_name ||
-                            selectedUser.user_created ||
-                            'N/A'}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Last Updated:
-                        </span>
-                        <span className='font-medium'>
-                          {formatDateTime(selectedUser.date_updated)}
-                        </span>
-                      </div>
-                      <div className='flex gap-2'>
-                        <span className='text-muted-foreground min-w-[120px]'>
-                          Updated By:
-                        </span>
-                        <span className='font-medium'>
-                          {selectedUser.updated_by_name ||
-                            selectedUser.user_updated ||
-                            'N/A'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </CardContent>
               </Card>
             </div>
