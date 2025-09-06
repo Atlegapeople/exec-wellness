@@ -35,6 +35,7 @@ import {
   Venus,
   Mars,
 } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 interface MenuItem {
   title: string;
@@ -252,6 +253,12 @@ interface SidebarProps {
 
 export default function Sidebar({ className }: SidebarProps) {
   const { isCollapsed, setIsCollapsed } = useSidebar();
+  const [mounted, setMounted] = useState(false);
+
+  // Prevent hydration mismatch
+  useEffect(() => {
+    setMounted(true);
+  }, []);
   const pathname = usePathname();
 
   const isActive = (href: string) => {
@@ -261,19 +268,52 @@ export default function Sidebar({ className }: SidebarProps) {
     return pathname.startsWith(href);
   };
 
+  // Render simplified sidebar during SSR to prevent hydration mismatch
+  if (!mounted) {
+    return (
+      <div
+        className={cn(
+          'h-full w-64 bg-card border-r border-border flex flex-col',
+          className
+        )}
+      >
+        <div className='flex items-center justify-between p-4 border-b border-border'>
+          <div className='flex items-center gap-3'>
+            <img
+              src='/Logo-Health-With-Heart-Logo-Registered.svg'
+              alt='Health With Heart'
+              className='h-10 w-auto'
+            />
+            <div>
+              <h2 className='text-lg font-semibold text-foreground'>OHMS</h2>
+              <p className='text-xs text-muted-foreground'>Health Management</p>
+            </div>
+          </div>
+        </div>
+        <div className='flex-1 p-4'>
+          <div className='text-center text-muted-foreground'>Loading...</div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div
       className={cn(
-        'fixed left-0 top-0 z-50 flex flex-col h-screen bg-background border-r transition-all duration-300',
+        'fixed left-0 top-0 z-50 flex flex-col h-screen border-r transition-all duration-300 overflow-hidden',
+        'bg-gradient-to-b from-[rgba(86,150,157,0.02)] to-[rgba(182,217,206,0.01)]',
         isCollapsed ? 'w-16' : 'w-64',
         className
       )}
     >
       {/* Header */}
-      <div className='flex items-center justify-between p-4 border-b'>
+      <div className='flex items-center justify-between p-4 border-b bg-[rgba(86,150,157,0.03)]'>
         {isCollapsed ? (
           <div className='flex items-center justify-center w-full'>
-            <div className='w-8 h-8 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg flex items-center justify-center'>
+            <div
+              className='w-8 h-8 rounded-lg flex items-center justify-center'
+              style={{ backgroundColor: 'var(--teal)' }}
+            >
               <Heart className='h-4 w-4 text-white' />
             </div>
           </div>
@@ -319,7 +359,17 @@ export default function Sidebar({ className }: SidebarProps) {
             <div key={section.title}>
               {!isCollapsed && (
                 <div className='px-4 mb-2'>
-                  <h3 className='text-xs font-semibold text-muted-foreground uppercase tracking-wider'>
+                  <h3
+                    className={cn(
+                      'text-sm font-yrsa-semibold uppercase tracking-wider',
+                      section.title === 'Overview' && 'text-[#56969D]', // Soft Teal
+                      section.title === 'Medical Management' &&
+                        'text-[#E19985]', // Coral
+                      section.title === 'Personnel' && 'text-[#586D6A]', // Forest
+                      section.title === 'Organization' && 'text-[#EAB75C]', // Daisy (golden yellow)
+                      section.title === 'System' && 'text-[#D65241]' // Sunset (warm red)
+                    )}
+                  >
                     {section.title}
                   </h3>
                 </div>
@@ -329,6 +379,68 @@ export default function Sidebar({ className }: SidebarProps) {
                 {section.items.map(item => {
                   const Icon = item.icon;
                   const active = isActive(item.href);
+
+                  // Define section-specific colors
+                  const getSectionColors = (sectionTitle: string) => {
+                    switch (sectionTitle) {
+                      case 'Overview':
+                        return {
+                          hoverBg: 'hover:bg-[rgba(86,150,157,0.08)]', // Soft Teal
+                          hoverText: 'hover:text-[#178089]', // Teal
+                          activeBg: 'bg-[rgba(86,150,157,0.12)]',
+                          activeText: 'text-[#178089]',
+                          activeBorder: 'border-l-[#178089]',
+                          iconHover: 'group-hover:text-[#178089]',
+                        };
+                      case 'Medical Management':
+                        return {
+                          hoverBg: 'hover:bg-[rgba(229,153,133,0.08)]', // Coral
+                          hoverText: 'hover:text-[#E19985]', // Coral
+                          activeBg: 'bg-[rgba(229,153,133,0.12)]',
+                          activeText: 'text-[#E19985]',
+                          activeBorder: 'border-l-[#E19985]',
+                          iconHover: 'group-hover:text-[#E19985]',
+                        };
+                      case 'Personnel':
+                        return {
+                          hoverBg: 'hover:bg-[rgba(86,109,106,0.08)]', // Forest
+                          hoverText: 'hover:text-[#586D6A]', // Forest
+                          activeBg: 'bg-[rgba(86,109,106,0.12)]',
+                          activeText: 'text-[#586D6A]',
+                          activeBorder: 'border-l-[#586D6A]',
+                          iconHover: 'group-hover:text-[#586D6A]',
+                        };
+                      case 'Organization':
+                        return {
+                          hoverBg: 'hover:bg-[rgba(234,183,92,0.08)]', // Daisy (golden yellow)
+                          hoverText: 'hover:text-[#EAB75C]', // Daisy
+                          activeBg: 'bg-[rgba(234,183,92,0.12)]',
+                          activeText: 'text-[#EAB75C]',
+                          activeBorder: 'border-l-[#EAB75C]',
+                          iconHover: 'group-hover:text-[#EAB75C]',
+                        };
+                      case 'System':
+                        return {
+                          hoverBg: 'hover:bg-[rgba(214,82,65,0.08)]', // Sunset (warm red)
+                          hoverText: 'hover:text-[#D65241]', // Sunset
+                          activeBg: 'bg-[rgba(214,82,65,0.12)]',
+                          activeText: 'text-[#D65241]',
+                          activeBorder: 'border-l-[#D65241]',
+                          iconHover: 'group-hover:text-[#D65241]',
+                        };
+                      default:
+                        return {
+                          hoverBg: 'hover:bg-[rgba(86,150,157,0.08)]', // Default Soft Teal
+                          hoverText: 'hover:text-[#178089]',
+                          activeBg: 'bg-[rgba(86,150,157,0.12)]',
+                          activeText: 'text-[#178089]',
+                          activeBorder: 'border-l-[#178089]',
+                          iconHover: 'group-hover:text-[#178089]',
+                        };
+                    }
+                  };
+
+                  const colors = getSectionColors(section.title);
 
                   return (
                     <Link
@@ -340,17 +452,19 @@ export default function Sidebar({ className }: SidebarProps) {
                       <div
                         className={cn(
                           'flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all hover:bg-muted/50 group',
+                          colors.hoverBg,
+                          colors.hoverText,
                           active &&
-                            'bg-primary/10 text-primary font-medium border-l-4 border-l-primary',
+                            `${colors.activeBg} ${colors.activeText} font-medium border-l-4 ${colors.activeBorder}`,
                           isCollapsed && 'justify-center px-2'
                         )}
                       >
                         <Icon
                           className={cn(
-                            'h-5 w-5 flex-shrink-0',
+                            'h-5 w-5 flex-shrink-0 transition-colors',
                             active
-                              ? 'text-primary'
-                              : 'text-muted-foreground group-hover:text-foreground'
+                              ? colors.activeText
+                              : `text-muted-foreground ${colors.iconHover}`
                           )}
                         />
 
@@ -393,7 +507,7 @@ export default function Sidebar({ className }: SidebarProps) {
       </div>
 
       {/* Footer */}
-      <div className='p-4 border-t'>
+      <div className='p-4 border-t flex-shrink-0 bg-[rgba(86,150,157,0.02)]'>
         {!isCollapsed ? (
           <div className='text-center'>
             <div className='text-xs text-muted-foreground'>
