@@ -11,75 +11,79 @@ import {
   Users,
   FileText,
   Stethoscope,
+  Calendar,
+  BarChart3,
 } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className='bg-card border-t mt-auto'>
-      <div className='px-8 sm:px-12 lg:px-16 xl:px-24'>
+    <footer
+      className='border-t w-full flex-shrink-0'
+      style={{ backgroundColor: '#178089' }}
+    >
+      <div className='px-4 sm:px-6 lg:px-8 xl:px-12'>
         {/* Main Footer Content */}
         <div className='py-12'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
             {/* Company Info */}
             <div className='space-y-4'>
               <div className='flex items-center gap-3'>
                 <img
-                  src='/Logo-Health-With-Heart-Logo-Registered.svg'
+                  src='/footer-logo-health-with-heart-logo-2.svg'
                   alt='Health With Heart'
-                  className='h-12 w-auto'
+                  className='h-32 w-auto'
                 />
-              </div>
-              <p className='text-sm text-muted-foreground leading-relaxed'>
-                Comprehensive occupational health management system providing
-                professional medical services and health monitoring solutions.
-              </p>
-              <div className='flex items-center gap-2'>
-                <Heart className='h-4 w-4 text-red-500' />
-                <span className='text-sm text-muted-foreground'>
-                  Caring for workplace wellness
-                </span>
               </div>
             </div>
 
             {/* Contact Information */}
             <div className='space-y-4'>
-              <h3 className='font-semibold text-foreground flex items-center gap-2'>
-                <MapPin className='h-4 w-4 text-primary' />
+              <h3
+                className='font-semibold flex items-center gap-2'
+                style={{ color: '#FFFFFF' }}
+              >
+                <MapPin className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                 Contact Details
               </h3>
               <div className='space-y-3 text-sm'>
                 <div className='flex items-start gap-2'>
-                  <MapPin className='h-4 w-4 text-muted-foreground mt-0.5 flex-shrink-0' />
-                  <div className='text-muted-foreground'>
+                  <MapPin
+                    className='h-4 w-4 mt-0.5 flex-shrink-0'
+                    style={{ color: '#FFFFFF' }}
+                  />
+                  <div style={{ color: '#FFFFFF' }}>
                     <div>Ground floor, 8 Merchant Place</div>
                     <div>1 Fredman Drive, Sandton 2196</div>
                   </div>
                 </div>
                 <div className='flex items-center gap-2'>
-                  <Phone className='h-4 w-4 text-muted-foreground' />
+                  <Phone className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                   <a
                     href='tel:+27116855021'
-                    className='text-muted-foreground hover:text-primary transition-colors'
+                    className='transition-colors'
+                    style={{ color: '#FFFFFF' }}
                   >
                     +27 (0)11 685 5021
                   </a>
                 </div>
                 <div className='flex items-center gap-2'>
-                  <Phone className='h-4 w-4 text-muted-foreground' />
+                  <Phone className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                   <a
                     href='tel:+27792628749'
-                    className='text-muted-foreground hover:text-primary transition-colors'
+                    className='transition-colors'
+                    style={{ color: '#FFFFFF' }}
                   >
                     +27 (0)79 262 8749
                   </a>
                 </div>
                 <div className='flex items-center gap-2'>
-                  <Mail className='h-4 w-4 text-muted-foreground' />
+                  <Mail className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                   <a
                     href='mailto:staywell@healthwithheart.co.za'
-                    className='text-muted-foreground hover:text-primary transition-colors break-all'
+                    className='transition-colors break-all'
+                    style={{ color: '#FFFFFF' }}
                   >
                     staywell@healthwithheart.co.za
                   </a>
@@ -89,74 +93,59 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div className='space-y-4'>
-              <h3 className='font-semibold text-foreground flex items-center gap-2'>
-                <Users className='h-4 w-4 text-primary' />
+              <h3
+                className='font-semibold flex items-center gap-2'
+                style={{ color: '#FFFFFF' }}
+              >
+                <Users className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                 Quick Links
               </h3>
-              <div className='flex flex-col space-y-2'>
-                <Button
-                  variant='ghost'
-                  size='sm'
-                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
-                  asChild
+              <div className='space-y-3'>
+                <a
+                  href='/employees'
+                  className='flex items-center gap-2 text-sm transition-colors'
+                  style={{ color: '#FFFFFF' }}
                 >
-                  <a
-                    href='/employees'
-                    className='flex items-center gap-2 w-full'
-                  >
-                    <Users className='h-3 w-3' />
-                    Employee Management
-                  </a>
-                </Button>
-                <Button
-                  variant='ghost'
-                  size='sm'
-                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
-                  asChild
+                  <Users className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  Employee Management
+                </a>
+                <a
+                  href='/reports'
+                  className='flex items-center gap-2 text-sm transition-colors'
+                  style={{ color: '#FFFFFF' }}
                 >
-                  <a href='/reports' className='flex items-center gap-2 w-full'>
-                    <FileText className='h-3 w-3' />
-                    Medical Reports
-                  </a>
-                </Button>
-                <Button
-                  variant='ghost'
-                  size='sm'
-                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
-                  asChild
+                  <FileText className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  Medical Reports
+                </a>
+                <a
+                  href='/appointments'
+                  className='flex items-center gap-2 text-sm transition-colors'
+                  style={{ color: '#FFFFFF' }}
                 >
-                  <a
-                    href='/appointments'
-                    className='flex items-center gap-2 w-full'
-                  >
-                    <Stethoscope className='h-3 w-3' />
-                    Appointments
-                  </a>
-                </Button>
-                <Button
-                  variant='ghost'
-                  size='sm'
-                  className='justify-start p-0 h-auto text-sm text-muted-foreground hover:text-primary w-full'
-                  asChild
+                  <Calendar className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  Appointments
+                </a>
+                <a
+                  href='/analytics'
+                  className='flex items-center gap-2 text-sm transition-colors'
+                  style={{ color: '#FFFFFF' }}
                 >
-                  <a
-                    href='/analytics'
-                    className='flex items-center gap-2 w-full'
-                  >
-                    <Shield className='h-3 w-3' />
-                    Health Analytics
-                  </a>
-                </Button>
+                  <BarChart3 className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  Health Analytics
+                </a>
               </div>
             </div>
 
             {/* Services */}
             <div className='space-y-4'>
-              <h3 className='font-semibold text-foreground flex items-center gap-2'>
-                <Stethoscope className='h-4 w-4 text-primary' />
+              <h3
+                className='font-semibold flex items-center gap-2'
+                style={{ color: '#FFFFFF' }}
+              >
+                <Stethoscope className='h-4 w-4' style={{ color: '#FFFFFF' }} />
                 Our Services
               </h3>
-              <ul className='space-y-2 text-sm text-muted-foreground'>
+              <ul className='space-y-2 text-sm' style={{ color: '#FFFFFF' }}>
                 <li>• Executive Medical Assessments</li>
                 <li>• Occupational Health Screening</li>
                 <li>• Workplace Wellness Programs</li>
@@ -170,31 +159,34 @@ export default function Footer() {
         </div>
 
         {/* Bottom Footer */}
-        <Separator />
+        <Separator style={{ backgroundColor: '#B4CABC' }} />
         <div className='py-6'>
           <div className='flex flex-col sm:flex-row justify-between items-center gap-4'>
-            <div className='text-sm text-muted-foreground'>
+            <div className='text-sm' style={{ color: '#FFFFFF' }}>
               © {currentYear} Health With Heart. All rights reserved.
             </div>
             <div className='flex items-center gap-6 text-sm'>
               <Button
                 variant='ghost'
                 size='sm'
-                className='text-muted-foreground hover:text-primary p-0'
+                className='p-0'
+                style={{ color: '#FFFFFF' }}
               >
                 Privacy Policy
               </Button>
               <Button
                 variant='ghost'
                 size='sm'
-                className='text-muted-foreground hover:text-primary p-0'
+                className='p-0'
+                style={{ color: '#FFFFFF' }}
               >
                 Terms of Service
               </Button>
               <Button
                 variant='ghost'
                 size='sm'
-                className='text-muted-foreground hover:text-primary p-0'
+                className='p-0'
+                style={{ color: '#FFFFFF' }}
               >
                 Data Protection
               </Button>

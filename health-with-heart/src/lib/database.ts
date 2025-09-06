@@ -4,24 +4,54 @@ import { Pool } from 'pg';
 let pool: Pool | null = null;
 
 export function getPool(): Pool {
+  // Set SSL environment variable
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+  
   if (!pool) {
-    pool = new Pool({
-      connectionString: process.env.DATABASE_URL,
-      // Alternative configuration if you prefer individual env vars:
-      // host: process.env.DATABASE_HOST,
-      // port: parseInt(process.env.DATABASE_PORT || '5432'),
-      // database: process.env.DATABASE_NAME,
-      // user: process.env.DATABASE_USER,
-      // password: process.env.DATABASE_PASSWORD,
-      // ssl: process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : false,
+    const isSupabase = process.env.DATABASE_URL?.includes('supabase.co') || process.env.DATABASE_URL?.includes('supabase.com');
+    
+    console.log('Creating new pool, isSupabase:', isSupabase);
+    
+    if (isSupabase) {
+      // Use explicit configuration for Supabase to avoid parsing issues
+      const config = {
+        host: process.env.SUPABASE_HOST || 'aws-1-us-east-2.pooler.supabase.com',
+        port: parseInt(process.env.SUPABASE_PORT || '5432'),
+        database: process.env.SUPABASE_DATABASE || 'postgres',
+        user: process.env.SUPABASE_USERNAME || 'postgres.ddvqatlnyytklwaldfaj',
+        password: process.env.SUPABASE_PASSWORD || 'Taudidikhumo@1',
+        ssl: { rejectUnauthorized: false },
+        
+        // Connection pool settings
+        max: 10,
+        idleTimeoutMillis: 30000,
+        connectionTimeoutMillis: 20000,
+        allowExitOnIdle: true,
+        keepAlive: true
+      };
       
-      // Connection pool settings
-      max: 10, // Maximum number of clients in pool
-      idleTimeoutMillis: 10000, // Close idle clients after 10 seconds
-      connectionTimeoutMillis: 30000, // Return error if connection takes longer than 30 seconds
-      allowExitOnIdle: true // Allow pool to exit when all clients are idle
-    });
-
+      console.log('Pool config:', { 
+        ...config, 
+        password: '***',
+        user: config.user,
+        host: config.host 
+      });
+      pool = new Pool(config);
+    } else {
+      // Use connection string for local databases
+      pool = new Pool({
+        connectionString: process.env.DATABASE_URL,
+        ssl: false,
+        
+        // Connection pool settings
+        max: 5,
+        idleTimeoutMillis: 30000,
+        connectionTimeoutMillis: 60000,
+        allowExitOnIdle: true,
+        keepAlive: true,
+        keepAliveInitialDelayMillis: 0
+      });
+    }
   }
 
   return pool;
@@ -34,21 +64,23 @@ export async function testConnection(): Promise<boolean> {
     const client = await pool.connect();
     
     // Test query
-    const result = await client.query('SELECT NOW()');
+    await client.query('SELECT NOW()');
     
     client.release();
     return true;
-  } catch (error) {
+  } catch {
     return false;
   }
 }
 
 // Query helper function
-export async function query(text: string, params?: any[]): Promise<any> {
+export async function query(text: string, params?: unknown[]): Promise<{ rows: unknown[] }> {
   let pool = getPool();
   
   try {
+    console.log('Executing query:', text.substring(0, 100) + '...');
     const res = await pool.query(text, params);
+    console.log('Query successful, rows:', res.rows.length);
     return res;
   } catch (error) {
     // If we get a connection error, try resetting the pool once

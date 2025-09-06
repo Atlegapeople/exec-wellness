@@ -1,0 +1,76 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e8]
+          - generic [ref=e10]:
+            - heading "Health with Heart" [level=1] [ref=e11]
+            - paragraph [ref=e12]: OHMS Dashboard
+        - generic [ref=e13]:
+          - img
+          - text: Secure Access
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "Occupational Health Management System" [level=2] [ref=e19]
+          - paragraph [ref=e20]: Streamline medical assessments, manage employee health records, and generate comprehensive medical reports with our integrated platform.
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e24]
+            - generic [ref=e28]:
+              - heading "Medical Assessments" [level=3] [ref=e29]
+              - paragraph [ref=e30]: Comprehensive health evaluations and screenings
+          - generic [ref=e31]:
+            - img [ref=e33]
+            - generic [ref=e38]:
+              - heading "Employee Records" [level=3] [ref=e39]
+              - paragraph [ref=e40]: Centralized health data management
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Welcome Back
+            - generic [ref=e45]: Sign in to access your dashboard
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e49]: Email Address
+                - generic [ref=e50]:
+                  - img [ref=e51]
+                  - textbox "Email Address" [ref=e54]
+              - generic [ref=e55]:
+                - generic [ref=e56]: Password
+                - generic [ref=e57]:
+                  - img [ref=e58]
+                  - textbox "Password" [ref=e61]
+                  - button [ref=e62]:
+                    - img [ref=e63]
+              - button "Sign In" [ref=e66]:
+                - text: Sign In
+                - img
+            - generic [ref=e70]: Or continue with
+            - button "Send Magic Link" [ref=e71]:
+              - img
+              - text: Send Magic Link
+            - generic [ref=e72]:
+              - button "Forgot your password?" [ref=e74]
+              - generic [ref=e75]:
+                - text: Don't have an account?
+                - button "Sign up" [ref=e76]
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: This system contains confidential medical information.
+          - paragraph [ref=e79]: Authorized access only. All activities are monitored.
+    - contentinfo [ref=e80]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - generic [ref=e86]: © 2025 Health with Heart. All rights reserved.
+        - generic [ref=e87]:
+          - generic [ref=e88]: Privacy Policy
+          - generic [ref=e89]: •
+          - generic [ref=e90]: Terms of Service
+  - alert [ref=e91]
+```
