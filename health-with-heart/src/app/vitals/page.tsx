@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -156,9 +157,10 @@ export default function VitalsPage() {
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
   const [selectedVital, setSelectedVital] = useState<VitalRecord | null>(null);
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState<number>('leftPanelWidth', 50, { scope: 'path' }); // percentage
+  const [selectedVitalId, setSelectedVitalId] = useRouteState<string | null>('selectedVitalId', null, { scope: 'path' });
   const [formData, setFormData] = useState<Partial<VitalRecord>>({});
   const [submitting, setSubmitting] = useState(false);
-  const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
   const fetchVitals = useCallback(
@@ -215,6 +217,7 @@ export default function VitalsPage() {
           const employeeVital = data.vitals[0];
           console.log('Auto-selecting vital:', employeeVital);
           setSelectedVital(employeeVital);
+          setSelectedVitalId(employeeVital.id);
         } else if (employeeFilter && data.vitals && data.vitals.length === 0) {
           // No vitals found for this employee, open the create modal with employee ID pre-filled
           console.log('No vitals found for employee, opening create modal');
@@ -325,6 +328,7 @@ export default function VitalsPage() {
       fetchVitals(pagination.page, searchTerm);
       if (selectedVital?.id === id) {
         setSelectedVital(null);
+        setSelectedVitalId(null);
       }
     } catch (error) {
       console.error('Error deleting vital record:', error);
@@ -361,6 +365,7 @@ export default function VitalsPage() {
     console.log('Selected vital - notes_text:', vital.notes_text);
     console.log('Selected vital - additional_notes:', vital.additional_notes);
     setSelectedVital(vital);
+    setSelectedVitalId(vital.id);
   };
 
   // Resize functionality
@@ -492,6 +497,30 @@ export default function VitalsPage() {
       loading,
     });
   }, [employeeFilter, selectedVital?.id, vitals.length, loading]);
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedVital && selectedVitalId) {
+        const found = vitals.find(v => v.id === selectedVitalId);
+        if (found) {
+          setSelectedVital(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/vitals/${selectedVitalId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedVital(data);
+          } else {
+            setSelectedVitalId(null);
+          }
+        } catch {
+          setSelectedVitalId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedVitalId, selectedVital, vitals]);
 
   return (
     <DashboardLayout>
@@ -990,7 +1019,7 @@ export default function VitalsPage() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedVital(null)}
+                          onClick={() => { setSelectedVital(null); setSelectedVitalId(null); }}
                           className='hover-lift'
                         >
                           <X className='h-4 w-4' />

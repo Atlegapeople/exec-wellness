@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -111,7 +112,8 @@ export default function AssessmentsPage() {
     useState<AssessmentRecord | null>(null);
   const [formData, setFormData] = useState<Partial<AssessmentRecord>>({});
   const [submitting, setSubmitting] = useState(false);
-  const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState<number>('leftPanelWidth', 50, { scope: 'path' }); // percentage
+  const [selectedAssessmentId, setSelectedAssessmentId] = useRouteState<string | null>('selectedAssessmentId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Editing states for different sections
@@ -261,7 +263,32 @@ export default function AssessmentsPage() {
   const handleAssessmentClick = (assessment: AssessmentRecord) => {
     console.log('Selected assessment data:', assessment);
     setSelectedAssessment(assessment);
+    setSelectedAssessmentId(assessment.id);
   };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedAssessment && selectedAssessmentId) {
+        const found = assessments.find(a => a.id === selectedAssessmentId);
+        if (found) {
+          setSelectedAssessment(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/assessments/${selectedAssessmentId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedAssessment(data);
+          } else {
+            setSelectedAssessmentId(null);
+          }
+        } catch {
+          setSelectedAssessmentId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedAssessmentId, selectedAssessment, assessments]);
 
   // Resize functionality
   const handleMouseDown = (e: React.MouseEvent) => {
@@ -767,7 +794,7 @@ export default function AssessmentsPage() {
                          <Button
                            variant='ghost'
                            size='sm'
-                           onClick={() => setSelectedAssessment(null)}
+                           onClick={() => { setSelectedAssessment(null); setSelectedAssessmentId(null); }}
                            className='text-muted-foreground hover:text-foreground hover:bg-muted'
                          >
                            <X className='h-4 w-4' />

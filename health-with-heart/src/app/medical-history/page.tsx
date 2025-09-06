@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -165,7 +166,8 @@ function MedicalHistoryPageContent() {
     useState<MedicalHistory | null>(null);
   const [formData, setFormData] = useState<Partial<MedicalHistory>>({});
   const [submitting, setSubmitting] = useState(false);
-  const [leftPanelWidth, setLeftPanelWidth] = useState(60);
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState<number>('leftPanelWidth', 60, { scope: 'path' });
+  const [selectedMedicalHistoryId, setSelectedMedicalHistoryId] = useRouteState<string | null>('selectedMedicalHistoryId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Delete state
@@ -381,9 +383,10 @@ function MedicalHistoryPageContent() {
     }
   };
 
-  const openEditDialog = (medicalHistory: MedicalHistory) => {
-    setFormData(medicalHistory);
-    setSelectedMedicalHistory(medicalHistory);
+  const openEditDialog = (history: MedicalHistory) => {
+    setFormData(history);
+    setSelectedMedicalHistory(history);
+    setSelectedMedicalHistoryId(history.id);
     setIsEditDialogOpen(true);
   };
 
@@ -392,8 +395,9 @@ function MedicalHistoryPageContent() {
     setIsDeleteModalOpen(true);
   };
 
-  const handleMedicalHistoryClick = (medicalHistory: MedicalHistory) => {
-    setSelectedMedicalHistory(medicalHistory);
+  const handleMedicalHistoryClick = (history: MedicalHistory) => {
+    setSelectedMedicalHistory(history);
+    setSelectedMedicalHistoryId(history.id);
   };
 
   const formatDate = (date: string) => {
@@ -447,6 +451,30 @@ function MedicalHistoryPageContent() {
       document.removeEventListener('mouseup', handleMouseUp);
     };
   }, [isResizing]);
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedMedicalHistory && selectedMedicalHistoryId) {
+        const found = medicalHistories.find(m => m.id === selectedMedicalHistoryId);
+        if (found) {
+          setSelectedMedicalHistory(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/medical-history/${selectedMedicalHistoryId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedMedicalHistory(data);
+          } else {
+            setSelectedMedicalHistoryId(null);
+          }
+        } catch {
+          setSelectedMedicalHistoryId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedMedicalHistoryId, selectedMedicalHistory, medicalHistories]);
 
   if (loading) {
     return (
@@ -960,7 +988,7 @@ function MedicalHistoryPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedMedicalHistory(null)}
+                        onClick={() => { setSelectedMedicalHistory(null); setSelectedMedicalHistoryId(null); }}
                         className='hover-lift'
                         title='Close details'
                       >

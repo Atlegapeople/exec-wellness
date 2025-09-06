@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { LabTest } from '@/types';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -102,7 +103,8 @@ function LabTestsPageContent() {
     searchParams.get('search') || ''
   );
   const [selectedLabTest, setSelectedLabTest] = useState<LabTest | null>(null);
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedLabTestId, setSelectedLabTestId] = useRouteState<string | null>('selectedLabTestId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // CRUD state
@@ -602,7 +604,32 @@ function LabTestsPageContent() {
 
   const handleLabTestClick = (labTest: LabTest) => {
     setSelectedLabTest(labTest);
+    setSelectedLabTestId(labTest.id);
   };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedLabTest && selectedLabTestId) {
+        const found = allLabTests.find(l => l.id === selectedLabTestId);
+        if (found) {
+          setSelectedLabTest(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/lab-tests/${selectedLabTestId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedLabTest(data);
+          } else {
+            setSelectedLabTestId(null);
+          }
+        } catch {
+          setSelectedLabTestId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedLabTestId, selectedLabTest, allLabTests]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';

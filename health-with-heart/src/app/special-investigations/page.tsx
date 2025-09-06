@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { SpecialInvestigation } from '@/types';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -111,7 +112,8 @@ function SpecialInvestigationsPageContent() {
   );
   const [selectedInvestigation, setSelectedInvestigation] =
     useState<SpecialInvestigation | null>(null);
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedInvestigationId, setSelectedInvestigationId] = useRouteState<string | null>('selectedInvestigationId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // CRUD state
@@ -627,7 +629,32 @@ function SpecialInvestigationsPageContent() {
 
   const handleInvestigationClick = (investigation: SpecialInvestigation) => {
     setSelectedInvestigation(investigation);
+    setSelectedInvestigationId(investigation.id);
   };
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedInvestigation && selectedInvestigationId) {
+        const found = allInvestigations.find(i => i.id === selectedInvestigationId);
+        if (found) {
+          setSelectedInvestigation(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/special-investigations/${selectedInvestigationId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedInvestigation(data);
+          } else {
+            setSelectedInvestigationId(null);
+          }
+        } catch {
+          setSelectedInvestigationId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedInvestigationId, selectedInvestigation, allInvestigations]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -1094,7 +1121,7 @@ function SpecialInvestigationsPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedInvestigation(null)}
+                        onClick={() => { setSelectedInvestigation(null); setSelectedInvestigationId(null); }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />

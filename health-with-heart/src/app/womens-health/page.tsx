@@ -74,6 +74,7 @@ import {
   Brain,
   Zap,
 } from 'lucide-react';
+import { useRouteState } from '@/hooks/useRouteState';
 
 interface WomensHealth {
   id: string;
@@ -148,7 +149,8 @@ function WomensHealthPageContent() {
   );
   const [selectedWomensHealth, setSelectedWomensHealth] =
     useState<WomensHealth | null>(null);
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedWomensHealthId, setSelectedWomensHealthId] = useRouteState<string | null>('selectedWomensHealthId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Editing states for different sections
@@ -179,6 +181,7 @@ function WomensHealthPageContent() {
   // Handle women's health click
   const handleWomensHealthClick = (womensHealth: WomensHealth) => {
     setSelectedWomensHealth(womensHealth);
+    setSelectedWomensHealthId(womensHealth.id);
   };
 
   // Inline editing functions
@@ -629,6 +632,31 @@ function WomensHealthPageContent() {
     updatePagination();
   }, [updatePagination]);
 
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedWomensHealth && selectedWomensHealthId) {
+        const found = allWomensHealth.find(w => w.id === selectedWomensHealthId);
+        if (found) {
+          setSelectedWomensHealth(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/womens-health?search=${encodeURIComponent(selectedWomensHealthId)}`);
+          if (res.ok) {
+            const data = await res.json();
+            const record = (data.womensHealth || []).find((r: any) => r.id === selectedWomensHealthId);
+            if (record) setSelectedWomensHealth(record); else setSelectedWomensHealthId(null);
+          } else {
+            setSelectedWomensHealthId(null);
+          }
+        } catch {
+          setSelectedWomensHealthId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedWomensHealthId, selectedWomensHealth, allWomensHealth]);
+
   if (loading) {
     return (
       <DashboardLayout>
@@ -1065,7 +1093,7 @@ function WomensHealthPageContent() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedWomensHealth(null)}
+                          onClick={() => setSelectedWomensHealthId(null)}
                           className='hover-lift'
                         >
                           <X className='h-4 w-4' />

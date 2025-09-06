@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { MenHealth } from '@/types';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -108,7 +109,8 @@ function MensHealthPageContent() {
   );
   const [selectedMensHealth, setSelectedMensHealth] =
     useState<MenHealth | null>(null);
-  const [leftWidth, setLeftWidth] = useState(40);
+  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
+  const [selectedMensHealthId, setSelectedMensHealthId] = useRouteState<string | null>('selectedMensHealthId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // CRUD state
@@ -753,26 +755,8 @@ function MensHealthPageContent() {
   };
 
   const handleMensHealthClick = (mensHealth: MenHealth) => {
-    console.log("Selected men's health data:", mensHealth);
-    console.log(
-      'Prostate enlarged type:',
-      typeof mensHealth.prostate_enlarged,
-      'Value:',
-      mensHealth.prostate_enlarged
-    );
-    console.log(
-      'Prostate infection type:',
-      typeof mensHealth.prostate_infection,
-      'Value:',
-      mensHealth.prostate_infection
-    );
-    console.log(
-      'Prostate cancer type:',
-      typeof mensHealth.prostate_cancer,
-      'Value:',
-      mensHealth.prostate_cancer
-    );
     setSelectedMensHealth(mensHealth);
+    setSelectedMensHealthId(mensHealth.id);
   };
 
   const formatDate = (date: Date | string | undefined) => {
@@ -838,6 +822,31 @@ function MensHealthPageContent() {
       loading,
     });
   }, [employeeFilter, selectedMensHealth?.id, allMensHealth.length, loading]);
+
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedMensHealth && selectedMensHealthId) {
+        const found = allMensHealth.find(m => m.id === selectedMensHealthId);
+        if (found) {
+          setSelectedMensHealth(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/mens-health?search=${encodeURIComponent(selectedMensHealthId)}`);
+          if (res.ok) {
+            const data = await res.json();
+            const record = (data.mensHealth || []).find((r: any) => r.id === selectedMensHealthId);
+            if (record) setSelectedMensHealth(record); else setSelectedMensHealthId(null);
+          } else {
+            setSelectedMensHealthId(null);
+          }
+        } catch {
+          setSelectedMensHealthId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedMensHealthId, selectedMensHealth, allMensHealth]);
 
   if (loading) {
     return (
@@ -1271,7 +1280,7 @@ function MensHealthPageContent() {
                       <Button
                         variant='ghost'
                         size='sm'
-                        onClick={() => setSelectedMensHealth(null)}
+                        onClick={() => { setSelectedMensHealth(null); setSelectedMensHealthId(null); }}
                         className='hover-lift'
                       >
                         <X className='h-4 w-4' />

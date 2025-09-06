@@ -59,7 +59,8 @@ export default function EmergencyResponsesPage() {
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
-  const [responseToDelete, setResponseToDelete] = useState<EmergencyResponse | null>(null);
+  const [responseToDelete, setResponseToDelete] =
+    useState<EmergencyResponse | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -305,9 +306,9 @@ export default function EmergencyResponsesPage() {
         {/* Header */}
         <div className='flex justify-between items-center'>
           <div>
-                         <h1 className='text-3xl font-bold tracking-tight text-primary'>
-               Emergency Responses
-             </h1>
+            <h1 className='text-3xl font-bold tracking-tight text-primary'>
+              Emergency Responses
+            </h1>
             <p className='text-muted-foreground'>
               Manage emergency response records and incident reports
             </p>
@@ -355,10 +356,10 @@ export default function EmergencyResponsesPage() {
             <Card className='h-full'>
               <CardHeader>
                 <div className='flex justify-between items-center'>
-                                     <CardTitle className='flex items-center gap-2 text-primary'>
-                     <AlertTriangle className='h-5 w-5' />
-                     Emergency Responses ({emergencyResponses.length})
-                   </CardTitle>
+                  <CardTitle className='flex items-center gap-2 text-primary'>
+                    <AlertTriangle className='h-5 w-5' />
+                    Emergency Responses ({emergencyResponses.length})
+                  </CardTitle>
                   <Button onClick={openCreateModal} className='hover-lift'>
                     <Plus className='mr-2 h-4 w-4' />
                     New Emergency Response
@@ -367,18 +368,32 @@ export default function EmergencyResponsesPage() {
               </CardHeader>
               <CardContent className='h-full overflow-hidden'>
                 <div className='h-[650px] overflow-y-auto'>
-                                     <Table>
-                     <TableHeader>
-                       <TableRow className='bg-muted/50'>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Date</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Employee</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Type</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Complaint</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Diagnosis</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Location</TableHead>
-                         <TableHead className='text-base font-semibold text-primary py-4'>Actions</TableHead>
-                       </TableRow>
-                     </TableHeader>
+                  <Table>
+                    <TableHeader>
+                      <TableRow className='bg-muted/50'>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Date
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Employee
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Type
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Complaint
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Diagnosis
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Location
+                        </TableHead>
+                        <TableHead className='text-base font-semibold text-primary py-4'>
+                          Actions
+                        </TableHead>
+                      </TableRow>
+                    </TableHeader>
                     <TableBody>
                       {emergencyResponses.map(response => (
                         <TableRow
@@ -416,32 +431,32 @@ export default function EmergencyResponsesPage() {
                           <TableCell className='max-w-[150px] truncate'>
                             {response.place || 'N/A'}
                           </TableCell>
-                                                     <TableCell>
-                             <div className='flex gap-2'>
-                               <Button
-                                 size='sm'
-                                 variant='ghost'
-                                 className='hover:border hover:border-border'
-                                 onClick={e => {
-                                   e.stopPropagation();
-                                   openEditModal(response);
-                                 }}
-                               >
-                                 <Edit className='h-3 w-3' />
-                               </Button>
-                                                               <Button
-                                  size='sm'
-                                  variant='ghost'
-                                  className='hover:border hover:border-border text-red-600 hover:text-red-700 hover:bg-red-50'
-                                  onClick={e => {
-                                    e.stopPropagation();
-                                    handleDeleteResponse(response);
-                                  }}
-                                >
-                                  <Trash2 className='h-3 w-3' />
-                                </Button>
-                             </div>
-                           </TableCell>
+                          <TableCell>
+                            <div className='flex gap-2'>
+                              <Button
+                                size='sm'
+                                variant='ghost'
+                                className='hover:border hover:border-border'
+                                onClick={e => {
+                                  e.stopPropagation();
+                                  openEditModal(response);
+                                }}
+                              >
+                                <Edit className='h-3 w-3' />
+                              </Button>
+                              <Button
+                                size='sm'
+                                variant='ghost'
+                                className='hover:border hover:border-border text-red-600 hover:text-red-700 hover:bg-red-50'
+                                onClick={e => {
+                                  e.stopPropagation();
+                                  handleDeleteResponse(response);
+                                }}
+                              >
+                                <Trash2 className='h-3 w-3' />
+                              </Button>
+                            </div>
+                          </TableCell>
                         </TableRow>
                       ))}
                       {emergencyResponses.length === 0 && (
@@ -1344,15 +1359,18 @@ export default function EmergencyResponsesPage() {
             </DialogHeader>
             <div className='py-4'>
               <p className='text-sm text-muted-foreground mb-4'>
-                Are you sure you want to delete this emergency response record? This action cannot be undone.
+                Are you sure you want to delete this emergency response record?
+                This action cannot be undone.
               </p>
               {responseToDelete && (
                 <div className='bg-muted/50 p-3 rounded-md'>
                   <p className='text-sm font-medium'>
-                    {responseToDelete.employee_name} {responseToDelete.employee_surname}
+                    {responseToDelete.employee_name}{' '}
+                    {responseToDelete.employee_surname}
                   </p>
                   <p className='text-xs text-muted-foreground'>
-                    {responseToDelete.emergency_type} - {formatDate(responseToDelete.injury_date)}
+                    {responseToDelete.emergency_type} -{' '}
+                    {formatDate(responseToDelete.injury_date)}
                   </p>
                 </div>
               )}
@@ -1367,10 +1385,7 @@ export default function EmergencyResponsesPage() {
               >
                 Cancel
               </Button>
-              <Button 
-                variant='destructive'
-                onClick={confirmDelete}
-              >
+              <Button variant='destructive' onClick={confirmDelete}>
                 Delete Emergency Response
               </Button>
             </div>
