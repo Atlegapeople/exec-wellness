@@ -525,7 +525,7 @@ export default function AssessmentsPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <div className='max-h-[55vh] overflow-auto scrollbar-thin'>
+                  <div className='max-h-[450px] overflow-auto scrollbar-thin'>
                     <Table>
                       <TableHeader>
                         <TableRow>

@@ -677,7 +677,7 @@ function AppointmentsPageContent() {
                       </p>
                     </div>
                   ) : (
-                    <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                    <div className='max-h-[600px] overflow-auto scrollbar-premium'>
                       <Table>
                         <TableHeader>
                           <TableRow>

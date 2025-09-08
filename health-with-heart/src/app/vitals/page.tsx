@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
@@ -132,6 +133,7 @@ interface Employee {
 }
 
 export default function VitalsPage() {
+  const goBack = useBreadcrumbBack();
   // Extract employee filter from URL (client-side only)
   const [employeeFilter, setEmployeeFilter] = useState<string | null>(null);
 
@@ -564,7 +566,7 @@ export default function VitalsPage() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />
