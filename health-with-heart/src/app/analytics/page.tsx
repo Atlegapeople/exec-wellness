@@ -267,7 +267,7 @@ export default function Analytics() {
     mentalHealthError;
 
   return (
-    // <ProtectedRoute>
+    <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
           {/* Page Header */}
@@ -827,6 +827,6 @@ export default function Analytics() {
           </Card>
         </div>
       </DashboardLayout>
-    // </ProtectedRoute>
+    </ProtectedRoute>
   );
 }

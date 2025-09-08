@@ -19,6 +19,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import DashboardLayout from '@/components/DashboardLayout';
+import ProtectedRoute from '@/components/ProtectedRoute';
 import {
   Calendar as CalendarIcon,
   ChevronLeft,
@@ -63,6 +64,7 @@ import {
   startOfDay,
   endOfDay,
 } from 'date-fns';
+import { PageLoading } from '@/components/ui/loading';
 
 interface CalendarAppointment {
   id: string;
@@ -600,423 +602,443 @@ export default function CalendarPage() {
 
   if (loading) {
     return (
-      <div className='min-h-screen bg-background flex items-center justify-center'>
-        <Card className='w-96'>
-          <CardContent className='flex items-center justify-center py-12'>
-            <div className='text-center space-y-4'>
-              <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto'></div>
-              <p className='text-muted-foreground'>Loading calendar...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      <ProtectedRoute>
+        <DashboardLayout>
+          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+            <Card>
+              <CardContent>
+                <PageLoading
+                  text='Loading Calendar'
+                  subtitle='Fetching appointment schedule and calendar data...'
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </DashboardLayout>
+      </ProtectedRoute>
     );
   }
 
   return (
-    <DashboardLayout>
-      <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        {/* Back Button */}
-        <div className='mb-6'>
-          <Button
-            variant='outline'
-            size='sm'
-            onClick={() => window.history.back()}
-            className='flex items-center space-x-2'
-          >
-            <ArrowLeft className='h-4 w-4' />
-            <span>Back</span>
-          </Button>
-        </div>
+    <ProtectedRoute>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
+          {/* Back Button */}
+          <div className='mb-6'>
+            <Button
+              variant='outline'
+              size='sm'
+              onClick={() => window.history.back()}
+              className='flex items-center space-x-2'
+            >
+              <ArrowLeft className='h-4 w-4' />
+              <span>Back</span>
+            </Button>
+          </div>
 
-        <div className='space-y-6'>
-          {/* Header */}
-          <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4'>
-            <div>
-              <h1 className='text-3xl font-bold medical-heading flex items-center gap-2'>
-                <CalendarIcon className='h-8 w-8' />
-                Appointment Calendar
-              </h1>
-              <p className='text-muted-foreground'>
-                Schedule and manage medical appointments
-              </p>
+          <div className='space-y-6'>
+            {/* Header */}
+            <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4'>
+              <div>
+                <h1 className='text-3xl font-bold medical-heading flex items-center gap-2'>
+                  <CalendarIcon className='h-8 w-8' />
+                  Appointment Calendar
+                </h1>
+                <p className='text-muted-foreground'>
+                  Schedule and manage medical appointments
+                </p>
+              </div>
+
+              {/* View Controls */}
+              <div className='flex items-center gap-2'>
+                <Button
+                  variant='outline'
+                  size='sm'
+                  onClick={navigateToday}
+                  disabled={calendarLoading}
+                  className='hover-lift transition-all duration-200'
+                >
+                  Today
+                </Button>
+                <div className='flex items-center border rounded-lg'>
+                  {(['month', 'week', 'day', 'year'] as CalendarView[]).map(
+                    viewType => (
+                      <Button
+                        key={viewType}
+                        variant={view === viewType ? 'default' : 'ghost'}
+                        size='sm'
+                        className='rounded-none first:rounded-l-lg last:rounded-r-lg'
+                        onClick={() => {
+                          setView(viewType);
+                          fetchAppointments(true, currentDate, viewType);
+                        }}
+                      >
+                        {viewType === 'month' && (
+                          <Grid3X3 className='h-4 w-4 mr-1' />
+                        )}
+                        {viewType === 'week' && (
+                          <List className='h-4 w-4 mr-1' />
+                        )}
+                        {viewType === 'day' && (
+                          <CalendarDays className='h-4 w-4 mr-1' />
+                        )}
+                        {viewType === 'year' && (
+                          <BarChart3 className='h-4 w-4 mr-1' />
+                        )}
+                        {viewType.charAt(0).toUpperCase() + viewType.slice(1)}
+                      </Button>
+                    )
+                  )}
+                </div>
+              </div>
             </div>
 
-            {/* View Controls */}
-            <div className='flex items-center gap-2'>
-              <Button
-                variant='outline'
-                size='sm'
-                onClick={navigateToday}
-                disabled={calendarLoading}
-                className='hover-lift transition-all duration-200'
-              >
-                Today
-              </Button>
-              <div className='flex items-center border rounded-lg'>
-                {(['month', 'week', 'day', 'year'] as CalendarView[]).map(
-                  viewType => (
-                    <Button
-                      key={viewType}
-                      variant={view === viewType ? 'default' : 'ghost'}
-                      size='sm'
-                      className='rounded-none first:rounded-l-lg last:rounded-r-lg'
-                      onClick={() => {
-                        setView(viewType);
-                        fetchAppointments(true, currentDate, viewType);
-                      }}
-                    >
-                      {viewType === 'month' && (
-                        <Grid3X3 className='h-4 w-4 mr-1' />
-                      )}
-                      {viewType === 'week' && <List className='h-4 w-4 mr-1' />}
-                      {viewType === 'day' && (
-                        <CalendarDays className='h-4 w-4 mr-1' />
-                      )}
-                      {viewType === 'year' && (
-                        <BarChart3 className='h-4 w-4 mr-1' />
-                      )}
-                      {viewType.charAt(0).toUpperCase() + viewType.slice(1)}
-                    </Button>
-                  )
+            {/* Stats Cards */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4'>
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-2'>
+                    <CalendarDays className='h-5 w-5 text-primary' />
+                    <div>
+                      <div className='text-2xl font-bold'>{stats.total}</div>
+                      <div className='text-sm text-muted-foreground'>Total</div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-2'>
+                    <CheckCircle className='h-5 w-5 text-green-500' />
+                    <div>
+                      <div className='text-2xl font-bold'>
+                        {stats.completed}
+                      </div>
+                      <div className='text-sm text-muted-foreground'>
+                        Completed
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-2'>
+                    <AlertCircle className='h-5 w-5 text-yellow-500' />
+                    <div>
+                      <div className='text-2xl font-bold'>
+                        {stats.scheduled}
+                      </div>
+                      <div className='text-sm text-muted-foreground'>
+                        Scheduled
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-2'>
+                    <Users className='h-5 w-5 text-blue-500' />
+                    <div>
+                      <div className='text-2xl font-bold'>
+                        {stats.uniqueEmployees}
+                      </div>
+                      <div className='text-sm text-muted-foreground'>
+                        Employees
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className='glass-effect'>
+                <CardContent className='p-4'>
+                  <div className='flex items-center gap-2'>
+                    <Stethoscope className='h-5 w-5 text-purple-500' />
+                    <div>
+                      <div className='text-2xl font-bold'>
+                        {stats.appointmentTypes}
+                      </div>
+                      <div className='text-sm text-muted-foreground'>Types</div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Navigation */}
+            <Card className='glass-effect'>
+              <CardContent className='p-4'>
+                <div className='flex items-center justify-between'>
+                  <Button
+                    variant='outline'
+                    onClick={navigatePrevious}
+                    disabled={calendarLoading}
+                    className='hover-lift transition-all duration-200'
+                  >
+                    <ChevronLeft className='h-4 w-4 mr-1' />
+                    Previous
+                  </Button>
+
+                  <h2
+                    className={`text-xl font-semibold transition-all duration-300 ${isTransitioning ? 'opacity-50' : 'opacity-100'}`}
+                  >
+                    {getViewTitle()}
+                  </h2>
+
+                  <Button
+                    variant='outline'
+                    onClick={navigateNext}
+                    disabled={calendarLoading}
+                    className='hover-lift transition-all duration-200'
+                  >
+                    Next
+                    <ChevronRight className='h-4 w-4 ml-1' />
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Calendar View */}
+            <Card className='glass-effect'>
+              <CardContent className='p-0 relative'>
+                {/* Loading overlay for smooth transitions */}
+                {calendarLoading && (
+                  <div className='absolute inset-0 bg-background/80 backdrop-blur-sm z-10 flex items-center justify-center'>
+                    <div className='flex items-center gap-2 text-muted-foreground'>
+                      <div className='animate-spin rounded-full h-6 w-6 border-b-2 border-primary'></div>
+                      <span>Loading...</span>
+                    </div>
+                  </div>
                 )}
-              </div>
-            </div>
-          </div>
 
-          {/* Stats Cards */}
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4'>
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-2'>
-                  <CalendarDays className='h-5 w-5 text-primary' />
-                  <div>
-                    <div className='text-2xl font-bold'>{stats.total}</div>
-                    <div className='text-sm text-muted-foreground'>Total</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-2'>
-                  <CheckCircle className='h-5 w-5 text-green-500' />
-                  <div>
-                    <div className='text-2xl font-bold'>{stats.completed}</div>
-                    <div className='text-sm text-muted-foreground'>
-                      Completed
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-2'>
-                  <AlertCircle className='h-5 w-5 text-yellow-500' />
-                  <div>
-                    <div className='text-2xl font-bold'>{stats.scheduled}</div>
-                    <div className='text-sm text-muted-foreground'>
-                      Scheduled
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-2'>
-                  <Users className='h-5 w-5 text-blue-500' />
-                  <div>
-                    <div className='text-2xl font-bold'>
-                      {stats.uniqueEmployees}
-                    </div>
-                    <div className='text-sm text-muted-foreground'>
-                      Employees
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-2'>
-                  <Stethoscope className='h-5 w-5 text-purple-500' />
-                  <div>
-                    <div className='text-2xl font-bold'>
-                      {stats.appointmentTypes}
-                    </div>
-                    <div className='text-sm text-muted-foreground'>Types</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Navigation */}
-          <Card className='glass-effect'>
-            <CardContent className='p-4'>
-              <div className='flex items-center justify-between'>
-                <Button
-                  variant='outline'
-                  onClick={navigatePrevious}
-                  disabled={calendarLoading}
-                  className='hover-lift transition-all duration-200'
-                >
-                  <ChevronLeft className='h-4 w-4 mr-1' />
-                  Previous
-                </Button>
-
-                <h2
-                  className={`text-xl font-semibold transition-all duration-300 ${isTransitioning ? 'opacity-50' : 'opacity-100'}`}
-                >
-                  {getViewTitle()}
-                </h2>
-
-                <Button
-                  variant='outline'
-                  onClick={navigateNext}
-                  disabled={calendarLoading}
-                  className='hover-lift transition-all duration-200'
-                >
-                  Next
-                  <ChevronRight className='h-4 w-4 ml-1' />
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Calendar View */}
-          <Card className='glass-effect'>
-            <CardContent className='p-0 relative'>
-              {/* Loading overlay for smooth transitions */}
-              {calendarLoading && (
-                <div className='absolute inset-0 bg-background/80 backdrop-blur-sm z-10 flex items-center justify-center'>
-                  <div className='flex items-center gap-2 text-muted-foreground'>
-                    <div className='animate-spin rounded-full h-6 w-6 border-b-2 border-primary'></div>
-                    <span>Loading...</span>
-                  </div>
-                </div>
-              )}
-
-              {/* Calendar content with transition */}
-              <div
-                className={`transition-all duration-300 ${isTransitioning ? 'opacity-50 scale-95' : 'opacity-100 scale-100'}`}
-              >
-                {view === 'month' && renderMonthView()}
-                {view === 'week' && renderWeekView()}
-                {view === 'day' && renderDayView()}
-                {view === 'year' && renderYearView()}
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
-
-      {/* Appointment Details Modal */}
-      {selectedAppointment && (
-        <Dialog
-          open={!!selectedAppointment}
-          onOpenChange={() => setSelectedAppointment(null)}
-        >
-          <DialogContent className='sm:max-w-[500px]'>
-            <DialogHeader>
-              <DialogTitle className='flex items-center gap-2'>
+                {/* Calendar content with transition */}
                 <div
-                  className='w-4 h-4 rounded'
-                  style={{ backgroundColor: selectedAppointment.color }}
-                />
-                {selectedAppointment.type}
-              </DialogTitle>
-              <DialogDescription>
-                Appointment details and information
-              </DialogDescription>
-            </DialogHeader>
+                  className={`transition-all duration-300 ${isTransitioning ? 'opacity-50 scale-95' : 'opacity-100 scale-100'}`}
+                >
+                  {view === 'month' && renderMonthView()}
+                  {view === 'week' && renderWeekView()}
+                  {view === 'day' && renderDayView()}
+                  {view === 'year' && renderYearView()}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
 
-            <div className='space-y-4'>
-              {/* Employee Info */}
-              <div className='space-y-2'>
-                <h4 className='font-semibold flex items-center gap-2'>
-                  <User className='h-4 w-4' />
-                  Employee Information
-                </h4>
-                <div className='space-y-1 text-sm'>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Name:</span>
-                    <span>
-                      {selectedAppointment.employee_name}{' '}
-                      {selectedAppointment.employee_surname}
-                    </span>
+        {/* Appointment Details Modal */}
+        {selectedAppointment && (
+          <Dialog
+            open={!!selectedAppointment}
+            onOpenChange={() => setSelectedAppointment(null)}
+          >
+            <DialogContent className='sm:max-w-[500px]'>
+              <DialogHeader>
+                <DialogTitle className='flex items-center gap-2'>
+                  <div
+                    className='w-4 h-4 rounded'
+                    style={{ backgroundColor: selectedAppointment.color }}
+                  />
+                  {selectedAppointment.type}
+                </DialogTitle>
+                <DialogDescription>
+                  Appointment details and information
+                </DialogDescription>
+              </DialogHeader>
+
+              <div className='space-y-4'>
+                {/* Employee Info */}
+                <div className='space-y-2'>
+                  <h4 className='font-semibold flex items-center gap-2'>
+                    <User className='h-4 w-4' />
+                    Employee Information
+                  </h4>
+                  <div className='space-y-1 text-sm'>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Name:</span>
+                      <span>
+                        {selectedAppointment.employee_name}{' '}
+                        {selectedAppointment.employee_surname}
+                      </span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Email:</span>
+                      <span className='break-all'>
+                        {selectedAppointment.employee_email}
+                      </span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Mobile:</span>
+                      <span>
+                        {selectedAppointment.employee_mobile || 'N/A'}
+                      </span>
+                    </div>
                   </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Email:</span>
-                    <span className='break-all'>
-                      {selectedAppointment.employee_email}
-                    </span>
+                </div>
+
+                <Separator />
+
+                {/* Appointment Details */}
+                <div className='space-y-2'>
+                  <h4 className='font-semibold flex items-center gap-2'>
+                    <Clock className='h-4 w-4' />
+                    Appointment Details
+                  </h4>
+                  <div className='space-y-1 text-sm'>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Date:</span>
+                      <span>
+                        {format(selectedAppointment.start, 'MMMM d, yyyy')}
+                      </span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Time:</span>
+                      <span>
+                        {selectedAppointment.start_time} -{' '}
+                        {selectedAppointment.end_time}
+                      </span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Type:</span>
+                      <span>{selectedAppointment.type}</span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Status:</span>
+                      <Badge
+                        variant={
+                          selectedAppointment.status === 'completed'
+                            ? 'default'
+                            : 'secondary'
+                        }
+                      >
+                        {selectedAppointment.status === 'completed' ? (
+                          <CheckCircle className='h-3 w-3 mr-1' />
+                        ) : (
+                          <AlertCircle className='h-3 w-3 mr-1' />
+                        )}
+                        {selectedAppointment.status}
+                      </Badge>
+                    </div>
                   </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Mobile:</span>
-                    <span>{selectedAppointment.employee_mobile || 'N/A'}</span>
+                </div>
+
+                {selectedAppointment.notes && (
+                  <>
+                    <Separator />
+                    <div className='space-y-2'>
+                      <h4 className='font-semibold'>Notes</h4>
+                      <p className='text-sm text-muted-foreground bg-muted p-3 rounded-lg'>
+                        {selectedAppointment.notes}
+                      </p>
+                    </div>
+                  </>
+                )}
+
+                <Separator />
+
+                {/* System Info */}
+                <div className='space-y-2'>
+                  <h4 className='font-semibold text-xs uppercase tracking-wide text-muted-foreground'>
+                    System Information
+                  </h4>
+                  <div className='space-y-1 text-sm'>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Created by:</span>
+                      <span>
+                        {selectedAppointment.created_by_name || 'N/A'}
+                      </span>
+                    </div>
+                    <div className='flex justify-between'>
+                      <span className='text-muted-foreground'>Updated by:</span>
+                      <span>
+                        {selectedAppointment.updated_by_name || 'N/A'}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
+            </DialogContent>
+          </Dialog>
+        )}
 
-              <Separator />
+        {/* Selected Date Modal */}
+        {selectedDate && (
+          <Dialog
+            open={!!selectedDate}
+            onOpenChange={() => setSelectedDate(null)}
+          >
+            <DialogContent className='sm:max-w-[600px]'>
+              <DialogHeader>
+                <DialogTitle>
+                  {format(selectedDate, 'EEEE, MMMM d, yyyy')}
+                </DialogTitle>
+                <DialogDescription>
+                  {getAppointmentsForDate(selectedDate).length} appointments on
+                  this date
+                </DialogDescription>
+              </DialogHeader>
 
-              {/* Appointment Details */}
-              <div className='space-y-2'>
-                <h4 className='font-semibold flex items-center gap-2'>
-                  <Clock className='h-4 w-4' />
-                  Appointment Details
-                </h4>
-                <div className='space-y-1 text-sm'>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Date:</span>
-                    <span>
-                      {format(selectedAppointment.start, 'MMMM d, yyyy')}
-                    </span>
-                  </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Time:</span>
-                    <span>
-                      {selectedAppointment.start_time} -{' '}
-                      {selectedAppointment.end_time}
-                    </span>
-                  </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Type:</span>
-                    <span>{selectedAppointment.type}</span>
-                  </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Status:</span>
-                    <Badge
-                      variant={
-                        selectedAppointment.status === 'completed'
-                          ? 'default'
-                          : 'secondary'
-                      }
-                    >
-                      {selectedAppointment.status === 'completed' ? (
-                        <CheckCircle className='h-3 w-3 mr-1' />
-                      ) : (
-                        <AlertCircle className='h-3 w-3 mr-1' />
-                      )}
-                      {selectedAppointment.status}
-                    </Badge>
-                  </div>
-                </div>
-              </div>
-
-              {selectedAppointment.notes && (
-                <>
-                  <Separator />
-                  <div className='space-y-2'>
-                    <h4 className='font-semibold'>Notes</h4>
-                    <p className='text-sm text-muted-foreground bg-muted p-3 rounded-lg'>
-                      {selectedAppointment.notes}
+              <div className='space-y-4 max-h-[400px] overflow-y-auto'>
+                {getAppointmentsForDate(selectedDate).length === 0 ? (
+                  <div className='text-center py-8'>
+                    <CalendarDays className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                    <p className='text-muted-foreground'>
+                      No appointments scheduled for this date
                     </p>
                   </div>
-                </>
-              )}
-
-              <Separator />
-
-              {/* System Info */}
-              <div className='space-y-2'>
-                <h4 className='font-semibold text-xs uppercase tracking-wide text-muted-foreground'>
-                  System Information
-                </h4>
-                <div className='space-y-1 text-sm'>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Created by:</span>
-                    <span>{selectedAppointment.created_by_name || 'N/A'}</span>
-                  </div>
-                  <div className='flex justify-between'>
-                    <span className='text-muted-foreground'>Updated by:</span>
-                    <span>{selectedAppointment.updated_by_name || 'N/A'}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </DialogContent>
-        </Dialog>
-      )}
-
-      {/* Selected Date Modal */}
-      {selectedDate && (
-        <Dialog
-          open={!!selectedDate}
-          onOpenChange={() => setSelectedDate(null)}
-        >
-          <DialogContent className='sm:max-w-[600px]'>
-            <DialogHeader>
-              <DialogTitle>
-                {format(selectedDate, 'EEEE, MMMM d, yyyy')}
-              </DialogTitle>
-              <DialogDescription>
-                {getAppointmentsForDate(selectedDate).length} appointments on
-                this date
-              </DialogDescription>
-            </DialogHeader>
-
-            <div className='space-y-4 max-h-[400px] overflow-y-auto'>
-              {getAppointmentsForDate(selectedDate).length === 0 ? (
-                <div className='text-center py-8'>
-                  <CalendarDays className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
-                  <p className='text-muted-foreground'>
-                    No appointments scheduled for this date
-                  </p>
-                </div>
-              ) : (
-                getAppointmentsForDate(selectedDate).map(apt => (
-                  <div
-                    key={apt.id}
-                    className='p-4 rounded-lg border cursor-pointer hover:bg-muted/50 transition-colors'
-                    onClick={() => {
-                      setSelectedDate(null);
-                      setSelectedAppointment(apt);
-                    }}
-                  >
-                    <div className='flex items-center justify-between'>
-                      <div className='flex items-center gap-3'>
-                        <div
-                          className='w-4 h-4 rounded'
-                          style={{ backgroundColor: apt.color }}
-                        />
-                        <div>
-                          <div className='font-medium'>
-                            {apt.employee_name} {apt.employee_surname}
-                          </div>
-                          <div className='text-sm text-muted-foreground'>
-                            {apt.type}
+                ) : (
+                  getAppointmentsForDate(selectedDate).map(apt => (
+                    <div
+                      key={apt.id}
+                      className='p-4 rounded-lg border cursor-pointer hover:bg-muted/50 transition-colors'
+                      onClick={() => {
+                        setSelectedDate(null);
+                        setSelectedAppointment(apt);
+                      }}
+                    >
+                      <div className='flex items-center justify-between'>
+                        <div className='flex items-center gap-3'>
+                          <div
+                            className='w-4 h-4 rounded'
+                            style={{ backgroundColor: apt.color }}
+                          />
+                          <div>
+                            <div className='font-medium'>
+                              {apt.employee_name} {apt.employee_surname}
+                            </div>
+                            <div className='text-sm text-muted-foreground'>
+                              {apt.type}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className='text-right'>
-                        <div className='text-sm font-medium'>
-                          {apt.start_time} - {apt.end_time}
+                        <div className='text-right'>
+                          <div className='text-sm font-medium'>
+                            {apt.start_time} - {apt.end_time}
+                          </div>
+                          <Badge
+                            variant={
+                              apt.status === 'completed'
+                                ? 'default'
+                                : 'secondary'
+                            }
+                            className='text-xs'
+                          >
+                            {apt.status}
+                          </Badge>
                         </div>
-                        <Badge
-                          variant={
-                            apt.status === 'completed' ? 'default' : 'secondary'
-                          }
-                          className='text-xs'
-                        >
-                          {apt.status}
-                        </Badge>
                       </div>
                     </div>
-                  </div>
-                ))
-              )}
-            </div>
-          </DialogContent>
-        </Dialog>
-      )}
-    </DashboardLayout>
+                  ))
+                )}
+              </div>
+            </DialogContent>
+          </Dialog>
+        )}
+      </DashboardLayout>
+    </ProtectedRoute>
   );
 }

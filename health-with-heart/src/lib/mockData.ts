@@ -1,13 +1,11 @@
 // Mock data based on OHMS database structure
-import { 
-  Employee, 
-  Appointment, 
-  MedicalReport, 
-  DashboardStats, 
+import {
+  Employee,
+  DashboardStats,
   ReportStatusData,
   ValidationError,
   MonthlyStats,
-  WorkplaceHealth 
+  WorkplaceHealth,
 } from '@/types';
 
 export const mockEmployees: Employee[] = [
@@ -18,7 +16,7 @@ export const mockEmployees: Employee[] = [
     date_created: new Date('2024-01-15'),
     employee_number: 'EMP001',
     mobile_number: '0821234567',
-    work_email: 'john.smith@company.co.za'
+    work_email: 'john.smith@company.co.za',
   },
   {
     id: '2',
@@ -27,7 +25,7 @@ export const mockEmployees: Employee[] = [
     date_created: new Date('2024-02-10'),
     employee_number: 'EMP002',
     mobile_number: '0827654321',
-    work_email: 'sarah.johnson@company.co.za'
+    work_email: 'sarah.johnson@company.co.za',
   },
   {
     id: '3',
@@ -36,11 +34,11 @@ export const mockEmployees: Employee[] = [
     date_created: new Date('2024-01-20'),
     employee_number: 'EMP003',
     mobile_number: '0829876543',
-    work_email: 'michael.brown@company.co.za'
-  }
+    work_email: 'michael.brown@company.co.za',
+  },
 ];
 
-export const mockAppointments: any[] = [
+export const mockAppointments: unknown[] = [
   {
     id: '1',
     date_created: new Date('2024-08-18'),
@@ -49,7 +47,7 @@ export const mockAppointments: any[] = [
     type: 'Pre-employment Medical',
     start_datetime: new Date('2024-08-18T09:00:00'),
     end_datetime: new Date('2024-08-18T10:00:00'),
-    notes: 'Initial screening'
+    notes: 'Initial screening',
   },
   {
     id: '2',
@@ -58,7 +56,7 @@ export const mockAppointments: any[] = [
     type: 'Annual Medical',
     start_datetime: new Date('2024-08-18T10:30:00'),
     end_datetime: new Date('2024-08-18T11:30:00'),
-    notes: 'Routine annual check'
+    notes: 'Routine annual check',
   },
   {
     id: '3',
@@ -67,11 +65,11 @@ export const mockAppointments: any[] = [
     report_id: '2',
     type: 'Occupational Health',
     start_datetime: new Date('2024-08-18T14:00:00'),
-    end_datetime: new Date('2024-08-18T15:00:00')
-  }
+    end_datetime: new Date('2024-08-18T15:00:00'),
+  },
 ];
 
-export const mockMedicalReports: any[] = [
+export const mockMedicalReports: unknown[] = [
   {
     id: '1',
     date_created: new Date('2024-08-17'),
@@ -84,7 +82,7 @@ export const mockMedicalReports: any[] = [
     nurse_signature: 'M.Johnson',
     report_work_status: 'Fit for work',
     notes_text: 'Employee is in good health',
-    recommendation_text: 'Continue normal duties'
+    recommendation_text: 'Continue normal duties',
   },
   {
     id: '2',
@@ -97,7 +95,7 @@ export const mockMedicalReports: any[] = [
     nurse_signature: 'K.Williams',
     report_work_status: 'Fit with restrictions',
     notes_text: 'Minor hearing loss detected',
-    recommendation_text: 'Use hearing protection'
+    recommendation_text: 'Use hearing protection',
   },
   {
     id: '3',
@@ -109,15 +107,15 @@ export const mockMedicalReports: any[] = [
     nurse: 'Sister Anna',
     nurse_signature: 'A.Davis',
     report_work_status: 'Fit for work',
-    notes_text: 'All vitals normal'
-  }
+    notes_text: 'All vitals normal',
+  },
 ];
 
 export const mockDashboardStats: DashboardStats = {
   todayAppointments: 8,
   completedReports: 156,
   pendingSignatures: 12,
-  activeDoctors: 4
+  activeDoctors: 4,
 };
 
 export const mockReportStatus: ReportStatusData[] = [
@@ -126,29 +124,29 @@ export const mockReportStatus: ReportStatusData[] = [
     total_reports: 45,
     signed_reports: 42,
     pending_signature: 3,
-    completion_percentage: 93.33
+    completion_percentage: 93.33,
   },
   {
     report_type: 'Annual Medical',
     total_reports: 78,
     signed_reports: 71,
     pending_signature: 7,
-    completion_percentage: 91.03
+    completion_percentage: 91.03,
   },
   {
     report_type: 'Occupational Health',
     total_reports: 33,
     signed_reports: 31,
     pending_signature: 2,
-    completion_percentage: 93.94
+    completion_percentage: 93.94,
   },
   {
     report_type: 'Mental Health Assessment',
     total_reports: 12,
     signed_reports: 10,
     pending_signature: 2,
-    completion_percentage: 83.33
-  }
+    completion_percentage: 83.33,
+  },
 ];
 
 export const mockValidationErrors: ValidationError[] = [
@@ -156,20 +154,20 @@ export const mockValidationErrors: ValidationError[] = [
     report_id: '4',
     employee_name: 'Lisa Anderson',
     type: 'Annual Medical',
-    errors: ['Missing Doctor Signoff', 'Missing Work Status']
+    errors: ['Missing Doctor Signoff', 'Missing Work Status'],
   },
   {
     report_id: '5',
     employee_name: 'James Wilson',
     type: 'Pre-employment Medical',
-    errors: ['Missing Nurse Signature']
+    errors: ['Missing Nurse Signature'],
   },
   {
     report_id: '6',
     employee_name: 'Emma Thompson',
     type: 'Occupational Health',
-    errors: ['Missing Doctor', 'Missing Work Status']
-  }
+    errors: ['Missing Doctor', 'Missing Work Status'],
+  },
 ];
 
 export const mockMonthlyStats: MonthlyStats[] = [
@@ -178,29 +176,29 @@ export const mockMonthlyStats: MonthlyStats[] = [
     reports_created: 168,
     unique_employees: 142,
     doctors_involved: 4,
-    avg_completion_days: 2.1
+    avg_completion_days: 2.1,
   },
   {
     month: '2024-07',
     reports_created: 152,
     unique_employees: 134,
     doctors_involved: 3,
-    avg_completion_days: 2.3
+    avg_completion_days: 2.3,
   },
   {
     month: '2024-06',
     reports_created: 143,
     unique_employees: 128,
     doctors_involved: 4,
-    avg_completion_days: 1.9
+    avg_completion_days: 1.9,
   },
   {
     month: '2024-05',
     reports_created: 159,
     unique_employees: 145,
     doctors_involved: 4,
-    avg_completion_days: 2.0
-  }
+    avg_completion_days: 2.0,
+  },
 ];
 
 export const mockWorkplaceHealth: WorkplaceHealth[] = [
@@ -210,7 +208,7 @@ export const mockWorkplaceHealth: WorkplaceHealth[] = [
     total_employees: 85,
     medical_reports: 78,
     fit_for_work: 72,
-    not_fit: 6
+    not_fit: 6,
   },
   {
     organisation_id: 'ORG001',
@@ -218,7 +216,7 @@ export const mockWorkplaceHealth: WorkplaceHealth[] = [
     total_employees: 32,
     medical_reports: 30,
     fit_for_work: 29,
-    not_fit: 1
+    not_fit: 1,
   },
   {
     organisation_id: 'ORG002',
@@ -226,7 +224,7 @@ export const mockWorkplaceHealth: WorkplaceHealth[] = [
     total_employees: 124,
     medical_reports: 118,
     fit_for_work: 95,
-    not_fit: 23
+    not_fit: 23,
   },
   {
     organisation_id: 'ORG002',
@@ -234,6 +232,6 @@ export const mockWorkplaceHealth: WorkplaceHealth[] = [
     total_employees: 18,
     medical_reports: 18,
     fit_for_work: 18,
-    not_fit: 0
-  }
+    not_fit: 0,
+  },
 ];

@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
@@ -32,10 +33,7 @@ import {
   Database,
   TestTube2,
   AlertTriangle,
-  Venus,
-  Mars,
 } from 'lucide-react';
-import { useEffect, useState } from 'react';
 
 interface MenuItem {
   title: string;
@@ -62,7 +60,7 @@ const menuSections: MenuSection[] = [
       },
       {
         title: 'Dashboard',
-        href: '/',
+        href: '/dashboard',
         icon: LayoutDashboard,
         description: 'Main dashboard overview',
       },
@@ -102,12 +100,6 @@ const menuSections: MenuSection[] = [
         description: 'Vital signs and clinical metrics',
       },
       {
-        title: 'Vital Statistics',
-        href: '/vital-statistics',
-        icon: Activity,
-        description: 'Vital signs and health metrics',
-      },
-      {
         title: 'Medical Assessments',
         href: '/assessments',
         icon: ClipboardList,
@@ -124,18 +116,6 @@ const menuSections: MenuSection[] = [
         href: '/lifestyle',
         icon: Activity,
         description: 'Lifestyle assessments and health habits',
-      },
-      {
-        title: 'Mens Health',
-        href: '/mens-health',
-        icon: Mars,
-        description: "Men's health assessments and screenings",
-      },
-      {
-        title: 'Womens Health',
-        href: '/womens-health',
-        icon: Venus,
-        description: "Women's health assessments and screenings",
       },
       {
         title: 'Special Investigations',
@@ -165,18 +145,6 @@ const menuSections: MenuSection[] = [
         href: '/employees',
         icon: Users,
         description: 'Employee records and information',
-      },
-      {
-        title: 'Users',
-        href: '/users',
-        icon: UserCheck,
-        description: 'System users and accounts',
-      },
-      {
-        title: 'User Profiles',
-        href: '/user-profile',
-        icon: UserCog,
-        description: 'Detailed user profiles and management',
       },
       {
         title: 'Managers',
@@ -236,6 +204,12 @@ const menuSections: MenuSection[] = [
         icon: Bell,
         badge: '3',
         description: 'System alerts and notifications',
+      },
+      {
+        title: 'Data Management',
+        href: '/data',
+        icon: Database,
+        description: 'Data import/export and backup',
       },
       {
         title: 'Settings',
@@ -300,7 +274,7 @@ export default function Sidebar({ className }: SidebarProps) {
   return (
     <div
       className={cn(
-        'fixed left-0 top-0 z-50 flex flex-col h-screen border-r transition-all duration-300 overflow-hidden',
+        'flex flex-col h-screen border-r transition-all duration-300 overflow-hidden',
         'bg-gradient-to-b from-[rgba(86,150,157,0.02)] to-[rgba(182,217,206,0.01)]',
         isCollapsed ? 'w-16' : 'w-64',
         className
@@ -354,7 +328,7 @@ export default function Sidebar({ className }: SidebarProps) {
 
       {/* Navigation */}
       <div className='flex-1 overflow-y-auto overflow-x-hidden py-4 scrollbar-thin'>
-        <nav className='space-y-6 w-full'>
+        <nav className='space-y-6'>
           {menuSections.map((section, sectionIndex) => (
             <div key={section.title}>
               {!isCollapsed && (
@@ -375,7 +349,7 @@ export default function Sidebar({ className }: SidebarProps) {
                 </div>
               )}
 
-              <div className='space-y-1 px-2 w-full'>
+              <div className='space-y-1 px-2'>
                 {section.items.map(item => {
                   const Icon = item.icon;
                   const active = isActive(item.href);
@@ -451,7 +425,7 @@ export default function Sidebar({ className }: SidebarProps) {
                     >
                       <div
                         className={cn(
-                          'flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all hover:bg-muted/50 group',
+                          'flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all group',
                           colors.hoverBg,
                           colors.hoverText,
                           active &&
@@ -470,15 +444,13 @@ export default function Sidebar({ className }: SidebarProps) {
 
                         {!isCollapsed && (
                           <>
-                            <div className='flex-1 min-w-0 overflow-hidden'>
-                              <div className='flex items-center justify-between w-full'>
-                                <span className='truncate flex-1'>
-                                  {item.title}
-                                </span>
+                            <div className='flex-1 min-w-0'>
+                              <div className='flex items-center justify-between'>
+                                <span className='truncate'>{item.title}</span>
                                 {item.badge && (
                                   <Badge
                                     variant='secondary'
-                                    className='ml-2 h-5 px-2 text-xs flex-shrink-0'
+                                    className='ml-2 h-5 px-2 text-xs'
                                   >
                                     {item.badge}
                                   </Badge>

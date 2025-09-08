@@ -24,6 +24,7 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import DashboardLayout from '@/components/DashboardLayout';
+import ProtectedRoute from '@/components/ProtectedRoute';
 import Employee360View from '@/components/Employee360View';
 import EmployeeModuleProgress from '@/components/EmployeeModuleProgress';
 import EmployeeDocuments from '@/components/EmployeeDocuments';
@@ -54,6 +55,7 @@ import {
   UserCheck,
   Plus,
 } from 'lucide-react';
+import { PageLoading } from '@/components/ui/loading';
 
 interface PaginationInfo {
   page: number;
@@ -95,8 +97,14 @@ function EmployeesPageContent() {
   const [selectedEmployee, setSelectedEmployee] = useState<Employee | null>(
     null
   );
-  const [leftWidth, setLeftWidth] = useRouteState<number>('leftPanelWidth', 40, { scope: 'path' });
-  const [selectedEmployeeId, setSelectedEmployeeId] = useRouteState<string | null>('selectedEmployeeId', null, { scope: 'path' });
+  const [leftWidth, setLeftWidth] = useRouteState<number>(
+    'leftPanelWidth',
+    40,
+    { scope: 'path' }
+  );
+  const [selectedEmployeeId, setSelectedEmployeeId] = useRouteState<
+    string | null
+  >('selectedEmployeeId', null, { scope: 'path' });
   const [isResizing, setIsResizing] = useState(false);
 
   // Fetch all employees data once - now filtered to Executive Medical employees only
@@ -367,132 +375,503 @@ function EmployeesPageContent() {
 
   if (loading) {
     return (
-      <div className='min-h-screen bg-background flex items-center justify-center'>
-        <Card className='w-96'>
-          <CardContent className='flex items-center justify-center py-12'>
-            <div className='text-center space-y-4'>
-              <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto'></div>
-              <p className='text-muted-foreground'>Loading employees...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      <ProtectedRoute>
+        <DashboardLayout>
+          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+            <Card>
+              <CardContent>
+                <PageLoading
+                  text='Loading Employees'
+                  subtitle='Fetching employee data from OHMS database...'
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </DashboardLayout>
+      </ProtectedRoute>
     );
   }
 
   return (
-    <DashboardLayout>
-      <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        {/* Back Button and Filter Info */}
-        {(returnUrl || organizationFilter) && (
-          <div className='mb-6'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(decodeURIComponent(returnUrl))}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
-                  Back to{' '}
-                  {returnUrl === '/organizations'
-                    ? 'Organizations'
-                    : 'Previous Page'}
-                </Button>
-              )}
-
-              {organizationFilter && organizationName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <Building2 className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(organizationName)}
-                  </Badge>
+    <ProtectedRoute>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
+          {/* Back Button and Filter Info */}
+          {(returnUrl || organizationFilter) && (
+            <div className='mb-6'>
+              <div className='flex items-center gap-4'>
+                {returnUrl && (
                   <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('organization');
-                      params.delete('organizationName');
-                      router.push(`/employees?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
+                    variant='outline'
+                    onClick={() => router.push(decodeURIComponent(returnUrl))}
+                    className='flex items-center gap-2'
                   >
-                    <X className='h-3 w-3' />
+                    <ArrowLeft className='h-4 w-4' />
+                    Back to{' '}
+                    {returnUrl === '/organizations'
+                      ? 'Organizations'
+                      : 'Previous Page'}
                   </Button>
-                </div>
-              )}
+                )}
+
+                {organizationFilter && organizationName && (
+                  <div className='flex items-center gap-2'>
+                    <Badge
+                      variant='outline'
+                      className='bg-blue-50 text-blue-700 border-blue-200'
+                    >
+                      <Building2 className='h-3 w-3 mr-1' />
+                      Filtered by: {decodeURIComponent(organizationName)}
+                    </Badge>
+                    <Button
+                      variant='ghost'
+                      size='sm'
+                      onClick={() => {
+                        const params = new URLSearchParams(
+                          searchParams.toString()
+                        );
+                        params.delete('organization');
+                        params.delete('organizationName');
+                        router.push(`/employees?${params.toString()}`);
+                      }}
+                      className='h-6 w-6 p-0'
+                    >
+                      <X className='h-3 w-3' />
+                    </Button>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-                        {/* Search */}
-                        <Card className='glass-effect mb-6'>
-                  <CardContent className='p-4'>
-                    <form onSubmit={handleSearch} className='flex gap-4'>
-                      <div className='flex-1 relative'>
-                        <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                        <Input
-                          type='text'
-                          value={searchTerm}
-                          onChange={e => setSearchTerm(e.target.value)}
-                          placeholder='Search by name, employee number, email...'
-                          className='pl-9'
+          {/* Search */}
+          <Card className='glass-effect mb-6'>
+            <CardContent className='p-4'>
+              <form onSubmit={handleSearch} className='flex gap-4'>
+                <div className='flex-1 relative'>
+                  <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                  <Input
+                    type='text'
+                    value={searchTerm}
+                    onChange={e => setSearchTerm(e.target.value)}
+                    placeholder='Search by name, employee number, email...'
+                    className='pl-9'
+                  />
+                </div>
+                <Button type='submit' className='hover-lift'>
+                  Search
+                </Button>
+                {searchTerm && (
+                  <Button
+                    type='button'
+                    variant='outline'
+                    onClick={() => {
+                      setSearchTerm('');
+                      updateURL(1, '');
+                    }}
+                    className='hover-lift'
+                  >
+                    Clear
+                  </Button>
+                )}
+              </form>
+            </CardContent>
+          </Card>
+
+          {selectedEmployee ? (
+            <>
+              <ResizablePanels
+                leftPanel={
+                  <div className='space-y-4 animate-slide-up pr-3'>
+                    {/* Employees Table */}
+                    <Card className='hover-lift'>
+                      <CardHeader>
+                        <div className='flex items-center justify-between'>
+                          <div>
+                            <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                              <Users className='h-6 w-6' />
+                              Employees ({pagination.total})
+                            </CardTitle>
+                            <CardDescription>
+                              Employee records and information
+                            </CardDescription>
+                          </div>
+                          <Button
+                            className={`hover-lift ${selectedEmployee ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                            title={
+                              selectedEmployee ? 'Add Employee' : undefined
+                            }
+                          >
+                            <Plus
+                              className={`h-4 w-4 ${selectedEmployee ? '' : 'mr-2'}`}
+                            />
+                            {!selectedEmployee && 'Add Employee'}
+                          </Button>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        {displayedEmployees.length === 0 ? (
+                          <div className='text-center py-12'>
+                            <User className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                            <h3 className='text-lg font-medium text-foreground mb-2'>
+                              No employees found
+                            </h3>
+                            <p className='text-muted-foreground'>
+                              {searchTerm
+                                ? 'Try adjusting your search criteria.'
+                                : 'No employees available.'}
+                            </p>
+                          </div>
+                        ) : (
+                          <div className='max-h-[calc(100vh-300px)] overflow-auto scrollbar-premium'>
+                            <Table>
+                              <TableHeader>
+                                <TableRow>
+                                  <TableHead>Employee</TableHead>
+                                  <TableHead>Employee ID</TableHead>
+                                  <TableHead>Employee Number</TableHead>
+                                  <TableHead>Work Email</TableHead>
+                                  <TableHead>Gender</TableHead>
+                                  <TableHead>Date of Birth</TableHead>
+                                </TableRow>
+                              </TableHeader>
+                              <TableBody
+                                className={`table-transition ${pageTransitioning ? 'transitioning' : ''}`}
+                              >
+                                {displayedEmployees.map(employee => (
+                                  <TableRow
+                                    key={employee.id}
+                                    className={`cursor-pointer transition-colors hover:bg-muted/50 ${
+                                      selectedEmployee?.id === employee.id
+                                        ? 'bg-muted border-l-4 border-l-primary'
+                                        : ''
+                                    }`}
+                                    onClick={() =>
+                                      handleEmployeeClick(employee)
+                                    }
+                                  >
+                                    <TableCell>
+                                      <div>
+                                        <div className='font-medium'>
+                                          {employee.name} {employee.surname}
+                                        </div>
+                                        <div className='text-sm text-muted-foreground'>
+                                          {employee.mobile_number}
+                                        </div>
+                                      </div>
+                                    </TableCell>
+                                    <TableCell className='text-sm font-mono'>
+                                      {employee.id || 'N/A'}
+                                    </TableCell>
+                                    <TableCell>
+                                      <Badge variant='outline'>
+                                        {employee.employee_number || 'N/A'}
+                                      </Badge>
+                                    </TableCell>
+                                    <TableCell className='text-sm'>
+                                      {employee.work_email || 'N/A'}
+                                    </TableCell>
+                                    <TableCell>
+                                      <Badge variant='secondary'>
+                                        {employee.gender || 'N/A'}
+                                      </Badge>
+                                    </TableCell>
+                                    <TableCell className='text-sm'>
+                                      {formatDate(employee.date_of_birth)}
+                                    </TableCell>
+                                  </TableRow>
+                                ))}
+                              </TableBody>
+                            </Table>
+                          </div>
+                        )}
+
+                        {/* Pagination */}
+                        {pagination.totalPages > 1 && (
+                          <div className='flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t gap-2'>
+                            <div className='text-sm text-muted-foreground'>
+                              Showing{' '}
+                              {(pagination.page - 1) * pagination.limit + 1} to{' '}
+                              {Math.min(
+                                pagination.page * pagination.limit,
+                                pagination.total
+                              )}{' '}
+                              of {pagination.total} results
+                            </div>
+                            <div className='flex items-center space-x-1 flex-wrap'>
+                              {/* First Page */}
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                onClick={() => handlePageChange(1)}
+                                disabled={pagination.page === 1}
+                                className='hover-lift'
+                                title='Go to first page'
+                              >
+                                <ChevronsLeft className='h-4 w-4' />
+                                <span
+                                  className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                                >
+                                  First
+                                </span>
+                              </Button>
+
+                              {/* Previous Page */}
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                onClick={() =>
+                                  handlePageChange(pagination.page - 1)
+                                }
+                                disabled={!pagination.hasPreviousPage}
+                                className='hover-lift'
+                                title='Go to previous page'
+                              >
+                                <ChevronLeft className='h-4 w-4' />
+                                <span
+                                  className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
+                                >
+                                  Previous
+                                </span>
+                              </Button>
+
+                              {/* Page Numbers */}
+                              {Array.from(
+                                {
+                                  length: Math.min(
+                                    selectedEmployee && leftWidth < 50 ? 3 : 5,
+                                    pagination.totalPages
+                                  ),
+                                },
+                                (_, i) => {
+                                  const startPage = Math.max(
+                                    1,
+                                    pagination.page -
+                                      (selectedEmployee && leftWidth < 50
+                                        ? 1
+                                        : 2)
+                                  );
+                                  const page = startPage + i;
+                                  if (page > pagination.totalPages) return null;
+
+                                  return (
+                                    <Button
+                                      key={`employees-page-${page}`}
+                                      variant={
+                                        page === pagination.page
+                                          ? 'default'
+                                          : 'outline'
+                                      }
+                                      size='sm'
+                                      onClick={() => handlePageChange(page)}
+                                      className='hover-lift min-w-[40px]'
+                                      title={`Go to page ${page}`}
+                                    >
+                                      {page}
+                                    </Button>
+                                  );
+                                }
+                              )}
+
+                              {/* Next Page */}
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                onClick={() =>
+                                  handlePageChange(pagination.page + 1)
+                                }
+                                disabled={!pagination.hasNextPage}
+                                className='hover-lift'
+                                title='Go to next page'
+                              >
+                                <span
+                                  className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                                >
+                                  Next
+                                </span>
+                                <ChevronRight className='h-4 w-4' />
+                              </Button>
+
+                              {/* Last Page */}
+                              <Button
+                                variant='outline'
+                                size='sm'
+                                onClick={() =>
+                                  handlePageChange(pagination.totalPages)
+                                }
+                                disabled={
+                                  pagination.page === pagination.totalPages
+                                }
+                                className='hover-lift'
+                                title='Go to last page'
+                              >
+                                <span
+                                  className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
+                                >
+                                  Last
+                                </span>
+                                <ChevronsRight className='h-4 w-4' />
+                              </Button>
+                            </div>
+                          </div>
+                        )}
+                      </CardContent>
+                    </Card>
+                  </div>
+                }
+                rightPanel={
+                  <div className='space-y-4 animate-slide-up pl-3'>
+                    <Card className='glass-effect'>
+                      <CardHeader className='pb-3'>
+                        <div className='flex justify-between items-start'>
+                          <div className='space-y-1'>
+                            <CardTitle className='text-2xl medical-heading'>
+                              {selectedEmployee.name} {selectedEmployee.surname}
+                            </CardTitle>
+                            <CardDescription className='flex items-center gap-2'>
+                              <Badge variant='outline'>
+                                {selectedEmployee.employee_number}
+                              </Badge>
+                              <Badge variant='secondary'>
+                                {selectedEmployee.gender}
+                              </Badge>
+                            </CardDescription>
+                            {/* Last Updated Information */}
+                            <div className='text-xs text-muted-foreground mt-2'>
+                              <span>Last updated by </span>
+                              <span className='font-medium'>
+                                {selectedEmployee.user_updated || 'Unknown'}
+                              </span>
+                              <span> on </span>
+                              <span className='font-medium'>
+                                {selectedEmployee.date_updated
+                                  ? new Date(
+                                      selectedEmployee.date_updated
+                                    ).toLocaleString()
+                                  : 'Unknown'}
+                              </span>
+                            </div>
+                          </div>
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() => {
+                              setSelectedEmployee(null);
+                              setSelectedEmployeeId(null);
+                            }}
+                            className='hover-lift'
+                          >
+                            <X className='h-4 w-4' />
+                          </Button>
+                        </div>
+
+                        {/* Module Completion Progress */}
+                        <div className='mt-4 pt-3 border-t border-border/50'>
+                          <EmployeeModuleProgress
+                            employeeId={selectedEmployee.id}
+                            employee={selectedEmployee}
+                          />
+                        </div>
+                      </CardHeader>
+                      <CardContent className='max-h-[475px] overflow-y-auto scrollbar-premium'>
+                        <Employee360View
+                          employeeId={selectedEmployee.id}
+                          employee={selectedEmployee}
                         />
-                      </div>
-                      <Button type='submit' className='hover-lift'>
-                        Search
-                      </Button>
-                      {searchTerm && (
-                        <Button
-                          type='button'
-                          variant='outline'
-                          onClick={() => {
-                            setSearchTerm('');
-                            updateURL(1, '');
-                          }}
-                          className='hover-lift'
-                        >
-                          Clear
-                        </Button>
-                      )}
-                    </form>
-                  </CardContent>
-                </Card>
+                      </CardContent>
+                    </Card>
+                  </div>
+                }
+                className='min-h-[600px]'
+                defaultLeftWidth={40}
+                minLeftWidth={25}
+                maxLeftWidth={75}
+              />
 
-        {selectedEmployee ? (
-          <>
-            <ResizablePanels
-            leftPanel={
-              <div className='space-y-4 animate-slide-up pr-3'>
+              {/* Treatment Plans Card */}
+              <Card className='glass-effect mt-6'>
+                <CardHeader>
+                  <CardTitle className='text-lg'>Treatment Plans</CardTitle>
+                  <CardDescription>
+                    Medical treatment recommendations and action items
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <EmployeeTreatmentPlans
+                    employeeId={selectedEmployee.id}
+                    employee={selectedEmployee}
+                  />
+                </CardContent>
+              </Card>
 
+              {/* Two Column Layout for Other Sections */}
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6'>
+                {/* Left Column */}
+                <div className='space-y-4'>
+                  {/* Employee Documents Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeDocuments employeeId={selectedEmployee.id} />
+                    </CardContent>
+                  </Card>
 
+                  {/* Employee Complaints Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeComplaints employeeId={selectedEmployee.id} />
+                    </CardContent>
+                  </Card>
+
+                  {/* Infectious Disease Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeInfectiousDisease
+                        employeeId={selectedEmployee.id}
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+
+                {/* Right Column */}
+                <div className='space-y-4'>
+                  {/* Emergency Responses Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeEmergencyResponses
+                        employeeId={selectedEmployee.id}
+                      />
+                    </CardContent>
+                  </Card>
+
+                  {/* Assessments Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeAssessments employeeId={selectedEmployee.id} />
+                    </CardContent>
+                  </Card>
+
+                  {/* TB Screening Card */}
+                  <Card className='glass-effect'>
+                    <CardContent className='p-4'>
+                      <EmployeeTBScreening employeeId={selectedEmployee.id} />
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+            </>
+          ) : (
+            <div className='min-h-[600px]'>
+              <div className='space-y-4 animate-slide-up'>
                 {/* Employees Table */}
                 <Card className='hover-lift'>
                   <CardHeader>
-                    <div className='flex items-center justify-between'>
-                      <div>
-                        <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                          <Users className='h-6 w-6' />
-                          Employees ({pagination.total})
-                        </CardTitle>
-                        <CardDescription>
-                          Employee records and information
-                        </CardDescription>
-                      </div>
-                      <Button 
-                        className={`hover-lift ${selectedEmployee ? 'rounded-full w-10 h-10 p-0' : ''}`}
-                        title={selectedEmployee ? 'Add Employee' : undefined}
-                      >
-                        <Plus className={`h-4 w-4 ${selectedEmployee ? '' : 'mr-2'}`} />
-                        {!selectedEmployee && 'Add Employee'}
-                      </Button>
-                    </div>
+                    <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
+                      <Users className='h-6 w-6' />
+                      Employees ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Employee records and information
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     {displayedEmployees.length === 0 ? (
@@ -569,482 +948,139 @@ function EmployeesPageContent() {
                       </div>
                     )}
 
-                {/* Pagination */}
-                {pagination.totalPages > 1 && (
-                  <div className='flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t gap-2'>
-                    <div className='text-sm text-muted-foreground'>
-                      Showing {(pagination.page - 1) * pagination.limit + 1} to{' '}
-                      {Math.min(
-                        pagination.page * pagination.limit,
-                        pagination.total
-                      )}{' '}
-                      of {pagination.total} results
-                    </div>
-                    <div className='flex items-center space-x-1 flex-wrap'>
-                      {/* First Page */}
-                      <Button
-                        variant='outline'
-                        size='sm'
-                        onClick={() => handlePageChange(1)}
-                        disabled={pagination.page === 1}
-                        className='hover-lift'
-                        title='Go to first page'
-                      >
-                        <ChevronsLeft className='h-4 w-4' />
-                        <span
-                          className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        >
-                          First
-                        </span>
-                      </Button>
+                    {/* Pagination */}
+                    {pagination.totalPages > 1 && (
+                      <div className='flex items-center justify-between pt-4 border-t'>
+                        <div className='text-sm text-muted-foreground'>
+                          Showing {(pagination.page - 1) * pagination.limit + 1}{' '}
+                          to{' '}
+                          {Math.min(
+                            pagination.page * pagination.limit,
+                            pagination.total
+                          )}{' '}
+                          of {pagination.total} results
+                        </div>
+                        <div className='flex items-center space-x-2'>
+                          {/* First Page */}
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() => handlePageChange(1)}
+                            disabled={pagination.page === 1}
+                            className='hover-lift'
+                            title='Go to first page'
+                          >
+                            <ChevronsLeft className='h-4 w-4' />
+                            <span className='hidden sm:inline ml-1'>First</span>
+                          </Button>
 
-                      {/* Previous Page */}
-                      <Button
-                        variant='outline'
-                        size='sm'
-                        onClick={() => handlePageChange(pagination.page - 1)}
-                        disabled={!pagination.hasPreviousPage}
-                        className='hover-lift'
-                        title='Go to previous page'
-                      >
-                        <ChevronLeft className='h-4 w-4' />
-                        <span
-                          className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} ml-1`}
-                        >
-                          Previous
-                        </span>
-                      </Button>
+                          {/* Previous Page */}
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() =>
+                              handlePageChange(pagination.page - 1)
+                            }
+                            disabled={!pagination.hasPreviousPage}
+                            className='hover-lift'
+                            title='Go to previous page'
+                          >
+                            <ChevronLeft className='h-4 w-4' />
+                            <span className='hidden sm:inline ml-1'>
+                              Previous
+                            </span>
+                          </Button>
 
-                      {/* Page Numbers */}
-                      {Array.from(
-                        {
-                          length: Math.min(
-                            selectedEmployee && leftWidth < 50 ? 3 : 5,
-                            pagination.totalPages
-                          ),
-                        },
-                        (_, i) => {
-                          const startPage = Math.max(
-                            1,
-                            pagination.page -
-                              (selectedEmployee && leftWidth < 50 ? 1 : 2)
-                          );
-                          const page = startPage + i;
-                          if (page > pagination.totalPages) return null;
+                          {/* Page Numbers */}
+                          {Array.from(
+                            { length: Math.min(5, pagination.totalPages) },
+                            (_, i) => {
+                              const startPage = Math.max(
+                                1,
+                                pagination.page - 2
+                              );
+                              const page = startPage + i;
+                              if (page > pagination.totalPages) return null;
 
-                          return (
-                            <Button
-                              key={`employees-page-${page}`}
-                              variant={
-                                page === pagination.page ? 'default' : 'outline'
-                              }
-                              size='sm'
-                              onClick={() => handlePageChange(page)}
-                              className='hover-lift min-w-[40px]'
-                              title={`Go to page ${page}`}
-                            >
-                              {page}
-                            </Button>
-                          );
-                        }
-                      )}
+                              return (
+                                <Button
+                                  key={`employees-page-${page}`}
+                                  variant={
+                                    page === pagination.page
+                                      ? 'default'
+                                      : 'outline'
+                                  }
+                                  size='sm'
+                                  onClick={() => handlePageChange(page)}
+                                  className='hover-lift min-w-[40px]'
+                                  title={`Go to page ${page}`}
+                                >
+                                  {page}
+                                </Button>
+                              );
+                            }
+                          )}
 
-                      {/* Next Page */}
-                      <Button
-                        variant='outline'
-                        size='sm'
-                        onClick={() => handlePageChange(pagination.page + 1)}
-                        disabled={!pagination.hasNextPage}
-                        className='hover-lift'
-                        title='Go to next page'
-                      >
-                        <span
-                          className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Next
-                        </span>
-                        <ChevronRight className='h-4 w-4' />
-                      </Button>
+                          {/* Next Page */}
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() =>
+                              handlePageChange(pagination.page + 1)
+                            }
+                            disabled={!pagination.hasNextPage}
+                            className='hover-lift'
+                            title='Go to next page'
+                          >
+                            <span className='hidden sm:inline mr-1'>Next</span>
+                            <ChevronRight className='h-4 w-4' />
+                          </Button>
 
-                      {/* Last Page */}
-                      <Button
-                        variant='outline'
-                        size='sm'
-                        onClick={() => handlePageChange(pagination.totalPages)}
-                        disabled={pagination.page === pagination.totalPages}
-                        className='hover-lift'
-                        title='Go to last page'
-                      >
-                        <span
-                          className={`${selectedEmployee && leftWidth < 50 ? 'hidden' : 'hidden sm:inline'} mr-1`}
-                        >
-                          Last
-                        </span>
-                        <ChevronsRight className='h-4 w-4' />
-                      </Button>
-                    </div>
-                  </div>
-                )}
-                  </CardContent>
-                </Card>
-              </div>
-            }
-            rightPanel={
-              <div className='space-y-4 animate-slide-up pl-3'>
-                <Card className='glass-effect'>
-                  <CardHeader className='pb-3'>
-                    <div className='flex justify-between items-start'>
-                      <div className='space-y-1'>
-                        <CardTitle className='text-2xl medical-heading'>
-                          {selectedEmployee.name} {selectedEmployee.surname}
-                        </CardTitle>
-                        <CardDescription className='flex items-center gap-2'>
-                          <Badge variant='outline'>
-                            {selectedEmployee.employee_number}
-                          </Badge>
-                          <Badge variant='secondary'>
-                            {selectedEmployee.gender}
-                          </Badge>
-                        </CardDescription>
-                        {/* Last Updated Information */}
-                        <div className='text-xs text-muted-foreground mt-2'>
-                          <span>Last updated by </span>
-                          <span className='font-medium'>
-                            {selectedEmployee.user_updated || 'Unknown'}
-                          </span>
-                          <span> on </span>
-                          <span className='font-medium'>
-                            {selectedEmployee.date_updated
-                              ? new Date(
-                                  selectedEmployee.date_updated
-                                ).toLocaleString()
-                              : 'Unknown'}
-                          </span>
+                          {/* Last Page */}
+                          <Button
+                            variant='outline'
+                            size='sm'
+                            onClick={() =>
+                              handlePageChange(pagination.totalPages)
+                            }
+                            disabled={pagination.page === pagination.totalPages}
+                            className='hover-lift'
+                            title='Go to last page'
+                          >
+                            <span className='hidden sm:inline mr-1'>Last</span>
+                            <ChevronsRight className='h-4 w-4' />
+                          </Button>
                         </div>
                       </div>
-                      <Button
-                        variant='ghost'
-                        size='sm'
-                        onClick={() => { setSelectedEmployee(null); setSelectedEmployeeId(null); }}
-                        className='hover-lift'
-                      >
-                        <X className='h-4 w-4' />
-                      </Button>
-                    </div>
-
-                    {/* Module Completion Progress */}
-                    <div className='mt-4 pt-3 border-t border-border/50'>
-                      <EmployeeModuleProgress
-                        employeeId={selectedEmployee.id}
-                        employee={selectedEmployee}
-                      />
-                    </div>
-                  </CardHeader>
-                  <CardContent className='max-h-[475px] overflow-y-auto scrollbar-premium'>
-                    <Employee360View
-                      employeeId={selectedEmployee.id}
-                      employee={selectedEmployee}
-                    />
+                    )}
                   </CardContent>
                 </Card>
-
-
-
-
               </div>
-            }
-            className='min-h-[600px]'
-            defaultLeftWidth={40}
-            minLeftWidth={25}
-            maxLeftWidth={75}
-          />
-
-          {/* Treatment Plans Card */}
-          <Card className='glass-effect mt-6'>
-            <CardHeader>
-              <CardTitle className='text-lg'>Treatment Plans</CardTitle>
-              <CardDescription>
-                Medical treatment recommendations and action items
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <EmployeeTreatmentPlans
-                employeeId={selectedEmployee.id}
-                employee={selectedEmployee}
-              />
-            </CardContent>
-          </Card>
-
-          {/* Two Column Layout for Other Sections */}
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6'>
-            {/* Left Column */}
-            <div className='space-y-4'>
-              {/* Employee Documents Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeDocuments employeeId={selectedEmployee.id} />
-                </CardContent>
-              </Card>
-
-              {/* Employee Complaints Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeComplaints employeeId={selectedEmployee.id} />
-                </CardContent>
-              </Card>
-
-              {/* Infectious Disease Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeInfectiousDisease
-                    employeeId={selectedEmployee.id}
-                  />
-                </CardContent>
-              </Card>
             </div>
-
-            {/* Right Column */}
-            <div className='space-y-4'>
-              {/* Emergency Responses Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeEmergencyResponses
-                    employeeId={selectedEmployee.id}
-                  />
-                </CardContent>
-              </Card>
-
-              {/* Assessments Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeAssessments employeeId={selectedEmployee.id} />
-                </CardContent>
-              </Card>
-
-              {/* TB Screening Card */}
-              <Card className='glass-effect'>
-                <CardContent className='p-4'>
-                  <EmployeeTBScreening employeeId={selectedEmployee.id} />
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-          </>
-        ) : (
-          <div className='min-h-[600px]'>
-            <div className='space-y-4 animate-slide-up'>
-
-              {/* Employees Table */}
-              <Card className='hover-lift'>
-                <CardHeader>
-                  <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                    <Users className='h-6 w-6' />
-                    Employees ({pagination.total})
-                  </CardTitle>
-                  <CardDescription>
-                    Employee records and information
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  {displayedEmployees.length === 0 ? (
-                    <div className='text-center py-12'>
-                      <User className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
-                      <h3 className='text-lg font-medium text-foreground mb-2'>
-                        No employees found
-                      </h3>
-                      <p className='text-muted-foreground'>
-                        {searchTerm
-                          ? 'Try adjusting your search criteria.'
-                          : 'No employees available.'}
-                      </p>
-                    </div>
-                  ) : (
-                    <div className='max-h-[calc(100vh-300px)] overflow-auto scrollbar-premium'>
-                      <Table>
-                        <TableHeader>
-                          <TableRow>
-                            <TableHead>Employee</TableHead>
-                            <TableHead>Employee ID</TableHead>
-                            <TableHead>Employee Number</TableHead>
-                            <TableHead>Work Email</TableHead>
-                            <TableHead>Gender</TableHead>
-                            <TableHead>Date of Birth</TableHead>
-                          </TableRow>
-                        </TableHeader>
-                        <TableBody
-                          className={`table-transition ${pageTransitioning ? 'transitioning' : ''}`}
-                        >
-                          {displayedEmployees.map(employee => (
-                            <TableRow
-                              key={employee.id}
-                              className={`cursor-pointer transition-colors hover:bg-muted/50 ${
-                                selectedEmployee?.id === employee.id
-                                  ? 'bg-muted border-l-4 border-l-primary'
-                                  : ''
-                              }`}
-                              onClick={() => handleEmployeeClick(employee)}
-                            >
-                              <TableCell>
-                                <div>
-                                  <div className='font-medium'>
-                                    {employee.name} {employee.surname}
-                                  </div>
-                                  <div className='text-sm text-muted-foreground'>
-                                    {employee.mobile_number}
-                                  </div>
-                                </div>
-                              </TableCell>
-                              <TableCell className='text-sm font-mono'>
-                                {employee.id || 'N/A'}
-                              </TableCell>
-                              <TableCell>
-                                <Badge variant='outline'>
-                                  {employee.employee_number || 'N/A'}
-                                </Badge>
-                              </TableCell>
-                              <TableCell className='text-sm'>
-                                {employee.work_email || 'N/A'}
-                              </TableCell>
-                              <TableCell>
-                                <Badge variant='secondary'>
-                                  {employee.gender || 'N/A'}
-                                </Badge>
-                              </TableCell>
-                              <TableCell className='text-sm'>
-                                {formatDate(employee.date_of_birth)}
-                              </TableCell>
-                            </TableRow>
-                          ))}
-                        </TableBody>
-                      </Table>
-                    </div>
-                  )}
-
-                  {/* Pagination */}
-                  {pagination.totalPages > 1 && (
-                    <div className='flex items-center justify-between pt-4 border-t'>
-                      <div className='text-sm text-muted-foreground'>
-                        Showing {(pagination.page - 1) * pagination.limit + 1}{' '}
-                        to{' '}
-                        {Math.min(
-                          pagination.page * pagination.limit,
-                          pagination.total
-                        )}{' '}
-                        of {pagination.total} results
-                      </div>
-                      <div className='flex items-center space-x-2'>
-                        {/* First Page */}
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => handlePageChange(1)}
-                          disabled={pagination.page === 1}
-                          className='hover-lift'
-                          title='Go to first page'
-                        >
-                          <ChevronsLeft className='h-4 w-4' />
-                          <span className='hidden sm:inline ml-1'>First</span>
-                        </Button>
-
-                        {/* Previous Page */}
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => handlePageChange(pagination.page - 1)}
-                          disabled={!pagination.hasPreviousPage}
-                          className='hover-lift'
-                          title='Go to previous page'
-                        >
-                          <ChevronLeft className='h-4 w-4' />
-                          <span className='hidden sm:inline ml-1'>
-                            Previous
-                          </span>
-                        </Button>
-
-                        {/* Page Numbers */}
-                        {Array.from(
-                          { length: Math.min(5, pagination.totalPages) },
-                          (_, i) => {
-                            const startPage = Math.max(1, pagination.page - 2);
-                            const page = startPage + i;
-                            if (page > pagination.totalPages) return null;
-
-                            return (
-                              <Button
-                                key={`employees-page-${page}`}
-                                variant={
-                                  page === pagination.page
-                                    ? 'default'
-                                    : 'outline'
-                                }
-                                size='sm'
-                                onClick={() => handlePageChange(page)}
-                                className='hover-lift min-w-[40px]'
-                                title={`Go to page ${page}`}
-                              >
-                                {page}
-                              </Button>
-                            );
-                          }
-                        )}
-
-                        {/* Next Page */}
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() => handlePageChange(pagination.page + 1)}
-                          disabled={!pagination.hasNextPage}
-                          className='hover-lift'
-                          title='Go to next page'
-                        >
-                          <span className='hidden sm:inline mr-1'>Next</span>
-                          <ChevronRight className='h-4 w-4' />
-                        </Button>
-
-                        {/* Last Page */}
-                        <Button
-                          variant='outline'
-                          size='sm'
-                          onClick={() =>
-                            handlePageChange(pagination.totalPages)
-                          }
-                          disabled={pagination.page === pagination.totalPages}
-                          className='hover-lift'
-                          title='Go to last page'
-                        >
-                          <span className='hidden sm:inline mr-1'>Last</span>
-                          <ChevronsRight className='h-4 w-4' />
-                        </Button>
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        )}
-      </div>
-    </DashboardLayout>
+          )}
+        </div>
+      </DashboardLayout>
+    </ProtectedRoute>
   );
 }
 
 export default function EmployeesPage() {
-	return (
-		<Suspense
-			fallback={
-				<div className='min-h-screen bg-background flex items-center justify-center'>
-					<Card className='w-96'>
-						<CardContent className='flex items-center justify-center py-12'>
-							<div className='text-center space-y-4'>
-								<div className='animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto'></div>
-								<p className='text-muted-foreground'>Loading employees...</p>
-							</div>
-						</CardContent>
-					</Card>
-				</div>
-			}
-		>
-			<EmployeesPageContent />
-		</Suspense>
-	);
+  return (
+    <Suspense
+      fallback={
+        <div className='min-h-screen bg-background flex items-center justify-center'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Initializing Employees'
+                subtitle='Setting up employee management system...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      }
+    >
+      <EmployeesPageContent />
+    </Suspense>
+  );
 }
