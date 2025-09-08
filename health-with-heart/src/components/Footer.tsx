@@ -103,28 +103,28 @@ export default function Footer() {
               <div className='space-y-3'>
                 <a
                   href='/employees'
-                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] hover:bg-white/10 rounded-md px-2 py-1 transition-colors'
                 >
                   <Users className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Employee Management
                 </a>
                 <a
                   href='/reports'
-                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] hover:bg-white/10 rounded-md px-2 py-1 transition-colors'
                 >
                   <FileText className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Medical Reports
                 </a>
                 <a
                   href='/appointments'
-                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] hover:bg-white/10 rounded-md px-2 py-1 transition-colors'
                 >
                   <Calendar className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Appointments
                 </a>
                 <a
                   href='/analytics'
-                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] hover:bg-white/10 rounded-md px-2 py-1 transition-colors'
                 >
                   <BarChart3 className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Health Analytics
