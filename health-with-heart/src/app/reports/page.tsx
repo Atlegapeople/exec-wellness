@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -115,6 +116,7 @@ interface FormData {
 
 function ReportsPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Extract filter parameters
@@ -624,19 +626,19 @@ function ReportsPageContent() {
   if (loading) {
     return (
       <ProtectedRoute>
-      <DashboardLayout>
-        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
-          <Card>
-            <CardContent>
-              <PageLoading
-                text='Loading Medical Reports'
-                subtitle='Fetching medical reports and examination data from OHMS database...'
-              />
-            </CardContent>
-          </Card>
-        </div>
-      </DashboardLayout>
-    </ProtectedRoute>
+        <DashboardLayout>
+          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+            <Card>
+              <CardContent>
+                <PageLoading
+                  text='Loading Medical Reports'
+                  subtitle='Fetching medical reports and examination data from OHMS database...'
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </DashboardLayout>
+      </ProtectedRoute>
     );
   }
 
@@ -649,7 +651,7 @@ function ReportsPageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center space-x-2 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg'
             >
               <ArrowLeft className='h-4 w-4' />

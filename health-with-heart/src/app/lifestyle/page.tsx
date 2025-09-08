@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouteState } from '@/hooks/useRouteState';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { Lifestyle } from '@/types';
 import {
   Card,
@@ -83,6 +84,7 @@ interface PaginationInfo {
 
 function LifestylePageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Extract employee filter from URL
@@ -655,7 +657,7 @@ function LifestylePageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center space-x-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />

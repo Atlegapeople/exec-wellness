@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { MenHealth } from '@/types';
 import { useRouteState } from '@/hooks/useRouteState';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -84,6 +85,7 @@ interface PaginationInfo {
 
 function MensHealthPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Extract employee filter from URL
@@ -889,7 +891,7 @@ function MensHealthPageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center space-x-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />
@@ -3076,7 +3078,7 @@ export default function MensHealthPage() {
                         Initializing Men's Health
                       </h3>
                       <p className='text-muted-foreground'>
-                       Fetching Men's health records
+                        Fetching Men's health records
                       </p>
                     </div>
                   </div>

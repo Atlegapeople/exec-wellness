@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
@@ -141,6 +142,7 @@ interface PaginationInfo {
 
 function MedicalHistoryPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Get filter parameters from URL
@@ -563,7 +565,7 @@ function MedicalHistoryPageContent() {
           <div className='mb-6'>
             <Button
               variant='outline'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center gap-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
@@ -96,6 +97,7 @@ interface PaginationInfo {
 
 function ManagersPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Get filter parameters from URL
@@ -552,7 +554,7 @@ function ManagersPageContent() {
                 onClick={() =>
                   returnUrl
                     ? router.push(decodeURIComponent(returnUrl))
-                    : router.back()
+                    : goBack()
                 }
                 className='flex items-center gap-2 hover-lift'
               >

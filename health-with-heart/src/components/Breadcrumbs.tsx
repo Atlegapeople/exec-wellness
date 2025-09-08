@@ -12,6 +12,10 @@ import {
   BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb';
 
+function basePathFromHref(href: string): string {
+  return href.split('?')[0] || href;
+}
+
 // Detect if a path segment looks like an ID (numeric or UUID-like)
 function isIdSegment(segment: string): boolean {
   return /^\d+$/.test(segment) || /^[0-9a-fA-F-]{8,}$/.test(segment);
@@ -239,6 +243,20 @@ export default function Breadcrumbs() {
       } else {
         next = [...next, currentEntry];
       }
+
+      // Collapse consecutive items of the same base path and keep only the last
+      // occurrence for each base path while preserving order.
+      const dedupedRightToLeft: { href: string; label: string }[] = [];
+      const seenBases = new Set<string>();
+      for (let i = next.length - 1; i >= 0; i--) {
+        const item = next[i];
+        const base = basePathFromHref(item.href);
+        if (!seenBases.has(base)) {
+          dedupedRightToLeft.push(item);
+          seenBases.add(base);
+        }
+      }
+      next = dedupedRightToLeft.reverse();
 
       // Limit length (keep root + last N-1)
       const MAX = 8;

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouteState } from '@/hooks/useRouteState';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Appointment } from '@/types';
 import {
@@ -84,6 +85,7 @@ interface PaginationInfo {
 
 function AppointmentsPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Extract employee filter from URL
@@ -590,7 +592,7 @@ function AppointmentsPageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />

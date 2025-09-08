@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { SpecialInvestigation } from '@/types';
 import { useRouteState } from '@/hooks/useRouteState';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -80,6 +81,7 @@ interface PaginationInfo {
 
 function SpecialInvestigationsPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   // Extract employee filter from URL
@@ -762,11 +764,7 @@ function SpecialInvestigationsPageContent() {
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
           {/* Back Button */}
           <div className='mb-6'>
-            <Button
-              variant='outline'
-              onClick={() => router.back()}
-              className='hover-lift'
-            >
+            <Button variant='outline' onClick={goBack} className='hover-lift'>
               <ArrowLeft className='h-4 w-4 mr-2' />
               Back
             </Button>

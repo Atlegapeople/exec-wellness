@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouteState } from '@/hooks/useRouteState';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { User } from '@/types';
 import {
@@ -101,6 +102,7 @@ interface UserFormData {
 
 function UsersPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const searchParams = useSearchParams();
 
   const [allUsers, setAllUsers] = useState<UserWithMetadata[]>([]);
@@ -506,19 +508,19 @@ function UsersPageContent() {
   if (loading) {
     return (
       <ProtectedRoute>
-      <DashboardLayout>
-        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
-          <Card>
-            <CardContent>
-              <PageLoading
-                text='Loading Users'
-                subtitle='Fetching User profiles...'
-              />
-            </CardContent>
-          </Card>
-        </div>
-      </DashboardLayout>
-     </ProtectedRoute>
+        <DashboardLayout>
+          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+            <Card>
+              <CardContent>
+                <PageLoading
+                  text='Loading Users'
+                  subtitle='Fetching User profiles...'
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </DashboardLayout>
+      </ProtectedRoute>
     );
   }
 
@@ -529,7 +531,7 @@ function UsersPageContent() {
           <div className='mb-6'>
             <Button
               variant='outline'
-              onClick={() => router.back()}
+              onClick={goBack}
               className='flex items-center gap-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />
@@ -1321,10 +1323,7 @@ export default function UsersPage() {
         <div className='min-h-screen bg-background flex items-center justify-center'>
           <Card>
             <CardContent>
-              <PageLoading
-                text='Users'
-                subtitle='Loading user page...'
-              />
+              <PageLoading text='Users' subtitle='Loading user page...' />
             </CardContent>
           </Card>
         </div>
