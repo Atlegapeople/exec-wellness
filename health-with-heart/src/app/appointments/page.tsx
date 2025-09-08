@@ -472,13 +472,16 @@ function AppointmentsPageContent() {
     setSelectedAppointmentId(appointment.id);
   };
 
-  // Ensure the right panel is hidden initially unless a filter explicitly selects one
+  // Hide right panel on cold load without an employee filter,
+  // but preserve if a previous selection exists for this route
   useEffect(() => {
     if (!employeeFilter) {
-      setSelectedAppointment(null);
-      setSelectedAppointmentId(null);
+      if (!selectedAppointmentId) {
+        setSelectedAppointment(null);
+        setSelectedAppointmentId(null);
+      }
     }
-  }, [employeeFilter, setSelectedAppointmentId]);
+  }, [employeeFilter, selectedAppointmentId, setSelectedAppointmentId]);
 
   // Restore selected appointment when data changes
   useEffect(() => {
