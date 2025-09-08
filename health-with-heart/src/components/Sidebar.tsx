@@ -33,6 +33,8 @@ import {
   Database,
   TestTube2,
   AlertTriangle,
+  Venus,
+  Mars,
 } from 'lucide-react';
 
 interface MenuItem {
@@ -120,13 +122,13 @@ const menuSections: MenuSection[] = [
       {
         title: "Women's Health",
         href: '/womens-health',
-        icon: Heart,
+        icon: Venus,
         description: "Women's health assessments and services",
       },
       {
         title: "Men's Health",
         href: '/mens-health',
-        icon: Activity,
+        icon: Mars,
         description: "Men's health assessments and services",
       },
       {

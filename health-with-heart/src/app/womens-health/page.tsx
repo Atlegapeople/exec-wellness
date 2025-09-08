@@ -46,6 +46,7 @@ import {
   Search,
   Activity,
   Heart,
+  Venus,
   Coffee,
   X,
   ChevronLeft,
@@ -761,7 +762,7 @@ function WomensHealthPageContent() {
                     <div className='flex items-center justify-between'>
                       <div>
                         <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                          <Heart className='h-6 w-6' />
+                          <Venus className='h-6 w-6' />
                           Women's Health ({filteredWomensHealth.length})
                         </CardTitle>
                         <CardDescription>
@@ -1155,7 +1156,7 @@ function WomensHealthPageContent() {
                       <div className='space-y-3'>
                         <div className='flex items-center justify-between'>
                           <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                            <Activity className='h-4 w-4' />
+                            <Venus className='h-4 w-4' />
                             {selectedWomensHealth.pap_header ||
                               'Gynecological Health'}
                           </h3>
@@ -1482,7 +1483,7 @@ function WomensHealthPageContent() {
                       <div className='space-y-3'>
                         <div className='flex items-center justify-between'>
                           <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                            <Heart className='h-4 w-4' />
+                            <Venus className='h-4 w-4' />
                             Breast Health
                           </h3>
                           <div className='flex gap-2'>
@@ -1923,7 +1924,7 @@ function WomensHealthPageContent() {
                           <div className='space-y-3'>
                             <div className='flex items-center justify-between'>
                               <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                                <Heart className='h-4 w-4' />
+                                <Venus className='h-4 w-4' />
                                 Recommendations
                               </h3>
                               <div className='flex gap-2'>
@@ -1995,7 +1996,7 @@ function WomensHealthPageContent() {
                 <div className='flex items-center justify-between'>
                   <div>
                     <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                      <Heart className='h-6 w-6' />
+                      <Venus className='h-6 w-6' />
                       Women's Health ({filteredWomensHealth.length})
                     </CardTitle>
                     <CardDescription>

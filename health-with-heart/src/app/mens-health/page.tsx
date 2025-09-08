@@ -47,6 +47,7 @@ import {
   ArrowLeft,
   Search,
   Activity,
+  Mars,
   Heart,
   Coffee,
   X,
@@ -944,7 +945,7 @@ function MensHealthPageContent() {
                   <div className='flex items-center justify-between'>
                     <div>
                       <CardTitle className='flex items-center gap-2 text-2xl medical-heading'>
-                        <Activity className='h-6 w-6' />
+                        <Mars className='h-6 w-6' />
                         Men's Health ({pagination.total})
                       </CardTitle>
                       <CardDescription>
@@ -1351,7 +1352,7 @@ function MensHealthPageContent() {
                     <div className='space-y-3'>
                       <div className='flex items-center justify-between'>
                         <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                          <Activity className='h-4 w-4' />
+                          <Mars className='h-4 w-4' />
                           Prostate Health
                         </h3>
                         <div className='flex items-center gap-2'>
@@ -1582,7 +1583,7 @@ function MensHealthPageContent() {
                     <div className='space-y-3'>
                       <div className='flex items-center justify-between'>
                         <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                          <Activity className='h-4 w-4' />
+                          <Mars className='h-4 w-4' />
                           Testicular Health
                         </h3>
                         <div className='flex items-center gap-2'>
@@ -1745,7 +1746,7 @@ function MensHealthPageContent() {
                     <div className='space-y-3'>
                       <div className='flex items-center justify-between'>
                         <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                          <Activity className='h-4 w-4' />
+                          <Mars className='h-4 w-4' />
                           Urologist Consultation
                         </h3>
                         <div className='flex items-center gap-2'>
@@ -1949,7 +1950,7 @@ function MensHealthPageContent() {
                     <div className='space-y-3'>
                       <div className='flex items-center justify-between'>
                         <h3 className='font-semibold text-sm uppercase tracking-wide text-muted-foreground flex items-center gap-2'>
-                          <Activity className='h-4 w-4' />
+                          <Mars className='h-4 w-4' />
                           Health Recommendations
                         </h3>
                         <div className='flex items-center gap-2'>
