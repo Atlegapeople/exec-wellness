@@ -869,8 +869,8 @@ function MensHealthPageContent() {
             <Card>
               <CardContent>
                 <PageLoading
-                  text='Loading Medical Staff'
-                  subtitle='Fetching medical staff data from OHMS database...'
+                  text="Loading Men's health"
+                  subtitle="Fetching Men's health record"
                 />
               </CardContent>
             </Card>
@@ -3076,7 +3076,7 @@ export default function MensHealthPage() {
                         Initializing Men's Health
                       </h3>
                       <p className='text-muted-foreground'>
-                        Setting up medical staff management system...
+                       Fetching Men's health records
                       </p>
                     </div>
                   </div>

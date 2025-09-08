@@ -118,6 +118,18 @@ const menuSections: MenuSection[] = [
         description: 'Lifestyle assessments and health habits',
       },
       {
+        title: "Women's Health",
+        href: '/womens-health',
+        icon: Heart,
+        description: "Women's health assessments and services",
+      },
+      {
+        title: "Men's Health",
+        href: '/mens-health',
+        icon: Activity,
+        description: "Men's health assessments and services",
+      },
+      {
         title: 'Special Investigations',
         href: '/special-investigations',
         icon: TestTube2,
@@ -145,6 +157,12 @@ const menuSections: MenuSection[] = [
         href: '/employees',
         icon: Users,
         description: 'Employee records and information',
+      },
+      {
+        title: 'Users',
+        href: '/users',
+        icon: Users,
+        description: 'System users and accounts',
       },
       {
         title: 'Managers',
