@@ -78,7 +78,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
       <Card 
         style={{ 
           background: "#FFFFFF", 
-          border: "1px solid #E5E7EB", 
+          border: "1px solid #D7D9D9", 
           borderRadius: "12px", 
           padding: "20px", 
           boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -88,25 +88,25 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
           <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
             Medical Report Volume Trends
           </CardTitle>
-          <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+          <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
             Monthly comprehensive medical rates and total report volumes over last 12 months
           </CardDescription>
         </CardHeader>
         <CardContent className="p-0">
           <ResponsiveContainer width="100%" height={350}>
             <LineChart data={trendsData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
               <XAxis 
                 dataKey="month" 
                 tickLine={false} 
                 axisLine={false} 
-                tick={{ fill: "#9CA3AF" }}
+                tick={{ fill: "#586D6A" }}
               />
               <YAxis 
                 yAxisId="left"
                 tickLine={false} 
                 axisLine={false} 
-                tick={{ fill: "#9CA3AF" }}
+                tick={{ fill: "#586D6A" }}
                 domain={[0, 100]}
               />
               <YAxis 
@@ -114,12 +114,12 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
                 orientation="right"
                 tickLine={false} 
                 axisLine={false} 
-                tick={{ fill: "#9CA3AF" }}
+                tick={{ fill: "#586D6A" }}
               />
               <Tooltip
                 contentStyle={{
                   backgroundColor: '#FFFFFF',
-                  border: '1px solid #E5E7EB',
+                  border: '1px solid #D7D9D9',
                   borderRadius: '8px',
                 }}
                 formatter={(value, name) => [
@@ -132,18 +132,18 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
                 yAxisId="left"
                 type="monotone" 
                 dataKey="fit_percentage" 
-                stroke="#10B981" 
+                stroke="#178089" 
                 strokeWidth={3}
-                dot={{ fill: "#10B981", strokeWidth: 2, r: 4 }}
+                dot={{ fill: "#178089", strokeWidth: 2, r: 4 }}
                 name="fit_percentage"
               />
               <Line 
                 yAxisId="right"
                 type="monotone" 
                 dataKey="total_reports" 
-                stroke="#3B82F6" 
+                stroke="#B6D9CE" 
                 strokeWidth={3}
-                dot={{ fill: "#3B82F6", strokeWidth: 2, r: 4 }}
+                dot={{ fill: "#B6D9CE", strokeWidth: 2, r: 4 }}
                 name="total_reports"
               />
             </LineChart>
@@ -162,7 +162,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -172,7 +172,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Employee Fitness Rates by Age Group
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Percentage of employees medically fit for work across different age groups
             </CardDescription>
           </CardHeader>
@@ -208,7 +208,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -218,7 +218,7 @@ export default function MedicalOutcomesChart({ data }: MedicalOutcomesChartProps
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Key Medical Insights
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Current fitness metrics and demographic analysis
             </CardDescription>
           </CardHeader>

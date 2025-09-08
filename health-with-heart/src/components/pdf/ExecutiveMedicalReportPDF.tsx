@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
 });
 
 interface ExecutiveMedicalReportPDFProps {
-  reportData: any;
+  reportData: Record<string, unknown>;
 }
 
 export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps> = ({ reportData }) => {
@@ -416,19 +416,18 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
     return 'High Risk';
   };
 
-  // Convert BMI status to risk status for risk summary
-  const getBMIRiskStatus = (bmiStatus: string): string => {
-    if (bmiStatus === 'Normal') return 'Low Risk';
-    if (bmiStatus === 'Underweight') return 'Low Risk';
-    if (bmiStatus === 'Overweight') return 'Medium';
-    if (bmiStatus === 'Obese') return 'At Risk';
-    return 'Low Risk';
-  };
+
 
   // Normalize the report data
   const personalDetails = reportData.personal_details || {};
-  const calculatedBMI = calculateBMI(personalDetails.weight_kg, personalDetails.height_cm);
-  const calculatedWHtR = calculateWHtR(personalDetails.waist, personalDetails.height_cm);
+  const calculatedBMI = calculateBMI(
+    (personalDetails as any)?.weight_kg, 
+    (personalDetails as any)?.height_cm
+  );
+  const calculatedWHtR = calculateWHtR(
+    (personalDetails as any)?.waist, 
+    (personalDetails as any)?.height_cm
+  );
   
   const normalizedData = {
     ...reportData,
@@ -488,7 +487,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
     );
   };
 
-  const renderFieldRow = (label: string, value: any, useBadge: boolean = false) => {
+  const renderFieldRow = (label: string, value: unknown, useBadge: boolean = false) => {
     if (!value || value === 'null' || value === 'undefined' || value === '') return null;
     
     return (
@@ -497,7 +496,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
         {useBadge ? (
           renderBadge(value.toString())
         ) : (
-          <Text style={styles.fieldValue}>{value}</Text>
+          <Text style={styles.fieldValue}>{value?.toString() || ''}</Text>
         )}
       </View>
     );
@@ -507,63 +506,63 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
   const riskData = [
     { 
       label: 'Age & Gender Risk', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.age_and_gender_risk || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.age_and_gender_risk || 'Low Risk') 
     },
     { 
       label: 'Blood Pressure', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.blood_pressure || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.blood_pressure || 'Low Risk') 
     },
     { 
       label: 'Cholesterol', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.cholesterol || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.cholesterol || 'Low Risk') 
     },
     { 
       label: 'Diabetes Risk', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.diabetes || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.diabetes || 'Low Risk') 
     },
     { 
       label: 'Obesity', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.obesity || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.obesity || 'Low Risk') 
     },
     { 
       label: 'Waist to Hip Ratio', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.waist_to_hip_ratio || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.waist_to_hip_ratio || 'Low Risk') 
     },
     { 
       label: 'Overall Diet', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.overall_diet || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.overall_diet || 'Low Risk') 
     },
     { 
       label: 'Exercise', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.exercise || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.exercise || 'Low Risk') 
     },
     { 
       label: 'Alcohol Consumption', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.alcohol_consumption || 'No Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.alcohol_consumption || 'No Risk') 
     },
     { 
       label: 'Smoking Risk', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.smoking || 'No Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.smoking || 'No Risk') 
     },
     { 
       label: 'Stress Level', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.stress_level || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.stress_level || 'Low Risk') 
     },
     { 
       label: 'Previous Cardiac Event', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.previous_cardiac_event || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.previous_cardiac_event || 'Low Risk') 
     },
     { 
       label: 'Cardiac History In Family', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.cardiac_history_in_family || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.cardiac_history_in_family || 'Low Risk') 
     },
     { 
       label: 'Stroke History In Family', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.stroke_history_in_family || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.stroke_history_in_family || 'Low Risk') 
     },
     { 
       label: 'Reynolds Risk Score', 
-      status: normalizeRiskStatus(normalizedData.cardiovascular_stroke_risk?.reynolds_risk_score || 'Low Risk') 
+      status: normalizeRiskStatus((normalizedData as any)?.cardiovascular_stroke_risk?.reynolds_risk_score || 'Low Risk') 
     },
   ];
 
@@ -647,24 +646,24 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
 
   // Gender-specific screening
   const getGenderSpecificScreening = () => {
-    const gender = normalizedData.personal_details?.gender;
-    const screening = normalizedData.screening || {};
+    const gender = (normalizedData.personal_details as any)?.gender;
+    const screening = (normalizedData as any)?.screening || {};
     
     if (gender === 'Female') {
       return [
         ['Colonoscopy', screening.colonoscopy],
         ['Mammogram', screening.mammogram || 'Not Required'],
         ['PAP Smear', screening.pap_smear || 'Not Required'],
-      ].filter(([_, value]) => value && value !== 'Not Required');
+      ].filter(([, value]) => value && value !== 'Not Required');
     } else {
       return [
         ['Colonoscopy', screening.colonoscopy],
         ['Prostate Screening', screening.prostate_screening],
-      ].filter(([_, value]) => value && value !== 'Not Required');
+      ].filter(([, value]) => value && value !== 'Not Required');
     }
   };
 
-  const hasContent = (obj: any): boolean => {
+  const hasContent = (obj: Record<string, unknown>): boolean => {
     return obj && Object.values(obj).some(value => 
       value !== null && value !== undefined && value !== '' && value !== 'Unknown'
     );
@@ -677,7 +676,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
         <View style={styles.header}>
           <Text style={styles.headerLeft}>Health with Heart logo</Text>
           <Text style={styles.headerTitle}>Executive Medical Report</Text>
-          <Text style={styles.headerRight}>{formatDate(normalizedData.report_heading.date_updated)}</Text>
+          <Text style={styles.headerRight}>{formatDate((normalizedData as any)?.report_heading?.date_updated)}</Text>
         </View>
 
         {/* Masthead with Patient Details */}
@@ -685,25 +684,25 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
           <View style={styles.overviewNote}>
             <Text style={styles.overviewText}>
               <Text style={{ fontWeight: 'bold' }}>Patient: </Text>
-              {normalizedData.personal_details.name} {normalizedData.personal_details.surname} • 
-              <Text style={{ fontWeight: 'bold' }}> Age: </Text>{normalizedData.personal_details.age} • 
-              <Text style={{ fontWeight: 'bold' }}> Gender: </Text>{normalizedData.personal_details.gender} • 
-              <Text style={{ fontWeight: 'bold' }}> ID: </Text>{normalizedData.personal_details.id_or_passport}
+              {(normalizedData.personal_details as any)?.name} {(normalizedData.personal_details as any)?.surname} • 
+              <Text style={{ fontWeight: 'bold' }}> Age: </Text>{(normalizedData.personal_details as any)?.age} • 
+              <Text style={{ fontWeight: 'bold' }}> Gender: </Text>{(normalizedData.personal_details as any)?.gender} • 
+              <Text style={{ fontWeight: 'bold' }}> ID: </Text>{(normalizedData.personal_details as any)?.id_or_passport}
             </Text>
             <Text style={[styles.overviewText, { marginTop: 8 }]}>
-              <Text style={{ fontWeight: 'bold' }}>Doctor: </Text>{normalizedData.report_heading.doctor_name} • 
-              <Text style={{ fontWeight: 'bold' }}> Nurse: </Text>{normalizedData.report_heading.nurse_name}
+              <Text style={{ fontWeight: 'bold' }}>Doctor: </Text>{(normalizedData as any)?.report_heading?.doctor_name} • 
+              <Text style={{ fontWeight: 'bold' }}> Nurse: </Text>{(normalizedData as any)?.report_heading?.nurse_name}
             </Text>
           </View>
         </View>
 
         {/* Executive Summary */}
-        {normalizedData.overview?.notes_text && (
+        {(normalizedData as any)?.overview?.notes_text && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>EXECUTIVE SUMMARY</Text>
             <View style={styles.overviewNote}>
               <Text style={styles.overviewText}>
-                {normalizedData.overview.notes_text}
+                {(normalizedData as any)?.overview?.notes_text}
               </Text>
             </View>
           </View>
@@ -737,89 +736,89 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
         </View>
 
         {/* Clinical Notes & Recommendations */}
-        {normalizedData.notes_recommendations?.recommendation_text && (
+        {(normalizedData as any)?.notes_recommendations?.recommendation_text && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>CLINICAL NOTES & RECOMMENDATIONS</Text>
             <View style={styles.notesContainer}>
               <Text style={styles.noteItem}>
-                {normalizedData.notes_recommendations.recommendation_text}
+                {(normalizedData as any)?.notes_recommendations?.recommendation_text}
               </Text>
             </View>
           </View>
         )}
 
         {/* Gender-Specific Health Notes */}
-        {normalizedData.mens_health?.recommendation_text && (
+        {(normalizedData as any)?.mens_health?.recommendation_text && (
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>MEN'S HEALTH NOTES</Text>
+            <Text style={styles.sectionTitle}>MEN&apos;S HEALTH NOTES</Text>
             <View style={styles.notesContainer}>
               <Text style={styles.noteItem}>
-                {normalizedData.mens_health.recommendation_text}
+                {(normalizedData as any)?.mens_health?.recommendation_text}
               </Text>
             </View>
           </View>
         )}
 
-        {normalizedData.womens_health?.recommendation_text && (
+        {(normalizedData as any)?.womens_health?.recommendation_text && (
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>WOMEN'S HEALTH NOTES</Text>
+            <Text style={styles.sectionTitle}>WOMEN&apos;S HEALTH NOTES</Text>
             <View style={styles.notesContainer}>
               <Text style={styles.noteItem}>
-                {normalizedData.womens_health.recommendation_text}
+                {(normalizedData as any)?.womens_health?.recommendation_text}
               </Text>
             </View>
           </View>
         )}
 
         {/* Medical History & Allergies */}
-        {(hasContent(normalizedData.medical_history) || hasContent(normalizedData.allergies)) && (
+        {(hasContent((normalizedData as any)?.medical_history) || hasContent((normalizedData as any)?.allergies)) && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>MEDICAL HISTORY & ALLERGIES</Text>
             <View style={styles.threeColumnContainer}>
               {/* Medical History */}
-              {hasContent(normalizedData.medical_history) && (
+              {hasContent((normalizedData as any)?.medical_history) && (
                 <View style={styles.column}>
                   <Text style={styles.subsectionTitle}>Medical History</Text>
-                  {renderFieldRow('High Blood Pressure', normalizedData.medical_history?.high_blood_pressure)}
-                  {renderFieldRow('Diabetes', normalizedData.medical_history?.diabetes)}
-                  {renderFieldRow('High Cholesterol', normalizedData.medical_history?.high_cholesterol)}
-                  {renderFieldRow('Asthma', normalizedData.medical_history?.asthma)}
-                  {renderFieldRow('Thyroid Disease', normalizedData.medical_history?.thyroid_disease)}
-                  {renderFieldRow('TB History', normalizedData.medical_history?.pulmonary_tb_history)}
+                  {renderFieldRow('High Blood Pressure', (normalizedData as any)?.medical_history?.high_blood_pressure)}
+                  {renderFieldRow('Diabetes', (normalizedData as any)?.medical_history?.diabetes)}
+                  {renderFieldRow('High Cholesterol', (normalizedData as any)?.medical_history?.high_cholesterol)}
+                  {renderFieldRow('Asthma', (normalizedData as any)?.medical_history?.asthma)}
+                  {renderFieldRow('Thyroid Disease', (normalizedData as any)?.medical_history?.thyroid_disease)}
+                  {renderFieldRow('TB History', (normalizedData as any)?.medical_history?.pulmonary_tb_history)}
                 </View>
               )}
               
               {/* Family History & Mental Health */}
               <View style={styles.column}>
-                {hasContent(normalizedData.medical_history) && (
+                {hasContent((normalizedData as any)?.medical_history) && (
                   <>
                     <Text style={styles.subsectionTitle}>Family History</Text>
-                    {renderFieldRow('Cardiac Events', normalizedData.medical_history?.cardiac_event_in_family)}
-                    {renderFieldRow('Cancer', normalizedData.medical_history?.cancer_in_family)}
+                    {renderFieldRow('Cardiac Events', (normalizedData as any)?.medical_history?.cardiac_event_in_family)}
+                    {renderFieldRow('Cancer', (normalizedData as any)?.medical_history?.cancer_in_family)}
                   </>
                 )}
                 
-                {hasContent(normalizedData.mental_health) && (
+                {hasContent((normalizedData as any)?.mental_health) && (
                   <>
                     <Text style={[styles.subsectionTitle, { marginTop: 10 }]}>Mental Health</Text>
-                    {renderFieldRow('Anxiety/Depression', normalizedData.medical_history?.anxiety_or_depression)}
-                    {renderFieldRow('Stress Level', normalizeMentalHealth(normalizedData.mental_health?.stress_level), true)}
+                    {renderFieldRow('Anxiety/Depression', (normalizedData as any)?.medical_history?.anxiety_or_depression)}
+                    {renderFieldRow('Stress Level', normalizeMentalHealth((normalizedData as any)?.mental_health?.stress_level), true)}
                   </>
                 )}
               </View>
               
               {/* Allergies & Screening */}
               <View style={[styles.column, styles.columnLast]}>
-                {hasContent(normalizedData.allergies) && (
+                {hasContent((normalizedData as any)?.allergies) && (
                   <>
                     <Text style={styles.subsectionTitle}>Allergies</Text>
-                    {renderFieldRow('Environmental', normalizedData.allergies?.environmental)}
-                    {renderFieldRow('Food', normalizedData.allergies?.food)}
-                    {renderFieldRow('Medication', normalizedData.allergies?.medication)}
+                    {renderFieldRow('Environmental', (normalizedData as any)?.allergies?.environmental)}
+                    {renderFieldRow('Food', (normalizedData as any)?.allergies?.food)}
+                    {renderFieldRow('Medication', (normalizedData as any)?.allergies?.medication)}
                   </>
                 )}
                 
-                {hasContent(normalizedData.screening) && (
+                {hasContent((normalizedData as any)?.screening) && (
                   <>
                     <Text style={[styles.subsectionTitle, { marginTop: 10 }]}>Screening</Text>
                     {getGenderSpecificScreening().map(([label, value]) => 
@@ -843,12 +842,12 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
                   <Text style={styles.cardHeaderText}>Personal Details</Text>
                 </View>
                 <View style={styles.cardBody}>
-                  {renderFieldRow('Height', `${normalizedData.personal_details.height_cm} cm`)}
-                  {renderFieldRow('Weight', `${normalizedData.personal_details.weight_kg} kg`)}
+                  {renderFieldRow('Height', `${(normalizedData.personal_details as any)?.height_cm} cm`)}
+                  {renderFieldRow('Weight', `${(normalizedData.personal_details as any)?.weight_kg} kg`)}
                   {renderFieldRow('BMI', normalizedData.personal_details.bmi?.toFixed(2))}
                   {renderFieldRow('BMI Status', normalizedData.personal_details.bmi_status, true)}
-                  {renderFieldRow('Blood Pressure', normalizedData.personal_details.blood_pressure)}
-                  {renderFieldRow('Waist', `${normalizedData.personal_details.waist} cm`)}
+                  {renderFieldRow('Blood Pressure', (normalizedData.personal_details as any)?.blood_pressure)}
+                  {renderFieldRow('Waist', `${(normalizedData.personal_details as any)?.waist} cm`)}
                   {renderFieldRow('WHtR', normalizedData.personal_details.whtr_percent)}
                   {renderFieldRow('WHtR Status', normalizedData.personal_details.whtr_status, true)}
                 </View>
@@ -862,14 +861,14 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
                   <Text style={styles.cardHeaderText}>Lab Tests</Text>
                 </View>
                 <View style={styles.cardBody}>
-                  {renderFieldRow('Full Blood Count', normalizeExamStatus(normalizedData.lab_tests?.full_blood_count_an_esr), true)}
-                  {renderFieldRow('Kidney Function', normalizeExamStatus(normalizedData.lab_tests?.kidney_function), true)}
-                  {renderFieldRow('Liver Enzymes', normalizeExamStatus(normalizedData.lab_tests?.liver_enzymes), true)}
-                  {renderFieldRow('Total Cholesterol', normalizeExamStatus(normalizedData.lab_tests?.total_cholesterol), true)}
-                  {renderFieldRow('Fasting Glucose', normalizeExamStatus(normalizedData.lab_tests?.fasting_glucose), true)}
-                  {renderFieldRow('Vitamin D', normalizeExamStatus(normalizedData.lab_tests?.vitamin_d), true)}
-                  {renderFieldRow('TSH', normalizeExamStatus(normalizedData.lab_tests?.thyroid_stimulating_hormone), true)}
-                  {renderFieldRow('HIV', normalizeExamStatus(normalizedData.lab_tests?.hiv), true)}
+                  {renderFieldRow('Full Blood Count', normalizeExamStatus((normalizedData as any)?.lab_tests?.full_blood_count_an_esr), true)}
+                  {renderFieldRow('Kidney Function', normalizeExamStatus((normalizedData as any)?.lab_tests?.kidney_function), true)}
+                  {renderFieldRow('Liver Enzymes', normalizeExamStatus((normalizedData as any)?.lab_tests?.liver_enzymes), true)}
+                  {renderFieldRow('Total Cholesterol', normalizeExamStatus((normalizedData as any)?.lab_tests?.total_cholesterol), true)}
+                  {renderFieldRow('Fasting Glucose', normalizeExamStatus((normalizedData as any)?.lab_tests?.fasting_glucose), true)}
+                  {renderFieldRow('Vitamin D', normalizeExamStatus((normalizedData as any)?.lab_tests?.vitamin_d), true)}
+                  {renderFieldRow('TSH', normalizeExamStatus((normalizedData as any)?.lab_tests?.thyroid_stimulating_hormone), true)}
+                  {renderFieldRow('HIV', normalizeExamStatus((normalizedData as any)?.lab_tests?.hiv), true)}
                 </View>
               </View>
             </View>
@@ -881,19 +880,19 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
                   <Text style={styles.cardHeaderText}>Clinical Exam & Investigations</Text>
                 </View>
                 <View style={styles.cardBody}>
-                  {renderFieldRow('General Assessment', normalizeExamStatus(normalizedData.clinical_examinations?.general_assessment), true)}
-                  {renderFieldRow('Cardiovascular', normalizeExamStatus(normalizedData.clinical_examinations?.cardiovascular), true)}
-                  {renderFieldRow('Respiratory', normalizeExamStatus(normalizedData.clinical_examinations?.respiratory), true)}
-                  {renderFieldRow('Neurological', normalizeExamStatus(normalizedData.clinical_examinations?.neurological), true)}
-                  {renderFieldRow('Resting ECG', normalizeExamStatus(normalizedData.special_investigations?.resting_ecg), true)}
-                  {renderFieldRow('Stress ECG', normalizeExamStatus(normalizedData.special_investigations?.stress_ecg), true)}
-                  {renderFieldRow('Lung Function', normalizeExamStatus(normalizedData.special_investigations?.lung_function), true)}
-                  {renderFieldRow('Urine Dipstix', normalizeExamStatus(normalizedData.special_investigations?.urine_dipstix), true)}
-                  {renderFieldRow('NerviQ Cardiac', normalizeExamStatus(normalizedData.special_investigations?.nerveiq_cardio), true)}
-                  {renderFieldRow('NerviQ CNS', normalizeExamStatus(normalizedData.special_investigations?.nerveiq_cns), true)}
-                  {renderFieldRow('NerviQ Overall', normalizeExamStatus(normalizedData.special_investigations?.nerveiq), true)}
-                  {renderFieldRow('Predicted VO2 Max', normalizedData.special_investigations?.predicted_vo2_max, true)}
-                  {renderFieldRow('Body Fat %', normalizedData.special_investigations?.body_fat_percentage, true)}
+                  {renderFieldRow('General Assessment', normalizeExamStatus((normalizedData as any)?.clinical_examinations?.general_assessment), true)}
+                  {renderFieldRow('Cardiovascular', normalizeExamStatus((normalizedData as any)?.clinical_examinations?.cardiovascular), true)}
+                  {renderFieldRow('Respiratory', normalizeExamStatus((normalizedData as any)?.clinical_examinations?.respiratory), true)}
+                  {renderFieldRow('Neurological', normalizeExamStatus((normalizedData as any)?.clinical_examinations?.neurological), true)}
+                  {renderFieldRow('Resting ECG', normalizeExamStatus((normalizedData as any)?.special_investigations?.resting_ecg), true)}
+                  {renderFieldRow('Stress ECG', normalizeExamStatus((normalizedData as any)?.special_investigations?.stress_ecg), true)}
+                  {renderFieldRow('Lung Function', normalizeExamStatus((normalizedData as any)?.special_investigations?.lung_function), true)}
+                  {renderFieldRow('Urine Dipstix', normalizeExamStatus((normalizedData as any)?.special_investigations?.urine_dipstix), true)}
+                  {renderFieldRow('NerviQ Cardiac', normalizeExamStatus((normalizedData as any)?.special_investigations?.nerveiq_cardio), true)}
+                  {renderFieldRow('NerviQ CNS', normalizeExamStatus((normalizedData as any)?.special_investigations?.nerveiq_cns), true)}
+                  {renderFieldRow('NerviQ Overall', normalizeExamStatus((normalizedData as any)?.special_investigations?.nerveiq), true)}
+                  {renderFieldRow('Predicted VO2 Max', (normalizedData as any)?.special_investigations?.predicted_vo2_max, true)}
+                  {renderFieldRow('Body Fat %', (normalizedData as any)?.special_investigations?.body_fat_percentage, true)}
                 </View>
               </View>
             </View>
@@ -903,7 +902,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
         {/* Important Information and Disclaimer */}
         <View style={styles.disclaimer}>
           <Text style={styles.disclaimerText}>
-            {normalizedData.important_information_disclaimer?.disclaimer_text}
+            {(normalizedData as any)?.important_information_disclaimer?.disclaimer_text}
           </Text>
         </View>
 
@@ -915,7 +914,7 @@ export const ExecutiveMedicalReportPDF: React.FC<ExecutiveMedicalReportPDFProps>
         {/* Quote Banner */}
         <View style={styles.quoteBanner}>
           <Text style={styles.quoteText}>
-            "The groundwork for all happiness is good health."
+            &quot;The groundwork for all happiness is good health.&quot;
           </Text>
           <Text style={styles.quoteAuthor}>— Leigh Hunt</Text>
         </View>

@@ -130,7 +130,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card>
           <CardContent className="flex items-center p-6">
             <div className="flex items-center space-x-2">
-              <Users className="h-8 w-8 text-blue-600" />
+              <Users className="h-8 w-8 text-teal-600" />
               <div>
                 <p className="text-2xl font-bold">{doctorData.length + nurseData.length}</p>
                 <p className="text-sm text-muted-foreground">Medical Staff</p>
@@ -143,7 +143,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card>
           <CardContent className="flex items-center p-6">
             <div className="flex items-center space-x-2">
-              <FileText className="h-8 w-8 text-green-600" />
+              <FileText className="h-8 w-8 text-sage-600" />
               <div>
                 <p className="text-2xl font-bold">{totalReports}</p>
                 <p className="text-sm text-muted-foreground">Total Reports</p>
@@ -155,7 +155,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card>
           <CardContent className="flex items-center p-6">
             <div className="flex items-center space-x-2">
-              <CheckCircle className="h-8 w-8 text-emerald-600" />
+              <CheckCircle className="h-8 w-8 text-fern-600" />
               <div>
                 <p className="text-2xl font-bold">{overallSigningRate}%</p>
                 <p className="text-sm text-muted-foreground">Signing Rate</p>
@@ -167,7 +167,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card>
           <CardContent className="flex items-center p-6">
             <div className="flex items-center space-x-2">
-              <Clock className="h-8 w-8 text-orange-600" />
+              <Clock className="h-8 w-8 text-daisy-600" />
               <div>
                 <p className="text-2xl font-bold">{totalUnsigned}</p>
                 <p className="text-sm text-muted-foreground">Unsigned Reports</p>
@@ -181,7 +181,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -191,7 +191,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Staff Report Volume
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Total reports processed by staff member
             </CardDescription>
           </CardHeader>
@@ -206,7 +206,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                   right: 20,
                 }}
               >
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
                 <XAxis
                   dataKey="staff_name"
                   tickLine={false}
@@ -215,14 +215,14 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                   angle={-45}
                   textAnchor="end"
                   height={100}
-                  tick={{ fill: "#9CA3AF" }}
+                  tick={{ fill: "#586D6A" }}
                   tickFormatter={(value) => value.length > 15 ? `${value.substring(0, 15)}...` : value}
                 />
-                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#9CA3AF" }} />
+                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#586D6A" }} />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: '#FFFFFF',
-                    border: '1px solid #E5E7EB',
+                    border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
                   formatter={(value, name) => [value, 'Total Reports']}
@@ -230,7 +230,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                 />
                 <Bar 
                   dataKey="total_reports" 
-                  fill="#0D9488" 
+                  fill="#178089" 
                   radius={[4, 4, 0, 0]}
                 >
                   <LabelList
@@ -252,7 +252,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -262,7 +262,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Doctor vs Nurse Volume Comparison
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Report volume comparison by role
             </CardDescription>
           </CardHeader>
@@ -289,24 +289,24 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                 }}
                 barCategoryGap={24}
               >
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
                 <XAxis
                   dataKey="role"
                   tickLine={false}
                   tickMargin={10}
                   axisLine={false}
-                  tick={{ fill: "#9CA3AF" }}
+                  tick={{ fill: "#586D6A" }}
                 />
                 <YAxis 
                   tickLine={false} 
                   axisLine={false} 
-                  tick={{ fill: "#9CA3AF" }}
+                  tick={{ fill: "#586D6A" }}
                   domain={[0, 1000]}
                 />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: '#FFFFFF',
-                    border: '1px solid #E5E7EB',
+                    border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
                   formatter={(value, name, props) => [
@@ -317,7 +317,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                 />
                 <Bar 
                   dataKey="total_reports" 
-                  fill="#3B82F6" 
+                  fill="#B6D9CE" 
                   radius={[4, 4, 0, 0]}
                 >
                   <LabelList
@@ -585,7 +585,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -595,7 +595,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Weekly Unsigned Reports Trend
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Unsigned Executive Medical reports by week
             </CardDescription>
           </CardHeader>
@@ -616,19 +616,19 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                   right: 20,
                 }}
               >
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
                 <XAxis
                   dataKey="week_start"
                   tickLine={false}
                   tickMargin={10}
                   axisLine={false}
-                  tick={{ fill: "#9CA3AF" }}
+                  tick={{ fill: "#586D6A" }}
                 />
-                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#9CA3AF" }} />
+                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#586D6A" }} />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: '#FFFFFF',
-                    border: '1px solid #E5E7EB',
+                    border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
                   formatter={(value, name) => [`${value} reports`, 'Unsigned Reports']}
@@ -637,9 +637,9 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                 <Line 
                   type="monotone" 
                   dataKey="unsigned_reports" 
-                  stroke="#DC2626" 
+                  stroke="#D65241" 
                   strokeWidth={3}
-                  dot={{ fill: "#DC2626", strokeWidth: 2, r: 4 }}
+                                      dot={{ fill: "#D65241", strokeWidth: 2, r: 4 }}
                 />
               </LineChart>
             </ResponsiveContainer>
@@ -654,7 +654,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
         <Card 
           style={{ 
             background: "#FFFFFF", 
-            border: "1px solid #E5E7EB", 
+            border: "1px solid #D7D9D9", 
             borderRadius: "12px", 
             padding: "20px", 
             boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
@@ -664,7 +664,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
             <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
               Top Staff with Unsigned Reports
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#6B7280", marginBottom: "16px" }}>
+            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
               Staff members with most unsigned Executive Medical reports
             </CardDescription>
           </CardHeader>
@@ -679,7 +679,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                   right: 20,
                 }}
               >
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F3F4F6" />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
                 <XAxis
                   dataKey="staff_name"
                   tickLine={false}
@@ -688,14 +688,14 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                   angle={-45}
                   textAnchor="end"
                   height={100}
-                  tick={{ fill: "#9CA3AF" }}
+                  tick={{ fill: "#586D6A" }}
                   tickFormatter={(value) => value.length > 15 ? `${value.substring(0, 15)}...` : value}
                 />
-                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#9CA3AF" }} />
+                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#586D6A" }} />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: '#FFFFFF',
-                    border: '1px solid #E5E7EB',
+                    border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
                   formatter={(value, name) => [`${value} reports`, 'Unsigned Reports']}
@@ -703,7 +703,7 @@ export default function StaffProductivityChart({ data }: StaffProductivityChartP
                 />
                 <Bar 
                   dataKey="unsigned_reports" 
-                  fill="#EF4444" 
+                  fill="#D65241" 
                   radius={[4, 4, 0, 0]}
                 >
                   <LabelList

@@ -206,7 +206,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                     return originalOrg ? originalOrg.name : label;
                   }}
                 />
-                <Bar dataKey="count" fill={PALETTE.primary.base} />
+                <Bar dataKey="count" fill={PALETTE.teal} />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
@@ -256,7 +256,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                 <XAxis dataKey="name" angle={-45} textAnchor="end" height={80} />
                 <YAxis />
                 <Tooltip formatter={(value, name) => [value, 'Employees']} />
-                <Bar dataKey="count" fill={PALETTE.supporting.purple} />
+                <Bar dataKey="count" fill={PALETTE.lily} />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
@@ -277,7 +277,7 @@ const EmployeeInsightsChart = ({ data }: { data: any }) => {
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip formatter={(value, name) => [value, name === 'count' ? 'Employees' : name]} />
-                <Bar dataKey="count" fill={PALETTE.supporting.blue} />
+                <Bar dataKey="count" fill={PALETTE.duckEgg} />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>

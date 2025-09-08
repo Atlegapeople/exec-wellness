@@ -224,13 +224,13 @@ const MedicalHistoryInsightsChart = ({ data }: { data: any }) => {
                 <Line 
                   type="monotone" 
                   dataKey="reportCount" 
-                  stroke={PALETTE.primary.base} 
+                  stroke={PALETTE.teal} 
                   name="Medical Reports" 
                 />
                 <Line 
                   type="monotone" 
                   dataKey="patientCount" 
-                  stroke={PALETTE.supporting.blue} 
+                  stroke={PALETTE.duckEgg} 
                   name="Unique Patients" 
                 />
               </LineChart>

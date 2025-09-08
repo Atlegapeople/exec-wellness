@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet, Font } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 
 // Define styles for the PDF
 const styles = StyleSheet.create({
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
 });
 
 interface MedicalReportPDFProps {
-  reportData: any;
+  reportData: Record<string, unknown>;
 }
 
 export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }) => {
@@ -136,14 +136,14 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
           <Text style={styles.subtitle}>OHMS - Occupational Health Management System</Text>
           
           <View style={styles.metadataGrid}>
-            <Text style={styles.metadataItem}>Report ID: {reportData.report_metadata.report_id}</Text>
-            <Text style={styles.metadataItem}>Date: {formatDate(reportData.report_metadata.date)}</Text>
-            <Text style={styles.metadataItem}>Type: {reportData.report_metadata.report_type}</Text>
+            <Text style={styles.metadataItem}>Report ID: {(reportData as any)?.report_metadata.report_id}</Text>
+            <Text style={styles.metadataItem}>Date: {formatDate((reportData as any)?.report_metadata.date)}</Text>
+            <Text style={styles.metadataItem}>Type: {(reportData as any)?.report_metadata.report_type}</Text>
           </View>
           
           <View style={styles.metadataGrid}>
-            <Text style={styles.metadataItem}>Doctor: {reportData.report_metadata.doctor}</Text>
-            <Text style={styles.metadataItem}>Nurse: {reportData.report_metadata.nurse}</Text>
+            <Text style={styles.metadataItem}>Doctor: {(reportData as any)?.report_metadata.doctor}</Text>
+            <Text style={styles.metadataItem}>Nurse: {(reportData as any)?.report_metadata.nurse}</Text>
           </View>
         </View>
 
@@ -154,37 +154,37 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Name:</Text>
-                <Text style={styles.value}>{reportData.personal_details.first_name} {reportData.personal_details.last_name}</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.first_name} {(reportData as any)?.personal_details.last_name}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Gender:</Text>
-                <Text style={styles.value}>{reportData.personal_details.gender}</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.gender}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Age:</Text>
-                <Text style={styles.value}>{reportData.personal_details.age} years</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.age} years</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>ID Number:</Text>
-                <Text style={styles.value}>{reportData.personal_details.id_number}</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.id_number}</Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Height:</Text>
-                <Text style={styles.value}>{reportData.personal_details.height_cm} cm</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.height_cm} cm</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Weight:</Text>
-                <Text style={styles.value}>{reportData.personal_details.weight_kg} kg</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.weight_kg} kg</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>BMI:</Text>
-                <Text style={styles.value}>{reportData.personal_details.bmi} ({reportData.personal_details.bmi_status})</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.bmi} ({(reportData as any)?.personal_details.bmi_status})</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Blood Pressure:</Text>
-                <Text style={styles.value}>{reportData.personal_details.blood_pressure} mmHg</Text>
+                <Text style={styles.value}>{(reportData as any)?.personal_details.blood_pressure} mmHg</Text>
               </View>
             </View>
           </View>
@@ -197,45 +197,45 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>High Blood Pressure:</Text>
-                <Text style={styles.value}>{reportData.medical_history.high_blood_pressure}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.high_blood_pressure}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Diabetes:</Text>
-                <Text style={styles.value}>{reportData.medical_history.diabetes}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.diabetes}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>High Cholesterol:</Text>
-                <Text style={styles.value}>{reportData.medical_history.high_cholesterol}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.high_cholesterol}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Asthma:</Text>
-                <Text style={styles.value}>{reportData.medical_history.asthma}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.asthma}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Thyroid Disease:</Text>
-                <Text style={styles.value}>{reportData.medical_history.thyroid_disease}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.thyroid_disease}</Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>HIV Test:</Text>
-                <Text style={styles.value}>{reportData.medical_history.hiv_test}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.hiv_test}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Anxiety/Depression:</Text>
-                <Text style={styles.value}>{reportData.medical_history.anxiety_or_depression}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.anxiety_or_depression}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Surgical History:</Text>
-                <Text style={styles.value}>{reportData.medical_history.surgical_history}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.surgical_history}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>TB History:</Text>
-                <Text style={styles.value}>{reportData.medical_history.pulmonary_tb_history}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.pulmonary_tb_history}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Family Cancer:</Text>
-                <Text style={styles.value}>{reportData.medical_history.cancer_in_family}</Text>
+                <Text style={styles.value}>{(reportData as any)?.medical_history.cancer_in_family}</Text>
               </View>
             </View>
           </View>
@@ -248,48 +248,48 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Age & Gender Risk:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.age_and_gender) }]}>
-                  {reportData.cardiovascular_stroke_risk.age_and_gender}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.age_and_gender) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.age_and_gender}
                 </Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Blood Pressure:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.blood_pressure) }]}>
-                  {reportData.cardiovascular_stroke_risk.blood_pressure}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.blood_pressure) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.blood_pressure}
                 </Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Diabetes Risk:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.diabetes) }]}>
-                  {reportData.cardiovascular_stroke_risk.diabetes}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.diabetes) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.diabetes}
                 </Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Obesity Risk:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.obesity) }]}>
-                  {reportData.cardiovascular_stroke_risk.obesity}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.obesity) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.obesity}
                 </Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Smoking Risk:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.smoking) }]}>
-                  {reportData.cardiovascular_stroke_risk.smoking}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.smoking) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.smoking}
                 </Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Exercise Level:</Text>
-                <Text style={styles.value}>{reportData.cardiovascular_stroke_risk.exercise}</Text>
+                <Text style={styles.value}>{(reportData as any)?.cardiovascular_stroke_risk.exercise}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Stress Level:</Text>
-                <Text style={styles.value}>{reportData.cardiovascular_stroke_risk.stress_level}</Text>
+                <Text style={styles.value}>{(reportData as any)?.cardiovascular_stroke_risk.stress_level}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Family History:</Text>
-                <Text style={[styles.value, { color: getRiskColor(reportData.cardiovascular_stroke_risk.cardiac_history_in_family) }]}>
-                  {reportData.cardiovascular_stroke_risk.cardiac_history_in_family}
+                <Text style={[styles.value, { color: getRiskColor((reportData as any)?.cardiovascular_stroke_risk.cardiac_history_in_family) }]}>
+                  {(reportData as any)?.cardiovascular_stroke_risk.cardiac_history_in_family}
                 </Text>
               </View>
             </View>
@@ -303,45 +303,45 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Full Blood Count:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.full_blood_count_esr}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.full_blood_count_esr}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Kidney Function:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.kidney_function}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.kidney_function}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Liver Enzymes:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.liver_enzymes}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.liver_enzymes}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Total Cholesterol:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.total_cholesterol}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.total_cholesterol}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Fasting Sugar:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.fasting_sugar}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.fasting_sugar}</Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Vitamin D:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.vitamin_d}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.vitamin_d}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>TSH:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.thyroid_stimulating_hormone}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.thyroid_stimulating_hormone}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>PSA/Pap:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.psa_pap}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.psa_pap}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>HIV Test:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.hiv_test}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.hiv_test}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>HS-CRP:</Text>
-                <Text style={styles.value}>{reportData.lab_tests.hs_crp}</Text>
+                <Text style={styles.value}>{(reportData as any)?.lab_tests.hs_crp}</Text>
               </View>
             </View>
           </View>
@@ -354,37 +354,37 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>General Assessment:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.general_assessment}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.general_assessment}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Cardiovascular:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.cardiovascular}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.cardiovascular}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Respiratory:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.respiratory}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.respiratory}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Neurological:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.neurological}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.neurological}</Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Head & Neck:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.head_neck_thyroid}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.head_neck_thyroid}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Gastrointestinal:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.gastrointestinal}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.gastrointestinal}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Musculoskeletal:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.musculoskeletal}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.musculoskeletal}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Skin:</Text>
-                <Text style={styles.value}>{reportData.clinical_examination.skin}</Text>
+                <Text style={styles.value}>{(reportData as any)?.clinical_examination.skin}</Text>
               </View>
             </View>
           </View>
@@ -397,21 +397,21 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Stress Level:</Text>
-                <Text style={styles.value}>{reportData.mental_health.stress_level}</Text>
+                <Text style={styles.value}>{(reportData as any)?.mental_health.stress_level}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Anxiety Level:</Text>
-                <Text style={styles.value}>{reportData.mental_health.anxiety_level}</Text>
+                <Text style={styles.value}>{(reportData as any)?.mental_health.anxiety_level}</Text>
               </View>
             </View>
             <View style={styles.gridItem}>
               <View style={styles.row}>
                 <Text style={styles.label}>Energy Level:</Text>
-                <Text style={styles.value}>{reportData.mental_health.energy_level}</Text>
+                <Text style={styles.value}>{(reportData as any)?.mental_health.energy_level}</Text>
               </View>
               <View style={styles.row}>
                 <Text style={styles.label}>Sleep Rating:</Text>
-                <Text style={styles.value}>{reportData.mental_health.sleep_rating}</Text>
+                <Text style={styles.value}>{(reportData as any)?.mental_health.sleep_rating}</Text>
               </View>
             </View>
           </View>
@@ -422,25 +422,25 @@ export const MedicalReportPDF: React.FC<MedicalReportPDFProps> = ({ reportData }
           <Text style={styles.sectionTitle}>Work Status & Recommendations</Text>
           <View style={styles.row}>
             <Text style={styles.label}>Work Status:</Text>
-            <Text style={[styles.value, { fontWeight: 'bold', fontSize: 11 }]}>{reportData.work_status.status}</Text>
+            <Text style={[styles.value, { fontWeight: 'bold', fontSize: 11 }]}>{(reportData as any)?.work_status.status}</Text>
           </View>
-          {reportData.notes_and_recommendations.general_notes && (
+          {(reportData as any)?.notes_and_recommendations.general_notes && (
             <View style={styles.notes}>
               <Text style={styles.label}>General Notes:</Text>
-              <Text>{reportData.notes_and_recommendations.general_notes}</Text>
+              <Text>{(reportData as any)?.notes_and_recommendations.general_notes}</Text>
             </View>
           )}
-          {reportData.notes_and_recommendations.recommendations && (
+          {(reportData as any)?.notes_and_recommendations.recommendations && (
             <View style={styles.notes}>
               <Text style={styles.label}>Recommendations:</Text>
-              <Text>{reportData.notes_and_recommendations.recommendations}</Text>
+              <Text>{(reportData as any)?.notes_and_recommendations.recommendations}</Text>
             </View>
           )}
         </View>
 
         {/* Disclaimer */}
         <View style={styles.disclaimer}>
-          <Text>{reportData.disclaimer}</Text>
+          <Text>{(reportData as any)?.disclaimer || ''}</Text>
         </View>
       </Page>
     </Document>

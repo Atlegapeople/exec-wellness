@@ -31,10 +31,18 @@ import {
   Users,
   FileText
 } from 'lucide-react';
-import { PALETTE, CHART_SERIES_COLORS, getBadgeClass } from '@/lib/chartColors';
+import { PALETTE, CHART_SERIES_COLORS, getBadgeClass, getBadgeColor } from '@/lib/chartColors';
 
 const LifestyleInsightsChart = ({ data }: { data: any }) => {
   if (!data) return null;
+
+  // Sleep Quality color mapping
+  const getSleepQualityColor = (quality: string): string => {
+    if (quality === 'Good') return PALETTE.teal;
+    if (quality === 'OK, Could Be Better') return PALETTE.daisy;
+    if (quality === 'Poor') return PALETTE.sunset;
+    return PALETTE.lightGrey;
+  };
 
   return (
     <div className="space-y-6">
@@ -258,7 +266,11 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                   `${value} patients (${data.sleepAnalysis.qualityBreakdown.find((item: any) => item.quality === name)?.percentage}%)`,
                   'Sleep Quality'
                 ]} />
-                <Bar dataKey="count" fill={PALETTE.supporting.blue} />
+                <Bar dataKey="count">
+                  {data.sleepAnalysis.qualityBreakdown.slice(0, 6).map((entry: any, index: number) => (
+                    <Cell key={`cell-${index}`} fill={getSleepQualityColor(entry.quality)} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
@@ -283,13 +295,20 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                 <Line 
                   type="monotone" 
                   dataKey="recordCount" 
-                  stroke={PALETTE.primary.base} 
+                  stroke={PALETTE.teal} 
+                  strokeWidth={3}
+                  dot={{ fill: PALETTE.teal, strokeWidth: 2, r: 4 }}
+                  activeDot={{ r: 6, stroke: PALETTE.teal, strokeWidth: 2 }}
                   name="Assessments" 
                 />
                 <Line 
                   type="monotone" 
                   dataKey="patientCount" 
-                  stroke={PALETTE.supporting.blue} 
+                  stroke={PALETTE.sunset} 
+                  strokeWidth={3}
+                  strokeDasharray="5 5"
+                  dot={{ fill: PALETTE.sunset, strokeWidth: 2, r: 4 }}
+                  activeDot={{ r: 6, stroke: PALETTE.sunset, strokeWidth: 2 }}
                   name="Unique Patients" 
                 />
               </LineChart>
@@ -332,13 +351,17 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                     <Badge 
                       variant="secondary"
                       className={getBadgeClass(item.percentage, { good: 10, warning: 25 })}
+                      style={{ backgroundColor: getBadgeColor(item.percentage, { good: 10, warning: 25 }) }}
                     >
                       {item.percentage}%
                     </Badge>
                     <div className="w-16 h-2 bg-muted rounded-full overflow-hidden">
                       <div 
-                        className="h-full bg-primary rounded-full"
-                        style={{ width: `${Math.min(item.percentage, 100)}%` }}
+                        className="h-full rounded-full"
+                        style={{ 
+                          width: `${Math.min(item.percentage, 100)}%`,
+                          backgroundColor: getBadgeColor(item.percentage, { good: 10, warning: 25 })
+                        }}
                       />
                     </div>
                   </div>
@@ -380,13 +403,17 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                     <Badge 
                       variant="secondary"
                       className={getBadgeClass(item.percentage, { good: 30, warning: 15 })}
+                      style={{ backgroundColor: getBadgeColor(item.percentage, { good: 30, warning: 15 }) }}
                     >
                       {item.percentage}%
                     </Badge>
                     <div className="w-16 h-2 bg-muted rounded-full overflow-hidden">
                       <div 
-                        className="h-full bg-primary rounded-full"
-                        style={{ width: `${Math.min(item.percentage, 100)}%` }}
+                        className="h-full rounded-full"
+                        style={{ 
+                          width: `${Math.min(item.percentage, 100)}%`,
+                          backgroundColor: getBadgeColor(item.percentage, { good: 30, warning: 15 })
+                        }}
                       />
                     </div>
                   </div>
@@ -421,13 +448,17 @@ const LifestyleInsightsChart = ({ data }: { data: any }) => {
                     <Badge 
                       variant="secondary"
                       className={getBadgeClass(item.percentage, { good: 25, warning: 15 })}
+                      style={{ backgroundColor: getBadgeColor(item.percentage, { good: 25, warning: 15 }) }}
                     >
                       {item.percentage}%
                     </Badge>
                     <div className="w-16 h-2 bg-muted rounded-full overflow-hidden">
                       <div 
-                        className="h-full bg-primary rounded-full"
-                        style={{ width: `${Math.min(item.percentage, 100)}%` }}
+                        className="h-full rounded-full"
+                        style={{ 
+                          width: `${Math.min(item.percentage, 100)}%`,
+                          backgroundColor: getBadgeColor(item.percentage, { good: 25, warning: 15 })
+                        }}
                       />
                     </div>
                   </div>

@@ -44,11 +44,11 @@ const MentalHealthChart = ({ data }: { data: any }) => {
 
   // Mental Health specific color mapping - consistent across all dashboards
   const MENTAL_HEALTH_COLORS = {
-    "Energy": "#00897B",     // Positive metric - teal
-    "Stress": "#E53935",     // Negative metric - red  
-    "Overall": "#26A69A",    // Overall wellbeing - teal variant
-    "Anxiety": "#FB8C00",    // Negative metric - orange
-    "Mood": "#1E88E5"        // Positive metric - blue
+    "Energy": "#178089",     // Positive metric - teal
+    "Stress": "#D65241",     // Negative metric - sunset  
+    "Overall": "#B6D9CE",    // Overall wellbeing - duckEgg
+    "Anxiety": "#EAB75C",    // Negative metric - daisy
+    "Mood": "#B4CABC"        // Positive metric - sage
   };
 
   // Get color for mental health metrics
@@ -70,13 +70,13 @@ const MentalHealthChart = ({ data }: { data: any }) => {
     if (normalized.includes('wellbeing') || normalized.includes('energy') || 
         normalized.includes('mood') || normalized.includes('sleep') ||
         normalized.includes('happiness') || normalized.includes('satisfaction')) {
-      return "#00897B";
+      return "#178089";
     }
     
-    // Negative metrics (stress, anxiety, depression) = red/orange  
+    // Negative metrics (stress, anxiety, depression) = sunset/coral  
     if (normalized.includes('stress') || normalized.includes('anxiety') || 
         normalized.includes('depression') || normalized.includes('worry')) {
-      return "#E53935";
+      return "#D65241";
     }
     
     return PALETTE.neutral.base;
@@ -84,10 +84,10 @@ const MentalHealthChart = ({ data }: { data: any }) => {
 
   // Sleep Quality specific color mapping - consistent across all dashboards
   const SLEEP_QUALITY_COLORS = {
-    "Good": "#00897B",
-    "OK, Could Be Better": "#FB8C00", 
-    "Poor": "#E53935",
-    "Not Specified": "#BDBDBD"
+    "Good": "#178089", // Teal - good sleep quality
+    "OK, Could Be Better": "#EAB75C", // Daisy - moderate sleep quality
+    "Poor": "#D65241", // Sunset - poor sleep quality
+    "Not Specified": "#D7D9D9" // Light Grey - unknown/not specified
   };
 
   // Sleep quality category order for consistent display
@@ -95,16 +95,16 @@ const MentalHealthChart = ({ data }: { data: any }) => {
 
   // Anxiety Level specific color mapping - consistent across all dashboards
   const ANXIETY_LEVEL_COLORS = {
-    "Low": "#00897B",     // Teal - positive/healthy/low anxiety
-    "Medium": "#FB8C00",  // Amber - moderate/caution
-    "High": "#E53935"     // Red - high-risk/clinically significant
+    "Low": "#178089",     // Teal - positive/healthy/low anxiety
+    "Medium": "#EAB75C",  // Daisy - moderate/caution
+    "High": "#D65241"     // Sunset - high-risk/clinically significant
   };
 
   // Energy Level specific color mapping - inverted logic (HIGH = good)
   const ENERGY_LEVEL_COLORS = {
-    "High": "#00897B",    // Teal - high energy (good outcome)
-    "Medium": "#FB8C00",  // Amber - medium energy (caution)
-    "Low": "#E53935"      // Red - low energy (fatigue risk)
+    "High": "#178089",    // Teal - high energy (good outcome)
+    "Medium": "#EAB75C",  // Daisy - medium energy (caution)
+    "Low": "#D65241"      // Sunset - low energy (fatigue risk)
   };
 
   // Mental health level category order for consistent display
@@ -115,10 +115,10 @@ const MentalHealthChart = ({ data }: { data: any }) => {
 
   // Overall Level specific color mapping
   const OVERALL_LEVEL_COLORS = {
-    "Good": "#00897B",        // Teal - overall good wellbeing
-    "OK": "#FB8C00",          // Amber - moderate wellbeing
-    "Poor": "#E53935",        // Red - overall poor wellbeing (risk)
-    "Not Recorded": "#BDBDBD" // Grey - not recorded/missing data
+    "Good": "#178089",        // Teal - overall good wellbeing
+    "OK": "#EAB75C",          // Daisy - moderate wellbeing
+    "Poor": "#D65241",        // Sunset - overall poor wellbeing (risk)
+    "Not Recorded": "#D7D9D9" // Light Grey - not recorded/missing data
   };
 
   // Overall level category order (Good to Poor)
@@ -162,15 +162,15 @@ const MentalHealthChart = ({ data }: { data: any }) => {
     const normalized = level.toLowerCase().trim();
     
     if (normalized === 'low') {
-      return "#00897B"; // Teal - low anxiety is good
+      return "#178089"; // Teal - low anxiety is good
     }
     
     if (normalized === 'medium') {
-      return "#FB8C00"; // Amber - medium anxiety needs caution
+      return "#EAB75C"; // Daisy - medium anxiety needs caution
     }
     
     if (normalized === 'high') {
-      return "#E53935"; // Red - high anxiety is risk
+      return "#D65241"; // Sunset - high anxiety is risk
     }
     
     // Fallback for unknown/not recorded only
@@ -205,10 +205,10 @@ const MentalHealthChart = ({ data }: { data: any }) => {
 
   // Mood Level specific color mapping - positive metrics where HIGH = good
   const MOOD_LEVEL_COLORS = {
-    "Positive": "#00897B",    // Teal - positive mood (good outcome)
-    "Neutral": "#FB8C00",     // Amber - neutral mood (moderate)
-    "Negative": "#E53935",    // Red - negative mood (risk)
-    "Not Recorded": "#BDBDBD" // Grey - not recorded/missing data
+    "Positive": "#178089",    // Teal - positive mood (good outcome)
+    "Neutral": "#EAB75C",     // Daisy - neutral mood (moderate)
+    "Negative": "#D65241",    // Sunset - negative mood (risk)
+    "Not Recorded": "#D7D9D9" // Light Grey - not recorded/missing data
   };
 
   // Get color for mood levels with specific mapping
@@ -219,15 +219,15 @@ const MentalHealthChart = ({ data }: { data: any }) => {
     const normalized = level.toLowerCase().trim();
     
     if (normalized === 'positive') {
-      return "#00897B"; // Teal - positive mood is good
+      return "#178089"; // Teal - positive mood is good
     }
     
     if (normalized === 'neutral') {
-      return "#FB8C00"; // Amber - neutral mood is moderate/caution
+      return "#EAB75C"; // Daisy - neutral mood is moderate/caution
     }
     
     if (normalized === 'negative') {
-      return "#E53935"; // Red - negative mood is poor
+      return "#D65241"; // Sunset - negative mood is poor
     }
     
     // Fallback for unknown/not recorded only
@@ -243,17 +243,17 @@ const MentalHealthChart = ({ data }: { data: any }) => {
     
     // Handle HIGH as Good (positive overall wellbeing)
     if (normalized === 'high') {
-      return "#00897B"; // Teal - high overall wellbeing is good
+      return "#178089"; // Teal - high overall wellbeing is good
     }
     
     // Handle MEDIUM as OK (moderate overall wellbeing)
     if (normalized === 'medium') {
-      return "#FB8C00"; // Amber - medium overall wellbeing is moderate
+      return "#EAB75C"; // Daisy - medium overall wellbeing is moderate
     }
     
     // Handle LOW as Poor (poor overall wellbeing)
     if (normalized === 'low') {
-      return "#E53935"; // Red - low overall wellbeing is poor
+      return "#D65241"; // Sunset - low overall wellbeing is poor
     }
     
     // Fallback for unknown/not recorded only
@@ -302,28 +302,28 @@ const MentalHealthChart = ({ data }: { data: any }) => {
     // Handle specific level values that might appear regardless of metric
     // Check for positive descriptive terms first
     if (normalizedLevel.includes('positive') || normalizedLevel.includes('good') || normalizedLevel.includes('excellent') || normalizedLevel.includes('great')) {
-      return "#00897B"; // Teal for positive outcomes
+      return "#178089"; // Teal for positive outcomes
     }
     
     if (normalizedLevel.includes('negative') || normalizedLevel.includes('poor') || normalizedLevel.includes('bad') || normalizedLevel.includes('terrible')) {
-      return "#E53935"; // Red for negative outcomes
+      return "#D65241"; // Sunset for negative outcomes
     }
     
     if (normalizedLevel.includes('neutral') || normalizedLevel.includes('ok') || normalizedLevel.includes('moderate') || normalizedLevel.includes('average')) {
-      return "#FB8C00"; // Amber for neutral/moderate outcomes
+      return "#EAB75C"; // Daisy for neutral/moderate outcomes
     }
     
     // Default Low/Medium/High logic for unknown metrics (assume negative metric where low = good)
     if (normalizedLevel === 'low') {
-      return "#00897B";  // Teal for low (good for negative metrics)
+      return "#178089";  // Teal for low (good for negative metrics)
     }
     
     if (normalizedLevel === 'medium') {
-      return "#FB8C00";  // Amber for medium
+      return "#EAB75C";  // Daisy for medium
     }
     
     if (normalizedLevel === 'high') {
-      return "#E53935";   // Red for high (bad for negative metrics)
+      return "#D65241";   // Sunset for high (bad for negative metrics)
     }
     
     return PALETTE.neutral.base; // Grey fallback for unknown/not recorded only
@@ -431,21 +431,21 @@ const MentalHealthChart = ({ data }: { data: any }) => {
             return { 
               label: 'Good', 
               color: 'teal-600', 
-              bgColor: '#00897B',
+              bgColor: '#178089',
               borderColor: 'border-l-teal-600' 
             };
           } else if (score >= 4) {
             return { 
               label: 'Moderate', 
               color: 'orange-500', 
-              bgColor: '#FB8C00',
+              bgColor: '#EAB75C',
               borderColor: 'border-l-orange-500' 
             };
           } else {
             return { 
               label: 'Poor', 
               color: 'red-600', 
-              bgColor: '#E53935',
+              bgColor: '#D65241',
               borderColor: 'border-l-red-600' 
             };
           }
@@ -503,7 +503,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
         <Card>
           <CardContent className="p-4">
             <div className="flex items-center space-x-2">
-              <BarChart3 className="h-5 w-5" style={{ color: '#00897B' }} />
+              <BarChart3 className="h-5 w-5" style={{ color: '#178089' }} />
               <div>
                 <p className="text-lg font-bold">{summaryStats.highest_metric}</p>
                 <p className="text-xs text-muted-foreground">Highest Scoring</p>
@@ -515,7 +515,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
         <Card>
           <CardContent className="p-4">
             <div className="flex items-center space-x-2">
-              <Activity className="h-5 w-5" style={{ color: '#E53935' }} />
+              <Activity className="h-5 w-5" style={{ color: '#D65241' }} />
               <div>
                 <p className="text-lg font-bold">{summaryStats.lowest_metric}</p>
                 <p className="text-xs text-muted-foreground">Needs Attention</p>
@@ -586,7 +586,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                         }
                       </div>
                       <div className="flex-1 relative min-w-0">
-                        <div className="w-full bg-gray-100 rounded h-10 relative overflow-hidden">
+                        <div className="w-full rounded h-10 relative overflow-hidden" style={{ backgroundColor: '#F2EFED' }}>
                           <div 
                             className="h-full rounded transition-all duration-700 ease-out flex items-center justify-end pr-3"
                             style={{ 
@@ -601,7 +601,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                           </div>
                         </div>
                       </div>
-                      <div className="w-16 text-sm font-medium text-right flex-shrink-0 text-gray-700">
+                      <div className="w-16 text-sm font-medium text-right flex-shrink-0" style={{ color: '#586D6A' }}>
                         {percentage}%
                       </div>
                     </div>
@@ -652,7 +652,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                         }
                       </div>
                       <div className="flex-1 relative min-w-0">
-                        <div className="w-full bg-gray-100 rounded h-10 relative overflow-hidden">
+                        <div className="w-full rounded h-10 relative overflow-hidden" style={{ backgroundColor: '#F2EFED' }}>
                           <div 
                             className="h-full rounded transition-all duration-700 ease-out flex items-center justify-end pr-3"
                             style={{ 
@@ -667,7 +667,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                           </div>
                         </div>
                       </div>
-                      <div className="w-16 text-sm font-medium text-right flex-shrink-0 text-gray-700">
+                      <div className="w-16 text-sm font-medium text-right flex-shrink-0" style={{ color: '#586D6A' }}>
                         {entry.count}
                       </div>
                     </div>
@@ -703,13 +703,13 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                 // Exact color mapping specification
                 const getMetricStatus = (score: number) => {
                   if (score >= 7) {
-                    return { label: 'Good', color: '#00897B' };
+                    return { label: 'Good', color: '#178089' };
                   } else if (score >= 4) {
-                    return { label: 'Moderate', color: '#FB8C00' };
+                    return { label: 'Moderate', color: '#EAB75C' };
                   } else if (score >= 0) {
-                    return { label: 'Poor', color: '#E53935' };
+                    return { label: 'Poor', color: '#D65241' };
                   } else {
-                    return { label: 'Unknown', color: '#BDBDBD' };
+                    return { label: 'Unknown', color: '#D7D9D9' };
                   }
                 };
                 
@@ -717,12 +717,12 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                 
                 // Executive-ready metric card layout
                 return (
-                  <div key={`metric-${index}-${metric.metric}`} className="py-4 border-b border-gray-200 last:border-b-0">
+                  <div key={`metric-${index}-${metric.metric}`} className="py-4 last:border-b-0" style={{ borderBottom: '1px solid #D7D9D9' }}>
                     <div className="flex items-center gap-6">
                       
                       {/* Left: Metric name */}
                       <div className="w-24 flex-shrink-0">
-                        <span className="text-sm font-medium text-gray-900">
+                        <span className="text-sm font-medium" style={{ color: '#111827' }}>
                           {metric.metric ? 
                             metric.metric.toLowerCase().split(' ').map((word: string) => 
                               word.charAt(0).toUpperCase() + word.slice(1)
@@ -734,7 +734,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                       
                       {/* Center: Progress bar (scaled 0–10) */}
                       <div className="flex-1">
-                        <div className="w-full bg-gray-200 h-2">
+                        <div className="w-full h-2" style={{ backgroundColor: '#F2EFED' }}>
                           <div 
                             className="h-2"
                             style={{ 
@@ -748,10 +748,10 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                       {/* Right: Score + status label */}
                       <div className="flex items-center gap-3 flex-shrink-0">
                         <div className="text-right">
-                          <span className="font-bold text-gray-900">{metric.average_score}</span>
-                          <span className="text-sm text-gray-500 ml-0.5">/10</span>
+                          <span className="font-bold" style={{ color: '#111827' }}>{metric.average_score}</span>
+                          <span className="text-sm ml-0.5" style={{ color: '#586D6A' }}>/10</span>
                         </div>
-                        <span className="text-sm text-gray-700 w-16 text-left">
+                        <span className="text-sm w-16 text-left" style={{ color: '#586D6A' }}>
                           {status.label}
                         </span>
                       </div>
@@ -760,7 +760,7 @@ const MentalHealthChart = ({ data }: { data: any }) => {
                     
                     {/* Response count - de-emphasized */}
                     <div className="mt-2 ml-24">
-                      <span className="text-xs text-gray-400 font-normal">
+                      <span className="text-xs font-normal" style={{ color: '#9CA3AF' }}>
                         {metric.total_responses.toLocaleString()} responses
                       </span>
                     </div>

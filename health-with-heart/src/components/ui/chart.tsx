@@ -50,7 +50,7 @@ const ChartContainer = React.forwardRef<
         <style
           dangerouslySetInnerHTML={{
             __html: Object.entries(config)
-              .filter(([_, config]) => config.color)
+              .filter(([, config]) => config.color)
               .map(([key, itemConfig]) => {
                 const color = itemConfig.color || "hsl(var(--chart-1))"
                 return `[data-chart=${chartId}] { --color-${key}: ${color}; }`
@@ -85,7 +85,7 @@ const ChartTooltipContent = React.forwardRef<
   HTMLDivElement,
   React.ComponentProps<"div"> & {
     active?: boolean
-    payload?: any[]
+    payload?: unknown[]
     label?: string
     hideLabel?: boolean
     hideIndicator?: boolean
@@ -98,7 +98,6 @@ const ChartTooltipContent = React.forwardRef<
     {
       active,
       payload,
-      className,
       indicator = "dot",
       hideLabel = false,
       hideIndicator = false,
@@ -118,7 +117,7 @@ const ChartTooltipContent = React.forwardRef<
 
     const tooltipLabel = hideLabel
       ? ""
-      : (labelKey && payload?.[0]?.[labelKey]) || label
+      : (labelKey && (payload?.[0] as any)?.[labelKey]) || label
 
     return (
       <div
@@ -132,13 +131,13 @@ const ChartTooltipContent = React.forwardRef<
           )}
           <div className="grid gap-1.5">
             {payload.map((item, index) => {
-              const key = `${nameKey || item.dataKey || "value"}`
-              const itemConfig = getPayloadConfigFromPayload(config, item, key)
-              const indicatorColor = color || item.payload.fill || item.color
+              const key = `${nameKey || (item as any)?.dataKey || "value"}`
+              const itemConfig = getPayloadConfigFromPayload(config, item as any, key)
+              const indicatorColor = color || (item as any)?.payload?.fill || (item as any)?.color
 
               return (
                 <div
-                  key={`chart-item-${index}-${item.dataKey}`}
+                  key={`chart-item-${index}-${(item as any)?.dataKey}`}
                   className="flex w-full items-stretch gap-2 [&>svg]:h-2.5 [&>svg]:w-2.5 [&>svg]:text-muted-foreground"
                 >
                   {!hideIndicator && (
@@ -155,12 +154,12 @@ const ChartTooltipContent = React.forwardRef<
                   <div className="flex flex-1 justify-between leading-none">
                     <div className="grid gap-1.5">
                       <span className="text-muted-foreground">
-                        {itemConfig?.label || item.dataKey}
+                        {itemConfig?.label || (item as any)?.dataKey}
                       </span>
                     </div>
-                    {item.value && (
+                    {(item as any)?.value && (
                       <span className="font-mono font-medium tabular-nums text-foreground">
-                        {item.value.toLocaleString()}
+                        {(item as any)?.value?.toLocaleString()}
                       </span>
                     )}
                   </div>
@@ -177,7 +176,7 @@ ChartTooltipContent.displayName = "ChartTooltipContent"
 
 function getPayloadConfigFromPayload(
   config: ChartConfig,
-  payload: any,
+  payload: Record<string, unknown>,
   key: string
 ) {
   if (typeof payload !== "object" || payload === null) {
@@ -199,9 +198,9 @@ function getPayloadConfigFromPayload(
   } else if (
     payloadPayload &&
     key in payloadPayload &&
-    typeof payloadPayload[key] === "string"
+    typeof (payloadPayload as any)[key] === "string"
   ) {
-    configLabelKey = payloadPayload[key] as string
+    configLabelKey = (payloadPayload as any)[key] as string
   }
 
   return configLabelKey in config ? config[configLabelKey] : config[key]
