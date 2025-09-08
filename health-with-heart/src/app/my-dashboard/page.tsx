@@ -73,6 +73,7 @@ import {
   ArrowLeft,
 } from 'lucide-react';
 import Employee360View from '@/components/Employee360View';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface MedicalReport {
   id: string;
@@ -228,6 +229,7 @@ interface DashboardData {
 }
 
 export default function MyDashboard() {
+  const goBack = useBreadcrumbBack();
   const [selectedDoctorId, setSelectedDoctorId] = useState<string>('');
   const [selectedNurseId, setSelectedNurseId] = useState<string>('');
   const [selectedStaffType, setSelectedStaffType] = useState<
@@ -778,7 +780,7 @@ export default function MyDashboard() {
           <Button
             variant='outline'
             size='sm'
-            onClick={() => window.history.back()}
+            onClick={goBack}
             className='flex items-center space-x-2'
           >
             <ArrowLeft className='h-4 w-4' />

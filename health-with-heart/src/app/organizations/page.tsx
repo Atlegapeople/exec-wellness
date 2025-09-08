@@ -46,6 +46,7 @@ import {
 } from 'lucide-react';
 import { PageLoading } from '@/components/ui/loading';
 import ProtectedRoute from '@/components/ProtectedRoute';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface Organization {
   id: string;
@@ -77,6 +78,7 @@ interface PaginationInfo {
 
 function OrganizationsPageContent() {
   const router = useRouter();
+  const goBack = useBreadcrumbBack();
   const [organizations, setOrganizations] = useState<Organization[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
     page: 1,
@@ -370,7 +372,7 @@ function OrganizationsPageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />

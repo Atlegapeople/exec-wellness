@@ -38,6 +38,7 @@ import {
 } from 'lucide-react';
 import ProtectedRoute from '@/components/ProtectedRoute';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface UserWithMetadata extends User {
   created_by_name?: string;
@@ -47,6 +48,7 @@ interface UserWithMetadata extends User {
 
 export default function UserProfilePage() {
   const { currentUser, updateProfileImage, loading } = useUser();
+  const goBack = useBreadcrumbBack();
   const [uploading, setUploading] = useState(false);
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -199,7 +201,7 @@ export default function UserProfilePage() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />

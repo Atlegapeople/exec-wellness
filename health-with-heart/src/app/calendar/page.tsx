@@ -65,6 +65,7 @@ import {
   endOfDay,
 } from 'date-fns';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface CalendarAppointment {
   id: string;
@@ -98,6 +99,7 @@ interface CalendarStats {
 type CalendarView = 'month' | 'week' | 'day' | 'year';
 
 export default function CalendarPage() {
+  const goBack = useBreadcrumbBack();
   const [currentDate, setCurrentDate] = useState(new Date());
   const [view, setView] = useState<CalendarView>('month');
   const [appointments, setAppointments] = useState<CalendarAppointment[]>([]);
@@ -628,7 +630,7 @@ export default function CalendarPage() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />

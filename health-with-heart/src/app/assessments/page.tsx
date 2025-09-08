@@ -59,6 +59,7 @@ import {
 } from 'lucide-react';
 import { DialogFooter } from '@/components/ui/dialog';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface AssessmentRecord {
   id: string;
@@ -96,6 +97,7 @@ interface Employee {
 }
 
 export default function AssessmentsPage() {
+  const goBack = useBreadcrumbBack();
   const [assessments, setAssessments] = useState<AssessmentRecord[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
@@ -367,7 +369,7 @@ export default function AssessmentsPage() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2'
             >
               <ArrowLeft className='h-4 w-4' />

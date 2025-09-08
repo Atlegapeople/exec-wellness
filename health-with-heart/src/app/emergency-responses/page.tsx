@@ -48,10 +48,12 @@ import { EmergencyResponse } from '@/types';
 import DashboardLayout from '@/components/DashboardLayout';
 import ProtectedRoute from '@/components/ProtectedRoute';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 const EMERGENCY_TYPES = ['Medical', 'Injury', 'Accident', 'Other'];
 
 export default function EmergencyResponsesPage() {
+  const goBack = useBreadcrumbBack();
   const [emergencyResponses, setEmergencyResponses] = useState<
     EmergencyResponse[]
   >([]);
@@ -309,7 +311,7 @@ export default function EmergencyResponsesPage() {
             <Button
               variant='outline'
               size='sm'
-              onClick={() => window.history.back()}
+              onClick={goBack}
               className='flex items-center space-x-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />
