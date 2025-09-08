@@ -472,6 +472,14 @@ function AppointmentsPageContent() {
     setSelectedAppointmentId(appointment.id);
   };
 
+  // Ensure the right panel is hidden initially unless a filter explicitly selects one
+  useEffect(() => {
+    if (!employeeFilter) {
+      setSelectedAppointment(null);
+      setSelectedAppointmentId(null);
+    }
+  }, [employeeFilter, setSelectedAppointmentId]);
+
   // Restore selected appointment when data changes
   useEffect(() => {
     const restore = async () => {
@@ -872,8 +880,8 @@ function AppointmentsPageContent() {
               <div
                 className='space-y-4 animate-slide-up'
                 style={{
-                  width: `${100 - leftWidth}%`,
-                  maxWidth: `${100 - leftWidth}%`,
+                  width: selectedAppointment ? `${100 - leftWidth}%` : '0',
+                  maxWidth: selectedAppointment ? `${100 - leftWidth}%` : '0',
                   paddingLeft: '12px',
                   overflow: 'visible',
                 }}

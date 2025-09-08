@@ -240,11 +240,24 @@ export default function Employee360View({
   };
 
   return (
-    <div className='relative w-full h-[850px] overflow-hidden bg-white rounded-xl border border-slate-200/50'>
+    <div
+      className='relative w-full h-[850px] overflow-hidden bg-white rounded-xl border border-slate-200/50'
+      style={{ backgroundColor: '#F2EFED', borderColor: '#D7D9D9' }}
+    >
       {/* Date of Birth - Modern floating card */}
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[160px] z-10'>
-        <div className='bg-white/95 backdrop-blur-md border border-teal-200/40 rounded-full px-4 py-2 shadow-lg shadow-teal-100/50'>
-          <div className='text-sm font-semibold text-teal-700 text-center whitespace-nowrap'>
+        <div
+          className='bg-white/95 backdrop-blur-md border border-teal-200/40 rounded-full px-4 py-2 shadow-lg shadow-teal-100/50'
+          style={{
+            backgroundColor: 'rgba(242, 239, 237, 0.95)',
+            borderColor: 'rgba(183, 214, 206, 0.4)',
+            boxShadow: '0 10px 15px -3px rgba(183, 214, 206, 0.5)',
+          }}
+        >
+          <div
+            className='text-sm font-semibold text-teal-700 text-center whitespace-nowrap'
+            style={{ color: '#56969D' }}
+          >
             {formatDateOfBirth(
               employee.date_of_birth?.toString() || 'Not specified'
             )}

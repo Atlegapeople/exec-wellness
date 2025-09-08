@@ -103,34 +103,30 @@ export default function Footer() {
               <div className='space-y-3'>
                 <a
                   href='/employees'
-                  className='flex items-center gap-2 text-sm transition-colors'
-                  style={{ color: '#FFFFFF' }}
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
                 >
-                  <Users className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  <Users className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Employee Management
                 </a>
                 <a
                   href='/reports'
-                  className='flex items-center gap-2 text-sm transition-colors'
-                  style={{ color: '#FFFFFF' }}
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
                 >
-                  <FileText className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  <FileText className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Medical Reports
                 </a>
                 <a
                   href='/appointments'
-                  className='flex items-center gap-2 text-sm transition-colors'
-                  style={{ color: '#FFFFFF' }}
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
                 >
-                  <Calendar className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  <Calendar className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Appointments
                 </a>
                 <a
                   href='/analytics'
-                  className='flex items-center gap-2 text-sm transition-colors'
-                  style={{ color: '#FFFFFF' }}
+                  className='group flex items-center gap-2 text-sm text-white hover:text-[#EAB75C] transition-colors'
                 >
-                  <BarChart3 className='h-3 w-3' style={{ color: '#FFFFFF' }} />
+                  <BarChart3 className='h-3 w-3 text-white group-hover:text-[#EAB75C] transition-colors' />
                   Health Analytics
                 </a>
               </div>

@@ -26,7 +26,8 @@ export default function StatusBadge({
         left: `${position.x}%`,
         top: `${position.y}%`,
       }}
-      onClick={onClick}>
+      onClick={onClick}
+    >
       <div
         className={cn(
           'w-16 h-16 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-110 group-hover:z-30 flex flex-col items-center justify-center relative',
@@ -35,30 +36,60 @@ export default function StatusBadge({
             ? 'bg-teal-100/90 border border-teal-300/60 shadow-lg shadow-teal-200/30 hover:bg-teal-50 hover:shadow-xl'
             : 'bg-amber-100/90 border border-amber-300/60 shadow-lg shadow-amber-200/30 hover:bg-amber-50 hover:shadow-xl'
         )}
+        style={{
+          backgroundColor: isActive
+            ? 'rgba(180, 202, 188, 0.9)'
+            : 'rgba(234, 183, 92, 0.9)',
+          borderColor: isActive ? 'var(--sage)' : 'var(--daisy)',
+          borderWidth: '1px',
+          borderStyle: 'solid',
+          boxShadow: isActive
+            ? '0 10px 15px -3px rgba(180, 202, 188, 0.3)'
+            : '0 10px 15px -3px rgba(234, 183, 92, 0.3)',
+        }}
+        onMouseEnter={e => {
+          e.currentTarget.style.backgroundColor = isActive
+            ? 'var(--sage)'
+            : 'var(--daisy)';
+          e.currentTarget.style.boxShadow = isActive
+            ? '0 25px 25px -5px rgba(180, 202, 188, 0.4)'
+            : '0 25px 25px -5px rgba(234, 183, 92, 0.4)';
+        }}
+        onMouseLeave={e => {
+          e.currentTarget.style.backgroundColor = isActive
+            ? 'rgba(180, 202, 188, 0.9)'
+            : 'rgba(234, 183, 92, 0.9)';
+          e.currentTarget.style.boxShadow = isActive
+            ? '0 10px 15px -3px rgba(180, 202, 188, 0.3)'
+            : '0 10px 15px -3px rgba(234, 183, 92, 0.3)';
+        }}
       >
         {/* Content */}
         <div className='flex flex-col items-center justify-center h-full'>
           <div
             className={cn(
-              'text-[8px] font-bold leading-tight mb-1 text-center px-0.5 w-full',
-              isActive ? 'text-teal-800' : 'text-amber-800'
+              'text-[8px] font-bold leading-tight mb-1 text-center px-0.5 w-full'
+              // isActive ? 'text-teal-800' : 'text-amber-800'
             )}
+            style={{ color: isActive ? 'var(--forest)' : 'var(--forest)' }}
           >
             {displayName}
           </div>
           <div
             className={cn(
-              'text-[10px] font-bold leading-none mb-0.5 bg-white/60 rounded-full px-1.5 py-0.5',
-              isActive ? 'text-teal-700' : 'text-amber-700'
+              'text-[10px] font-bold leading-none mb-0.5 bg-white/60 rounded-full px-1.5 py-0.5'
+              // isActive ? 'text-teal-700' : 'text-amber-700'
             )}
+            style={{ color: isActive ? 'var(--forest)' : 'var(--forest)' }}
           >
             {recordCount > 99 ? '99+' : recordCount}
           </div>
           <div
             className={cn(
-              'text-[6px] font-semibold uppercase tracking-wide leading-none bg-white/40 rounded-full px-1 py-0.5',
-              isActive ? 'text-teal-600' : 'text-amber-600'
+              'text-[6px] font-semibold uppercase tracking-wide leading-none bg-white/40 rounded-full px-1 py-0.5'
+              // isActive ? 'text-teal-600' : 'text-amber-600'
             )}
+            style={{ color: isActive ? 'var(--fern)' : 'var(--fern)' }}
           >
             {isActive ? 'Done' : 'Pending'}
           </div>
