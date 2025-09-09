@@ -268,11 +268,13 @@ export default function Sidebar({ className }: SidebarProps) {
     return (
       <div
         className={cn(
-          'h-full w-64 bg-card border-r border-border flex flex-col',
+          'flex flex-col h-screen border-r transition-all duration-300 overflow-hidden',
+          'bg-gradient-to-b from-[rgba(86,150,157,0.02)] to-[rgba(182,217,206,0.01)]',
+          'w-64',
           className
         )}
       >
-        <div className='flex items-center justify-between p-4 border-b border-border'>
+        <div className='flex items-center justify-between p-4 border-b bg-[rgba(86,150,157,0.03)]'>
           <div className='flex items-center gap-3'>
             <Image
               src='/Logo-Health-With-Heart-Logo-Registered.svg'
@@ -281,14 +283,20 @@ export default function Sidebar({ className }: SidebarProps) {
               height={40}
               className='h-10 w-auto'
             />
-            <div>
-              <h2 className='text-lg font-semibold text-foreground'>OHMS</h2>
-              <p className='text-xs text-muted-foreground'>Health Management</p>
-            </div>
           </div>
         </div>
         <div className='flex-1 p-4'>
           <div className='text-center text-muted-foreground'>Loading...</div>
+        </div>
+        <div className='p-4 border-t flex-shrink-0 bg-[rgba(86,150,157,0.02)]'>
+          <div className='text-center'>
+            <div className='text-xs text-muted-foreground'>
+              OHMS Dashboard v2.0
+            </div>
+            <div className='text-xs text-muted-foreground mt-1'>
+              Occupational Health Management
+            </div>
+          </div>
         </div>
       </div>
     );

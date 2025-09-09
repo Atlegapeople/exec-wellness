@@ -181,7 +181,10 @@ function getSegmentLabel(segment: string): string {
 
 export default function Breadcrumbs() {
   const pathname = usePathname();
-  const segments = pathname.split('/').filter(Boolean);
+  const segments = useMemo(
+    () => pathname.split('/').filter(Boolean),
+    [pathname]
+  );
   const STORAGE_KEY = 'breadcrumbsHistory';
   const searchParams = useSearchParams();
 
