@@ -662,9 +662,15 @@ function AppointmentsPageContent() {
                         Medical appointment scheduling and records
                       </CardDescription>
                     </div>
-                    <Button onClick={openCreateModal} className='hover-lift'>
-                      <Plus className='h-4 w-4 mr-2' />
-                      Add New Appointment
+                    <Button
+                      onClick={openCreateModal}
+                      className={`hover-lift ${selectedAppointment ? 'rounded-full p-2' : ''}`}
+                      title={selectedAppointment ? 'Add New Appointment' : ''}
+                    >
+                      <Plus className='h-4 w-4' />
+                      {!selectedAppointment && (
+                        <span className='ml-2'>Add New Appointment</span>
+                      )}
                     </Button>
                   </div>
                 </CardHeader>
@@ -945,7 +951,10 @@ function AppointmentsPageContent() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => setSelectedAppointment(null)}
+                          onClick={() => {
+                            setSelectedAppointment(null);
+                            setSelectedAppointmentId(null);
+                          }}
                           className='hover-lift'
                           title='Close details'
                         >
