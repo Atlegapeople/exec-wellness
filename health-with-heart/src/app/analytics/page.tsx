@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
 import {
   Card,
   CardContent,
@@ -42,11 +42,14 @@ import {
   CheckCircle,
   Eye,
   Calendar,
+  ArrowLeft,
 } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
-export default function Analytics() {
+function AnalyticsContent() {
+  const goBack = useBreadcrumbBack();
   const [activeTab, setActiveTab] = useState('clinical-examinations');
   const [selectedOrganization, setSelectedOrganization] =
     useState<string>('all');
@@ -270,6 +273,14 @@ export default function Analytics() {
     <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
+          {/* Back Button */}
+          <div className='mb-4'>
+            <Button variant='outline' onClick={goBack} className='hover-lift'>
+              <ArrowLeft className='h-4 w-4 mr-2' />
+              Back
+            </Button>
+          </div>
+
           {/* Page Header */}
           <div className='space-y-4'>
             <div className='flex items-center gap-2'>
@@ -828,5 +839,30 @@ export default function Analytics() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+
+export default function Analytics() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
+              <div className='flex items-center justify-center p-12'>
+                <div className='flex items-center gap-3 text-muted-foreground'>
+                  <Loader2 className='h-6 w-6 animate-spin' />
+                  <span className='text-lg'>
+                    Loading analytics dashboard...
+                  </span>
+                </div>
+              </div>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <AnalyticsContent />
+    </Suspense>
   );
 }

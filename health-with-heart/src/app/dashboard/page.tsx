@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import ProtectedRoute from '@/components/ProtectedRoute';
 import {
   Card,
@@ -29,8 +30,10 @@ import {
   Stethoscope,
   CheckCircle,
   AlertCircle,
+  ArrowLeft,
 } from 'lucide-react';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   DashboardStats,
   ReportStatusData,
@@ -50,7 +53,8 @@ import {
   mockWorkplaceHealth,
 } from '@/lib/mockData';
 
-export default function Dashboard() {
+function DashboardContent() {
+  const goBack = useBreadcrumbBack();
   const currentDate = new Date().toLocaleDateString('en-ZA', {
     weekday: 'long',
     year: 'numeric',
@@ -116,6 +120,14 @@ export default function Dashboard() {
     <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
+          {/* Back Button */}
+          <div className='mb-4'>
+            <Button variant='outline' onClick={goBack} className='hover-lift'>
+              <ArrowLeft className='h-4 w-4 mr-2' />
+              Back
+            </Button>
+          </div>
+
           {/* Loading State */}
           {isLoading && (
             <Card>
@@ -357,5 +369,30 @@ export default function Dashboard() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+
+export default function Dashboard() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Dashboard'
+                    subtitle='Initializing dashboard components...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <DashboardContent />
+    </Suspense>
   );
 }
