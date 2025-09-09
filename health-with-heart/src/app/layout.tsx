@@ -8,6 +8,7 @@ import {
 } from 'next/font/google';
 import './globals.css';
 import { UserProvider } from '@/contexts/UserContext';
+import { Toaster } from 'sonner';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -53,6 +54,20 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${workSans.variable} ${yrsa.variable} antialiased`}
       >
         <UserProvider>{children}</UserProvider>
+        <Toaster
+          position='top-right'
+          toastOptions={{
+            style: {
+              background: '#F2EFED',
+              color: '#586D6A',
+              border: '1px solid #B6D9CE',
+              borderRadius: '12px',
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
+            },
+            className: 'font-work-sans-regular',
+          }}
+          theme='light'
+        />
       </body>
     </html>
   );

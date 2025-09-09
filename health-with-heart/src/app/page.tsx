@@ -66,7 +66,6 @@ export default function AuthPage() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState('');
 
   useEffect(() => {
     // Load the Lottie animation data for Health Analytics
@@ -248,7 +247,6 @@ export default function AuthPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setMessage('');
 
     try {
       if (mode === 'login') {
@@ -259,12 +257,12 @@ export default function AuthPage() {
 
         if (error) throw error;
 
-        setMessage('Login successful! Setting up your account...');
+        toast.success('Login successful! Setting up your account...');
 
         // Check and link user account automatically
         await linkUserAccount(data.user);
 
-        setMessage('Redirecting to your dashboard...');
+        toast.success('Redirecting to your dashboard...');
         // Redirect to dashboard
         window.location.href = '/my-dashboard';
       } else if (mode === 'signup') {
@@ -275,7 +273,7 @@ export default function AuthPage() {
 
         if (error) throw error;
 
-        setMessage('Check your email for verification link!');
+        toast.success('Check your email for verification link!');
       } else if (mode === 'reset') {
         const { data, error } = await supabase.auth.resetPasswordForEmail(
           email,
@@ -286,7 +284,7 @@ export default function AuthPage() {
 
         if (error) throw error;
 
-        setMessage('Password reset email sent!');
+        toast.success('Password reset email sent!');
       }
     } catch (error: any) {
       toast.error(error?.message || 'An error occurred');
@@ -313,7 +311,7 @@ export default function AuthPage() {
 
       if (error) throw error;
 
-      setMessage('Check your email for the magic link!');
+      toast.success('Check your email for the magic link!');
     } catch (error: any) {
       toast.error(error?.message || 'Failed to send magic link');
     } finally {
@@ -886,7 +884,7 @@ export default function AuthPage() {
               </div>
             </div>
 
-            {/* Right Side - Auth Form */}
+            {/* Right Side - Auth  */}
             <div
               className='w-full max-w-sm mx-auto relative z-20 flex flex-col justify-center'
               style={{ marginTop: '260px', height: 'calc(100% - 260px)' }}
@@ -920,21 +918,6 @@ export default function AuthPage() {
                 </CardHeader>
 
                 <CardContent className='space-y-6'>
-                  {/* Messages */}
-                  {message && (
-                    <div
-                      className='p-4 rounded-xl text-sm font-work-sans-regular'
-                      style={{
-                        backgroundColor: '#B4CABC',
-                        border: '1px solid #B6D9CE',
-                        color: '#586D6A',
-                        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.05)',
-                      }}
-                    >
-                      {message}
-                    </div>
-                  )}
-
                   <form onSubmit={handleSubmit} className='space-y-4'>
                     {/* Email Field */}
                     <div className='space-y-2'>
