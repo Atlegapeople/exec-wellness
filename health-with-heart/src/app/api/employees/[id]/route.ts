@@ -60,7 +60,7 @@ export async function GET(
       );
     }
 
-    const row = result.rows[0];
+    const row = result.rows[0] as any;
     const employee = {
       id: row.id,
       date_created: row.date_created ? new Date(row.date_created) : undefined,
@@ -224,12 +224,16 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as {
+      medical_reports: string;
+      vitals: string;
+      clinical_exams: string;
+    };
 
     if (
-      relatedCounts.medical_reports > 0 ||
-      relatedCounts.vitals > 0 ||
-      relatedCounts.clinical_exams > 0
+      parseInt(relatedCounts.medical_reports) > 0 ||
+      parseInt(relatedCounts.vitals) > 0 ||
+      parseInt(relatedCounts.clinical_exams) > 0
     ) {
       return NextResponse.json(
         {
@@ -256,7 +260,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Employee deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting employee:', error);

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -52,7 +52,7 @@ import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 const EMERGENCY_TYPES = ['Medical', 'Injury', 'Accident', 'Other'];
 
-export default function EmergencyResponsesPage() {
+function EmergencyResponsesPageContent() {
   const goBack = useBreadcrumbBack();
   const [emergencyResponses, setEmergencyResponses] = useState<
     EmergencyResponse[]
@@ -110,7 +110,7 @@ export default function EmergencyResponsesPage() {
 
   useEffect(() => {
     fetchEmergencyResponses(currentPage, searchTerm);
-  }, [currentPage]);
+  }, [currentPage, searchTerm]);
 
   const handleSearch = () => {
     setCurrentPage(1);
@@ -1424,5 +1424,29 @@ export default function EmergencyResponsesPage() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+export default function EmergencyResponsesPage() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Emergency Responses'
+                    subtitle='Fetching emergency response data from OHMS database...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <EmergencyResponsesPageContent />
+    </Suspense>
   );
 }

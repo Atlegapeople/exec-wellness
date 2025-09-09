@@ -28,7 +28,7 @@ export async function GET(
     `;
 
     const result = await query(vitalQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Vital record not found' },
@@ -37,7 +37,6 @@ export async function GET(
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error fetching vital record:', error);
     return NextResponse.json(
@@ -54,17 +53,14 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    
-    const {
-      user_updated,
-      ...vitalData
-    } = body;
+
+    const { user_updated, ...vitalData } = body;
 
     // Build dynamic update query
     const updateFields = Object.keys(vitalData)
       .map((key, index) => `${key} = $${index + 3}`)
       .join(', ');
-    
+
     const values = Object.values(vitalData);
 
     const updateQuery = `
@@ -78,7 +74,7 @@ export async function PUT(
     `;
 
     const result = await query(updateQuery, [id, user_updated, ...values]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Vital record not found' },
@@ -87,7 +83,6 @@ export async function PUT(
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating vital record:', error);
     return NextResponse.json(
@@ -111,7 +106,7 @@ export async function DELETE(
     `;
 
     const result = await query(deleteQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Vital record not found' },
@@ -119,11 +114,10 @@ export async function DELETE(
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Vital record deleted successfully',
-      id: result.rows[0].id 
+      id: (result.rows[0] as any).id,
     });
-
   } catch (error) {
     console.error('Error deleting vital record:', error);
     return NextResponse.json(

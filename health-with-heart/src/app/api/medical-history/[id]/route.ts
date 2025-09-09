@@ -197,7 +197,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Medical history deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting medical history:', error);

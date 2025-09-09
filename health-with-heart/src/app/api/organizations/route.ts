@@ -10,11 +10,11 @@ export async function GET(request: NextRequest) {
     const offset = (page - 1) * limit;
 
     // Build search condition
-    const searchCondition = search 
+    const searchCondition = search
       ? `WHERE (o.name ILIKE $3 OR o.registration_number ILIKE $3)`
       : '';
-    
-    const countSearchCondition = search 
+
+    const countSearchCondition = search
       ? `WHERE (o.name ILIKE $1 OR o.registration_number ILIKE $1)`
       : '';
 
@@ -24,10 +24,10 @@ export async function GET(request: NextRequest) {
       FROM organisation o
       ${countSearchCondition}
     `;
-    
+
     const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get organizations with details, employee count (only employees with Executive Medical reports), manager count, site count, and medical report count
     const organizationsQuery = `
@@ -86,7 +86,9 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search ? [limit, offset, `%${search}%`] : [limit, offset];
+    const queryParams = search
+      ? [limit, offset, `%${search}%`]
+      : [limit, offset];
     const result = await query(organizationsQuery, queryParams);
 
     return NextResponse.json({
@@ -97,15 +99,20 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching organizations:', error);
-    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
+    console.error(
+      'Error details:',
+      error instanceof Error ? error.message : 'Unknown error'
+    );
     return NextResponse.json(
-      { error: 'Failed to fetch organizations', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: 'Failed to fetch organizations',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }
@@ -114,14 +121,13 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const {
-      user_created,
-      ...orgData
-    } = body;
+    const { user_created, ...orgData } = body;
 
     // Get all column names from the request (excluding id, date_created, date_updated)
     const columns = Object.keys(orgData).join(', ');
-    const placeholders = Object.keys(orgData).map((_, index) => `$${index + 2}`).join(', ');
+    const placeholders = Object.keys(orgData)
+      .map((_, index) => `$${index + 2}`)
+      .join(', ');
     const values = Object.values(orgData);
 
     const insertQuery = `
@@ -131,14 +137,19 @@ export async function POST(request: NextRequest) {
     `;
 
     const result = await query(insertQuery, [user_created, ...values]);
-    
-    return NextResponse.json(result.rows[0]);
 
+    return NextResponse.json(result.rows[0]);
   } catch (error) {
     console.error('Error creating organization:', error);
-    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
+    console.error(
+      'Error details:',
+      error instanceof Error ? error.message : 'Unknown error'
+    );
     return NextResponse.json(
-      { error: 'Failed to create organization', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: 'Failed to create organization',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }

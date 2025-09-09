@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import {
@@ -30,9 +31,11 @@ export default function Footer() {
             {/* Company Info */}
             <div className='space-y-4'>
               <div className='flex items-center gap-3'>
-                <img
+                <Image
                   src='/footer-logo-health-with-heart-logo-2.svg'
                   alt='Health With Heart'
+                  width={128}
+                  height={128}
                   className='h-32 w-auto'
                 />
               </div>

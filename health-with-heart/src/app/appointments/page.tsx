@@ -308,7 +308,7 @@ function AppointmentsPageContent() {
     } finally {
       setLoading(false);
     }
-  }, [employeeFilter]);
+  }, [employeeFilter, setSelectedAppointmentId]);
 
   // Client-side filtering
   const filterAppointments = useCallback(
@@ -508,7 +508,12 @@ function AppointmentsPageContent() {
       }
     };
     restore();
-  }, [selectedAppointmentId, selectedAppointment, allAppointments]);
+  }, [
+    selectedAppointmentId,
+    selectedAppointment,
+    allAppointments,
+    setSelectedAppointmentId,
+  ]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -545,7 +550,7 @@ function AppointmentsPageContent() {
       const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
       setLeftWidth(constrainedWidth);
     },
-    [isResizing]
+    [isResizing, setLeftWidth]
   );
 
   const handleMouseUp = useCallback(() => {
@@ -1734,7 +1739,6 @@ function AppointmentsPageContent() {
     </ProtectedRoute>
   );
 }
-
 export default function AppointmentsPage() {
   return (
     <Suspense

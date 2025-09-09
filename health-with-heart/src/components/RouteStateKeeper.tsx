@@ -2,8 +2,12 @@
 
 import { useEffect, useRef } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
+import type { ReadonlyURLSearchParams } from 'next/navigation';
 
-function getRouteKey(pathname: string, searchParams: ReadonlyURLSearchParams | null): string {
+function getRouteKey(
+  pathname: string,
+  searchParams: ReadonlyURLSearchParams | null
+): string {
   const search = searchParams?.toString() || '';
   return (pathname || '/') + (search ? `?${search}` : '');
 }
@@ -19,7 +23,10 @@ export default function RouteStateKeeper() {
     // Save scroll for previous route
     if (prevKeyRef.current) {
       try {
-        sessionStorage.setItem(`scroll:${prevKeyRef.current}`, String(window.scrollY));
+        sessionStorage.setItem(
+          `scroll:${prevKeyRef.current}`,
+          String(window.scrollY)
+        );
       } catch {}
     }
 
@@ -48,5 +55,3 @@ export default function RouteStateKeeper() {
 
   return null;
 }
-
-

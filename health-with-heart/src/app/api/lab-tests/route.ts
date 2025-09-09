@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const tableExists = await query(tableCheckQuery);
-    if (!tableExists.rows[0].exists) {
+    if (!(tableExists.rows[0] as { exists: boolean }).exists) {
       console.log('lab_tests table does not exist');
       return NextResponse.json({
         labTests: [],
@@ -66,7 +66,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const countResult = await query(countQuery, queryParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get lab test records with user info and employee names
     const labTestsQuery = `

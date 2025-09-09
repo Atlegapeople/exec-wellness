@@ -73,7 +73,7 @@ export async function GET(request: NextRequest) {
     // Build search condition
     let searchCondition = '';
     let countSearchCondition = '';
-    
+
     if (search && employee) {
       searchCondition = `WHERE (e.name ILIKE $4 OR e.surname ILIKE $4 OR emh.notes_text ILIKE $4) AND emh.employee_id = $3`;
       countSearchCondition = `WHERE (e.name ILIKE $2 OR e.surname ILIKE $2 OR emh.notes_text ILIKE $2) AND emh.employee_id = $1`;
@@ -93,7 +93,7 @@ export async function GET(request: NextRequest) {
       WHERE emh.employee_id IN (SELECT employee_id FROM medical_report WHERE type = 'Executive Medical')
       ${countSearchCondition ? `AND (${countSearchCondition.replace('WHERE ', '')})` : ''}
     `;
-    
+
     let countParams: (string | number)[] = [];
     if (search && employee) {
       countParams = [employee, `%${search}%`];
@@ -102,9 +102,9 @@ export async function GET(request: NextRequest) {
     } else if (employee) {
       countParams = [employee];
     }
-    
+
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get medical history with employee names and user names
     const medicalHistoryQuery = `
@@ -133,7 +133,7 @@ export async function GET(request: NextRequest) {
     } else {
       queryParams = [limit, offset];
     }
-    
+
     const result = await query(medicalHistoryQuery, queryParams);
 
     const medicalHistories: MedicalHistory[] = result.rows.map((row: any) => ({
@@ -193,7 +193,7 @@ export async function GET(request: NextRequest) {
       recommendation_text: row.recommendation_text,
       employee_name: row.employee_name,
       created_by_name: row.created_by_name,
-      updated_by_name: row.updated_by_name
+      updated_by_name: row.updated_by_name,
     }));
 
     return NextResponse.json({
@@ -204,10 +204,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching medical histories:', error);
     return NextResponse.json(
@@ -220,7 +219,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO employee_medical_history (
         id, date_created, date_updated, user_created, user_updated,
@@ -295,13 +294,12 @@ export async function POST(request: NextRequest) {
       body.surgery_year,
       body.notes_header,
       body.notes_text,
-      body.recommendation_text
+      body.recommendation_text,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating medical history:', error);
     return NextResponse.json(

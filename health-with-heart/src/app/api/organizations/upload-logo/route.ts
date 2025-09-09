@@ -28,10 +28,10 @@ export async function POST(request: NextRequest) {
     // Create filename based on organization ID
     const fileExtension = file.name.split('.').pop() || 'jpg';
     const fileName = `${organizationId}.${fileExtension}`;
-    
+
     // Define upload directory
     const uploadDir = join(process.cwd(), 'public', 'organization_logos');
-    
+
     // Create directory if it doesn't exist
     if (!existsSync(uploadDir)) {
       await mkdir(uploadDir, { recursive: true });
@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
     `;
 
     const result = await query(updateQuery, [logoPath, organizationId]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Organization not found' },
@@ -63,10 +63,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       message: 'Logo uploaded successfully',
-      logoPath: result.rows[0].logo,
-      organizationId: result.rows[0].id
+      logoPath: (result.rows[0] as { logo: string }).logo,
+      organizationId: (result.rows[0] as { id: string }).id,
     });
-
   } catch (error) {
     console.error('Error uploading logo:', error);
     return NextResponse.json(

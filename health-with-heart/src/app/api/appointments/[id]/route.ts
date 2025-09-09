@@ -125,7 +125,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Appointment deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting appointment:', error);

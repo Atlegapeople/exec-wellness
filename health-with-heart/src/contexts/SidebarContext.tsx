@@ -12,11 +12,13 @@ const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 
 export function SidebarProvider({ children }: { children: ReactNode }) {
   const [isCollapsed, setIsCollapsed] = useState(false);
-  
+
   const sidebarWidth = isCollapsed ? 'pl-16' : 'pl-64';
 
   return (
-    <SidebarContext.Provider value={{ isCollapsed, setIsCollapsed, sidebarWidth }}>
+    <SidebarContext.Provider
+      value={{ isCollapsed, setIsCollapsed, sidebarWidth }}
+    >
       {children}
     </SidebarContext.Provider>
   );

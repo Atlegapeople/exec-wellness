@@ -63,14 +63,15 @@ export async function GET() {
         AND value IS NOT NULL
       ORDER BY report_created_at_date DESC, full_name, key
     `;
-    
+
     const result = await query(medicalHistoryQuery);
-    const records: MedicalHistoryRecord[] = result.rows;
+    const records: MedicalHistoryRecord[] =
+      result.rows as MedicalHistoryRecord[];
 
     console.log('Total medical history records found:', records.length);
 
     const insights = processMedicalHistoryData(records);
-    
+
     return NextResponse.json(insights);
   } catch (error) {
     console.error('Error processing medical history data:', error);
@@ -81,7 +82,9 @@ export async function GET() {
   }
 }
 
-function processMedicalHistoryData(records: MedicalHistoryRecord[]): MedicalHistoryInsights {
+function processMedicalHistoryData(
+  records: MedicalHistoryRecord[]
+): MedicalHistoryInsights {
   // Get unique reports and patients
   const uniqueReports = new Set(records.map(r => r.report_id));
   const uniquePatients = new Set(records.map(r => r.full_name));
@@ -89,23 +92,26 @@ function processMedicalHistoryData(records: MedicalHistoryRecord[]): MedicalHist
   const totalPatients = uniquePatients.size;
 
   // Process condition breakdown
-  const conditionCounts = records.reduce((acc, record) => {
-    const condition = record.key;
-    const response = record.value.toLowerCase();
-    
-    if (!acc[condition]) {
-      acc[condition] = { yes: 0, no: 0, total: 0 };
-    }
-    
-    if (response === 'yes') {
-      acc[condition].yes++;
-    } else if (response === 'no') {
-      acc[condition].no++;
-    }
-    acc[condition].total++;
-    
-    return acc;
-  }, {} as Record<string, { yes: number; no: number; total: number }>);
+  const conditionCounts = records.reduce(
+    (acc, record) => {
+      const condition = record.key;
+      const response = record.value.toLowerCase();
+
+      if (!acc[condition]) {
+        acc[condition] = { yes: 0, no: 0, total: 0 };
+      }
+
+      if (response === 'yes') {
+        acc[condition].yes++;
+      } else if (response === 'no') {
+        acc[condition].no++;
+      }
+      acc[condition].total++;
+
+      return acc;
+    },
+    {} as Record<string, { yes: number; no: number; total: number }>
+  );
 
   const conditionBreakdown = Object.entries(conditionCounts)
     .map(([condition, counts]) => ({
@@ -113,7 +119,7 @@ function processMedicalHistoryData(records: MedicalHistoryRecord[]): MedicalHist
       yesCount: counts.yes,
       noCount: counts.no,
       totalResponses: counts.total,
-      prevalenceRate: Math.round((counts.yes / counts.total) * 100)
+      prevalenceRate: Math.round((counts.yes / counts.total) * 100),
     }))
     .sort((a, b) => b.yesCount - a.yesCount);
 
@@ -124,62 +130,78 @@ function processMedicalHistoryData(records: MedicalHistoryRecord[]): MedicalHist
     .map(condition => ({
       condition: condition.condition,
       affectedPatients: condition.yesCount,
-      prevalenceRate: condition.prevalenceRate
+      prevalenceRate: condition.prevalenceRate,
     }));
 
   // Report type breakdown
-  const reportTypeCounts = records.reduce((acc, record) => {
-    acc[record.medical_report_type] = (acc[record.medical_report_type] || 0) + 1;
-    return acc;
-  }, {} as Record<string, number>);
+  const reportTypeCounts = records.reduce(
+    (acc, record) => {
+      acc[record.medical_report_type] =
+        (acc[record.medical_report_type] || 0) + 1;
+      return acc;
+    },
+    {} as Record<string, number>
+  );
 
   const reportTypeBreakdown = Object.entries(reportTypeCounts)
     .map(([type, count]) => ({
       type,
       count,
-      percentage: Math.round((count / records.length) * 100)
+      percentage: Math.round((count / records.length) * 100),
     }))
     .sort((a, b) => b.count - a.count);
 
   // Time series data (reports by month)
   const monthlyData = records
     .filter(r => r.report_created_at_date)
-    .reduce((acc, record) => {
-      const month = new Date(record.report_created_at_date).toISOString().slice(0, 7);
-      if (!acc[month]) {
-        acc[month] = { reports: new Set(), patients: new Set() };
-      }
-      acc[month].reports.add(record.report_id);
-      acc[month].patients.add(record.full_name);
-      return acc;
-    }, {} as Record<string, { reports: Set<string>; patients: Set<string> }>);
+    .reduce(
+      (acc, record) => {
+        const month = new Date(record.report_created_at_date)
+          .toISOString()
+          .slice(0, 7);
+        if (!acc[month]) {
+          acc[month] = { reports: new Set(), patients: new Set() };
+        }
+        acc[month].reports.add(record.report_id);
+        acc[month].patients.add(record.full_name);
+        return acc;
+      },
+      {} as Record<string, { reports: Set<string>; patients: Set<string> }>
+    );
 
   const timeSeriesData = Object.entries(monthlyData)
     .map(([month, data]) => ({
       month,
       reportCount: data.reports.size,
-      patientCount: data.patients.size
+      patientCount: data.patients.size,
     }))
     .sort((a, b) => a.month.localeCompare(b.month));
 
   // Medication analysis
-  const medicationRecords = records.filter(r => 
-    r.key === 'Is Currently on Medication' || r.key === 'Medication'
+  const medicationRecords = records.filter(
+    r => r.key === 'Is Currently on Medication' || r.key === 'Medication'
   );
-  
-  const medicationAnalysis = medicationRecords.reduce((acc, record) => {
-    if (record.value.toLowerCase() === 'yes') {
-      acc.onMedication++;
-    } else if (record.value.toLowerCase() === 'no') {
-      acc.notOnMedication++;
-    }
-    return acc;
-  }, { onMedication: 0, notOnMedication: 0 });
 
-  const totalMedicationResponses = medicationAnalysis.onMedication + medicationAnalysis.notOnMedication;
-  const medicationRate = totalMedicationResponses > 0 
-    ? Math.round((medicationAnalysis.onMedication / totalMedicationResponses) * 100)
-    : 0;
+  const medicationAnalysis = medicationRecords.reduce(
+    (acc, record) => {
+      if (record.value.toLowerCase() === 'yes') {
+        acc.onMedication++;
+      } else if (record.value.toLowerCase() === 'no') {
+        acc.notOnMedication++;
+      }
+      return acc;
+    },
+    { onMedication: 0, notOnMedication: 0 }
+  );
+
+  const totalMedicationResponses =
+    medicationAnalysis.onMedication + medicationAnalysis.notOnMedication;
+  const medicationRate =
+    totalMedicationResponses > 0
+      ? Math.round(
+          (medicationAnalysis.onMedication / totalMedicationResponses) * 100
+        )
+      : 0;
 
   return {
     totalReports,
@@ -190,7 +212,7 @@ function processMedicalHistoryData(records: MedicalHistoryRecord[]): MedicalHist
     topConditions,
     medicationAnalysis: {
       ...medicationAnalysis,
-      medicationRate
-    }
+      medicationRate,
+    },
   };
 }

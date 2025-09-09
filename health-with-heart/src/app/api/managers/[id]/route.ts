@@ -104,9 +104,9 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as { locations: string };
 
-    if (relatedCounts.locations > 0) {
+    if (parseInt(relatedCounts.locations) > 0) {
       return NextResponse.json(
         {
           error: 'Cannot delete manager with existing related locations',
@@ -127,7 +127,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Manager deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting manager:', error);

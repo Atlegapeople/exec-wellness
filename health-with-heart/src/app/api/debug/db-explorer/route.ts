@@ -21,29 +21,36 @@ export async function GET(request: Request) {
           ORDER BY tablename;
         `;
         const tables = await query(tablesQuery);
-        
+
         // Get row counts for each table
         const tablesWithCounts = await Promise.all(
           tables.rows.map(async (table: any) => {
             try {
-              const countResult = await query(`SELECT COUNT(*) as count FROM "${table.tablename}"`);
+              const countResult = await query(
+                `SELECT COUNT(*) as count FROM "${table.tablename}"`
+              );
               return {
                 ...table,
-                row_count: parseInt(countResult.rows[0].count)
+                row_count: parseInt(
+                  (countResult.rows[0] as { count: string }).count
+                ),
               };
             } catch (e) {
               return { ...table, row_count: 'Error' };
             }
           })
         );
-        
+
         return NextResponse.json({ tables: tablesWithCounts });
 
       case 'schema':
         if (!tableName) {
-          return NextResponse.json({ error: 'Table name required' }, { status: 400 });
+          return NextResponse.json(
+            { error: 'Table name required' },
+            { status: 400 }
+          );
         }
-        
+
         const columnsQuery = `
           SELECT 
             column_name,
@@ -56,25 +63,28 @@ export async function GET(request: Request) {
           ORDER BY ordinal_position;
         `;
         const columns = await query(columnsQuery, [tableName]);
-        
-        return NextResponse.json({ 
+
+        return NextResponse.json({
           table: tableName,
-          columns: columns.rows 
+          columns: columns.rows,
         });
 
       case 'sample':
         if (!tableName) {
-          return NextResponse.json({ error: 'Table name required' }, { status: 400 });
+          return NextResponse.json(
+            { error: 'Table name required' },
+            { status: 400 }
+          );
         }
-        
+
         const sampleQuery = `SELECT * FROM "${tableName}" LIMIT $1`;
         const sample = await query(sampleQuery, [limit]);
-        
+
         return NextResponse.json({
           table: tableName,
           limit: limit,
           row_count: sample.rows.length,
-          data: sample.rows
+          data: sample.rows,
         });
 
       case 'relationships':
@@ -98,19 +108,18 @@ export async function GET(request: Request) {
           ORDER BY tc.table_name, kcu.column_name;
         `;
         const relationships = await query(fkQuery);
-        
+
         return NextResponse.json({ relationships: relationships.rows });
 
       default:
         return NextResponse.json({ error: 'Invalid action' }, { status: 400 });
     }
-
   } catch (error) {
     console.error('Database explorer error:', error);
     return NextResponse.json(
-      { 
+      {
         error: 'Database exploration failed',
-        details: error instanceof Error ? error.message : String(error)
+        details: error instanceof Error ? error.message : String(error),
       },
       { status: 500 }
     );

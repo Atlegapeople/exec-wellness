@@ -103,11 +103,14 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as {
+      medical_reports_doctor: string;
+      medical_reports_nurse: string;
+    };
 
     if (
-      relatedCounts.medical_reports_doctor > 0 ||
-      relatedCounts.medical_reports_nurse > 0
+      parseInt(relatedCounts.medical_reports_doctor) > 0 ||
+      parseInt(relatedCounts.medical_reports_nurse) > 0
     ) {
       return NextResponse.json(
         {
@@ -138,7 +141,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Medical staff member deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting medical staff member:', error);

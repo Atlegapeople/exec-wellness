@@ -174,7 +174,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Lab test deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting lab test:', error);

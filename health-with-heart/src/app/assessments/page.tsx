@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
@@ -96,7 +96,7 @@ interface Employee {
   work_email: string;
 }
 
-export default function AssessmentsPage() {
+function AssessmentsPageContent() {
   const goBack = useBreadcrumbBack();
   const [assessments, setAssessments] = useState<AssessmentRecord[]>([]);
   const [employees, setEmployees] = useState<Employee[]>([]);
@@ -140,26 +140,29 @@ export default function AssessmentsPage() {
     useState<AssessmentRecord | null>(null);
   const [formLoading, setFormLoading] = useState(false);
 
-  const fetchAssessments = async (page = 1, search = '') => {
-    try {
-      setLoading(true);
-      const response = await fetch(
-        `/api/assessments?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`
-      );
-      if (!response.ok) throw new Error('Failed to fetch assessments');
+  const fetchAssessments = useCallback(
+    async (page = 1, search = '') => {
+      try {
+        setLoading(true);
+        const response = await fetch(
+          `/api/assessments?page=${page}&limit=${pagination.limit}&search=${encodeURIComponent(search)}`
+        );
+        if (!response.ok) throw new Error('Failed to fetch assessments');
 
-      const data = await response.json();
-      console.log('API Response - first assessment:', data.assessments[0]);
-      setAssessments(data.assessments);
-      setPagination(data.pagination);
-    } catch (error) {
-      console.error('Error fetching assessments:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+        const data = await response.json();
+        console.log('API Response - first assessment:', data.assessments[0]);
+        setAssessments(data.assessments);
+        setPagination(data.pagination);
+      } catch (error) {
+        console.error('Error fetching assessments:', error);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [pagination.limit]
+  );
 
-  const fetchEmployees = async () => {
+  const fetchEmployees = useCallback(async () => {
     try {
       const response = await fetch('/api/employees?limit=1000');
       if (!response.ok) throw new Error('Failed to fetch employees');
@@ -169,12 +172,12 @@ export default function AssessmentsPage() {
     } catch (error) {
       console.error('Error fetching employees:', error);
     }
-  };
+  }, []);
 
   useEffect(() => {
     fetchAssessments();
     fetchEmployees();
-  }, []);
+  }, [fetchAssessments, fetchEmployees]);
 
   const handleSearch = () => {
     fetchAssessments(1, searchTerm);
@@ -298,7 +301,12 @@ export default function AssessmentsPage() {
       }
     };
     restore();
-  }, [selectedAssessmentId, selectedAssessment, assessments]);
+  }, [
+    selectedAssessmentId,
+    selectedAssessment,
+    assessments,
+    setSelectedAssessmentId,
+  ]);
 
   // Resize functionality
   const handleMouseDown = (e: React.MouseEvent) => {
@@ -339,7 +347,7 @@ export default function AssessmentsPage() {
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
     };
-  }, [isResizing]);
+  }, [isResizing, setLeftPanelWidth]);
 
   if (loading) {
     return (
@@ -1086,5 +1094,29 @@ export default function AssessmentsPage() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+export default function AssessmentsPage() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Medical Assessments'
+                    subtitle='Fetching executive medical assessment data from OHMS database...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <AssessmentsPageContent />
+    </Suspense>
   );
 }

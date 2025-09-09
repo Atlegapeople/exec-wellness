@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import {
   Card,
   CardContent,
@@ -98,7 +98,7 @@ interface CalendarStats {
 
 type CalendarView = 'month' | 'week' | 'day' | 'year';
 
-export default function CalendarPage() {
+function CalendarPageContent() {
   const goBack = useBreadcrumbBack();
   const [currentDate, setCurrentDate] = useState(new Date());
   const [view, setView] = useState<CalendarView>('month');
@@ -162,7 +162,7 @@ export default function CalendarPage() {
 
   // Fetch appointments for the current view with smooth transitions
   const fetchAppointments = useCallback(
-    async (isNavigation = false, date?: Date, viewType?: CalendarView) => {
+    async (isNavigation = false, date: Date, viewType: CalendarView) => {
       try {
         if (isNavigation) {
           setCalendarLoading(true);
@@ -171,10 +171,7 @@ export default function CalendarPage() {
           setLoading(true);
         }
 
-        // Use provided date/view or current state
-        const targetDate = date || currentDate;
-        const targetView = viewType || view;
-        const dateRange = getDateRange(targetDate, targetView);
+        const dateRange = getDateRange(date, viewType);
 
         const url = new URL(
           '/api/calendar/appointments',
@@ -182,7 +179,7 @@ export default function CalendarPage() {
         );
         url.searchParams.set('start', dateRange.start);
         url.searchParams.set('end', dateRange.end);
-        url.searchParams.set('view', targetView);
+        url.searchParams.set('view', viewType);
 
         const response = await fetch(url.toString());
         const data = await response.json();
@@ -221,7 +218,7 @@ export default function CalendarPage() {
   // Initial load only
   useEffect(() => {
     fetchAppointments(false, new Date(), 'month');
-  }, []); // Only run on mount
+  }, [fetchAppointments]); // Only run on mount
 
   // Navigation functions with smooth transitions
   const navigatePrevious = async () => {
@@ -1042,5 +1039,29 @@ export default function CalendarPage() {
         )}
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+export default function CalendarPage() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Calendar'
+                    subtitle='Fetching appointment schedule and calendar data...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <CalendarPageContent />
+    </Suspense>
   );
 }

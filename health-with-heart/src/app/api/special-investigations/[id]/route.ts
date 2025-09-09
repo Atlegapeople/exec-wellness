@@ -193,7 +193,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Special investigation deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as any).id,
     });
   } catch (error) {
     console.error('Error deleting special investigation:', error);

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import {
   Card,
   CardContent,
@@ -329,99 +330,121 @@ export default function AuthPage() {
       <div className='fixed inset-0 pointer-events-none z-0'>
         {/* Single elegant image - top right corner */}
         <div className='absolute top-16 right-16 w-64 h-64 opacity-[0.45]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-header-image.png'
             alt='Background element'
+            width={256}
+            height={256}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Single elegant image - bottom left corner */}
         <div className='absolute bottom-16 left-16 w-56 h-56 opacity-[0.42]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-side-image.png'
             alt='Background element'
+            width={224}
+            height={224}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Subtle accent - far top left */}
         <div className='absolute top-8 left-8 w-32 h-32 opacity-[0.38]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-cta-image-600x607.png'
             alt='Background element'
+            width={128}
+            height={128}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Center image - left side of center */}
         <div className='absolute top-1/3 left-1/4 w-48 h-48 opacity-[0.40]'>
-          <img
+          <Image
             src='/branding/hwh-corporate-services-archive-side-image.png'
             alt='Background element'
+            width={192}
+            height={192}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Center image - right side of center */}
         <div className='absolute top-1/2 right-1/4 w-52 h-52 opacity-[0.42]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-services-archive-cta.png'
             alt='Background element'
+            width={208}
+            height={208}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Top center image */}
         <div className='absolute top-8 left-1/2 w-40 h-40 opacity-[0.39]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-cta-image-600x607.png'
             alt='Background element'
+            width={160}
+            height={160}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Top left area image */}
         <div className='absolute top-12 left-1/3 w-36 h-36 opacity-[0.41]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-side-image.png'
             alt='Background element'
+            width={144}
+            height={144}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Bottom right - behind login form */}
         <div className='absolute bottom-32 right-32 w-44 h-44 opacity-[0.38]'>
-          <img
+          <Image
             src='/branding/hwh-corporate-services-archive-side-image.png'
             alt='Background element'
+            width={176}
+            height={176}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Behind cards - closer to login form */}
         <div className='absolute bottom-40 right-20 w-36 h-36 opacity-[0.36]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-cta-image-600x607.png'
             alt='Background element'
+            width={144}
+            height={144}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Bottom center image */}
         <div className='absolute bottom-16 left-1/2 w-48 h-48 opacity-[0.37]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-services-archive-cta.png'
             alt='Background element'
+            width={192}
+            height={192}
             className='w-full h-full object-cover object-center'
           />
         </div>
 
         {/* Behind appointment management card */}
         <div className='absolute top-1/2 left-16 w-40 h-40 opacity-[0.35]'>
-          <img
+          <Image
             src='/branding/health-with-heart-corporate-wellness-header-image.png'
             alt='Background element'
+            width={160}
+            height={160}
             className='w-full h-full object-cover object-center'
           />
         </div>
@@ -435,9 +458,11 @@ export default function AuthPage() {
             <div className='lg:col-span-2 space-y-8'>
               {/* Logo */}
               <div className='flex items-center gap-4 mb-6'>
-                <img
+                <Image
                   src='/Logo-Health-With-Heart-Logo-Registered.svg'
                   alt='Health With Heart'
+                  width={64}
+                  height={64}
                   className='h-16 w-auto'
                 />
               </div>

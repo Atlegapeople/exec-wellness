@@ -25,7 +25,7 @@ export async function GET(
     `;
 
     const result = await query(assessmentQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Assessment record not found' },
@@ -34,7 +34,6 @@ export async function GET(
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error fetching assessment record:', error);
     return NextResponse.json(
@@ -51,17 +50,14 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    
-    const {
-      user_updated,
-      ...assessmentData
-    } = body;
+
+    const { user_updated, ...assessmentData } = body;
 
     // Build dynamic update query
     const updateFields = Object.keys(assessmentData)
       .map((key, index) => `${key} = $${index + 3}`)
       .join(', ');
-    
+
     const values = Object.values(assessmentData);
 
     const updateQuery = `
@@ -75,7 +71,7 @@ export async function PUT(
     `;
 
     const result = await query(updateQuery, [id, user_updated, ...values]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Assessment record not found' },
@@ -84,7 +80,6 @@ export async function PUT(
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating assessment record:', error);
     return NextResponse.json(
@@ -108,7 +103,7 @@ export async function DELETE(
     `;
 
     const result = await query(deleteQuery, [id]);
-    
+
     if (result.rows.length === 0) {
       return NextResponse.json(
         { error: 'Assessment record not found' },
@@ -116,11 +111,10 @@ export async function DELETE(
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Assessment record deleted successfully',
-      id: result.rows[0].id 
+      id: (result.rows[0] as { id: string }).id,
     });
-
   } catch (error) {
     console.error('Error deleting assessment record:', error);
     return NextResponse.json(

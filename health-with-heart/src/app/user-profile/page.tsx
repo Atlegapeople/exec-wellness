@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, Suspense } from 'react';
 import { User } from '@/types';
 import {
   Card,
@@ -46,7 +46,7 @@ interface UserWithMetadata extends User {
   profileImage?: string;
 }
 
-export default function UserProfilePage() {
+function UserProfileContent() {
   const { currentUser, updateProfileImage, loading } = useUser();
   const goBack = useBreadcrumbBack();
   const [uploading, setUploading] = useState(false);
@@ -577,5 +577,30 @@ export default function UserProfilePage() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+
+export default function UserProfilePage() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Profile'
+                    subtitle='Preparing your profile...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <UserProfileContent />
+    </Suspense>
   );
 }

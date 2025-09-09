@@ -145,9 +145,9 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as { employees: string };
 
-    if (relatedCounts.employees > 0) {
+    if (parseInt(relatedCounts.employees) > 0) {
       return NextResponse.json(
         {
           error: 'Cannot delete cost center with existing employees',
@@ -171,7 +171,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Cost center deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting cost center:', error);

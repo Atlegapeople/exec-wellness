@@ -2,8 +2,12 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
+import type { ReadonlyURLSearchParams } from 'next/navigation';
 
-function buildRouteKey(pathname: string, searchParams: ReadonlyURLSearchParams | null): string {
+function buildRouteKey(
+  pathname: string,
+  searchParams: ReadonlyURLSearchParams | null
+): string {
   const search = searchParams?.toString() || '';
   return (pathname || '/') + (search ? `?${search}` : '');
 }
@@ -27,8 +31,14 @@ export function useRouteState<T>(
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const scope = options?.scope ?? 'path+query';
-  const routeKey = buildRouteKey(pathname, scope === 'path+query' ? searchParams : null);
-  const storageKey = useMemo(() => `routeState:${routeKey}:${key}`, [routeKey, key]);
+  const routeKey = buildRouteKey(
+    pathname,
+    scope === 'path+query' ? searchParams : null
+  );
+  const storageKey = useMemo(
+    () => `routeState:${routeKey}:${key}`,
+    [routeKey, key]
+  );
 
   const [state, setState] = useState<T>(() => {
     const stored = readFromSession<T>(storageKey);
@@ -52,5 +62,3 @@ export function useRouteState<T>(
 
   return [state, setState] as const;
 }
-
-

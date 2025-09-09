@@ -28,10 +28,10 @@ export async function POST(request: NextRequest) {
     // Create filename based on userId (to match existing file structure)
     const fileExtension = file.name.split('.').pop() || 'jpg';
     const fileName = `${userId}.${fileExtension}`;
-    
+
     // Define upload directory
     const uploadDir = join(process.cwd(), 'public', 'user_images');
-    
+
     // Create directory if it doesn't exist
     if (!existsSync(uploadDir)) {
       await mkdir(uploadDir, { recursive: true });
@@ -56,10 +56,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       message: 'Signature uploaded successfully',
-      signaturePath: result.rows[0].signature,
-      userId: result.rows[0].id
+      signaturePath: (result.rows[0] as { signature: string }).signature,
+      userId: (result.rows[0] as { id: string }).id,
     });
-
   } catch (error) {
     console.error('Error uploading signature:', error);
     return NextResponse.json(

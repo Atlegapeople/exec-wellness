@@ -11,11 +11,11 @@ export async function GET(request: NextRequest) {
     const offset = (page - 1) * limit;
 
     // Build search condition - only for employees with Executive Medical reports
-    const searchCondition = search 
+    const searchCondition = search
       ? `AND (er.id ILIKE $3 OR er.employee_id ILIKE $3 OR er.report_id ILIKE $3 OR er.emergency_type ILIKE $3 OR er.main_complaint ILIKE $3 OR er.diagnosis ILIKE $3 OR er.place ILIKE $3 OR e.name ILIKE $3 OR e.surname ILIKE $3 OR e.work_email ILIKE $3)`
       : '';
-    
-    const countSearchCondition = search 
+
+    const countSearchCondition = search
       ? `AND (er.id ILIKE $1 OR er.employee_id ILIKE $1 OR er.report_id ILIKE $1 OR er.emergency_type ILIKE $1 OR er.main_complaint ILIKE $1 OR er.diagnosis ILIKE $1 OR er.place ILIKE $1 OR e.name ILIKE $1 OR e.surname ILIKE $1 OR e.work_email ILIKE $1)`
       : '';
 
@@ -28,10 +28,10 @@ export async function GET(request: NextRequest) {
       WHERE mr.type = 'Executive Medical'
       ${countSearchCondition}
     `;
-    
+
     const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get emergency response records with user info and employee names
     const emergencyResponsesQuery = `
@@ -80,41 +80,43 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search 
+    const queryParams = search
       ? [limit, offset, `%${search}%`]
       : [limit, offset];
 
     const result = await query(emergencyResponsesQuery, queryParams);
-    
-    const emergencyResponses: EmergencyResponse[] = result.rows.map((row: any) => ({
-      id: row.id,
-      date_created: row.date_created ? new Date(row.date_created) : undefined,
-      date_updated: row.date_updated ? new Date(row.date_updated) : undefined,
-      user_created: row.user_created,
-      user_updated: row.user_updated,
-      report_id: row.report_id,
-      employee_id: row.employee_id,
-      employee_name: row.employee_name,
-      employee_surname: row.employee_surname,
-      employee_work_email: row.employee_work_email,
-      injury_date: row.injury_date ? new Date(row.injury_date) : undefined,
-      injury_time: row.injury_time,
-      arrival_time: row.arrival_time,
-      location_id: row.location_id,
-      place: row.place,
-      emergency_type: row.emergency_type,
-      injury: row.injury,
-      main_complaint: row.main_complaint,
-      diagnosis: row.diagnosis,
-      findings: row.findings,
-      intervention: row.intervention,
-      patient_history: row.patient_history,
-      plan: row.plan,
-      outcome: row.outcome,
-      reference: row.reference,
-      manager: row.manager,
-      sendemail: row.sendemail
-    }));
+
+    const emergencyResponses: EmergencyResponse[] = result.rows.map(
+      (row: any) => ({
+        id: row.id,
+        date_created: row.date_created ? new Date(row.date_created) : undefined,
+        date_updated: row.date_updated ? new Date(row.date_updated) : undefined,
+        user_created: row.user_created,
+        user_updated: row.user_updated,
+        report_id: row.report_id,
+        employee_id: row.employee_id,
+        employee_name: row.employee_name,
+        employee_surname: row.employee_surname,
+        employee_work_email: row.employee_work_email,
+        injury_date: row.injury_date ? new Date(row.injury_date) : undefined,
+        injury_time: row.injury_time,
+        arrival_time: row.arrival_time,
+        location_id: row.location_id,
+        place: row.place,
+        emergency_type: row.emergency_type,
+        injury: row.injury,
+        main_complaint: row.main_complaint,
+        diagnosis: row.diagnosis,
+        findings: row.findings,
+        intervention: row.intervention,
+        patient_history: row.patient_history,
+        plan: row.plan,
+        outcome: row.outcome,
+        reference: row.reference,
+        manager: row.manager,
+        sendemail: row.sendemail,
+      })
+    );
 
     return NextResponse.json({
       emergencyResponses,
@@ -124,23 +126,23 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error: any) {
     console.error('Error fetching emergency responses:', error);
-    
+
     // Provide more specific error information
     let errorMessage = 'Failed to fetch emergency responses';
     if (error.code === 'ECONNREFUSED') {
-      errorMessage = 'Database connection refused - check if database is running';
+      errorMessage =
+        'Database connection refused - check if database is running';
     } else if (error.code === '42P01') {
       errorMessage = 'Table does not exist in database';
     } else if (error.message) {
       errorMessage = error.message;
     }
-    
+
     return NextResponse.json(
       { error: errorMessage, details: error.code || 'Unknown error' },
       { status: 500 }
@@ -151,7 +153,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO emergency_responses (
         id, date_created, date_updated, user_created, user_updated,
@@ -186,13 +188,12 @@ export async function POST(request: NextRequest) {
       body.outcome,
       body.reference,
       body.manager,
-      body.sendemail
+      body.sendemail,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating emergency response:', error);
     return NextResponse.json(
@@ -262,7 +263,7 @@ export async function PUT(request: NextRequest) {
       updateData.outcome,
       updateData.reference,
       updateData.manager,
-      updateData.sendemail
+      updateData.sendemail,
     ];
 
     const result = await query(updateQuery, values);
@@ -275,7 +276,6 @@ export async function PUT(request: NextRequest) {
     }
 
     return NextResponse.json(result.rows[0]);
-
   } catch (error) {
     console.error('Error updating emergency response:', error);
     return NextResponse.json(
@@ -297,7 +297,8 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const deleteQuery = 'DELETE FROM emergency_responses WHERE id = $1 RETURNING *';
+    const deleteQuery =
+      'DELETE FROM emergency_responses WHERE id = $1 RETURNING *';
     const result = await query(deleteQuery, [id]);
 
     if (result.rows.length === 0) {
@@ -307,11 +308,10 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       message: 'Emergency response deleted successfully',
-      deleted: result.rows[0]
+      deleted: result.rows[0],
     });
-
   } catch (error) {
     console.error('Error deleting emergency response:', error);
     return NextResponse.json(

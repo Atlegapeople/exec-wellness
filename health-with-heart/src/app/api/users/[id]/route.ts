@@ -125,7 +125,7 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as any;
 
     const totalRelated =
       parseInt(relatedCounts.employees_created) +
@@ -173,7 +173,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'User deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as any).id,
     });
   } catch (error) {
     console.error('Error deleting user:', error);

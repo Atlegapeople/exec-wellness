@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const countResult = await query(countQuery, queryParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as any).total);
 
     // Get special investigation records with user info and employee names
     const investigationsQuery = `

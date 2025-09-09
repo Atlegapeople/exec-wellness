@@ -13,10 +13,9 @@ export async function GET() {
     `;
 
     const result = await query(countQuery);
-    const count = parseInt(result.rows[0].count);
+    const count = parseInt((result.rows[0] as any).count);
 
     return NextResponse.json({ count });
-
   } catch (error) {
     console.error('Error in SQL count endpoint:', error);
     return NextResponse.json(

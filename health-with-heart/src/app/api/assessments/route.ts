@@ -10,11 +10,11 @@ export async function GET(request: NextRequest) {
     const offset = (page - 1) * limit;
 
     // Build search condition
-    const searchCondition = search 
+    const searchCondition = search
       ? `AND (e.name ILIKE $3 OR e.surname ILIKE $3 OR e.employee_number ILIKE $3)`
       : '';
-    
-    const countSearchCondition = search 
+
+    const countSearchCondition = search
       ? `AND (e.name ILIKE $1 OR e.surname ILIKE $1 OR e.employee_number ILIKE $1)`
       : '';
 
@@ -30,10 +30,10 @@ export async function GET(request: NextRequest) {
       )
       ${countSearchCondition}
     `;
-    
+
     const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get assessments with employee details
     const assessmentsQuery = `
@@ -59,7 +59,9 @@ export async function GET(request: NextRequest) {
       LIMIT $1 OFFSET $2
     `;
 
-    const queryParams = search ? [limit, offset, `%${search}%`] : [limit, offset];
+    const queryParams = search
+      ? [limit, offset, `%${search}%`]
+      : [limit, offset];
     const result = await query(assessmentsQuery, queryParams);
 
     return NextResponse.json({
@@ -70,15 +72,20 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching assessments:', error);
-    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
+    console.error(
+      'Error details:',
+      error instanceof Error ? error.message : 'Unknown error'
+    );
     return NextResponse.json(
-      { error: 'Failed to fetch assessments', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: 'Failed to fetch assessments',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }
@@ -87,15 +94,13 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const {
-      employee_id,
-      user_created,
-      ...assessmentData
-    } = body;
+    const { employee_id, user_created, ...assessmentData } = body;
 
     // Get all column names from the request (excluding id, date_created, date_updated)
     const columns = Object.keys(assessmentData).join(', ');
-    const placeholders = Object.keys(assessmentData).map((_, index) => `$${index + 3}`).join(', ');
+    const placeholders = Object.keys(assessmentData)
+      .map((_, index) => `$${index + 3}`)
+      .join(', ');
     const values = Object.values(assessmentData);
 
     const insertQuery = `
@@ -104,15 +109,24 @@ export async function POST(request: NextRequest) {
       RETURNING *
     `;
 
-    const result = await query(insertQuery, [employee_id, user_created, ...values]);
-    
-    return NextResponse.json(result.rows[0]);
+    const result = await query(insertQuery, [
+      employee_id,
+      user_created,
+      ...values,
+    ]);
 
+    return NextResponse.json(result.rows[0]);
   } catch (error) {
     console.error('Error creating assessment record:', error);
-    console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
+    console.error(
+      'Error details:',
+      error instanceof Error ? error.message : 'Unknown error'
+    );
     return NextResponse.json(
-      { error: 'Failed to create assessment record', details: error instanceof Error ? error.message : 'Unknown error' },
+      {
+        error: 'Failed to create assessment record',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }

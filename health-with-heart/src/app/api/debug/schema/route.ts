@@ -10,36 +10,35 @@ export async function GET() {
       WHERE table_schema = 'public'
       ORDER BY table_name;
     `;
-    
+
     const tables = await query(tablesQuery);
-    
+
     let schemaInfo: any = {};
-    
+
     // For each table, get column information
     for (const table of tables.rows) {
-      const tableName = table.table_name;
-      
+      const tableName = (table as { table_name: string }).table_name;
+
       const columnsQuery = `
         SELECT column_name, data_type, is_nullable
         FROM information_schema.columns 
         WHERE table_schema = 'public' AND table_name = $1
         ORDER BY ordinal_position;
       `;
-      
+
       const columns = await query(columnsQuery, [tableName]);
-      
+
       // Get sample data count
       const countQuery = `SELECT COUNT(*) as count FROM "${tableName}"`;
       const count = await query(countQuery);
-      
+
       schemaInfo[tableName] = {
         columns: columns.rows,
-        rowCount: parseInt(count.rows[0].count)
+        rowCount: parseInt((count.rows[0] as { count: string }).count),
       };
     }
-    
+
     return NextResponse.json(schemaInfo);
-    
   } catch (error) {
     console.error('Error exploring schema:', error);
     return NextResponse.json(

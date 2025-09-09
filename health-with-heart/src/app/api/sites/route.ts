@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
     // Build search condition
     let searchCondition = '';
     let countSearchCondition = '';
-    
+
     if (search && organization) {
       searchCondition = `WHERE (s.name ILIKE $4 OR s.address ILIKE $4 OR s.site_admin_email ILIKE $4) AND s.organisation_id = $3`;
       countSearchCondition = `WHERE (s.name ILIKE $2 OR s.address ILIKE $2 OR s.site_admin_email ILIKE $2) AND s.organisation_id = $1`;
@@ -48,7 +48,7 @@ export async function GET(request: NextRequest) {
       FROM sites s
       ${countSearchCondition}
     `;
-    
+
     let countParams: (string | number)[] = [];
     if (search && organization) {
       countParams = [organization, `%${search}%`];
@@ -57,9 +57,9 @@ export async function GET(request: NextRequest) {
     } else if (organization) {
       countParams = [organization];
     }
-    
+
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get sites with creator/updater names, organization names, employee counts, and medical report counts
     const sitesQuery = `
@@ -111,7 +111,7 @@ export async function GET(request: NextRequest) {
     } else {
       queryParams = [limit, offset];
     }
-    
+
     const result = await query(sitesQuery, queryParams);
 
     const sites: Site[] = result.rows.map((row: any) => ({
@@ -128,7 +128,7 @@ export async function GET(request: NextRequest) {
       updated_by_name: row.updated_by_name,
       organisation_name: row.organisation_name,
       employee_count: parseInt(row.employee_count) || 0,
-      medical_report_count: parseInt(row.medical_report_count) || 0
+      medical_report_count: parseInt(row.medical_report_count) || 0,
     }));
 
     return NextResponse.json({
@@ -139,10 +139,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching sites:', error);
     return NextResponse.json(
@@ -155,7 +154,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO sites (
         id, date_created, date_updated, user_created, user_updated,
@@ -172,13 +171,12 @@ export async function POST(request: NextRequest) {
       body.organisation_id,
       body.name,
       body.address,
-      body.site_admin_email
+      body.site_admin_email,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating site:', error);
     return NextResponse.json(

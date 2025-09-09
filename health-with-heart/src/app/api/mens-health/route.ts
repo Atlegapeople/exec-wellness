@@ -71,7 +71,9 @@ export async function GET(request: NextRequest) {
     `;
 
     const countResult = await query(countQuery, params);
-    const total = parseInt(countResult.rows[0].count || '0');
+    const total = parseInt(
+      (countResult.rows[0] as { count: string }).count || '0'
+    );
 
     console.log('Count query result:', countResult.rows[0]);
     console.log('Total records found:', total);

@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
     // Build search condition
     let searchCondition = '';
     let countSearchCondition = '';
-    
+
     if (search && site) {
       searchCondition = `WHERE (l.name ILIKE $4 OR l.address ILIKE $4) AND l.site_id = $3`;
       countSearchCondition = `WHERE (l.name ILIKE $2 OR l.address ILIKE $2) AND l.site_id = $1`;
@@ -48,7 +48,7 @@ export async function GET(request: NextRequest) {
       FROM locations l
       ${countSearchCondition}
     `;
-    
+
     let countParams: (string | number)[] = [];
     if (search && site) {
       countParams = [site, `%${search}%`];
@@ -57,9 +57,9 @@ export async function GET(request: NextRequest) {
     } else if (site) {
       countParams = [site];
     }
-    
+
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get locations with creator/updater names, site names, and manager names
     const locationsQuery = `
@@ -89,7 +89,7 @@ export async function GET(request: NextRequest) {
     } else {
       queryParams = [limit, offset];
     }
-    
+
     const result = await query(locationsQuery, queryParams);
 
     const locations: Location[] = result.rows.map((row: any) => ({
@@ -106,7 +106,7 @@ export async function GET(request: NextRequest) {
       updated_by_name: row.updated_by_name,
       site_name: row.site_name,
       manager_name: row.manager_name,
-      employee_count: 0
+      employee_count: 0,
     }));
 
     return NextResponse.json({
@@ -117,10 +117,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching locations:', error);
     return NextResponse.json(
@@ -133,7 +132,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO locations (
         id, date_created, date_updated, user_created, user_updated,
@@ -150,13 +149,12 @@ export async function POST(request: NextRequest) {
       body.site_id,
       body.name,
       body.address,
-      body.manager
+      body.manager,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating location:', error);
     return NextResponse.json(

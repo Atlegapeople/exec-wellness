@@ -56,7 +56,9 @@ export async function GET(request: NextRequest) {
     `;
 
     const countResult = await query(countQuery, params);
-    const total = parseInt(countResult.rows[0].count || '0');
+    const total = parseInt(
+      (countResult.rows[0] as { count: string }).count || '0'
+    );
 
     console.log('Count query result:', countResult.rows[0]);
     console.log('Total records found:', total);
@@ -292,7 +294,7 @@ export async function PUT(request: NextRequest) {
     if (changedFields.length === 0) {
       return NextResponse.json(
         {
-          ...existingRecord,
+          ...(existingRecord as Record<string, any>),
           message: 'No changes detected',
           changedFields: [],
           unchangedFields: Object.keys(fieldMappings).filter(
@@ -335,7 +337,7 @@ export async function PUT(request: NextRequest) {
 
     // Return the updated record with success message
     return NextResponse.json({
-      ...updatedRecord,
+      ...(updatedRecord as Record<string, any>),
       message: `Successfully updated ${changedFields.length} field(s): ${changedFields.join(', ')}`,
       changedFields,
       unchangedFields: Object.keys(fieldMappings).filter(
@@ -479,7 +481,7 @@ export async function PATCH(request: NextRequest) {
     if (changedFields.length === 0) {
       return NextResponse.json(
         {
-          ...existingRecord,
+          ...(existingRecord as Record<string, any>),
           message: 'No changes detected',
           changedFields: [],
           unchangedFields: Object.keys(fieldMappings),
@@ -520,7 +522,7 @@ export async function PATCH(request: NextRequest) {
 
     // Return the updated record with success message
     return NextResponse.json({
-      ...updatedRecord,
+      ...(updatedRecord as Record<string, any>),
       message: `Successfully updated ${section} section: ${changedFields.length} field(s) changed`,
       section,
       changedFields,

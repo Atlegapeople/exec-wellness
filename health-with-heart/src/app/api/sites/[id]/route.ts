@@ -128,12 +128,16 @@ export async function DELETE(
     `;
 
     const relatedResult = await query(relatedRecordsQuery, [id]);
-    const relatedCounts = relatedResult.rows[0];
+    const relatedCounts = relatedResult.rows[0] as {
+      employees: string;
+      medical_reports: string;
+      locations: string;
+    };
 
     if (
-      relatedCounts.employees > 0 ||
-      relatedCounts.medical_reports > 0 ||
-      relatedCounts.locations > 0
+      parseInt(relatedCounts.employees) > 0 ||
+      parseInt(relatedCounts.medical_reports) > 0 ||
+      parseInt(relatedCounts.locations) > 0
     ) {
       return NextResponse.json(
         {
@@ -157,7 +161,7 @@ export async function DELETE(
 
     return NextResponse.json({
       message: 'Site deleted successfully',
-      id: result.rows[0].id,
+      id: (result.rows[0] as { id: string }).id,
     });
   } catch (error) {
     console.error('Error deleting site:', error);

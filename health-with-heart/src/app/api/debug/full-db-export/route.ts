@@ -77,30 +77,46 @@ export async function GET() {
     `;
 
     const result = await query(fullExportQuery);
-    const schemaData = result.rows[0].complete_schema;
+    const schemaData = (result.rows[0] as { complete_schema: any })
+      .complete_schema;
 
     // Now get row counts and sample data for key tables
-    const keyTables = ['medical_report', 'employee', 'appointments', 'employee_medical_history'];
+    const keyTables = [
+      'medical_report',
+      'employee',
+      'appointments',
+      'employee_medical_history',
+    ];
     const tableData: any = {};
 
     for (const tableName of keyTables) {
       try {
         // Get row count
-        const countResult = await query(`SELECT COUNT(*) as count FROM "${tableName}"`);
-        const rowCount = parseInt(countResult.rows[0].count);
+        const countResult = await query(
+          `SELECT COUNT(*) as count FROM "${tableName}"`
+        );
+        const rowCount = parseInt(
+          (countResult.rows[0] as { count: string }).count
+        );
 
         // Get sample data (first 3 rows)
-        const sampleResult = await query(`SELECT * FROM "${tableName}" LIMIT 3`);
+        const sampleResult = await query(
+          `SELECT * FROM "${tableName}" LIMIT 3`
+        );
 
         // Get distinct values for key columns if the table exists
         let distinctValues = {};
         if (tableName === 'medical_report') {
           try {
-            const statusResult = await query(`SELECT report_work_status, COUNT(*) as count FROM medical_report WHERE report_work_status IS NOT NULL GROUP BY report_work_status ORDER BY count DESC LIMIT 10`);
-            const typeResult = await query(`SELECT type, COUNT(*) as count FROM medical_report WHERE type IS NOT NULL GROUP BY type ORDER BY count DESC LIMIT 10`);
+            const statusResult = await query(
+              `SELECT report_work_status, COUNT(*) as count FROM medical_report WHERE report_work_status IS NOT NULL GROUP BY report_work_status ORDER BY count DESC LIMIT 10`
+            );
+            const typeResult = await query(
+              `SELECT type, COUNT(*) as count FROM medical_report WHERE type IS NOT NULL GROUP BY type ORDER BY count DESC LIMIT 10`
+            );
             distinctValues = {
               report_work_status_values: statusResult.rows,
-              type_values: typeResult.rows
+              type_values: typeResult.rows,
             };
           } catch (e) {
             distinctValues = { error: 'Could not fetch distinct values' };
@@ -120,7 +136,7 @@ export async function GET() {
               WHERE date_of_birth IS NOT NULL
             `);
             distinctValues = {
-              age_statistics: ageStats.rows[0]
+              age_statistics: ageStats.rows[0],
             };
           } catch (e) {
             distinctValues = { error: 'Could not fetch age statistics' };
@@ -130,12 +146,11 @@ export async function GET() {
         tableData[tableName] = {
           row_count: rowCount,
           sample_data: sampleResult.rows,
-          distinct_values: distinctValues
+          distinct_values: distinctValues,
         };
-
       } catch (error) {
-        tableData[tableName] = { 
-          error: `Could not access table: ${error instanceof Error ? error.message : String(error)}` 
+        tableData[tableName] = {
+          error: `Could not access table: ${error instanceof Error ? error.message : String(error)}`,
         };
       }
     }
@@ -150,24 +165,24 @@ export async function GET() {
         key_tables_analyzed: Object.keys(tableData).length,
         has_medical_data: tableData.medical_report?.row_count > 0,
         has_employee_data: tableData.employee?.row_count > 0,
-        has_appointment_data: tableData.appointments?.row_count > 0
-      }
+        has_appointment_data: tableData.appointments?.row_count > 0,
+      },
     };
 
     return NextResponse.json(completeExport, {
       headers: {
         'Content-Type': 'application/json',
-        'Content-Disposition': 'attachment; filename="ohms_database_export.json"'
-      }
+        'Content-Disposition':
+          'attachment; filename="ohms_database_export.json"',
+      },
     });
-
   } catch (error) {
     console.error('Full database export error:', error);
     return NextResponse.json(
-      { 
+      {
         error: 'Database export failed',
         details: error instanceof Error ? error.message : String(error),
-        timestamp: new Date().toISOString()
+        timestamp: new Date().toISOString(),
       },
       { status: 500 }
     );

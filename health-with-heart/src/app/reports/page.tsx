@@ -558,22 +558,25 @@ function ReportsPageContent() {
     setIsResizing(true);
   };
 
-  const handleMouseMove = (e: MouseEvent) => {
-    if (!isResizing) return;
+  const handleMouseMove = useCallback(
+    (e: MouseEvent) => {
+      if (!isResizing) return;
 
-    const container = document.querySelector(
-      '.resizable-container'
-    ) as HTMLElement;
-    if (!container) return;
+      const container = document.querySelector(
+        '.resizable-container'
+      ) as HTMLElement;
+      if (!container) return;
 
-    const containerRect = container.getBoundingClientRect();
-    const newLeftWidth =
-      ((e.clientX - containerRect.left) / containerRect.width) * 100;
+      const containerRect = container.getBoundingClientRect();
+      const newLeftWidth =
+        ((e.clientX - containerRect.left) / containerRect.width) * 100;
 
-    // Constrain between 20% and 80%
-    const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
-    setLeftPanelWidth(constrainedWidth);
-  };
+      // Constrain between 20% and 80%
+      const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
+      setLeftPanelWidth(constrainedWidth);
+    },
+    [isResizing, setLeftPanelWidth]
+  );
 
   const handleMouseUp = () => {
     setIsResizing(false);
@@ -598,7 +601,7 @@ function ReportsPageContent() {
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
     };
-  }, [isResizing]);
+  }, [isResizing, handleMouseMove]);
 
   useEffect(() => {
     const restore = async () => {
@@ -622,7 +625,7 @@ function ReportsPageContent() {
       }
     };
     restore();
-  }, [selectedReportId, selectedReport, allReports]);
+  }, [selectedReportId, selectedReport, allReports, setSelectedReportId]);
   if (loading) {
     return (
       <ProtectedRoute>
@@ -2870,7 +2873,6 @@ function ReportsPageContent() {
     </ProtectedRoute>
   );
 }
-
 export default function ReportsPage() {
   return (
     <Suspense

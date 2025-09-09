@@ -12,11 +12,11 @@ export async function GET(request: NextRequest) {
     const isGetAll = searchParams.get('limit') === '10000';
 
     // Build search condition
-    const searchCondition = search 
+    const searchCondition = search
       ? `WHERE (u.name ILIKE $3 OR u.surname ILIKE $3 OR u.email ILIKE $3 OR u.type ILIKE $3)`
       : '';
-    
-    const countSearchCondition = search 
+
+    const countSearchCondition = search
       ? `WHERE (name ILIKE $1 OR surname ILIKE $1 OR email ILIKE $1 OR type ILIKE $1)`
       : '';
 
@@ -26,10 +26,10 @@ export async function GET(request: NextRequest) {
       FROM users 
       ${countSearchCondition}
     `;
-    
+
     const countParams: string[] = search ? [`%${search}%`] : [];
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as any).total);
 
     // Get users with creator/updater names
     const usersQuery = `
@@ -55,14 +55,18 @@ export async function GET(request: NextRequest) {
       ${isGetAll ? '' : 'LIMIT $1 OFFSET $2'}
     `;
 
-    const queryParams = isGetAll 
-      ? (search ? [`%${search}%`] : [])
-      : (search ? [limit, offset, `%${search}%`] : [limit, offset]);
+    const queryParams = isGetAll
+      ? search
+        ? [`%${search}%`]
+        : []
+      : search
+        ? [limit, offset, `%${search}%`]
+        : [limit, offset];
 
     const result = await query(usersQuery, queryParams);
-    
-    const users: (User & { 
-      created_by_name?: string; 
+
+    const users: (User & {
+      created_by_name?: string;
       updated_by_name?: string;
     })[] = result.rows.map((row: any) => ({
       id: row.id,
@@ -77,7 +81,7 @@ export async function GET(request: NextRequest) {
       type: row.type,
       signature: row.signature,
       created_by_name: row.created_by_name,
-      updated_by_name: row.updated_by_name
+      updated_by_name: row.updated_by_name,
     }));
 
     return NextResponse.json({
@@ -88,10 +92,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching users:', error);
     return NextResponse.json(
@@ -104,7 +107,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO users (
         id, date_created, date_updated, user_created, user_updated,
@@ -123,13 +126,12 @@ export async function POST(request: NextRequest) {
       body.email,
       body.mobile,
       body.type,
-      body.signature
+      body.signature,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating user:', error);
     return NextResponse.json(

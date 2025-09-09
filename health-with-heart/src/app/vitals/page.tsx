@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import { useRouteState } from '@/hooks/useRouteState';
 import {
@@ -132,7 +132,7 @@ interface Employee {
   work_email: string;
 }
 
-export default function VitalsPage() {
+function VitalsPageContent() {
   const goBack = useBreadcrumbBack();
   // Extract employee filter from URL (client-side only)
   const [employeeFilter, setEmployeeFilter] = useState<string | null>(null);
@@ -245,7 +245,7 @@ export default function VitalsPage() {
         setLoading(false);
       }
     },
-    [employeeFilter]
+    [employeeFilter, pagination.limit, setSelectedVitalId]
   );
 
   const fetchEmployees = async () => {
@@ -421,7 +421,7 @@ export default function VitalsPage() {
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
     };
-  }, [isResizing]);
+  }, [isResizing, setLeftPanelWidth]);
 
   const getBMIBadgeColor = (category: string) => {
     switch (category?.toLowerCase()) {
@@ -536,7 +536,7 @@ export default function VitalsPage() {
       }
     };
     restore();
-  }, [selectedVitalId, selectedVital, vitals]);
+  }, [selectedVitalId, selectedVital, vitals, setSelectedVitalId]);
 
   if (loading) {
     return (
@@ -1799,5 +1799,29 @@ export default function VitalsPage() {
         </div>
       </DashboardLayout>
     </ProtectedRoute>
+  );
+}
+export default function VitalsPage() {
+  return (
+    <Suspense
+      fallback={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+              <Card>
+                <CardContent>
+                  <PageLoading
+                    text='Loading Vitals & Clinical Metrics'
+                    subtitle='Fetching vital signs and clinical measurement data from OHMS database...'
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          </DashboardLayout>
+        </ProtectedRoute>
+      }
+    >
+      <VitalsPageContent />
+    </Suspense>
   );
 }

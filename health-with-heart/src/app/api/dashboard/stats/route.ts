@@ -39,25 +39,32 @@ export async function GET() {
     // Execute all queries in parallel
     const [
       todayAppointments,
-      completedReports, 
+      completedReports,
       pendingSignatures,
-      activeDoctors
+      activeDoctors,
     ] = await Promise.all([
       query(todayAppointmentsQuery),
       query(completedReportsQuery),
       query(pendingSignaturesQuery),
-      query(activeDoctorsQuery)
+      query(activeDoctorsQuery),
     ]);
 
     const stats: DashboardStats = {
-      todayAppointments: parseInt(todayAppointments.rows[0].count),
-      completedReports: parseInt(completedReports.rows[0].count),
-      pendingSignatures: parseInt(pendingSignatures.rows[0].count),
-      activeDoctors: parseInt(activeDoctors.rows[0].count)
+      todayAppointments: parseInt(
+        (todayAppointments.rows[0] as { count: string }).count
+      ),
+      completedReports: parseInt(
+        (completedReports.rows[0] as { count: string }).count
+      ),
+      pendingSignatures: parseInt(
+        (pendingSignatures.rows[0] as { count: string }).count
+      ),
+      activeDoctors: parseInt(
+        (activeDoctors.rows[0] as { count: string }).count
+      ),
     };
 
     return NextResponse.json(stats);
-
   } catch (error) {
     console.error('Error fetching dashboard stats:', error);
     return NextResponse.json(

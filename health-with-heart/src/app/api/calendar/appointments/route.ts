@@ -59,7 +59,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const result = await query(appointmentsQuery, [startDate, endDate]);
-    
+
     const appointments = result.rows.map((row: any) => ({
       id: row.id,
       date_created: new Date(row.date_created),
@@ -86,11 +86,15 @@ export async function GET(request: NextRequest) {
       updated_by_name: row.updated_by_name,
       // Calendar-specific fields
       title: `${row.type} - ${row.employee_name} ${row.employee_surname}`,
-      start: row.start_datetime || new Date(`${row.start_date}T${row.start_time || '09:00:00'}`),
-      end: row.end_datetime || new Date(`${row.end_date}T${row.end_time || '10:00:00'}`),
+      start:
+        row.start_datetime ||
+        new Date(`${row.start_date}T${row.start_time || '09:00:00'}`),
+      end:
+        row.end_datetime ||
+        new Date(`${row.end_date}T${row.end_time || '10:00:00'}`),
       allDay: !row.start_datetime && !row.end_datetime,
       color: getAppointmentColor(row.type, row.report_id),
-      status: row.report_id ? 'completed' : 'scheduled'
+      status: row.report_id ? 'completed' : 'scheduled',
     }));
 
     // Get summary statistics for the date range
@@ -112,7 +116,13 @@ export async function GET(request: NextRequest) {
     `;
 
     const statsResult = await query(statsQuery, [startDate, endDate]);
-    const stats = statsResult.rows[0];
+    const stats = statsResult.rows[0] as {
+      total_appointments: string;
+      completed_appointments: string;
+      scheduled_appointments: string;
+      unique_employees: string;
+      appointment_types: string;
+    };
 
     return NextResponse.json({
       appointments,
@@ -121,15 +131,14 @@ export async function GET(request: NextRequest) {
         completed: parseInt(stats.completed_appointments),
         scheduled: parseInt(stats.scheduled_appointments),
         uniqueEmployees: parseInt(stats.unique_employees),
-        appointmentTypes: parseInt(stats.appointment_types)
+        appointmentTypes: parseInt(stats.appointment_types),
       },
       dateRange: {
         start: startDate,
         end: endDate,
-        view
-      }
+        view,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching calendar appointments:', error);
     return NextResponse.json(

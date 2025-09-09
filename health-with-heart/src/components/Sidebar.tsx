@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useSidebar } from '@/contexts/SidebarContext';
@@ -273,9 +274,11 @@ export default function Sidebar({ className }: SidebarProps) {
       >
         <div className='flex items-center justify-between p-4 border-b border-border'>
           <div className='flex items-center gap-3'>
-            <img
+            <Image
               src='/Logo-Health-With-Heart-Logo-Registered.svg'
               alt='Health With Heart'
+              width={40}
+              height={40}
               className='h-10 w-auto'
             />
             <div>
@@ -313,9 +316,11 @@ export default function Sidebar({ className }: SidebarProps) {
           </div>
         ) : (
           <div className='flex items-center gap-3'>
-            <img
+            <Image
               src='/Logo-Health-With-Heart-Logo-Registered.svg'
               alt='Health With Heart'
+              width={40}
+              height={40}
               className='h-10 w-auto'
             />
           </div>

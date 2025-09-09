@@ -8,7 +8,10 @@ export async function GET(request: NextRequest) {
     const nurseId = searchParams.get('nurseId');
 
     if (!doctorId && !nurseId) {
-      return NextResponse.json({ error: 'Either Doctor ID or Nurse ID is required' }, { status: 400 });
+      return NextResponse.json(
+        { error: 'Either Doctor ID or Nurse ID is required' },
+        { status: 400 }
+      );
     }
 
     // Get staff member info (doctor or nurse)
@@ -22,11 +25,19 @@ export async function GET(request: NextRequest) {
     const doctor = staffResult.rows[0]; // Keep same variable name for compatibility
 
     if (!doctor) {
-      return NextResponse.json({ error: 'Staff member not found' }, { status: 404 });
+      return NextResponse.json(
+        { error: 'Staff member not found' },
+        { status: 404 }
+      );
     }
 
     // Initialize default empty data
-    let stats = { total_reports: 0, total_employees: 0, signed_reports: 0, pending_reports: 0 };
+    let stats = {
+      total_reports: 0,
+      total_employees: 0,
+      signed_reports: 0,
+      pending_reports: 0,
+    };
     let teamResult = { rows: [] };
     let sitesResult = { rows: [] };
     let reportsOverTimeResult = { rows: [] };
@@ -39,9 +50,10 @@ export async function GET(request: NextRequest) {
     try {
       const checkQuery = `SELECT COUNT(*) as count FROM medical_report LIMIT 1`;
       await query(checkQuery);
-      
+
       // Get stats - using the exact queries from your requirements
-      const statsQuery = doctorId ? `
+      const statsQuery = doctorId
+        ? `
         SELECT 
           COUNT(*) as total_reports,
           COUNT(employee_id) as total_employees,
@@ -49,7 +61,8 @@ export async function GET(request: NextRequest) {
           COUNT(*) FILTER (WHERE doctor_signoff IS NULL) as pending_reports
         FROM medical_report
         WHERE doctor = $1 AND type = 'Executive Medical'
-      ` : `
+      `
+        : `
         SELECT 
           COUNT(*) as total_reports,
           COUNT(employee_id) as total_employees,
@@ -59,10 +72,11 @@ export async function GET(request: NextRequest) {
         WHERE nurse = $1 AND type = 'Executive Medical'
       `;
       const statsResult = await query(statsQuery, [staffId]);
-      stats = statsResult.rows[0] || stats;
+      stats = (statsResult.rows[0] as any) || stats;
 
       // Get team members (nurses for doctors, doctors for nurses)
-      const teamQuery = doctorId ? `
+      const teamQuery = doctorId
+        ? `
         SELECT DISTINCT 
           u.id,
           u.name,
@@ -72,7 +86,8 @@ export async function GET(request: NextRequest) {
         JOIN users u ON u.id = mr.nurse
         WHERE mr.doctor = $1 AND mr.nurse IS NOT NULL
         ORDER BY u.surname, u.name
-      ` : `
+      `
+        : `
         SELECT DISTINCT 
           u.id,
           u.name,
@@ -86,7 +101,8 @@ export async function GET(request: NextRequest) {
       teamResult = await query(teamQuery, [staffId]);
 
       // Get sites
-      const sitesQuery = doctorId ? `
+      const sitesQuery = doctorId
+        ? `
         SELECT 
           s.name AS site_name,
           COUNT(DISTINCT mr.employee_id) AS employee_count
@@ -95,7 +111,8 @@ export async function GET(request: NextRequest) {
         WHERE mr.doctor = $1 AND mr.type = 'Executive Medical'
         GROUP BY s.name
         ORDER BY employee_count DESC
-      ` : `
+      `
+        : `
         SELECT 
           s.name AS site_name,
           COUNT(DISTINCT mr.employee_id) AS employee_count
@@ -108,7 +125,8 @@ export async function GET(request: NextRequest) {
       sitesResult = await query(sitesQuery, [staffId]);
 
       // Get reports over time (last 12 months)
-      const reportsOverTimeQuery = doctorId ? `
+      const reportsOverTimeQuery = doctorId
+        ? `
         SELECT 
           DATE_TRUNC('month', date_created) AS month,
           COUNT(*) AS report_count
@@ -118,7 +136,8 @@ export async function GET(request: NextRequest) {
           AND date_created >= CURRENT_DATE - INTERVAL '12 months'
         GROUP BY month
         ORDER BY month
-      ` : `
+      `
+        : `
         SELECT 
           DATE_TRUNC('month', date_created) AS month,
           COUNT(*) AS report_count
@@ -132,7 +151,8 @@ export async function GET(request: NextRequest) {
       reportsOverTimeResult = await query(reportsOverTimeQuery, [staffId]);
 
       // Get repeat employees
-      const repeatEmployeesQuery = doctorId ? `
+      const repeatEmployeesQuery = doctorId
+        ? `
         SELECT 
           employee_id,
           COUNT(*) AS report_count
@@ -142,7 +162,8 @@ export async function GET(request: NextRequest) {
         HAVING COUNT(*) > 1
         ORDER BY report_count DESC
         LIMIT 10
-      ` : `
+      `
+        : `
         SELECT 
           employee_id,
           COUNT(*) AS report_count
@@ -156,7 +177,8 @@ export async function GET(request: NextRequest) {
       repeatEmployeesResult = await query(repeatEmployeesQuery, [staffId]);
 
       // Get top workplaces
-      const workplacesQuery = doctorId ? `
+      const workplacesQuery = doctorId
+        ? `
         SELECT 
           workplace,
           COUNT(DISTINCT employee_id) AS employee_count
@@ -165,7 +187,8 @@ export async function GET(request: NextRequest) {
         GROUP BY workplace
         ORDER BY employee_count DESC
         LIMIT 10
-      ` : `
+      `
+        : `
         SELECT 
           workplace,
           COUNT(DISTINCT employee_id) AS employee_count
@@ -178,7 +201,8 @@ export async function GET(request: NextRequest) {
       workplacesResult = await query(workplacesQuery, [staffId]);
 
       // Get all reports for this staff member - similar to reports page
-      const allReportsQuery = doctorId ? `
+      const allReportsQuery = doctorId
+        ? `
         SELECT 
           mr.id,
           mr.date_created,
@@ -215,7 +239,8 @@ export async function GET(request: NextRequest) {
         WHERE mr.doctor = $1 
           AND mr.type = 'Executive Medical'
         ORDER BY mr.date_created DESC
-      ` : `
+      `
+        : `
         SELECT 
           mr.id,
           mr.date_created,
@@ -254,9 +279,10 @@ export async function GET(request: NextRequest) {
         ORDER BY mr.date_created DESC
       `;
       allReportsResult = await query(allReportsQuery, [staffId]);
-      
+
       // Get recent reports (limit 5 for the recent reports section)
-      const recentReportsQuery = doctorId ? `
+      const recentReportsQuery = doctorId
+        ? `
         SELECT 
           mr.id,
           mr.employee_id,
@@ -270,7 +296,8 @@ export async function GET(request: NextRequest) {
           AND mr.type = 'Executive Medical'
         ORDER BY mr.date_created DESC
         LIMIT 5
-      ` : `
+      `
+        : `
         SELECT 
           mr.id,
           mr.employee_id,
@@ -286,7 +313,6 @@ export async function GET(request: NextRequest) {
         LIMIT 5
       `;
       recentReportsResult = await query(recentReportsQuery, [staffId]);
-      
     } catch (error) {
       console.log('Error fetching medical report data, using defaults:', error);
     }
@@ -298,7 +324,10 @@ export async function GET(request: NextRequest) {
         totalEmployees: parseInt(stats.total_employees?.toString() || '0') || 0,
         signedReports: parseInt(stats.signed_reports?.toString() || '0') || 0,
         pendingReports: parseInt(stats.pending_reports?.toString() || '0') || 0,
-        signoffRate: stats.total_reports > 0 ? Math.round((stats.signed_reports / stats.total_reports) * 100) : 0
+        signoffRate:
+          stats.total_reports > 0
+            ? Math.round((stats.signed_reports / stats.total_reports) * 100)
+            : 0,
       },
       team: teamResult.rows,
       sites: sitesResult.rows,
@@ -306,9 +335,8 @@ export async function GET(request: NextRequest) {
       repeatEmployees: repeatEmployeesResult.rows,
       topWorkplaces: workplacesResult.rows,
       recentReports: recentReportsResult.rows,
-      allReports: (allReportsResult?.rows || [])
+      allReports: allReportsResult?.rows || [],
     });
-
   } catch (error) {
     console.error('My Dashboard API Error:', error);
     return NextResponse.json(

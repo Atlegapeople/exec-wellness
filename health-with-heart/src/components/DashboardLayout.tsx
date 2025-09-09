@@ -7,6 +7,7 @@ import Breadcrumbs from './Breadcrumbs';
 import RouteStateKeeper from './RouteStateKeeper';
 import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
+import SearchParamsWrapper from './SearchParamsWrapper';
 import { SidebarProvider, useSidebar } from '@/contexts/SidebarContext';
 
 interface DashboardLayoutProps {
@@ -25,7 +26,9 @@ function DashboardContent({ children }: DashboardLayoutProps) {
   if (!mounted) {
     return (
       <div className='flex min-h-screen bg-background'>
-        <RouteStateKeeper/>
+        <SearchParamsWrapper>
+          <RouteStateKeeper />
+        </SearchParamsWrapper>
         {/* Sidebar - Sticky position, internally scrollable */}
         <div className='sticky top-0 h-screen flex-shrink-0 overflow-hidden'>
           <Sidebar />
@@ -37,7 +40,9 @@ function DashboardContent({ children }: DashboardLayoutProps) {
           <div className='sticky top-0 z-20 bg-background'>
             <Navigation />
           </div>
-          <Breadcrumbs />
+          <SearchParamsWrapper>
+            <Breadcrumbs />
+          </SearchParamsWrapper>
 
           {/* Page Content - Natural document flow */}
           <main className='flex-1'>
@@ -53,19 +58,23 @@ function DashboardContent({ children }: DashboardLayoutProps) {
 
   return (
     <div className='flex min-h-screen bg-background'>
-      <RouteStateKeeper/>
+      <SearchParamsWrapper>
+        <RouteStateKeeper />
+      </SearchParamsWrapper>
       {/* Sidebar - Sticky position, internally scrollable */}
       <div className='sticky top-0 h-screen flex-shrink-0 overflow-hidden'>
         <Sidebar />
       </div>
 
       {/* Main Content Area - Natural scrolling */}
-      <div className='flex-1 flex flex-col min-wAC-0'>
+      <div className='flex-1 flex flex-col min-w-0'>
         {/* Top Navigation - Sticky at top */}
         <div className='sticky top-0 z-20 bg-background'>
           <Navigation />
         </div>
-        <Breadcrumbs/>
+        <SearchParamsWrapper>
+          <Breadcrumbs />
+        </SearchParamsWrapper>
 
         {/* Page Content - Natural document flow */}
         <main className='flex-1'>

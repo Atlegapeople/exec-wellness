@@ -6,6 +6,8 @@ import {
   ValidationError,
   MonthlyStats,
   WorkplaceHealth,
+  Appointment,
+  MedicalReport,
 } from '@/types';
 
 export const mockEmployees: Employee[] = [
@@ -38,43 +40,68 @@ export const mockEmployees: Employee[] = [
   },
 ];
 
-export const mockAppointments: unknown[] = [
+export const mockAppointments: Appointment[] = [
   {
     id: '1',
     date_created: new Date('2024-08-18'),
+    date_updated: new Date('2024-08-18'),
     employee_id: '1',
     report_id: '1',
     type: 'Pre-employment Medical',
     start_datetime: new Date('2024-08-18T09:00:00'),
     end_datetime: new Date('2024-08-18T10:00:00'),
+    start_date: new Date('2024-08-18'),
+    end_date: new Date('2024-08-18'),
+    start_time: '09:00:00',
+    end_time: '10:00:00',
+    user_created: '1',
+    user_updated: '1',
     notes: 'Initial screening',
   },
   {
     id: '2',
     date_created: new Date('2024-08-18'),
+    date_updated: new Date('2024-08-18'),
     employee_id: '2',
+    report_id: '',
     type: 'Annual Medical',
     start_datetime: new Date('2024-08-18T10:30:00'),
     end_datetime: new Date('2024-08-18T11:30:00'),
+    start_date: new Date('2024-08-18'),
+    end_date: new Date('2024-08-18'),
+    start_time: '10:30:00',
+    end_time: '11:30:00',
+    user_created: '1',
+    user_updated: '1',
     notes: 'Routine annual check',
   },
   {
     id: '3',
     date_created: new Date('2024-08-18'),
+    date_updated: new Date('2024-08-18'),
     employee_id: '3',
     report_id: '2',
     type: 'Occupational Health',
     start_datetime: new Date('2024-08-18T14:00:00'),
     end_datetime: new Date('2024-08-18T15:00:00'),
+    start_date: new Date('2024-08-18'),
+    end_date: new Date('2024-08-18'),
+    start_time: '14:00:00',
+    end_time: '15:00:00',
+    user_created: '1',
+    user_updated: '1',
+    notes: '',
   },
 ];
 
-export const mockMedicalReports: unknown[] = [
+export const mockMedicalReports: MedicalReport[] = [
   {
     id: '1',
     date_created: new Date('2024-08-17'),
     date_updated: new Date('2024-08-18'),
     employee_id: '1',
+    user_created: '1',
+    user_updated: '1',
     type: 'Pre-employment Medical',
     doctor: 'Dr. Smith',
     doctor_signoff: 'Approved',
@@ -89,6 +116,8 @@ export const mockMedicalReports: unknown[] = [
     date_created: new Date('2024-08-16'),
     date_updated: new Date('2024-08-17'),
     employee_id: '3',
+    user_created: '1',
+    user_updated: '1',
     type: 'Occupational Health',
     doctor: 'Dr. Johnson',
     nurse: 'Sister Kate',
@@ -102,6 +131,8 @@ export const mockMedicalReports: unknown[] = [
     date_created: new Date('2024-08-15'),
     date_updated: new Date('2024-08-15'),
     employee_id: '2',
+    user_created: '1',
+    user_updated: '1',
     type: 'Annual Medical',
     doctor: 'Dr. Wilson',
     nurse: 'Sister Anna',

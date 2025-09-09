@@ -327,7 +327,12 @@ function EmployeesPageContent() {
       }
     };
     restore();
-  }, [selectedEmployeeId, selectedEmployee, allEmployees]);
+  }, [
+    selectedEmployeeId,
+    selectedEmployee,
+    allEmployees,
+    setSelectedEmployeeId,
+  ]);
 
   const formatDate = (date: Date | string | undefined) => {
     if (!date) return 'N/A';
@@ -354,7 +359,7 @@ function EmployeesPageContent() {
       const constrainedWidth = Math.min(Math.max(newLeftWidth, 20), 80);
       setLeftWidth(constrainedWidth);
     },
-    [isResizing]
+    [isResizing, setLeftWidth]
   );
 
   const handleMouseUp = useCallback(() => {
@@ -1063,7 +1068,6 @@ function EmployeesPageContent() {
     </ProtectedRoute>
   );
 }
-
 export default function EmployeesPage() {
   return (
     <Suspense

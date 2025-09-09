@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
     `;
 
     const countResult = await query(countQuery, queryParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get appointments with employee details and user names
     const appointmentsQuery = `

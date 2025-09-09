@@ -1,6 +1,12 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  ReactNode,
+} from 'react';
 import { User } from '@/types';
 
 interface UserWithMetadata extends User {
@@ -24,6 +30,12 @@ export function UserProvider({ children }: { children: ReactNode }) {
 
   // Initialize user data on component mount
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') {
+      setLoading(false);
+      return;
+    }
+
     // Check if user data exists in localStorage
     const savedUser = localStorage.getItem('currentUser');
     if (savedUser) {
@@ -58,25 +70,31 @@ export function UserProvider({ children }: { children: ReactNode }) {
       profileImage: null,
     };
     setCurrentUser(mockUser);
-    // Save to localStorage
-    localStorage.setItem('currentUser', JSON.stringify(mockUser));
+    // Save to localStorage only on client side
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('currentUser', JSON.stringify(mockUser));
+    }
   };
 
   const updateProfileImage = (imageUrl: string) => {
     if (currentUser) {
       const updatedUser = { ...currentUser, profileImage: imageUrl };
       setCurrentUser(updatedUser);
-      // Save updated user to localStorage
-      localStorage.setItem('currentUser', JSON.stringify(updatedUser));
+      // Save updated user to localStorage only on client side
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('currentUser', JSON.stringify(updatedUser));
+      }
     }
   };
 
   const handleSetCurrentUser = (user: UserWithMetadata | null) => {
     setCurrentUser(user);
-    if (user) {
-      localStorage.setItem('currentUser', JSON.stringify(user));
-    } else {
-      localStorage.removeItem('currentUser');
+    if (typeof window !== 'undefined') {
+      if (user) {
+        localStorage.setItem('currentUser', JSON.stringify(user));
+      } else {
+        localStorage.removeItem('currentUser');
+      }
     }
   };
 

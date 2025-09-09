@@ -275,7 +275,7 @@ export default function Breadcrumbs() {
       setHistoryCrumbs(trimmed);
     };
     run();
-  }, [pathname, searchParams]);
+  }, [pathname, searchParams, segments]);
 
   const pathBasedItems = [
     { href: '/', label: 'Dashboard' },

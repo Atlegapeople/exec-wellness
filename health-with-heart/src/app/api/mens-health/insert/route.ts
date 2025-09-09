@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
         {
           error:
             "A men's health record already exists for this employee and report",
-          existingId: existingResult.rows[0].id,
+          existingId: (existingResult.rows[0] as { id: string }).id,
         },
         { status: 409 }
       );
@@ -104,7 +104,7 @@ export async function POST(request: NextRequest) {
     `;
     const employeeResult = await query(employeeQuery, [employee_id]);
     const employeeName = employeeResult.rows[0]
-      ? `${employeeResult.rows[0].name} ${employeeResult.rows[0].surname}`
+      ? `${(employeeResult.rows[0] as { name: string }).name} ${(employeeResult.rows[0] as { surname: string }).surname}`
       : 'Unknown Employee';
 
     return NextResponse.json(
@@ -124,6 +124,3 @@ export async function POST(request: NextRequest) {
     );
   }
 }
-
-
-

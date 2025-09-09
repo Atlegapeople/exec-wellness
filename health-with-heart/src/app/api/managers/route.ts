@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
     // Build search condition
     let searchCondition = '';
     let countSearchCondition = '';
-    
+
     if (search && organization) {
       searchCondition = `WHERE (m.manager_name ILIKE $4 OR m.manager_email ILIKE $4 OR m.manager_type ILIKE $4) AND m.organisation_id = $3`;
       countSearchCondition = `WHERE (m.manager_name ILIKE $2 OR m.manager_email ILIKE $2 OR m.manager_type ILIKE $2) AND m.organisation_id = $1`;
@@ -48,7 +48,7 @@ export async function GET(request: NextRequest) {
       FROM managers m
       ${countSearchCondition}
     `;
-    
+
     let countParams: (string | number)[] = [];
     if (search && organization) {
       countParams = [organization, `%${search}%`];
@@ -57,9 +57,9 @@ export async function GET(request: NextRequest) {
     } else if (organization) {
       countParams = [organization];
     }
-    
+
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as { total: string }).total);
 
     // Get managers with creator/updater names and organization names
     const managersQuery = `
@@ -87,7 +87,7 @@ export async function GET(request: NextRequest) {
     } else {
       queryParams = [limit, offset];
     }
-    
+
     const result = await query(managersQuery, queryParams);
 
     const managers: Manager[] = result.rows.map((row: any) => ({
@@ -104,7 +104,7 @@ export async function GET(request: NextRequest) {
       notes_text: row.notes_text,
       created_by_name: row.created_by_name,
       updated_by_name: row.updated_by_name,
-      organisation_name: row.organisation_name
+      organisation_name: row.organisation_name,
     }));
 
     return NextResponse.json({
@@ -115,10 +115,9 @@ export async function GET(request: NextRequest) {
         total,
         totalPages: Math.ceil(total / limit),
         hasNextPage: page < Math.ceil(total / limit),
-        hasPreviousPage: page > 1
-      }
+        hasPreviousPage: page > 1,
+      },
     });
-
   } catch (error) {
     console.error('Error fetching managers:', error);
     return NextResponse.json(
@@ -131,7 +130,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    
+
     const insertQuery = `
       INSERT INTO managers (
         id, date_created, date_updated, user_created, user_updated,
@@ -151,13 +150,12 @@ export async function POST(request: NextRequest) {
       body.manager_name,
       body.manager_email,
       body.manager_contact_number,
-      body.notes_text
+      body.notes_text,
     ];
 
     const result = await query(insertQuery, values);
-    
-    return NextResponse.json(result.rows[0], { status: 201 });
 
+    return NextResponse.json(result.rows[0], { status: 201 });
   } catch (error) {
     console.error('Error creating manager:', error);
     return NextResponse.json(

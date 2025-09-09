@@ -67,7 +67,7 @@ export async function GET(request: NextRequest) {
     }
 
     const countResult = await query(countQuery, countParams);
-    const total = parseInt(countResult.rows[0].total);
+    const total = parseInt((countResult.rows[0] as any).total);
 
     const reportsQuery = `
       SELECT 
@@ -313,7 +313,7 @@ export async function POST(request: NextRequest) {
       );
       console.log(
         'Database connection test successful, table has',
-        testResult.rows[0].count,
+        (testResult.rows[0] as any).count,
         'records'
       );
     } catch (testError) {
@@ -407,7 +407,7 @@ export async function PATCH(request: NextRequest) {
     return NextResponse.json({
       message: 'Database connection successful',
       tableExists: true,
-      recordCount: result.rows[0].count,
+      recordCount: (result.rows[0] as any).count,
       tableName: 'medical_report',
     });
   } catch (error) {
