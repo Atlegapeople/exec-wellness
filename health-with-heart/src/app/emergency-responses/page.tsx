@@ -53,7 +53,6 @@ import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 const EMERGENCY_TYPES = ['Medical', 'Injury', 'Accident', 'Other'];
 
 function EmergencyResponsesPageContent() {
-  const goBack = useBreadcrumbBack();
   const [emergencyResponses, setEmergencyResponses] = useState<
     EmergencyResponse[]
   >([]);
@@ -110,7 +109,7 @@ function EmergencyResponsesPageContent() {
 
   useEffect(() => {
     fetchEmergencyResponses(currentPage, searchTerm);
-  }, [currentPage, searchTerm]);
+  }, [currentPage]);
 
   const handleSearch = () => {
     setCurrentPage(1);
@@ -311,7 +310,7 @@ function EmergencyResponsesPageContent() {
             <Button
               variant='outline'
               size='sm'
-              onClick={goBack}
+              onClick={() => window.history.back()}
               className='flex items-center space-x-2 hover-lift'
             >
               <ArrowLeft className='h-4 w-4' />
@@ -1426,6 +1425,7 @@ function EmergencyResponsesPageContent() {
     </ProtectedRoute>
   );
 }
+
 export default function EmergencyResponsesPage() {
   return (
     <Suspense
