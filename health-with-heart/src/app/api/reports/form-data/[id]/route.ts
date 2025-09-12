@@ -7,6 +7,7 @@ export async function GET(
 ) {
   try {
     const { id: reportId } = await params;
+    console.log('Form data API called for report ID:', reportId);
 
     // Use the same comprehensive structure as the PDF API expects
     // Get the employee_id first
@@ -16,10 +17,12 @@ export async function GET(
     const employeeResult = await query(employeeIdQuery, [reportId]);
 
     if (employeeResult.rows.length === 0) {
+      console.log('Report not found for ID:', reportId);
       return NextResponse.json({ error: 'Report not found' }, { status: 404 });
     }
 
     const employeeId = (employeeResult.rows[0] as any).employee_id;
+    console.log('Found employee ID:', employeeId);
 
     // Main medical report with employee and user details
     const mainReportQuery = `
@@ -51,7 +54,8 @@ export async function GET(
     const womensHealthQuery = `SELECT * FROM womens_health WHERE employee_id = $1 ORDER BY date_created DESC LIMIT 1`;
     const notesQuery = `SELECT * FROM notes WHERE employee_id = $1 ORDER BY date_created DESC LIMIT 1`;
 
-    // Execute all queries
+    // Execute all queries with better error handling
+    console.log('Executing parallel queries for employee:', employeeId);
     const [
       mainReport,
       vitals,
@@ -64,7 +68,7 @@ export async function GET(
       mensHealth,
       womensHealth,
       notes,
-    ] = await Promise.all([
+    ] = await Promise.allSettled([
       query(mainReportQuery, [reportId]),
       query(vitalsQuery, [employeeId]),
       query(medicalHistoryQuery, [employeeId]),
@@ -76,7 +80,32 @@ export async function GET(
       query(mensHealthQuery, [employeeId]),
       query(womensHealthQuery, [employeeId]),
       query(notesQuery, [employeeId]),
-    ]);
+    ]).then(results => {
+      // Log any failed queries
+      results.forEach((result, index) => {
+        if (result.status === 'rejected') {
+          const queryNames = [
+            'mainReport',
+            'vitals',
+            'medicalHistory',
+            'clinicalExam',
+            'labTests',
+            'lifestyle',
+            'mentalHealth',
+            'specialInvestigations',
+            'mensHealth',
+            'womensHealth',
+            'notes',
+          ];
+          console.error(`Query ${queryNames[index]} failed:`, result.reason);
+        }
+      });
+
+      // Return successful results or empty arrays for failed queries
+      return results.map(result =>
+        result.status === 'fulfilled' ? result.value : { rows: [] }
+      );
+    });
 
     if (mainReport.rows.length === 0) {
       return NextResponse.json({ error: 'Report not found' }, { status: 404 });
@@ -349,11 +378,12 @@ export async function GET(
       },
     };
 
+    console.log('Form data API returning comprehensive report for:', reportId);
     return NextResponse.json(comprehensiveReport);
   } catch (error) {
-    console.error('Error fetching form data:', error);
+    console.error('Error fetching form data for report:', reportId, error);
     return NextResponse.json(
-      { error: 'Failed to fetch form data' },
+      { error: 'Failed to fetch form data', details: error.message },
       { status: 500 }
     );
   }

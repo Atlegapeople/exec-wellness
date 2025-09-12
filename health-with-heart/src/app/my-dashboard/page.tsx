@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useRouteState } from '@/hooks/useRouteState';
 import {
   Card,
   CardContent,
@@ -74,6 +75,7 @@ import {
 } from 'lucide-react';
 import Employee360View from '@/components/Employee360View';
 import BreadcrumbBackWrapper from '@/components/BreadcrumbBackWrapper';
+import { toast } from 'sonner';
 
 interface MedicalReport {
   id: string;
@@ -229,34 +231,75 @@ interface DashboardData {
 }
 
 export default function MyDashboard() {
-  const [selectedDoctorId, setSelectedDoctorId] = useState<string>('');
-  const [selectedNurseId, setSelectedNurseId] = useState<string>('');
-  const [selectedStaffType, setSelectedStaffType] = useState<
+  // Use useRouteState for state that should be persisted across navigation
+  // Use 'path' scope to ignore query parameters for consistent state storage
+  const [selectedDoctorId, setSelectedDoctorId] = useRouteState(
+    'selectedDoctorId',
+    '',
+    { scope: 'path' }
+  );
+  const [selectedNurseId, setSelectedNurseId] = useRouteState(
+    'selectedNurseId',
+    '',
+    { scope: 'path' }
+  );
+  const [selectedStaffType, setSelectedStaffType] = useRouteState<
     'Doctor' | 'Nurse'
-  >('Doctor');
-  const [selectedReport, setSelectedReport] = useState<MedicalReport | null>(
-    null
+  >('selectedStaffType', 'Doctor', { scope: 'path' });
+  const [selectedReport, setSelectedReport] =
+    useRouteState<MedicalReport | null>('selectedReport', null, {
+      scope: 'path',
+    });
+  const [selectedReportId, setSelectedReportId] = useRouteState<string | null>(
+    'selectedReportId',
+    null,
+    { scope: 'path' }
   );
-  const [selectedEmployee, setSelectedEmployee] = useState<Employee | null>(
-    null
-  );
+  const [selectedEmployee, setSelectedEmployee] =
+    useRouteState<Employee | null>('selectedEmployee', null, { scope: 'path' });
+  const [leftPanelWidth, setLeftPanelWidth] = useRouteState(
+    'leftPanelWidth',
+    60,
+    { scope: 'path' }
+  ); // percentage
+
+  // Regular useState for temporary/loading states
   const [formData, setFormData] = useState<FormData | null>(null);
   const [formLoading, setFormLoading] = useState(false);
   const [employeeLoading, setEmployeeLoading] = useState(false);
-  const [leftPanelWidth, setLeftPanelWidth] = useState(60); // percentage
   const [isResizing, setIsResizing] = useState(false);
 
-  // Modal state
-  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
-  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
-  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
-  const [editingReport, setEditingReport] = useState<MedicalReport | null>(
-    null
+  // Modal state - use useRouteState for modal states that should persist
+  const [isCreateModalOpen, setIsCreateModalOpen] = useRouteState(
+    'isCreateModalOpen',
+    false,
+    { scope: 'path' }
   );
-  const [createFormData, setCreateFormData] = useState<Partial<MedicalReport>>(
-    {}
+  const [isEditModalOpen, setIsEditModalOpen] = useRouteState(
+    'isEditModalOpen',
+    false,
+    { scope: 'path' }
   );
-  const [editFormData, setEditFormData] = useState<Partial<MedicalReport>>({});
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useRouteState(
+    'isDeleteModalOpen',
+    false,
+    { scope: 'path' }
+  );
+  const [editingReport, setEditingReport] = useRouteState<MedicalReport | null>(
+    'editingReport',
+    null,
+    { scope: 'path' }
+  );
+  const [createFormData, setCreateFormData] = useRouteState<
+    Partial<MedicalReport>
+  >('createFormData', {}, { scope: 'path' });
+  const [editFormData, setEditFormData] = useRouteState<Partial<MedicalReport>>(
+    'editFormData',
+    {},
+    { scope: 'path' }
+  );
+
+  // Regular useState for loading states
   const [modalFormLoading, setModalFormLoading] = useState(false);
 
   // Related entities state
@@ -264,14 +307,49 @@ export default function MyDashboard() {
   const [sites, setSites] = useState<any[]>([]);
   const [locations, setLocations] = useState<any[]>([]);
   const [costCenters, setCostCenters] = useState<any[]>([]);
+  const [employees, setEmployees] = useState<Employee[]>([]);
   const [relatedEntitiesLoading, setRelatedEntitiesLoading] = useState(false);
 
-  // Modal state for related entities
-  const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] =
-    useState(false);
-  const [isSitesModalOpen, setIsSitesModalOpen] = useState(false);
-  const [isLocationsModalOpen, setIsLocationsModalOpen] = useState(false);
-  const [isCostCentersModalOpen, setIsCostCentersModalOpen] = useState(false);
+  // Modal state for related entities - use useRouteState for persistence
+  const [isOrganizationsModalOpen, setIsOrganizationsModalOpen] = useRouteState(
+    'isOrganizationsModalOpen',
+    false,
+    { scope: 'path' }
+  );
+  const [isSitesModalOpen, setIsSitesModalOpen] = useRouteState(
+    'isSitesModalOpen',
+    false,
+    { scope: 'path' }
+  );
+  const [isLocationsModalOpen, setIsLocationsModalOpen] = useRouteState(
+    'isLocationsModalOpen',
+    false,
+    { scope: 'path' }
+  );
+  const [isCostCentersModalOpen, setIsCostCentersModalOpen] = useRouteState(
+    'isCostCentersModalOpen',
+    false,
+    { scope: 'path' }
+  );
+
+  // Debug: Log state changes
+  useEffect(() => {
+    console.log('MyDashboard state restored:', {
+      selectedDoctorId,
+      selectedNurseId,
+      selectedStaffType,
+      selectedReport: selectedReport?.id,
+      selectedEmployee: selectedEmployee?.id,
+      leftPanelWidth,
+    });
+  }, [
+    selectedDoctorId,
+    selectedNurseId,
+    selectedStaffType,
+    selectedReport,
+    selectedEmployee,
+    leftPanelWidth,
+  ]);
 
   const currentDate = new Date().toLocaleDateString('en-ZA', {
     weekday: 'long',
@@ -332,6 +410,7 @@ export default function MyDashboard() {
     setSelectedDoctorId('');
     setSelectedNurseId('');
     setSelectedReport(null);
+    setSelectedReportId(null);
     setSelectedEmployee(null);
     setFormData(null);
   }, [selectedStaffType]);
@@ -355,6 +434,7 @@ export default function MyDashboard() {
   // Report click handler
   const handleReportClick = async (report: MedicalReport) => {
     setSelectedReport(report);
+    setSelectedReportId(report.id);
     setFormLoading(true);
     setEmployeeLoading(true);
 
@@ -406,12 +486,13 @@ export default function MyDashboard() {
         link.click();
         document.body.removeChild(link);
         window.URL.revokeObjectURL(url);
+        toast.success('PDF generated successfully!');
       } else {
-        alert('Failed to generate PDF');
+        toast.error('Failed to generate PDF');
       }
     } catch (error) {
       console.error('Error generating PDF:', error);
-      alert('Error generating PDF');
+      toast.error('Error generating PDF');
     }
   };
 
@@ -437,7 +518,12 @@ export default function MyDashboard() {
 
   const handleCreateReport = () => {
     // Open create modal instead of navigating
-    setCreateFormData({});
+    setCreateFormData({
+      type: 'Executive Medical',
+      sub_type: 'Initial',
+      doctor_signoff: 'No',
+      report_work_status: 'Draft',
+    });
     setIsCreateModalOpen(true);
   };
 
@@ -494,6 +580,34 @@ export default function MyDashboard() {
     }
   };
 
+  const fetchEmployees = async () => {
+    try {
+      setRelatedEntitiesLoading(true);
+      // Use a different endpoint or modify the query to get all employees
+      // For now, let's try adding a parameter to bypass the Executive Medical filter
+      console.log('Fetching employees with all=true parameter...');
+      const response = await fetch('/api/employees?limit=1000&all=true');
+      const data = await response.json();
+      console.log('Employees API response:', data);
+      setEmployees(data.employees || []);
+    } catch (error) {
+      console.error('Error fetching employees:', error);
+      // Fallback: try the regular endpoint
+      try {
+        console.log('Trying fallback endpoint...');
+        const fallbackResponse = await fetch('/api/employees?limit=1000');
+        const fallbackData = await fallbackResponse.json();
+        console.log('Fallback API response:', fallbackData);
+        setEmployees(fallbackData.employees || []);
+      } catch (fallbackError) {
+        console.error('Fallback fetch also failed:', fallbackError);
+        setEmployees([]);
+      }
+    } finally {
+      setRelatedEntitiesLoading(false);
+    }
+  };
+
   // Modal open functions
   const openOrganizationsModal = () => {
     if (organizations.length === 0) {
@@ -531,17 +645,34 @@ export default function MyDashboard() {
       console.log('handleCreate called with form data:', createFormData);
 
       // Validate required fields
-      if (!createFormData.employee_id || !createFormData.type) {
+      if (!createFormData.employee_id) {
         console.log(
           'Validation failed - employee_id:',
-          createFormData.employee_id,
-          'type:',
-          createFormData.type
+          createFormData.employee_id
         );
-        alert('Employee ID and Report Type are required fields');
+        toast.error('Employee selection is required');
         setModalFormLoading(false);
         return;
       }
+
+      // Find the selected employee to get their email data
+      const selectedEmployee = employees.find(
+        emp => emp.id === createFormData.employee_id
+      );
+      if (!selectedEmployee) {
+        console.log('Selected employee not found in employees list');
+        toast.error(
+          'Selected employee not found. Please refresh and try again.'
+        );
+        setModalFormLoading(false);
+        return;
+      }
+
+      // Get the selected doctor/nurse for email
+      const selectedStaff =
+        selectedStaffType === 'Doctor'
+          ? doctors.find(doc => doc.id === selectedDoctorId)
+          : nurses.find(nurse => nurse.id === selectedNurseId);
 
       // Prepare the data for creation
       const reportData = {
@@ -554,9 +685,29 @@ export default function MyDashboard() {
         sub_type: createFormData.sub_type || 'Initial',
         doctor_signoff: 'No',
         report_work_status: 'Draft',
+        // Add employee email data
+        employee_work_email: selectedEmployee.work_email || null,
+        employee_personal_email:
+          selectedEmployee.personal_email_address || null,
+        // Add doctor/nurse email
+        doctor_email: selectedStaff?.email || null,
+        // Ensure workplace is set correctly (it should be the site ID)
+        workplace: createFormData.workplace || null,
       };
 
       console.log('Sending report data:', reportData);
+      console.log('Report data keys:', Object.keys(reportData));
+      console.log('Report data values:', Object.values(reportData));
+
+      // Additional validation before sending
+      if (!reportData.employee_id || !reportData.type) {
+        console.log('Final validation failed - missing required fields');
+        toast.error(
+          'Missing required fields. Please ensure employee is selected.'
+        );
+        setModalFormLoading(false);
+        return;
+      }
 
       console.log('Making POST request to /api/reports...');
       const response = await fetch('/api/reports', {
@@ -581,11 +732,13 @@ export default function MyDashboard() {
       } else {
         const error = await response.json();
         console.error('Create failed:', error);
-        alert(`Failed to create report: ${error.error || 'Unknown error'}`);
+        toast.error(
+          `Failed to create report: ${error.error || 'Unknown error'}`
+        );
       }
     } catch (error) {
       console.error('Error creating report:', error);
-      alert('Error creating report. Please try again.');
+      toast.error('Error creating report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -596,7 +749,7 @@ export default function MyDashboard() {
       setModalFormLoading(true);
 
       if (!editingReport?.id) {
-        alert('No report selected for editing');
+        toast.error('No report selected for editing');
         return;
       }
 
@@ -627,11 +780,13 @@ export default function MyDashboard() {
       } else {
         const error = await response.json();
         console.error('Update failed:', error);
-        alert(`Failed to update report: ${error.error || 'Unknown error'}`);
+        toast.error(
+          `Failed to update report: ${error.error || 'Unknown error'}`
+        );
       }
     } catch (error) {
       console.error('Error updating report:', error);
-      alert('Error updating report. Please try again.');
+      toast.error('Error updating report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -642,7 +797,7 @@ export default function MyDashboard() {
       setModalFormLoading(true);
 
       if (!editingReport?.id) {
-        alert('No report selected for deletion');
+        toast.error('No report selected for deletion');
         return;
       }
 
@@ -657,17 +812,20 @@ export default function MyDashboard() {
         setEditingReport(null);
         if (selectedReport?.id === editingReport?.id) {
           setSelectedReport(null);
+          setSelectedReportId(null);
         }
         // Refresh dashboard data
         refreshDashboardData();
       } else {
         const error = await response.json();
         console.error('Delete failed:', error);
-        alert(`Failed to delete report: ${error.error || 'Unknown error'}`);
+        toast.error(
+          `Failed to delete report: ${error.error || 'Unknown error'}`
+        );
       }
     } catch (error) {
       console.error('Error deleting report:', error);
-      alert('Error deleting report. Please try again.');
+      toast.error('Error deleting report. Please try again.');
     } finally {
       setModalFormLoading(false);
     }
@@ -675,19 +833,47 @@ export default function MyDashboard() {
 
   const openCreateModal = () => {
     console.log('Opening create modal, resetting form data');
-    setCreateFormData({});
+    // Initialize with default values
+    setCreateFormData({
+      type: 'Executive Medical',
+      sub_type: 'Initial',
+      doctor_signoff: 'No',
+      report_work_status: 'Draft',
+    });
+    if (employees.length === 0) {
+      fetchEmployees();
+    }
     setIsCreateModalOpen(true);
+    toast.info('Create Report modal opened');
   };
 
   const openEditModal = (report: MedicalReport) => {
     setEditingReport(report);
     setEditFormData(report);
     setIsEditModalOpen(true);
+    toast.info('Edit Report modal opened');
   };
 
   const openDeleteModal = (report: MedicalReport) => {
     setEditingReport(report);
     setIsDeleteModalOpen(true);
+    toast.warning('Delete Report modal opened');
+  };
+
+  // Modal close functions with toast notifications
+  const closeCreateModal = () => {
+    setIsCreateModalOpen(false);
+    toast.info('Create Report modal cancelled');
+  };
+
+  const closeEditModal = () => {
+    setIsEditModalOpen(false);
+    toast.info('Edit Report modal cancelled');
+  };
+
+  const closeDeleteModal = () => {
+    setIsDeleteModalOpen(false);
+    toast.info('Delete Report modal cancelled');
   };
 
   // Resizing handlers
@@ -742,7 +928,35 @@ export default function MyDashboard() {
     fetchSites();
     fetchLocations();
     fetchCostCenters();
+    fetchEmployees();
   }, []);
+
+  // State recovery for selectedReport
+  useEffect(() => {
+    const restore = async () => {
+      if (!selectedReport && selectedReportId && dashboardData?.allReports) {
+        const found = dashboardData.allReports.find(
+          r => r.id === selectedReportId
+        );
+        if (found) {
+          setSelectedReport(found);
+          return;
+        }
+        try {
+          const res = await fetch(`/api/reports/${selectedReportId}`);
+          if (res.ok) {
+            const data = await res.json();
+            setSelectedReport(data);
+          } else {
+            setSelectedReportId(null);
+          }
+        } catch {
+          setSelectedReportId(null);
+        }
+      }
+    };
+    restore();
+  }, [selectedReportId, selectedReport, dashboardData?.allReports]);
 
   // Function to refresh dashboard data
   const refreshDashboardData = () => {
@@ -782,7 +996,7 @@ export default function MyDashboard() {
                 variant='outline'
                 size='sm'
                 onClick={goBack}
-                className='flex items-center space-x-2'
+                className='flex items-center space-x-2 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg'
               >
                 <ArrowLeft className='h-4 w-4' />
                 <span>Back</span>
@@ -1116,7 +1330,7 @@ export default function MyDashboard() {
                         </p>
                       </div>
                     ) : (
-                      <div className='max-h-[750px] overflow-auto scrollbar-premium'>
+                      <div className='max-h-[950px] overflow-auto scrollbar-premium'>
                         <Table>
                           <TableHeader>
                             <TableRow>
@@ -1340,6 +1554,7 @@ export default function MyDashboard() {
                               size='sm'
                               onClick={() => {
                                 setSelectedReport(null);
+                                setSelectedReportId(null);
                                 setSelectedEmployee(null);
                                 setFormData(null);
                               }}
@@ -1559,7 +1774,10 @@ export default function MyDashboard() {
             {/* Create Modal */}
             <Dialog
               open={isCreateModalOpen}
-              onOpenChange={setIsCreateModalOpen}
+              onOpenChange={open => {
+                if (!open) closeCreateModal();
+                else setIsCreateModalOpen(true);
+              }}
             >
               <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
                 <DialogHeader>
@@ -1571,18 +1789,35 @@ export default function MyDashboard() {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                   <div className='space-y-2'>
-                    <Label htmlFor='employee_id'>Employee ID</Label>
-                    <Input
-                      id='employee_id'
+                    <Label htmlFor='employee_id'>Employee</Label>
+                    <Select
                       value={createFormData.employee_id || ''}
-                      onChange={e =>
+                      onValueChange={value =>
                         setCreateFormData({
                           ...createFormData,
-                          employee_id: e.target.value,
+                          employee_id: value,
                         })
                       }
-                      placeholder='Enter employee ID'
-                    />
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select an employee' />
+                      </SelectTrigger>
+                      <SelectContent className='max-h-[300px] overflow-y-auto scrollbar-premium'>
+                        {employees.length === 0 ? (
+                          <SelectItem value='' disabled>
+                            {relatedEntitiesLoading
+                              ? 'Loading employees...'
+                              : 'No employees found'}
+                          </SelectItem>
+                        ) : (
+                          employees.map(employee => (
+                            <SelectItem key={employee.id} value={employee.id}>
+                              {employee.name} {employee.surname} ({employee.id})
+                            </SelectItem>
+                          ))
+                        )}
+                      </SelectContent>
+                    </Select>
                   </div>
 
                   <div className='space-y-2'>
@@ -1619,17 +1854,34 @@ export default function MyDashboard() {
 
                   <div className='space-y-2'>
                     <Label htmlFor='workplace'>Workplace</Label>
-                    <Input
-                      id='workplace'
+                    <Select
                       value={createFormData.workplace || ''}
-                      onChange={e =>
+                      onValueChange={value =>
                         setCreateFormData({
                           ...createFormData,
-                          workplace: e.target.value,
+                          workplace: value,
                         })
                       }
-                      placeholder='Enter workplace or cost center'
-                    />
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select a workplace' />
+                      </SelectTrigger>
+                      <SelectContent className='max-h-[300px] overflow-y-auto scrollbar-premium'>
+                        {sites.length === 0 ? (
+                          <SelectItem value='' disabled>
+                            {relatedEntitiesLoading
+                              ? 'Loading workplaces...'
+                              : 'No workplaces found'}
+                          </SelectItem>
+                        ) : (
+                          sites.map(site => (
+                            <SelectItem key={site.id} value={site.id}>
+                              {site.name} ({site.id})
+                            </SelectItem>
+                          ))
+                        )}
+                      </SelectContent>
+                    </Select>
                   </div>
 
                   <div className='space-y-2'>
@@ -1699,7 +1951,7 @@ export default function MyDashboard() {
                 <DialogFooter>
                   <Button
                     variant='outline'
-                    onClick={() => setIsCreateModalOpen(false)}
+                    onClick={closeCreateModal}
                     disabled={modalFormLoading}
                   >
                     Cancel
@@ -1722,7 +1974,13 @@ export default function MyDashboard() {
             </Dialog>
 
             {/* Edit Modal */}
-            <Dialog open={isEditModalOpen} onOpenChange={setIsEditModalOpen}>
+            <Dialog
+              open={isEditModalOpen}
+              onOpenChange={open => {
+                if (!open) closeEditModal();
+                else setIsEditModalOpen(true);
+              }}
+            >
               <DialogContent className='max-w-4xl max-h-[90vh] overflow-y-auto'>
                 <DialogHeader>
                   <DialogTitle>Edit Medical Report</DialogTitle>
@@ -1788,17 +2046,34 @@ export default function MyDashboard() {
 
                   <div className='space-y-2'>
                     <Label htmlFor='workplace_edit'>Workplace</Label>
-                    <Input
-                      id='workplace_edit'
+                    <Select
                       value={editFormData.workplace || ''}
-                      onChange={e =>
+                      onValueChange={value =>
                         setEditFormData({
                           ...editFormData,
-                          workplace: e.target.value,
+                          workplace: value,
                         })
                       }
-                      placeholder='Enter workplace or cost center'
-                    />
+                    >
+                      <SelectTrigger>
+                        <SelectValue placeholder='Select a workplace' />
+                      </SelectTrigger>
+                      <SelectContent className='max-h-[300px] overflow-y-auto scrollbar-premium'>
+                        {sites.length === 0 ? (
+                          <SelectItem value='' disabled>
+                            {relatedEntitiesLoading
+                              ? 'Loading workplaces...'
+                              : 'No workplaces found'}
+                          </SelectItem>
+                        ) : (
+                          sites.map(site => (
+                            <SelectItem key={site.id} value={site.id}>
+                              {site.name} ({site.id})
+                            </SelectItem>
+                          ))
+                        )}
+                      </SelectContent>
+                    </Select>
                   </div>
 
                   <div className='space-y-2'>
@@ -1870,7 +2145,7 @@ export default function MyDashboard() {
                 <DialogFooter>
                   <Button
                     variant='outline'
-                    onClick={() => setIsEditModalOpen(false)}
+                    onClick={closeEditModal}
                     disabled={modalFormLoading}
                   >
                     Cancel
@@ -1895,7 +2170,10 @@ export default function MyDashboard() {
             {/* Delete Confirmation Modal */}
             <Dialog
               open={isDeleteModalOpen}
-              onOpenChange={setIsDeleteModalOpen}
+              onOpenChange={open => {
+                if (!open) closeDeleteModal();
+                else setIsDeleteModalOpen(true);
+              }}
             >
               <DialogContent>
                 <DialogHeader>
@@ -1914,7 +2192,7 @@ export default function MyDashboard() {
                 <DialogFooter>
                   <Button
                     variant='outline'
-                    onClick={() => setIsDeleteModalOpen(false)}
+                    onClick={closeDeleteModal}
                     disabled={modalFormLoading}
                   >
                     Cancel

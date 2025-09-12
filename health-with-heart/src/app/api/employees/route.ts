@@ -9,12 +9,19 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '50');
     const search = searchParams.get('search') || '';
     const employee = searchParams.get('employee') || '';
+    const all = searchParams.get('all') === 'true'; // New parameter to get all employees
     const offset = (page - 1) * limit;
 
-    // Build search condition - only for employees with Executive Medical reports
+    // Build search condition - conditionally filter by Executive Medical reports
     let searchCondition = '';
     let countSearchCondition = '';
     let queryParams: (string | number)[] = [];
+    let executiveMedicalFilter = all
+      ? ''
+      : `INNER JOIN medical_report mr ON mr.employee_id = e.id AND mr.type = 'Executive Medical'`;
+    let executiveMedicalWhere = all
+      ? ''
+      : `WHERE mr.type = 'Executive Medical'`;
 
     if (employee) {
       searchCondition = `AND e.id = $3`;
@@ -33,15 +40,15 @@ export async function GET(request: NextRequest) {
     const countQuery = `
       SELECT COUNT(DISTINCT e.id) as total 
       FROM employee e
-      INNER JOIN medical_report mr ON mr.employee_id = e.id
-      WHERE mr.type = 'Executive Medical'
+      ${executiveMedicalFilter}
+      ${executiveMedicalWhere}
       ${countSearchCondition}
     `;
 
     const countResult = await query(countQuery, queryParams);
     const total = parseInt((countResult.rows[0] as { total: string }).total);
 
-    // Get employees with resolved workplace and organisation names - only those with Executive Medical reports
+    // Get employees with resolved workplace and organisation names - conditionally filter by Executive Medical reports
     const employeesQuery = `
       SELECT DISTINCT
         e.id,
@@ -79,7 +86,7 @@ export async function GET(request: NextRequest) {
         e.work_startdate,
         COALESCE(mc.manager_count, 0) AS manager_count
       FROM public.employee e
-      INNER JOIN medical_report mr ON mr.employee_id = e.id
+      ${executiveMedicalFilter}
       LEFT JOIN public.users uc 
              ON uc.id = e.user_created
       LEFT JOIN public.users uu 
@@ -96,7 +103,7 @@ export async function GET(request: NextRequest) {
         WHERE organisation_id IS NOT NULL
         GROUP BY organisation_id
       ) mc ON mc.organisation_id = e.organisation
-      WHERE mr.type = 'Executive Medical'
+      ${executiveMedicalWhere}
       ${searchCondition}
       ORDER BY e.surname, e.name
       LIMIT $1 OFFSET $2

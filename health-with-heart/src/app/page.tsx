@@ -29,7 +29,7 @@ import {
   Shield,
 } from 'lucide-react';
 import { ButtonLoading } from '@/components/ui/loading';
-import { supabase } from '@/lib/supabase';
+// import { supabase } from '@/lib/supabase'; // Commented out for local database migration
 import Footer from '@/components/Footer';
 import Lottie from 'lottie-react';
 import { toast } from 'sonner';
@@ -250,41 +250,64 @@ export default function AuthPage() {
 
     try {
       if (mode === 'login') {
-        const { data, error } = await supabase.auth.signInWithPassword({
-          email,
-          password,
-        });
+        // Supabase authentication commented out for local database migration
+        // const { data, error } = await supabase.auth.signInWithPassword({
+        //   email,
+        //   password,
+        // });
 
-        if (error) throw error;
+        // if (error) throw error;
 
-        toast.success('Login successful! Setting up your account...');
+        // toast.success('Login successful! Setting up your account...');
 
         // Check and link user account automatically
-        await linkUserAccount(data.user);
+        // await linkUserAccount(data.user);
 
-        toast.success('Redirecting to your dashboard...');
+        // toast.success('Redirecting to your dashboard...');
         // Redirect to dashboard
-        window.location.href = '/my-dashboard';
-      } else if (mode === 'signup') {
-        const { data, error } = await supabase.auth.signUp({
-          email,
-          password,
-        });
+        // window.location.href = '/my-dashboard';
 
-        if (error) throw error;
-
-        toast.success('Check your email for verification link!');
-      } else if (mode === 'reset') {
-        const { data, error } = await supabase.auth.resetPasswordForEmail(
-          email,
-          {
-            redirectTo: `${window.location.origin}/auth/reset-password`,
-          }
+        // TODO: Implement local database authentication
+        toast.success(
+          'Login functionality temporarily disabled during migration'
         );
 
-        if (error) throw error;
+        // Temporary redirect to dashboard for testing
+        setTimeout(() => {
+          window.location.href = '/my-dashboard';
+        }, 1500);
+      } else if (mode === 'signup') {
+        // Supabase signup commented out for local database migration
+        // const { data, error } = await supabase.auth.signUp({
+        //   email,
+        //   password,
+        // });
 
-        toast.success('Password reset email sent!');
+        // if (error) throw error;
+
+        // toast.success('Check your email for verification link!');
+
+        // TODO: Implement local database user registration
+        toast.success(
+          'Signup functionality temporarily disabled during migration'
+        );
+      } else if (mode === 'reset') {
+        // Supabase password reset commented out for local database migration
+        // const { data, error } = await supabase.auth.resetPasswordForEmail(
+        //   email,
+        //   {
+        //     redirectTo: `${window.location.origin}/auth/reset-password`,
+        //   }
+        // );
+
+        // if (error) throw error;
+
+        // toast.success('Password reset email sent!');
+
+        // TODO: Implement local database password reset
+        toast.success(
+          'Password reset functionality temporarily disabled during migration'
+        );
       }
     } catch (error: any) {
       toast.error(error?.message || 'An error occurred');
@@ -302,16 +325,22 @@ export default function AuthPage() {
     setLoading(true);
 
     try {
-      const { data, error } = await supabase.auth.signInWithOtp({
-        email,
-        options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
-        },
-      });
+      // Supabase magic link commented out for local database migration
+      // const { data, error } = await supabase.auth.signInWithOtp({
+      //   email,
+      //   options: {
+      //     emailRedirectTo: `${window.location.origin}/auth/callback`,
+      //   },
+      // });
 
-      if (error) throw error;
+      // if (error) throw error;
 
-      toast.success('Check your email for the magic link!');
+      // toast.success('Check your email for the magic link!');
+
+      // TODO: Implement local database magic link authentication
+      toast.success(
+        'Magic link functionality temporarily disabled during migration'
+      );
     } catch (error: any) {
       toast.error(error?.message || 'Failed to send magic link');
     } finally {

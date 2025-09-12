@@ -98,6 +98,7 @@ interface PaginationInfo {
 function ManagersPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const goBack = useBreadcrumbBack();
 
   // Get filter parameters from URL
   const organizationFilter = searchParams.get('organization');
@@ -347,53 +348,18 @@ function ManagersPageContent() {
     // <ProtectedRoute>
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        {/* Back Button and Filter Info */}
-        {(returnUrl || organizationFilter) && (
-          <div className='mb-6'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(decodeURIComponent(returnUrl))}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
-                  Back to{' '}
-                  {returnUrl === '/organizations'
-                    ? 'Organizations'
-                    : 'Previous Page'}
-                </Button>
-              )}
-
-              {organizationFilter && organizationName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <Building2 className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(organizationName)}
-                  </Badge>
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('organization');
-                      params.delete('organizationName');
-                      router.push(`/managers?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
-                  >
-                    <X className='h-3 w-3' />
-                  </Button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
+        {/* Back Button */}
+        <div className='mb-6'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={goBack}
+            className='flex items-center space-x-2'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
 
         {/* Header */}
         <div className='flex items-center justify-between mb-6'>
@@ -1169,20 +1135,20 @@ export default function ManagersPage() {
   return (
     <Suspense
       fallback={
-        <ProtectedRoute>
-          <DashboardLayout>
-            <div className='min-h-screen bg-background flex items-center justify-center'>
-              <Card>
-                <CardContent>
-                  <PageLoading
-                    text='Initializing Managers'
-                    subtitle='Setting up manager management system...'
-                  />
-                </CardContent>
-              </Card>
-            </div>
-          </DashboardLayout>
-        </ProtectedRoute>
+        // <ProtectedRoute>
+        <DashboardLayout>
+          <div className='min-h-screen bg-background flex items-center justify-center'>
+            <Card>
+              <CardContent>
+                <PageLoading
+                  text='Initializing Managers'
+                  subtitle='Setting up manager management system...'
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </DashboardLayout>
+        // </ProtectedRoute>
       }
     >
       <ManagersPageContent />

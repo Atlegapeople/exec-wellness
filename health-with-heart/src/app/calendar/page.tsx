@@ -601,7 +601,7 @@ function CalendarPageContent() {
 
   if (loading) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
             <Card>
@@ -614,12 +614,12 @@ function CalendarPageContent() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
           {/* Back Button */}
@@ -1038,14 +1038,14 @@ function CalendarPageContent() {
           </Dialog>
         )}
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 export default function CalendarPage() {
   return (
     <Suspense
       fallback={
-        <ProtectedRoute>
+        // <ProtectedRoute>
           <DashboardLayout>
             <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
               <Card>
@@ -1058,7 +1058,7 @@ export default function CalendarPage() {
               </Card>
             </div>
           </DashboardLayout>
-        </ProtectedRoute>
+        // </ProtectedRoute>
       }
     >
       <CalendarPageContent />

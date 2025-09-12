@@ -158,7 +158,7 @@ export default function ClinicalExaminationsAnalytics() {
 
   if (loading) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 py-8'>
             <div className='flex items-center justify-center min-h-96'>
@@ -174,13 +174,13 @@ export default function ClinicalExaminationsAnalytics() {
             </div>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   if (error) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 py-8'>
             <Card className='border-destructive'>
@@ -202,12 +202,12 @@ export default function ClinicalExaminationsAnalytics() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 py-8 space-y-8'>
           {/* Header */}
@@ -657,6 +657,6 @@ export default function ClinicalExaminationsAnalytics() {
           )}
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }

@@ -42,12 +42,22 @@ export function useRouteState<T>(
 
   const [state, setState] = useState<T>(() => {
     const stored = readFromSession<T>(storageKey);
+    console.log(`useRouteState [${key}] initial load:`, {
+      storageKey,
+      stored,
+      initialValue,
+    });
     return stored !== null ? stored : initialValue;
   });
 
   // When the route changes, try to load existing value for the new route
   useEffect(() => {
     const stored = readFromSession<T>(storageKey);
+    console.log(`useRouteState [${key}] route change:`, {
+      storageKey,
+      stored,
+      initialValue,
+    });
     setState(stored !== null ? stored : initialValue);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [storageKey]);
@@ -56,8 +66,11 @@ export function useRouteState<T>(
   useEffect(() => {
     if (typeof window === 'undefined') return;
     try {
+      console.log(`useRouteState [${key}] persisting:`, { storageKey, state });
       sessionStorage.setItem(storageKey, JSON.stringify(state));
-    } catch {}
+    } catch (error) {
+      console.error(`useRouteState [${key}] persistence error:`, error);
+    }
   }, [state, storageKey]);
 
   return [state, setState] as const;

@@ -203,66 +203,73 @@ export async function POST(request: NextRequest) {
     console.log('Received report data:', reportData);
 
     // Validate required fields
-    if (!reportData.employee_id || !reportData.type) {
+    if (
+      !reportData.patient_id ||
+      !reportData.appointment_id ||
+      !reportData.doctor_id
+    ) {
       console.log('Validation failed: missing required fields');
       return NextResponse.json(
-        { error: 'Employee ID and type are required' },
+        { error: 'Patient ID, Appointment ID, and Doctor ID are required' },
         { status: 400 }
       );
     }
 
-    // Validate employee_id format (should be a valid UUID or string)
-    if (
-      typeof reportData.employee_id !== 'string' ||
-      reportData.employee_id.trim() === ''
-    ) {
-      console.log('Validation failed: invalid employee_id format');
+    // Validate UUID format for required fields
+    const uuidRegex =
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+    if (!uuidRegex.test(reportData.patient_id)) {
+      console.log('Validation failed: invalid patient_id format');
       return NextResponse.json(
-        { error: 'Employee ID must be a valid string' },
+        { error: 'Patient ID must be a valid UUID' },
         { status: 400 }
       );
     }
 
-    // Set default values and only include fields that exist in the table
+    if (!uuidRegex.test(reportData.appointment_id)) {
+      console.log('Validation failed: invalid appointment_id format');
+      return NextResponse.json(
+        { error: 'Appointment ID must be a valid UUID' },
+        { status: 400 }
+      );
+    }
+
+    if (!uuidRegex.test(reportData.doctor_id)) {
+      console.log('Validation failed: invalid doctor_id format');
+      return NextResponse.json(
+        { error: 'Doctor ID must be a valid UUID' },
+        { status: 400 }
+      );
+    }
+
+    // Set default values for the medical_reports table
     const now = new Date().toISOString();
+
     const insertData = {
-      employee_id: reportData.employee_id,
-      type: reportData.type || 'Executive Medical',
-      sub_type: reportData.sub_type || 'Initial',
-      doctor: reportData.doctor || null,
-      nurse: reportData.nurse || null,
-      workplace: reportData.workplace || null,
-      line_manager: reportData.line_manager || null,
-      line_manager2: reportData.line_manager2 || null,
-      notes_text: reportData.notes_text || null,
-      recommendation_text: reportData.recommendation_text || null,
-      manager_email: reportData.manager_email || null,
-      employee_work_email: reportData.employee_work_email || null,
-      employee_personal_email: reportData.employee_personal_email || null,
-      doctor_email: reportData.doctor_email || null,
-      date_created: now,
-      date_updated: now,
-      user_created: reportData.user_created || 'system',
-      user_updated: reportData.user_updated || 'system',
-      doctor_signoff: reportData.doctor_signoff || 'No',
-      report_work_status: reportData.report_work_status || 'Draft',
-      // Set default values for required fields that might not be in the form
-      site: null,
-      doctor_signature: null,
-      nurse_signature: null,
-      email_certificate: 0, // Use integer 0 instead of boolean false
-      email_report: 0, // Use integer 0 instead of boolean false
-      certificate_send_count: 0,
-      report_send_count: 0,
-      email_certificate_manager: 0, // Use integer 0 instead of boolean false
-      certificate_send_count_manager: 0,
-      column_1: null,
-      column_2: null,
-      column_3: null,
-      column_4: null,
-      column_5: null,
-      column_6: null,
-      column_7: null,
+      id: reportData.report_id || null, // Use report_id as the primary key if provided
+      patient_id: reportData.patient_id,
+      appointment_id: reportData.appointment_id,
+      doctor_id: reportData.doctor_id,
+      report_title: reportData.report_title || 'Executive Medical Report',
+      executive_summary: reportData.executive_summary || null,
+      clinical_findings: reportData.clinical_findings || null,
+      assessment: reportData.assessment || null,
+      recommendations: reportData.recommendations || null,
+      follow_up_required: reportData.follow_up_required || false,
+      follow_up_notes: reportData.follow_up_notes || null,
+      status: reportData.status || 'draft',
+      current_workflow_step:
+        reportData.current_workflow_step || 'data_collection',
+      pdf_url: reportData.pdf_url || null,
+      pdf_generated_at: reportData.pdf_generated_at || null,
+      pdf_version: reportData.pdf_version || '1.0',
+      signed_by: reportData.signed_by || null,
+      signed_at: reportData.signed_at || null,
+      signature_data: reportData.signature_data || null,
+      created_at: now,
+      updated_at: now,
+      locked_at: reportData.locked_at || null,
     };
 
     console.log('Prepared insert data:', insertData);
@@ -270,18 +277,14 @@ export async function POST(request: NextRequest) {
     // Sanitize data types to ensure compatibility with database schema
     const sanitizedData = {
       ...insertData,
-      // Ensure numeric fields are integers
-      email_certificate: Number(insertData.email_certificate) || 0,
-      email_report: Number(insertData.email_report) || 0,
-      certificate_send_count: Number(insertData.certificate_send_count) || 0,
-      report_send_count: Number(insertData.report_send_count) || 0,
-      email_certificate_manager:
-        Number(insertData.email_certificate_manager) || 0,
-      certificate_send_count_manager:
-        Number(insertData.certificate_send_count_manager) || 0,
-      // Ensure doctor and nurse are either valid UUIDs or null
-      doctor: insertData.doctor || null,
-      nurse: insertData.nurse || null,
+      // Ensure boolean fields are properly formatted
+      follow_up_required: Boolean(insertData.follow_up_required),
+      // Ensure timestamps are properly formatted
+      created_at: insertData.created_at,
+      updated_at: insertData.updated_at,
+      signed_at: insertData.signed_at || null,
+      locked_at: insertData.locked_at || null,
+      pdf_generated_at: insertData.pdf_generated_at || null,
     };
 
     console.log('Sanitized insert data:', sanitizedData);
@@ -298,18 +301,21 @@ export async function POST(request: NextRequest) {
     const values = Object.values(sanitizedData);
 
     const insertQuery = `
-      INSERT INTO medical_report (${fields.join(', ')})
+      INSERT INTO medical_reports (${fields.join(', ')})
       VALUES (${placeholders})
       RETURNING *
     `;
 
     console.log('Insert query:', insertQuery);
     console.log('Insert values:', values);
+    console.log('Fields being inserted:', fields);
+    console.log('Number of fields:', fields.length);
+    console.log('Number of values:', values.length);
 
     // Test database connection first
     try {
       const testResult = await query(
-        'SELECT COUNT(*) as count FROM medical_report'
+        'SELECT COUNT(*) as count FROM medical_reports'
       );
       console.log(
         'Database connection test successful, table has',
@@ -401,14 +407,14 @@ export async function DELETE(request: NextRequest) {
 export async function PATCH(request: NextRequest) {
   try {
     // Test database connection
-    const testQuery = 'SELECT COUNT(*) as count FROM medical_report';
+    const testQuery = 'SELECT COUNT(*) as count FROM medical_reports';
     const result = await query(testQuery, []);
 
     return NextResponse.json({
       message: 'Database connection successful',
       tableExists: true,
       recordCount: (result.rows[0] as any).count,
-      tableName: 'medical_report',
+      tableName: 'medical_reports',
     });
   } catch (error) {
     console.error('Database connection test failed:', error);

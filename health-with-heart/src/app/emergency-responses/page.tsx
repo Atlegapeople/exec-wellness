@@ -284,7 +284,7 @@ function EmergencyResponsesPageContent() {
 
   if (loading) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
             <Card>
@@ -297,12 +297,12 @@ function EmergencyResponsesPageContent() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='space-y-6 p-6'>
           {/* Back Button */}
@@ -1422,7 +1422,7 @@ function EmergencyResponsesPageContent() {
           </Dialog>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 
@@ -1430,7 +1430,7 @@ export default function EmergencyResponsesPage() {
   return (
     <Suspense
       fallback={
-        <ProtectedRoute>
+        // <ProtectedRoute>
           <DashboardLayout>
             <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
               <Card>
@@ -1443,7 +1443,7 @@ export default function EmergencyResponsesPage() {
               </Card>
             </div>
           </DashboardLayout>
-        </ProtectedRoute>
+        // </ProtectedRoute>
       }
     >
       <EmergencyResponsesPageContent />

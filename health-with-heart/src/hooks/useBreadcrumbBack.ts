@@ -31,7 +31,15 @@ export function useBreadcrumbBack(fallbackHref: string = '/') {
     const currentHref = (pathname || '/') + (search ? `?${search}` : '');
 
     const history = readBreadcrumbHistory();
+    console.log('useBreadcrumbBack called:', {
+      currentHref,
+      history,
+      fallbackHref,
+    });
+
+    // If no history, go to fallback
     if (history.length === 0) {
+      console.log('No breadcrumb history, going to fallback:', fallbackHref);
       router.push(fallbackHref);
       return;
     }
@@ -60,11 +68,23 @@ export function useBreadcrumbBack(fallbackHref: string = '/') {
       }
     }
 
-    // If no different base path found, fallback to root or the earliest entry
+    // If no different base path found, try to go to the previous entry in history
+    if (!targetHref && history.length > 1) {
+      // Find the last entry that's not the current one
+      for (let i = history.length - 1; i >= 0; i--) {
+        if (history[i].href !== currentHref) {
+          targetHref = history[i].href;
+          break;
+        }
+      }
+    }
+
+    // Final fallback
     if (!targetHref) {
       targetHref = history[0]?.href || fallbackHref;
     }
 
+    console.log('Navigating to:', targetHref || fallbackHref);
     router.push(targetHref || fallbackHref);
   }, [router, pathname, searchParams, fallbackHref]);
 }

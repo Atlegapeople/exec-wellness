@@ -494,25 +494,25 @@ function MedicalHistoryPageContent() {
 
   if (loading) {
     return (
-      <ProtectedRoute>
-        <DashboardLayout>
-          <div className="px-8 sm:px-12 lg:px-16 xl:px-24 py-8">
-            <Card>
-              <CardContent>
-                <PageLoading 
-                  text="Loading Medical History" 
-                  subtitle="Fetching medical history data from OHMS database..."
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </DashboardLayout>
- </ProtectedRoute>
+      // <ProtectedRoute>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Medical History'
+                subtitle='Fetching medical history data from OHMS database...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      </DashboardLayout>
+      //  </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
           {/* Back Button and Filters */}
@@ -2741,7 +2741,7 @@ function MedicalHistoryPageContent() {
           </Dialog>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 

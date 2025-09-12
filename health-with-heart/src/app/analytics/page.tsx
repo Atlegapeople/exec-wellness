@@ -270,7 +270,7 @@ function AnalyticsContent() {
     mentalHealthError;
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
           {/* Back Button */}
@@ -417,15 +417,6 @@ function AnalyticsContent() {
                 </div>
               )}
 
-              {/* Loading Indicator */}
-              {!isInitialLoad && isLoading && (
-                <div className='flex items-center justify-center p-8'>
-                  <div className='flex items-center gap-3 text-muted-foreground'>
-                    <Loader2 className='h-5 w-5 animate-spin' />
-                    <span>Loading analytics data...</span>
-                  </div>
-                </div>
-              )}
             </div>
           </div>
           {/* Loading State */}
@@ -838,7 +829,7 @@ function AnalyticsContent() {
           </Card>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 
@@ -846,7 +837,7 @@ export default function Analytics() {
   return (
     <Suspense
       fallback={
-        <ProtectedRoute>
+        // <ProtectedRoute>
           <DashboardLayout>
             <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
               <div className='flex items-center justify-center p-12'>
@@ -859,7 +850,7 @@ export default function Analytics() {
               </div>
             </div>
           </DashboardLayout>
-        </ProtectedRoute>
+        // </ProtectedRoute>
       }
     >
       <AnalyticsContent />

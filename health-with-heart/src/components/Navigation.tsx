@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { supabase } from '@/lib/supabase';
+// import { supabase } from '@/lib/supabase'; // Commented out for local database migration
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
@@ -113,29 +113,40 @@ export default function Navigation() {
     setMounted(true);
   }, []);
 
-  // Get current user information
+  // Get current user information - Supabase commented out for local database migration
   useEffect(() => {
     const getCurrentUser = async () => {
       try {
-        const {
-          data: { user },
-        } = await supabase.auth.getUser();
-        if (user) {
-          setCurrentUser(user);
+        // Supabase authentication commented out
+        // const {
+        //   data: { user },
+        // } = await supabase.auth.getUser();
+        // if (user) {
+        //   setCurrentUser(user);
 
-          // Fetch user details from database
-          const response = await fetch('/api/users');
-          if (response.ok) {
-            const usersData = await response.json();
-            const matchingUser = usersData.users?.find(
-              (dbUser: { email: string }) =>
-                dbUser.email.toLowerCase() === user.email?.toLowerCase()
-            );
-            if (matchingUser) {
-              setDbUser(matchingUser);
-            }
-          }
-        }
+        //   // Fetch user details from database
+        //   const response = await fetch('/api/users');
+        //   if (response.ok) {
+        //     const usersData = await response.json();
+        //     const matchingUser = usersData.users?.find(
+        //       (dbUser: { email: string }) =>
+        //         dbUser.email.toLowerCase() === user.email?.toLowerCase()
+        //     );
+        //     if (matchingUser) {
+        //       setDbUser(matchingUser);
+        //     }
+        //   }
+        // }
+
+        // TODO: Implement local database user authentication
+        // For now, set a mock user for testing
+        setCurrentUser({ email: 'test@example.com' });
+        setDbUser({
+          email: 'test@example.com',
+          name: 'Test',
+          surname: 'User',
+          type: 'Admin',
+        });
       } catch (error) {
         console.error('Error getting user:', error);
       } finally {
@@ -148,7 +159,11 @@ export default function Navigation() {
 
   const handleSignOut = async () => {
     try {
-      await supabase.auth.signOut();
+      // Supabase sign out commented out for local database migration
+      // await supabase.auth.signOut();
+
+      // TODO: Implement local database sign out
+      // For now, just redirect to home page
       window.location.href = '/';
     } catch (error) {
       console.error('Error signing out:', error);

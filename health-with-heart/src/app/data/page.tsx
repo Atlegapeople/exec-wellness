@@ -169,7 +169,7 @@ function DataPageContent() {
   // Always show loading during SSR and initial client render
   if (!mounted) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
             <Card>
@@ -182,14 +182,14 @@ function DataPageContent() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   // Show loading screen when mounted but data is still loading
   if (loading) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
             <Card>
@@ -202,12 +202,12 @@ function DataPageContent() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
           {/* Header */}
@@ -448,7 +448,7 @@ function DataPageContent() {
           </Card>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 

@@ -740,7 +740,7 @@ function SpecialInvestigationsPageContent() {
 
   if (loading) {
     return (
-      <ProtectedRoute>
+      // <ProtectedRoute>
         <DashboardLayout>
           <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
             <Card>
@@ -753,12 +753,12 @@ function SpecialInvestigationsPageContent() {
             </Card>
           </div>
         </DashboardLayout>
-      </ProtectedRoute>
+      // </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
           {/* Back Button */}
@@ -2299,7 +2299,7 @@ function SpecialInvestigationsPageContent() {
           </Dialog>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 

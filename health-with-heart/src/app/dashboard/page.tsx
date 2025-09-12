@@ -117,7 +117,7 @@ function DashboardContent() {
     statsError || reportError || validationError || appointmentsError;
 
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <DashboardLayout>
         <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8 space-y-8 animate-slide-up'>
           {/* Back Button */}
@@ -368,7 +368,7 @@ function DashboardContent() {
           </div>
         </div>
       </DashboardLayout>
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 }
 
@@ -376,7 +376,7 @@ export default function Dashboard() {
   return (
     <Suspense
       fallback={
-        <ProtectedRoute>
+        // <ProtectedRoute>
           <DashboardLayout>
             <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
               <Card>
@@ -389,7 +389,7 @@ export default function Dashboard() {
               </Card>
             </div>
           </DashboardLayout>
-        </ProtectedRoute>
+        // </ProtectedRoute>
       }
     >
       <DashboardContent />
