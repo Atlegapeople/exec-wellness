@@ -202,120 +202,64 @@ export async function POST(request: NextRequest) {
     const reportData = await request.json();
     console.log('Received report data:', reportData);
 
-    // Validate required fields
-    if (
-      !reportData.patient_id ||
-      !reportData.appointment_id ||
-      !reportData.doctor_id
-    ) {
-      console.log('Validation failed: missing required fields');
+    // Validate required fields for medical_report table
+    if (!reportData.employee_id) {
+      console.log('Validation failed: missing employee_id');
       return NextResponse.json(
-        { error: 'Patient ID, Appointment ID, and Doctor ID are required' },
+        { error: 'Employee ID is required' },
         { status: 400 }
       );
     }
 
-    // Validate UUID format for required fields
-    const uuidRegex =
-      /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-
-    if (!uuidRegex.test(reportData.patient_id)) {
-      console.log('Validation failed: invalid patient_id format');
-      return NextResponse.json(
-        { error: 'Patient ID must be a valid UUID' },
-        { status: 400 }
-      );
-    }
-
-    if (!uuidRegex.test(reportData.appointment_id)) {
-      console.log('Validation failed: invalid appointment_id format');
-      return NextResponse.json(
-        { error: 'Appointment ID must be a valid UUID' },
-        { status: 400 }
-      );
-    }
-
-    if (!uuidRegex.test(reportData.doctor_id)) {
-      console.log('Validation failed: invalid doctor_id format');
-      return NextResponse.json(
-        { error: 'Doctor ID must be a valid UUID' },
-        { status: 400 }
-      );
-    }
-
-    // Set default values for the medical_reports table
+    // Set default values for the medical_report table
     const now = new Date().toISOString();
 
     const insertData = {
       id: reportData.report_id || null, // Use report_id as the primary key if provided
-      patient_id: reportData.patient_id,
-      appointment_id: reportData.appointment_id,
-      doctor_id: reportData.doctor_id,
-      report_title: reportData.report_title || 'Executive Medical Report',
-      executive_summary: reportData.executive_summary || null,
-      clinical_findings: reportData.clinical_findings || null,
-      assessment: reportData.assessment || null,
-      recommendations: reportData.recommendations || null,
-      follow_up_required: reportData.follow_up_required || false,
-      follow_up_notes: reportData.follow_up_notes || null,
-      status: reportData.status || 'draft',
-      current_workflow_step:
-        reportData.current_workflow_step || 'data_collection',
-      pdf_url: reportData.pdf_url || null,
-      pdf_generated_at: reportData.pdf_generated_at || null,
-      pdf_version: reportData.pdf_version || '1.0',
-      signed_by: reportData.signed_by || null,
-      signed_at: reportData.signed_at || null,
-      signature_data: reportData.signature_data || null,
-      created_at: now,
-      updated_at: now,
-      locked_at: reportData.locked_at || null,
+      date_created: now,
+      date_updated: now,
+      employee_id: reportData.employee_id,
+      type: reportData.type || 'Executive Medical',
+      sub_type: reportData.sub_type || 'Initial',
+      doctor: reportData.doctor || null,
+      doctor_signoff: reportData.doctor_signoff || 'No',
+      doctor_signature: reportData.doctor_signature || null,
+      nurse: reportData.nurse || null,
+      nurse_signature: reportData.nurse_signature || null,
+      report_work_status: reportData.report_work_status || 'Draft',
+      notes_text: reportData.notes_text || null,
+      recommendation_text: reportData.recommendation_text || null,
+      employee_work_email: reportData.employee_work_email || null,
+      employee_personal_email: reportData.employee_personal_email || null,
+      manager_email: reportData.manager_email || null,
+      doctor_email: reportData.doctor_email || null,
+      workplace: reportData.workplace || null,
+      line_manager: reportData.line_manager || null,
+      line_manager2: reportData.line_manager2 || null,
+      user_created: reportData.user_created || null,
+      user_updated: reportData.user_updated || null,
     };
 
     console.log('Prepared insert data:', insertData);
 
-    // Sanitize data types to ensure compatibility with database schema
-    const sanitizedData = {
-      ...insertData,
-      // Ensure boolean fields are properly formatted
-      follow_up_required: Boolean(insertData.follow_up_required),
-      // Ensure timestamps are properly formatted
-      created_at: insertData.created_at,
-      updated_at: insertData.updated_at,
-      signed_at: insertData.signed_at || null,
-      locked_at: insertData.locked_at || null,
-      pdf_generated_at: insertData.pdf_generated_at || null,
-    };
-
-    console.log('Sanitized insert data:', sanitizedData);
-
-    // Log data types for debugging
-    console.log('Data types:');
-    Object.entries(sanitizedData).forEach(([key, value]) => {
-      console.log(`  ${key}: ${typeof value} = ${value}`);
-    });
-
-    // Build insert query
-    const fields = Object.keys(sanitizedData);
+    // Build insert query for medical_report table
+    const fields = Object.keys(insertData);
     const placeholders = fields.map((_, index) => `$${index + 1}`).join(', ');
-    const values = Object.values(sanitizedData);
+    const values = Object.values(insertData);
 
     const insertQuery = `
-      INSERT INTO medical_reports (${fields.join(', ')})
+      INSERT INTO medical_report (${fields.join(', ')})
       VALUES (${placeholders})
       RETURNING *
     `;
 
     console.log('Insert query:', insertQuery);
     console.log('Insert values:', values);
-    console.log('Fields being inserted:', fields);
-    console.log('Number of fields:', fields.length);
-    console.log('Number of values:', values.length);
 
     // Test database connection first
     try {
       const testResult = await query(
-        'SELECT COUNT(*) as count FROM medical_reports'
+        'SELECT COUNT(*) as count FROM medical_report'
       );
       console.log(
         'Database connection test successful, table has',
@@ -407,14 +351,14 @@ export async function DELETE(request: NextRequest) {
 export async function PATCH(request: NextRequest) {
   try {
     // Test database connection
-    const testQuery = 'SELECT COUNT(*) as count FROM medical_reports';
+    const testQuery = 'SELECT COUNT(*) as count FROM medical_report';
     const result = await query(testQuery, []);
 
     return NextResponse.json({
       message: 'Database connection successful',
       tableExists: true,
       recordCount: (result.rows[0] as any).count,
-      tableName: 'medical_reports',
+      tableName: 'medical_report',
     });
   } catch (error) {
     console.error('Database connection test failed:', error);

@@ -5,8 +5,8 @@ export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id: reportId } = await params;
   try {
-    const { id: reportId } = await params;
     console.log('Form data API called for report ID:', reportId);
 
     // Use the same comprehensive structure as the PDF API expects

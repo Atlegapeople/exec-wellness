@@ -571,7 +571,8 @@ function ReportsPageContent() {
 
   // Generate 15-character alphanumeric ID
   const generateReportId = () => {
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const chars =
+      'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
     for (let i = 0; i < 15; i++) {
       result += chars.charAt(Math.floor(Math.random() * chars.length));
@@ -2801,7 +2802,7 @@ function ReportsPageContent() {
                 id='report_id'
                 value={createFormData.report_id || ''}
                 readOnly
-                className='bg-gray-50 cursor-not-allowed'
+                className='bg-background-50 cursor-not-allowed'
                 placeholder='Auto-generated...'
               />
               <p className='text-xs text-gray-500'>

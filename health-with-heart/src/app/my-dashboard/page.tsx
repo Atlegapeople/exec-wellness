@@ -79,6 +79,7 @@ import { toast } from 'sonner';
 
 interface MedicalReport {
   id: string;
+  report_id?: string;
   date_created: string;
   date_updated: string;
   employee_id: string;
@@ -516,9 +517,21 @@ export default function MyDashboard() {
     setIsDeleteModalOpen(true);
   };
 
+  // Generate 15-character alphanumeric ID
+  const generateReportId = () => {
+    const chars =
+      'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < 15; i++) {
+      result += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return result;
+  };
+
   const handleCreateReport = () => {
     // Open create modal instead of navigating
     setCreateFormData({
+      report_id: generateReportId(),
       type: 'Executive Medical',
       sub_type: 'Initial',
       doctor_signoff: 'No',
@@ -677,8 +690,10 @@ export default function MyDashboard() {
       // Prepare the data for creation
       const reportData = {
         ...createFormData,
-        user_created: dashboardData?.doctor?.id || 'system',
-        user_updated: dashboardData?.doctor?.id || 'system',
+        user_created:
+          selectedStaffType === 'Doctor' ? selectedDoctorId : selectedNurseId,
+        user_updated:
+          selectedStaffType === 'Doctor' ? selectedDoctorId : selectedNurseId,
         doctor: selectedStaffType === 'Doctor' ? selectedDoctorId : null,
         nurse: selectedStaffType === 'Nurse' ? selectedNurseId : null,
         type: 'Executive Medical', // Always set to Executive Medical
@@ -835,6 +850,7 @@ export default function MyDashboard() {
     console.log('Opening create modal, resetting form data');
     // Initialize with default values
     setCreateFormData({
+      report_id: generateReportId(),
       type: 'Executive Medical',
       sub_type: 'Initial',
       doctor_signoff: 'No',
@@ -842,6 +858,9 @@ export default function MyDashboard() {
     });
     if (employees.length === 0) {
       fetchEmployees();
+    }
+    if (sites.length === 0) {
+      fetchSites();
     }
     setIsCreateModalOpen(true);
     toast.info('Create Report modal opened');
@@ -1307,11 +1326,13 @@ export default function MyDashboard() {
                           onClick={handleCreateReport}
                           variant='default'
                           size='sm'
-                          className='hover-lift'
+                          className={`hover-lift ${selectedReport ? 'rounded-full p-2' : ''}`}
                           title='Create new medical report'
                         >
-                          <Plus className='h-4 w-4 mr-1' />
-                          New Report
+                          <Plus
+                            className={`h-4 w-4 ${selectedReport ? '' : 'mr-1'}`}
+                          />
+                          {!selectedReport && 'New Report'}
                         </Button>
                       </div>
                     </div>
@@ -1789,15 +1810,63 @@ export default function MyDashboard() {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                   <div className='space-y-2'>
+                    <Label htmlFor='report_id'>Report ID</Label>
+                    <Input
+                      id='report_id'
+                      value={createFormData.report_id || ''}
+                      readOnly
+                      className='bg-gray-50 cursor-not-allowed'
+                      placeholder='Auto-generated...'
+                    />
+                    <p className='text-xs text-gray-500'>
+                      This ID is automatically generated and cannot be changed
+                    </p>
+                  </div>
+
+                  <div className='space-y-2'>
                     <Label htmlFor='employee_id'>Employee</Label>
                     <Select
                       value={createFormData.employee_id || ''}
-                      onValueChange={value =>
+                      onValueChange={value => {
+                        const selectedEmployee = employees.find(
+                          emp => emp.id === value
+                        );
+                        console.log('Selected employee:', selectedEmployee);
+                        console.log(
+                          'Employee workplace:',
+                          selectedEmployee?.workplace
+                        );
+                        console.log('Available sites:', sites);
+
+                        // Find matching site by multiple criteria
+                        const matchingSite = sites.find(
+                          site =>
+                            site.id === selectedEmployee?.workplace ||
+                            site.name === selectedEmployee?.workplace ||
+                            site.name === selectedEmployee?.workplace_name ||
+                            site.id === selectedEmployee?.workplace_name ||
+                            (selectedEmployee?.workplace &&
+                              site.name
+                                ?.toLowerCase()
+                                .includes(
+                                  selectedEmployee.workplace.toLowerCase()
+                                )) ||
+                            (selectedEmployee?.workplace_name &&
+                              site.name
+                                ?.toLowerCase()
+                                .includes(
+                                  selectedEmployee.workplace_name.toLowerCase()
+                                ))
+                        );
+
+                        console.log('Matching site:', matchingSite);
+
                         setCreateFormData({
                           ...createFormData,
                           employee_id: value,
-                        })
-                      }
+                          workplace: matchingSite?.id || '',
+                        });
+                      }}
                     >
                       <SelectTrigger>
                         <SelectValue placeholder='Select an employee' />
