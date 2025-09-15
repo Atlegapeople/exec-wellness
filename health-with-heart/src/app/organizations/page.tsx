@@ -22,6 +22,16 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
+import {
   Table,
   TableBody,
   TableCell,
@@ -107,6 +117,8 @@ function OrganizationsPageContent() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
   const [uploadingLogo, setUploadingLogo] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [orgToDelete, setOrgToDelete] = useState<string | null>(null);
 
   const fetchOrganizations = async (page = 1, search = '') => {
     try {
@@ -193,21 +205,31 @@ function OrganizationsPageContent() {
   };
 
   const handleDeleteOrg = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this organization?')) return;
+    setOrgToDelete(id);
+    setDeleteDialogOpen(true);
+  };
+
+  const confirmDeleteOrg = async () => {
+    if (!orgToDelete) return;
 
     try {
-      const response = await fetch(`/api/organizations/${id}`, {
+      const response = await fetch(`/api/organizations/${orgToDelete}`, {
         method: 'DELETE',
       });
 
       if (!response.ok) throw new Error('Failed to delete organization');
 
+      toast.success('Organization deleted successfully!');
       fetchOrganizations(pagination.page, searchTerm);
-      if (selectedOrg?.id === id) {
+      if (selectedOrg?.id === orgToDelete) {
         setSelectedOrg(null);
       }
     } catch (error) {
       console.error('Error deleting organization:', error);
+      toast.error('Failed to delete organization. Please try again.');
+    } finally {
+      setDeleteDialogOpen(false);
+      setOrgToDelete(null);
     }
   };
 
@@ -1358,6 +1380,25 @@ function OrganizationsPageContent() {
             </div>
           </DialogContent>
         </Dialog>
+
+        {/* Delete Confirmation Dialog */}
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Delete Organization</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to delete this organization? This action
+                cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={confirmDeleteOrg}>
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </DashboardLayout>
     // </ProtectedRoute>

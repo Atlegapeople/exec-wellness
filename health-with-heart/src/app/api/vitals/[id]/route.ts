@@ -54,7 +54,13 @@ export async function PUT(
     const { id } = await params;
     const body = await request.json();
 
-    const { user_updated, ...vitalData } = body;
+    const {
+      user_updated,
+      date_updated,
+      date_created,
+      id: bodyId,
+      ...vitalData
+    } = body;
 
     // Build dynamic update query
     const updateFields = Object.keys(vitalData)
@@ -63,15 +69,22 @@ export async function PUT(
 
     const values = Object.values(vitalData);
 
+    // Handle case where no vital data fields are provided
+    const vitalFieldsClause = updateFields ? `${updateFields},` : '';
+
     const updateQuery = `
       UPDATE vitals_clinical_metrics 
       SET 
-        ${updateFields},
+        ${vitalFieldsClause}
         user_updated = $2,
         date_updated = NOW()
       WHERE id = $1
       RETURNING *
     `;
+
+    console.log('Update query:', updateQuery);
+    console.log('Update values:', [id, user_updated, ...values]);
+    console.log('Vital data fields:', Object.keys(vitalData));
 
     const result = await query(updateQuery, [id, user_updated, ...values]);
 

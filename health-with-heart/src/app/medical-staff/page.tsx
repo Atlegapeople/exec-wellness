@@ -28,6 +28,16 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import {
@@ -112,6 +122,8 @@ function MedicalStaffPageContent() {
   const [leftPanelWidth, setLeftPanelWidth] = useState(50); // percentage
   const [isResizing, setIsResizing] = useState(false);
   const [uploadingSignature, setUploadingSignature] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [staffToDelete, setStaffToDelete] = useState<string | null>(null);
   const [currentSignaturePath, setCurrentSignaturePath] = useState<
     string | null
   >(null);
@@ -240,23 +252,32 @@ function MedicalStaffPageContent() {
   };
 
   const handleDeleteStaff = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this medical staff record?'))
-      return;
+    setStaffToDelete(id);
+    setDeleteDialogOpen(true);
+  };
+
+  const confirmDeleteStaff = async () => {
+    if (!staffToDelete) return;
 
     try {
-      const response = await fetch(`/api/medical-staff/${id}`, {
+      const response = await fetch(`/api/medical-staff/${staffToDelete}`, {
         method: 'DELETE',
       });
 
       if (!response.ok)
         throw new Error('Failed to delete medical staff record');
 
+      toast.success('Medical staff record deleted successfully!');
       fetchStaff(pagination.page, searchTerm);
-      if (selectedStaff?.id === id) {
+      if (selectedStaff?.id === staffToDelete) {
         setSelectedStaff(null);
       }
     } catch (error) {
       console.error('Error deleting medical staff record:', error);
+      toast.error('Failed to delete medical staff record. Please try again.');
+    } finally {
+      setDeleteDialogOpen(false);
+      setStaffToDelete(null);
     }
   };
 
@@ -1417,6 +1438,25 @@ function MedicalStaffPageContent() {
             </div>
           </DialogContent>
         </Dialog>
+
+        {/* Delete Confirmation Dialog */}
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Delete Medical Staff</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to delete this medical staff record? This
+                action cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={confirmDeleteStaff}>
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </DashboardLayout>
     // </ProtectedRoute>

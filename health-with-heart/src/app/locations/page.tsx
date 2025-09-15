@@ -39,6 +39,17 @@ import {
 } from '@/components/ui/table';
 import DashboardLayout from '@/components/DashboardLayout';
 import ProtectedRoute from '@/components/ProtectedRoute';
+import { toast } from 'sonner';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
 import {
   Search,
   Plus,
@@ -95,7 +106,6 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-
 function LocationsPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -127,6 +137,8 @@ function LocationsPageContent() {
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [locationToDelete, setLocationToDelete] = useState<string | null>(null);
 
   const fetchLocations = async (page = 1, search = '') => {
     try {
@@ -248,21 +260,31 @@ function LocationsPageContent() {
   };
 
   const handleDeleteLocation = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this location?')) return;
+    setLocationToDelete(id);
+    setDeleteDialogOpen(true);
+  };
+
+  const confirmDeleteLocation = async () => {
+    if (!locationToDelete) return;
 
     try {
-      const response = await fetch(`/api/locations/${id}`, {
+      const response = await fetch(`/api/locations/${locationToDelete}`, {
         method: 'DELETE',
       });
 
       if (!response.ok) throw new Error('Failed to delete location');
 
+      toast.success('Location deleted successfully!');
       fetchLocations(pagination.page, searchTerm);
-      if (selectedLocation?.id === id) {
+      if (selectedLocation?.id === locationToDelete) {
         setSelectedLocation(null);
       }
     } catch (error) {
       console.error('Error deleting location:', error);
+      toast.error('Failed to delete location. Please try again.');
+    } finally {
+      setDeleteDialogOpen(false);
+      setLocationToDelete(null);
     }
   };
 
@@ -1137,23 +1159,39 @@ function LocationsPageContent() {
             </div>
           </DialogContent>
         </Dialog>
+
+        {/* Delete Confirmation Dialog */}
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Delete Location</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to delete this location? This action
+                cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={confirmDeleteLocation}>
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </DashboardLayout>
   );
 }
 
-
 export default function LocationsPage() {
   return (
     // <ProtectedRoute>
-      <DashboardLayout>
-        <div className='p-6'>
-          <h1 className='text-2xl font-bold'>Locations</h1>
-          <p className='text-muted-foreground'>
-            Specific locations within sites
-          </p>
-        </div>
-      </DashboardLayout>
+    <DashboardLayout>
+      <div className='p-6'>
+        <h1 className='text-2xl font-bold'>Locations</h1>
+        <p className='text-muted-foreground'>Specific locations within sites</p>
+      </div>
+    </DashboardLayout>
     // </ProtectedRoute>
   );
 }

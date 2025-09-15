@@ -38,6 +38,17 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import DashboardLayout from '@/components/DashboardLayout';
+import { toast } from 'sonner';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
 import {
   Search,
   Plus,
@@ -92,7 +103,6 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-
 function SitesPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -121,6 +131,8 @@ function SitesPageContent() {
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [siteToDelete, setSiteToDelete] = useState<string | null>(null);
 
   const fetchSites = async (page = 1, search = '') => {
     try {
@@ -233,21 +245,31 @@ function SitesPageContent() {
   };
 
   const handleDeleteSite = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this site?')) return;
+    setSiteToDelete(id);
+    setDeleteDialogOpen(true);
+  };
+
+  const confirmDeleteSite = async () => {
+    if (!siteToDelete) return;
 
     try {
-      const response = await fetch(`/api/sites/${id}`, {
+      const response = await fetch(`/api/sites/${siteToDelete}`, {
         method: 'DELETE',
       });
 
       if (!response.ok) throw new Error('Failed to delete site');
 
+      toast.success('Site deleted successfully!');
       fetchSites(pagination.page, searchTerm);
-      if (selectedSite?.id === id) {
+      if (selectedSite?.id === siteToDelete) {
         setSelectedSite(null);
       }
     } catch (error) {
       console.error('Error deleting site:', error);
+      toast.error('Failed to delete site. Please try again.');
+    } finally {
+      setDeleteDialogOpen(false);
+      setSiteToDelete(null);
     }
   };
 
@@ -1170,21 +1192,39 @@ function SitesPageContent() {
             </div>
           </DialogContent>
         </Dialog>
+
+        {/* Delete Confirmation Dialog */}
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Delete Site</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to delete this site? This action cannot be
+                undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={confirmDeleteSite}>
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </DashboardLayout>
   );
 }
 
-
 export default function SitesPage() {
   return (
     // <ProtectedRoute>
-      <DashboardLayout>
-        <div className='p-6'>
-          <h1 className='text-2xl font-bold'>Sites</h1>
-          <p className='text-muted-foreground'>Site locations and workplaces</p>
-        </div>
-      </DashboardLayout>
+    <DashboardLayout>
+      <div className='p-6'>
+        <h1 className='text-2xl font-bold'>Sites</h1>
+        <p className='text-muted-foreground'>Site locations and workplaces</p>
+      </div>
+    </DashboardLayout>
     // </ProtectedRoute>
   );
 }

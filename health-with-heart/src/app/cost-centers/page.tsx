@@ -39,6 +39,17 @@ import {
 } from '@/components/ui/table';
 import DashboardLayout from '@/components/DashboardLayout';
 import ProtectedRoute from '@/components/ProtectedRoute';
+import { toast } from 'sonner';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
 import {
   Search,
   Plus,
@@ -101,7 +112,6 @@ interface PaginationInfo {
   hasPreviousPage: boolean;
 }
 
-
 function CostCentersPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -131,6 +141,10 @@ function CostCentersPageContent() {
   const [submitting, setSubmitting] = useState(false);
   const [leftPanelWidth, setLeftPanelWidth] = useState(60);
   const [isResizing, setIsResizing] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
+  const [costCenterToDelete, setCostCenterToDelete] = useState<string | null>(
+    null
+  );
 
   const fetchCostCenters = async (page = 1, search = '') => {
     try {
@@ -246,21 +260,31 @@ function CostCentersPageContent() {
   };
 
   const handleDeleteCostCenter = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this cost center?')) return;
+    setCostCenterToDelete(id);
+    setDeleteDialogOpen(true);
+  };
+
+  const confirmDeleteCostCenter = async () => {
+    if (!costCenterToDelete) return;
 
     try {
-      const response = await fetch(`/api/cost-centers/${id}`, {
+      const response = await fetch(`/api/cost-centers/${costCenterToDelete}`, {
         method: 'DELETE',
       });
 
       if (!response.ok) throw new Error('Failed to delete cost center');
 
+      toast.success('Cost center deleted successfully!');
       fetchCostCenters(pagination.page, searchTerm);
-      if (selectedCostCenter?.id === id) {
+      if (selectedCostCenter?.id === costCenterToDelete) {
         setSelectedCostCenter(null);
       }
     } catch (error) {
       console.error('Error deleting cost center:', error);
+      toast.error('Failed to delete cost center. Please try again.');
+    } finally {
+      setDeleteDialogOpen(false);
+      setCostCenterToDelete(null);
     }
   };
 
@@ -1514,6 +1538,25 @@ function CostCentersPageContent() {
             </div>
           </DialogContent>
         </Dialog>
+
+        {/* Delete Confirmation Dialog */}
+        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Delete Cost Center</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to delete this cost center? This action
+                cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={confirmDeleteCostCenter}>
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </DashboardLayout>
   );
@@ -1522,14 +1565,14 @@ function CostCentersPageContent() {
 export default function CostCentersPage() {
   return (
     // <ProtectedRoute>
-      <DashboardLayout>
-        <div className='p-6'>
-          <h1 className='text-2xl font-bold'>Cost Centers</h1>
-          <p className='text-muted-foreground'>
-            Manage departmental cost centers
-          </p>
-        </div>
-      </DashboardLayout>
+    <DashboardLayout>
+      <div className='p-6'>
+        <h1 className='text-2xl font-bold'>Cost Centers</h1>
+        <p className='text-muted-foreground'>
+          Manage departmental cost centers
+        </p>
+      </div>
+    </DashboardLayout>
     // </ProtectedRoute>
   );
 }
