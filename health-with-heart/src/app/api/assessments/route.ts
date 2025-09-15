@@ -94,26 +94,16 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { employee_id, user_created, ...assessmentData } = body;
+    const { employee_id, user_created } = body;
 
-    // Get all column names from the request (excluding id, date_created, date_updated)
-    const columns = Object.keys(assessmentData).join(', ');
-    const placeholders = Object.keys(assessmentData)
-      .map((_, index) => `$${index + 3}`)
-      .join(', ');
-    const values = Object.values(assessmentData);
-
+    // Only include fields that definitely exist in the database table
     const insertQuery = `
-      INSERT INTO assesment (employee_id, user_created, ${columns})
-      VALUES ($1, $2, ${placeholders})
+      INSERT INTO assesment (employee_id, user_created)
+      VALUES ($1, $2)
       RETURNING *
     `;
 
-    const result = await query(insertQuery, [
-      employee_id,
-      user_created,
-      ...values,
-    ]);
+    const result = await query(insertQuery, [employee_id, user_created]);
 
     return NextResponse.json(result.rows[0]);
   } catch (error) {

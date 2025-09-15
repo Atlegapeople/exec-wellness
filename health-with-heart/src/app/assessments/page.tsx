@@ -257,14 +257,27 @@ function AssessmentsPageContent() {
 
       if (!response.ok) throw new Error('Failed to delete assessment record');
 
-      fetchAssessments(pagination.page, searchTerm);
       setIsDeleteModalOpen(false);
       setEditingAssessment(null);
+      if (selectedAssessment?.id === editingAssessment?.id) {
+        setSelectedAssessment(null);
+        setSelectedAssessmentId(null);
+      }
+      await fetchAssessments(pagination.page, searchTerm);
     } catch (error) {
       console.error('Error deleting assessment record:', error);
     } finally {
       setFormLoading(false);
     }
+  };
+
+  const openDeleteModal = (assessment: AssessmentRecord) => {
+    setEditingAssessment(assessment);
+    setIsDeleteModalOpen(true);
+  };
+
+  const closeDeleteModal = () => {
+    setIsDeleteModalOpen(false);
   };
 
   const openEditDialog = (assessment: AssessmentRecord) => {
@@ -544,7 +557,7 @@ function AssessmentsPageContent() {
                             <SelectTrigger>
                               <SelectValue placeholder='Select employee' />
                             </SelectTrigger>
-                            <SelectContent>
+                            <SelectContent className='max-h-[200px] overflow-y-auto'>
                               {employees.map(employee => (
                                 <SelectItem
                                   key={employee.id}
@@ -734,10 +747,9 @@ function AssessmentsPageContent() {
                                   size='sm'
                                   onClick={e => {
                                     e.stopPropagation();
-                                    setEditingAssessment(assessment);
-                                    setIsDeleteModalOpen(true);
+                                    openDeleteModal(assessment);
                                   }}
-                                  className='text-destructive hover:text-destructive hover:bg-destructive/10'
+                                  className='hover-lift text-destructive hover:text-destructive'
                                 >
                                   <Trash2 className='h-4 w-4' />
                                 </Button>
@@ -935,8 +947,8 @@ function AssessmentsPageContent() {
                         <Button
                           variant='ghost'
                           size='sm'
-                          onClick={() => handleDeleteAssessment()}
-                          className='text-destructive hover:text-destructive hover:bg-destructive/10'
+                          onClick={() => openDeleteModal(selectedAssessment)}
+                          className='hover-lift text-destructive hover:text-destructive'
                         >
                           <Trash2 className='h-4 w-4' />
                         </Button>
@@ -1118,6 +1130,20 @@ function AssessmentsPageContent() {
                   </SelectContent>
                 </Select>
               </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='edit_report_id'>Report ID</Label>
+                <Input
+                  id='edit_report_id'
+                  value={formData.report_id || ''}
+                  disabled
+                  className='bg-muted text-muted-foreground'
+                  placeholder='Report ID'
+                />
+                <p className='text-xs text-muted-foreground'>
+                  This field is automatically generated and cannot be modified
+                </p>
+              </div>
             </div>
 
             <div className='flex justify-end gap-2'>
@@ -1143,7 +1169,13 @@ function AssessmentsPageContent() {
         </Dialog>
 
         {/* Delete Confirmation Modal */}
-        <Dialog open={isDeleteModalOpen} onOpenChange={setIsDeleteModalOpen}>
+        <Dialog
+          open={isDeleteModalOpen}
+          onOpenChange={open => {
+            if (!open) closeDeleteModal();
+            else setIsDeleteModalOpen(true);
+          }}
+        >
           <DialogContent>
             <DialogHeader>
               <DialogTitle className='flex items-center gap-2'>
@@ -1161,10 +1193,7 @@ function AssessmentsPageContent() {
               </DialogDescription>
             </DialogHeader>
             <DialogFooter>
-              <Button
-                variant='outline'
-                onClick={() => setIsDeleteModalOpen(false)}
-              >
+              <Button variant='outline' onClick={closeDeleteModal}>
                 Cancel
               </Button>
               <Button

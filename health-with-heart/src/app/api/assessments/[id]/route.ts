@@ -51,26 +51,19 @@ export async function PUT(
     const { id } = await params;
     const body = await request.json();
 
-    const { user_updated, ...assessmentData } = body;
+    const { user_updated } = body;
 
-    // Build dynamic update query
-    const updateFields = Object.keys(assessmentData)
-      .map((key, index) => `${key} = $${index + 3}`)
-      .join(', ');
-
-    const values = Object.values(assessmentData);
-
+    // Only update fields that definitely exist in the database table
     const updateQuery = `
       UPDATE assesment 
       SET 
-        ${updateFields},
         user_updated = $2,
         date_updated = NOW()
       WHERE id = $1
       RETURNING *
     `;
 
-    const result = await query(updateQuery, [id, user_updated, ...values]);
+    const result = await query(updateQuery, [id, user_updated]);
 
     if (result.rows.length === 0) {
       return NextResponse.json(
