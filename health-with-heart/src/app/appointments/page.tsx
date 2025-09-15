@@ -224,7 +224,7 @@ function AppointmentsPageContent() {
   };
 
   const openCreateModal = () => {
-    setFormData({});
+    setFormData({ type: 'Executive Medical' });
     setIsCreateModalOpen(true);
   };
 
@@ -1451,7 +1451,7 @@ function AppointmentsPageContent() {
                   <SelectTrigger>
                     <SelectValue placeholder='Select employee' />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className='max-h-[200px] overflow-auto scrollbar-premium'>
                     {employees.map(employee => (
                       <SelectItem key={employee.id} value={employee.id}>
                         {employee.name} {employee.surname}
@@ -1463,34 +1463,13 @@ function AppointmentsPageContent() {
 
               <div className='space-y-2'>
                 <Label htmlFor='type'>Appointment Type</Label>
-                <Select
-                  value={formData.type || ''}
-                  onValueChange={value =>
-                    setFormData({ ...formData, type: value })
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder='Select appointment type' />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value='General Checkup'>
-                      General Checkup
-                    </SelectItem>
-                    <SelectItem value='Follow-up'>Follow-up</SelectItem>
-                    <SelectItem value='Specialist Consultation'>
-                      Specialist Consultation
-                    </SelectItem>
-                    <SelectItem value='Emergency'>Emergency</SelectItem>
-                    <SelectItem value='Pre-employment'>
-                      Pre-employment
-                    </SelectItem>
-                    <SelectItem value='Annual Physical'>
-                      Annual Physical
-                    </SelectItem>
-                    <SelectItem value='Vaccination'>Vaccination</SelectItem>
-                    <SelectItem value='Other'>Other</SelectItem>
-                  </SelectContent>
-                </Select>
+                <Input
+                  id='type'
+                  value='Executive Medical'
+                  readOnly
+                  className='bg-muted cursor-not-allowed'
+                  placeholder='Executive Medical'
+                />
               </div>
 
               <div className='space-y-2'>
@@ -1596,18 +1575,6 @@ function AppointmentsPageContent() {
                       end_datetime: new Date(e.target.value),
                     })
                   }
-                />
-              </div>
-
-              <div className='space-y-2'>
-                <Label htmlFor='report_id'>Report ID (Optional)</Label>
-                <Input
-                  id='report_id'
-                  value={formData.report_id || ''}
-                  onChange={e =>
-                    setFormData({ ...formData, report_id: e.target.value })
-                  }
-                  placeholder='Link to medical report'
                 />
               </div>
 
