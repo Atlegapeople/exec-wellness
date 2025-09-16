@@ -12,7 +12,7 @@ export default function WorkplaceHealthTable({ data }: WorkplaceHealthTableProps
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm border">
+    <div className="bg-background p-6 rounded-lg shadow-sm border">
       <div className="flex items-center gap-2 mb-4">
         <Building2 className="h-5 w-5" style={{color: 'var(--teal-700)'}} />
         <h3 className="text-lg font-semibold">Workplace Health Summary</h3>

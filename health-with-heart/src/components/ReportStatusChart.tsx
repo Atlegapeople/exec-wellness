@@ -10,7 +10,7 @@ export default function ReportStatusChart({ data }: ReportStatusChartProps) {
   const totalPending = data.reduce((sum, item) => sum + item.pending_signature, 0);
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm border">
+    <div className="bg-background p-6 rounded-lg shadow-sm border">
       <h3 className="text-lg font-semibold mb-4">Report Status Overview</h3>
       
       {/* Summary Stats */}
