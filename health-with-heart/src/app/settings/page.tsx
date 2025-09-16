@@ -36,8 +36,10 @@ import {
   Clock,
   Save,
   RefreshCw,
+  ArrowLeft,
 } from 'lucide-react';
 import { PageLoading } from '@/components/ui/loading';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 
 interface SystemSettings {
   organization_name: string;
@@ -53,6 +55,7 @@ interface SystemSettings {
 }
 
 function SettingsPageContent() {
+  const goBack = useBreadcrumbBack();
   const [settings, setSettings] = useState<SystemSettings>({
     organization_name: '',
     timezone: '',
@@ -175,6 +178,14 @@ function SettingsPageContent() {
     // <ProtectedRoute>
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+        {/* Back Button */}
+        <div className='mb-4'>
+          <Button variant='outline' onClick={goBack} className='hover-lift'>
+            <ArrowLeft className='h-4 w-4 mr-2' />
+            Back
+          </Button>
+        </div>
+
         {/* Header */}
         <div className='flex items-center justify-between mb-6'>
           <div>
@@ -563,4 +574,3 @@ export default function SettingsPage() {
     </Suspense>
   );
 }
-

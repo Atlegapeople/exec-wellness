@@ -39,6 +39,7 @@ interface Notification {
 }
 
 function NotificationsPageContent() {
+  const goBack = useBreadcrumbBack();
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [loading, setLoading] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -146,18 +147,18 @@ function NotificationsPageContent() {
   if (!mounted) {
     return (
       // <ProtectedRoute>
-        <DashboardLayout>
-          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
-            <Card>
-              <CardContent>
-                <PageLoading
-                  text='Loading Notifications'
-                  subtitle='Fetching system notifications and alerts...'
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </DashboardLayout>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Notifications'
+                subtitle='Fetching system notifications and alerts...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      </DashboardLayout>
       // </ProtectedRoute>
     );
   }
@@ -166,18 +167,18 @@ function NotificationsPageContent() {
   if (loading) {
     return (
       // <ProtectedRoute>
-        <DashboardLayout>
-          <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
-            <Card>
-              <CardContent>
-                <PageLoading
-                  text='Loading Notifications'
-                  subtitle='Fetching system notifications and alerts...'
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </DashboardLayout>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Notifications'
+                subtitle='Fetching system notifications and alerts...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      </DashboardLayout>
       // </ProtectedRoute>
     );
   }
@@ -186,194 +187,200 @@ function NotificationsPageContent() {
 
   return (
     // <ProtectedRoute>
-      <DashboardLayout>
-        <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
-          {/* Header */}
-          <div className='flex items-center justify-between mb-6'>
-            <div>
-              <h1 className='text-3xl font-bold tracking-tight flex items-center gap-2'>
-                <Bell className='h-8 w-8' />
-                Notifications
-              </h1>
-              <p className='text-muted-foreground'>
-                System alerts and notifications
-              </p>
-            </div>
+    <DashboardLayout>
+      <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+        {/* Back Button */}
+        <div className='mb-4'>
+          <Button variant='outline' onClick={goBack} className='hover-lift'>
+            <ArrowLeft className='h-4 w-4 mr-2' />
+            Back
+          </Button>
+        </div>
 
-            <div className='flex items-center gap-2'>
-              <Badge
-                variant='outline'
-                className='bg-blue-50 text-blue-700 border-blue-200'
-              >
-                <Shield className='h-3 w-3 mr-1' />
-                Admin Only
-              </Badge>
-              <Button variant='outline' className='hover-lift'>
-                <Settings className='h-4 w-4 mr-2' />
-                Settings
-              </Button>
-              <Button variant='outline' className='hover-lift'>
-                <Filter className='h-4 w-4 mr-2' />
-                Filter
-              </Button>
-            </div>
+        {/* Header */}
+        <div className='flex items-center justify-between mb-6'>
+          <div>
+            <h1 className='text-3xl font-bold tracking-tight flex items-center gap-2'>
+              <Bell className='h-8 w-8' />
+              Notifications
+            </h1>
+            <p className='text-muted-foreground'>
+              System alerts and notifications
+            </p>
           </div>
 
-          {/* Stats Cards */}
-          <div className='grid gap-4 md:grid-cols-3 mb-6'>
-            <Card>
-              <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                <CardTitle className='text-sm font-medium'>
-                  Total Notifications
-                </CardTitle>
-                <Bell className='h-4 w-4 text-muted-foreground' />
-              </CardHeader>
-              <CardContent>
-                <div className='text-2xl font-bold'>{notifications.length}</div>
-                <p className='text-xs text-muted-foreground'>
-                  System notifications
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                <CardTitle className='text-sm font-medium'>Unread</CardTitle>
-                <AlertTriangle className='h-4 w-4 text-muted-foreground' />
-              </CardHeader>
-              <CardContent>
-                <div className='text-2xl font-bold'>{unreadCount}</div>
-                <p className='text-xs text-muted-foreground'>
-                  Require attention
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                <CardTitle className='text-sm font-medium'>
-                  High Priority
-                </CardTitle>
-                <Clock className='h-4 w-4 text-muted-foreground' />
-              </CardHeader>
-              <CardContent>
-                <div className='text-2xl font-bold'>
-                  {notifications.filter(n => n.priority === 'high').length}
-                </div>
-                <p className='text-xs text-muted-foreground'>
-                  Urgent notifications
-                </p>
-              </CardContent>
-            </Card>
+          <div className='flex items-center gap-2'>
+            <Badge
+              variant='outline'
+              className='bg-blue-50 text-blue-700 border-blue-200'
+            >
+              <Shield className='h-3 w-3 mr-1' />
+              Admin Only
+            </Badge>
+            <Button variant='outline' className='hover-lift'>
+              <Settings className='h-4 w-4 mr-2' />
+              Settings
+            </Button>
+            <Button variant='outline' className='hover-lift'>
+              <Filter className='h-4 w-4 mr-2' />
+              Filter
+            </Button>
           </div>
+        </div>
 
-          {/* Notifications List */}
-          <Card className='hover-lift'>
-            <CardHeader>
-              <CardTitle className='flex items-center gap-2 text-2xl'>
-                <Bell className='h-6 w-6' />
-                Recent Notifications
+        {/* Stats Cards */}
+        <div className='grid gap-4 md:grid-cols-3 mb-6'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Total Notifications
               </CardTitle>
-              <CardDescription>
-                System alerts and administrative notifications
-              </CardDescription>
+              <Bell className='h-4 w-4 text-muted-foreground' />
             </CardHeader>
             <CardContent>
-              {notifications.length === 0 ? (
-                <div className='text-center py-12'>
-                  <Bell className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
-                  <h3 className='text-lg font-medium text-foreground mb-2'>
-                    No notifications
-                  </h3>
-                  <p className='text-muted-foreground'>
-                    All caught up! No new notifications to display.
-                  </p>
-                </div>
-              ) : (
-                <div className='space-y-4'>
-                  {notifications.map(notification => (
-                    <div
-                      key={notification.id}
-                      className={`p-4 border rounded-lg transition-colors hover:bg-muted/50 ${
-                        !notification.read
-                          ? 'bg-blue-50/50 border-blue-200'
-                          : 'bg-background'
-                      }`}
-                    >
-                      <div className='flex items-start justify-between gap-4'>
-                        <div className='flex items-start gap-3 flex-1'>
-                          {getNotificationIcon(notification.type)}
-                          <div className='flex-1'>
-                            <div className='flex items-center gap-2 mb-1'>
-                              <h4 className='font-medium'>
-                                {notification.title}
-                              </h4>
-                              {getPriorityBadge(notification.priority)}
-                              {!notification.read && (
-                                <Badge variant='outline' className='text-xs'>
-                                  New
-                                </Badge>
-                              )}
-                            </div>
-                            <p className='text-sm text-muted-foreground mb-2'>
-                              {notification.message}
-                            </p>
-                            <p className='text-xs text-muted-foreground'>
-                              {formatDate(notification.timestamp)}
-                            </p>
-                          </div>
-                        </div>
-                        <div className='flex items-center gap-2'>
-                          {!notification.read && (
-                            <Button
-                              variant='ghost'
-                              size='sm'
-                              onClick={() => {
-                                console.log('Mark as read:', notification.id);
-                              }}
-                            >
-                              <Check className='h-4 w-4' />
-                            </Button>
-                          )}
-                          <Button
-                            variant='ghost'
-                            size='sm'
-                            onClick={() => {
-                              console.log(
-                                'Delete notification:',
-                                notification.id
-                              );
-                            }}
-                          >
-                            <Trash2 className='h-4 w-4' />
-                          </Button>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+              <div className='text-2xl font-bold'>{notifications.length}</div>
+              <p className='text-xs text-muted-foreground'>
+                System notifications
+              </p>
             </CardContent>
           </Card>
 
-          {/* Admin Notice */}
-          <Card className='mt-6 border-amber-200 bg-amber-50'>
-            <CardContent className='p-6'>
-              <div className='flex items-center gap-2 mb-2'>
-                <Shield className='h-5 w-5 text-amber-600' />
-                <h3 className='font-semibold text-amber-800'>
-                  Administrator Access Required
-                </h3>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>Unread</CardTitle>
+              <AlertTriangle className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>{unreadCount}</div>
+              <p className='text-xs text-muted-foreground'>Require attention</p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                High Priority
+              </CardTitle>
+              <Clock className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {notifications.filter(n => n.priority === 'high').length}
               </div>
-              <p className='text-amber-700 text-sm'>
-                This page will be restricted to administrators only in future
-                releases. Full notification management features will be
-                available to admin users.
+              <p className='text-xs text-muted-foreground'>
+                Urgent notifications
               </p>
             </CardContent>
           </Card>
         </div>
-      </DashboardLayout>
+
+        {/* Notifications List */}
+        <Card className='hover-lift'>
+          <CardHeader>
+            <CardTitle className='flex items-center gap-2 text-2xl'>
+              <Bell className='h-6 w-6' />
+              Recent Notifications
+            </CardTitle>
+            <CardDescription>
+              System alerts and administrative notifications
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            {notifications.length === 0 ? (
+              <div className='text-center py-12'>
+                <Bell className='h-12 w-12 text-muted-foreground mx-auto mb-4' />
+                <h3 className='text-lg font-medium text-foreground mb-2'>
+                  No notifications
+                </h3>
+                <p className='text-muted-foreground'>
+                  All caught up! No new notifications to display.
+                </p>
+              </div>
+            ) : (
+              <div className='space-y-4'>
+                {notifications.map(notification => (
+                  <div
+                    key={notification.id}
+                    className={`p-4 border rounded-lg transition-colors hover:bg-muted/50 ${
+                      !notification.read
+                        ? 'bg-blue-50/50 border-blue-200'
+                        : 'bg-background'
+                    }`}
+                  >
+                    <div className='flex items-start justify-between gap-4'>
+                      <div className='flex items-start gap-3 flex-1'>
+                        {getNotificationIcon(notification.type)}
+                        <div className='flex-1'>
+                          <div className='flex items-center gap-2 mb-1'>
+                            <h4 className='font-medium'>
+                              {notification.title}
+                            </h4>
+                            {getPriorityBadge(notification.priority)}
+                            {!notification.read && (
+                              <Badge variant='outline' className='text-xs'>
+                                New
+                              </Badge>
+                            )}
+                          </div>
+                          <p className='text-sm text-muted-foreground mb-2'>
+                            {notification.message}
+                          </p>
+                          <p className='text-xs text-muted-foreground'>
+                            {formatDate(notification.timestamp)}
+                          </p>
+                        </div>
+                      </div>
+                      <div className='flex items-center gap-2'>
+                        {!notification.read && (
+                          <Button
+                            variant='ghost'
+                            size='sm'
+                            onClick={() => {
+                              console.log('Mark as read:', notification.id);
+                            }}
+                          >
+                            <Check className='h-4 w-4' />
+                          </Button>
+                        )}
+                        <Button
+                          variant='ghost'
+                          size='sm'
+                          onClick={() => {
+                            console.log(
+                              'Delete notification:',
+                              notification.id
+                            );
+                          }}
+                        >
+                          <Trash2 className='h-4 w-4' />
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Admin Notice */}
+        <Card className='mt-6 border-amber-200 bg-amber-50'>
+          <CardContent className='p-6'>
+            <div className='flex items-center gap-2 mb-2'>
+              <Shield className='h-5 w-5 text-amber-600' />
+              <h3 className='font-semibold text-amber-800'>
+                Administrator Access Required
+              </h3>
+            </div>
+            <p className='text-amber-700 text-sm'>
+              This page will be restricted to administrators only in future
+              releases. Full notification management features will be available
+              to admin users.
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </DashboardLayout>
     // </ProtectedRoute>
   );
 }
