@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -106,6 +107,7 @@ interface PaginationInfo {
 function SitesPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const handleBreadcrumbBack = useBreadcrumbBack('/dashboard');
 
   // Get filter parameters from URL
   const organizationFilter = searchParams.get('organization');
@@ -355,300 +357,287 @@ function SitesPageContent() {
 
   if (loading && sites.length === 0) {
     return (
-      <div className='min-h-screen bg-background flex items-center justify-center'>
-        <Card className='w-96'>
-          <CardContent className='flex items-center justify-center py-12'>
-            <div className='text-center space-y-4'>
-              <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto'></div>
-              <p className='text-muted-foreground'>Loading sites...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      // <ProtectedRoute>
+      <DashboardLayout>
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Sites'
+                subtitle='Fetching Sites data from OHMS database...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      </DashboardLayout>
+      // </ProtectedRoute>
     );
   }
 
   return (
     <DashboardLayout>
       <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-6'>
-        {/* Back Button and Filter Info */}
-        {(returnUrl || organizationFilter) && (
-          <div className='mb-6'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(decodeURIComponent(returnUrl))}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
-                  Back to{' '}
-                  {returnUrl === '/organizations'
-                    ? 'Organizations'
-                    : 'Previous Page'}
-                </Button>
-              )}
-
-              {organizationFilter && organizationName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <Building2 className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(organizationName)}
-                  </Badge>
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('organization');
-                      params.delete('organizationName');
-                      router.push(`/sites?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
-                  >
-                    <X className='h-3 w-3' />
-                  </Button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
+        {/* Back Button */}
+        <div className='mb-6 flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={handleBreadcrumbBack}
+            className='flex items-center space-x-2 hover-lift'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
 
         {/* Header */}
-        <div className='flex items-center justify-between mb-6'>
+        <div className='mb-6'>
           <div>
             <h1 className='text-3xl font-bold tracking-tight'>Sites</h1>
             <p className='text-muted-foreground'>
               Manage organizational sites and their information
             </p>
           </div>
+        </div>
+        {/* Stats Cards */}
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>Total Sites</CardTitle>
+              <MapPin className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>{pagination.total}</div>
+              <p className='text-xs text-muted-foreground'>Registered sites</p>
+            </CardContent>
+          </Card>
 
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
-            <DialogTrigger asChild>
-              <Button className='hover-lift'>
-                <Plus className='h-4 w-4 mr-2' />
-                Add Site
-              </Button>
-            </DialogTrigger>
-            <DialogContent className='max-w-2xl'>
-              <DialogHeader>
-                <DialogTitle>Create New Site</DialogTitle>
-                <DialogDescription>
-                  Add a new site to the system
-                </DialogDescription>
-              </DialogHeader>
-
-              <div className='grid grid-cols-1 gap-4 py-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='name'>Site Name</Label>
-                  <Input
-                    id='name'
-                    value={formData.name || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, name: e.target.value })
-                    }
-                    placeholder='Enter site name'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='organisation_id'>Organization</Label>
-                  <Select
-                    value={formData.organisation_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, organisation_id: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select organization' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='none'>No Organization</SelectItem>
-                      {organizations.map(org => (
-                        <SelectItem key={org.id} value={org.id}>
-                          {org.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='address'>Address</Label>
-                  <Textarea
-                    id='address'
-                    value={formData.address || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, address: e.target.value })
-                    }
-                    placeholder='Enter site address'
-                    rows={3}
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='site_admin_email'>Site Admin Email</Label>
-                  <Input
-                    id='site_admin_email'
-                    type='email'
-                    value={formData.site_admin_email || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        site_admin_email: e.target.value,
-                      })
-                    }
-                    placeholder='Enter admin email address'
-                  />
-                </div>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                With Organizations
+              </CardTitle>
+              <Building2 className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {sites.filter(s => s.organisation_id).length}
               </div>
+              <p className='text-xs text-muted-foreground'>
+                Assigned to organizations
+              </p>
+            </CardContent>
+          </Card>
 
-              <div className='flex justify-end gap-2'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                With Admin Contact
+              </CardTitle>
+              <Mail className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {sites.filter(s => s.site_admin_email).length}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                Have admin contact
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                With Address
+              </CardTitle>
+              <MapPin className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {sites.filter(s => s.address).length}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                Have physical address
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Search */}
+        <Card className='glass-effect mb-6 mt-6'>
+          <CardContent className='p-4'>
+            <div className='flex gap-4'>
+              <div className='flex-1 relative'>
+                <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                <Input
+                  type='text'
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder='Search by name, address, or admin email...'
+                  className='pl-9'
+                  onKeyPress={e => e.key === 'Enter' && handleSearch()}
+                />
+              </div>
+              <Button onClick={handleSearch} className='hover-lift'>
+                Search
+              </Button>
+              {searchTerm && (
                 <Button
                   variant='outline'
                   onClick={() => {
-                    setIsCreateDialogOpen(false);
-                    setFormData({});
+                    setSearchTerm('');
+                    fetchSites(1, '');
                   }}
+                  className='hover-lift'
                 >
-                  Cancel
+                  Clear
                 </Button>
-                <Button onClick={handleCreateSite} disabled={submitting}>
-                  {submitting && (
-                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
-                  )}
-                  Create Site
-                </Button>
-              </div>
-            </DialogContent>
-          </Dialog>
-        </div>
+              )}
+            </div>
+          </CardContent>
+        </Card>
 
-        <div className='sites-container flex gap-1 min-h-[600px]'>
+        <div className='sites-container flex gap-1 min-h-[650px]'>
           {/* Left Panel - Sites Table */}
           <div
             className='space-y-4'
             style={{ width: selectedSite ? `${leftPanelWidth}%` : '100%' }}
           >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Total Sites
-                  </CardTitle>
-                  <MapPin className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>{pagination.total}</div>
-                  <p className='text-xs text-muted-foreground'>
-                    Registered sites
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    With Organizations
-                  </CardTitle>
-                  <Building2 className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {sites.filter(s => s.organisation_id).length}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Assigned to organizations
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    With Admin Contact
-                  </CardTitle>
-                  <Mail className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {sites.filter(s => s.site_admin_email).length}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Have admin contact
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    With Address
-                  </CardTitle>
-                  <MapPin className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {sites.filter(s => s.address).length}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Have physical address
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex gap-4'>
-                  <div className='flex-1 relative'>
-                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                    <Input
-                      type='text'
-                      value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      placeholder='Search by name, address, or admin email...'
-                      className='pl-9'
-                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
-                    />
-                  </div>
-                  <Button onClick={handleSearch} className='hover-lift'>
-                    Search
-                  </Button>
-                  {searchTerm && (
-                    <Button
-                      variant='outline'
-                      onClick={() => {
-                        setSearchTerm('');
-                        fetchSites(1, '');
-                      }}
-                      className='hover-lift'
-                    >
-                      Clear
-                    </Button>
-                  )}
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Sites Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl'>
-                  <MapPin className='h-6 w-6' />
-                  Sites ({pagination.total})
-                </CardTitle>
-                <CardDescription>Site records and information</CardDescription>
+                <div className='flex items-center justify-between'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl'>
+                      <MapPin className='h-6 w-6' />
+                      Sites ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Site records and information
+                    </CardDescription>
+                  </div>
+                  <Dialog
+                    open={isCreateDialogOpen}
+                    onOpenChange={setIsCreateDialogOpen}
+                  >
+                    <DialogTrigger asChild>
+                      <Button
+                        className={`hover-lift ${selectedSite ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                        size={selectedSite ? 'icon' : 'default'}
+                      >
+                        <Plus
+                          className={`h-4 w-4 ${selectedSite ? '' : 'mr-2'}`}
+                        />
+                        {!selectedSite && 'Add Site'}
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className='max-w-2xl'>
+                      <DialogHeader>
+                        <DialogTitle>Create New Site</DialogTitle>
+                        <DialogDescription>
+                          Add a new site to the system
+                        </DialogDescription>
+                      </DialogHeader>
+
+                      <div className='grid grid-cols-1 gap-4 py-4'>
+                        <div className='space-y-2'>
+                          <Label htmlFor='name'>Site Name</Label>
+                          <Input
+                            id='name'
+                            value={formData.name || ''}
+                            onChange={e =>
+                              setFormData({ ...formData, name: e.target.value })
+                            }
+                            placeholder='Enter site name'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='organisation_id'>Organization</Label>
+                          <Select
+                            value={formData.organisation_id || ''}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                organisation_id: value,
+                              })
+                            }
+                          >
+                            <SelectTrigger>
+                              <SelectValue placeholder='Select organization' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='none'>
+                                No Organization
+                              </SelectItem>
+                              {organizations.map(org => (
+                                <SelectItem key={org.id} value={org.id}>
+                                  {org.name}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='address'>Address</Label>
+                          <Textarea
+                            id='address'
+                            value={formData.address || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                address: e.target.value,
+                              })
+                            }
+                            placeholder='Enter site address'
+                            rows={3}
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='site_admin_email'>
+                            Site Admin Email
+                          </Label>
+                          <Input
+                            id='site_admin_email'
+                            type='email'
+                            value={formData.site_admin_email || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                site_admin_email: e.target.value,
+                              })
+                            }
+                            placeholder='Enter admin email address'
+                          />
+                        </div>
+                      </div>
+
+                      <div className='flex justify-end gap-2'>
+                        <Button
+                          variant='outline'
+                          onClick={() => {
+                            setIsCreateDialogOpen(false);
+                            setFormData({});
+                          }}
+                        >
+                          Cancel
+                        </Button>
+                        <Button
+                          onClick={handleCreateSite}
+                          disabled={submitting}
+                        >
+                          {submitting && (
+                            <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                          )}
+                          Create Site
+                        </Button>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </div>
               </CardHeader>
               <CardContent>
                 {sites.length === 0 ? (
@@ -664,7 +653,7 @@ function SitesPageContent() {
                     </p>
                   </div>
                 ) : (
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[560px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -757,6 +746,7 @@ function SitesPageContent() {
                                     e.stopPropagation();
                                     handleDeleteSite(site.id);
                                   }}
+                                  className='text-red-500 hover:text-red-700 hover:bg-red-50'
                                 >
                                   <Trash2 className='h-4 w-4' />
                                 </Button>
@@ -1216,15 +1206,23 @@ function SitesPageContent() {
   );
 }
 
-export default function SitesPage() {
+export default function SitePage() {
   return (
-    // <ProtectedRoute>
-    <DashboardLayout>
-      <div className='p-6'>
-        <h1 className='text-2xl font-bold'>Sites</h1>
-        <p className='text-muted-foreground'>Site locations and workplaces</p>
-      </div>
-    </DashboardLayout>
-    // </ProtectedRoute>
+    <Suspense
+      fallback={
+        <div className='min-h-screen bg-background flex items-center justify-center'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Initializing Sites'
+                subtitle='Setting up Locations and Workplaces...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      }
+    >
+      <SitesPageContent />
+    </Suspense>
   );
 }

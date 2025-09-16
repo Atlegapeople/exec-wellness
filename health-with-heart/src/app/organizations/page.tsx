@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import Image from 'next/image';
 import {
   Card,
@@ -65,7 +66,7 @@ import {
 } from 'lucide-react';
 import { ButtonLoading, PageLoading } from '@/components/ui/loading';
 import ProtectedRoute from '@/components/ProtectedRoute';
-import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
+
 import { toast } from 'sonner';
 
 interface Organization {
@@ -98,6 +99,7 @@ interface PaginationInfo {
 
 function OrganizationsPageContent() {
   const router = useRouter();
+  const handleBreadcrumbBack = useBreadcrumbBack('/dashboard');
   const [organizations, setOrganizations] = useState<Organization[]>([]);
   const [pagination, setPagination] = useState<PaginationInfo>({
     page: 1,
@@ -399,6 +401,19 @@ function OrganizationsPageContent() {
     // <ProtectedRoute>
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
+        {/* Back Button */}
+        <div className='mb-6 flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={handleBreadcrumbBack}
+            className='flex items-center space-x-2 hover-lift'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
+
         {/* Header */}
         <div className='flex items-center justify-between mb-6'>
           <div>

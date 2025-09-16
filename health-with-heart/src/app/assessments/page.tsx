@@ -216,6 +216,8 @@ function AssessmentsPageContent() {
   };
 
   const handleEditAssessment = async () => {
+
+    console.log('handleEditAssessment called with formData:', formData);
     if (!selectedAssessment) return;
 
     try {
