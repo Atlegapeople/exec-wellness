@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -16,6 +17,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -67,6 +69,7 @@ import {
   X,
   ArrowLeft,
   ExternalLink,
+  AlertCircle,
 } from 'lucide-react';
 import { PageLoading } from '@/components/ui/loading';
 
@@ -109,6 +112,7 @@ interface PaginationInfo {
 function LocationsPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const handleBreadcrumbBack = useBreadcrumbBack('/dashboard');
 
   // Get filter parameters from URL
   const siteFilter = searchParams.get('site');
@@ -356,180 +360,144 @@ function LocationsPageContent() {
 
   if (loading) {
     return (
+      // <ProtectedRoute>
       <DashboardLayout>
-        <div className='flex items-center justify-center min-h-[600px]'>
-          <Loader2 className='h-8 w-8 animate-spin' />
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Locations'
+                subtitle='Fetching Locations data from OHMS database...'
+              />
+            </CardContent>
+          </Card>
         </div>
       </DashboardLayout>
+      // </ProtectedRoute>
     );
   }
-
   return (
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
-        {/* Back Button and Filters */}
-        {(returnUrl || siteFilter) && (
-          <div className='mb-6 flex items-center justify-between'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(returnUrl)}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
-                  Back to Sites
-                </Button>
-              )}
-
-              {siteFilter && siteName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <MapPin className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(siteName)}
-                  </Badge>
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('site');
-                      params.delete('siteName');
-                      router.push(`/locations?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
-                  >
-                    <X className='h-3 w-3' />
-                  </Button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
+        {/* Back Button */}
+        <div className='mb-6 flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={handleBreadcrumbBack}
+            className='flex items-center space-x-2 hover-lift'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
 
         {/* Header */}
-        <div className='flex items-center justify-between mb-6'>
+        <div className='mb-6'>
           <div>
             <h1 className='text-3xl font-bold tracking-tight'>Locations</h1>
             <p className='text-muted-foreground'>
               Manage specific locations within sites
             </p>
           </div>
+        </div>
 
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
-            <DialogTrigger asChild>
-              <Button className='hover-lift'>
-                <Plus className='h-4 w-4 mr-2' />
-                Add Location
-              </Button>
-            </DialogTrigger>
-            <DialogContent className='max-w-2xl'>
-              <DialogHeader>
-                <DialogTitle>Create New Location</DialogTitle>
-                <DialogDescription>
-                  Add a new location to the system
-                </DialogDescription>
-              </DialogHeader>
+        {/* Stats Cards */}
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Total Locations
+              </CardTitle>
+              <MapPin className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>{pagination.total}</div>
+              <p className='text-xs text-muted-foreground'>Active locations</p>
+            </CardContent>
+          </Card>
 
-              <div className='grid grid-cols-1 gap-4 py-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='name'>Location Name</Label>
-                  <Input
-                    id='name'
-                    value={formData.name || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, name: e.target.value })
-                    }
-                    placeholder='Enter location name'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='site_id'>Site</Label>
-                  <Select
-                    value={formData.site_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, site_id: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select site' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='none'>No Site</SelectItem>
-                      {sites.map(site => (
-                        <SelectItem key={site.id} value={site.id}>
-                          {site.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='address'>Address</Label>
-                  <Textarea
-                    id='address'
-                    value={formData.address || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, address: e.target.value })
-                    }
-                    placeholder='Enter location address'
-                    rows={3}
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager'>Manager</Label>
-                  <Select
-                    value={formData.manager || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, manager: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select manager' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='none'>No Manager</SelectItem>
-                      {managers.map(manager => (
-                        <SelectItem key={manager.id} value={manager.id}>
-                          {manager.manager_name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>Sites</CardTitle>
+              <Building2 className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {new Set(locations.map(l => l.site_id).filter(Boolean)).size}
               </div>
+              <p className='text-xs text-muted-foreground'>
+                Sites with locations
+              </p>
+            </CardContent>
+          </Card>
 
-              <div className='flex justify-end gap-2'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Managed Locations
+              </CardTitle>
+              <UserCheck className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {locations.filter(l => l.manager).length}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                With assigned managers
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>Addresses</CardTitle>
+              <MapPin className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {locations.filter(l => l.address && l.address.trim()).length}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                Locations with addresses
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Search */}
+        <Card className='glass-effect my-6'>
+          <CardContent className='p-4'>
+            <div className='flex items-center gap-4'>
+              <div className='flex-1 relative'>
+                <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                <Input
+                  type='text'
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder='Search by location name or address...'
+                  className='pl-9'
+                  onKeyPress={e => e.key === 'Enter' && handleSearch()}
+                />
+              </div>
+              <Button onClick={handleSearch} className='hover-lift'>
+                Search
+              </Button>
+              {searchTerm && (
                 <Button
                   variant='outline'
                   onClick={() => {
-                    setIsCreateDialogOpen(false);
-                    setFormData({});
+                    setSearchTerm('');
+                    fetchLocations(1, '');
                   }}
+                  className='hover-lift'
                 >
-                  Cancel
+                  Clear
                 </Button>
-                <Button onClick={handleCreateLocation} disabled={submitting}>
-                  {submitting && (
-                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
-                  )}
-                  Create Location
-                </Button>
-              </div>
-            </DialogContent>
-          </Dialog>
-        </div>
+              )}
+            </div>
+          </CardContent>
+        </Card>
 
         <div className='locations-container flex gap-1 min-h-[600px]'>
           {/* Left Panel - Locations Table */}
@@ -537,123 +505,36 @@ function LocationsPageContent() {
             className='space-y-4'
             style={{ width: selectedLocation ? `${leftPanelWidth}%` : '100%' }}
           >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Total Locations
-                  </CardTitle>
-                  <MapPin className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>{pagination.total}</div>
-                  <p className='text-xs text-muted-foreground'>
-                    Active locations
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Sites</CardTitle>
-                  <Building2 className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {
-                      new Set(locations.map(l => l.site_id).filter(Boolean))
-                        .size
-                    }
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Sites with locations
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Managed Locations
-                  </CardTitle>
-                  <UserCheck className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {locations.filter(l => l.manager).length}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    With assigned managers
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Addresses
-                  </CardTitle>
-                  <MapPin className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {
-                      locations.filter(l => l.address && l.address.trim())
-                        .length
-                    }
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Locations with addresses
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-4'>
-                  <div className='flex-1 relative'>
-                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                    <Input
-                      type='text'
-                      value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      placeholder='Search by location name or address...'
-                      className='pl-9'
-                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
-                    />
-                  </div>
-                  <Button onClick={handleSearch} className='hover-lift'>
-                    Search
-                  </Button>
-                  {searchTerm && (
-                    <Button
-                      variant='outline'
-                      onClick={() => {
-                        setSearchTerm('');
-                        fetchLocations(1, '');
-                      }}
-                      className='hover-lift'
-                    >
-                      Clear
-                    </Button>
-                  )}
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Locations Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl'>
-                  <MapPin className='h-6 w-6' />
-                  Locations ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Location records and site information
-                </CardDescription>
+                <div className='flex items-center justify-between'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl text-primary'>
+                      <MapPin className='h-6 w-6' />
+                      Locations ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Location records and site information
+                    </CardDescription>
+                  </div>
+                  <Dialog
+                    open={isCreateDialogOpen}
+                    onOpenChange={setIsCreateDialogOpen}
+                  >
+                    <DialogTrigger asChild>
+                      <Button
+                        className={`hover-lift ${selectedLocation ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                        size={selectedLocation ? 'icon' : 'default'}
+                      >
+                        <Plus
+                          className={`h-4 w-4 ${selectedLocation ? '' : 'mr-2'}`}
+                        />
+                        {!selectedLocation && 'Add Location'}
+                      </Button>
+                    </DialogTrigger>
+                  </Dialog>
+                </div>
               </CardHeader>
               <CardContent>
                 {locations.length === 0 ? (
@@ -669,7 +550,7 @@ function LocationsPageContent() {
                     </p>
                   </div>
                 ) : (
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[530px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -730,6 +611,7 @@ function LocationsPageContent() {
                                 </span>
                               )}
                             </TableCell>
+                            .
                             <TableCell>
                               <div className='flex items-center gap-2'>
                                 <span className='text-sm text-muted-foreground'>
@@ -757,7 +639,7 @@ function LocationsPageContent() {
                                     handleDeleteLocation(location.id);
                                   }}
                                 >
-                                  <Trash2 className='h-4 w-4' />
+                                  <Trash2 className='h-4 w-4 text-red-500' />
                                 </Button>
                               </div>
                             </TableCell>
@@ -881,7 +763,10 @@ function LocationsPageContent() {
                       </CardTitle>
                       <CardDescription className='flex items-center gap-2'>
                         {selectedLocation.site_name && (
-                          <Badge variant='secondary' className='bg-blue-800'>
+                          <Badge
+                            variant='secondary'
+                            className='bg-blue-100 text-blue-800'
+                          >
                             {selectedLocation.site_name}
                           </Badge>
                         )}
@@ -909,14 +794,27 @@ function LocationsPageContent() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedLocation(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={e => {
+                          e.stopPropagation();
+                          handleDeleteLocation(selectedLocation.id);
+                        }}
+                        className='hover-lift'
+                      >
+                        <Trash2 className='h-4 w-4 text-red-500' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedLocation(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -1160,38 +1058,169 @@ function LocationsPageContent() {
           </DialogContent>
         </Dialog>
 
+        {/* Create Location Dialog */}
+        <Dialog open={isCreateDialogOpen} onOpenChange={setIsCreateDialogOpen}>
+          <DialogContent className='max-w-2xl'>
+            <DialogHeader>
+              <DialogTitle>Create New Location</DialogTitle>
+              <DialogDescription>
+                Add a new location to the system
+              </DialogDescription>
+            </DialogHeader>
+
+            <div className='grid grid-cols-1 gap-4 py-4'>
+              <div className='space-y-2'>
+                <Label htmlFor='name'>Location Name</Label>
+                <Input
+                  id='name'
+                  value={formData.name || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
+                  placeholder='Enter location name'
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='site_id'>Site</Label>
+                <Select
+                  value={formData.site_id || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, site_id: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select site' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='none'>No Site</SelectItem>
+                    {sites.map(site => (
+                      <SelectItem key={site.id} value={site.id}>
+                        {site.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='address'>Address</Label>
+                <Textarea
+                  id='address'
+                  value={formData.address || ''}
+                  onChange={e =>
+                    setFormData({ ...formData, address: e.target.value })
+                  }
+                  placeholder='Enter location address'
+                  rows={3}
+                />
+              </div>
+
+              <div className='space-y-2'>
+                <Label htmlFor='manager'>Manager</Label>
+                <Select
+                  value={formData.manager || ''}
+                  onValueChange={value =>
+                    setFormData({ ...formData, manager: value })
+                  }
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder='Select manager' />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value='none'>No Manager</SelectItem>
+                    {managers.map(manager => (
+                      <SelectItem key={manager.id} value={manager.id}>
+                        {manager.manager_name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+
+            <div className='flex justify-end gap-2'>
+              <Button
+                variant='outline'
+                onClick={() => {
+                  setIsCreateDialogOpen(false);
+                  setFormData({});
+                }}
+              >
+                Cancel
+              </Button>
+              <Button onClick={handleCreateLocation} disabled={submitting}>
+                {submitting && (
+                  <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                )}
+                Create Location
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
+
         {/* Delete Confirmation Dialog */}
-        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Delete Location</AlertDialogTitle>
-              <AlertDialogDescription>
+        <Dialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <AlertCircle className='h-5 w-5 text-destructive' />
+                Delete Location
+              </DialogTitle>
+              <DialogDescription>
                 Are you sure you want to delete this location? This action
                 cannot be undone.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction onClick={confirmDeleteLocation}>
-                Delete
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setDeleteDialogOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={confirmDeleteLocation}
+                disabled={submitting}
+              >
+                {submitting ? (
+                  <>
+                    <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Location
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
     </DashboardLayout>
   );
 }
 
-export default function LocationsPage() {
+export default function LifestylePage() {
   return (
-    // <ProtectedRoute>
-    <DashboardLayout>
-      <div className='p-6'>
-        <h1 className='text-2xl font-bold'>Locations</h1>
-        <p className='text-muted-foreground'>Specific locations within sites</p>
-      </div>
-    </DashboardLayout>
-    // </ProtectedRoute>
+    <Suspense
+      fallback={
+        <div className='min-h-screen bg-background flex items-center justify-center'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Initializing Locations'
+                subtitle='Setting up location in a specific site...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      }
+    >
+      <LocationsPageContent />
+    </Suspense>
   );
 }

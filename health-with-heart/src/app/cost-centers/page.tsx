@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useBreadcrumbBack } from '@/hooks/useBreadcrumbBack';
 import {
   Card,
   CardContent,
@@ -16,6 +17,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -41,16 +43,6 @@ import DashboardLayout from '@/components/DashboardLayout';
 import ProtectedRoute from '@/components/ProtectedRoute';
 import { toast } from 'sonner';
 import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from '@/components/ui/alert-dialog';
-import {
   Search,
   Plus,
   Edit,
@@ -71,6 +63,7 @@ import {
   ExternalLink,
   MapPin,
   UserCheck,
+  AlertCircle,
 } from 'lucide-react';
 import { PageLoading } from '@/components/ui/loading';
 
@@ -115,6 +108,7 @@ interface PaginationInfo {
 function CostCentersPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const handleBreadcrumbBack = useBreadcrumbBack('/dashboard');
 
   // Get filter parameters from URL
   const organizationFilter = searchParams.get('organization');
@@ -368,61 +362,38 @@ function CostCentersPageContent() {
 
   if (loading) {
     return (
+      // <ProtectedRoute>
       <DashboardLayout>
-        <div className='flex items-center justify-center min-h-[600px]'>
-          <Loader2 className='h-8 w-8 animate-spin' />
+        <div className='px-8 sm:px-12 lg:px-16 xl:px-24 py-8'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Loading Cost Centers'
+                subtitle='Fetching cost centers data from OHMS database...'
+              />
+            </CardContent>
+          </Card>
         </div>
       </DashboardLayout>
+      // </ProtectedRoute>
     );
   }
 
   return (
     <DashboardLayout>
       <div className='pl-8 pr-[5vw] sm:pl-12 sm:pr-[6vw] lg:pl-16 lg:pr-[8vw] xl:pl-24 xl:pr-[10vw] py-6 max-w-full overflow-hidden'>
-        {/* Back Button and Filters */}
-        {(returnUrl || organizationFilter) && (
-          <div className='mb-6 flex items-center justify-between'>
-            <div className='flex items-center gap-4'>
-              {returnUrl && (
-                <Button
-                  variant='outline'
-                  onClick={() => router.push(returnUrl)}
-                  className='flex items-center gap-2'
-                >
-                  <ArrowLeft className='h-4 w-4' />
-                  Back to Organizations
-                </Button>
-              )}
-
-              {organizationFilter && organizationName && (
-                <div className='flex items-center gap-2'>
-                  <Badge
-                    variant='outline'
-                    className='bg-blue-50 text-blue-700 border-blue-200'
-                  >
-                    <Building2 className='h-3 w-3 mr-1' />
-                    Filtered by: {decodeURIComponent(organizationName)}
-                  </Badge>
-                  <Button
-                    variant='ghost'
-                    size='sm'
-                    onClick={() => {
-                      const params = new URLSearchParams(
-                        searchParams.toString()
-                      );
-                      params.delete('organization');
-                      params.delete('organizationName');
-                      router.push(`/cost-centers?${params.toString()}`);
-                    }}
-                    className='h-6 w-6 p-0'
-                  >
-                    <X className='h-3 w-3' />
-                  </Button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
+        {/* Back Button */}
+        <div className='mb-6 flex justify-start'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={handleBreadcrumbBack}
+            className='flex items-center space-x-2 hover-lift'
+          >
+            <ArrowLeft className='h-4 w-4' />
+            <span>Back</span>
+          </Button>
+        </div>
 
         {/* Header */}
         <div className='flex items-center justify-between mb-6'>
@@ -432,220 +403,113 @@ function CostCentersPageContent() {
               Manage cost centers and workplace information
             </p>
           </div>
+        </div>
+        {/* Stats Cards */}
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Total Cost Centers
+              </CardTitle>
+              <DollarSign className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>{pagination.total}</div>
+              <p className='text-xs text-muted-foreground'>
+                Active cost centers
+              </p>
+            </CardContent>
+          </Card>
 
-          <Dialog
-            open={isCreateDialogOpen}
-            onOpenChange={setIsCreateDialogOpen}
-          >
-            <DialogTrigger asChild>
-              <Button className='hover-lift'>
-                <Plus className='h-4 w-4 mr-2' />
-                Add Cost Center
-              </Button>
-            </DialogTrigger>
-            <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
-              <DialogHeader>
-                <DialogTitle>Create New Cost Center</DialogTitle>
-                <DialogDescription>
-                  Add a new cost center to the system
-                </DialogDescription>
-              </DialogHeader>
-
-              <div className='grid grid-cols-2 gap-4 py-4'>
-                <div className='space-y-2'>
-                  <Label htmlFor='department'>Department</Label>
-                  <Input
-                    id='department'
-                    value={formData.department || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, department: e.target.value })
-                    }
-                    placeholder='Enter department name'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='cost_center'>Cost Center</Label>
-                  <Input
-                    id='cost_center'
-                    value={formData.cost_center || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, cost_center: e.target.value })
-                    }
-                    placeholder='Enter cost center code'
-                  />
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='organisation_id'>Organization</Label>
-                  <Select
-                    value={formData.organisation_id || ''}
-                    onValueChange={value =>
-                      setFormData({ ...formData, organisation_id: value })
-                    }
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder='Select organization' />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value='none'>No Organization</SelectItem>
-                      {organizations.map(org => (
-                        <SelectItem key={org.id} value={org.id}>
-                          {org.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='workplace_address'>Workplace Address</Label>
-                  <Textarea
-                    id='workplace_address'
-                    value={formData.workplace_address || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        workplace_address: e.target.value,
-                      })
-                    }
-                    placeholder='Enter workplace address'
-                    rows={2}
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_name'>Manager Name</Label>
-                  <Input
-                    id='manager_name'
-                    value={formData.manager_name || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, manager_name: e.target.value })
-                    }
-                    placeholder='Enter manager name'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_email'>Manager Email</Label>
-                  <Input
-                    id='manager_email'
-                    type='email'
-                    value={formData.manager_email || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        manager_email: e.target.value,
-                      })
-                    }
-                    placeholder='Enter manager email'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='manager_contact_number'>
-                    Manager Contact
-                  </Label>
-                  <Input
-                    id='manager_contact_number'
-                    value={formData.manager_contact_number || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        manager_contact_number: e.target.value,
-                      })
-                    }
-                    placeholder='Enter manager contact number'
-                  />
-                </div>
-
-                <div className='space-y-2'>
-                  <Label htmlFor='person_responsible_for_account'>
-                    Account Responsible Person
-                  </Label>
-                  <Input
-                    id='person_responsible_for_account'
-                    value={formData.person_responsible_for_account || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        person_responsible_for_account: e.target.value,
-                      })
-                    }
-                    placeholder='Enter responsible person name'
-                  />
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='person_responsible_for_account_email'>
-                    Account Responsible Email
-                  </Label>
-                  <Input
-                    id='person_responsible_for_account_email'
-                    type='email'
-                    value={formData.person_responsible_for_account_email || ''}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        person_responsible_for_account_email: e.target.value,
-                      })
-                    }
-                    placeholder='Enter responsible person email'
-                  />
-                </div>
-
-                <div className='flex items-center space-x-2 col-span-2'>
-                  <input
-                    type='checkbox'
-                    id='manager_responsible'
-                    checked={formData.manager_responsible || false}
-                    onChange={e =>
-                      setFormData({
-                        ...formData,
-                        manager_responsible: e.target.checked,
-                      })
-                    }
-                    className='rounded border border-input'
-                  />
-                  <Label htmlFor='manager_responsible'>
-                    Manager is responsible for this cost center
-                  </Label>
-                </div>
-
-                <div className='space-y-2 col-span-2'>
-                  <Label htmlFor='notes_text'>Notes</Label>
-                  <Textarea
-                    id='notes_text'
-                    value={formData.notes_text || ''}
-                    onChange={e =>
-                      setFormData({ ...formData, notes_text: e.target.value })
-                    }
-                    placeholder='Enter any additional notes'
-                    rows={3}
-                  />
-                </div>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>Departments</CardTitle>
+              <Building2 className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {
+                  new Set(costCenters.map(cc => cc.department).filter(Boolean))
+                    .size
+                }
               </div>
+              <p className='text-xs text-muted-foreground'>
+                Unique departments
+              </p>
+            </CardContent>
+          </Card>
 
-              <div className='flex justify-end gap-2'>
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Managed Centers
+              </CardTitle>
+              <UserCheck className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {costCenters.filter(cc => cc.manager_responsible).length}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                With assigned managers
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
+              <CardTitle className='text-sm font-medium'>
+                Total Employees
+              </CardTitle>
+              <Users className='h-4 w-4 text-muted-foreground' />
+            </CardHeader>
+            <CardContent>
+              <div className='text-2xl font-bold'>
+                {costCenters.reduce(
+                  (sum, cc) => sum + (cc.employee_count || 0),
+                  0
+                )}
+              </div>
+              <p className='text-xs text-muted-foreground'>
+                Across all centers
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Search */}
+        <Card className='glass-effect mb-6 mt-6'>
+          <CardContent className='p-4'>
+            <div className='flex items-center gap-4'>
+              <div className='flex-1 relative'>
+                <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
+                <Input
+                  type='text'
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder='Search by department, cost center, manager...'
+                  className='pl-9'
+                  onKeyPress={e => e.key === 'Enter' && handleSearch()}
+                />
+              </div>
+              <Button onClick={handleSearch} className='hover-lift'>
+                Search
+              </Button>
+              {searchTerm && (
                 <Button
                   variant='outline'
                   onClick={() => {
-                    setIsCreateDialogOpen(false);
-                    setFormData({});
+                    setSearchTerm('');
+                    fetchCostCenters(1, '');
                   }}
+                  className='hover-lift'
                 >
-                  Cancel
+                  Clear
                 </Button>
-                <Button onClick={handleCreateCostCenter} disabled={submitting}>
-                  {submitting && (
-                    <Loader2 className='h-4 w-4 mr-2 animate-spin' />
-                  )}
-                  Create Cost Center
-                </Button>
-              </div>
-            </DialogContent>
-          </Dialog>
-        </div>
+              )}
+            </div>
+          </CardContent>
+        </Card>
 
         <div className='cost-centers-container flex gap-1 min-h-[600px]'>
           {/* Left Panel - Cost Centers Table */}
@@ -655,126 +519,264 @@ function CostCentersPageContent() {
               width: selectedCostCenter ? `${leftPanelWidth}%` : '100%',
             }}
           >
-            {/* Stats Cards */}
-            <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Total Cost Centers
-                  </CardTitle>
-                  <DollarSign className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>{pagination.total}</div>
-                  <p className='text-xs text-muted-foreground'>
-                    Active cost centers
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Departments
-                  </CardTitle>
-                  <Building2 className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {
-                      new Set(
-                        costCenters.map(cc => cc.department).filter(Boolean)
-                      ).size
-                    }
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Unique departments
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Managed Centers
-                  </CardTitle>
-                  <UserCheck className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {costCenters.filter(cc => cc.manager_responsible).length}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    With assigned managers
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>
-                    Total Employees
-                  </CardTitle>
-                  <Users className='h-4 w-4 text-muted-foreground' />
-                </CardHeader>
-                <CardContent>
-                  <div className='text-2xl font-bold'>
-                    {costCenters.reduce(
-                      (sum, cc) => sum + (cc.employee_count || 0),
-                      0
-                    )}
-                  </div>
-                  <p className='text-xs text-muted-foreground'>
-                    Across all centers
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Search */}
-            <Card className='glass-effect'>
-              <CardContent className='p-4'>
-                <div className='flex items-center gap-4'>
-                  <div className='flex-1 relative'>
-                    <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground' />
-                    <Input
-                      type='text'
-                      value={searchTerm}
-                      onChange={e => setSearchTerm(e.target.value)}
-                      placeholder='Search by department, cost center, manager...'
-                      className='pl-9'
-                      onKeyPress={e => e.key === 'Enter' && handleSearch()}
-                    />
-                  </div>
-                  <Button onClick={handleSearch} className='hover-lift'>
-                    Search
-                  </Button>
-                  {searchTerm && (
-                    <Button
-                      variant='outline'
-                      onClick={() => {
-                        setSearchTerm('');
-                        fetchCostCenters(1, '');
-                      }}
-                      className='hover-lift'
-                    >
-                      Clear
-                    </Button>
-                  )}
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Cost Centers Table */}
             <Card className='hover-lift'>
               <CardHeader>
-                <CardTitle className='flex items-center gap-2 text-2xl'>
-                  <DollarSign className='h-6 w-6' />
-                  Cost Centers ({pagination.total})
-                </CardTitle>
-                <CardDescription>
-                  Cost center records and department information
-                </CardDescription>
+                <div className='flex items-center justify-between'>
+                  <div>
+                    <CardTitle className='flex items-center gap-2 text-2xl text-primary'>
+                      <DollarSign className='h-6 w-6' />
+                      Cost Centers ({pagination.total})
+                    </CardTitle>
+                    <CardDescription>
+                      Cost center records and department information
+                    </CardDescription>
+                  </div>
+                  <Dialog
+                    open={isCreateDialogOpen}
+                    onOpenChange={setIsCreateDialogOpen}
+                  >
+                    <DialogTrigger asChild>
+                      <Button
+                        className={`hover-lift ${selectedCostCenter ? 'rounded-full w-10 h-10 p-0' : ''}`}
+                      >
+                        <Plus
+                          className={`h-4 w-4 ${selectedCostCenter ? '' : 'mr-2'}`}
+                        />
+                        {!selectedCostCenter && 'Add Cost Center'}
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className='max-w-4xl max-h-[80vh] overflow-y-auto'>
+                      <DialogHeader>
+                        <DialogTitle>Create New Cost Center</DialogTitle>
+                        <DialogDescription>
+                          Add a new cost center to the system
+                        </DialogDescription>
+                      </DialogHeader>
+
+                      <div className='grid grid-cols-2 gap-4 py-4'>
+                        <div className='space-y-2'>
+                          <Label htmlFor='department'>Department</Label>
+                          <Input
+                            id='department'
+                            value={formData.department || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                department: e.target.value,
+                              })
+                            }
+                            placeholder='Enter department name'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='cost_center'>Cost Center</Label>
+                          <Input
+                            id='cost_center'
+                            value={formData.cost_center || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                cost_center: e.target.value,
+                              })
+                            }
+                            placeholder='Enter cost center code'
+                          />
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='organisation_id'>Organization</Label>
+                          <Select
+                            value={formData.organisation_id || ''}
+                            onValueChange={value =>
+                              setFormData({
+                                ...formData,
+                                organisation_id: value,
+                              })
+                            }
+                          >
+                            <SelectTrigger>
+                              <SelectValue placeholder='Select organization' />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value='none'>
+                                No Organization
+                              </SelectItem>
+                              {organizations.map(org => (
+                                <SelectItem key={org.id} value={org.id}>
+                                  {org.name}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='workplace_address'>
+                            Workplace Address
+                          </Label>
+                          <Textarea
+                            id='workplace_address'
+                            value={formData.workplace_address || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                workplace_address: e.target.value,
+                              })
+                            }
+                            placeholder='Enter workplace address'
+                            rows={2}
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_name'>Manager Name</Label>
+                          <Input
+                            id='manager_name'
+                            value={formData.manager_name || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_name: e.target.value,
+                              })
+                            }
+                            placeholder='Enter manager name'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_email'>Manager Email</Label>
+                          <Input
+                            id='manager_email'
+                            type='email'
+                            value={formData.manager_email || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_email: e.target.value,
+                              })
+                            }
+                            placeholder='Enter manager email'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='manager_contact_number'>
+                            Manager Contact
+                          </Label>
+                          <Input
+                            id='manager_contact_number'
+                            value={formData.manager_contact_number || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_contact_number: e.target.value,
+                              })
+                            }
+                            placeholder='Enter manager contact number'
+                          />
+                        </div>
+
+                        <div className='space-y-2'>
+                          <Label htmlFor='person_responsible_for_account'>
+                            Account Responsible Person
+                          </Label>
+                          <Input
+                            id='person_responsible_for_account'
+                            value={
+                              formData.person_responsible_for_account || ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                person_responsible_for_account: e.target.value,
+                              })
+                            }
+                            placeholder='Enter responsible person name'
+                          />
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='person_responsible_for_account_email'>
+                            Account Responsible Email
+                          </Label>
+                          <Input
+                            id='person_responsible_for_account_email'
+                            type='email'
+                            value={
+                              formData.person_responsible_for_account_email ||
+                              ''
+                            }
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                person_responsible_for_account_email:
+                                  e.target.value,
+                              })
+                            }
+                            placeholder='Enter responsible person email'
+                          />
+                        </div>
+
+                        <div className='flex items-center space-x-2 col-span-2'>
+                          <input
+                            type='checkbox'
+                            id='manager_responsible'
+                            checked={formData.manager_responsible || false}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                manager_responsible: e.target.checked,
+                              })
+                            }
+                            className='rounded border border-input'
+                          />
+                          <Label htmlFor='manager_responsible'>
+                            Manager is responsible for this cost center
+                          </Label>
+                        </div>
+
+                        <div className='space-y-2 col-span-2'>
+                          <Label htmlFor='notes_text'>Notes</Label>
+                          <Textarea
+                            id='notes_text'
+                            value={formData.notes_text || ''}
+                            onChange={e =>
+                              setFormData({
+                                ...formData,
+                                notes_text: e.target.value,
+                              })
+                            }
+                            placeholder='Enter any additional notes'
+                            rows={3}
+                          />
+                        </div>
+                      </div>
+
+                      <div className='flex justify-end gap-2'>
+                        <Button
+                          variant='outline'
+                          onClick={() => {
+                            setIsCreateDialogOpen(false);
+                            setFormData({});
+                          }}
+                        >
+                          Cancel
+                        </Button>
+                        <Button
+                          onClick={handleCreateCostCenter}
+                          disabled={submitting}
+                        >
+                          {submitting && (
+                            <Loader2 className='h-4 w-4 mr-2 animate-spin' />
+                          )}
+                          Create Cost Center
+                        </Button>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </div>
               </CardHeader>
               <CardContent>
                 {costCenters.length === 0 ? (
@@ -790,7 +792,7 @@ function CostCentersPageContent() {
                     </p>
                   </div>
                 ) : (
-                  <div className='max-h-[500px] overflow-auto scrollbar-premium'>
+                  <div className='max-h-[650px] overflow-auto scrollbar-premium'>
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -904,7 +906,7 @@ function CostCentersPageContent() {
                                     handleDeleteCostCenter(costCenter.id);
                                   }}
                                 >
-                                  <Trash2 className='h-4 w-4' />
+                                  <Trash2 className='h-4 w-4 text-red-500' />
                                 </Button>
                               </div>
                             </TableCell>
@@ -1057,14 +1059,34 @@ function CostCentersPageContent() {
                         </span>
                       </div>
                     </div>
-                    <Button
-                      variant='ghost'
-                      size='sm'
-                      onClick={() => setSelectedCostCenter(null)}
-                      className='hover-lift'
-                    >
-                      <X className='h-4 w-4' />
-                    </Button>
+                    <div className='flex items-center gap-2'>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => openEditDialog(selectedCostCenter)}
+                        className='hover-lift'
+                      >
+                        <Edit className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() =>
+                          handleDeleteCostCenter(selectedCostCenter.id)
+                        }
+                        className='hover-lift text-red-500 hover:text-red-500'
+                      >
+                        <Trash2 className='h-4 w-4' />
+                      </Button>
+                      <Button
+                        variant='ghost'
+                        size='sm'
+                        onClick={() => setSelectedCostCenter(null)}
+                        className='hover-lift'
+                      >
+                        <X className='h-4 w-4' />
+                      </Button>
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className='space-y-6 max-h-[600px] overflow-y-auto scrollbar-premium'>
@@ -1539,24 +1561,49 @@ function CostCentersPageContent() {
           </DialogContent>
         </Dialog>
 
-        {/* Delete Confirmation Dialog */}
-        <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Delete Cost Center</AlertDialogTitle>
-              <AlertDialogDescription>
+        {/* Delete Confirmation Modal */}
+        <Dialog
+          open={deleteDialogOpen}
+          onOpenChange={open => {
+            if (!open) setDeleteDialogOpen(false);
+            else setDeleteDialogOpen(true);
+          }}
+        >
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle className='flex items-center gap-2'>
+                <AlertCircle className='h-5 w-5 text-destructive' />
+                Delete Cost Center
+              </DialogTitle>
+              <DialogDescription>
                 Are you sure you want to delete this cost center? This action
                 cannot be undone.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction onClick={confirmDeleteCostCenter}>
-                Delete
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant='outline'
+                onClick={() => setDeleteDialogOpen(false)}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant='destructive'
+                onClick={confirmDeleteCostCenter}
+                disabled={submitting}
+              >
+                {submitting ? (
+                  <Loader2 className='mr-2 h-4 w-4 animate-spin' />
+                ) : (
+                  <>
+                    <Trash2 className='mr-2 h-4 w-4' />
+                    Delete Cost Center
+                  </>
+                )}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </div>
     </DashboardLayout>
   );
@@ -1564,15 +1611,21 @@ function CostCentersPageContent() {
 
 export default function CostCentersPage() {
   return (
-    // <ProtectedRoute>
-    <DashboardLayout>
-      <div className='p-6'>
-        <h1 className='text-2xl font-bold'>Cost Centers</h1>
-        <p className='text-muted-foreground'>
-          Manage departmental cost centers
-        </p>
-      </div>
-    </DashboardLayout>
-    // </ProtectedRoute>
+    <Suspense
+      fallback={
+        <div className='min-h-screen bg-background flex items-center justify-center'>
+          <Card>
+            <CardContent>
+              <PageLoading
+                text='Initializing Lifestyle'
+                subtitle='Setting up lifestyle assessment management system...'
+              />
+            </CardContent>
+          </Card>
+        </div>
+      }
+    >
+      <CostCentersPageContent />
+    </Suspense>
   );
 }
