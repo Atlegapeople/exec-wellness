@@ -143,6 +143,7 @@ interface PaginationInfo {
 function MedicalHistoryPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const breadcrumbBack = useBreadcrumbBack('/dashboard');
 
   // Get filter parameters from URL
   const employeeFilter = searchParams.get('employee');
@@ -564,7 +565,7 @@ function MedicalHistoryPageContent() {
         <div className='mb-6'>
           <Button
             variant='outline'
-            onClick={() => router.back()}
+            onClick={breadcrumbBack}
             className='flex items-center gap-2 hover-lift'
           >
             <ArrowLeft className='h-4 w-4' />
@@ -889,7 +890,9 @@ function MedicalHistoryPageContent() {
                         {Array.from(
                           {
                             length: Math.min(
-                              selectedMedicalHistory && leftPanelWidth < 50 ? 3 : 5,
+                              selectedMedicalHistory && leftPanelWidth < 50
+                                ? 3
+                                : 5,
                               pagination.totalPages
                             ),
                           },
