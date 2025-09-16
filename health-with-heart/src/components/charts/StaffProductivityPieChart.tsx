@@ -29,7 +29,6 @@ export function StaffProductivityPieChart({ totalSigned, totalUnsigned, overallS
     <Card 
       className="flex flex-col"
       style={{ 
-        background: "#FFFFFF", 
         border: "1px solid #D7D9D9", 
         borderRadius: "12px", 
         padding: "20px", 

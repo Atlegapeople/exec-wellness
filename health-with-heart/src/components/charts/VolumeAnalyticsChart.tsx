@@ -1,19 +1,26 @@
 'use client';
 
 import React from 'react';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  LineChart, 
-  Line, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip, 
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
   ResponsiveContainer,
   BarChart,
   Bar,
-  ComposedChart
+  ComposedChart,
 } from 'recharts';
 import { BarChart3, Zap, Target, Clock, CheckCircle2 } from 'lucide-react';
 import { CHART_SERIES_COLORS } from '@/lib/chartColors';
@@ -43,200 +50,306 @@ interface VolumeAnalyticsChartProps {
   data: VolumeData;
 }
 
-export default function VolumeAnalyticsChart({ data }: VolumeAnalyticsChartProps) {
+export default function VolumeAnalyticsChart({
+  data,
+}: VolumeAnalyticsChartProps) {
   // Format data for Recharts
   const volumeData = data.volume.map(v => ({
-    month: new Date(v.month).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }),
+    month: new Date(v.month).toLocaleDateString('en-US', {
+      month: 'short',
+      year: 'numeric',
+    }),
     total_appointments: v.total_appointments,
     completed_reports: v.completed_reports,
     signed_reports: v.signed_reports,
     completion_rate: v.completion_rate,
-    avg_turnaround_days: v.avg_turnaround_days
+    avg_turnaround_days: v.avg_turnaround_days,
   }));
 
   const dailyData = data.dailyPattern.map(d => ({
     hour: `${d.hour}:00`,
-    appointment_count: d.appointment_count
+    appointment_count: d.appointment_count,
   }));
 
   const weeklyData = data.weeklyPattern.map(w => ({
     day_name: w.day_name,
-    appointment_count: w.appointment_count
+    appointment_count: w.appointment_count,
   }));
 
   return (
-    <div className="space-y-6" style={{ gap: "24px" }}>
+    <div className='space-y-6' style={{ gap: '24px' }}>
       {/* Monthly Volume */}
-      <Card 
-        style={{ 
-          background: "#FFFFFF", 
-          border: "1px solid #D7D9D9", 
-          borderRadius: "12px", 
-          padding: "20px", 
-          boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+      <Card
+        style={{
+          border: '1px solid #D7D9D9',
+          borderRadius: '12px',
+          padding: '20px',
+          boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
         }}
       >
-        <CardHeader className="p-0 mb-4">
-          <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+        <CardHeader className='p-0 mb-4'>
+          <CardTitle
+            style={{
+              fontSize: '14px',
+              fontWeight: '600',
+              color: '#111827',
+              marginBottom: '4px',
+            }}
+          >
             Monthly Appointment Volume & Completion Rates
           </CardTitle>
-          <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
-            Monthly trends showing appointment volumes and completion rates over time
+          <CardDescription
+            style={{ fontSize: '13px', color: '#586D6A', marginBottom: '16px' }}
+          >
+            Monthly trends showing appointment volumes and completion rates over
+            time
           </CardDescription>
         </CardHeader>
-        <CardContent className="p-0">
-          <ResponsiveContainer width="100%" height={350}>
-            <ComposedChart data={volumeData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
-              <XAxis 
-                dataKey="month" 
-                tickLine={false} 
-                axisLine={false} 
-                tick={{ fill: "#586D6A" }}
+        <CardContent className='p-0'>
+          <ResponsiveContainer width='100%' height={350}>
+            <ComposedChart
+              data={volumeData}
+              margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+            >
+              <CartesianGrid
+                strokeDasharray='3 3'
+                vertical={false}
+                stroke='#F2EFED'
               />
-              <YAxis 
-                yAxisId="left"
-                tickLine={false} 
-                axisLine={false} 
-                tick={{ fill: "#586D6A" }}
+              <XAxis
+                dataKey='month'
+                tickLine={false}
+                axisLine={false}
+                tick={{ fill: '#586D6A' }}
               />
-              <YAxis 
-                yAxisId="right"
-                orientation="right"
-                tickLine={false} 
-                axisLine={false} 
-                tick={{ fill: "#586D6A" }}
+              <YAxis
+                yAxisId='left'
+                tickLine={false}
+                axisLine={false}
+                tick={{ fill: '#586D6A' }}
+              />
+              <YAxis
+                yAxisId='right'
+                orientation='right'
+                tickLine={false}
+                axisLine={false}
+                tick={{ fill: '#586D6A' }}
                 domain={[0, 100]}
               />
               <Tooltip
                 contentStyle={{
-                  backgroundColor: '#FFFFFF',
                   border: '1px solid #D7D9D9',
                   borderRadius: '8px',
                 }}
                 formatter={(value, name) => [
                   name === 'completion_rate' ? `${value}%` : value,
-                  name === 'total_appointments' ? 'Total Appointments' :
-                  name === 'completed_reports' ? 'Completed Reports' : 'Completion Rate'
+                  name === 'total_appointments'
+                    ? 'Total Appointments'
+                    : name === 'completed_reports'
+                      ? 'Completed Reports'
+                      : 'Completion Rate',
                 ]}
-                labelFormatter={(label) => `Month: ${label}`}
+                labelFormatter={label => `Month: ${label}`}
               />
-              <Bar yAxisId="left" dataKey="total_appointments" fill="#178089" radius={[2, 2, 0, 0]} />
-              <Bar yAxisId="left" dataKey="completed_reports" fill="#B4CABC" radius={[2, 2, 0, 0]} />
-              <Line 
-                yAxisId="right"
-                type="monotone" 
-                dataKey="completion_rate" 
-                stroke="#EAB75C" 
+              <Bar
+                yAxisId='left'
+                dataKey='total_appointments'
+                fill='#178089'
+                radius={[2, 2, 0, 0]}
+              />
+              <Bar
+                yAxisId='left'
+                dataKey='completed_reports'
+                fill='#B4CABC'
+                radius={[2, 2, 0, 0]}
+              />
+              <Line
+                yAxisId='right'
+                type='monotone'
+                dataKey='completion_rate'
+                stroke='#EAB75C'
                 strokeWidth={3}
-                dot={{ fill: "#EAB75C", strokeWidth: 2, r: 4 }}
+                dot={{ fill: '#EAB75C', strokeWidth: 2, r: 4 }}
               />
             </ComposedChart>
           </ResponsiveContainer>
         </CardContent>
-        <CardFooter className="p-0 mt-4">
-          <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
-            Monthly appointment trends and performance <BarChart3 className="h-4 w-4" />
+        <CardFooter className='p-0 mt-4'>
+          <div
+            className='flex gap-2 items-center'
+            style={{ color: '#374151', fontSize: '12px' }}
+          >
+            Monthly appointment trends and performance{' '}
+            <BarChart3 className='h-4 w-4' />
           </div>
         </CardFooter>
       </Card>
 
       {/* Daily and Weekly Patterns */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" style={{ gap: "24px" }}>
+      <div
+        className='grid grid-cols-1 lg:grid-cols-2 gap-6'
+        style={{ gap: '24px' }}
+      >
         {/* Daily Pattern */}
-        <Card 
-          style={{ 
-            background: "#FFFFFF", 
-            border: "1px solid #D7D9D9", 
-            borderRadius: "12px", 
-            padding: "20px", 
-            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+        <Card
+          style={{
+            // background: "#FFFFFF",
+            border: '1px solid #D7D9D9',
+            borderRadius: '12px',
+            padding: '20px',
+            boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
           }}
         >
-          <CardHeader className="p-0 mb-4">
-            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+          <CardHeader className='p-0 mb-4'>
+            <CardTitle
+              style={{
+                fontSize: '14px',
+                fontWeight: '600',
+                color: '#111827',
+                marginBottom: '4px',
+              }}
+            >
               Daily Appointment Patterns
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
+            <CardDescription
+              style={{
+                fontSize: '13px',
+                color: '#586D6A',
+                marginBottom: '16px',
+              }}
+            >
               Appointment distribution by hour of day (current month)
             </CardDescription>
           </CardHeader>
-          <CardContent className="p-0">
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={dailyData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
-                <XAxis 
-                  dataKey="hour" 
-                  tickLine={false} 
-                  axisLine={false} 
-                  tick={{ fill: "#586D6A" }}
+          <CardContent className='p-0'>
+            <ResponsiveContainer width='100%' height={300}>
+              <BarChart
+                data={dailyData}
+                margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+              >
+                <CartesianGrid
+                  strokeDasharray='3 3'
+                  vertical={false}
+                  stroke='#F2EFED'
                 />
-                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#586D6A" }} />
+                <XAxis
+                  dataKey='hour'
+                  tickLine={false}
+                  axisLine={false}
+                  tick={{ fill: '#586D6A' }}
+                />
+                <YAxis
+                  tickLine={false}
+                  axisLine={false}
+                  tick={{ fill: '#586D6A' }}
+                />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: '#FFFFFF',
                     border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
-                  formatter={(value, name) => [`${value} appointments`, 'Count']}
-                  labelFormatter={(label) => `Hour: ${label}`}
+                  formatter={(value, name) => [
+                    `${value} appointments`,
+                    'Count',
+                  ]}
+                  labelFormatter={label => `Hour: ${label}`}
                 />
-                <Bar dataKey="appointment_count" fill="#B6D9CE" radius={[4, 4, 0, 0]} />
+                <Bar
+                  dataKey='appointment_count'
+                  fill='#B6D9CE'
+                  radius={[4, 4, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
-          <CardFooter className="p-0 mt-4">
-            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
-              Hourly appointment patterns <Clock className="h-4 w-4" />
+          <CardFooter className='p-0 mt-4'>
+            <div
+              className='flex gap-2 items-center'
+              style={{ color: '#374151', fontSize: '12px' }}
+            >
+              Hourly appointment patterns <Clock className='h-4 w-4' />
             </div>
           </CardFooter>
         </Card>
 
         {/* Weekly Pattern */}
-        <Card 
-          style={{ 
-            background: "#FFFFFF", 
-            border: "1px solid #D7D9D9", 
-            borderRadius: "12px", 
-            padding: "20px", 
-            boxShadow: "0 1px 2px rgba(0,0,0,0.05)" 
+        <Card
+          style={{
+            // background: '#FFFFFF',
+            border: '1px solid #D7D9D9',
+            borderRadius: '12px',
+            padding: '20px',
+            boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
           }}
         >
-          <CardHeader className="p-0 mb-4">
-            <CardTitle style={{ fontSize: "14px", fontWeight: "600", color: "#111827", marginBottom: "4px" }}>
+          <CardHeader className='p-0 mb-4'>
+            <CardTitle
+              style={{
+                fontSize: '14px',
+                fontWeight: '600',
+                color: '#111827',
+                marginBottom: '4px',
+              }}
+            >
               Weekly Appointment Distribution
             </CardTitle>
-            <CardDescription style={{ fontSize: "13px", color: "#586D6A", marginBottom: "16px" }}>
+            <CardDescription
+              style={{
+                fontSize: '13px',
+                color: '#586D6A',
+                marginBottom: '16px',
+              }}
+            >
               Appointment volume across days of the week
             </CardDescription>
           </CardHeader>
-          <CardContent className="p-0">
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={weeklyData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F2EFED" />
-                <XAxis 
-                  dataKey="day_name" 
-                  tickLine={false} 
-                  axisLine={false} 
-                  tick={{ fill: "#586D6A" }}
+          <CardContent className='p-0'>
+            <ResponsiveContainer width='100%' height={300}>
+              <BarChart
+                data={weeklyData}
+                margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+              >
+                <CartesianGrid
+                  strokeDasharray='3 3'
+                  vertical={false}
+                  stroke='#F2EFED'
                 />
-                <YAxis tickLine={false} axisLine={false} tick={{ fill: "#586D6A" }} />
+                <XAxis
+                  dataKey='day_name'
+                  tickLine={false}
+                  axisLine={false}
+                  tick={{ fill: '#586D6A' }}
+                />
+                <YAxis
+                  tickLine={false}
+                  axisLine={false}
+                  tick={{ fill: '#586D6A' }}
+                />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: '#FFFFFF',
                     border: '1px solid #D7D9D9',
                     borderRadius: '8px',
                   }}
-                  formatter={(value, name) => [`${value} appointments`, 'Count']}
-                  labelFormatter={(label) => `Day: ${label}`}
+                  formatter={(value, name) => [
+                    `${value} appointments`,
+                    'Count',
+                  ]}
+                  labelFormatter={label => `Day: ${label}`}
                 />
-                <Bar dataKey="appointment_count" fill="#EAB75C" radius={[4, 4, 0, 0]} />
+                <Bar
+                  dataKey='appointment_count'
+                  fill='#EAB75C'
+                  radius={[4, 4, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
-          <CardFooter className="p-0 mt-4">
-            <div className="flex gap-2 items-center" style={{ color: "#374151", fontSize: "12px" }}>
-              Weekly appointment distribution <Target className="h-4 w-4" />
+          <CardFooter className='p-0 mt-4'>
+            <div
+              className='flex gap-2 items-center'
+              style={{ color: '#374151', fontSize: '12px' }}
+            >
+              Weekly appointment distribution <Target className='h-4 w-4' />
             </div>
           </CardFooter>
         </Card>
